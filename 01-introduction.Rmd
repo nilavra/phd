@@ -1,6 +1,6 @@
 # Introduction
 
-## Search as Learning: Overview {#sec:intro_overview}
+## Searching as Learning: Overview {#sec:intro_overview}
 
 Searching for information is a fundamental human activity. In the modern
 world, it is frequently conducted by users interacting with online
@@ -59,7 +59,7 @@ actuality, they only play a small role: the **retrieval** part of
 :::
 
 In recent years, the IIR research community has been actively promoting
-the **Search as Learning** (SAL) research direction. This fast growing
+the **Search as Learning** (SAL) research direction. This fast-growing
 community of researchers propose that search environments should be
 augmented and reconfigured to foster learning, sensemaking, and
 long-term knowledge-gain. Various workshops and seminars have been
