@@ -8,7 +8,7 @@
 # E.g. you can build both pdf and html with 'thesis_formats <- c("pdf", "bs4")'
 # thesis_formats <- c("bs4", "gitbook", "pdf");
 knit: (function(input, ...) {
-    thesis_formats <- c("gitbook", "pdf");
+    thesis_formats <- c("gitbook");
     
     source("scripts_and_filters/knit-functions.R");
     knit_thesis(input, thesis_formats, ...)

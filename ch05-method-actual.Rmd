@@ -1,0 +1,551 @@
+# Method: Proposed Longitudinal Study
+
+We propose to conduct a remote longitudinal study to investigate the
+research questions and hypotheses discussed in Section
+[\[sec:rq\]](#sec:rq){reference-type="ref" reference="sec:rq"}. The
+study will primarily be exploratory in nature. The following sections
+discuss the apparatus, procedure, measurement of variables, plans for
+data analysis, anticipated limitations, and the expected timeline for
+the data collection and dissertation defence.
+
+## Study Design {#sec:method_exp_design}
+
+![ Final project description, setting up the search tasks throughout the
+semester.
+](figs/final_project_description.pdf){#fig_final_project_description
+width="\\linewidth"}
+
+The remote longitudinal study is planned to span over the course of a
+typical university semester (approximately 16 weeks). Participants will
+be recruited from a course (study site) at the University of Texas at
+Austin (UT Austin). The ideal study site will be a final-project based
+course, where the final-project report (artefact, Section
+[\[sec:bg_learn_artefact\]](#sec:bg_learn_artefact){reference-type="ref"
+reference="sec:bg_learn_artefact"}) will be built over time throughout
+the semester, with periodic check-ins. Completing the final project will
+require searching and navigating information online, finding relevant
+sources for a set of assigned or self-chosen topics, and weaving a
+narration around the information found in the selected sources.
+
+The study design was informed by running a pilot study during Summer
+2021 semester, in partnership with two courses at UT Austin School of
+Information: *Information in Cyberspace*, and *Academic Success in the
+Digital University*. More details of the pilot study are presented in
+Appendix [\[ch:pilot_study\]](#ch:pilot_study){reference-type="ref"
+reference="ch:pilot_study"}. The final project overview from the
+*Information in Cyberspace* course is presented in Figure
+[1.1](#fig_final_project_description){reference-type="ref"
+reference="fig_final_project_description"}. The words or phrases
+enclosed in \[\[square brackets\]\] will be appropriately modified when
+the study site is finalised. We aim to recruit upwards of 30
+participants. Since the study is exploratory in nature, and is intended
+to inform future confirmatory studies, we are unable to conduct a power
+analysis.
+
+## Apparatus
+
+### YASBIL Browsing Logger
+
+The YASBIL browsing logger [@bhattacharya2021yasbil] will be utilised
+for this study. YASBIL (Yet Another Search Behaviour and Interaction
+Logger) is a two-component logging solution for ethically recording a
+user's browsing activity for Interactive IR user studies. It was
+developed by the author in early Spring 2021, and was employed in the
+pilot study for data collection and testing. YASBIL comprises a Firefox
+browser extension and a WordPress plugin. The browser extension logs the
+browsing activity in the participants' machines. The WordPress plugin
+collects the logged data into the researcher's data server. YASBIL
+captures participant's behavioural data, such as webpage visits, time
+spent on pages, identification of popular search engines and their
+SERPs, identifying rank of result clicked on SERPs, tracking mouse
+clicks and scrolls, and the order and sequences of this events. The
+logging works on any webpage, without the need to own or have knowledge
+about the HTML structure of the webpage. To protect the privacy of
+participants, the logger software can be switched on or off, and
+participants will be instructed (and encouraged) to switch on the logger
+only when they are performing search activities related to the
+experiment. YASBIL also offers ethical data transparency and security
+towards participants, by enabling them to view and obtain copies of the
+logged data, as well as securely upload the data to the researcher's
+server over an HTTPS connection. Although developed using the
+cross-browser WebExtension API [@url_cross_browser_extn], YASBIL
+currently works in the Firefox Web Browser. So participants will be
+instructed to install Firefox and YASBIL on their machines if they
+choose to participate in the study.
+
+### Online Concept Mapping Software
+
+As discussed in Section
+[\[sec:bg_concept_maps\]](#sec:bg_concept_maps){reference-type="ref"
+reference="sec:bg_concept_maps"}, concept maps are an appropriate way to
+understand and assess sense-making and change in knowledge structures.
+In this study, participants will produce concept maps whenever they are
+working on an information search task. An appropriate browser based
+concept-mapping tool will be used for this purpose. The "Sero!"
+platform[^1] is a promising choice for this purpose. Sero! "uses concept
+mapping for knowledge and learning assessment" and "facilitates
+big-picture comprehension and gives educators deeper insight into
+students' thinking".
+
+## Search Task Template {#sec:method_search_task_template}
+
+![ Template for each search task, adapted from the *Information in
+Cyberspace* course at the UT Austin School of Information. Phrases
+enclosed in \[\[square brackets\]\] will be modified for individual
+tasks. ](figs/search_task_template.pdf){#fig_search_task_template
+width="\\linewidth"}
+
+Participants of the longitudinal study will be performing several search
+tasks throughout the duration of the semester (Section
+[1.4](#sec:method_procedure){reference-type="ref"
+reference="sec:method_procedure"}). The search tasks mentioned will
+generally be on the topics of the material taught in the course. The
+generic template for each search task is presented in Figure
+[1.2](#fig_search_task_template){reference-type="ref"
+reference="fig_search_task_template"}, and is adapted from the
+*Information in Cyberspace* course. The words or phrases enclosed in
+\[\[square brackets\]\] will be appropriately modified when the study
+site is finalized.
+
+## Procedure {#sec:method_procedure}
+
+![ Overview of the study procedure.
+](figs/study_procedure.pdf){#fig_study_procedure width="\\linewidth"}
+
+The longitudinal study will consist of six data collection stages, as
+outlined in Figure [1.3](#fig_study_procedure){reference-type="ref"
+reference="fig_study_procedure"}. Each of these stages are described
+below.
+
+### SUR1: Entry Survey {#sec:method_sur1}
+
+Participants will be recruited for the study via the entry survey
+\[SUR1\]. The description of the study and the link to the survey will
+be posted in the Learning Management System used for the course
+(Canvas). The entry survey will serve dual purpose: recruit
+participants, as well as capture their individual-differences, or
+moderating variables. This is done so as to avoid having to capture all
+of this information in the initial session (SES1), which would have made
+the SES1 session overly long. Details of the data captured in SUR1 are
+described below, with references to sections in the Appendix, where the
+full-text of the questionnaire can be found.
+
+1.  **Consent Form:** The first page of the entry survey will be the
+    online consent form for participating in the study. Participants
+    will be able to proceed once they provide consent.
+
+2.  **Demographics:** (Appendix
+    [\[app:demographics\]](#app:demographics){reference-type="ref"
+    reference="app:demographics"}) demographic information
+
+3.  **Search and IT proficiency:** (Appendix
+    [\[app:search_it_proficiency\]](#app:search_it_proficiency){reference-type="ref"
+    reference="app:search_it_proficiency"}) Captures previous search
+    experience, and proficiency in navigating the web. Some items are
+    adapted from the *Digital Health Literacy Instrument (DHLI)* by
+    [@van2017development], and the *Search Self-Efficacy scale (SSE)* by
+    [@brennan2016factor].
+
+4.  **Course Load and other engagements:** (Appendix
+    [\[app:course_load\]](#app:course_load){reference-type="ref"
+    reference="app:course_load"}) To determine how busy the participant
+    will be in the semester, and how much time they plan to allocate for
+    the course with which the study is integrated. This will help to
+    establish the learner's context.
+
+5.  **Note-taking Strategies:** (Appendix
+    [\[app:note_taking_strategies\]](#app:note_taking_strategies){reference-type="ref"
+    reference="app:note_taking_strategies"}) Captures styles and
+    strategies used by participants to take notes. Adapted from
+    *Listening and Note Taking Survey* by
+    [@note_taking_survey_penn_state], and *Note Taking Strategies
+    Inventory* by [@note_taking_strategies_umass].
+
+6.  **Motivation:** (Appendix
+    [\[app:imi\]](#app:imi){reference-type="ref" reference="app:imi"})
+    Adapted from the *Intrinsic Motivation Inventory (IMI)* by
+    [@ryan1982control], which is a multidimensional measurement device
+    intended to assess participants' subjective experience related to a
+    target activity (the assignments for the course they are taking).
+    The instrument assesses participants' interest/enjoyment, perceived
+    competence, effort/importance, pressure/tension, perceived choice,
+    and value/usefulness, while performing a given activity, thus
+    yielding six subscale scores. Three items in the value/usefulness
+    subscale will be completed with contextual information when the
+    study site is finalized. The pressure/tension and the perceived
+    choice components will not be included in the entry survey, and will
+    be present in the mid-term \[SUR2\] and exit \[SUS3\] surveys.
+
+7.  **Self-regulation:** (Appendix
+    [\[app:srq\]](#app:srq){reference-type="ref" reference="app:srq"})
+    Adapted from the *Self-Regulation Questionnaire (SRQ)* by
+    [@brown1999self], which assess seven self-regulatory processes
+    through self-report: receiving relevant information, evaluating the
+    information and comparing it to norms, triggering change, searching
+    for options, formulating a plan, implementing the plan, and
+    assessing the plan's effectiveness (Section
+    [\[sec:bg_learn_self_regulation\]](#sec:bg_learn_self_regulation){reference-type="ref"
+    reference="sec:bg_learn_self_regulation"}).
+
+8.  **Metacognition:** (Appendix
+    [\[app:mai\]](#app:mai){reference-type="ref" reference="app:mai"})
+    Adapted from the *Metacognivite Awareness Inventory (MAI)*,
+    originally proposed by [@schraw1994assessing] as a 52-item true /
+    false questionnaire, and later revised by [@terlecki2018call] to use
+    five-point Likert scales. The instrument measures two components of
+    cognition through self-report: knowledge about cognition, and
+    regulation of cognition (Section
+    [\[sec:bg_learn_metacognition\]](#sec:bg_learn_metacognition){reference-type="ref"
+    reference="sec:bg_learn_metacognition"}).
+
+After completing the entry survey, participants will be asked to prepare
+for the initial synchronous session, \[SES1\], by *(i)* installing
+Firefox web browser and the YASBIL extension on their machines, *(ii)*
+get a quick introduction to concept maps (by watching a short video),
+and *(iii)* familiarising themselves with the *Sero!* learning platform
+(for creating and assessing concept maps). This is a one-time step. If a
+participant cannot find the time for this step, they will be informed
+that an extra 5-10 minutes will be taken in the beginning of SES1 to
+complete this step.
+
+The entry survey and the software installation is expected to take about
+10-15 minutes to complete. Participants will be compensated with USD 5
+for their time for completing this step. The survey will be floated in
+the first week of the semester, and will be closed after sufficient a
+number participants have been recruited.
+
+### SES1: Initial Session
+
+![ Prompts for the search task repeated in Initial Session \[SES1\] and
+Final Session \[SES3\].
+](figs/search_task_repeated.pdf){#fig_search_task_repeated
+width="\\linewidth"}
+
+For the Initial Session, (aka SES1), participants will be invited to a
+remote study session over a video-conferencing platform (Zoom). The
+purpose of the the pre-test will be to establish baseline search
+behaviour and domain knowledge of the participants. The study will
+consist of a training task, two actual search tasks, one website
+reliability assessment, and a memory span test. Each of these components
+are described below.
+
+1.  **Training Task:** Participants will perform a training task to
+    familiarize themselves with how to operate the YASBIL browser
+    extension to log their browsing activity, and how to create concept
+    maps while they are searching. The training task is expected to take
+    around 5-10 minutes.
+
+2.  **Two Search Tasks:** Participants will perform two search tasks, of
+    which one will be repeated in the final session \[SES3\] at the end
+    of the semester, and the other will not be repeated. This will help
+    to answer research question RQ2 (Section
+    [\[sec:rq\]](#sec:rq){reference-type="ref" reference="sec:rq"}). The
+    order of the two search tasks will be randomized. The generic format
+    the search tasks are described in Figure
+    [1.2](#fig_search_task_template){reference-type="ref"
+    reference="fig_search_task_template"}.
+
+    The repeated search task will be on the topic of financial literacy,
+    a topic that may be considered to be universally important to
+    college students, and part of lifelong learning. The SES1 and SES3
+    versions of the repeated task are presented in Figure
+    [1.4](#fig_search_task_repeated){reference-type="ref"
+    reference="fig_search_task_repeated"}. The non-repeated search task
+    will be on topics that will be taught in the course serving as the
+    site for the study. Examples of search tasks used in the Pilot Study
+    are in Appendix
+    [\[ch:pilot_study\]](#ch:pilot_study){reference-type="ref"
+    reference="ch:pilot_study"}. Each search task is expected to take
+    around 20 minutes.
+
+    To answer RQ3 (effect of externalisation and articulation in
+    learning), each participant will perform one of the search tasks
+    while thinking aloud (concurrent think-aloud, or *CTA condition*),
+    and perform the other one in silence (*silent condition*). The
+    choice of the task for each of the conditions will be randomized and
+    balanced.
+
+    Each search task will begin with a pre-task questionnaire (Appendix
+    [\[app:pre_task_qsn\]](#app:pre_task_qsn){reference-type="ref"
+    reference="app:pre_task_qsn"}), which asks participants to self-rate
+    their pre-search topic knowledge and interest. Then participants
+    will turn on the YASBIL browsing logger and start searching. The
+    deliverable for each search task will be a written summary
+    (artefact), and a concept map. After participants are satisfied with
+    the quality of the deliverable, they will turn off YASBIL browsing
+    logger, and proceed to the post-task questionnaire. The post-task
+    questionnaire (Appendix
+    [\[app:post_task_qsn\]](#app:post_task_qsn){reference-type="ref"
+    reference="app:post_task_qsn"}) asks participants to self-rate their
+    post-search topic knowledge, search experience, interest and
+    motivation, and overall perceptions. The pre-task and post-task
+    questionnaires are adapted from
+    [@collins2016assessing; @crescenzi2020adaptation]. After the two
+    search tasks are completed, participants will answer questions about
+    whether they preferred the think-aloud condition or the silent
+    condition, and why (Appendix
+    [\[app:cta_v\_silent\]](#app:cta_v_silent){reference-type="ref"
+    reference="app:cta_v_silent"}).
+
+3.  **Webpage Comparison Assessment:** To assess participants'
+    (mis)information evaluation capabilities, they will perform a
+    Website Comparison assessment created by the
+    [@sheg2021webpage_comparison]. This task asks students to compare
+    two websites and select the one that they would use to begin
+    research on a topic. One of the pages is a Wikipedia article. The
+    other has ".edu" in its URL, but the page reveals that the content
+    is a student-written blog post created as part of a university
+    course. Many students have been taught that Wikipedia pages are
+    completely unreliable and should be avoided. Many have also been
+    taught that sites with a .edu domain are trustworthy. This
+    assessment gauges their ability to think in more nuanced ways about
+    these kinds of sites. The website reliability assessment is expected
+    to take 10 minutes.
+
+4.  **Memory Span Test:** The session will conclude with the assessment
+    of the participant's working memory capacity (WMC) using a memory
+    span task [@francis2004coglab]. Memory span assessment is kept in
+    the synchronous session because it is a timed task, and needs to
+    conducted in a controlled (experimenter observed) condition.
+
+Participants will be asked to share their screen for the whole duration
+of the session. Their screens and audio will be recorded for the entire
+duration. They may choose to turn off their video. The total time for
+SES1 is expected to not exceed 1.5 hours (90 minutes). Participants will
+be compensated with USD 25 for this session.
+
+### SES2: Longitudinal Tracking
+
+The longitudinal tracking \[SES2\] will be conducted asynchronously over
+the duration of the semester, to understand the change (or lack thereof)
+of participants' search behaviour and knowledge gain over time. Whenever
+participants will work on different parts of their final project
+research paper (which will be termed as SES2a, SES2b, ...etc.), as
+described in Figure
+ [1.1](#fig_final_project_description){reference-type="ref"
+reference="fig_final_project_description"}, they will use Firefox web
+browser, and will log their browsing activity using the YASBIL browsing
+logger. To protect their privacy, participants will be instructed to
+turn YASBIL on only when they are searching for information related to
+the course. In addition to the submitted working-draft of their research
+paper, participants will submit a cumulative concept map with each
+document submission. The cumulative concept map will help to track
+participants' evolution of knowledge about the final project topic(s)
+over the course of the semester. Participants will receive reminder
+emails before the deadline of each assignment, to remind them to use
+Firefox, turn YASBIL on, and incrementally update the concept map.
+Participants will receive USD 5 per each assignment for which they log
+data, up to a maximum of USD 20 for four assignments.
+
+### SUR2: Mid-Term Survey {#sec:method_sur2}
+
+The mid-term survey \[SUR2\] will take place around the mid point of the
+semester (Week 8-9). The purpose is to track whether any of the
+participants' individual difference measures (e.g. motivation,
+metacognition, course load etc.) changed during the first half of the
+semester. This survey will essentially be a replica of the Entry Survey
+\[SUR1\] (Section [1.4.1](#sec:method_sur1){reference-type="ref"
+reference="sec:method_sur1"}), with two modifications. First, the
+consent form and the demographics sections will be absent. Second,
+Intrinsic Motivation Inventory (IMI) will include the 'pressure/tension'
+and the 'perceived choice' subscales, as these scales are more
+meaningful after an activity has taken place [@ryan1982control]. The IMI
+will also be reworded to reflect the mid-point of the semester (Appendix
+[\[app:midterm_survey\]](#app:midterm_survey){reference-type="ref"
+reference="app:midterm_survey"}). Participants will be compensated with
+USD 5 for their time for completing this step.
+
+### SES3: Final Session
+
+The Final Session \[SES3\] will be similar in structure to the Initial
+Session (SES1), and will take place at the end of the semester, after
+all the course related tasks are completed by the student. The purpose
+of the session is to record the 'evolved' search behaviour, and final
+knowledge state. Participants will perform two search tasks, one website
+reliability assessment task, and take the memory span test once again.
+In the end, there will be a short semi-structured interview.
+
+Of the two search tasks, the topic of one will be repeated from SES1
+(financial literacy, Figure
+[1.4](#fig_search_task_repeated){reference-type="ref"
+reference="fig_search_task_repeated"}), while the topic of the other
+will come from the course material. In both search tasks, participants
+will be given the option of ***not searching*** if they feel confident
+enough to answer the search task questions from their prior knowledge.
+The deliverables for each search-task will be a written summary
+(artefact) and a concept map (Figure
+[1.2](#fig_search_task_template){reference-type="ref"
+reference="fig_search_task_template"}).
+
+Following the two search task, participants will perform another website
+comparison/reliability task created by the
+[@sheg2021webpage_comparison], which will assess their evolved
+information evaluation skills. Then they will retake the memory span
+test [@francis2004coglab].
+
+A semi-structured interview will be conducted in the end, where
+participants will reflect on their overall searching and learning
+experience. Certain 'interesting' handpicked sessions from their
+submitted logs may be identified and questions about them can also be
+asked to participants. A list of the interview questions asked in the
+Pilot Study (Appendix
+[\[ch:pilot_study\]](#ch:pilot_study){reference-type="ref"
+reference="ch:pilot_study"}) are presented in Appendix
+[\[app:post_task_interview\]](#app:post_task_interview){reference-type="ref"
+reference="app:post_task_interview"}, which can be reused.
+
+Similar to SES1, participants will be asked to share their screen for
+the whole duration of the session, except for the interview, whence they
+can stop screen-sharing. Their screens and audio will be recorded for
+the same. They may choose to turn off their video. The total time for
+SES3 is expected to not exceed 1.5 hours (90 minutes). Participants will
+be compensated with USD 25 for this session, and will be asked to
+complete the Exit Survey \[SUR3\] as soon as convenient.
+
+### SUR3: Exit Survey
+
+The exit survey \[SUR3\] will take place after the Final Session
+\[SES3\]. The purpose is to record the final state of the participants'
+individual difference measures (e.g. motivation, metacognition, course
+load etc.), and whether they changed during the second half of the
+semester. This survey will essentially be a replica of the mid-term
+survey \[SUR2\] (Section [1.4.4](#sec:method_sur2){reference-type="ref"
+reference="sec:method_sur2"}), with the Intrinsic Motivation Inventory
+(IMI) reworded to reflect the end-point of the semester (Appendix
+[\[app:final_survey\]](#app:final_survey){reference-type="ref"
+reference="app:final_survey"}). Participants will be compensated with
+USD 5 for their time for completing this step. If participants do not
+take the survey within three days (say) after appearing for SES3, they
+will be sent reminder emails.
+
+Participants will be compensated with a bonus payment of USD 15, if they
+complete all the parts of the study without missing any component.
+
+## Measurement and Variables
+
+### Independent / Explanatory: Search Interaction and Process Measures
+
+The independent variables will be the search process behavioural
+measures. Information searching behaviour will be operationalized using
+a battery of search process measures, based on the three-stages of user
+interaction discussed in Section
+[\[sec:bg_search_3\_stage\]](#sec:bg_search_3_stage){reference-type="ref"
+reference="sec:bg_search_3_stage"}. These measures include query
+reformulation types and measures
+(Table [\[tab_res_Q\_QRT_txnmy\]](#tab_res_Q_QRT_txnmy){reference-type="ref"
+reference="tab_res_Q_QRT_txnmy"}), SERP examination measures, content
+page examination measures, and overall search session measures (Table
+[\[tab_search_behaviours\]](#tab_search_behaviours){reference-type="ref"
+reference="tab_search_behaviours"}). A non-exhaustive list of such
+search process measures which have been used in prior literature is
+presented in Appendices
+[\[sec:app_vars_qry\]](#sec:app_vars_qry){reference-type="ref"
+reference="sec:app_vars_qry"} through
+[\[sec:app_vars_overall_search\]](#sec:app_vars_overall_search){reference-type="ref"
+reference="sec:app_vars_overall_search"}.
+
+### Dependant / Outcome: Learning Measures
+
+Learning (knowledge gain) will constitute the dependant variables, or
+factor variables, when dichotomized via median split. Learning outcomes
+are planned to be assessed by: *(i)* analysis of concept maps
+[@halttunen2005assessing] (Appendix
+[\[sec:app_vars_concept_maps\]](#sec:app_vars_concept_maps){reference-type="ref"
+reference="sec:app_vars_concept_maps"}); *(ii)* analysis of written
+summaries / knowledge artefacts [@wilson2013comparison]; and *(iii)*
+instructor awarded scores and grades received by students in the course,
+which will be obtained via FERPA release. Time, resources and
+feasibility permitting, other possible ways of assessing learning can be
+by using *(iv)* Online Research and Comprehension Assessment (ORCA)
+[@leu2015new Table 3], [@kanniainen2021assessing Appendix A]; and *(v)*
+information-use from websites in written artefacts
+[@vakkari2019modeling; @vakkari2020usefulness].
+
+### Moderator: Individual Differences
+
+The variables of individual differences that are hypothesized to
+moderate learning are *(i)* motivation, scored using Intrinsic
+Motivation Inventory (IMI) [@ryan1982control]; *(ii)* self-regulation,
+scored using Self-Regulation Questionnaire (SRQ) [@brown1999self];
+*(iii)* metacognition, scored using revised Metacognivite Awareness
+Inventory (MAI) [@schraw1994assessing; @terlecki2018call] *(iv)* memory
+span, scored using memory span test [@francis2004coglab]; *(v)* search
+proficiency, scored using Digital Health Literacy Instrument (DHLI)
+[@van2017development] and Search Self-Efficacy Scale (SSE)
+[@brennan2016factor]; *(vi)* information evaluation capabilities
+(mastery / emerging / beginner), scored according to rubrics provided by
+[@sheg2021webpage_comparison] assessments (an example grading rubric is
+present in Appendix
+[\[sec:app_pilot_ses3\]](#sec:app_pilot_ses3){reference-type="ref"
+reference="sec:app_pilot_ses3"} Task 3).
+
+## Data Analysis Plans
+
+Exploratory data analysis (such as time series plotting) and descriptive
+statistics will be used to identify if changes in search process /
+interaction measures can be visually observed over the course of time.
+Inferential statistics (difference between groups) will be employed to
+test if there are significant differences in the learning measures
+between student groups who learn more versus learn less. Pattern Mining
+and clustering approaches may also be used to identify clusters or
+patterns in the search process (time-series) data, and see if these
+clusters correlate with high and low learning. An example of measuring
+such changes in variables can be found in [@133 Section 3.2]. Advanced
+search interactions such as parallel browsing behaviour (multi-tabbed
+and multi-windowed browsing) may also be analysed
+[@huang2010parallel; @labaj2012modeling].
+
+## Anticipated Limitations
+
+There are foreseeable limitations to this proposed longitudinal study.
+First, there may not be enough participants who sign up for the study.
+The remedy for this is choosing a course with a large number of
+students, and using appealing messaging in the recruitment material
+(e.g., an attractive video message was used to recruit participants in
+the Pilot Study[^2]). Second, participants may drop off due to various
+reasons during the study. This can be tackled by regularly communicating
+with the participants, keeping them engaged with affectionate, caring
+and encouraging messaging, and letting them know that their
+participation is valued highly by the researchers. Third, participants
+may not show any changes in their search behaviours, of the changes may
+be random. As one anonymous reviewer put it "the smart kids will show up
+smart and with good search skills and they will leave smart with good
+search skills and they will not change their inherent behavior over the
+time. Similarly, the dumb kids will show up dumb, do whatever keeps them
+dumb and end up dumb." Alternatively, there may be are not changes over
+time, but rather strategies that are consistently followed by students
+who will learn more, and students who will learn less. There is no easy
+fix to this, and if this happens, it will be treated as a finding from
+the study. A possible rescue from this situation would then be to use
+the (semi) qualitative data -- the semi structured interview at the end,
+the concurrent think alouds, and others -- to derive interesting
+findings.
+
+## Proposed Dissertation Timeline
+
+![image](figs/timeline_data_collection.pdf){width="0.9\\linewidth"}
+
+1.  **November 2021:** prepare and submit IRB proposal
+
+2.  **December 2021:** defend proposal, and if changes to the study
+    protocol are suggested by the committee, submit them as an IRB
+    amendment
+
+3.  **January - May 2022:** conduct longitudinal study; a week-by-week
+    schedule is in Table
+    [\[tab_timeline_data_collection\]](#tab_timeline_data_collection){reference-type="ref"
+    reference="tab_timeline_data_collection"}
+
+4.  **Summer and Fall 2022:** two backup semesters for data collection,
+    if something goes wrong in Spring 2022, especially due to COVID-19
+    pandemic situations.
+
+5.  **August 2022 - February 2023:** analyze data and write dissertation
+
+6.  **April 2023:** Dissertation defense
+
+7.  **May 2023:** revise and complete dissertation
+
+[^1]: <https://serolearn.com>
+
+[^2]: <https://youtu.be/RkBUZ4At8Qg>

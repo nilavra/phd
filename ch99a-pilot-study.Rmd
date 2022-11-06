@@ -1,0 +1,249 @@
+# Prior Work: Pilot Study {#ch:pilot_study}
+
+A pilot study was conducted in the Summer of 2021 at the School of
+Information, University of Texas at Austin (Texas iSchool). This was
+mainly a feasibility study to determine the technical logistics and
+participant retention rates. It included SES1, SES2, and SES3 from the
+proposed study procedure (Figure
+[\[fig_study_procedure\]](#fig_study_procedure){reference-type="ref"
+reference="fig_study_procedure"}). There was no recording of individual
+differences via recruitment, mid-term, and final surveys. It also did
+not include submission of concept maps. Eight students from two courses
+at the Texas iSchool -- *Academic Success in the Digital University*
+(ACS), and *Information in Cyberspace* (CYB) -- participated in the
+pilot study. The study ran from start of June 2021 to mid-August 2021.
+There was no participant drop-off. Synchronous sessions (SES1 and SES3)
+were conducted over the Zoom video conferencing platform. Log data was
+captured using the YASBIL browser extension [@bhattacharya2021yasbil].
+All setup and technical logistics worked out properly, without any major
+technological issues. Details of the search task descriptions are
+presented below. Participants were compensated with USD 15 for SES1, 15
+points of extra course credit for longitudinal tracking in SES2, and USD
+15 for SES3.
+
+## SES1: Initial Session
+
+Participants performed a training task to familiarise themselves with
+the YASBIL browser extension. The they performed two search tasks as
+described below. Each search task was followed by measurement of mental
+workload using NASA-TLX.
+
+ \
+**Task 1: Financial Literacy** (Repeated in SES3)
+
+::: displayquote
+Money management and financial literacy are essential life skills, and
+what better time to learn about them than in college? Write a note to
+your future self, about essential money-related advice and skills that
+college students should know and practice.
+
+**What to do:**
+
+-   Find at least 3 unique, good quality online resources that are
+    relevant to this topic
+
+-   Look for resources that help establish connections and develop a
+    narrative
+
+**What to deliver:**
+
+-   Write a summary of the lessons, advice, and/or tips you found across
+    the different resources. This is a note to your future self, so the
+    narrative can be in a format that is most useful and interesting to
+    YOU
+
+-   Paste the links of ALL the resources that you finally selected to
+    develop your narrative, in the second text box, one link per line
+:::
+
+ \
+**Task 2: Social Media during COVID-19** (Topic was part of course
+content in ACS and CYB)
+
+::: displayquote
+"What was the role of Social Media during the COVID-19 pandemic? How did
+it affect people's lives during quarantine and social distancing?"
+Suppose a family member (say your aunt) or a friend asked you these
+question over a phone call, and you want to talk to them on this topic
+for a couple of minutes.
+
+**What to do:**
+
+-   Find at least 3 unique, good quality online resources that are
+    relevant to this topic
+
+-   Look for resources that help establish connections and develop a
+    narrative
+
+**What to deliver:**
+
+-   Write a short summary of the content that you found across the
+    different resources. The length and writing style can be such that
+    you can read it out to your family member/friend over a phone call,
+    without them losing interest.
+
+-   In the summary, briefly mention your thoughts about each resource -
+    do you agree or disagree with the content in the resource? Anything
+    else?
+
+-   Paste the links of ALL the resources that you finally selected to
+    develop your narrative, in the second text box, one link per line
+:::
+
+## SES2: Longitudinal Tracking
+
+The longitudinal tracking session SES2 involved student participants
+submitting log data for two final-project assignments for the ACS
+course, and four final project assignments for the CYB course.
+Participants received reminder emails to log and sync their data a few
+days before each assignment was due. Seven (out of 8) participants
+logged their data and synced it with our data server in a timely
+fashion, without major technical issues. One participant CYB course
+forgot to log their data for the first two assignments, despite the
+email reminder. However, upon following up with them, they remembered to
+log their data for the third and fourth sessions.
+
+## SES3: Final Session {#sec:app_pilot_ses3}
+
+All eight participants from SES1 completed SES3 (no drop off).
+Participants performed two search tasks, and one website reliability
+evaluation task as described below. All three tasks were followed by
+measurement of mental workload using NASA-TLX. At the end of the tasks,
+they underwent a short semi-structured interview to reflect on their
+overall study experience. The interview questions can be found in
+Appendix
+[\[app:post_task_interview\]](#app:post_task_interview){reference-type="ref"
+reference="app:post_task_interview"}.
+
+ \
+**Task 1: Financial Literacy** (Repeated from SES1)
+
+::: displayquote
+At the start of the semester, you wrote a note to your future self,
+about essential money-related advice and skills that college students
+should know and practice.
+
+Here is what you wrote:\
+`[dynamic content showing participants’ previous responses]`
+
+Here are the resources you took help from:\
+`[dynamic content showing participants’ previous responses]`
+
+Now you have a chance to **update or revise the note with more
+information**. You can either choose to write afresh, or copy-paste the
+note from above into the first textbox below and add to it /edit it.
+Feel free to search the web if you need to, after turning YASBIL on. You
+can choose **NOT to search**, as well.
+
+If you do choose to search, please paste the links of ALL the resources
+that you finally selected for updating your note, one link per line, in
+the second textbox. The links can be the same ones you visited earlier,
+or different.
+
+Did you need to search the web for updating the note? Why?
+:::
+
+ \
+**Task 2: HTML CSS** (Topic was part of course content in ACS and CYB)
+
+::: displayquote
+In your course, you studied about websites, HTML, and CSS. Therefore,
+for answering the questions below, **you may choose NOT to search the
+web**, if you feel you can answer the questions reasonably well. If you
+do need to search the web, feel free to do so, after turning on YASBIL.
+
+As you understand these concepts, please explain (with examples if
+necessary)
+
+1.  what is the purpose of HTML?
+
+2.  what is the purpose of CSS?
+
+3.  how do HTML and CSS come together when someone visits a website?
+
+List as many HTML tags as you can, one per line, in the following
+format:\
+`[HTML tag] - [few words explaining the function of the tag]`
+
+List as many CSS properties as you can, one per line, in the following
+format:\
+`[CSS property] - [few words explaining the function of the property]`
+
+Did you need to search the web for this task? Why?
+:::
+
+ \
+**Task 3: Website Reliability Evaluation** (From Stanford History
+Education Group[^1])
+
+::: displayquote
+You are researching children's health and come across this website:
+
+[`https://acpeds.org`](https://acpeds.org){.uri}.
+
+Please decide if this website is a trustworthy source of information on
+children's health. You may use any information on this website, or you
+can open a new tab and do an Internet search if you want. Take about 5
+minutes to complete this task. Turn YASBIL on before proceeding.
+
+Is this website a trustworthy source to learn about children's health?
+Explain your answer, citing evidence from the webpages you used. Be sure
+to provide the URLs to the webpages you cite in the next textbox.
+
+Please paste the URLs to the webpages you used to explain your answer
+above, one per line.
+:::
+
+**Grading Rubric for Task 3 (as provided by SHEG):**
+
+::: displayquote
+This task presents students with the website of the American College of
+Pediatricians (ACPeds.org) and asks them whether it is a trustworthy
+source to learn about children's health. Despite the site's professional
+title and appearance, the American College of Pediatricians is not the
+nation's major professional organization of pediatricians. That
+designation belongs to the similarly named American Academy of
+Pediatrics. The American College of Pediatricians is a conservative
+advocacy organization established in 2002 in response to the American
+Academy of Pediatrics' support of adoption by same-gender couples. The
+American College of Pediatricians website features a mission statement
+that reads, in part, "We recognize the basic father-mother family unit,
+within the context of marriage, to be the optimal setting for childhood
+development." News releases on the site include headlines like,
+"Same-Sex Marriage -- Detrimental to Children" and "Know Your ABCs: The
+Abortion Breast Cancer Link."
+
+ \
+This exercise is an open web search in which students are free to stay
+on the American College of Pediatricians site or leave it to search for
+information about the group. Successful students will look beyond the
+surface features of the site and detect its agenda from its new releases
+or other focus issues. A faster route, however, is to leave the site
+almost immediately to search for reliable information about the true
+agenda of this organization.
+
+ \
+**Mastery:** Student rejects the website as a trustworthy source and
+provides a clear rationale. Student provides reliable supporting
+evidence and cites the source of information.
+
+**Emerging:** Student rejects the website as a trustworthy source and
+provides supporting evidence. However, the response falls short of
+Mastery because: *(i)* Student provides relevant evidence and says where
+the evidence is from, but the explanation is incomplete; *(ii)* Student
+provides a complete explanation that is supported by relevant evidence
+but does not say where the evidence is from.
+
+**Beginning:** Student rejects the source but provides an incoherent,
+irrelevant, or unreasonable explanation; or the student simply accepts
+the source as trustworthy.
+:::
+
+After Task 3, participants participated in a semi-structured interview
+to reflect on their overall searching and learning experience, as well
+as participating in the study. The questions asked in the interview are
+presented in Appendix
+[\[app:post_task_interview\]](#app:post_task_interview){reference-type="ref"
+reference="app:post_task_interview"}.
+
+[^1]: <https://cor.stanford.edu/curriculum/assessments/website-reliability>

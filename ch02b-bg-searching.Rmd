@@ -1,0 +1,924 @@
+# Background: Information Searching {#ch:bg_search}
+
+This second chapter on background literature discusses relevant concepts
+from the disciplines of Information Sciences, and more specifically
+Interaction Information Retrieval. First, we introduce some terminology
+around information behaviour, information need, and information
+relevance. Then we discuss relevant findings various empirical studies,
+from the lens of three-stage interactions in the information search
+process. Then we discuss some overall generic characteristics of
+information search behaviour, and how they are linked to expertise and
+working memory. Next we discuss how learning has been assessed in recent
+search-as-learning studies. We also discuss some limitations of current
+search systems to foster learning, including the lack of sufficient
+number of longitudinal studies. In the last section, we state what
+implications these findings have for shaping the proposed study in this
+dissertation proposal.
+
+## Terminology {#sec:bg_search_terminology}
+
+**Information retrieval** (IR) is the process of obtaining *information
+objects*, that are *relevant* to an *information need*, from a
+collection of those objects (Wikipedia). **Information objects** are
+entities that can potentially convey information. They can take many
+forms, such as documents, webpages, facts, music, spoken words, images,
+videos, artefacts, and other forms of human expression. Areas where
+information retrieval techniques are employed include search engines,
+such as web search, social search, and desktop search; media search, as
+in image, music, video; digital libraries and recommender systems, as
+well as domain specific applications like geographical information
+systems, e-Commerce websites, legal information search, and others.
+
+Multiple perspectives exist around how users interact with information,
+and IR systems. In the **Search Engine application view**, the
+interactions are restricted to the search engine interface. In the
+**Human-computer interaction** (HCI) view, interactions are between a
+person and a system; but the system can go *beyond* supporting only
+retrieval, to supporting more complex tasks. In the **cognitive view of
+IR**, which is the broadest, the interactions for obtaining information
+can be between a person and a system, as well as between people, for
+retrieval of information.
+
+![ Nested model of information behaviour by [@wilson1999models].
+](figs/wilson_info_behaviour.pdf){#fig_wilson_info_behaviour
+width="0.5\\linewidth"}
+
+People's behaviour around information can be modelled as a nested Venn
+diagram as proposed by [@wilson1999models] (Figure
+[1.1](#fig_wilson_info_behaviour){reference-type="ref"
+reference="fig_wilson_info_behaviour"}). **Information behaviour** is
+the more general field of investigation. **Information-seeking
+behaviour** can be seen as a sub-set of the field, particularly
+concerned with the variety of methods people employ to discover, and
+gain access to information objects. **Information search behaviour** is
+yet a sub-set of information-seeking, concerned with the interactions
+between the user and computer-based information systems. In this
+dissertation, we focus on information search rather than the other two
+higher hierarchical concepts. This is because online IR systems, such as
+search engines or digital libraries, have become the primary source for
+people to obtain information in modern times, and web search is becoming
+ever more pervasive and ubiquitious in our day to day lives.
+
+The field of **interactive information retrieval** (IIR) posits that IR
+systems should operate in the way that good libraries do. Good libraries
+provide both the information a visitor needs, as well as a *partner* in
+the learning process --- the information professional --- to navigate
+that information, make sense of it, preserve it, and turn it into
+knowledge. As early as in 1980, Bertram Brookes stated that searchers
+acquire new knowledge in the information seeking process
+[@brookes1980foundations]. Fifteen years later, Gary Marchionini
+described information seeking, as *"a process, in which humans
+purposefully engage in order to change their state of knowledge"*
+[@marchionini1995information]. So we have known for quite a while that
+search is driven by the higher-level human need to gain knowledge.
+Information Retrieval is thus a means to an end, and not the end in
+itself. Thus, the ideal IR system should not only help users to locate
+information, but also help them to **bridge the gap between information
+and knowledge**.
+
+This brings us to the concept of information need. **Information Need**
+is the desire to locate and obtain information to satisfy a conscious or
+unconscious human need. Most search systems of today assume that the
+search query is an accurate representation of a user's information need.
+However, [@belkin1982ask] observed that in many cases, users of search
+systems are unable to precisely formulate what they need. They miss some
+vital knowledge to formulate their queries. As humans, we have
+difficulty in asking questions about what we do not know. Belkin called
+this phenomenon as **Anomalous State of Knowledge**, or ASK. Later,
+[@huang2013relevance] identified an exhaustive set of criteria that
+should be considered in order to ideally represent a user's information
+need. These criteria for information need are highly dependent on the
+user context: user attributes, tasks or goals, as well as the situation
+the user is embedded in. This brings us to another closely related
+concept: information relevance.
+
+**Relevance** is a fundamental concept of Information Science and
+Information Retrieval, and perhaps the most celebrated work in this area
+has been done by Tefko Saracevic
+[@saracevic2016notion; @saracevic1975relevance; @saracevic2007relevance; @saracevic2007relevancea].
+Webster dictionary define relevance as "a relation to the matter at
+hand". In most circumstances, relevance is a "y'know" notion. People
+apply it effortlessly, without anybody having to define for them what
+"relevance" is. This creates one of the most fascinating challenges in
+the information field: humans understand relevance intuitively, while it
+is an open research problem to represent relevance effectively for use
+by algorithmic systems. The situation becomes more interesting because
+relevance always depends on context, and the context is ever dynamic, as
+the matter at hand changes.
+
+## Three-stage Interactions with Online Search Systems {#sec:bg_search_3_stage}
+
+![ Models of information search process, with our coloured annotations
+identifying the three stages.
+](figs/info_search_models.pdf){#fig_info_search_models
+width="\\linewidth"}
+
+As we saw in the previous section, information search behaviour is the
+(study of) interactions between a user, and digital Information
+Retrieval (IR) systems. The field of Information Science/Studies has
+developed multiple models explaining how information search works
+[@wilson1999models]. A few of them are presented in Figure
+[1.2](#fig_info_search_models){reference-type="ref"
+reference="fig_info_search_models"}. Across many of these models, we
+observe that most major Information Retrieval (IR) systems have three
+fundamental ways of letting users interact with the system, and the
+underlying information: *(1)* an interface for entering search
+**queries**; *(2)* an interface for viewing and evaluating a **list** of
+retrieved information-objects, or search results; *(3)* an interface for
+viewing and evaluating **individual information-objects**. For instance,
+[@marchionini1995information]'s ISP model hints at these three
+interfaces in the fourth, sixth and seventh stages, namely "formulate
+query", "examine results", and "extract info". [@spink1997study]'s model
+of the IR interaction process consists of sequential steps or cycles,
+and each cycle comprises one or more interactive feedback occurrences of
+user input (query), IR system output (list), and user interpretation and
+judgement (of individual information-objects). Consequently, findings
+from the large body of empirical research in interactive IR (especially
+those with web based search systems) can be grouped around these thee
+stages of interactions with search systems:
+
+1.  *Stage 1:* search query formulation / reformulation
+
+2.  *Stage 2:* search results evaluation (or source selection)
+
+3.  *Stage 3:* content page evaluation (or, interacting with sources)
+
+The discussions in the following subsections are based around these
+three stages of interactions. The empirical studies discussed below
+generally follow some common principles of user studies in Interactive
+IR (IIR) [@borlund2013interactive; @kelly2009methods]: participants are
+presented with a search task or search topic, and then they are asked to
+search the internet (or a simulation of the open web) for information.
+During the search, the various interactions (queries, clicks, webpages
+opened etc.) are recorded, and these are analysed and correlated with
+other sources of data to answer research questions.
+
+### Stage 1: Query (Re)formulation {#sec:bg_search_query}
+
+*How do users behave when submitting search queries (to an IR system)?*
+
+**Query formulation** is the process of composing a search query that
+describes the information need of a searcher. **Query reformulation**
+refers to the act of either modifying a previous query, or creating a
+new query. Query reformulation typically occurs due to a searcher's
+improved understanding of how to better translate their information need
+into a search query. The relationship between two successively issued
+queries have been classified in a number of ways. These classifications
+are called *Query Reformulation Types*, or QRTs. Amongst many other,
+@boldi2009dango used cognitive aspects of the searchers issuing the
+query to propose a taxonomy of QRTs, while @liu2010analysis proposed a
+similar taxonomy focusing more on the linguistic properties of the two
+successive queries. These are compared and contrasted in
+Table [\[tab_res_Q\_QRT_txnmy\]](#tab_res_Q_QRT_txnmy){reference-type="ref"
+reference="tab_res_Q_QRT_txnmy"}.
+
+![ Investigating user-interactions with queries: **(a)** Visualizing the
+distribution of retrieved search results prior to running a query, for
+helping searchers understand their queries' effectiveness [@121]. The
+visualization is a stacked column chart with ten columns. Each column
+represents ten search results: first column represents results ranked
+1-10, second column represents results 11-20, etc. Individual columns
+have three divisions, indicating the counts of results that: are already
+seen by the searcher (dark blue, top), will be re-retrieved, but have
+not been seen by the searcher (medium blue, middle), and will be
+newly-retrieved (bright teal blue, bottom). The system evaluates the
+searcher's query continuously as it is being typed, and updates the
+visualization in real-time. **(b)** Interfaces for examining
+interactions with query auto-completion (QAC), by ***(i)*** @129, and
+***(ii)*** @125 (overlaid with heatmaps of eye fixations for all
+participants). This figure is best viewed in colour.
+](figs/int_Q.pdf){#fig_int_Q width="\\linewidth"}
+
+Task-type, task-topic, task-goal, and domain-expertise were found to
+influence query reformulation patterns of searchers [@126; @127; @133].
+At first glance, a significant portion of the query reformulation terms
+($\sim86\%$) seemed to be coming from the task-description itself
+[@126; @133]. This was characterized by significantly more fixations on
+the task-description, rather than other SERP elements. @126 and @133
+investigated this phenomenon further. @126 controlled for the task-type
+and task-goal, using the faceted-framework by @li2008faceted. @133
+controlled for the task-topic and the domain-expertise of the searchers.
+
+If search tasks had *factual* goals, searchers relied heavily on the
+task-description for reformulating their queries [@126]. For
+*interpretive* tasks (intellectual tasks with specific goals), users
+spent more time reading search result surrogates, before reformulating
+their queries. This was observed by increased eye-fixations (indicative
+of visual attention) and dwell time on search result snippets
+(surrogates). For exploratory tasks, searchers fixated the longest on
+query-autocompletion (QAC) suggestions, indicating that they were
+possibly looking for help and suggestion based on their specific query,
+as the search-task had non-specific (amorphous) goals.
+
+Searchers also relied on the task-description for reformulating queries,
+when the search-task was outside their domain of expertise [@133]. For
+in-domain tasks, they used query terms from their own knowledge, that
+were not fixated on in visited SERPs and content pages. @127 reported
+that a significant share of new query terms came from visited SERPs and
+content pages, and query reformulation (specialization) often did not
+literally re-use previously encountered terms, but highly related
+ones[^1] instead. These observations can possibly be explained by @133's
+findings: when exploring a new domain, the searcher may accumulate
+vocabulary and learn how to query during the search; when performing
+in-domain search-tasks, the searcher may have enough prior knowledge to
+come up with effective query terms. It was also seen that searchers from
+medicine domain used more unread query terms for their in-domain
+search-tasks, compared to politics and environment domains [@133]. This
+suggested that domain knowledge and expertise is more important for
+formulating good search queries in highly technical disciplines (e.g.,
+medicine), compared to less technical domains (e.g., politics).
+
+**Query Auto Completion (QAC)** is a technological feature that suggests
+possible queries to web search users from the moment they start typing a
+query. It is nearly ubiquitous in modern search systems, and is thought
+to reduce physical and cognitive effort when formulating a query. QAC
+suggestions are usually displayed as a list
+(Figure [1.3](#fig_int_Q){reference-type="ref" reference="fig_int_Q"}(b)
+and (c)), and users interact in a variety of ways with the list. @125
+observed a strong position bias among searchers who examined the QAC
+list: the top suggestions received the highest visual attention, even
+when the ordering of the suggestions were randomized. Average fixation
+time decreased consistently on suggested items from top to bottom. Even
+when the ranking of suggestions were randomized, time taken to formulate
+queries did not significantly differ.
+
+Search topics were found to have a large effect on QAC usage
+[@129; @126]. Search was easiest for the topics with the highest QAC
+usage. Total eye-gaze duration was longest when visual attention was
+shared between the QAC suggestions and the actual search query input
+box. Some additional time was probably due to decision making on whether
+to use a QAC suggestion. Typing was faster when a QAC was not used.
+However, the IR system's retrieval performance (measured using NDCG@3),
+was greater when QAC was used. So @129 speculated that the value of
+using QAC suggestions was realized later in the search session by users,
+when they saw a reduction in the number of additional queries needed, or
+an increase in the value of the information found.
+
+Several user behavioural profiles were identified by exploring
+associations between visual attention from eye-tracking, search
+interactions from mouse and keyboard activity, and the use of QAC
+suggestions [@125; @129]. These profiles are described in
+Table [\[tab_res_Q\_QAC_profiles\]](#tab_res_Q_QAC_profiles){reference-type="ref"
+reference="tab_res_Q_QAC_profiles"}. An interesting, yet common-sense
+observation was that participants' touch-typing ability greatly
+influenced their interactions with QAC suggestions.
+
+The native language of searchers was found to influence their overall
+querying and searching behaviour. @132 explored this space using four
+variations of a multi-lingual search interface. They observed that
+participants strongly preferred to issue queries in their first or
+native language. A second or non-native language was the next preferred
+choice. Mixing of first and second-languages occurred very rarely. In
+80% of the total 300 tasks (25 users $\times$ 4 interfaces $\times$ 3
+task-types), participants used a single language for querying. In the
+rest 20% of the tasks, participants switched languages for querying,
+with a transition from first language to second language being the most
+common.
+
+### Stage 2: Search Results Evaluation {#sec:bg_search_list}
+
+*How do users behave when examining a list of information-objects
+(returned by an IR system)?*
+
+After a user submits a query to an IR system, the next action they
+generally perform is examining and evaluating the list of search results
+returned by the IR system. In this section, we discuss empirical studies
+which investigated information-searching behaviour around a list of
+information-objects, or a representation of information-objects (also
+called *surrogates*). We identified some common themes in the research
+questions investigated. The discussion below is grouped along these
+themes, as relationships between search behaviour and: *(i)* ranking of
+search results; *(ii)* information shown in search results; *(iii)*
+individual user characteristics; and *(iv)* relevance judgement and
+feedback.
+
+![ Example interfaces for studying user-interactions with a
+search-engine results page (SERP): **(a)** a simplified SERP without
+query input facility, to judge relevance of search results (on a 4-level
+scale) for pre-determined search queries (in this case 'why do airplanes
+have differently shaped wings?'), from @63; **(b)** eye-tracking heatmap
+on an organic SERP from @115 [@117], showing the F-shaped pattern of
+visual attention; **(c)** a multilingual SERP from @132. This figure is
+best viewed in colour. ](figs/int_L_serp.pdf){#fig_int_L_serp
+width="\\linewidth"}
+
+ \
+**Relationships between [ranking of search results]{.underline}, and
+search behaviour:**
+
+Most search engines display results in a rank ordered list, with the
+highest *algorithmically* relevant results placed at the top, and others
+results ordered below. @101 [@108] studied eye-movement behaviour of
+searchers examining SERPs, and reported observations from three user
+studies. They saw that in 96% of the queries, participants looked at
+only the first result page, containing the top 10 results. No
+participant looked beyond the third result page for a given query.
+Participants looked primarily at the first few results, with nearly
+equal attention (dwell time) given to the first and the second results.
+However, despite equal attention, the first result was clicked 42% of
+the time, while the second was clicked only 8% of the time. If none of
+the top three results appeared to be relevant, then users chose not to
+explore further results, but issued a reformulated query instead. When
+the ranking of the search results were reversed (i.e. placing less
+relevant results in the higher ranked positions), participants spent
+considerably more time scrutinizing and comparing results (more
+fixations and regressions) before making a decision to click or
+reformulate.
+
+Some effects of gender were found to influence SERP examination [@108].
+Females clicked on the second result twice as often, and made more
+regressions or repeat viewings of already visited abstracts, compared to
+males. Males were more likely to click on lower ranked results, from
+entries 7 through 10, and also look beyond the first 10 results
+significantly more often than women. Males were also more linear in
+their scanning patterns, with less regressions. Pupil dilation did not
+differ significantly between gender groups.
+
+Effects of task-type and task-goals also influenced SERP examination
+behaviour. @105 used @broder2002taxonomy's taxonomy of navigational vs.
+informational searches. The authors reported that when users could not
+find the target results for navigational searches, they either selected
+the first result, or switched to a new query. However, for informational
+searches, users rarely issued a new query and were more likely to try
+out the top-ranked results, even when those results had lower relevance
+to the task. This illustrated possible strong confidence of searchers in
+the search engine's relevance ranking, even though searchers clearly saw
+target results at lower positions. Thus, people were more likely to
+deprecate their own sense of objective relevance and obeyed the ranking
+determined by the search engine. @126 used @li2008faceted's framework of
+search-tasks, and saw that in tasks having specific goals, searchers
+fixated more on lower ranked results after some time. On the other hand,
+for tasks having amorphous goals, there was a wider breadth in viewing
+the SERP, and less effort spent in viewing the content pages. Fixations
+tended to decrease as search session progressed, indicating decreased
+interest and increasing mental effort, which could demonstrate
+*satisficing* behaviour [@simon1956rational]. A comprehensive overview
+of various behavioural traits associated with task-types and task-goals
+can be found in [@126 Table 8].
+
+ \
+**Relationships between [information shown in search
+results]{.underline}, and search behaviour:**
+
+The amount and quality of different kinds of information shown on SERPs
+also affected user's information searching behaviour. @104 saw that as
+the length of the surrogate information (result snippets) was increased,
+user's search performance improved for informational tasks, but degraded
+for navigational tasks [@broder2002taxonomy]. Analyzing eye-tracking
+data, they posited that the difference in performance was due to users
+paying more attention to the snippet, and less attention to the URL
+located at the bottom of the search result. This led to performance
+deterioration in navigational searches. @115 studied the effects of the
+quality of advertisements placed in the SERPs (Figure
+[1.4](#fig_int_L_serp){reference-type="ref"
+reference="fig_int_L_serp"}(b)). Similar to findings discussed above, a
+strong position bias of visual attention was found towards the top few
+organic result entries --- the well known F-shaped pattern of visual
+attention --- which was stronger for informational than for navigational
+tasks. However, a strong bias *against* sponsored links was observed in
+general. Even for informational tasks, where participants generally had
+a harder time finding a solution, the ads did not receive any additional
+attention from the participants. @108 compared the visual attention
+patterns of searchers using two different search engines: Google, and
+Yahoo!. Behavioural trends followed similar patterns for both search
+engines, even though Google was rated as the primary search engine of
+all but one of the participants. They found slight variations in some
+eye-tracking measures (reading time of surrogates, time to click
+results, and query reformulation time), and some self-reported measures
+(perceived ease of use, perceived satisfaction, and success rate).
+However, none of these differences were statistically significant.
+
+The novel query-preview interface by @121 was discussed in
+Section [1.2.1](#sec:bg_search_query){reference-type="ref"
+reference="sec:bg_search_query"} and in
+Figure [1.3](#fig_int_Q){reference-type="ref" reference="fig_int_Q"}(a).
+The authors also reported several observations about user behaviour on
+SERPs. They saw that the presence of the preview visualization enabled
+participants to look deeper into the results lists. Participants tried
+to use the preview as a navigation tool, although it was not designed as
+such. The tool increased the rates at which participants examined
+documents at middle ranks in query results, and thus helped discover
+more useful documents in those middle ranks than without the preview
+widget. The preview tool also helped to increase the diversity of
+documents found in a search session, which could in turn lead to better
+performance in terms of recall and precision. Thus, the tool helped
+searchers overcome the strong position bias towards top-ranked results,
+as observed by other studies discussed previously.
+
+![ Effects of differences in user characteristics on interactions with
+SERPs: **(a)** exhaustive or *depth-first* user (User 1), vs. economic
+or *breadth-first* user (User 2), examining mostly irrelevant results in
+Task A, and mostly relevant results in Task B (both users followed the
+second link in Task B); vertical axis denotes vertical location on SERP,
+and horizontal axis denotes temporal ordering of result examination;
+from @102; (similar patterns were identified by @139, in the SERP
+examination behaviour of children) **(b)** children vs. adults examining
+SERPs from a German search engine for children (left), and Google
+(right); differently from adults, children exhaustively explored all
+search results, paid more attention to thumbnails and embedded media,
+and read less text-only snippets; from @124. Similar observations as
+with children were reported for searchers with dyslexia
+[@palani2020eye]. This figure is best viewed in colour.
+](figs/res_L_serp_user_chars.pdf){#fig_res_L_serp_user_chars
+width="\\linewidth"}
+
+ \
+**Relationships between [individual user characteristics]{.underline},
+and search behaviour:**
+
+Individual traits of searchers also influence their pattern of
+interactions with a SERP, and these patterns can be revealed by
+analyzing eye-tracking data. For instance, searchers have been
+classified as *economic* vs. *exhaustive*, based on their style of
+evaluating SERPs [@102]. *Economic* searchers were found to scan less
+than half (three) of the displayed results above the fold, before making
+their first action (query re-formulation, or following a link).
+*Exhaustive* searchers evaluated more than half of the visible results
+above the fold, or even scrolled the results page to view all of the
+results, before performing the first action. Thus, economic searchers
+demonstrated depth-first search strategy, while exhaustive users
+favoured the breadth-first approach
+(Figure [1.5](#fig_res_L_serp_user_chars){reference-type="ref"
+reference="fig_res_L_serp_user_chars"}(a)). @117 demonstrated the use of
+unsupervised clustering to re-identify the *economic*-*exhaustive* user
+groups, based on differences in total fixation impact[^2], scanpaths,
+task outcomes, and questionnaire data. The *economic* cluster was
+further broken down by users who looked primarily at results
+(*economic-results* cluster), and users who viewed both results and ads
+(*economic-ads* cluster). All three groups spent the highest amount of
+time on the first three results, with the *exhaustive* group being
+substantially slower than the other two groups. The *exhaustive* and
+*economic-results* groups spent the second-highest amount of time on
+results four through six, while the *economic-eds* group spent this time
+on the main advertisements. This group spent more than twice as much
+time on the main ads as the *economic-results* group, and even more time
+on main ads than the *exhaustive group*. This observation is incongruent
+to @115's findings, as they observed a generally strong bias *against*
+viewing sponsored links. @135 conducted further analysis using these
+user types, and, in general, reconfirmed the previous findings. They
+found that the results above the fold, especially, ***the first three
+search results are special***, more so for economic users. On submitting
+a 'weak' query, if economic users did not find a correct result within
+the first three results, they abandoned examination, and reformulated
+their query.
+
+Age of searchers also influence SERP evaluation behaviour. @124
+demonstrated differences in SERP evaluation for children and adults
+(Figure [1.5](#fig_res_L_serp_user_chars){reference-type="ref"
+reference="fig_res_L_serp_user_chars"}(b)). When answers were not found
+within the top search results, the adults reformulated the query
+starting a new search, while young users exhaustively explored all the
+ten results, and used the navigation buttons between results pages to
+continue further examination. Children also paid more attention to
+thumbnails and embedded media, and focused less on textual snippets.
+Children saw the query suggestions at the bottom of the Google SERP
+(because they navigated to the bottom), while the adults did not. @139
+[@140] investigated this phenomenon further, and observed that even
+within children, age plays a role in SERP evaluation behaviour. Younger
+children (grade six, age 11) clicked more often on results in
+lower-ranked positions than older children (grade eight, age 13). Older
+children's clicking behaviour was based more often on reading result
+snippets, and not just on the ranked position of a result in a SERP.
+Whereas, younger children made less deliberate choices in choosing which
+result to click, and were more exhaustive in the exploration of results.
+Thus, using @102's classification and @117's observations, it can be
+posited that (younger) children start out as *exhaustive* searchers.
+With increase in age and maturity, older children and adults evolve into
+*economic* searchers. Interestingly, very similar behaviour patterns as
+with children (scrolling further down on SERPs, exhaustive exploration,
+etc.) were also observed recently for searchers with dyslexia
+[@palani2020eye].
+
+Searcher's native language also influenced SERP interaction behaviour
+[@132] (Figure [1.4](#fig_int_L_serp){reference-type="ref"
+reference="fig_int_L_serp"}(c)). We discussed in
+Section [1.2.1](#sec:bg_search_query){reference-type="ref"
+reference="sec:bg_search_query"} that users strongly preferred issuing
+queries in a single language, especially their native language. However,
+while examining SERPs, they marked search results in both their first
+language and second language to be relevant, to an equal degree. This
+confirms the usefulness of search result pages that integrate results
+from multiple languages. However, a clear separation in the language of
+the search results was strongly preferred, and an 'interleaved'
+presentation (e.g. odd numbered results in one language and even
+numbered results in another language) was least preferred.
+
+![ Google search engine result page (SERP) for the queries: **(a)**
+"coronavirus" **(b)** "toyota" **(c)** "evaporation", and **(d)** "life
+of pie". All screenshots are from 'above-the-fold', viewed on a
+$2560 \times 1440$ monitor. These examples highlight that modern SERPs
+have come a long way from a list of "ten blue links". SERPs are becoming
+consumable information-objects in their own right, and thus require
+different kinds of cognitive processing and interactions, than from the
+early days of the internet. Inspired and adapted from
+[@yue2018optimizing]. Accessed on May 5, 2020. This figure is best
+viewed in colour.
+](figs/int_L_serp_new_vertical.pdf){#fig_int_L_serp_new_vertical
+width="0.93\\linewidth"}
+
+ \
+**Relationships between [relevance judgement]{.underline}, and search
+behaviour:**
+
+@119 [@114] proposed a list of 'relevance criteria' for understanding
+how searchers evaluate search results, or perform *relevance judgement*.
+These criteria were developed based on literature reviews and their
+empirical findings from eye-tracking studies. The final list contains 15
+relevance criteria (e.g., *topicality*, *quality*, *recency*, *scope*,
+*availability*, etc.) and can be found in [@119 Appendix B].
+
+Search engines are increasingly adding different modalities of
+information on the SERP, besides the "ten blue links". These include
+images, videos, encyclopaedic information, and maps
+(Figure [1.6](#fig_int_L_serp_new_vertical){reference-type="ref"
+reference="fig_int_L_serp_new_vertical"}). @128 studied the influence of
+these different forms of SERP information -- called 'verticals' -- on
+searcher's relevance judgements. A general observation was that if
+verticals were present in a SERP, they created strong attraction biases.
+The attraction effect was influenced by the type of verticals, while the
+vertical quality (relevant or not) did not have a major impact. For
+instance, 'images' and 'software download' verticals had higher visual
+attention, while news verticals had equal attention as the "ten blue
+links" search results.
+
+### Stage 3: Content Page Evaluation {#sec:bg_search_content_page}
+
+*How do users behave when examining a single information-object (e.g., a
+a non-search-engine webpage, aka content page) obtained from an IR
+system?*
+
+In online information searching, searchers repeatedly interact with
+individual webpages, a.k.a. 'content pages' in IR terminology. These
+webpages can be visited by following links from a search engine,
+following links between different webpages, or directly typing the URL
+in the browser.
+
+The first group of papers we discuss investigated users' **visual
+attention** and **reading behaviour** on webpages. @pan2004determinants
+studied whether eye-tracking scanpaths on webpages varied based on
+task-type, webpage type (business, news, search, or shopping), viewing
+order of webpages, and gender of users. The found significant
+differences for all factors, except for task-type, which seemed to have
+no effect on scanpaths. They used weak task-types: remembering what was
+on a webpage vs. no specific task. In a later work on using
+informational vs. navigational search-tasks, they again saw limited
+effect of task-type on visual attention [@lorigo2006influence]. Findings
+from @josephson2002visual's study suggested that users possibly follow
+habitually preferred scanpaths on a webpage, which can be influenced by
+factors like webpage characteristics and memory. However, they used only
+three webpages, making the findings difficult to generalize.
+@goldberg2002eye studied eye movements on Web portals during
+search-tasks, and saw that header bars were typically not viewed before
+focusing the main part of the page. So they suggested placing navigation
+bars on the left side of a page. @beymer2007eye focused on a very
+specific feature on webpages: images that are placed next to text
+content and how they influence eye movements during a reading task. They
+found significant influence on fixation location and duration. Those
+influences were dependent on how the image contents related to the text
+contents (i.e., whether they showed ads or text-related images). @110
+presented findings from a large scale study where users performed
+information-foraging and page-recognition tasks. They observed that in
+the first few moments, users quickly scanned the top left of the page,
+presumably looking for clues about the content, provenance, type of
+information, etc. for that page. The elements that were normally
+displayed in the upper left third of webpages (e.g., logos, headlines,
+titles or perhaps an important picture related to the content) seemed to
+be important for recognizing and categorizing a page. After these
+initial moments, influence of task-type set in. For page-recognition
+tasks, the attention remained in the top-left corner of the webpage.
+However, for information-foraging tasks, fixations moved to the
+center-left region of the webpage, where the user was possibly trying to
+find task-specific information. The right third of webpages attracted
+almost no visual attention during the first one-second of each page
+view. Afterwards as well, most users seemed to entirely ignore this
+region, or only occasionally look at it. This suggested that users had
+low expectations of information-content or general relevance on the
+right side of most webpages. As many webpages display advertisements on
+the right side, this was a plausible observation, and are in line with
+the observed "F-shaped-patterns" [^3] on webpages.
+
+@110 also proposed an eye-tracking measure called *fixation impact*.
+This measure first appends a circular Gaussian distribution around each
+fixation on a webpage element, to create a fuzzy area of interest. This
+is called the *distance impact* value. If a webpage element completely
+covers the fixation circle (Gaussian distribution), it gets a *distance
+impact* value of 1. If the element partially covers the fixation circle,
+its *distance impact* value is smaller. Multiplying the *distance
+impact* value with the fixation duration gives the fixation impact for
+the given webpage element. Thus, an element that completely covers the
+fixation circle gets the full fixation duration as *fixation impact*
+value. Elements which are partially inside the circle get a value
+proportional to the Gaussian distribution. The authors posited that the
+rationale behind creating the fixation impact measure was motivated by
+observations from human vision research, which indicates that fixation
+duration correlates with the amount of visual information processed; the
+longer a fixation, the more information is processed around the fixation
+centre. Using the fixation impact measure, @110 proposed a model for
+predicting the amount visual attention that individual webpage elements
+may receive (i.e. visual salience).
+
+Another group of studies investigated how users judged **relevance of
+webpages** w.r.t. an assigned search-task or information need.
+[@47; @48; @74] observed that when relevant pages were revisited, the
+webpages were read more carefully. Pupil dilations were significantly
+larger on visits and revisits to relevant pages, and just before
+relevance judgements were made. Certain conditions of visits and
+revisits also showed significant differences in EEG alpha frequency band
+power, and EEG-derived attention levels. Relevance of individual webpage
+elements were also assessed as *click-intention*: whether users would
+click on an element they were looking at. @69 used pupillometry and EEG
+signals to predict whether a mouse click was present for each eye
+fixation. EEG features included simple statistical features of signals
+(mean, SD, power, etc.), as well as sophisticated mathematical features
+(Hjorth features, Fractal Dimensions, Entropy, etc.). A battery of
+classifier models were tested. However, the results were not promising.
+Logistic Regression had the highest accuracy (71%), but very low F1
+score (0.33), while neural network based classifiers the had highest F1
+score (0.4). The authors suspected that the low sampling rate of their
+instruments (30 Hz eye-tracker and 128 Hz 14-channel EEG) impacted their
+classifier performances. @81 compared relevance prediction performances
+in the presence and absence of eye-tracking data, and argued that when
+eye-tracking data collection is not feasible, mouse left-clicks can be
+used a good alternative indicator of relevance.
+
+The '*Competition for Attention*' theory states that items in our visual
+field compete for our attention [@desimone1995neural]. @30 studied web
+search and browsing from the perspective of this theory. Theoretical
+models suggest that in goal-directed searches, information-salience
+and/or information-relevance drives search behaviour (i.e. competition
+for attention does not hold true), whereas exploratory search behaviour
+is influenced by competition among stimuli that attracts a user's
+attention (i.e. competition for attention holds true). However, in
+practice, information search behaviour often becomes a combination of
+both types of visual search activities [@groner1984looking]. @30 found
+that, despite the goal directed nature of their search-task (finding the
+best snack place in Boston to take their friends) *competition for
+attention* had some effect at the content page level. Some of the users'
+attention was diverted to non-focal areas on content pages. However,
+there was little effect of *competition for attention* on how the
+results were viewed on SERPs. Users exhibited the familiar top-to-bottom
+pattern of viewing
+(Section [1.2.2](#sec:bg_search_list){reference-type="ref"
+reference="sec:bg_search_list"}), paying the most attention to the top
+two entries.
+
+## Effects of Expertise and Working Memory on Search Behaviour {#sec:bg_search_expertise}
+
+![image](figs/search_behaviours.pdf){width="\\linewidth"}
+
+Our focus of discussion in this proposal is information searching and
+learning. As we saw in Chapter
+[\[ch:bg_learn\]](#ch:bg_learn){reference-type="ref"
+reference="ch:bg_learn"}, learning and expertise are closely connected:
+expertise is an evolving characteristic of users that reflects learning
+over time, rather than being a static property
+[@rieh2016searching; @sawyer2005cambridge]. [@white2016interactions
+Chapter 7] considers three types of expertise, that are relevant in
+information seeking settings: *(i)* domain or subject-matter expertise;
+*(ii)* search expertise; and *(iii)* task expertise. **Domain or
+subject-matter expertise** describes people's knowledge in a specialised
+subject area such as a domain of interest. **Search expertise** refers
+to people's skill level at performing information-seeking activities,
+both in a Web search setting and in other settings such as specialised
+domains. **Task expertise** describes people's expertise in performing
+particular search tasks, potentially independent of domain. Although
+considered distinctly, the boundaries between these expertise types are
+quite blurred, and therefore difficult to estimate at the time of
+search, and model it in a way that can be consumed by search systems.
+
+Previous work on domain knowledge and expertise have linked[^4] domain
+expertise and search behaviour in terms of metrics, behavioural
+patterns, and criteria
+[@white2009characterizing; @133; @o2020role; @cole2013inferring]. A
+representative summary is presented in Table
+[\[tab_search_behaviours\]](#tab_search_behaviours){reference-type="ref"
+reference="tab_search_behaviours"}, and is adapted from literature
+reviews by [@rieh2016searching] and [@vakkari2016searching]. Briefly,
+[@wildemuth2004effects] showed that novices converge toward the same
+search patterns as experts, as they are exposed to a topic and learn
+more about it. [@zhang2011predicting] found that features such as
+document retention, query length, and the average rank of results
+selected could be predictive of domain expertise. [@cole2013inferring]
+showed that eye-gaze patterns could be used to predict an individual's
+level of domain expertise using estimates of cognitive effort associated
+with reading. [@white2009characterizing] showed that measures such as
+diverse website visitation, more narrow topical focus, less diversity
+(or entropy), more 'branchiness' of search sessions, less dwell time,
+and higher query and session complexity are indicative of expert
+knoweldge and/or search behaviour.
+
+As a stark contrast, [@zlatkin2021students] reviewed literature on
+higher education **students' information search behaviour**. Students
+can be considered as novices in all three respects:
+domain/subject-matter, search skills, and task. The authors report that
+across literature, higher education students' information search
+behaviour tends to follow some general general patterns: *(i) foraging:*
+no explicit (task-specific) research plan and little understanding of
+the differences (pros/cons) between various IR systems; *(ii) Google
+dependence:* no intention to use any search tool other than Google,
+causing students to struggle to understand library information
+structures and engage with scholarly literature effectively; *(iii)
+rudimentary search heuristic:* reliance on one and the same simple
+search strategy, regardless of search context; *(iv) habitual topic
+changing:* students change the search topic after rather superficial
+skimming, and before evaluating all search results; and *(v) overuse of
+natural language:* students type questions into the search box that are
+phrased as if posing them to a person. Highly ranked online sources
+accessed via a well-known search engine were perceived as trustworthy.
+
+Effects of memory span and working memory capacity have also been found
+to influence search effort and search behaviour
+[@gwizdka2017can; @gwizdka2013effects; @cole2020more; @arguello2019effects; @CHIIR19].
+**Working memory** (WM) is considered a core executive function is
+defined as someone's ability to hold information in short-term memory
+when it is no longer perceptually present
+[@diamond2013executive; @miller1956magical]. [@bailey2011amount] showed
+that the amount of effort was a good indicator of user success on search
+tasks. [@smith2008user] studied searcher adaptation to poorly performing
+systems and found that searchers changed their search behaviors between
+difficult and easy topics in a way that could indicate that users are
+satisficing. Differences in search effort between different types
+systems (higher effort invested in searching library database vs. web)
+were found by [@rieh2012amount]. A couple of studies showed that mental
+effort involved in judging document relevance is lower for irrelevant
+and higher for relevant documents [@villa2013relevance; @37].
+[@gwizdka2017can] found that that higher WM searchers perform more
+actions and that most significant differences are in time spent on
+reading results pages. Behaviour of high and low WM searchers were also
+found to change differently in the course of a search task performance.
+
+## Assessing Learning during Search
+
+In order for IR systems to foster user-learning at scale, while
+respecting individual differences of searchers, there is a need for
+measures to represent, assess, and evaluate the learning process,
+possibly in an automated fashion. Consequently, a variety of assessment
+tools have been used in prior studies. These include self reports, close
+ended factual questions (multiple choice), open ended questions (short
+answers, summaries, essays, free recall, sentence generation), and
+visual mapping techniques using concept maps or mind maps. Each approach
+has its own associated advantages and limitations. **Self-report** asks
+searchers to rate their self-perceived pre-search and post-search
+knowledge levels [@ghosh2018SearchingLearningExploring; @o2020role].
+This approach is the easiest to construct, and can be generalised over
+any search topic. However, self-perceptions may not objectively
+represent true learning. **Closed ended questions** test searchers'
+knowledge using factual multiple choice questions (MCQs). The answer
+options can be a mixture of fact-based responses (*TRUE*, *FALSE*, or *I
+DON'T KNOW*),
+[@xu2020does; @gadiraju2018AnalyzingKnowledgeGain; @yu2018PredictingUserKnowledgea]
+or recall-based responses (*I remember / don't remember seeing this
+information*) [@kruikemeier2018learning; @roy2020exploring].
+Constructing topic-dependant MCQs may take time and effort, since they
+are topic dependant. Recent work on automatic question generation may be
+leveraged to overcome this limitation [@syed2020improving]. Evaluating
+close ended questions is the easiest, and generally automated in various
+online learning platforms. Multiple choice questions, however, suffer
+from a limitation: they allow respondents to answer correctly by
+guesswork. **Open ended questions** assess learning by letting searchers
+write natural language summaries or short answers
+[@bhattacharya2018relating; @o2020role; @roy2021note]. Depending on
+experimental design, prompts for writing such responses can be generic
+(least effort) [@bhattacharya2019measuring; @bhattacharya2018relating],
+or topic-specific (some effort) [@syed2020improving]. While this
+approach can provide the richest information about the searcher's
+knowledge state, evaluating such responses is the most challenging, and
+requires extensive human intervention
+[@wilson2013comparison; @leu2015new; @kanniainen2021assessing] (as
+discussed in Section
+[\[sec:bg_learn_artefact\]](#sec:bg_learn_artefact){reference-type="ref"
+reference="sec:bg_learn_artefact"}). **Visual mapping** techniques such
+as mind maps and concept maps have also been used to assess learning
+during search
+[@halttunen2005assessing; @egusa2010usingb; @egusa2014howd; @egusa2014howe; @egusa2017evaluating].
+Concept maps have been discussed at length in Section
+[\[sec:bg_concept_maps\]](#sec:bg_concept_maps){reference-type="ref"
+reference="sec:bg_concept_maps"}. Learning has also been measured in
+**other ways**, such as user's familiarity with concepts and
+relationships between concepts [@pirolli1996scatter], gains in user's
+understanding of the topic structure, e.g., via conceptual changes
+described in pre-defined taxonomies [@zhang2016process], and user's
+ability to formulate more effective queries
+[@chen2020understanding; @pirolli1996scatter].
+
+## Limitations of Current Search Systems in Fostering Learning
+
+### Longitudinal studies {#sec:bg_search_longitudinal_studies}
+
+Learning is a longitudinal process, occurring gradually over time
+(Sections
+[\[sec:bg_learn_sensemaking\]](#sec:bg_learn_sensemaking){reference-type="ref"
+reference="sec:bg_learn_sensemaking"} and
+[\[sec:bg_learn_principles\]](#sec:bg_learn_principles){reference-type="ref"
+reference="sec:bg_learn_principles"}). Therefore, information
+researchers have studied participant's search behaviour in prior,
+**albeit few**, longitudinal studies. Examples include studies by
+[@kelly2006measuring_a; @kelly2006measuring_b; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
+
+[@wildemuth2004effects] examined the search behaviour of medical
+students in microbiology. In this experiment, students were observed at
+three points of time (at the beginning of the course, at the end of the
+course, and six months after the course), under the assumption that
+domain expertise changes during a semester. Some search strategies, most
+notably the gradual narrowing of the results through iterative query
+modification, were the same throughout the observation period. Other
+strategies varied over time as individuals gained domains knowledge.
+Novices were less efficient in selecting concepts to include in search
+and less accurate in their tactics for modifying searches.
+[@pennanen2003students; @vakkari2000cognition; @vakkari2001changes; @vakkari2001theory]
+also examined students at multiple points in time, as they were
+developing their thesis proposal. One important change in behaviour was
+the use of a more varied and more specific vocabulary as students
+learned more about their research topic. [@weber2019informationseeking]
+examined a large sample of German students from all academic fields in a
+two wave study and found that the more advanced they are in their
+studies, the more students show a more advanced search behaviour (e.g.,
+using more English queries and accessing academic databases more
+frequently). **Advanced search behaviour predicted better university
+grades.** [@weber2018can] also provide mixed evidence on the potential
+long-term effects of such interventions, as some of their participants
+reverted to their previous habits two weeks after the study and
+therefore exhibited only short-term changes in their information-seeking
+behaviour.
+
+Overall, results regarding the promotion of user' search and evaluation
+skills are encouraging. But there is a clear need for more longitudinal
+studies. The general body of search-as-learning literature examines the
+learner in the short-term, typically over the course of a single lab
+session [@kelly2009evaluation; @zlatkin2021students]. The trend is
+similar in other Human-Computer Interaction (HCI) research venues. A
+meta-analysis of 1014 user studies reported in the ACM CHI 2020
+conference revealed that more than 85% of the studies observed
+participants for a day or less. To this day, "longitudinal studies are
+the exception rather than the norm" [@HCIUXres81_online]. "An
+over-reliance on short studies risks inaccurate findings, potentially
+resulting in prematurely embracing or disregarding new concepts"
+[@HCIUXres81_online].
+
+### Supporting sensemaking and reflection {#sec:bg_search_sensemaking}
+
+As we saw in Section
+[\[sec:bg_learn_sensemaking\]](#sec:bg_learn_sensemaking){reference-type="ref"
+reference="sec:bg_learn_sensemaking"}, learning *is* sensemaking. Yet,
+modern search systems are still quite far from supporting sensemaking
+and learning, and rather, at best are good *locators* of information.
+[@rieh2016searching] says that modern search systems should support
+sensemaking by offering more interactive functions, such as tagging for
+annotation, or tracking individuals' search history, so that a learner
+could return to a particular learning point. In addition, a system could
+provide new features that allow learners to reflect upon their own
+learning process and search outcomes, thus facilitating the development
+of critical thinking skills.
+
+::: displayquote
+It's easy to be impressed by the scientific and engineering feats that
+have produced web search engines. They are, unquestionably, one of the
+most impactful and disruptive information technologies of our time.
+However, it's critical to remember their many limitations: they do not
+help us **know what we want to know**; they do not help us **choose the
+right words** to find it; they do not help us know if what we've found
+is **relevant or true**; and they do not help us **make sense of it**.
+All they do is quickly retrieve what other people on the internet have
+shared. While this is a great feat, all of the content on the internet
+is far from everything we know, and quite often a poor substitute for
+expertise.
+:::
+
+-- [@ko2021seeking] (emphasis our own)
+
+## Summary {#sec:bg_search_summary}
+
+In this second chapter of the background literature review, we discussed
+*(i)* how searchers interact with three stages / interfaces of modern
+information retrieval system: query formulation, search results
+evaluation, and content page evaluation; *(ii)* how expertise and
+working memory influence overall search behaviour; *(iii)* how learning
+or knowledge gain during search has been assessed in recent search as
+learning literature; and *(iv)* what are the limitations of current
+search systems to foster learning, including gaps in literature about
+long term search behaviour and learning outcomes, as well as lack of
+support for sensemaking.
+
+We saw that while we have a plethora of studies investigating search
+behaviour searchers in the short term, we have merely a handful of
+studies observing the same participant for more than a day. To the best
+of the author's knowledge, most of these studies were conducted over a
+decade ago. Thus, while we have excellent knowledge of short term nature
+of influence of searching on learning, we do not know what are the
+longer term effects. Furthermore, we we have gaps in our knowledge of
+*(i)* how practices like articulation and externalization, and user
+attributes like metacognition, motivation, and self regulation moderate
+the searching as learning process; *(ii)* how these moderator variables
+change over time; and *(iii)* what these phenomena collectively entail
+for the design of future learning-centric IR systems. In the next
+chapter, we take these gaps in knowledge and use them to inform our
+research questions and hypotheses.
+
+[^1]: measured using Leacock-Chodorow semantic similarity metric
+    [@leacock1998combining]
+
+[^2]: a measure derived from eye fixation durations, proposed by @110
+
+[^3]: <https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content>
+
+[^4]: and continue to link

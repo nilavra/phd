@@ -1,0 +1,207 @@
+# Questionnaires for Initial (SES1) and Final (SES3) Sessions {#appendix:pre_post_tasks}
+
+Pre-Test session (SES1) is conducted at the beginning of the semester,
+and the Post-Test session (SES3) is conducted at the end of the
+semester.
+
+## Pre-Task Questionnaire (for SES1 and SES3) {#app:pre_task_qsn}
+
+The following items are adapted from [@collins2016assessing].
+
+1.  How much do you know about this topic?\
+    *(1) nothing \| I know a lot (5)*
+
+2.  How interested are you to learn more about this topic?\
+    *(1) not at all \| very much (5)*
+
+3.  How difficult do you think it will be to search for information
+    about this topic?\
+    *(1) very easy \| very difficult (5)*
+
+The following items are adapted from [@crescenzi2020adaptation].
+
+*Indicate your agreement with the following statements.*
+
+*(1) Strongly Disagree \| Neutral \| Strongly Agree (5)*
+
+4.  I am interested to learn more about the topic of this task.
+
+5.  I know a lot about this topic.
+
+6.  I can write a good summary now without needing to look for
+    information.
+
+7.  It will be difficult to determine when I have enough information to
+    write my summary.
+
+8.  I think this will be a difficult task.
+
+9.  I am confident I know (or can find) adequate information to write a
+    good summary.
+
+## Post-Task Questionnaire (for SES1 and SES3) {#app:post_task_qsn}
+
+The following items are adapted from [@collins2016assessing].
+
+*Indicate your agreement with the following statements.*
+
+*(1) Not at all \| Unlikely \| Somewhat \| Likely \| Very Likely (5)*
+
+*Search for information exploration:*
+
+1.  I was cognitively engaged in search task.
+
+2.  I made an effort at performing the search task.
+
+3.  The time for search was spent productively on meaningful tasks.
+
+4.  I was able to explore relationships among multiple concepts.
+
+5.  I was able to expand the scope of my knowledge about the topic.
+
+6.  I feel that I was able to put together pieces of information into
+    one big concept.
+
+*Learner interest and motivation:*
+
+7.  I feel that I have full understanding of the topic of this task
+
+8.  I became more interested in this topic.
+
+9.  I would like to find more information about this topic
+
+10. I would like to share what I learned with my people I know.
+
+11. I feel that I learned useful information as a result of this search.
+
+12. I was able to develop new ideas or perspectives.
+
+*Perceived learning and search success:*
+
+*On a scale of 0 - 100*
+
+13. How would you grade your learning outcome?
+
+14. How would you grade your search outcome?
+
+ \
+The following items are adapted from [@crescenzi2020adaptation].
+
+*Indicate your agreement with the following statements.*
+
+*(1) Strongly Disagree \| Neutral \| Strongly Agree (5)*
+
+15. Overall, it was difficult to search for information to make the
+    summary.
+
+16. It was difficult to determine search terms to use to find relevant
+    information.
+
+17. It was difficult to decide whether to continue inspecting the search
+    results or to search again.
+
+18. It was difficult to choose which search results to view.
+
+19. It was difficult to determine when to stop looking for information.
+
+20. I would have preferred to think longer about my summary.
+
+21. If I had more time, I would have considered more information.
+
+22. I felt anxious while completing this task.
+
+23. I did not have enough time.
+
+24. It was difficult to decide which sources to select.
+
+25. I felt hurried or rushed during this task.
+
+26. I had adequate information to make a good summary.
+
+27. I felt I had enough information.
+
+28. My understanding of the topic was no longer changing.
+
+29. I collected enough information to make a summary.
+
+30. I was no longer learning about the topic.
+
+31. I felt I had adequate information to make a summary.
+
+32. I was focused on getting information about one thing.
+
+33. I felt continuing the search was a waste of time, as the same
+    information was showing up.
+
+34. I had a list of certain things I was interested in.
+
+35. I stopped searching because I was not finding new information.
+
+36. I stopped searching when I had an option that satisfied the things
+    that were important to me.
+
+37. I only considered looking for the piece of information most
+    important to me.
+
+38. I kept finding the same information in every search.
+
+39. My view of the topic was no longer changing.
+
+40. I was most concerned about finding information on one specific
+    aspect.
+
+## Preference for CTA vs Silent Condition {#app:cta_v_silent}
+
+1.  You were asked to talk-aloud for one task, and work in silence for
+    the other. Which one was better?
+
+    -   Talk aloud much was a lot better
+
+    -   Talk aloud was slightly better
+
+    -   I did not feel any difference
+
+    -   Working in silence was slightly better
+
+    -   Working in silence was a lot better
+
+2.  Why?
+
+## Semi-structured Interview Questions (at the end of SES3) {#app:post_task_interview}
+
+1.  What role did searching the web for information play in the course
+    you just completed?
+
+2.  How about other courses?
+
+3.  How do you take notes, and manage your notes? PROBE: Do you have
+    some strategies to organise information?
+
+4.  Over the course of the semester, do you think your information
+    search behaviour and strategies changed? Or remained the same?
+
+5.  I understand that Firefox may not be your usual browser. How was
+    your experience of using Firefox and YASBIL to complete the
+    assignments?
+
+6.  Did you feel restricted while using Firefox?
+
+7.  Did you ever need to switch back to your old browser while
+    completing the assignments?
+
+8.  How did you feel about using YASBIL to record your browsing
+    activity?
+
+9.  Did you feel ever "under surveillance" while using YASBIL?
+
+10. If you were asked to redesign the way students interact with Google
+    or any other Search Engine, what would you do? (PROBE: think about
+    the tasks you had to do for your course, or in your daily life, or
+    perhaps this study; redesign to better support student education)
+
+11. Imagine a scenario where search engines can measure how much
+    information students already know about a certain topic. Do you
+    think it will be useful or desirable?
+
+12. (if yes to previous question): What are some ways by which a search
+    engine could possibly assess a student's existing knowledge?

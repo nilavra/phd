@@ -4,19 +4,19 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>LongSAL: A Longitudinal Study to Understand University Students’ Learning During Search</title>
+  <title>11 Variables and Measures | LongSAL: A Longitudinal Study to Understand University Students’ Learning During Search</title>
   <meta name="description" content="LongSAL: A Longitudinal Study to Understand<br />
 University Students’ Learning During Search</p>" />
   <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="LongSAL: A Longitudinal Study to Understand University Students’ Learning During Search" />
+  <meta property="og:title" content="11 Variables and Measures | LongSAL: A Longitudinal Study to Understand University Students’ Learning During Search" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="LongSAL: A Longitudinal Study to Understand University Students’ Learning During Search" />
+  <meta name="twitter:title" content="11 Variables and Measures | LongSAL: A Longitudinal Study to Understand University Students’ Learning During Search" />
   
   
   
@@ -30,8 +30,8 @@ University Students’ Learning During Search</p>" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="introduction.html"/>
+<link rel="prev" href="app:final_survey.html"/>
+<link rel="next" href="the-first-appendix.html"/>
 <style type="text/css">
 p.abstract{
   text-align: center;
@@ -249,55 +249,275 @@ University Students’ Learning During Search</p></a>
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title"><p>LongSAL: A Longitudinal Study to Understand<br />
-University Students’ Learning During Search</p></h1>
-<p class="author"><em>Nilavra Bhattacharya</em></p>
-<div class="abstract">
-<p class="abstract">Abstract</p>
-<p>This <em>R Markdown</em> template is for writing an Oxford University thesis. The template is built using Yihui Xie’s <code>bookdown</code> package, with heavy inspiration from Chester Ismay’s <code>thesisdown</code> and the <code>OxThesis</code>  template (most recently adapted by John McManigle).</p>
-<p>This template’s sample content include illustrations of how to write a thesis in R Markdown, and largely follows the structure from <a href="https://ulyngs.github.io/rmarkdown-workshop-2019/">this R Markdown workshop</a>.</p>
-<p>Congratulations for taking a step further into the lands of open, reproducible science by writing your thesis using a tool that allows you to transparently include tables and dynamically generated plots directly from the underlying data. Hip hooray!</p>
+<div id="app:variables" class="section level1 hasAnchor" number="11">
+<h1><span class="header-section-number">11</span> Variables and Measures<a href="app:variables.html#app:variables" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This Section contains a non-exhaustive list of possible variables and
+operationalizations of information search behaviour collated from recent
+literature.</p>
+<div id="sec:app_vars_qry" class="section level2 hasAnchor" number="11.1">
+<h2><span class="header-section-number">11.1</span> Query Reformulation Variables<a href="app:variables.html#sec:app_vars_qry" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p><strong>#Queries:</strong> the number of issued queries in a session
+<span class="citation">(<a href="#ref-133" role="doc-biblioref">Mao et al., 2018</a>; <a href="#ref-vakkari2016searching" role="doc-biblioref">Vakkari, 2016</a>)</span></p></li>
+<li><p><strong>Query Reformulation Type (QRT)</strong>, and corresponding counts:</p>
+<ul>
+<li><p><strong>automated:</strong> generalization, specialization, word
+substitution, repeat, new <span class="citation">(<a href="#ref-liu2010analysis" role="doc-biblioref">C. Liu et al., 2010</a>)</span></p></li>
+<li><p><strong>partially manual:</strong> generalization, specialization, parallel
+move, mission change, error correction <span class="citation">(<a href="#ref-boldi2009dango" role="doc-biblioref">Boldi et al., 2009</a>)</span></p></li>
+</ul></li>
+<li><p><strong>#Terms per q.:</strong> the number of terms in a query <span class="citation">(<a href="#ref-133" role="doc-biblioref">Mao et al., 2018</a>)</span></p></li>
+<li><p><strong>#Unique terms:</strong> the number of unique terms in a session <span class="citation">(<a href="#ref-133" role="doc-biblioref">Mao et al., 2018</a>)</span></p></li>
+<li><p><strong>#Unique terms per q.:</strong> (#Unique terms / #queries) , the number of
+unique terms per query (query vocabulary richness, QVR) <span class="citation">(<a href="#ref-133" role="doc-biblioref">Mao et al., 2018</a>)</span></p></li>
+<li><p><strong>#Synonyms:</strong> number of synonyms in terms <span class="citation">(<a href="#ref-vakkari2016searching" role="doc-biblioref">Vakkari, 2016</a>)</span></p></li>
+<li><p><strong>%Terms from desc.:</strong> the ratio of terms from the task description
+/ assignment description <span class="citation">(<a href="#ref-133" role="doc-biblioref">Mao et al., 2018</a>)</span></p></li>
+<li><p><strong>%Terms from SERP:</strong> the proportion of novel query terms found in
+the text of SERPs <span class="citation">(<a href="#ref-133" role="doc-biblioref">Mao et al., 2018</a>)</span></p></li>
+<li><p><strong>%Terms from content page:</strong> the proportion of novel query terms
+found in the text of content pages <span class="citation">(<a href="#ref-133" role="doc-biblioref">Mao et al., 2018</a>)</span></p></li>
+<li><p><strong>%Others:</strong> the proportion of novel query terms from other sources
+(i.e., not webpage text) <span class="citation">(<a href="#ref-133" role="doc-biblioref">Mao et al., 2018</a>)</span></p></li>
+<li><p><strong>Query type time:</strong> time taken to issue the query (may not be a
+signal; will be dependent on typing speed)</p></li>
+<li><p><span class="citation">(<a href="#ref-downey2007models" role="doc-biblioref">Downey et al., 2007</a> Table 3)</span> has more linguistic features of query
+terms: web frequency, geo mean, max bigram, etc. of query terms</p></li>
+</ul>
 </div>
+<div id="sec:app_vars_serp_content_pg" class="section level2 hasAnchor" number="11.2">
+<h2><span class="header-section-number">11.2</span> SERP / Content Page Examination variables<a href="app:variables.html#sec:app_vars_serp_content_pg" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p><strong>Transition Type:</strong> how the browser navigated to a particular URL
+on a particular visit (Appendix
+<a href="app:variables.html#sec:app_vars_transition_typ" reference-type="ref" reference="sec:app_vars_transition_typ">1.6</a>)</p></li>
+<li><p><strong>Dwell time:</strong> time spent on the page (seconds)</p></li>
+<li><p><strong>Avg. page display time:</strong> average length of time for which a
+webpage is viewed during a session <span class="citation">(<a href="#ref-white2009characterizing" role="doc-biblioref">White et al., 2009</a>)</span></p></li>
+<li><p><strong>#Clicks:</strong> number of clicks on page</p></li>
+<li><p><strong>Scroll depth:</strong> how far down the page was scrolled (pixels,
+viewport proportion, % of total webpage length)</p></li>
+<li><p><strong>Click depth:</strong> how far down in the page was a click made</p></li>
+<li><p><strong>Scrolled Distance:</strong> total distance scrolled</p></li>
+<li><p><strong>%Scroll Time:</strong> % of time spent in scrolling</p></li>
+<li><p><strong>Scroll speed:</strong> indicative of reading vs scanning</p></li>
+<li><p><strong>Scroll pattern:</strong> entropy / scroll chaosness</p></li>
+<li><p><strong>#Scroll direction change:</strong> the number of times scrolling
+direction was changed — indicative of hesitancy</p></li>
+<li><p><strong>Non-scroll time:</strong> % of time NOT spent in scrolling, which is
+indicative of reading</p></li>
+<li><p><strong>#Visit-in-session:</strong> whether first visit or revisit, in this
+session</p></li>
+<li><p><strong>#Visit-overall:</strong> whether first visit or revisit, in the whole
+data</p></li>
+<li><p><strong>Number of unclicked hovers:</strong> Median number of times for which the
+query was issued and the URL is hovered on but not clicked, per the
+earlier definition. “We selected the number of unclicked hovers as a
+feature because we found that it was correlated with clickthrough in
+our previous analysis.” <span class="citation">(<a href="#ref-huang2011no" role="doc-biblioref">J. Huang et al., 2011</a>)</span></p></li>
+<li><p><strong>Cursor trail length:</strong> Total distance (in pixels) travelled by the
+cursor on the SERP. <span class="citation">(<a href="#ref-huang2011no" role="doc-biblioref">J. Huang et al., 2011</a>)</span></p></li>
+<li><p><strong>Movement time:</strong> Total time (in seconds) for which the cursor was
+being moved on the SERP. <span class="citation">(<a href="#ref-huang2011no" role="doc-biblioref">J. Huang et al., 2011</a>)</span></p></li>
+<li><p><strong>Cursor speed:</strong> The average cursor speed (in pixels per second) as
+a function of trail length and movement time <span class="citation">(<a href="#ref-huang2011no" role="doc-biblioref">J. Huang et al., 2011</a>)</span></p></li>
+<li><p>All distances / depths can be measured using raw pixel values,
+viewport proportions and % of total webpage lengths</p></li>
+</ul>
 </div>
-<div id="welcome" class="section level1 unnumbered hasAnchor">
-<h1>Welcome<a href="index.html#welcome" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div class="row">
-<div class="col-sm-6">
-<p>Welcome to the <code>bs4</code> output from the <a href="https://github.com/ulyngs/oxforddown"><code>oxforddown</code></a> thesis template for <a href="https://rmarkdown.rstudio.com">R Markdown</a>.
-To view/download the PDF output, <a href="_main.pdf">click here</a> (or click the cover image).
-Enjoy!</p>
-<div class="byline">
-<p>Ulrik Lyngs<br />
-4 January 2021</p>
+<div id="sec:app_vars_serp" class="section level2 hasAnchor" number="11.3">
+<h2><span class="header-section-number">11.3</span> SERP-only variables<a href="app:variables.html#sec:app_vars_serp" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p><strong>Rank:</strong> rank of result clicked</p></li>
+<li><p><strong>Avg. SERP dwell time per query:</strong> Total SERP Dwell Time / #queries
+entered <span class="citation">(<a href="#ref-collins2016assessing" role="doc-biblioref">Collins-Thompson et al., 2016</a>)</span></p></li>
+<li><p><strong>Focus:</strong> “degree to which a SERP is covered by a single topic.
+Topics may be derived based on existing class hierarchies such as
+the Open Directory Project; Experts tend to explore more narrow
+topical spaces than non-experts”
+<span class="citation">(<a href="#ref-eickhoff2014lessons" role="doc-biblioref">Eickhoff et al., 2014</a>; <a href="#ref-rieh2016searching" role="doc-biblioref">Rieh et al., 2016</a>)</span></p></li>
+<li><p><strong>Entropy:</strong> “captures diversity across multiple topics on search
+results pages. Experts typically have higher focus, less diversity,
+and thus, lower entropy across topics” <span class="citation">(<a href="#ref-rieh2016searching" role="doc-biblioref">Rieh et al., 2016</a>)</span></p></li>
+</ul>
 </div>
+<div id="sec:app_vars_content_pg" class="section level2 hasAnchor" number="11.4">
+<h2><span class="header-section-number">11.4</span> Content page-only variables<a href="app:variables.html#sec:app_vars_content_pg" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Avg. Content dwell time per query:</strong> Total content page dwell time
+/ #queries <span class="citation">(<a href="#ref-collins2016assessing" role="doc-biblioref">Collins-Thompson et al., 2016</a>)</span></li>
+</ul>
 </div>
-<div class="col-sm-6 thesis-cover">
-<p><a href="_main.pdf" target="_blank"><img src="templates/cover.png" alt="Download PDF" class="img-fluid"/></a></p>
+<div id="sec:app_vars_overall_search" class="section level2 hasAnchor" number="11.5">
+<h2><span class="header-section-number">11.5</span> Overall Search Behaviour<a href="app:variables.html#sec:app_vars_overall_search" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p><strong>Session length (time):</strong> total time spent in the session, from
+logging software turn on to turn-off (or last page-visit, if
+turn-off time is null)</p></li>
+<li><p><strong>Session length (pages):</strong> no. of pages visited in session,
+including search engine home pages and result pages
+<span class="citation">(<a href="#ref-white2009characterizing" role="doc-biblioref">White et al., 2009</a>)</span></p></li>
+<li><p><strong>Session length (queries):</strong> no. of queries issued in session
+<span class="citation">(<a href="#ref-white2009characterizing" role="doc-biblioref">White et al., 2009</a>)</span></p></li>
+<li><p><strong>#Search engines:</strong> number of unique search engines used (will
+probably be one?)</p></li>
+<li><p><strong>#Tabs:</strong> number of tabs opened during the session</p></li>
+<li><p><strong>#Windows:</strong> number of windows opened during the session</p></li>
+<li><p><strong>Branchiness:</strong> no. of revisits to previous pages in the session
+that were then followed by a forward motion to a previously
+unvisited page in the session<span class="citation">(<a href="#ref-white2009characterizing" role="doc-biblioref">White et al., 2009</a>)</span></p></li>
+<li><p><strong>#Unqiue domains:</strong> number of unique websites visited during the
+session; diversity of websites / breadth of
+coverage<span class="citation">(<a href="#ref-white2009characterizing" role="doc-biblioref">White et al., 2009</a>)</span></p></li>
+<li><p><strong>Ratio of querying to browsing:</strong> proportion of the session that is
+devoted to querying versus browsing pages retrieved by the search
+engine or linked to from search results. A high number (much greater
+than one) means that the session was query-intensive. In contrast, a
+low number (much less than one) means that the session was
+browse-intensive<span class="citation">(<a href="#ref-white2009characterizing" role="doc-biblioref">White et al., 2009</a>)</span></p></li>
+<li><p><strong>#Bookmarks-add:</strong> no. of bookmarks added</p></li>
+<li><p><strong>#Bookmarks-delete:</strong> no. of bookmarks deleted</p></li>
+<li><p><strong>Search success:</strong> “If the final event in a search session was a
+URL click, we scored the session as a success, and if the final
+action was a query, we score the session as a failure.”
+<span class="citation">(<a href="#ref-white2009characterizing" role="doc-biblioref">White et al., 2009</a>)</span></p></li>
+<li><p><strong>Last Page Visited:</strong> Where was the last click in a session?
+<span class="citation">(<a href="#ref-eickhoff2014lessons" role="doc-biblioref">Eickhoff et al., 2014</a>)</span> treated sessions ending at ehow.com as
+procedural search sessions (users visiting tutorial articles), and
+sessions ending at Wikipedia as declarative search sessions.</p></li>
+<li><p><strong>Search visualization:</strong> as described by <span class="citation">(<a href="#ref-bateman2012search" role="doc-biblioref">Bateman et al., 2012</a>)</span></p></li>
+</ul>
 </div>
+<div id="sec:app_vars_transition_typ" class="section level2 hasAnchor" number="11.6">
+<h2><span class="header-section-number">11.6</span> Webpage Transition Types<a href="app:variables.html#sec:app_vars_transition_typ" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In browser history API parlance, a <em>transition type</em> is used to describe
+how the browser navigated to a particular URL on a particular visit.
+E.g., if a user visits a page by clicking a link on another page, the
+transition type is “link”. The following definitions are taken from
+Google Chrome Developer Website<a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a>.</p>
+<ul>
+<li><p><strong>link:</strong> The user got to this page by clicking a link on another
+page.</p></li>
+<li><p><strong>typed:</strong> The user got this page by typing the URL in the address
+bar. Also used for other explicit navigation actions. See also
+generated, which is used for cases where the user selected a choice
+that didn’t look at all like a URL.</p></li>
+<li><p><strong>auto_bookmark:</strong> The user got to this page through a suggestion in
+the UI—for example, through a menu item.</p></li>
+<li><p><strong>auto_subframe:</strong> Subframe navigation. This is any content that is
+automatically loaded in a non-top-level frame. For example, if a
+page consists of several frames containing ads, those ad URLs have
+this transition type. The user may not even realize the content in
+these pages is a separate frame, and so may not care about the URL
+(see also manual_subframe).</p></li>
+<li><p><strong>manual_subframe:</strong> For subframe navigations that are explicitly
+requested by the user and generate new navigation entries in the
+back/forward list. An explicitly requested frame is probably more
+important than an automatically loaded frame because the user
+probably cares about the fact that the requested frame was loaded.</p></li>
+<li><p><strong>generated:</strong> The user got to this page by typing in the address
+bar and selecting an entry that did not look like a URL. For
+example, a match might have the URL of a Google search result page,
+but it might appear to the user as "Search Google for ...". These
+are not quite the same as typed navigations because the user didn’t
+type or see the destination URL. See also keyword.</p></li>
+<li><p><strong>auto_toplevel:</strong> The page was specified in the command line or is
+the start page.</p></li>
+<li><p><strong>form_submit:</strong> The user filled out values in a form and submitted
+it. Note that in some situations—such as when a form uses script
+to submit contents—submitting a form does not result in this
+transition type.</p></li>
+<li><p><strong>reload:</strong> The user reloaded the page, either by clicking the
+reload button or by pressing Enter in the address bar. Session
+restore and Reopen closed tab use this transition type, too.</p></li>
+<li><p><strong>keyword:</strong> The URL was generated from a replaceable keyword other
+than the default search provider. See also keyword_generated.</p></li>
+<li><p><strong>keyword_generated:</strong> Corresponds to a visit generated for a
+keyword. See also keyword.</p></li>
+</ul>
 </div>
-<div id="abstract" class="section level2 unnumbered hasAnchor">
-<h2>Abstract<a href="index.html#abstract" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>This <em>R Markdown</em> template is for writing an Oxford University thesis. The template is built using Yihui Xie’s <code>bookdown</code> package, with heavy inspiration from Chester Ismay’s <code>thesisdown</code> and the <code>OxThesis</code>  template (most recently adapted by John McManigle).</p>
-<p>This template’s sample content include illustrations of how to write a thesis in R Markdown, and largely follows the structure from <a href="https://ulyngs.github.io/rmarkdown-workshop-2019/">this R Markdown workshop</a>.</p>
-<p>Congratulations for taking a step further into the lands of open, reproducible science by writing your thesis using a tool that allows you to transparently include tables and dynamically generated plots directly from the underlying data. Hip hooray!</p>
-</div>
-<div id="acknowledgments" class="section level2 unnumbered hasAnchor">
-<h2>Acknowledgments<a href="index.html#acknowledgments" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>This is where you will normally thank your advisor, colleagues, family and friends, as well as funding and institutional support. In our case, we will give our praises to the people who developed the ideas and tools that allow us to push open science a little step forward by writing plain-text, transparent, and reproducible theses in R Markdown.</p>
-<p>We must be grateful to John Gruber for inventing the original version of Markdown, to John MacFarlane for creating Pandoc (<a href="http://pandoc.org" class="uri">http://pandoc.org</a>) which converts Markdown to a large number of output formats, and to Yihui Xie for creating <code>knitr</code> which introduced R Markdown as a way of embedding code in Markdown documents, and <code>bookdown</code> which added tools for technical and longer-form writing.</p>
-<p>Special thanks to <a href="http://chester.rbind.io">Chester Ismay</a>, who created the <code>thesisdown</code> package that helped many a PhD student write their theses in R Markdown. And a very special thanks to John McManigle, whose adaption of Sam Evans’ adaptation of Keith Gillow’s original maths template for writing an Oxford University DPhil thesis in LaTeX provided the template that I in turn adapted for R Markdown.</p>
-<p>Finally, profuse thanks to JJ Allaire, the founder and CEO of <a href="http://rstudio.com">RStudio</a>, and Hadley Wickham, the mastermind of the tidyverse without whom we’d all just given up and done data science in Python instead. Thanks for making data science easier, more accessible, and more fun for us all.</p>
+<div id="sec:app_vars_concept_maps" class="section level2 hasAnchor" number="11.7">
+<h2><span class="header-section-number">11.7</span> Concept Map Analysis Measures<a href="app:variables.html#sec:app_vars_concept_maps" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The following concept map analysis measures are adapted from
+<span class="citation">(<a href="#ref-halttunen2005assessing" role="doc-biblioref">Halttunen &amp; Jarvelin, 2005</a>)</span>.</p>
+<ul>
+<li><p>The number of concepts in the beginning of instruction (beginning),</p></li>
+<li><p>The number of new concepts presented in second essay (new),</p></li>
+<li><p>The number of concepts in the end of instruction (end),</p></li>
+<li><p>The difference between the number of concepts in the beginning and
+end of instruction (difference),</p></li>
+<li><p>The number of concepts which remained same along the time (stable),</p></li>
+<li><p>The number of concepts that were ignored or changed fundamentally
+along the instruction (changed/ignored),</p></li>
+<li><p>The number of top-level concepts in the end (top level),</p></li>
+<li><p>The number of new top-level concepts presented in the second essay
+(new top level),</p></li>
+<li><p>The number of links between concept hierarchies in the end (links),</p></li>
+<li><p>Maximum depth of hierarchy levels in the end,</p></li>
+<li><p>The number of concepts per different levels of hierarchy in the end,</p></li>
+<li><p>The number of concepts per top-level concepts i.e. hierarchies in
+the end, and</p></li>
+<li><p>The level where new concepts were introduced.</p></li>
+</ul>
 
 </div>
+</div>
+
+
+
+</div>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-bateman2012search" class="csl-entry">
+Bateman, S., Teevan, J., &amp; White, R. (2012). The search dashboard: How reflection and comparison impact search behavior. <em>Proceedings of the 2012 <span>ACM</span> Annual Conference on <span>Human Factors</span> in <span>Computing Systems</span> - <span>CHI</span> ’12</em>, 1785. <a href="https://doi.org/10.1145/2207676.2208311">https://doi.org/10.1145/2207676.2208311</a>
+</div>
+<div id="ref-boldi2009dango" class="csl-entry">
+Boldi, P., Bonchi, F., Castillo, C., &amp; Vigna, S. (2009). From" dango" to" japanese cakes": Query reformulation models and patterns. <em>2009 IEEE/WIC/ACM International Joint Conference on Web Intelligence and Intelligent Agent Technology</em>, <em>1</em>, 183–190.
+</div>
+<div id="ref-collins2016assessing" class="csl-entry">
+Collins-Thompson, K., Rieh, S. Y., Haynes, C. C., &amp; Syed, R. (2016). Assessing learning outcomes in web search: A comparison of tasks and query strategies. <em>Proceedings of the 2016 ACM on Conference on Human Information Interaction and Retrieval</em>, 163–172.
+</div>
+<div id="ref-downey2007models" class="csl-entry">
+Downey, D., Dumais, S. T., &amp; Horvitz, E. (2007). Models of searching and browsing: Languages, studies, and application. <em>IJCAI</em>, <em>7</em>, 2740–2747.
+</div>
+<div id="ref-eickhoff2014lessons" class="csl-entry">
+Eickhoff, C., Teevan, J., White, R., &amp; Dumais, S. (2014). Lessons from the journey: A query log analysis of within-session learning. <em>Proceedings of the 7th ACM International Conference on Web Search and Data Mining</em>, 223–232.
+</div>
+<div id="ref-halttunen2005assessing" class="csl-entry">
+Halttunen, K., &amp; Jarvelin, K. (2005). Assessing learning outcomes in two information retrieval learning environments. <em>Information Processing &amp; Management</em>, <em>41</em>(4), 949–972. <a href="https://doi.org/10.1016/j.ipm.2004.02.004">https://doi.org/10.1016/j.ipm.2004.02.004</a>
+</div>
+<div id="ref-huang2011no" class="csl-entry">
+Huang, J., White, R., &amp; Dumais, S. (2011). No clicks, no problem: Using cursor movements to understand and improve search. <em>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</em>, 1225–1234.
+</div>
+<div id="ref-liu2010analysis" class="csl-entry">
+Liu, C., Gwizdka, J., Liu, J., Xu, T., &amp; Belkin, N. J. (2010). Analysis and evaluation of query reformulations in different task types. <em>Proceedings of the American Society for Information Science and Technology</em>, <em>47</em>(1), 1–9.
+</div>
+<div id="ref-133" class="csl-entry">
+Mao, J., Liu, Y., Kando, N., Zhang, M., &amp; Ma, S. (2018). How does domain expertise affect users’ search interaction and outcome in exploratory search? <em>ACM Transactions on Information Systems</em>, <em>36</em>.
+</div>
+<div id="ref-rieh2016searching" class="csl-entry">
+Rieh, S. Y., Collins-Thompson, K., Hansen, P., &amp; Lee, H.-J. (2016). Towards searching as a learning process: A review of current perspectives and future directions. <em>Journal of Information Science</em>, <em>42</em>(1), 19–34. <a href="https://doi.org/10.1177/0165551515615841">https://doi.org/10.1177/0165551515615841</a>
+</div>
+<div id="ref-vakkari2016searching" class="csl-entry">
+Vakkari, P. (2016). Searching as learning: A systematization based on literature. <em>Journal of Information Science</em>, <em>42</em>(1), 7–18. <a href="https://doi.org/10.1177/0165551515615833">https://doi.org/10.1177/0165551515615833</a>
+</div>
+<div id="ref-white2009characterizing" class="csl-entry">
+White, R., Dumais, S., &amp; Teevan, J. (2009). Characterizing the influence of domain expertise on web search behavior. <em>Proceedings of the <span>Second ACM International Conference</span> on <span>Web Search</span> and <span>Data Mining</span> - <span>WSDM</span> ’09</em>, 132. <a href="https://doi.org/10.1145/1498759.1498819">https://doi.org/10.1145/1498759.1498819</a>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="18">
+<li id="fn18"><p><a href="https://developer.chrome.com/docs/extensions/reference/history/#transition-types" class="uri">https://developer.chrome.com/docs/extensions/reference/history/#transition-types</a><a href="app:variables.html#fnref18" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="app:final_survey.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="the-first-appendix.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -328,7 +548,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/ulyngs/oxforddown/tree/master/index.Rmd",
+"link": "https://github.com/ulyngs/oxforddown/tree/master/ch99f-variables.Rmd",
 "text": "Edit"
 },
 "history": {
