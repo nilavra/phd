@@ -1,4 +1,4 @@
-# SUR1: Entry Survey {#appendix:signup_survey}
+# SUR1: Entry Survey {#app_signup_survey}
 
 ## Demographics {#app_demographics}
 

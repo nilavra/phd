@@ -61,7 +61,7 @@ ch_pilot_study
 ses1-initial-session-1
 ses2-longitudinal-tracking-1
 sec_app_pilot_ses3
-appendix:signup_survey
+app_signup_survey
 app_demographics
 app_search_it_proficiency
 app_course_load
@@ -69,7 +69,7 @@ app_note_taking_strategies
 app_imi
 app_srq
 app_mai
-appendix:pre_post_tasks
+app_pre_post_tasks
 app_pre_task_qsn
 app_post_task_qsn
 app_cta_v_silent
