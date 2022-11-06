@@ -2,13 +2,13 @@
 
 We propose to conduct a remote longitudinal study to investigate the
 research questions and hypotheses discussed in Section
-[\[sec:rq\]](#sec:rq){reference-type="ref" reference="sec:rq"}. The
+[\[sec_rq\]](#sec_rq){reference-type="ref" reference="sec_rq"}. The
 study will primarily be exploratory in nature. The following sections
 discuss the apparatus, procedure, measurement of variables, plans for
 data analysis, anticipated limitations, and the expected timeline for
 the data collection and dissertation defence.
 
-## Study Design {#sec:method_exp_design}
+## Study Design {#sec_method_exp_design}
 
 ![ Final project description, setting up the search tasks throughout the
 semester.
@@ -20,8 +20,8 @@ typical university semester (approximately 16 weeks). Participants will
 be recruited from a course (study site) at the University of Texas at
 Austin (UT Austin). The ideal study site will be a final-project based
 course, where the final-project report (artefact, Section
-[\[sec:bg_learn_artefact\]](#sec:bg_learn_artefact){reference-type="ref"
-reference="sec:bg_learn_artefact"}) will be built over time throughout
+[\[sec_bg_learn_artefact\]](#sec_bg_learn_artefact){reference-type="ref"
+reference="sec_bg_learn_artefact"}) will be built over time throughout
 the semester, with periodic check-ins. Completing the final project will
 require searching and navigating information online, finding relevant
 sources for a set of assigned or self-chosen topics, and weaving a
@@ -31,8 +31,8 @@ The study design was informed by running a pilot study during Summer
 2021 semester, in partnership with two courses at UT Austin School of
 Information: *Information in Cyberspace*, and *Academic Success in the
 Digital University*. More details of the pilot study are presented in
-Appendix [\[ch:pilot_study\]](#ch:pilot_study){reference-type="ref"
-reference="ch:pilot_study"}. The final project overview from the
+Appendix [\[ch_pilot_study\]](#ch_pilot_study){reference-type="ref"
+reference="ch_pilot_study"}. The final project overview from the
 *Information in Cyberspace* course is presented in Figure
 [1.1](#fig_final_project_description){reference-type="ref"
 reference="fig_final_project_description"}. The words or phrases
@@ -76,8 +76,8 @@ choose to participate in the study.
 ### Online Concept Mapping Software
 
 As discussed in Section
-[\[sec:bg_concept_maps\]](#sec:bg_concept_maps){reference-type="ref"
-reference="sec:bg_concept_maps"}, concept maps are an appropriate way to
+[\[sec_bg_concept_maps\]](#sec_bg_concept_maps){reference-type="ref"
+reference="sec_bg_concept_maps"}, concept maps are an appropriate way to
 understand and assess sense-making and change in knowledge structures.
 In this study, participants will produce concept maps whenever they are
 working on an information search task. An appropriate browser based
@@ -87,7 +87,7 @@ mapping for knowledge and learning assessment" and "facilitates
 big-picture comprehension and gives educators deeper insight into
 students' thinking".
 
-## Search Task Template {#sec:method_search_task_template}
+## Search Task Template {#sec_method_search_task_template}
 
 ![ Template for each search task, adapted from the *Information in
 Cyberspace* course at the UT Austin School of Information. Phrases
@@ -97,8 +97,8 @@ width="\\linewidth"}
 
 Participants of the longitudinal study will be performing several search
 tasks throughout the duration of the semester (Section
-[1.4](#sec:method_procedure){reference-type="ref"
-reference="sec:method_procedure"}). The search tasks mentioned will
+[1.4](#sec_method_procedure){reference-type="ref"
+reference="sec_method_procedure"}). The search tasks mentioned will
 generally be on the topics of the material taught in the course. The
 generic template for each search task is presented in Figure
 [1.2](#fig_search_task_template){reference-type="ref"
@@ -107,7 +107,7 @@ reference="fig_search_task_template"}, and is adapted from the
 \[\[square brackets\]\] will be appropriately modified when the study
 site is finalized.
 
-## Procedure {#sec:method_procedure}
+## Procedure {#sec_method_procedure}
 
 ![ Overview of the study procedure.
 ](figs/study_procedure.pdf){#fig_study_procedure width="\\linewidth"}
@@ -117,7 +117,7 @@ outlined in Figure [1.3](#fig_study_procedure){reference-type="ref"
 reference="fig_study_procedure"}. Each of these stages are described
 below.
 
-### SUR1: Entry Survey {#sec:method_sur1}
+### SUR1: Entry Survey {#sec_method_sur1}
 
 Participants will be recruited for the study via the entry survey
 \[SUR1\]. The description of the study and the link to the survey will
@@ -135,34 +135,34 @@ full-text of the questionnaire can be found.
     will be able to proceed once they provide consent.
 
 2.  **Demographics:** (Appendix
-    [\[app:demographics\]](#app:demographics){reference-type="ref"
-    reference="app:demographics"}) demographic information
+    [\[app_demographics\]](#app_demographics){reference-type="ref"
+    reference="app_demographics"}) demographic information
 
 3.  **Search and IT proficiency:** (Appendix
-    [\[app:search_it_proficiency\]](#app:search_it_proficiency){reference-type="ref"
-    reference="app:search_it_proficiency"}) Captures previous search
+    [\[app_search_it_proficiency\]](#app_search_it_proficiency){reference-type="ref"
+    reference="app_search_it_proficiency"}) Captures previous search
     experience, and proficiency in navigating the web. Some items are
     adapted from the *Digital Health Literacy Instrument (DHLI)* by
     [@van2017development], and the *Search Self-Efficacy scale (SSE)* by
     [@brennan2016factor].
 
 4.  **Course Load and other engagements:** (Appendix
-    [\[app:course_load\]](#app:course_load){reference-type="ref"
-    reference="app:course_load"}) To determine how busy the participant
+    [\[app_course_load\]](#app_course_load){reference-type="ref"
+    reference="app_course_load"}) To determine how busy the participant
     will be in the semester, and how much time they plan to allocate for
     the course with which the study is integrated. This will help to
     establish the learner's context.
 
 5.  **Note-taking Strategies:** (Appendix
-    [\[app:note_taking_strategies\]](#app:note_taking_strategies){reference-type="ref"
-    reference="app:note_taking_strategies"}) Captures styles and
+    [\[app_note_taking_strategies\]](#app_note_taking_strategies){reference-type="ref"
+    reference="app_note_taking_strategies"}) Captures styles and
     strategies used by participants to take notes. Adapted from
     *Listening and Note Taking Survey* by
     [@note_taking_survey_penn_state], and *Note Taking Strategies
     Inventory* by [@note_taking_strategies_umass].
 
 6.  **Motivation:** (Appendix
-    [\[app:imi\]](#app:imi){reference-type="ref" reference="app:imi"})
+    [\[app_imi\]](#app_imi){reference-type="ref" reference="app_imi"})
     Adapted from the *Intrinsic Motivation Inventory (IMI)* by
     [@ryan1982control], which is a multidimensional measurement device
     intended to assess participants' subjective experience related to a
@@ -177,26 +177,26 @@ full-text of the questionnaire can be found.
     be present in the mid-term \[SUR2\] and exit \[SUS3\] surveys.
 
 7.  **Self-regulation:** (Appendix
-    [\[app:srq\]](#app:srq){reference-type="ref" reference="app:srq"})
+    [\[app_srq\]](#app_srq){reference-type="ref" reference="app_srq"})
     Adapted from the *Self-Regulation Questionnaire (SRQ)* by
     [@brown1999self], which assess seven self-regulatory processes
     through self-report: receiving relevant information, evaluating the
     information and comparing it to norms, triggering change, searching
     for options, formulating a plan, implementing the plan, and
     assessing the plan's effectiveness (Section
-    [\[sec:bg_learn_self_regulation\]](#sec:bg_learn_self_regulation){reference-type="ref"
-    reference="sec:bg_learn_self_regulation"}).
+    [\[sec_bg_learn_self_regulation\]](#sec_bg_learn_self_regulation){reference-type="ref"
+    reference="sec_bg_learn_self_regulation"}).
 
 8.  **Metacognition:** (Appendix
-    [\[app:mai\]](#app:mai){reference-type="ref" reference="app:mai"})
+    [\[app_mai\]](#app_mai){reference-type="ref" reference="app_mai"})
     Adapted from the *Metacognivite Awareness Inventory (MAI)*,
     originally proposed by [@schraw1994assessing] as a 52-item true /
     false questionnaire, and later revised by [@terlecki2018call] to use
     five-point Likert scales. The instrument measures two components of
     cognition through self-report: knowledge about cognition, and
     regulation of cognition (Section
-    [\[sec:bg_learn_metacognition\]](#sec:bg_learn_metacognition){reference-type="ref"
-    reference="sec:bg_learn_metacognition"}).
+    [\[sec_bg_learn_metacognition\]](#sec_bg_learn_metacognition){reference-type="ref"
+    reference="sec_bg_learn_metacognition"}).
 
 After completing the entry survey, participants will be asked to prepare
 for the initial synchronous session, \[SES1\], by *(i)* installing
@@ -239,7 +239,7 @@ are described below.
     which one will be repeated in the final session \[SES3\] at the end
     of the semester, and the other will not be repeated. This will help
     to answer research question RQ2 (Section
-    [\[sec:rq\]](#sec:rq){reference-type="ref" reference="sec:rq"}). The
+    [\[sec_rq\]](#sec_rq){reference-type="ref" reference="sec_rq"}). The
     order of the two search tasks will be randomized. The generic format
     the search tasks are described in Figure
     [1.2](#fig_search_task_template){reference-type="ref"
@@ -254,8 +254,8 @@ are described below.
     will be on topics that will be taught in the course serving as the
     site for the study. Examples of search tasks used in the Pilot Study
     are in Appendix
-    [\[ch:pilot_study\]](#ch:pilot_study){reference-type="ref"
-    reference="ch:pilot_study"}. Each search task is expected to take
+    [\[ch_pilot_study\]](#ch_pilot_study){reference-type="ref"
+    reference="ch_pilot_study"}. Each search task is expected to take
     around 20 minutes.
 
     To answer RQ3 (effect of externalisation and articulation in
@@ -266,8 +266,8 @@ are described below.
     balanced.
 
     Each search task will begin with a pre-task questionnaire (Appendix
-    [\[app:pre_task_qsn\]](#app:pre_task_qsn){reference-type="ref"
-    reference="app:pre_task_qsn"}), which asks participants to self-rate
+    [\[app_pre_task_qsn\]](#app_pre_task_qsn){reference-type="ref"
+    reference="app_pre_task_qsn"}), which asks participants to self-rate
     their pre-search topic knowledge and interest. Then participants
     will turn on the YASBIL browsing logger and start searching. The
     deliverable for each search task will be a written summary
@@ -275,8 +275,8 @@ are described below.
     the quality of the deliverable, they will turn off YASBIL browsing
     logger, and proceed to the post-task questionnaire. The post-task
     questionnaire (Appendix
-    [\[app:post_task_qsn\]](#app:post_task_qsn){reference-type="ref"
-    reference="app:post_task_qsn"}) asks participants to self-rate their
+    [\[app_post_task_qsn\]](#app_post_task_qsn){reference-type="ref"
+    reference="app_post_task_qsn"}) asks participants to self-rate their
     post-search topic knowledge, search experience, interest and
     motivation, and overall perceptions. The pre-task and post-task
     questionnaires are adapted from
@@ -284,8 +284,8 @@ are described below.
     search tasks are completed, participants will answer questions about
     whether they preferred the think-aloud condition or the silent
     condition, and why (Appendix
-    [\[app:cta_v\_silent\]](#app:cta_v_silent){reference-type="ref"
-    reference="app:cta_v_silent"}).
+    [\[app_cta_v\_silent\]](#app_cta_v_silent){reference-type="ref"
+    reference="app_cta_v_silent"}).
 
 3.  **Webpage Comparison Assessment:** To assess participants'
     (mis)information evaluation capabilities, they will perform a
@@ -337,22 +337,22 @@ Firefox, turn YASBIL on, and incrementally update the concept map.
 Participants will receive USD 5 per each assignment for which they log
 data, up to a maximum of USD 20 for four assignments.
 
-### SUR2: Mid-Term Survey {#sec:method_sur2}
+### SUR2: Mid-Term Survey {#sec_method_sur2}
 
 The mid-term survey \[SUR2\] will take place around the mid point of the
 semester (Week 8-9). The purpose is to track whether any of the
 participants' individual difference measures (e.g. motivation,
 metacognition, course load etc.) changed during the first half of the
 semester. This survey will essentially be a replica of the Entry Survey
-\[SUR1\] (Section [1.4.1](#sec:method_sur1){reference-type="ref"
-reference="sec:method_sur1"}), with two modifications. First, the
+\[SUR1\] (Section [1.4.1](#sec_method_sur1){reference-type="ref"
+reference="sec_method_sur1"}), with two modifications. First, the
 consent form and the demographics sections will be absent. Second,
 Intrinsic Motivation Inventory (IMI) will include the 'pressure/tension'
 and the 'perceived choice' subscales, as these scales are more
 meaningful after an activity has taken place [@ryan1982control]. The IMI
 will also be reworded to reflect the mid-point of the semester (Appendix
-[\[app:midterm_survey\]](#app:midterm_survey){reference-type="ref"
-reference="app:midterm_survey"}). Participants will be compensated with
+[\[app_midterm_survey\]](#app_midterm_survey){reference-type="ref"
+reference="app_midterm_survey"}). Participants will be compensated with
 USD 5 for their time for completing this step.
 
 ### SES3: Final Session
@@ -389,10 +389,10 @@ experience. Certain 'interesting' handpicked sessions from their
 submitted logs may be identified and questions about them can also be
 asked to participants. A list of the interview questions asked in the
 Pilot Study (Appendix
-[\[ch:pilot_study\]](#ch:pilot_study){reference-type="ref"
-reference="ch:pilot_study"}) are presented in Appendix
-[\[app:post_task_interview\]](#app:post_task_interview){reference-type="ref"
-reference="app:post_task_interview"}, which can be reused.
+[\[ch_pilot_study\]](#ch_pilot_study){reference-type="ref"
+reference="ch_pilot_study"}) are presented in Appendix
+[\[app_post_task_interview\]](#app_post_task_interview){reference-type="ref"
+reference="app_post_task_interview"}, which can be reused.
 
 Similar to SES1, participants will be asked to share their screen for
 the whole duration of the session, except for the interview, whence they
@@ -409,11 +409,11 @@ The exit survey \[SUR3\] will take place after the Final Session
 individual difference measures (e.g. motivation, metacognition, course
 load etc.), and whether they changed during the second half of the
 semester. This survey will essentially be a replica of the mid-term
-survey \[SUR2\] (Section [1.4.4](#sec:method_sur2){reference-type="ref"
-reference="sec:method_sur2"}), with the Intrinsic Motivation Inventory
+survey \[SUR2\] (Section [1.4.4](#sec_method_sur2){reference-type="ref"
+reference="sec_method_sur2"}), with the Intrinsic Motivation Inventory
 (IMI) reworded to reflect the end-point of the semester (Appendix
-[\[app:final_survey\]](#app:final_survey){reference-type="ref"
-reference="app:final_survey"}). Participants will be compensated with
+[\[app_final_survey\]](#app_final_survey){reference-type="ref"
+reference="app_final_survey"}). Participants will be compensated with
 USD 5 for their time for completing this step. If participants do not
 take the survey within three days (say) after appearing for SES3, they
 will be sent reminder emails.
@@ -429,8 +429,8 @@ The independent variables will be the search process behavioural
 measures. Information searching behaviour will be operationalized using
 a battery of search process measures, based on the three-stages of user
 interaction discussed in Section
-[\[sec:bg_search_3\_stage\]](#sec:bg_search_3_stage){reference-type="ref"
-reference="sec:bg_search_3_stage"}. These measures include query
+[\[sec_bg_search_3\_stage\]](#sec_bg_search_3_stage){reference-type="ref"
+reference="sec_bg_search_3_stage"}. These measures include query
 reformulation types and measures
 (Table [\[tab_res_Q\_QRT_txnmy\]](#tab_res_Q_QRT_txnmy){reference-type="ref"
 reference="tab_res_Q_QRT_txnmy"}), SERP examination measures, content
@@ -439,10 +439,10 @@ page examination measures, and overall search session measures (Table
 reference="tab_search_behaviours"}). A non-exhaustive list of such
 search process measures which have been used in prior literature is
 presented in Appendices
-[\[sec:app_vars_qry\]](#sec:app_vars_qry){reference-type="ref"
-reference="sec:app_vars_qry"} through
-[\[sec:app_vars_overall_search\]](#sec:app_vars_overall_search){reference-type="ref"
-reference="sec:app_vars_overall_search"}.
+[\[sec_app_vars_qry\]](#sec_app_vars_qry){reference-type="ref"
+reference="sec_app_vars_qry"} through
+[\[sec_app_vars_overall_search\]](#sec_app_vars_overall_search){reference-type="ref"
+reference="sec_app_vars_overall_search"}.
 
 ### Dependant / Outcome: Learning Measures
 
@@ -450,8 +450,8 @@ Learning (knowledge gain) will constitute the dependant variables, or
 factor variables, when dichotomized via median split. Learning outcomes
 are planned to be assessed by: *(i)* analysis of concept maps
 [@halttunen2005assessing] (Appendix
-[\[sec:app_vars_concept_maps\]](#sec:app_vars_concept_maps){reference-type="ref"
-reference="sec:app_vars_concept_maps"}); *(ii)* analysis of written
+[\[sec_app_vars_concept_maps\]](#sec_app_vars_concept_maps){reference-type="ref"
+reference="sec_app_vars_concept_maps"}); *(ii)* analysis of written
 summaries / knowledge artefacts [@wilson2013comparison]; and *(iii)*
 instructor awarded scores and grades received by students in the course,
 which will be obtained via FERPA release. Time, resources and
@@ -476,8 +476,8 @@ proficiency, scored using Digital Health Literacy Instrument (DHLI)
 (mastery / emerging / beginner), scored according to rubrics provided by
 [@sheg2021webpage_comparison] assessments (an example grading rubric is
 present in Appendix
-[\[sec:app_pilot_ses3\]](#sec:app_pilot_ses3){reference-type="ref"
-reference="sec:app_pilot_ses3"} Task 3).
+[\[sec_app_pilot_ses3\]](#sec_app_pilot_ses3){reference-type="ref"
+reference="sec_app_pilot_ses3"} Task 3).
 
 ## Data Analysis Plans
 

@@ -1,10 +1,10 @@
-# Variables and Measures {#app:variables}
+# Variables and Measures {#app_variables}
 
 This Section contains a non-exhaustive list of possible variables and
 operationalizations of information search behaviour collated from recent
 literature.
 
-## Query Reformulation Variables {#sec:app_vars_qry}
+## Query Reformulation Variables {#sec_app_vars_qry}
 
 -   **#Queries:** the number of issued queries in a session
     [@133; @vakkari2016searching]
@@ -44,12 +44,12 @@ literature.
 -   [@downey2007models Table 3] has more linguistic features of query
     terms: web frequency, geo mean, max bigram, etc. of query terms
 
-## SERP / Content Page Examination variables {#sec:app_vars_serp_content_pg}
+## SERP / Content Page Examination variables {#sec_app_vars_serp_content_pg}
 
 -   **Transition Type:** how the browser navigated to a particular URL
     on a particular visit (Appendix
-    [1.6](#sec:app_vars_transition_typ){reference-type="ref"
-    reference="sec:app_vars_transition_typ"})
+    [1.6](#sec_app_vars_transition_typ){reference-type="ref"
+    reference="sec_app_vars_transition_typ"})
 
 -   **Dwell time:** time spent on the page (seconds)
 
@@ -101,7 +101,7 @@ literature.
 -   All distances / depths can be measured using raw pixel values,
     viewport proportions and % of total webpage lengths
 
-## SERP-only variables {#sec:app_vars_serp}
+## SERP-only variables {#sec_app_vars_serp}
 
 -   **Rank:** rank of result clicked
 
@@ -118,12 +118,12 @@ literature.
     results pages. Experts typically have higher focus, less diversity,
     and thus, lower entropy across topics" [@rieh2016searching]
 
-## Content page-only variables {#sec:app_vars_content_pg}
+## Content page-only variables {#sec_app_vars_content_pg}
 
 -   **Avg. Content dwell time per query:** Total content page dwell time
     / #queries [@collins2016assessing]
 
-## Overall Search Behaviour {#sec:app_vars_overall_search}
+## Overall Search Behaviour {#sec_app_vars_overall_search}
 
 -   **Session length (time):** total time spent in the session, from
     logging software turn on to turn-off (or last page-visit, if
@@ -174,7 +174,7 @@ literature.
 
 -   **Search visualization:** as described by [@bateman2012search]
 
-## Webpage Transition Types {#sec:app_vars_transition_typ}
+## Webpage Transition Types {#sec_app_vars_transition_typ}
 
 In browser history API parlance, a *transition type* is used to describe
 how the browser navigated to a particular URL on a particular visit.
@@ -231,7 +231,7 @@ Google Chrome Developer Website[^1].
 -   **keyword_generated:** Corresponds to a visit generated for a
     keyword. See also keyword.
 
-## Concept Map Analysis Measures {#sec:app_vars_concept_maps}
+## Concept Map Analysis Measures {#sec_app_vars_concept_maps}
 
 The following concept map analysis measures are adapted from
 [@halttunen2005assessing].

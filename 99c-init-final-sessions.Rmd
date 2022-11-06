@@ -4,7 +4,7 @@ Pre-Test session (SES1) is conducted at the beginning of the semester,
 and the Post-Test session (SES3) is conducted at the end of the
 semester.
 
-## Pre-Task Questionnaire (for SES1 and SES3) {#app:pre_task_qsn}
+## Pre-Task Questionnaire (for SES1 and SES3) {#app_pre_task_qsn}
 
 The following items are adapted from [@collins2016assessing].
 
@@ -39,7 +39,7 @@ The following items are adapted from [@crescenzi2020adaptation].
 9.  I am confident I know (or can find) adequate information to write a
     good summary.
 
-## Post-Task Questionnaire (for SES1 and SES3) {#app:post_task_qsn}
+## Post-Task Questionnaire (for SES1 and SES3) {#app_post_task_qsn}
 
 The following items are adapted from [@collins2016assessing].
 
@@ -150,7 +150,7 @@ The following items are adapted from [@crescenzi2020adaptation].
 40. I was most concerned about finding information on one specific
     aspect.
 
-## Preference for CTA vs Silent Condition {#app:cta_v_silent}
+## Preference for CTA vs Silent Condition {#app_cta_v_silent}
 
 1.  You were asked to talk-aloud for one task, and work in silence for
     the other. Which one was better?
@@ -167,7 +167,7 @@ The following items are adapted from [@crescenzi2020adaptation].
 
 2.  Why?
 
-## Semi-structured Interview Questions (at the end of SES3) {#app:post_task_interview}
+## Semi-structured Interview Questions (at the end of SES3) {#app_post_task_interview}
 
 1.  What role did searching the web for information play in the course
     you just completed?

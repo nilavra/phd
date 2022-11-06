@@ -1,4 +1,4 @@
-# Background: Information Searching {#ch:bg_search}
+# Background: Information Searching {#ch_bg_search}
 
 This second chapter on background literature discusses relevant concepts
 from the disciplines of Information Sciences, and more specifically
@@ -15,7 +15,7 @@ number of longitudinal studies. In the last section, we state what
 implications these findings have for shaping the proposed study in this
 dissertation proposal.
 
-## Terminology {#sec:bg_search_terminology}
+## Terminology {#sec_bg_search_terminology}
 
 **Information retrieval** (IR) is the process of obtaining *information
 objects*, that are *relevant* to an *information need*, from a
@@ -106,7 +106,7 @@ by algorithmic systems. The situation becomes more interesting because
 relevance always depends on context, and the context is ever dynamic, as
 the matter at hand changes.
 
-## Three-stage Interactions with Online Search Systems {#sec:bg_search_3_stage}
+## Three-stage Interactions with Online Search Systems {#sec_bg_search_3_stage}
 
 ![ Models of information search process, with our coloured annotations
 identifying the three stages.
@@ -153,7 +153,7 @@ During the search, the various interactions (queries, clicks, webpages
 opened etc.) are recorded, and these are analysed and correlated with
 other sources of data to answer research questions.
 
-### Stage 1: Query (Re)formulation {#sec:bg_search_query}
+### Stage 1: Query (Re)formulation {#sec_bg_search_query}
 
 *How do users behave when submitting search queries (to an IR system)?*
 
@@ -275,7 +275,7 @@ rest 20% of the tasks, participants switched languages for querying,
 with a transition from first language to second language being the most
 common.
 
-### Stage 2: Search Results Evaluation {#sec:bg_search_list}
+### Stage 2: Search Results Evaluation {#sec_bg_search_list}
 
 *How do users behave when examining a list of information-objects
 (returned by an IR system)?*
@@ -390,7 +390,7 @@ However, none of these differences were statistically significant.
 
 The novel query-preview interface by @121 was discussed in
 Section [1.2.1](#sec:bg_search_query){reference-type="ref"
-reference="sec:bg_search_query"} and in
+reference="sec_bg_search_query"} and in
 Figure [1.3](#fig_int_Q){reference-type="ref" reference="fig_int_Q"}(a).
 The authors also reported several observations about user behaviour on
 SERPs. They saw that the presence of the preview visualization enabled
@@ -492,8 +492,8 @@ etc.) were also observed recently for searchers with dyslexia
 Searcher's native language also influenced SERP interaction behaviour
 [@132] (Figure [1.4](#fig_int_L_serp){reference-type="ref"
 reference="fig_int_L_serp"}(c)). We discussed in
-Section [1.2.1](#sec:bg_search_query){reference-type="ref"
-reference="sec:bg_search_query"} that users strongly preferred issuing
+Section [1.2.1](#sec_bg_search_query){reference-type="ref"
+reference="sec_bg_search_query"} that users strongly preferred issuing
 queries in a single language, especially their native language. However,
 while examining SERPs, they marked search results in both their first
 language and second language to be relevant, to an equal degree. This
@@ -541,7 +541,7 @@ instance, 'images' and 'software download' verticals had higher visual
 attention, while news verticals had equal attention as the "ten blue
 links" search results.
 
-### Stage 3: Content Page Evaluation {#sec:bg_search_content_page}
+### Stage 3: Content Page Evaluation {#sec_bg_search_content_page}
 
 *How do users behave when examining a single information-object (e.g., a
 a non-search-engine webpage, aka content page) obtained from an IR
@@ -658,18 +658,18 @@ attention was diverted to non-focal areas on content pages. However,
 there was little effect of *competition for attention* on how the
 results were viewed on SERPs. Users exhibited the familiar top-to-bottom
 pattern of viewing
-(Section [1.2.2](#sec:bg_search_list){reference-type="ref"
-reference="sec:bg_search_list"}), paying the most attention to the top
+(Section [1.2.2](#sec_bg_search_list){reference-type="ref"
+reference="sec_bg_search_list"}), paying the most attention to the top
 two entries.
 
-## Effects of Expertise and Working Memory on Search Behaviour {#sec:bg_search_expertise}
+## Effects of Expertise and Working Memory on Search Behaviour {#sec_bg_search_expertise}
 
 ![image](figs/search_behaviours.pdf){width="\\linewidth"}
 
 Our focus of discussion in this proposal is information searching and
 learning. As we saw in Chapter
-[\[ch:bg_learn\]](#ch:bg_learn){reference-type="ref"
-reference="ch:bg_learn"}, learning and expertise are closely connected:
+[\[ch_bg_learn\]](#ch_bg_learn){reference-type="ref"
+reference="ch_bg_learn"}, learning and expertise are closely connected:
 expertise is an evolving characteristic of users that reflects learning
 over time, rather than being a static property
 [@rieh2016searching; @sawyer2005cambridge]. [@white2016interactions
@@ -786,14 +786,14 @@ knowledge state, evaluating such responses is the most challenging, and
 requires extensive human intervention
 [@wilson2013comparison; @leu2015new; @kanniainen2021assessing] (as
 discussed in Section
-[\[sec:bg_learn_artefact\]](#sec:bg_learn_artefact){reference-type="ref"
-reference="sec:bg_learn_artefact"}). **Visual mapping** techniques such
+[\[sec_bg_learn_artefact\]](#sec_bg_learn_artefact){reference-type="ref"
+reference="sec_bg_learn_artefact"}). **Visual mapping** techniques such
 as mind maps and concept maps have also been used to assess learning
 during search
 [@halttunen2005assessing; @egusa2010usingb; @egusa2014howd; @egusa2014howe; @egusa2017evaluating].
 Concept maps have been discussed at length in Section
-[\[sec:bg_concept_maps\]](#sec:bg_concept_maps){reference-type="ref"
-reference="sec:bg_concept_maps"}. Learning has also been measured in
+[\[sec_bg_concept_maps\]](#sec_bg_concept_maps){reference-type="ref"
+reference="sec_bg_concept_maps"}. Learning has also been measured in
 **other ways**, such as user's familiarity with concepts and
 relationships between concepts [@pirolli1996scatter], gains in user's
 understanding of the topic structure, e.g., via conceptual changes
@@ -803,14 +803,14 @@ ability to formulate more effective queries
 
 ## Limitations of Current Search Systems in Fostering Learning
 
-### Longitudinal studies {#sec:bg_search_longitudinal_studies}
+### Longitudinal studies {#sec_bg_search_longitudinal_studies}
 
 Learning is a longitudinal process, occurring gradually over time
 (Sections
-[\[sec:bg_learn_sensemaking\]](#sec:bg_learn_sensemaking){reference-type="ref"
-reference="sec:bg_learn_sensemaking"} and
-[\[sec:bg_learn_principles\]](#sec:bg_learn_principles){reference-type="ref"
-reference="sec:bg_learn_principles"}). Therefore, information
+[\[sec_bg_learn_sensemaking\]](#sec_bg_learn_sensemaking){reference-type="ref"
+reference="sec_bg_learn_sensemaking"} and
+[\[sec_bg_learn_principles\]](#sec_bg_learn_principles){reference-type="ref"
+reference="sec_bg_learn_principles"}). Therefore, information
 researchers have studied participant's search behaviour in prior,
 **albeit few**, longitudinal studies. Examples include studies by
 [@kelly2006measuring_a; @kelly2006measuring_b; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
@@ -855,11 +855,11 @@ over-reliance on short studies risks inaccurate findings, potentially
 resulting in prematurely embracing or disregarding new concepts"
 [@HCIUXres81_online].
 
-### Supporting sensemaking and reflection {#sec:bg_search_sensemaking}
+### Supporting sensemaking and reflection {#sec_bg_search_sensemaking}
 
 As we saw in Section
-[\[sec:bg_learn_sensemaking\]](#sec:bg_learn_sensemaking){reference-type="ref"
-reference="sec:bg_learn_sensemaking"}, learning *is* sensemaking. Yet,
+[\[sec_bg_learn_sensemaking\]](#sec_bg_learn_sensemaking){reference-type="ref"
+reference="sec_bg_learn_sensemaking"}, learning *is* sensemaking. Yet,
 modern search systems are still quite far from supporting sensemaking
 and learning, and rather, at best are good *locators* of information.
 [@rieh2016searching] says that modern search systems should support
@@ -886,7 +886,7 @@ expertise.
 
 -- [@ko2021seeking] (emphasis our own)
 
-## Summary {#sec:bg_search_summary}
+## Summary {#sec_bg_search_summary}
 
 In this second chapter of the background literature review, we discussed
 *(i)* how searchers interact with three stages / interfaces of modern

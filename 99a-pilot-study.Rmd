@@ -1,4 +1,4 @@
-# Prior Work: Pilot Study {#ch:pilot_study}
+# Prior Work: Pilot Study {#ch_pilot_study}
 
 A pilot study was conducted in the Summer of 2021 at the School of
 Information, University of Texas at Austin (Texas iSchool). This was
@@ -103,7 +103,7 @@ forgot to log their data for the first two assignments, despite the
 email reminder. However, upon following up with them, they remembered to
 log their data for the third and fourth sessions.
 
-## SES3: Final Session {#sec:app_pilot_ses3}
+## SES3: Final Session {#sec_app_pilot_ses3}
 
 All eight participants from SES1 completed SES3 (no drop off).
 Participants performed two search tasks, and one website reliability
@@ -112,8 +112,8 @@ measurement of mental workload using NASA-TLX. At the end of the tasks,
 they underwent a short semi-structured interview to reflect on their
 overall study experience. The interview questions can be found in
 Appendix
-[\[app:post_task_interview\]](#app:post_task_interview){reference-type="ref"
-reference="app:post_task_interview"}.
+[\[app_post_task_interview\]](#app_post_task_interview){reference-type="ref"
+reference="app_post_task_interview"}.
 
  \
 **Task 1: Financial Literacy** (Repeated from SES1)
@@ -243,7 +243,7 @@ After Task 3, participants participated in a semi-structured interview
 to reflect on their overall searching and learning experience, as well
 as participating in the study. The questions asked in the interview are
 presented in Appendix
-[\[app:post_task_interview\]](#app:post_task_interview){reference-type="ref"
-reference="app:post_task_interview"}.
+[\[app_post_task_interview\]](#app_post_task_interview){reference-type="ref"
+reference="app_post_task_interview"}.
 
 [^1]: <https://cor.stanford.edu/curriculum/assessments/website-reliability>

@@ -1,49 +1,49 @@
 # Research Questions and Hypotheses
 
-## Research Questions {#sec:rq}
+## Research Questions {#sec_rq}
 
 Combining empirical findings and gaps in the literature from the
 disciplines of Education (Chapter
-[\[ch:bg_learn\]](#ch:bg_learn){reference-type="ref"
-reference="ch:bg_learn"}) and Information (Chapter
-[\[ch:bg_search\]](#ch:bg_search){reference-type="ref"
-reference="ch:bg_search"}), we saw that:
+[\[ch_bg_learn\]](#ch_bg_learn){reference-type="ref"
+reference="ch_bg_learn"}) and Information (Chapter
+[\[ch_bg_search\]](#ch_bg_search){reference-type="ref"
+reference="ch_bg_search"}), we saw that:
 
 -   searching for information online is an integral part of new learning
     (Section
-    [\[sec:bg_learn_info_eval\]](#sec:bg_learn_info_eval){reference-type="ref"
-    reference="sec:bg_learn_info_eval"})
+    [\[sec_bg_learn_info_eval\]](#sec_bg_learn_info_eval){reference-type="ref"
+    reference="sec_bg_learn_info_eval"})
 
 -   learning happens when students connect new pieces of information to
     their existing knowledge structures via assimilation, restructuring,
     or tuning (Section
-    [\[sec:bg_learn_sensemaking\]](#sec:bg_learn_sensemaking){reference-type="ref"
-    reference="sec:bg_learn_sensemaking"}), and this process is
+    [\[sec_bg_learn_sensemaking\]](#sec_bg_learn_sensemaking){reference-type="ref"
+    reference="sec_bg_learn_sensemaking"}), and this process is
     influenced by the learner's individual traits (Section
-    [\[sec:bg_learn_promoting_learning\]](#sec:bg_learn_promoting_learning){reference-type="ref"
-    reference="sec:bg_learn_promoting_learning"})
+    [\[sec_bg_learn_promoting_learning\]](#sec_bg_learn_promoting_learning){reference-type="ref"
+    reference="sec_bg_learn_promoting_learning"})
 
 -   modern knowledge-work requires less of long term memory, and more of
     creation of knowledge-artefacts, which should be treated as better
     assessors and outcomes of learning (Section
-    [\[sec:bg_learn_artefact\]](#sec:bg_learn_artefact){reference-type="ref"
-    reference="sec:bg_learn_artefact"})
+    [\[sec_bg_learn_artefact\]](#sec_bg_learn_artefact){reference-type="ref"
+    reference="sec_bg_learn_artefact"})
 
 -   domain expertise and search behaviour are strongly linked (Section
-    [\[sec:bg_search_expertise\]](#sec:bg_search_expertise){reference-type="ref"
-    reference="sec:bg_search_expertise"})
+    [\[sec_bg_search_expertise\]](#sec_bg_search_expertise){reference-type="ref"
+    reference="sec_bg_search_expertise"})
 
 -   learning is a process that takes place longitudinally over time
     (Sections
-    [\[sec:bg_learn_sensemaking\]](#sec:bg_learn_sensemaking){reference-type="ref"
-    reference="sec:bg_learn_sensemaking"} and
-    [\[sec:bg_learn_principles\]](#sec:bg_learn_principles){reference-type="ref"
-    reference="sec:bg_learn_principles"}), yet only a handful of studies
+    [\[sec_bg_learn_sensemaking\]](#sec_bg_learn_sensemaking){reference-type="ref"
+    reference="sec_bg_learn_sensemaking"} and
+    [\[sec_bg_learn_principles\]](#sec_bg_learn_principles){reference-type="ref"
+    reference="sec_bg_learn_principles"}), yet only a handful of studies
     (mostly over a decade ago) have investigated the intertwined process
     of searchers' learning and their information searching behaviour
     over time (Section
-    [\[sec:bg_search_longitudinal_studies\]](#sec:bg_search_longitudinal_studies){reference-type="ref"
-    reference="sec:bg_search_longitudinal_studies"})
+    [\[sec_bg_search_longitudinal_studies\]](#sec_bg_search_longitudinal_studies){reference-type="ref"
+    reference="sec_bg_search_longitudinal_studies"})
 
 -   this creates acute gaps in our knowledge about long term information
     searching and learning behaviour, which is crucial for building
@@ -54,16 +54,16 @@ Guided by the above insights, we ask the following research questions in
 this dissertation proposal, and aim to answer them via a longitudinal
 study of students' information search behaviour and learning outcomes
 over the course of a university semester (Section
-[\[sec:method_exp_design\]](#sec:method_exp_design){reference-type="ref"
-reference="sec:method_exp_design"}). For the purposes of this
+[\[sec_method_exp_design\]](#sec_method_exp_design){reference-type="ref"
+reference="sec_method_exp_design"}). For the purposes of this
 dissertation, we consider learning as change in a student's knowledge
 about certain topics over the duration of a university semester.
 
 The research questions are first stated in this section, to put them all
 together in one place for easy reference. Then the overarching
 hypotheses are discussed in Section
-[1.2](#sec:rq_hypotheses){reference-type="ref"
-reference="sec:rq_hypotheses"}.
+[1.2](#sec_rq_hypotheses){reference-type="ref"
+reference="sec_rq_hypotheses"}.
 
 > **RQ1:** What kind of longitudinal information search behaviours are
 > correlated to the degree of change in students' knowledge levels and
@@ -80,21 +80,21 @@ reference="sec:rq_hypotheses"}.
 > **RQ4:** How do (changing) individual differences of students moderate
 > their information search behaviours and learning outcomes?
 
-## Overarching Hypotheses {#sec:rq_hypotheses}
+## Overarching Hypotheses {#sec_rq_hypotheses}
 
 In this Section, we discuss the research framework and hypotheses behind
 the research questions. The study is primarily planned to be
 exploratory, therefore the hypotheses are exploratory in nature as well.
 
-### Learning as Students' Transition from Novice to Expert (RQ1, RQ2) {#sec:framework_rq1_rq2}
+### Learning as Students' Transition from Novice to Expert (RQ1, RQ2) {#sec_framework_rq1_rq2}
 
 Learning and expertise are closely connected: expertise is an evolving
 characteristic of learners that reflects learning over time, rather than
 being a static property [@rieh2016searching]. Domain expertise and
 search behaviour has been studied, albeit mostly during single lab
 sessions, and sometimes longitudinally (Section
-[\[sec:bg_search_expertise\]](#sec:bg_search_expertise){reference-type="ref"
-reference="sec:bg_search_expertise"}). There is a clear gap in
+[\[sec_bg_search_expertise\]](#sec_bg_search_expertise){reference-type="ref"
+reference="sec_bg_search_expertise"}). There is a clear gap in
 understanding how higher education students search for information in
 the long term, how their information use behaviour develop over time,
 and how it affects their learning [@zlatkin2021students]. RQ1 and RQ2
@@ -120,24 +120,24 @@ literacy). We hypothesize that
     satisfice with previously found information, will have links to
     motivation and self-regulation
 
-### Promoting Better Learning (RQ3, RQ4) {#sec:framework_rq3_rq4}
+### Promoting Better Learning (RQ3, RQ4) {#sec_framework_rq3_rq4}
 
 Better learning takes place when students articulate and their unformed
 and still developing understanding, and continue to articulate it
 throughout the learning process (Section
-[\[sec:bg_learn_articulation\]](#sec:bg_learn_articulation){reference-type="ref"
-reference="sec:bg_learn_articulation"}). Also, students' motivation,
+[\[sec_bg_learn_articulation\]](#sec_bg_learn_articulation){reference-type="ref"
+reference="sec_bg_learn_articulation"}). Also, students' motivation,
 self-regulation and metacognition capabilities determine, direct, and
 sustain the approaches they take to learn (Section
-[\[sec:bg_learn_promoting_learning\]](#sec:bg_learn_promoting_learning){reference-type="ref"
-reference="sec:bg_learn_promoting_learning"}). Effective searching for
+[\[sec_bg_learn_promoting_learning\]](#sec_bg_learn_promoting_learning){reference-type="ref"
+reference="sec_bg_learn_promoting_learning"}). Effective searching for
 learning is affected by students' search tactics and information
 evaluation capabilities (Section
-[\[sec:bg_learn_info_eval\]](#sec:bg_learn_info_eval){reference-type="ref"
-reference="sec:bg_learn_info_eval"}) as well as cognitive capabilities
+[\[sec_bg_learn_info_eval\]](#sec_bg_learn_info_eval){reference-type="ref"
+reference="sec_bg_learn_info_eval"}) as well as cognitive capabilities
 such as memory span (Section
-[\[sec:bg_search_expertise\]](#sec:bg_search_expertise){reference-type="ref"
-reference="sec:bg_search_expertise"}).
+[\[sec_bg_search_expertise\]](#sec_bg_search_expertise){reference-type="ref"
+reference="sec_bg_search_expertise"}).
 
 **Hypothesis for RQ3:** articulation during the search as learning
 process (via concurrent think aloud) will lead to better learning (and
@@ -158,7 +158,7 @@ hypotheses:
 -   students with better information evaluation capabilities will
     demonstrate better learning and search outcomes
 
-## Anticipated Contributions {#sec:rq_diss_contributions}
+## Anticipated Contributions {#sec_rq_diss_contributions}
 
 We anticipate by answering the proposed research hypotheses and
 question, the results can greatly contribute to the existing knowledge
@@ -166,8 +166,8 @@ of Interactive Information Retrieval and Educational Sciences in
 general, and Search as Learning in particular. Referring back to some of
 the research agenda advocated by the multiple workshops and journal
 special issues on Search as Learning (Section
-[\[sec:intro_outline\]](#sec:intro_outline){reference-type="ref"
-reference="sec:intro_outline"}), our research questions aim to
+[\[sec_intro_outline\]](#sec_intro_outline){reference-type="ref"
+reference="sec_intro_outline"}), our research questions aim to
 investigate *(i)* the contexts in which students search to learn; *(ii)*
 the factors that influence their learning outcomes; and *(iii)* whether
 students are more critical consumers of information.

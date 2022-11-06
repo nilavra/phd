@@ -1,4 +1,4 @@
-# Background: Knowledge and Learning {#ch:bg_learn}
+# Background: Knowledge and Learning {#ch_bg_learn}
 
 This first chapter on background literature discusses relevant concepts
 from the disciplines of Education and Learning Sciences. First, we
@@ -13,7 +13,7 @@ that can promote better learning. In the last section, we state what
 implications these findings have for shaping the proposed study in this
 dissertation proposal.
 
-## Terminology {#sec:bg_learn_terminology}
+## Terminology {#sec_bg_learn_terminology}
 
 The Webster dictionary[^1] defines **knowledge** in two ways. The first
 definition is "the range of one's information or understanding".
@@ -91,7 +91,7 @@ reference="fig_meaningful_learning"} describes (using a concept map) how
 meaningful learning can be achieved and sustained, and our annotations
 highlight how Search-as-learning systems can foster the same.
 
-## Principles of Meaningful Learning {#sec:bg_learn_principles}
+## Principles of Meaningful Learning {#sec_bg_learn_principles}
 
 [@ambrose2010howa] have proposed several principles of (student)
 learning that lead to creation of deeper knowledge in learners, and help
@@ -151,7 +151,7 @@ learning process. The findings about expert knowledge suggests that
 meaningful manner is a key aspect of learning. We discuss these concepts
 in more detail in the following sections.
 
-## Meaningful Learning as Sensemaking {#sec:bg_learn_sensemaking}
+## Meaningful Learning as Sensemaking {#sec_bg_learn_sensemaking}
 
 In this section, we discuss how meaningful learning can be further
 qualified using the concepts of sensemaking. **Sensemaking**[^3] is a
@@ -212,7 +212,7 @@ information [@vakkari2016searching; @zhang2014towards]. A comparison of
 these types of conceptual changes can be found in [@zhang2014towards
 Table 3].
 
-### Concept Maps to enhance Sensemaking {#sec:bg_concept_maps}
+### Concept Maps to enhance Sensemaking {#sec_bg_concept_maps}
 
 ![ Concept Map showing the key features of Concept Maps
 [@moon2011applieda Fig. 1.1].
@@ -277,7 +277,7 @@ now discuss how these processes are influenced in the 21st century with
 the presence of new media, digital technologies, and information
 retrieval systems.
 
-## 'New' Learning as Online Information Searching {#sec:bg_learn_active_knowledge_multiliteracy}
+## 'New' Learning as Online Information Searching {#sec_bg_learn_active_knowledge_multiliteracy}
 
 Digital media technologies and e-learning 'ecologies' can enable new
 forms and models of learning, that are fundamentally different from the
@@ -287,10 +287,10 @@ traditional classroom practices of didactic pedagogy
 Sciences domain tie back strongly to the issues, challenges, and
 research agenda being investigated by researchers in the Search as
 Learning and Information Retrieval domain (Section
-[\[sec:intro_overview\]](#sec:intro_overview){reference-type="ref"
-reference="sec:intro_overview"}).
+[\[sec_intro_overview\]](#sec_intro_overview){reference-type="ref"
+reference="sec_intro_overview"}).
 
-### Active Knowledge Making {#sec:bg_learn_active_knowledge_making}
+### Active Knowledge Making {#sec_bg_learn_active_knowledge_making}
 
 The Internet and new forms of media provide us the opportunity to create
 learning environments where learners are no longer mainly *consumers* of
@@ -322,7 +322,7 @@ creativity and problem solving, which are quintessential 'knowledge
 economy' and 'knowledge society' attributes. -- [@cope2017elearningc]
 :::
 
-### Artefacts for Learning Assessment {#sec:bg_learn_artefact}
+### Artefacts for Learning Assessment {#sec_bg_learn_artefact}
 
 Traditionally, the focus of learning outcomes has been long term memory.
 Students and learners were expected to remember a collection of facts,
@@ -374,7 +374,7 @@ not convey everything that was learned. Additionally, writing skills are
 likely to vary across learners, and some may not be able to effectively
 articulate everything that was learnt.
 
-### 'Information Search and Evaluation' as and for Learning {#sec:bg_learn_info_eval}
+### 'Information Search and Evaluation' as and for Learning {#sec_bg_learn_info_eval}
 
 Learning today is more about **navigation, discernment, induction, and
 synthesis**, and less about memory and deduction [@cope2013new].
@@ -421,7 +421,7 @@ online, a prerequisite for responsible civic engagement in the
 twenty-first century
 [@breakstone2021students; @kahne2012digital; @mihailidis2013media].
 
-## Promoting Better Learning {#sec:bg_learn_promoting_learning}
+## Promoting Better Learning {#sec_bg_learn_promoting_learning}
 
 ::: displayquote
 "It is not the technology that makes a difference; it is the pedagogy."
@@ -437,7 +437,7 @@ metacognitive practices and aspects of learners can promote better
 learning. These phenomena have important implications for any digital
 systems that aim to foster learning.
 
-### Externalization and Articulation {#sec:bg_learn_articulation}
+### Externalization and Articulation {#sec_bg_learn_articulation}
 
 The learning sciences have discovered that when learners externalize and
 articulate their developing knowledge, they learn more effectively
@@ -459,7 +459,7 @@ in articulating their developing understandings, as they do not yet know
 how to think about thinking, or talk about thinking; their knowledge
 state is *anomalous* [@belkin1982ask].
 
-### Metacognition and Reflection {#sec:bg_learn_metacognition}
+### Metacognition and Reflection {#sec_bg_learn_metacognition}
 
 ![image](figs/metacognition_components.pdf){width="\\linewidth"}
 
@@ -471,8 +471,8 @@ level of abstraction, which in turn improves thinking and learning
 directing one's own thinking" [@council2000how p. 78], and involves
 thinking about the process of learning, and thinking about knowledge.
 This ties forward to the self-regulation that effective learners exhibit
-(Section [1.5.4](#sec:bg_learn_self_regulation){reference-type="ref"
-reference="sec:bg_learn_self_regulation"}. Effective learners are aware
+(Section [1.5.4](#sec_bg_learn_self_regulation){reference-type="ref"
+reference="sec_bg_learn_self_regulation"}. Effective learners are aware
 of their learning process, and can measure how efficiently they are
 learning as they study.
 
@@ -494,8 +494,8 @@ reference="tab_metacognition_components"}. [@schraw1994assessing]
 developed the **Metacognitive Awareness Inventory** (MAI) survey and a
 scoring guide to measure these self-reported components and subprocesses
 of metacognition. The original survey consists of 52 true/false
-questions (Appendix [\[app:mai\]](#app:mai){reference-type="ref"
-reference="app:mai"}), such as "I consider several alternatives to a
+questions (Appendix [\[app_mai\]](#app_mai){reference-type="ref"
+reference="app_mai"}), such as "I consider several alternatives to a
 problem before I answer", "I understand my intellectual strengths and
 weaknesses", "I have control over how well I learn", and "I change
 strategies when I fail to understand". The instrument has been widely
@@ -533,8 +533,8 @@ unless the rewards and punishments are explicitly visible
 [@tahamtan2019effect; @deci2013intrinsic; @ryan2000self].
 
 [@ryan1982control] proposed the **Intrinsic Motivation Inventory** (IMI)
-(Appendix [\[app:imi\]](#app:imi){reference-type="ref"
-reference="app:imi"}), a multidimensional questionnaire intended to
+(Appendix [\[app_imi\]](#app_imi){reference-type="ref"
+reference="app_imi"}), a multidimensional questionnaire intended to
 assess participants' subjective experience related to a target activity
 in laboratory experiments. The instrument assesses participants'
 interest/enjoyment, perceived competence, effort, value/usefulness, felt
@@ -551,7 +551,7 @@ measure internalization, with the idea being that people internalize and
 become self-regulating with respect to activities that they experience
 as useful or valuable for themselves.
 
-### Self-regulation {#sec:bg_learn_self_regulation}
+### Self-regulation {#sec_bg_learn_self_regulation}
 
 **Self-regulation** is the ability to develop, implement, and flexibly
 maintain planned behaviour in order to achieve one's goals.
@@ -574,7 +574,7 @@ Although this model was developed specifically to study addictive
 behaviours, the self-regulatory processes it describes are meant to be
 general principles of behavioural self-control. [@brown1999self]
 developed the **Self-Regulation Questionnaire** (SRQ) (Appendix
-[\[app:srq\]](#app:srq){reference-type="ref" reference="app:srq"}) to
+[\[app_srq\]](#app_srq){reference-type="ref" reference="app_srq"}) to
 assess these self-regulatory processes through self-report. The items
 were developed to mark each of the seven sub-processes of the
 [@miller1991self] model, forming seven subscales of the SRQ. The 63-item
@@ -642,7 +642,7 @@ application of metacognition and self-regulation to learning
 [@mannion2020metacognition]; and the whole learning process is sustained
 by motivation, which is desirable to be intrinsic.
 
-## Summary and Implications for this Proposal {#sec:bg_learn_summary}
+## Summary and Implications for this Proposal {#sec_bg_learn_summary}
 
 In this first chapter of the background literature review, we discussed
 *(i)* what is meaningful learning, a.k.a. deep learning, or sensemaking;

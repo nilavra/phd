@@ -1,6 +1,6 @@
 # SUR1: Entry Survey {#appendix:signup_survey}
 
-## Demographics {#app:demographics}
+## Demographics {#app_demographics}
 
 1.  Please select the degree level/name of the program you are in.
 
@@ -49,7 +49,7 @@
 
 10. Your name as you would like us to address you.
 
-## Search and IT Proficiency {#app:search_it_proficiency}
+## Search and IT Proficiency {#app_search_it_proficiency}
 
 1.  Which device(s) and browser(s) do you normally use to surf the
     internet?
@@ -192,7 +192,7 @@ Totally confident (5)*
 31. Structure my time effectively so that I will finish the search in
     the allocated time.
 
-## Course Load and Other Engagements {#app:course_load}
+## Course Load and Other Engagements {#app_course_load}
 
 1.  How many total weekly hours of coursework are you registered for
     this semester?
@@ -212,7 +212,7 @@ Totally confident (5)*
 4.  Do you hold a position of responsibility (officer / committee
     member) in any (student) organisation? Yes / No
 
-## Note-taking Strategies {#app:note_taking_strategies}
+## Note-taking Strategies {#app_note_taking_strategies}
 
 Adapted from *Listening and Note Taking Survey* by
 [@note_taking_survey_penn_state], and *Note Taking Strategies Inventory*
@@ -336,7 +336,7 @@ course)*
 
 37. How do you search for a bit of information in your notes?
 
-## Motivation {#app:imi}
+## Motivation {#app_imi}
 
 Adapted from Intrinsic Motivation Inventory (IMI) [@ryan1982control].
 Items will be randomly ordered.
@@ -389,7 +389,7 @@ item score. Then, calculate subscale scores by averaging across all of
 the items on that subscale. The subscale scores are then used in the
 analyses of relevant research questions.
 
-## Self-regulation {#app:srq}
+## Self-regulation {#app_srq}
 
 Self-Regulation Questionnaire (SRQ) by [@brown1999self].
 
@@ -567,7 +567,7 @@ summing the items on that subscale. Items marked (R) are reverse-coded
 7.  *Assessing the plan's effectiveness:* 7, 14, 21, 28, 35, 42, 49, 56,
     63
 
-## Metacognition {#app:mai}
+## Metacognition {#app_mai}
 
 Metacognivite Awareness Inventory (MAI) proposed by
 [@schraw1994assessing] and revised by [@terlecki2018call].
