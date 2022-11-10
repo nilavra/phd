@@ -33,27 +33,27 @@ systems) **feel** like they play a prominent role in our lives, when in
 actuality, they only play a small role: the **retrieval** part of
 \[information\] ...
 
--   Search engines **don't help us identify what we need** -- that's up
+- Search engines **don't help us identify what we need** -- that's up
     to us; search engines don't question what we ask for, though they do
     recommend queries that use similar words.
 
--   Search engines **don't help us choose a source** -- though they are
+- Search engines **don't help us choose a source** -- though they are
     themselves a source, and a heavily marketed one, so we are certainly
     compelled to choose search engines over other sources, even when
     other sources might have better information.
 
--   Search engines **don't help us express our query** accurately or
+- Search engines **don't help us express our query** accurately or
     precisely -- though they will help with minor spelling corrections.
 
--   Search engines do help retrieve information---this is the primary
+- Search engines do help retrieve information---this is the primary
     part that they automate.
 
--   Search engines **don't help us evaluate the answers we retrieve** --
-    it's up to us to decide whether the results are relevant, credible,
-    true; Google doesn't view those as their responsibility.
+- Search engines **don't help us evaluate the answers we retrieve** --
+  it's up to us to decide whether the results are relevant, credible,
+  true; Google doesn't view those as their responsibility.
 
--   Search engines **don't help us sensemake** -- we have to use our
-    minds to integrate what we've found into our knowledge."
+- Search engines **don't help us sensemake** -- we have to use our
+  minds to integrate what we've found into our knowledge."
 
 -- [@ko2021seeking]
 :::
@@ -103,11 +103,11 @@ forms of e-Learning that is aided and afforded by digital technologies
 [@cope2017elearningc; @amina2017active]. In the community's own words:
 "learning today is more about navigation, discernment, induction, and
 synthesis" of the wide body of information present ubiquitously at every
-student's fingertips [@amina2017active]. Therefore "knowing the source,
+student's fingertips [@amina2017active]. Therefore, "knowing the source,
 finding the source, and using the information aptly is important to
 learn and know now more than ever before" [@cope2013new]. All of these
 interests in the intersection of searching and learning goes to
-emphasise that understanding learning during search is critical to
+emphasize that understanding learning during search is critical to
 improve human-information interaction.
 
 ## Problem Statement {#sec_intro_problem_statement}
@@ -141,7 +141,7 @@ how it affects their learning [@zlatkin2021students]. When research in
 this area "relies so heavily on (short-term) lab studies, can we
 realistically say we are comprehensively studying human-tech
 interactions -- when many of those interactions take place over long
-periods of time in real-world contexts? ...An over-reliance on short
+periods of time in real-world contexts? ... An over-reliance on short
 studies risks inaccurate findings, potentially resulting in prematurely
 embracing or disregarding new concepts." [@HCIUXres81_online].
 
@@ -182,11 +182,9 @@ and empirical evidences from the Information Sciences
 this dissertation proposal aims to
 
 -   situate students as learners in their naturalistic contexts, and
-    characterised by their individual differences,
-
+    characterized by their individual differences,
 -   measure students' information search and information use behaviour
     over time, and
-
 -   correlate the information search behaviour with the learning
     outcomes for the university course.
 
