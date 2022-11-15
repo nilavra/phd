@@ -1,6 +1,6 @@
 # SUR2: Midterm Survey {#app_midterm_survey}
 
-## Overall Instructions:
+## Overall Instructions
 
 *You may have seen these questions before. We ask you to carefully
 consider the questions again, reflect back on your activities and
@@ -9,8 +9,7 @@ questions accordingly. We all grow and evolve with time. These questions
 will help us to understand how you have evolved over the past few
 weeks.*
 
- 
-## Reworded Version of Intrinsic Motivation Inventory:
+## Reworded Version of Intrinsic Motivation Inventory
 
 (slightly different from SUR1 to indicate midpoint of the semester)
 

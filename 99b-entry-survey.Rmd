@@ -137,6 +137,7 @@ course)*
 2. When taking notes on the laptop, I minimize distractions by:
 
 ---
+
 *On a scale of 1 to 5 ...\
 (1) Never -- Rarely -- Sometimes -- Often -- Always (5)*
 
@@ -404,7 +405,6 @@ how true each reason is for you using the following scale:*
 1. I ask myself if I learned as much as I could have once I finish a task.
 1. I stop and go back over new information that is not clear.
 1. I stop and reread when I get confused.
-
 
 **Scoring Directions:** Score each response from 1 (never) to 5
 (always), and calculate the following subscale scores by summing the

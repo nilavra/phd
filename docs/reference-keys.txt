@@ -71,7 +71,6 @@ interestenjoyment
 perceived-competence
 effortimportance
 valueusefulness
-scoring-directions
 app_srq
 app_mai
 app_pre_post_tasks
@@ -80,6 +79,14 @@ app_post_task_qsn
 app_cta_v_silent
 app_post_task_interview
 app_midterm_survey
+overall-instructions
+reworded-version-of-intrinsic-motivation-inventory
+interestenjoyment-1
+perceived-competence-1
+effort-importance
+pressure-tension
+perceived-choice
+value-usefulness
 app_final_survey
 app_variables
 sec_app_vars_qry
