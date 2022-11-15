@@ -67,6 +67,11 @@ app_search_it_proficiency
 app_course_load
 app_note_taking_strategies
 app_imi
+interestenjoyment
+perceived-competence
+effortimportance
+valueusefulness
+scoring-directions
 app_srq
 app_mai
 app_pre_post_tasks
