@@ -207,8 +207,8 @@ for you, using the following scale:*\
 1. I will enjoy taking this course very much.
 1. This course will be fun to do.
 1. I think this will be a boring course. **(R)**
-1. This course will not hold my attention at 1. all. **(R)**
-1. I would describe this course as very 1. interesting.
+1. This course will not hold my attention at all. **(R)**
+1. I would describe this course as very interesting.
 1. I think this course will be quite enjoyable.
 
 ### Perceived Competence

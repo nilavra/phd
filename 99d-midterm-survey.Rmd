@@ -42,7 +42,7 @@ for you, using the following scale:\
 1. I am not trying very hard to do well at the final project activities. **(R)**
 1. I am trying very hard on the final project activities.
 1. It is important to me to do well in this course.
-1. I am not putting much energy into the final project activities.
+1. I am not putting much energy into the final project activities. **(R)**
 
 ### Pressure / Tension
 
