@@ -2,8 +2,8 @@
 
 ## Searching as Learning: Overview {#sec_intro_overview}
 
-Searching for information is a fundamental human activity. In the modern
-world, it is frequently conducted by users interacting with online
+Searching for information is a fundamental human activity. 
+In the modern world, it is frequently conducted by users interacting with online
 search systems (e.g., web search engines), or more formally,
 **Information Retrieval** (IR) systems. As early as in 1980, Bertam
 Brookes, in his 'fundamental equation' of information and knowledge, had
@@ -29,7 +29,6 @@ some query, and return as output some ranked list of resources.
 
 
 > "Within the context of information seeking, (search engines and IR systems) **feel** like they play a prominent role in our lives, when in actuality, they only play a small role: the **retrieval** part of information ...
->
 >- Search engines **don't help us identify what we need** -- that's up to us; search engines don't question what we ask for, though they do recommend queries that use similar words.
 >
 > - Search engines **don't help us choose a source** -- though they are themselves a source, and a heavily marketed one, so we are certainly compelled to choose search engines over other sources, even when other sources might have better information.

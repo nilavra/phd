@@ -8,7 +8,7 @@
 # E.g. you can build both pdf and html with 'thesis_formats <- c("pdf", "bs4")'
 # thesis_formats <- c("bs4", "gitbook", "pdf");
 knit: (function(input, ...) {
-    thesis_formats <- c("pdf", "gitbook");
+    thesis_formats <- c("bs4", "pdf");
     
     source("scripts_and_filters/knit-functions.R");
     knit_thesis(input, thesis_formats, ...)
@@ -22,12 +22,12 @@ title: |
 author: Nilavra Bhattacharya
 college: School of Information
 university: University of Texas at Austin
-university-logo: templates/beltcrest.pdf
+# university-logo: templates/beltcrest.pdf
 university-logo-width: 5cm
 submitted-text: A thesis submitted for the degree of
 degree: Doctor of Philosophy
 degreedate: May 2023
-dedication: For Dedication Person
+dedication: Dedication Person Name Here
 acknowledgements: |
   `r paste(readLines("front-and-back-matter/_acknowledgements.Rmd"), collapse = '\n  ')`
 show-acknowledgements-in-toc: false
@@ -204,8 +204,8 @@ If you need to create your own additional chunk options, edit the file scripts/c
 -->
 
 <!-- This chunk includes the front page content in HTML output -->
-<!-- ```{r ebook-welcome, child = 'front-and-back-matter/_welcome-ebook.Rmd', eval=knitr::is_html_output()}
-``` -->
+```{r ebook-welcome, child = 'front-and-back-matter/_welcome-ebook.Rmd', eval=knitr::is_html_output()}
+```
 
 ```{r, include=FALSE}
 options(tinytex.verbose = TRUE)

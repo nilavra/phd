@@ -1,4 +1,9 @@
 This section will be fleshed out in more detail after the initial committee-submission on Feb 27, 2023. 
+For now, I wish to thank the following people :
+
+- Committee Members: Jacek Gwizdka, Soo Young Rieh, Matt Lease, Rob Capra
+<!-- 
+
 For now, I wish to thank the following people and organisations (in no particular order):
 
 - Jacek Gwizdka
@@ -15,6 +20,8 @@ For now, I wish to thank the following people and organisations (in no particula
 - ASIST
 - CHIIR
 - UT Graduate School Funding
+- SALPilot Study
+- I303 People
 
 
 Original template:
@@ -31,4 +38,4 @@ Finally, profuse thanks to JJ Allaire, the founder and CEO of [RStudio](http://r
 Ulrik Lyngs \\
 Linacre College, Oxford \\
 2 December 2018
-\end{flushright}
+\end{flushright} -->
