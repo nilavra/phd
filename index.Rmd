@@ -169,8 +169,8 @@ output:
     pandoc_args: "--lua-filter=scripts_and_filters/colour_and_highlight.lua"
   bookdown::bs4_book: 
     css: 
-      - templates/bs4_style.css
-      - templates/corrections.css # remove to stop highlighting corrections
+      #- templates/bs4_style.css
+      #- templates/corrections.css # remove to stop highlighting corrections
     theme:
       primary: "#bf5700"
     repo: https://github.com/nilavra/phd

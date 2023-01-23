@@ -1,37 +1,33 @@
-# Welcome {-}
+# Welcome to Nilavra Bhattacharya's PhD Thesis {-}
 
 ::: {.row}
-:::::: {.col-sm-6}
+:::::: {.col-sm-12}
 
-Welcome to the eBook version of my work-in-progress PhD dissertation. 
-To view/download the PDF version, click the button below.
-<br>
-<small>(cover image needs to be updated; I am not at the University of Oxford... yet! 😉 ).</small>
+Welcome to the eBook version of my work-in-progress PhD dissertation.
 
-Enjoy!
+- To read the eBook version, you can just scroll down, or jump to a specific chapter from the menu (on the left in dekstop view, and on top in mobile view).
+- To view/download a PDF version of the thesis, click the button below.
 
-<a href="_main.pdf" class="btn btn-primary" target="_blank">
-View PDF Version
+\
+<div style="font-style: italic; font-size: 20px; font-weight: bold; text-align:center"> 
+LongSAL: A Longitudinal Search as Learning Study
+<br>With University Students
+</div>
+
+<div class="d-flex justify-content-center">
+<a href="_main.pdf" class="btn btn-primary " target="_blank">
+PDF Version of this Thesis
 </a>
+</div>
 
 
 
-
-
-::::::::: {.byline}
-Nilavra Bhattacharya
-\
-\
-Original Template:\
-[`oxforddown` by Ulrik Lyngs](https://github.com/ulyngs/oxforddown)\
-Thesis template for [R Markdown](https://rmarkdown.rstudio.com)
-:::::::::
 ::::::
 
 :::::: {.col-sm-6 .thesis-cover}
-<a href="_main.pdf" target="_blank" title="View PDF version">
+<!-- <a href="_main.pdf" target="_blank" title="View PDF version">
 <img src="templates/cover.png" alt="Download PDF" class="img-fluid"/>
-</a> 
+</a>  -->
 ::::::
 :::
 
@@ -43,3 +39,11 @@ Thesis template for [R Markdown](https://rmarkdown.rstudio.com)
 ## Acknowledgments {-}
 ```{r acknowledgments, child=here::here('front-and-back-matter/_acknowledgements.Rmd')}
 ```
+
+\
+
+::::::::: {.byline}
+Original Template:
+[`oxforddown`](https://github.com/ulyngs/oxforddown) by Ulrik Lyngs, 
+thesis template for [R Markdown](https://rmarkdown.rstudio.com)
+:::::::::
