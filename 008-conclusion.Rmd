@@ -1,0 +1,20 @@
+# Conclusions, Contributions, and Future Work
+
+see Jacek's thesis
+
+## Research Summary
+
+## Summary of Results
+
+## Methodology
+
+## Contributions
+
+## Limitations
+
+- No PDF
+- N=16 to N=10
+- Also check anticipated limitations section from proposal
+
+## Future Work
+

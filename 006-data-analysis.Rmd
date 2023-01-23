@@ -13,3 +13,19 @@ Analysis steps:
 - Check analysis ideas for more ideas
 - get data for IMI, MAI, etc
 -->
+
+
+
+## Data Cleaning and Processing
+
+## Data Analysis Approach
+
+see crescenzi thesis
+
+## URL Categorization
+
+
+## Latent Profile Analysis
+
+
+## Dwell Time Analysis

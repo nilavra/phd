@@ -1,4 +1,45 @@
-# Method: Proposed Longitudinal Study
+# Methods: Longitudinal Study
+
+## Study Design {#sec_method_exp_design}
+
+
+## Apparatus
+
+### YASBIL Browsing Logger
+
+### Qualtrics Survey Software
+
+### Zoom Video-conferencing Software
+
+
+
+
+## Search Task Template {#sec_method_search_task_template}
+
+
+
+## Procedure {#sec_method_procedure}
+
+Insert diagram and check how it looks
+
+```{r chunk-label, echo = FALSE, fig.cap = 'A figure caption.'}
+#knitr::include_graphics(rep("images/knit-logo.png", 3))
+```
+
+Reference it
+
+### SUR1: Entry Survey {#sec_method_sur1}
+
+### SES1: Initial Session
+
+### SES2a - SES2d: Longitudinal Tracking Sessions
+
+### SUR2: Mid-Term Survey {#sec_method_sur2}
+
+### SES3: Final Session
+
+### SUR3: Exit Survey
+
 
 <!-- We propose to conduct a remote longitudinal study to investigate the
 research questions and hypotheses discussed in Section
