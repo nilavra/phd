@@ -3,16 +3,18 @@
 ::: {.row}
 :::::: {.col-sm-6}
 
-Welcome to the `bs4` output from the [`oxforddown`](https://github.com/ulyngs/oxforddown) thesis template for [R Markdown](https://rmarkdown.rstudio.com). 
-To view/download the PDF output, [click here](_main.pdf) (or click the cover image).
+Welcome to my work-in-progress PhD dissertation. 
+To view/download the PDF output, [click here](_main.pdf), or click the cover image (link works fine; image needs to be updated... I am not in University of Oxford... yet! ;-) ).
+
 Enjoy!
 
 ::::::::: {.byline}
 Nilavra Bhattacharya
 \
-Original Template By:
-Ulrik Lyngs \
-4 January 2021
+\
+Original Template:\
+[`oxforddown` by Ulrik Lyngs](https://github.com/ulyngs/oxforddown)\
+Thesis template for [R Markdown](https://rmarkdown.rstudio.com)
 :::::::::
 ::::::
 
