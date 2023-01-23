@@ -8,7 +8,7 @@
 # E.g. you can build both pdf and html with 'thesis_formats <- c("pdf", "bs4")'
 # thesis_formats <- c("bs4", "gitbook", "pdf");
 knit: (function(input, ...) {
-    thesis_formats <- c("bs4", "pdf");
+    thesis_formats <- c("bs4");
     
     source("scripts_and_filters/knit-functions.R");
     knit_thesis(input, thesis_formats, ...)
@@ -159,6 +159,7 @@ no-line-wrapping-in-code: false # by default, we prevent lines in code blocks fr
 
 #####################
 ## output details  ##
+# ref: https://bookdown.org/yihui/bookdown/html.html#
 #####################
 output:
   bookdown::pdf_book:
@@ -171,16 +172,19 @@ output:
       - templates/bs4_style.css
       - templates/corrections.css # remove to stop highlighting corrections
     theme:
-      primary: "#6D1919"
+      primary: "#bf5700"
     repo: https://github.com/nilavra/phd
     pandoc_args: "--lua-filter=scripts_and_filters/colour_and_highlight.lua"
   bookdown::gitbook:
     css: templates/style.css
     config:
+      edit : null
+      download: ["pdf"]
       sharing:
         facebook: false
-        twitter: yes
-        all: false
+        twitter: true
+        linkedin: true
+        all: ['facebook', 'twitter', 'linkedin', 'whatsapp']
   bookdown::word_document2:
     toc: true   
 link-citations: true

@@ -2,7 +2,13 @@
 
 Also see Yung Sheng's Dissertation
 
-## RQ1: mention here
+## RQ1: - search behaviours?
+
+## Q - query reformulation
+
+### L - source selection
+
+### I - interacting with sources
 
 ## RQ2: mention here
 
