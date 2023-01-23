@@ -2,6 +2,11 @@
 
 ::: {.row}
 :::::: {.col-sm-6}
+
+Welcome eBook content
+
+Original template:
+
 Welcome to the `bs4` output from the [`oxforddown`](https://github.com/ulyngs/oxforddown) thesis template for [R Markdown](https://rmarkdown.rstudio.com). 
 To view/download the PDF output, [click here](_main.pdf) (or click the cover image).
 Enjoy!

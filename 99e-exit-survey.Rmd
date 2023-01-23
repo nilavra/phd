@@ -1,5 +1,5 @@
 # SUR3: Exit Survey {#app_final_survey}
-
+<!-- 
 **Overall Instructions:**
 
 *You may have seen these questions before. We ask you to carefully
@@ -18,6 +18,7 @@ for you, using the following scale:*
 
 *(1) not at all true \| somewhat true \| very true (5)*
 
+\
 **Interest/Enjoyment**\
 I enjoyed taking the course and doing the final project activities very
 much.\
@@ -84,4 +85,4 @@ I believe doing the final project activities will be beneficial to me.\
 I think this was an important course and final project for me.
 
 [^1]: items with blanks will be completed with contextual information
-    once the study site is finalised
+    once the study site is finalised -->

@@ -5,7 +5,7 @@ For now, I wish to thank the following people and organisations (in no particula
 - Soo Young Rieh + Funding
 - Committee Members
 - HEB
-- Finalnd people
+- Finland people
 - Slovenia People
 - Germany People
 - India People
@@ -17,7 +17,7 @@ For now, I wish to thank the following people and organisations (in no particula
 - UT Graduate School Funding
 
 
-
+Original template:
 
 This is where you will normally thank your advisor, colleagues, family and friends, as well as funding and institutional support. In our case, we will give our praises to the people who developed the ideas and tools that allow us to push open science a little step forward by writing plain-text, transparent, and reproducible theses in R Markdown.
 

@@ -1,5 +1,5 @@
 # Questionnaires for Initial (SES1) and Final (SES3) Sessions {#app_pre_post_tasks}
-
+<!-- 
 Pre-Test session (SES1) is conducted at the beginning of the semester,
 and the Post-Test session (SES3) is conducted at the end of the
 semester.
@@ -204,4 +204,4 @@ The following items are adapted from [@crescenzi2020adaptation].
     think it will be useful or desirable?
 
 12. (if yes to previous question): What are some ways by which a search
-    engine could possibly assess a student's existing knowledge?
+    engine could possibly assess a student's existing knowledge? -->

@@ -1,6 +1,6 @@
 # Method: Proposed Longitudinal Study
 
-We propose to conduct a remote longitudinal study to investigate the
+<!-- We propose to conduct a remote longitudinal study to investigate the
 research questions and hypotheses discussed in Section
 [\[sec_rq\]](#sec_rq){reference-type="ref" reference="sec_rq"}. The
 study will primarily be exploratory in nature. The following sections
@@ -548,4 +548,4 @@ findings.
 
 [^1]: <https://serolearn.com>
 
-[^2]: <https://youtu.be/RkBUZ4At8Qg>
+[^2]: <https://youtu.be/RkBUZ4At8Qg> -->

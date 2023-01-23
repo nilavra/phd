@@ -1,6 +1,6 @@
 # Research Questions and Hypotheses
 
-## Research Questions {#sec_rq}
+<!-- ## Research Questions {#sec_rq}
 
 Combining empirical findings and gaps in the literature from the
 disciplines of Education (Chapter
@@ -182,4 +182,4 @@ understanding how search behaviours can predict learning outcomes;
 *(ii)* creating reliable measures, methods, and instruments for
 capturing changes in people's knowledge level, learning experiences, and
 learning outcomes [@url_rieh_homepage]; and *(iii)* developing search
-systems that better support learning and sensemaking.
+systems that better support learning and sensemaking. -->

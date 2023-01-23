@@ -1,6 +1,6 @@
 # Background: Information Searching {#ch_bg_search}
 
-This second chapter on background literature discusses relevant concepts
+<!-- This second chapter on background literature discusses relevant concepts
 from the disciplines of Information Sciences, and more specifically
 Interaction Information Retrieval. First, we introduce some terminology
 around information behaviour, information need, and information
@@ -921,4 +921,4 @@ research questions and hypotheses.
 
 [^3]: <https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content>
 
-[^4]: and continue to link
+[^4]: and continue to link -->

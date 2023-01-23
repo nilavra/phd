@@ -1,5 +1,6 @@
 # SUR1: Entry Survey {#app_signup_survey}
 
+<!--
 ## Demographics {#app_demographics}
 
 1. Please select the degree level/name of the program you are in.
@@ -421,3 +422,4 @@ items on that subscale.
 3. *Comprehension Monitoring:* 1, 2, 11, 21, 28, 34, 49 (score out of $7\times5 = 35$)
 4. *Debugging Strategies:* 25, 40, 44, 51, 52 (score out of $5\times5 = 25$)
 5. *Evaluation:* 7, 19, 24, 36, 38, 50 (score out of $6\times5 = 30$)
+-->

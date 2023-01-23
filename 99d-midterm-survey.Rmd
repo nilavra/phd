@@ -1,5 +1,5 @@
 # SUR2: Midterm Survey {#app_midterm_survey}
-
+<!-- 
 ## Overall Instructions
 
 *You may have seen these questions before. We ask you to carefully
@@ -70,4 +70,4 @@ for you, using the following scale:\
 1. I am willing to do research on the final project topic again because it has some value to me.
 1. I think the outcome of the final project activity will help me in my adult and professional life.
 1. I believe doing the final project activities are beneficial to me.
-1. I think this is proving to be an important course and final project for me.
+1. I think this is proving to be an important course and final project for me. -->

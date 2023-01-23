@@ -27,36 +27,26 @@ several aspects of fully satisfying the higher level human need for
 information. In essence, IR systems are software that take, as input,
 some query, and return as output some ranked list of resources.
 
-::: displayquote
-"Within the context of information seeking, (search engines and IR
-systems) **feel** like they play a prominent role in our lives, when in
-actuality, they only play a small role: the **retrieval** part of
-\[information\] ...
 
-- Search engines **don't help us identify what we need** -- that's up
-    to us; search engines don't question what we ask for, though they do
-    recommend queries that use similar words.
-
-- Search engines **don't help us choose a source** -- though they are
-    themselves a source, and a heavily marketed one, so we are certainly
-    compelled to choose search engines over other sources, even when
-    other sources might have better information.
-
-- Search engines **don't help us express our query** accurately or
-    precisely -- though they will help with minor spelling corrections.
-
-- Search engines do help retrieve information---this is the primary
-    part that they automate.
-
-- Search engines **don't help us evaluate the answers we retrieve** --
+> "Within the context of information seeking, (search engines and IR systems) **feel** like they play a prominent role in our lives, when in actuality, they only play a small role: the **retrieval** part of information ...
+>
+>- Search engines **don't help us identify what we need** -- that's up to us; search engines don't question what we ask for, though they do recommend queries that use similar words.
+>
+> - Search engines **don't help us choose a source** -- though they are themselves a source, and a heavily marketed one, so we are certainly compelled to choose search engines over other sources, even when other sources might have better information.
+>
+> - Search engines **don't help us express our query** accurately or precisely -- though they will help with minor spelling corrections.
+>
+> - Search engines do help retrieve information---this is the primary part that they automate.
+>
+> - Search engines **don't help us evaluate the answers we retrieve** --
   it's up to us to decide whether the results are relevant, credible,
   true; Google doesn't view those as their responsibility.
-
-- Search engines **don't help us sensemake** -- we have to use our
+>
+>- Search engines **don't help us sensemake** -- we have to use our
   minds to integrate what we've found into our knowledge."
+>
+> -- [@ko2021seeking]
 
--- [@ko2021seeking]
-:::
 
 In recent years, the IIR research community has been actively promoting
 the **Search as Learning** (SAL) research direction. This fast-growing
@@ -74,7 +64,7 @@ Articles in these special issued presented landmark literature reviews
 in this direction. Overall, these works generally advocate that future
 research in this domain should aim to:
 
--   understand the contexts in which people search to learn
+- understand the contexts in which people search to learn
 
 -   understand factors that can influence learning outcomes
 
@@ -137,18 +127,21 @@ Internet as their main learning environment and source of information
 when studying. Yet, the short term nature of research in this domain
 creates significant gaps in our knowledge regarding how students'
 information search behaviour and information use develop over time, and
-how it affects their learning [@zlatkin2021students]. When research in
-this area "relies so heavily on (short-term) lab studies, can we
+how it affects their learning [@zlatkin2021students]. 
+
+> When research in this area "relies so heavily on (short-term) lab studies, can we
 realistically say we are comprehensively studying human-tech
 interactions -- when many of those interactions take place over long
 periods of time in real-world contexts? ... An over-reliance on short
 studies risks inaccurate findings, potentially resulting in prematurely
-embracing or disregarding new concepts." [@HCIUXres81_online].
+embracing or disregarding new concepts." 
+>
+> -- [@HCIUXres81_online].
 
 Current search engines and information retrieval systems "do not help us
 know what we want to know, ...do not help us know if what we've found is
-relevant or true; and they do not help us make sense of \[the retrieved
-information\]. All they do is quickly retrieve what other people on the
+relevant or true; and they do not help us make sense of the retrieved
+information. All they do is quickly retrieve what other people on the
 internet have shared" [@ko2021seeking]. Unless we have more long-term
 understanding of the nature of knowledge gain during search, the
 limitations of current search systems will continue to persist.

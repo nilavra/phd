@@ -1,5 +1,5 @@
 # Variables and Measures {#app_variables}
-
+<!-- 
 This Section contains a non-exhaustive list of possible variables and
 operationalizations of information search behaviour collated from recent
 literature.
@@ -266,4 +266,4 @@ The following concept map analysis measures are adapted from
 
 -   The level where new concepts were introduced.
 
-[^1]: <https://developer.chrome.com/docs/extensions/reference/history/#transition-types>
+[^1]: <https://developer.chrome.com/docs/extensions/reference/history/#transition-types> -->
