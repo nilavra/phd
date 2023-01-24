@@ -7,7 +7,8 @@ To read the eBook version, simply scroll down, or jump to a specific chapter fro
 <!-- - To view/download a PDF version of the thesis, click the button below. -->
 
 <a href="_main.pdf" target="_blank" title="Click to view PDF version of thesis" class="text-decoration-none">
-<div class="text-center shadow pt-5 pb-3 mb-5 bg-white rounded">
+<div class="text-center shadow pt-1 pb-3 mb-5 bg-white rounded">
+<div class="text-right pt-3 pb-2 px-4 small font-italic">Last compiled on `r format(Sys.time(), '%Y-%m-%d %H:%M:%S')`</div>
 **LongSAL: A Longitudinal Search as Learning Study
 \
 \
