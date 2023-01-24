@@ -1,14 +1,18 @@
 # Results
 
-Also see Yung Sheng's Dissertation
+- Also see Yung Sheng's Dissertation
+- think hard about which data component has not been touched / analysed
 
 ## RQ1: - search behaviours?
 
 ### Q - query reformulation
+- see Yung Sheng's Dissertation
 
 ### L - source selection
 
 ### I - interacting with sources
+
+### SHEG tasks - information evaluation
 
 
 

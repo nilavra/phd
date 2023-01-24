@@ -27,5 +27,8 @@ see crescenzi thesis
 
 ## Latent Profile Analysis
 
+- add WMC / memory span to features
+- Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership
+
 
 ## Dwell Time Analysis

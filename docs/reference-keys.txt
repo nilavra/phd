@@ -32,6 +32,7 @@ rq1---search-behaviours
 q---query-reformulation
 l---source-selection
 i---interacting-with-sources
+sheg-tasks---information-evaluation
 rq2-mention-here
 rq3-mention-here
 rq4-mention-here
