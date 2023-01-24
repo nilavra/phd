@@ -22,8 +22,8 @@
 
 Insert diagram and check how it looks
 
-```{r chunk-label, echo = FALSE, fig.cap = 'A figure caption.'}
-#knitr::include_graphics(rep("images/knit-logo.png", 3))
+```{r fig-study-proc, fig.cap = 'Very very very very very very very very long caption.', fig.scap='Short Caption for LoF', echo=FALSE, out.width='100%', fig.align='center'}
+# knitr::include_graphics(rep("figs/study_procedure_CHI_SRC2.svg"))
 ```
 
 Reference it
