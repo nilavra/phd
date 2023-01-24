@@ -1,3 +1,4 @@
+fig:fig-study-proc-diss
 introduction
 sec_intro_overview
 sec_intro_problem_statement
@@ -7,17 +8,17 @@ ch_bg_learn
 ch_bg_search
 research-questions-and-hypotheses
 methods-longitudinal-study
-sec_method_exp_design
+sec-method-exp-design
 apparatus
 yasbil-browsing-logger
 qualtrics-survey-software
 zoom-video-conferencing-software
 sec_method_search_task_template
 sec_method_procedure
-sec_method_sur1
+sec-method-sur1
 ses1-initial-session
 ses2a---ses2d-longitudinal-tracking-sessions
-sec_method_sur2
+sec-method-sur2
 ses3-final-session
 sur3-exit-survey
 data-analysis

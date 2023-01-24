@@ -221,3 +221,16 @@ If you need to create your own additional chunk options, edit the file scripts/c
 ```{r, include=FALSE}
 options(tinytex.verbose = TRUE)
 ```
+
+```{r, include=FALSE}
+show_fig <- function(f)
+  {if (knitr::is_latex_output())
+  {
+    output = xfun::with_ext(f, 'pdf')
+    rsvg::rsvg_pdf(xfun::with_ext(f,'svg'), file=output)
+  } else {
+    output = xfun::with_ext(f, 'svg')
+  }
+  knitr::include_graphics(output)
+}
+```

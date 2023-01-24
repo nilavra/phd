@@ -1,6 +1,6 @@
 # Methods: Longitudinal Study
 
-## Study Design {#sec_method_exp_design}
+## Study Design {#sec-method-exp-design}
 
 
 ## Apparatus
@@ -22,19 +22,22 @@
 
 Insert diagram and check how it looks
 
-```{r fig-study-proc, fig.cap = 'Very very very very very very very very long caption.', fig.scap='Short Caption for LoF', echo=FALSE, out.width='100%', fig.align='center'}
-# knitr::include_graphics(rep("figs/study_procedure_CHI_SRC2.svg"))
+(ref:cap-fig-study-proc-diss) Very very very very very very very very long caption.
+
+```{r fig-study-proc-diss, fig.cap = '(ref:cap-fig-study-proc-diss)', fig.scap='Short Caption for LoF', echo=FALSE, out.width='100%', fig.align='center'}
+#knitr::include_graphics("figs/study_procedure_CHI_SRC2.svg")
+show_fig("figs/fig-study-proc-diss")
 ```
 
 Reference it
 
-### SUR1: Entry Survey {#sec_method_sur1}
+### SUR1: Entry Survey {#sec-method-sur1}
 
 ### SES1: Initial Session
 
 ### SES2a - SES2d: Longitudinal Tracking Sessions
 
-### SUR2: Mid-Term Survey {#sec_method_sur2}
+### SUR2: Mid-Term Survey {#sec-method-sur2}
 
 ### SES3: Final Session
 
