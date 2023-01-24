@@ -8,7 +8,7 @@
 # E.g. you can build both pdf and html with 'thesis_formats <- c("pdf", "bs4")'
 # thesis_formats <- c("bs4", "gitbook", "pdf");
 knit: (function(input, ...) {
-    thesis_formats <- c("bs4");
+    thesis_formats <- c("bs4", "pdf");
     
     source("scripts_and_filters/knit-functions.R");
     knit_thesis(input, thesis_formats, ...)
@@ -119,17 +119,17 @@ running-header-position-rightmark: RE  #marks the section.
 
 
 ### draft mark ###
-draft-mark: false # add a DRAFT mark?
-draft-mark-foot-or-head: foot ##'foot' = in footer, 'head' = in header
-draft-mark-position: C
-draft-mark-text: DRAFT on \today
+draft-mark: true # add a DRAFT mark?
+draft-mark-foot-or-head: head ##'foot' = in footer, 'head' = in header
+draft-mark-position: R
+draft-mark-text: Draft \today
 
 ### section numbering ###
-section-numbering-depth: 3 # to which depth should headings be numbered?
+section-numbering-depth: 4 # to which depth should headings be numbered?
 
 ### tables of content ###
 table-of-contents: true # should there be one?
-toc-depth: 1 # to which depth should headings be included in table of contents?
+toc-depth: 4 # to which depth should headings be included in table of contents?
 lof: true # include list of figures in front matter?
 lot: true # include list of tables in front matter?
 remove-mini-toc: false  # no mini-table of contents at start of each chapter? (for them to show up, this must be calse, and you must also add \minitoc after the chapter titles)
@@ -167,16 +167,23 @@ output:
     latex_engine: xelatex
     keep_tex: true
     pandoc_args: "--lua-filter=scripts_and_filters/colour_and_highlight.lua"
-  bookdown::bs4_book: 
+  bookdown::bs4_book:
+    split_bib: true
     css: 
-      #- templates/bs4_style.css
-      #- templates/corrections.css # remove to stop highlighting corrections
+      - templates/bs4_style.css
+      - templates/corrections.css # remove to stop highlighting corrections
     theme:
       primary: "#bf5700"
+      base_font: 
+        google: Libre Franklin
+      heading_font:
+        google:
+          family: Libre Franklin
+          wght: 700
     repo: https://github.com/nilavra/phd
     pandoc_args: "--lua-filter=scripts_and_filters/colour_and_highlight.lua"
   bookdown::gitbook:
-    css: templates/style.css
+    css: templates/gitbook_style.css
     config:
       edit : null
       download: ["pdf"]

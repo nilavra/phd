@@ -1,12 +1,11 @@
-# Welcome to Nilavra Bhattacharya's PhD Thesis {-}
+# Nilavra Bhattacharya's PhD Thesis {-}
 
 ::: {.row}
 :::::: {.col-sm-12}
 
 Welcome to the eBook version of my work-in-progress PhD dissertation.
-
-- To read the eBook version, you can just scroll down, or jump to a specific chapter from the menu (on the left in dekstop view, and on top in mobile view).
-- To view/download a PDF version of the thesis, click the button below.
+To read the eBook version, simply scroll down, or jump to a specific chapter from the navigation menu (on the left in dekstops; on the top in mobile devices).
+<!-- - To view/download a PDF version of the thesis, click the button below. -->
 
 \
 <div style="font-style: italic; font-size: 20px; font-weight: bold; text-align:center"> 
@@ -16,7 +15,7 @@ LongSAL: A Longitudinal Search as Learning Study
 
 <div class="d-flex justify-content-center">
 <a href="_main.pdf" class="btn btn-primary " target="_blank">
-PDF Version of this Thesis
+View PDF Version of this Thesis
 </a>
 </div>
 

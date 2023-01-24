@@ -121,19 +121,21 @@ five years, that systematically studied students' information search
 behaviour and information-use over the long term, in their *in-situ*
 naturalistic environment and contexts, and linked those behaviours
 quantitatively to the students' learning outcomes and individual
-differences.** Higher education students are increasingly using the
+differences.** 
+
+Higher education students are increasingly using the
 Internet as their main learning environment and source of information
 when studying. Yet, the short term nature of research in this domain
 creates significant gaps in our knowledge regarding how students'
 information search behaviour and information use develop over time, and
 how it affects their learning [@zlatkin2021students]. 
 
-> When research in this area "relies so heavily on (short-term) lab studies, can we
+> _When research in this area "relies so heavily on (short-term) lab studies, can we
 realistically say we are comprehensively studying human-tech
 interactions -- when many of those interactions take place over long
 periods of time in real-world contexts? ... An over-reliance on short
 studies risks inaccurate findings, potentially resulting in prematurely
-embracing or disregarding new concepts." 
+embracing or disregarding new concepts."_
 >
 > -- [@HCIUXres81_online].
 
