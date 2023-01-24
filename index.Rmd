@@ -8,7 +8,7 @@
 # E.g. you can build both pdf and html with 'thesis_formats <- c("pdf", "bs4")'
 # thesis_formats <- c("bs4", "gitbook", "pdf");
 knit: (function(input, ...) {
-    thesis_formats <- c("bs4", "pdf");
+    thesis_formats <- c("pdf", "bs4");
     
     source("scripts_and_filters/knit-functions.R");
     knit_thesis(input, thesis_formats, ...)
@@ -19,16 +19,21 @@ knit: (function(input, ...) {
 #####################
 title: |
   LongSAL: A Longitudinal Search as Learning Study With University Students
-author: Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য
-description: Insert Description for Web SEO here
-college: School of Information
-university: University of Texas at Austin
-# university-logo: templates/beltcrest.pdf
-university-logo-width: 5cm
-submitted-text: A thesis submitted for the degree of
+author: Nilavra Bhattacharya
+author-dispname: Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য
+supervisor: Jacek Gwizdka
+committee-member-2: Soo-Young Rieh
+committee-member-3: Matthew Lease
+committee-member-4: Robert Capra
+document-type: Dissertation # Dissertation / Treatise / Thesis / Report
 degree: Doctor of Philosophy
-degreedate: May 2023
-# dedication: Dedication Person Name Here
+degree-suffix: PhD TBD
+department: Faculty of the Graduate School
+university: The University of Texas at Austin
+degree-month: May
+degree-year: 2023
+
+
 acknowledgements: |
   `r paste(readLines("front-and-back-matter/_acknowledgements.Rmd"), collapse = '\n  ')`
 show-acknowledgements-in-toc: false
@@ -36,9 +41,22 @@ abstract-heading: "Abstract"
 abstract: |
   `r paste(readLines("front-and-back-matter/_abstract.Rmd"), collapse = "\n  ")`
 show-abstract-in-toc: false
+
 # add a second abstract with abstract-second-heading: "Abstract two", and abstract-second: "My abstract"
 abbreviations: |
   `r paste(readLines("front-and-back-matter/_abbreviations.Rmd"), collapse = '\n  ')`
+
+description: Insert Description for Web SEO here
+
+# ------ options to possibly turn on later ------
+# dedication: Dedication Person Name Here
+
+# ------ options to never turn on ------
+# university-logo: templates/beltcrest.pdf
+# university-logo-width: 5cm
+# submitted-text: A thesis submitted for the degree of
+
+
 
 #######################
 ## bibliography path ##
@@ -58,6 +76,7 @@ masters-submission: false
 # if you want to use a different title page altogether, provide a path to a 
 # .tex file here and it will override the default Oxford one
 # alternative-title-page: templates/alt-title-page-example.tex
+# alternative-title-page: templates/utexas-frontmatter.tex
 
 ### abbreviations ###
 abbreviations-width: 3.2cm
@@ -164,7 +183,7 @@ no-line-wrapping-in-code: false # by default, we prevent lines in code blocks fr
 #####################
 output:
   bookdown::pdf_book:
-    template: templates/template.tex
+    template: templates/template-utexas.tex
     latex_engine: xelatex
     keep_tex: true
     pandoc_args: "--lua-filter=scripts_and_filters/colour_and_highlight.lua"

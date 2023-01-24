@@ -1,12 +1,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% OXFORD THESIS TEMPLATE
-
-% Use this template to produce a standard thesis that meets the Oxford University requirements for DPhil submission
+%% U TEXAS THESIS TEMPLATE
 %
 % Originally by Keith A. Gillow (gillow@maths.ox.ac.uk), 1997
 % Modified by Sam Evans (sam@samuelevansresearch.org), 2007
 % Modified by John McManigle (john@oxfordechoes.com), 2015
 % Modified by Ulrik Lyngs (ulrik.lyngs@cs.ox.ac.uk), 2018-, for use with R Markdown
+% Modified by Nilavra Bhattacharya (nilavra@utexas.edu), 2023-, for use with R Markdown
+%
+% Nilavra Bhattacharya, 24 Jan 2023: Following previous authors: Ulrik Lyngs and John McManigle, broad permissions are granted to use, modify, and distribute this software
+% as specified in the MIT License included in this distribution's LICENSE file.
 %
 % Ulrik Lyngs, 25 Nov 2018: Following John McManigle, broad permissions are granted to use, modify, and distribute this software
 % as specified in the MIT License included in this distribution's LICENSE file.
@@ -36,6 +38,23 @@
 \usepackage{xurl}
 % change the default coloring of links to something sensible
 \usepackage{xcolor}
+% single double and other spacing
+\usepackage{setspace}
+
+% for bengali fonts
+% \babelprovide[import]{bangla}
+% \babelfont[bangla]{rm}{kalpurush.ttf}
+
+% \usepackage{fontspec} 
+% \usepackage{polyglossia} 
+% \setdefaultlanguage{english} 
+% \setotherlanguages{bengali}
+% \newfontfamily{\bengalifont}[Script=Bengali]{kalpurush.ttf}
+
+% \setotherlanguages{hindi,sanskrit,bengali}
+% \setmainfont{Times New Roman} 
+% \newfontfamily{\devanagarifont}[Script=Devanagari]{Lohit Devanagari.ttf} 
+
 
 \definecolor{mylinkcolor}{RGB}{0,0,139}
 \definecolor{myurlcolor}{RGB}{0,0,139}
@@ -50,10 +69,6 @@
   citecolor=mycitecolor
 }
 
-% to recognize unicode characters?
-% \usepackage[utf8]{inputenc}
-% \usepackage[bangla, provide=*]{babel}
-% \babelfont{rm}[Renderer=Harfbuzz]{FreeSerif}
 
 % add float package to allow manual control of figure positioning %
 \usepackage{float}
@@ -198,8 +213,8 @@
 %%%%% THESIS / TITLE PAGE INFORMATION
 % Everybody needs to complete the following:
 \title{LongSAL: A Longitudinal Search as Learning Study With University Students}
-\author{Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য}
-\college{School of Information}
+\author{Nilavra Bhattacharya}
+
 
 % Master's candidates who require the alternate title page (with candidate number and word count)
 % must also un-comment and complete the following three lines:
@@ -210,7 +225,7 @@
 \degree{Doctor of Philosophy}
 
 % Term and year of submission, or date if your board requires (eg most masters)
-\degreedate{May 2023}
+
 
 
 %%%%% YOUR OWN PERSONAL MACROS
@@ -246,8 +261,8 @@
 % Customise title page
 %
 \def\crest{}
-\renewcommand{\university}{University of Texas at Austin}
-\renewcommand{\submittedtext}{A thesis submitted for the degree of}
+\renewcommand{\university}{The University of Texas at Austin}
+\renewcommand{\submittedtext}{}
 \renewcommand{\thesistitlesize}{\fontsize{22pt}{28pt}\selectfont}
 \renewcommand{\gapbeforecrest}{25mm}
 \renewcommand{\gapaftercrest}{25mm
@@ -279,7 +294,83 @@
 \begin{romanpages}
 
 % Title page is created here
-\maketitle
+% original code:
+% \maketitle
+
+% --------- start: UTexas Frontmatter (committee membership, title page) -------
+
+% ~~~~ committee membership page ~~~~
+% \thispagestyle{empty}
+\begin{center}
+  The Dissertation Committee for Nilavra Bhattacharya\\
+  certifies that this is the approved version of the following Dissertation:\\
+  \vspace*{30pt}
+  \begin{spacing}{2}
+    {\Large{\textbf{LongSAL: A Longitudinal Search as Learning Study With University Students}}}
+  \end{spacing}
+\end{center}
+
+\vspace*{55pt}
+
+\phantom{x}\hspace{45ex} {\large{\textbf{Committee:}}}\\
+% \vspace*{12pt}
+
+\begin{flushright}
+  Jacek Gwizdka, Supervisor\\
+  \vspace*{24pt}
+  Soo-Young Rieh\\
+  \vspace*{24pt}
+  Matthew Lease\\
+  \vspace*{24pt}
+  Robert Capra
+\end{flushright}
+
+
+% ~~~~ title page ~~~~
+\newpage
+% \thispagestyle{empty}
+\begin{center}
+  
+  \begin{spacing}{2}
+    {\Large{\textbf{LongSAL: A Longitudinal Search as Learning Study With University Students}}}
+  \end{spacing}
+  
+  \vspace*{24pt}
+
+  \begin{spacing}{1.4}
+    by\\
+    
+    \vspace*{24pt}
+    
+    {\Large{\textbf{Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য}}}\\
+    
+    \vspace*{72pt}
+    
+    {\Large{\textbf{Dissertation}}}\\
+    
+    \vspace*{24pt}
+    
+    Presented to the Faculty of the Graduate School of\\
+    The University of Texas at Austin\\
+    in Partial Fulfillment\\
+    of the Requirements\\
+    for the Degree of\\
+    
+    \vspace*{30pt}
+    
+    {\Large{\textbf{Doctor of Philosophy}}}\\
+    
+    \vfill
+
+    {\large{The University of Texas at Austin\\
+    May 2023}}
+
+  \end{spacing}
+\end{center}
+
+
+% --------- end: UTexas Frontmatter (committee membership, title page) -------
+
 
 %%%%% DEDICATION
 
@@ -302,10 +393,40 @@
 %%%%% ABSTRACT
 
 
-\renewcommand{\abstracttitle}{Abstract}
-\begin{abstract}
-	~~~~~~~~Learning today is about navigation, discernment, induction, and synthesis of the wide body of information on the Internet present ubiquitously at every student's fingertips. Learning, or addressing a gap in one's knowledge, has been well established as an important motivator behind information-seeking activities. The Search as Learning research community advocates that online information search systems should be reconfigured to become educational platforms to foster learning and sensemaking. Modern search systems have yet to adapt to support this function. An important step to foster learning during online search is to identify behavioural patterns that distinguish searchers gaining more vs.~less knowledge during search. Previous efforts have primarily studied searchers in the short term, typically during a single lab session. Many researchers have expressed their concern over this ephemeral approach, as learning takes place over time, and is not fleeting. We propose an exploratory longitudinal study to analyze the long-term searching behaviour of students enrolled in a university course, over the span of a university semester. Our research aims are to identify if and how students' searching behaviour changes over time, as they gain new knowledge on a subject; and how do processes like motivation, metacognition, self-regulation, and other individual differences moderate their `searching as learning' behaviour. Findings from this exploratory longitudinal study will help to build improved search systems that foster human learning and sensemaking, and are more equitable in the face of learner diversity.
-\end{abstract}
+% ----------- original abstract ----------
+% \renewcommand{\abstracttitle}{Abstract}
+% \begin{abstract}
+% 	Learning today is about navigation, discernment, induction, and synthesis of the wide body of information on the Internet present ubiquitously at every student's fingertips. Learning, or addressing a gap in one's knowledge, has been well established as an important motivator behind information-seeking activities. The Search as Learning research community advocates that online information search systems should be reconfigured to become educational platforms to foster learning and sensemaking. Modern search systems have yet to adapt to support this function. An important step to foster learning during online search is to identify behavioural patterns that distinguish searchers gaining more vs.~less knowledge during search. Previous efforts have primarily studied searchers in the short term, typically during a single lab session. Many researchers have expressed their concern over this ephemeral approach, as learning takes place over time, and is not fleeting. We propose an exploratory longitudinal study to analyze the long-term searching behaviour of students enrolled in a university course, over the span of a university semester. Our research aims are to identify if and how students' searching behaviour changes over time, as they gain new knowledge on a subject; and how do processes like motivation, metacognition, self-regulation, and other individual differences moderate their `searching as learning' behaviour. Findings from this exploratory longitudinal study will help to build improved search systems that foster human learning and sensemaking, and are more equitable in the face of learner diversity.
+% \end{abstract}
+
+% --------- start: UTexas abstract -------
+\begin{center}
+  \textbf{Abstract}\\
+  
+  \vspace{18pt}
+  
+  \begin{spacing}{2}
+    {\Large{\textbf{LongSAL: A Longitudinal Search as Learning Study With University Students}}}
+  \end{spacing}
+
+  \vspace{18pt}
+
+  \begin{spacing}{1.4}
+    Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য, PhD TBD\\
+    The University of Texas at Austin, 2023\\
+    \vspace{24pt}
+    Supervisor: Jacek Gwizdka
+  \end{spacing}
+
+\end{center}
+
+\begin{spacing}{1.5}
+  \indent
+  % \indent
+  Learning today is about navigation, discernment, induction, and synthesis of the wide body of information on the Internet present ubiquitously at every student's fingertips. Learning, or addressing a gap in one's knowledge, has been well established as an important motivator behind information-seeking activities. The Search as Learning research community advocates that online information search systems should be reconfigured to become educational platforms to foster learning and sensemaking. Modern search systems have yet to adapt to support this function. An important step to foster learning during online search is to identify behavioural patterns that distinguish searchers gaining more vs.~less knowledge during search. Previous efforts have primarily studied searchers in the short term, typically during a single lab session. Many researchers have expressed their concern over this ephemeral approach, as learning takes place over time, and is not fleeting. We propose an exploratory longitudinal study to analyze the long-term searching behaviour of students enrolled in a university course, over the span of a university semester. Our research aims are to identify if and how students' searching behaviour changes over time, as they gain new knowledge on a subject; and how do processes like motivation, metacognition, self-regulation, and other individual differences moderate their `searching as learning' behaviour. Findings from this exploratory longitudinal study will help to build improved search systems that foster human learning and sensemaking, and are more equitable in the face of learner diversity.
+\end{spacing}
+
+% --------- end: UTexas abstract -------
 
 
 
@@ -771,7 +892,7 @@ For now, I wish to thank the following people and organisations (in no particula
   \begin{itemize}
   \tightlist
   \item
-    Xiaofei, Michael, Hema, Himanshu, Ambika
+    Anke, Xiaofei, Michael, Hema, Himanshu, Ambika, Hardik\ldots{}
   \end{itemize}
 \item
   India People
@@ -799,6 +920,16 @@ For now, I wish to thank the following people and organisations (in no particula
   iSchool Doc Colleagues
 \item
   Labmates, Officemates
+\item
+  LinkedIn people
+\item
+  Twitter people
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Jason Baldridge
+  \end{itemize}
 \end{itemize}
 
 \hypertarget{references}{%

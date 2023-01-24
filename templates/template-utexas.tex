@@ -1,12 +1,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% OXFORD THESIS TEMPLATE
-
-% Use this template to produce a standard thesis that meets the Oxford University requirements for DPhil submission
+%% U TEXAS THESIS TEMPLATE
 %
 % Originally by Keith A. Gillow (gillow@maths.ox.ac.uk), 1997
 % Modified by Sam Evans (sam@samuelevansresearch.org), 2007
 % Modified by John McManigle (john@oxfordechoes.com), 2015
 % Modified by Ulrik Lyngs (ulrik.lyngs@cs.ox.ac.uk), 2018-, for use with R Markdown
+% Modified by Nilavra Bhattacharya (nilavra@utexas.edu), 2023-, for use with R Markdown
+%
+% Nilavra Bhattacharya, 24 Jan 2023: Following previous authors: Ulrik Lyngs and John McManigle, broad permissions are granted to use, modify, and distribute this software
+% as specified in the MIT License included in this distribution's LICENSE file.
 %
 % Ulrik Lyngs, 25 Nov 2018: Following John McManigle, broad permissions are granted to use, modify, and distribute this software
 % as specified in the MIT License included in this distribution's LICENSE file.
@@ -36,6 +38,23 @@
 \usepackage{xurl}
 % change the default coloring of links to something sensible
 \usepackage{xcolor}
+% single double and other spacing
+\usepackage{setspace}
+
+% for bengali fonts
+% \babelprovide[import]{bangla}
+% \babelfont[bangla]{rm}{kalpurush.ttf}
+
+% \usepackage{fontspec} 
+% \usepackage{polyglossia} 
+% \setdefaultlanguage{english} 
+% \setotherlanguages{bengali}
+% \newfontfamily{\bengalifont}[Script=Bengali]{kalpurush.ttf}
+
+% \setotherlanguages{hindi,sanskrit,bengali}
+% \setmainfont{Times New Roman} 
+% \newfontfamily{\devanagarifont}[Script=Devanagari]{Lohit Devanagari.ttf} 
+
 
 $if(linkcolor-rgb)$
 \definecolor{mylinkcolor}{RGB}{$linkcolor-rgb$}
@@ -358,7 +377,83 @@ $if(title-page)$
 $if(alternative-title-page)$
 \input{$alternative-title-page$}
 $else$
-\maketitle
+% original code:
+% \maketitle
+
+% --------- start: UTexas Frontmatter (committee membership, title page) -------
+
+% ~~~~ committee membership page ~~~~
+% \thispagestyle{empty}
+\begin{center}
+  The $document-type$ Committee for $author$\\
+  certifies that this is the approved version of the following $document-type$:\\
+  \vspace*{30pt}
+  \begin{spacing}{2}
+    {\Large{\textbf{$title$}}}
+  \end{spacing}
+\end{center}
+
+\vspace*{55pt}
+
+\phantom{x}\hspace{45ex} {\large{\textbf{Committee:}}}\\
+% \vspace*{12pt}
+
+\begin{flushright}
+  $supervisor$, Supervisor\\
+  \vspace*{24pt}
+  $committee-member-2$\\
+  \vspace*{24pt}
+  $committee-member-3$\\
+  \vspace*{24pt}
+  $committee-member-4$
+\end{flushright}
+
+
+% ~~~~ title page ~~~~
+\newpage
+% \thispagestyle{empty}
+\begin{center}
+  
+  \begin{spacing}{2}
+    {\Large{\textbf{$title$}}}
+  \end{spacing}
+  
+  \vspace*{24pt}
+
+  \begin{spacing}{1.4}
+    by\\
+    
+    \vspace*{24pt}
+    
+    {\Large{\textbf{$author-dispname$}}}\\
+    
+    \vspace*{72pt}
+    
+    {\Large{\textbf{$document-type$}}}\\
+    
+    \vspace*{24pt}
+    
+    Presented to the $department$ of\\
+    $university$\\
+    in Partial Fulfillment\\
+    of the Requirements\\
+    for the Degree of\\
+    
+    \vspace*{30pt}
+    
+    {\Large{\textbf{$degree$}}}\\
+    
+    \vfill
+
+    {\large{$university$\\
+    $degree-month$ $degree-year$}}
+
+  \end{spacing}
+\end{center}
+
+
+% --------- end: UTexas Frontmatter (committee membership, title page) -------
+
 $endif$
 $endif$
 
@@ -389,15 +484,44 @@ $endif$
 $if(abstract)$
 
 $if(show-abstract-in-toc)$
-
 \addcontentsline{toc}{chapter}{$if(abstract-heading)$$abstract-heading$$else$Abstract$endif$}
 \renewcommand{\numberstyleabstract}{plain}
 $endif$
 
-\renewcommand{\abstracttitle}{$if(abstract-heading)$$abstract-heading$$else$Abstract$endif$}
-\begin{abstract}
-	$abstract$
-\end{abstract}
+% ----------- original abstract ----------
+% \renewcommand{\abstracttitle}{$if(abstract-heading)$$abstract-heading$$else$Abstract$endif$}
+% \begin{abstract}
+% 	$abstract$
+% \end{abstract}
+
+% --------- start: UTexas abstract -------
+\begin{center}
+  \textbf{Abstract}\\
+  
+  \vspace{18pt}
+  
+  \begin{spacing}{2}
+    {\Large{\textbf{$title$}}}
+  \end{spacing}
+
+  \vspace{18pt}
+
+  \begin{spacing}{1.4}
+    $author-dispname$, $degree-suffix$\\
+    $university$, $degree-year$\\
+    \vspace{24pt}
+    Supervisor: $supervisor$
+  \end{spacing}
+
+\end{center}
+
+\begin{spacing}{1.5}
+  \indent
+  % \indent
+  $abstract$
+\end{spacing}
+
+% --------- end: UTexas abstract -------
 
 $endif$
 
