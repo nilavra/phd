@@ -28,7 +28,9 @@ information. In essence, IR systems are software that take, as input,
 some query, and return as output some ranked list of resources.
 
 
-> "Within the context of information seeking, (search engines and IR systems) **feel** like they play a prominent role in our lives, when in actuality, they only play a small role: the **retrieval** part of information ...
+<!-- UT format guideline: do not use quotation marks in the blockquote, except when indicating quotations within the block quote;  indent on the left -->
+
+>|        Within the context of information seeking, (search engines and IR systems) **feel** like they play a prominent role in our lives, when in actuality, they only play a small role: the **retrieval** part of information ...
 >- Search engines **don't help us identify what we need** -- that's up to us; search engines don't question what we ask for, though they do recommend queries that use similar words.
 >
 > - Search engines **don't help us choose a source** -- though they are themselves a source, and a heavily marketed one, so we are certainly compelled to choose search engines over other sources, even when other sources might have better information.
@@ -42,7 +44,7 @@ some query, and return as output some ranked list of resources.
   true; Google doesn't view those as their responsibility.
 >
 >- Search engines **don't help us sensemake** -- we have to use our
-  minds to integrate what we've found into our knowledge."
+  minds to integrate what we've found into our knowledge.
 >
 > -- [@ko2021seeking]
 

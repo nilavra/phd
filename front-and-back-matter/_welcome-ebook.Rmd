@@ -1,34 +1,58 @@
 # Nilavra Bhattacharya's PhD Thesis {-}
 
-::: {.row}
-:::::: {.col-sm-12}
+
 
 Welcome to the eBook version of my work-in-progress PhD dissertation.
 To read the eBook version, simply scroll down, or jump to a specific chapter from the navigation menu (on the left in dekstops; on the top in mobile devices).
 <!-- - To view/download a PDF version of the thesis, click the button below. -->
 
+<a href="_main.pdf" target="_blank" title="Click to view PDF version of thesis" class="text-decoration-none">
+<div class="text-center shadow pt-5 pb-3 mb-5 bg-white rounded">
+**LongSAL: A Longitudinal Search as Learning Study
 \
-<div style="font-style: italic; font-size: 20px; font-weight: bold; text-align:center"> 
-LongSAL: A Longitudinal Search as Learning Study
-<br>With University Students
+\
+With University Students**
+\
+\
+\
+by
+\
+\
+**Nilavra Bhattacharya**
+\
+<span style="font-size:20px">নীলাভ্র ভট্টাচার্য্য</span>
+\
+\
+\
+**Dissertation**
+\
+\
+Presented to the Faculty of the Graduate School of\
+The University of Texas at Austin\
+in Partial Fulfillment\
+of the Requirements\
+for the Degree of\
+\
+\
+\
+**Doctor of Philosophy**
+\
+\
+The University of Texas at Austin\
+May 2023
 </div>
+</a>
 
+<!-- Uncomment the below lines to show button for PDF -->
+<!-- 
 <div class="d-flex justify-content-center">
 <a href="_main.pdf" class="btn btn-primary " target="_blank">
 View PDF Version of this Thesis
 </a>
-</div>
+</div> 
+-->
 
 
-
-::::::
-
-:::::: {.col-sm-6 .thesis-cover}
-<!-- <a href="_main.pdf" target="_blank" title="View PDF version">
-<img src="templates/cover.png" alt="Download PDF" class="img-fluid"/>
-</a>  -->
-::::::
-:::
 
 ## Abstract {-}
 ```{r abstract, child=here::here('front-and-back-matter/_abstract.Rmd')}
@@ -39,7 +63,6 @@ View PDF Version of this Thesis
 ```{r acknowledgments, child=here::here('front-and-back-matter/_acknowledgements.Rmd')}
 ```
 
-\
 
 ::::::::: {.byline}
 Original Template:

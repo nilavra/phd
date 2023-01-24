@@ -19,7 +19,8 @@ knit: (function(input, ...) {
 #####################
 title: |
   LongSAL: A Longitudinal Search as Learning Study With University Students
-author: Nilavra Bhattacharya
+author: Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য
+description: Insert Description for Web SEO here
 college: School of Information
 university: University of Texas at Austin
 # university-logo: templates/beltcrest.pdf
@@ -27,7 +28,7 @@ university-logo-width: 5cm
 submitted-text: A thesis submitted for the degree of
 degree: Doctor of Philosophy
 degreedate: May 2023
-dedication: Dedication Person Name Here
+# dedication: Dedication Person Name Here
 acknowledgements: |
   `r paste(readLines("front-and-back-matter/_acknowledgements.Rmd"), collapse = '\n  ')`
 show-acknowledgements-in-toc: false
