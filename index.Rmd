@@ -242,6 +242,8 @@ If you need to create your own additional chunk options, edit the file scripts/c
 options(tinytex.verbose = TRUE)
 ```
 
+<!-- ---------- NB Util functions -------- -->
+<!-- auto converts between SVG and PDF for web (SVG) and LaTeX (PDF) output -->
 ```{r, include=FALSE}
 show_fig <- function(f)
   {if (knitr::is_latex_output())
@@ -252,5 +254,23 @@ show_fig <- function(f)
     output = xfun::with_ext(f, 'svg')
   }
   knitr::include_graphics(output)
+}
+```
+
+<!-- 
+  right aligns quote quotee (author) to the end of blockquote
+  adapted from tufte::quote_footer()
+  https://github.com/rstudio/tufte/blob/main/R/utils.R
+ -->
+```{r, include=FALSE}
+nb_blockquote_author <- function(text) {
+  if (knitr::is_html_output()) {
+    sprintf("<div style='text-align:right'>%s</div>", text)
+  } else if (knitr::is_latex_output()) {
+    sprintf("\\hfill %s", text)
+  } else {
+    warning("quote_footer() only works for HTML and LaTeX output", call. = FALSE)
+    text
+  }
 }
 ```

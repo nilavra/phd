@@ -2,55 +2,37 @@
 
 ## Searching as Learning: Overview {#sec_intro_overview}
 
-Searching for information is a fundamental human activity. 
-In the modern world, it is frequently conducted by users interacting with online
-search systems (e.g., web search engines), or more formally,
-**Information Retrieval** (IR) systems. As early as in 1980, Bertam
-Brookes, in his 'fundamental equation' of information and knowledge, had
-stated that an information searcher's current state of knowledge is
-changed to a new knowledge structure by exposure to information
-[@brookes1980foundations p. 131]. This indicates that searchers acquire
-new knowledge in the search process, and the same information will have
-different effects on different searchers' knowledge states. Fifteen
-years later, [@marchionini1995information] described information seeking
-as "a process, in which humans purposefully engage in order to change
-their state of knowledge". Thus, we have known for quite a while that
-search is driven by higher-level human needs, and IR systems are a means
-to an end, and not the end in itself. **Interactive information
-retrieval** (IIR), a.k.a. human-computer information retrieval (HCIR)
-[@marchionini2006toward] refers to the study and evaluation of users'
-interaction with IR systems and users' satisfaction with the retrieved
-information [@borlund2013interactive].
+Searching for information is a fundamental human activity. In the modern world, it is frequently conducted by users interacting with online search systems (e.g., web search engines), or more formally, **Information Retrieval** (IR) systems.
+As early as in 1980, Bertam Brookes, in his 'fundamental equation' of information and knowledge, had stated that an information searcher's current state of knowledge is changed to a new knowledge structure by exposure to information [@brookes1980foundations p. 131].
+This indicates that searchers acquire new knowledge in the search process, and the same information will have different effects on different searchers' knowledge states.
+Fifteen years later, [@marchionini1995information] described information seeking as "a process, in which humans purposefully engage in order to change
+their state of knowledge".
+Thus, we have known for quite a while that search is driven by higher-level human needs, and IR systems are a means to an end, and not the end in itself.
+**Interactive information retrieval** (IIR), a.k.a. human-computer information retrieval (HCIR) [@marchionini2006toward] refers to the study and evaluation of users' interaction with IR systems and users' satisfaction with the retrieved information [@borlund2013interactive].
 
-Despite their technological marvels, modern IR systems falls short in
-several aspects of fully satisfying the higher level human need for
-information. In essence, IR systems are software that take, as input,
-some query, and return as output some ranked list of resources.
-
+Despite their technological marvels, modern IR systems falls short in several aspects of fully satisfying the higher level human need for information.
+In essence, IR systems are software that take, as input, some query, and return as output some ranked list of resources.
 
 <!-- UT format guideline: do not use quotation marks in the blockquote, except when indicating quotations within the block quote;  indent on the left -->
 
->|        Within the context of information seeking, (search engines and IR systems) **feel** like they play a prominent role in our lives, when in actuality, they only play a small role: the **retrieval** part of information ...
->- Search engines **don't help us identify what we need** -- that's up to us; search engines don't question what we ask for, though they do recommend queries that use similar words.
+> *Within the context of information seeking, (search engines and IR systems) **feel** like they play a prominent role in our lives, when in actuality, they only play a small role: the **retrieval** part of information ...*
 >
-> - Search engines **don't help us choose a source** -- though they are themselves a source, and a heavily marketed one, so we are certainly compelled to choose search engines over other sources, even when other sources might have better information.
+>- *Search engines **don't help us identify what we need** -- that's up to us; search engines don't question what we ask for, though they do recommend queries that use similar words.*
 >
-> - Search engines **don't help us express our query** accurately or precisely -- though they will help with minor spelling corrections.
+> - *Search engines **don't help us choose a source** -- though they are themselves a source, and a heavily marketed one, so we are certainly compelled to choose search engines over other sources, even when other sources might have better information.*
 >
-> - Search engines do help retrieve information---this is the primary part that they automate.
+> - *Search engines **don't help us express our query** accurately or precisely -- though they will help with minor spelling corrections.*
 >
-> - Search engines **don't help us evaluate the answers we retrieve** --
-  it's up to us to decide whether the results are relevant, credible,
-  true; Google doesn't view those as their responsibility.
+> - *Search engines do help retrieve information---this is the primary part that they automate.*
 >
->- Search engines **don't help us sensemake** -- we have to use our
-  minds to integrate what we've found into our knowledge.
+> - *Search engines **don't help us evaluate the answers we retrieve** -- it's up to us to decide whether the results are relevant, credible, true; Google doesn't view those as their responsibility.*
 >
-> -- [@ko2021seeking]
+>- *Search engines **don't help us sensemake** -- we have to use our minds to integrate what we've found into our knowledge.*
+>
+> `r nb_blockquote_author('--- [@ko2021seeking]')`
+>
 
-
-In recent years, the IIR research community has been actively promoting
-the **Search as Learning** (SAL) research direction. This fast-growing
+In recent years, the IIR research community has been actively promoting the **Search as Learning** (SAL) research direction. This fast-growing
 community of researchers propose that search environments should be
 augmented and reconfigured to foster learning, sensemaking, and
 long-term knowledge-gain. Various workshops and seminars have been
