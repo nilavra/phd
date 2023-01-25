@@ -18,10 +18,10 @@ knit: (function(input, ...) {
 ## thesis metadata ##
 #####################
 title: |
-  LongSAL: A Longitudinal Search as Learning Study With University Students [Work in progress]
+  LongSAL: A Longitudinal Search as Learning Study With University Students [work in progress]
 author: Nilavra Bhattacharya
-author-dispname: Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য
-description: Work-in-progress eBook of Nilavra's PhD thesis, created using bookdown template - oxforddown.
+author-dispname: নীলাভ্র ভট্টাচার্য্য
+description: Work-in-progress eBook of Nilavra's PhD thesis, created using oxforddown template.
 supervisor: Jacek Gwizdka
 committee-member-2: Soo-Young Rieh
 committee-member-3: Matthew Lease
@@ -272,4 +272,13 @@ nb_blockquote_author <- function(text) {
     text
   }
 }
+```
+
+<!-- 
+  to access YAML metadata in Rmd files 
+  https://bookdown.org/yihui/rmarkdown-cookbook/document-metadata.html
+-->
+
+```{r, include=FALSE}
+library(rmarkdown)
 ```
