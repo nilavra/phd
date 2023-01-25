@@ -1,11 +1,11 @@
 # Introduction
 
-## Searching as Learning: Overview {#sec_intro_overview}
+## Searching as Learning: Overview {#sec-intro-overview}
 
 Searching for information is a fundamental human activity. In the modern world, it is frequently conducted by users interacting with online search systems (e.g., web search engines), or more formally, **Information Retrieval** (IR) systems.
 As early as in 1980, Bertam Brookes, in his 'fundamental equation' of information and knowledge, had stated that an information searcher's current state of knowledge is changed to a new knowledge structure by exposure to information [@brookes1980foundations p. 131].
 This indicates that searchers acquire new knowledge in the search process, and the same information will have different effects on different searchers' knowledge states.
-Fifteen years later, [@marchionini1995information] described information seeking as "a process, in which humans purposefully engage in order to change
+Fifteen years later, @marchionini1995information described information seeking as "a process, in which humans purposefully engage in order to change
 their state of knowledge".
 Thus, we have known for quite a while that search is driven by higher-level human needs, and IR systems are a means to an end, and not the end in itself.
 **Interactive information retrieval** (IIR), a.k.a. human-computer information retrieval (HCIR) [@marchionini2006toward] refers to the study and evaluation of users' interaction with IR systems and users' satisfaction with the retrieved information [@borlund2013interactive].
@@ -29,163 +29,79 @@ In essence, IR systems are software that take, as input, some query, and return 
 >
 >- *Search engines **don't help us sensemake** -- we have to use our minds to integrate what we've found into our knowledge.*
 >
-> `r nb_blockquote_author('--- [@ko2021seeking]')`
+> `r nb_blockquote_author('--- @ko2021seeking')`
 >
 
-In recent years, the IIR research community has been actively promoting the **Search as Learning** (SAL) research direction. This fast-growing
-community of researchers propose that search environments should be
-augmented and reconfigured to foster learning, sensemaking, and
-long-term knowledge-gain. Various workshops and seminars have been
-organized to develop research agendas at the interaction of IIR and the
-Learning Sciences
-[@freund2014searching; @allan2012frontiers; @freund2013searching; @collins2017search; @agosti2014evaluation; @gwizdka2016search]
-Additionally, special issues on Search as Learning have also been
-published in the *Journal of Information Science* [@hansen2016editorial]
-and in the *Information Retrieval Journal* [@eickhoff2017introduction].
-Articles in these special issued presented landmark literature reviews
-[@rieh2016searching; @vakkari2016searching], research agendas, and ideas
-in this direction. Overall, these works generally advocate that future
-research in this domain should aim to:
+In recent years, the IIR research community has been actively promoting the **Search as Learning** (SAL) research direction.
+This fast-growing community of researchers propose that search environments should be augmented and reconfigured to foster learning, sensemaking, and long-term knowledge-gain.
+Various workshops and seminars have been organized to develop research agendas at the interaction of IIR and the Learning Sciences [@freund2014searching; @allan2012frontiers; @freund2013searching; @collins2017search; @agosti2014evaluation; @gwizdka2016search].
+Additionally, special issues on Search as Learning have also been published in the *Journal of Information Science* [@hansen2016editorial] and in the *Information Retrieval Journal* [@eickhoff2017introduction].
+Articles in these special issued presented landmark literature reviews [@rieh2016searching; @vakkari2016searching], research agendas, and ideas
+in this direction. 
+Overall, these works generally advocate that future research in this domain should aim to:
 
 - understand the contexts in which people search to learn
+- understand factors that can influence learning outcomes
+- understand how search behaviours can predict learning outcomes
+- develop search systems to better support learning and sensemaking
+- help searchers be more critical consumers of information
+- understand the cognitive biases fostered by existing search systems
+- develop search engine ranking algorithms and interface tools that foster long term knowledge gain
 
--   understand factors that can influence learning outcomes
-
--   understand how search behaviours can predict learning outcomes
-
--   develop search systems to better support learning and sensemaking
-
--   help searchers be more critical consumers of information
-
--   understand the cognitive biases fostered by existing search systems
-
--   develop search engine ranking algorithms and interface tools that
-    foster long term knowledge gain
-
-Parallelly, the Educational Science and the Learning Science research
-communities have also been organizing workshops and formulating research
-agendas to conceptualize forms of 'new learning'
-[@newlondon1996pedagogy; @kalantzis2012newa; @cope2013new] that are
-afforded by innovations in digital technologies and e-learning ecologies
-[@cope2017elearningc]. Higher education researchers have been
-increasingly studying how students' information search and information
-use behaviour affect and support their learning
-[@zlatkin2021students; @weber2018can; @weber2019informationseeking].
-Efforts are underway to conceptualize a theoretical framework around new
-forms of e-Learning that is aided and afforded by digital technologies
-[@cope2017elearningc; @amina2017active]. In the community's own words:
-"learning today is more about navigation, discernment, induction, and
-synthesis" of the wide body of information present ubiquitously at every
-student's fingertips [@amina2017active]. Therefore, "knowing the source,
-finding the source, and using the information aptly is important to
-learn and know now more than ever before" [@cope2013new]. All of these
-interests in the intersection of searching and learning goes to
-emphasize that understanding learning during search is critical to
+Parallelly, the Educational Science and the Learning Science research communities have also been organizing workshops and formulating research
+agendas to conceptualize forms of 'new learning' [@newlondon1996pedagogy; @kalantzis2012newa; @cope2013new] that are afforded by innovations in digital technologies and e-learning ecologies [@cope2017elearningc].
+Higher education researchers have been increasingly studying how students' information search and information use behaviour affect and support their learning [@zlatkin2021students; @weber2018can; @weber2019informationseeking].
+Efforts are underway to conceptualize a theoretical framework around new forms of e-Learning that is aided and afforded by digital technologies [@cope2017elearningc; @amina2017active].
+In the community's own words: "learning today is more about navigation, discernment, induction, and synthesis" of the wide body of information present ubiquitously at every student's fingertips [@amina2017active].
+Therefore, "knowing the source, finding the source, and using the information aptly is important to learn and know now more than ever before" [@cope2013new].
+All of these interests in the intersection of searching and learning goes to emphasize that understanding learning during search is critical to
 improve human-information interaction.
 
 ## Problem Statement {#sec_intro_problem_statement}
 
-A major limitation in the area of Search as Learning, Interactive IR
-(IIR), and more broadly, in Human-Computer Interaction (HCI) research is
-that, the user is examined in the short-term, typically over the course
-of a single experimental session in a lab
+A major limitation in the area of Search as Learning, Interactive IR (IIR), and more broadly, in Human-Computer Interaction (HCI) research is
+that, the user is examined in the short-term, typically over the course of a single experimental session in a lab
 [@kelly2009evaluation; @HCIUXres81_online; @zlatkin2021students; @karapanos2021advances].
-Very few studies exist in the search-as-learning domain that have
-observed *the same participant* over a longer period of time than a
-single search session
-[@kelly2006measuring_a; @kelly2006measuring_b; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
-This ephemeral approach has acute implications in any domain where
-learning is involved because "learning is a *process* that leads to
-*change* in knowledge ... (which) unfolds over time" [@ambrose2010howa],
-and "...does not happen all at once"[@white_2016_iwss_learning].
+Very few studies exist in the search-as-learning domain that have observed *the same participant* over a longer period of time than a single search session [@kelly2006measuring_a; @kelly2006measuring_b; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
+This ephemeral approach has acute implications in any domain where learning is involved because "learning is a *process* that leads to *change* in knowledge ... (which) unfolds over time" [@ambrose2010howa], and "...does not happen all at once"[@white_2016_iwss_learning].
 
-**To the best of the author's knowledge, almost no new longitudinal
-studies were reported in major search-as-learning literature in the last
-five years, that systematically studied students' information search
-behaviour and information-use over the long term, in their *in-situ*
-naturalistic environment and contexts, and linked those behaviours
-quantitatively to the students' learning outcomes and individual
-differences.** 
+**To the best of the author's knowledge, almost no new longitudinal studies were reported in major search-as-learning literature in the last five years, that systematically studied students' information search behaviour and information-use over the long term, in their *in-situ* naturalistic environment and contexts, and linked those behaviours quantitatively to the students' learning outcomes and individual differences.**
 
-Higher education students are increasingly using the
-Internet as their main learning environment and source of information
-when studying. Yet, the short term nature of research in this domain
-creates significant gaps in our knowledge regarding how students'
-information search behaviour and information use develop over time, and
-how it affects their learning [@zlatkin2021students]. 
+Higher education students are increasingly using the Internet as their main learning environment and source of information when studying. Yet, the short term nature of research in this domain creates significant gaps in our knowledge regarding how students' information search behaviour and information use develop over time, and how it affects their learning [@zlatkin2021students].
 
-> _When research in this area "relies so heavily on (short-term) lab studies, can we
-realistically say we are comprehensively studying human-tech
-interactions -- when many of those interactions take place over long
-periods of time in real-world contexts? ... An over-reliance on short
-studies risks inaccurate findings, potentially resulting in prematurely
-embracing or disregarding new concepts."_
+> *When research in this area relies so heavily on (short-term) lab studies, can we realistically say we are comprehensively studying human-tech interactions -- when many of those interactions take place over long periods of time in real-world contexts? ... An over-reliance on short studies risks inaccurate findings, potentially resulting in prematurely embracing or disregarding new concepts.*
 >
-> -- [@HCIUXres81_online].
+> `r nb_blockquote_author('--- @HCIUXres81_online')`
 
-Current search engines and information retrieval systems "do not help us
-know what we want to know, ...do not help us know if what we've found is
-relevant or true; and they do not help us make sense of the retrieved
-information. All they do is quickly retrieve what other people on the
-internet have shared" [@ko2021seeking]. Unless we have more long-term
-understanding of the nature of knowledge gain during search, the
-limitations of current search systems will continue to persist.
-Increased knowledge and understanding of students', and more broadly
-searchers', information searching and learning behaviour over time will
-help us to overcome the limitations of current IR systems, and transform
-them into rich learning spaces where "search experiences and learning
-experiences are intertwined and even synergized" [@url_rieh_homepage].
-The internet and digital educational technologies offer great
-opportunities to transform learning and the education experience.
-Enabled by our increased comprehension of the longitudinal
-searching-as-learning process, improved and validated by empirical data,
-we can create a new wave of fundamentally transformative educational
-technologies and "e-learning ecologies, that will be more engaging for
-learners, more effective (than traditional classroom practices), more
-resource efficient, and more equitable in the face of learner diversity"
-[@cope2017elearningc].
+Current search engines and information retrieval systems "do not help us know what we want to know, ...do not help us know if what we've found is relevant or true; and they do not help us make sense of the retrieved information.
+All they do is quickly retrieve what other people on the internet have shared" [@ko2021seeking].
+Unless we have more long-term understanding of the nature of knowledge gain during search, the limitations of current search systems will continue to persist.
+Increased knowledge and understanding of students', and more broadly searchers', information searching and learning behaviour over time will help us to overcome the limitations of current IR systems, and transform them into rich learning spaces where "search experiences and learning experiences are intertwined and even synergized" [@url_rieh_homepage].
+The internet and digital educational technologies offer great opportunities to transform learning and the education experience.
+Enabled by our increased comprehension of the longitudinal searching-as-learning process, improved and validated by empirical data, we can create a new wave of fundamentally transformative educational technologies and "e-learning ecologies, that will be more engaging for learners, more effective (than traditional classroom practices), more resource efficient, and more equitable in the face of learner diversity" [@cope2017elearningc].
 
 ## Purpose of this Dissertation Proposal {#sec_intro_purpose}
 
-To address the gaps in our knowledge of how information searching
-influences students' learning process over time, this dissertation
-proposal proposes to conduct a semester-long longitudinal study (approx.
-16 weeks) with university student participants. The overarching research
-aim is to identify how students' online searching behaviour correlate
-with their learning outcomes for a particular university course.
-Building upon principles from the Learning Sciences
-[@sawyer2005cambridge; @ambrose2010howa; @council2000how; @novak2010learninga],
-and empirical evidences from the Information Sciences
-[@vakkari2016searching; @rieh2016searching; @white2016interactions],
-this dissertation proposal aims to
+To address the gaps in our knowledge of how information searching influences students' learning process over time, this dissertation proposal proposes to conduct a semester-long longitudinal study (approx. 16 weeks) with university student participants.
+The overarching research aim is to identify how students' online searching behaviour correlate with their learning outcomes for a particular university course.
+Building upon principles from the Learning Sciences [@sawyer2005cambridge; @ambrose2010howa; @council2000how; @novak2010learninga],
+and empirical evidences from the Information Sciences [@vakkari2016searching; @rieh2016searching; @white2016interactions],
+this dissertation proposal aims to:
 
--   situate students as learners in their naturalistic contexts, and
-    characterized by their individual differences,
--   measure students' information search and information use behaviour
-    over time, and
--   correlate the information search behaviour with the learning
-    outcomes for the university course.
+- situate students as learners in their naturalistic contexts, and characterized by their individual differences
+- measure students' information search and information use behaviour over time
+- correlate the information search behaviour with the learning outcomes for the university course
 
-Learning, or addressing a gap in one's knowledge, has been well
-established as an important motivator behind information-seeking
-activities (Section [1.1](#sec_intro_overview){reference-type="ref"
-reference="sec_intro_overview"}). Therefore, search systems that support
-rapid learning across a number of searchers, and a range of tasks, can
-be considered as more effective search systems [@white2016interactions
-p. 310]. This dissertation proposal takes a step in this direction. "It
-opens great expectations for many-sided, great contribution to our
-knowledge on the relations between search process and learning outcomes"
-[@bhattacharya2021longitudinal anonymous reviewer].
+Learning, or addressing a gap in one's knowledge, has been well established as an important motivator behind information-seeking activities (Section \@ref(sec-intro-overview)).
+Therefore, search systems that support rapid learning across a number of searchers, and a range of tasks, can be considered as more effective search systems [@white2016interactions, p. 310].
+This dissertation proposal takes a step in this direction.
+"It opens great expectations for many-sided, great contribution to our knowledge on the relations between search process and learning outcomes" [anonymous reviewer for @bhattacharya2021longitudinal].
 
 ## Outline {#sec_intro_outline}
 
-This dissertation proposal document is structured as follows. First,
-principles of learning and relevant background from the domain of
-Educational Sciences are presented in Chapter 2. Next, relevant
-empirical evidences from the Information Searching Literature are
-discussed in Chapter 3. Chapter 4 presents the research questions, the
-overarching hypotheses, and discusses their rationale in the context of
-the existing research gaps. Chapter 5 describes the research methods,
-including the longitudinal study design, experimental procedures, data
-collection and analyses plans, anticipated limitations, and expected
-schedule to complete the dissertation.
+This dissertation proposal document is structured as follows.
+First, principles of learning and relevant background from the domain of Educational Sciences are presented in Chapter 2.
+Next, relevant empirical evidences from the Information Searching Literature are discussed in Chapter 3.
+Chapter 4 presents the research questions, the overarching hypotheses, and discusses their rationale in the context of
+the existing research gaps.
+Chapter 5 describes the research methods, including the longitudinal study design, experimental procedures, data collection and analyses plans, anticipated limitations, and expected schedule to complete the dissertation.

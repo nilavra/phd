@@ -1,6 +1,6 @@
 fig:fig-study-proc-diss
 introduction
-sec_intro_overview
+sec-intro-overview
 sec_intro_problem_statement
 sec_intro_purpose
 sec_intro_outline
