@@ -3,14 +3,14 @@
 Welcome to the eBook version of `r metadata[['author']]`'s work-in-progress `r metadata[['degree-suffix']]` `r metadata[['document-type']]`.
 
 To read this eBook, simply scroll down, or jump to a specific chapter from the navigation menu (on the left in dekstops; on the top in mobile devices).
+To view a PDF version, click on the cover-sheet below.
 
 <!-- - To view/download a PDF version of the thesis, click the button below. -->
 
-<a href="_main.pdf" target="_blank" title="Click to view the PDF version of this `r metadata[['document-type']]`" class="text-decoration-none">
+<a href="_main.pdf" target="_blank" title="Click to view PDF version" class="text-decoration-none">
 <div class="text-center shadow pt-1 pb-3 mb-5 bg-white rounded">
 <div class="text-right pt-3 pb-2 px-4 small font-italic">Last compiled on `r format(Sys.time(), '%Y-%m-%d %H:%M:%S')` CST</div>
 <div style="font-weight:bold; line-height:2.5; max-width: 80%; margin: 0 auto">`r metadata[['title']]`</div>
-\
 \
 by
 \
@@ -38,7 +38,9 @@ for the Degree of\
 `r metadata[['university']]`\
 `r metadata[['degree-month']]` `r metadata[['degree-year']]`
 </div>
+<div style="margin-top: -35px; text-align: center; font-size:85%; color:#555"> Click on the coversheet to view a PDF version of this `r metadata[['document-type']]`.</div>
 </a>
+
 
 <!-- Uncomment the below lines to show button for PDF -->
 <!-- 
