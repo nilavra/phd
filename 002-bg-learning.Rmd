@@ -1,6 +1,6 @@
-# Background: Knowledge and Learning {#ch_bg_learn}
+# Background: Knowledge and Learning {#ch-bg-learn}
 
-<!-- This first chapter on background literature discusses relevant concepts
+This first chapter on background literature discusses relevant concepts
 from the disciplines of Education and Learning Sciences. First, we
 introduce some relevant terminology, and the concepts of deep or
 meaningful learning. Then we discuss several research backed principles
@@ -13,11 +13,11 @@ that can promote better learning. In the last section, we state what
 implications these findings have for shaping the proposed study in this
 dissertation proposal.
 
-## Terminology {#sec_bg_learn_terminology}
+## Terminology {#sec-bg-learn-terminology}
 
-The Webster dictionary[^1] defines **knowledge** in two ways. The first
+The Webster dictionary^[<https://www.merriam-webster.com/dictionary/knowledge>] defines **knowledge** in two ways. The first
 definition is "the range of one's information or understanding".
-[@vakkari2016searching] says it is "the totality what a person knows,
+@vakkari2016searching says it is "the totality what a person knows,
 that is, a **personal knowledge** or **belief system**. It may include
 both justified, true beliefs and less justified, not so true beliefs,
 which the person more or less thinks hold true." Webster's second
@@ -61,18 +61,22 @@ teacher. "There is a special focus on long-term memory, or retention,
 measurable by the ritual of closed-book, summative examination"
 [@cope2017elearningc].
 
-![image](figs/deep_learning_surface_learning.pdf){width="\\linewidth"}
+<!-- 
+![image](figs/deep-learning-surface-learning.pdf){width="\\linewidth"}
 
 ![ Meaningful learning (ake deep learning) as explained by
 @novak2010learninga [Fig. 5.3] (annotations our own).
-](figs/meaningful_learning.pdf){#fig_meaningful_learning
-width="0.7\\linewidth"}
+](figs/meaningful-learning.pdf){#fig-meaningful-learning
+width="0.7\\linewidth"} 
+-->
 
 Cognitive scientists had discovered that learners retain material
 better, and are able to generalize and apply it to a broader range of
 contexts, when they learn **deep knowledge** rather than **surface
 knowledge**, and when they learn how to use that knowledge in real-world
-social and practical settings [@sawyer2005cambridge]. Deep learning[^2]
+social and practical settings [@sawyer2005cambridge]. Deep learning ^[
+    of the human kind
+]
 takes place when "the learner chooses conscientiously to integrate new
 knowledge to knowledge that the learner already possesses" and involves
 "substantive, non-arbitrary incorporations of concepts into cognitive
@@ -81,19 +85,23 @@ development of transferable knowledge and skills. A parallel terminology
 for deep learning [@marton1976qualitative_a; @marton1976qualitative_b]
 is **meaningful learning**
 [@ausubel1968educational; @novak2002meaningful], and they are often
-contrasted with *surface learning* or *rote learning*. Table
-[\[tab_deep_learning_surface_learning\]](#tab_deep_learning_surface_learning){reference-type="ref"
-reference="tab_deep_learning_surface_learning"} discusses some more
+contrasted with *surface learning* or *rote learning*. 
+Table
+<!-- [\[tab-deep-learning-surface-learning\]](#tab-deep-learning-surface-learning){reference-type="ref"
+reference="tab-deep-learning-surface-learning"}  -->
+discusses some more
 details on deep or meaningful learning, and the limitations of
-traditional classroom practices to promote deep learning. Figure
-[1.1](#fig_meaningful_learning){reference-type="ref"
-reference="fig_meaningful_learning"} describes (using a concept map) how
+traditional classroom practices to promote deep learning. 
+Figure
+<!-- [1.1](#fig-meaningful-learning){reference-type="ref"
+reference="fig-meaningful-learning"}  -->
+describes (using a concept map) how
 meaningful learning can be achieved and sustained, and our annotations
 highlight how Search-as-learning systems can foster the same.
 
-## Principles of Meaningful Learning {#sec_bg_learn_principles}
+## Principles of Meaningful Learning {#sec-bg-learn-principles}
 
-[@ambrose2010howa] have proposed several principles of (student)
+@ambrose2010howa have proposed several principles of (student)
 learning that lead to creation of deeper knowledge in learners, and help
 educators understand why certain teaching approaches may help or hinder
 learning. These principles are based on research and literature from a
@@ -101,47 +109,33 @@ range of disciplines in psychology, education, and anthropology, and the
 authors claim they are domain independent, experience independent, and
 cross-culturally relevant.
 
-1.  Students' **prior knowledge** can help or hinder learning.
+1. Students' **prior knowledge** can help or hinder learning.
+2. How students **organize knowledge** influences how they learn and apply what they know.
+3. Students' **motivation** determines, directs, and sustains what they do to learn.
+4. Goal-directed practice coupled with **targeted feedback** enhances the quality of students' learning.
+5. Students' current level of development interacts with the social, emotional, and intellectual **context** around the student to impact learning.
+6. To become **self-directed** learners, students must learn to **monitor and adjust** their approaches to learning.
 
-2.  How students **organize knowledge** influences how they learn and
-    apply what they know.
-
-3.  Students' **motivation** determines, directs, and sustains what they
-    do to learn.
-
-4.  Goal-directed practice coupled with **targeted feedback** enhances
-    the quality of students' learning.
-
-5.  Students' current level of development interacts with the social,
-    emotional, and intellectual **context** around the student to impact
-    learning.
-
-6.  To become **self-directed** learners, students must learn to
-    **monitor and adjust** their approaches to learning.
 
 In line with the above, the US National Research Council identified
 several key principles about **experts' knowledge** [@council2000how],
 that illustrate the outcome of successful learning:
 
-1.  Experts notice features and **meaningful patterns** of information
+1. Experts notice features and **meaningful patterns** of information
     that are not noticed by novices.
-
-2.  Experts have acquired a great deal of content knowledge that is
+2. Experts have acquired a great deal of content knowledge that is
     **organized** in ways that reflect a deep understanding of their
     subject matter.
-
-3.  Experts' knowledge cannot be reduced to sets of isolated facts or
+3. Experts' knowledge cannot be reduced to sets of isolated facts or
     propositions but, instead, reflects contexts of **applicability**:
     that is, the knowledge is 'conditionalized' on a set of
     circumstances.
-
-4.  Experts are able to **flexibly retrieve** important aspects of their
+4. Experts are able to **flexibly retrieve** important aspects of their
     knowledge with little attentional effort.
-
-5.  Though experts know their disciplines thoroughly, this does not
+5. Though experts know their disciplines thoroughly, this does not
     guarantee that they are able to teach others.
 
-6.  Experts have varying levels of flexibility in their approach to new
+6. Experts have varying levels of flexibility in their approach to new
     situations.
 
 The principles of learning illustrate that both the *context* of
@@ -151,10 +145,13 @@ learning process. The findings about expert knowledge suggests that
 meaningful manner is a key aspect of learning. We discuss these concepts
 in more detail in the following sections.
 
-## Meaningful Learning as Sensemaking {#sec_bg_learn_sensemaking}
+## Meaningful Learning as Sensemaking {#sec-bg-learn-sensemaking}
 
 In this section, we discuss how meaningful learning can be further
-qualified using the concepts of sensemaking. **Sensemaking**[^3] is a
+qualified using the concepts of sensemaking. 
+**Sensemaking**^[
+    "Brenda Dervin, one of the originators of the sense-making methodology, prefers the spelling with a hyphen, while the community in computer science and more technical people in information science (e.g., SIGCHI) use sensemaking without a hyphen" [@zhang2014towards].
+] is a
 process that occurs when learners *connect* their *previously developed*
 knowledge, ideas, abilities, and experiences together to address the
 uncertainty presented by a newly introduced phenomenon, problem, or
@@ -171,6 +168,7 @@ sensemaking); Cognitive Systems Engineering (Klein's sensemaking);
 Organizational Communication (Weick's sensemaking; Kurtz and Snowden's
 sense-making); and Library and Information Science (Dervin's
 sense-making)".
+
 
 Many theories of learning and sensemaking revolve around the concept of
 fitting new information into an existing or adapted knowledge structure
@@ -212,11 +210,14 @@ information [@vakkari2016searching; @zhang2014towards]. A comparison of
 these types of conceptual changes can be found in [@zhang2014towards
 Table 3].
 
-### Concept Maps to enhance Sensemaking {#sec_bg_concept_maps}
+### Concept Maps to enhance Sensemaking {#sec-bg-concept-maps}
 
+<!-- 
 ![ Concept Map showing the key features of Concept Maps
 [@moon2011applieda Fig. 1.1].
-](figs/concept_map_desc.pdf){#fig_concept_map_desc width="\\linewidth"}
+](figs/concept-map-desc.pdf){#fig-concept-map-desc width="\\linewidth"} 
+-->
+
 
 As we saw in the previous section, deep learning / meaningful learning /
 sensemaking is a process in which new information is connected to a
@@ -242,8 +243,10 @@ a single centre, and have a more hierarchical, tree like structure.
 Concept maps are more free-form, allowing multiple hubs and clusters.
 Also, mind-maps have unlabelled links, and are subjective to the
 creator. There are no "correct" relationships between nodes in a mind
-map. Figure  [1.2](#fig_concept_map_desc){reference-type="ref"
-reference="fig_concept_map_desc"} shows the key features of a concept
+map. Figure 
+<!-- [1.2](#fig-concept-map-desc){reference-type="ref"
+reference="fig-concept-map-desc"}  -->
+shows the key features of a concept
 map, with the help of a concept map.
 
 **Concept maps are therefore, arguably the most suited mechanism to
@@ -277,7 +280,7 @@ now discuss how these processes are influenced in the 21st century with
 the presence of new media, digital technologies, and information
 retrieval systems.
 
-## 'New' Learning as Online Information Searching {#sec_bg_learn_active_knowledge_multiliteracy}
+## 'New' Learning as Online Information Searching {#sec-bg-learn-active-knowledge-multiliteracy}
 
 Digital media technologies and e-learning 'ecologies' can enable new
 forms and models of learning, that are fundamentally different from the
@@ -286,11 +289,9 @@ traditional classroom practices of didactic pedagogy
 'new learning' are described below. These concepts from the Educational
 Sciences domain tie back strongly to the issues, challenges, and
 research agenda being investigated by researchers in the Search as
-Learning and Information Retrieval domain (Section
-[\[sec_intro_overview\]](#sec_intro_overview){reference-type="ref"
-reference="sec_intro_overview"}).
+Learning and Information Retrieval domain (Section \@ref(sec-intro-overview).
 
-### Active Knowledge Making {#sec_bg_learn_active_knowledge_making}
+### Active Knowledge Making {#sec-bg-learn-active-knowledge-making}
 
 The Internet and new forms of media provide us the opportunity to create
 learning environments where learners are no longer mainly *consumers* of
@@ -311,18 +312,12 @@ works. Because learners bring their own views, outlooks, and
 experiences, the knowledge artefact they create is often uniquely voiced
 instead of a templated "correct" response [@amina2017active].
 
-::: displayquote
-Learners become **active knowledge producers** (for instance,
-project-based learning, using multiple knowledge sources, and research
-based knowledge making), and not merely knowledge consumers (as
-exemplified in the 'transmission' pedagogies of traditional textbook
-learning or e-learning focused on video or e-textbook delivery). Active
-knowledge making practices underpin contemporary emphases on innovation,
-creativity and problem solving, which are quintessential 'knowledge
-economy' and 'knowledge society' attributes. -- [@cope2017elearningc]
-:::
+> Learners become **active knowledge producers** (for instance, project-based learning, using multiple knowledge sources, and research based knowledge making), and not merely knowledge consumers (as exemplified in the 'transmission' pedagogies of traditional textbook learning or e-learning focused on video or e-textbook delivery). Active knowledge making practices underpin contemporary emphases on innovation, creativity and problem solving, which are quintessential 'knowledge economy' and 'knowledge society' attributes.
+> `r nb_blockquote_author('--- @cope2017elearningc')`
+>
 
-### Artefacts for Learning Assessment {#sec_bg_learn_artefact}
+
+### Artefacts for Learning Assessment {#sec-bg-learn-artefact}
 
 Traditionally, the focus of learning outcomes has been long term memory.
 Students and learners were expected to remember a collection of facts,
@@ -331,20 +326,21 @@ significant amount of modern knowledge-work today, **memory is actually
 less important**. Information is so readily accessible now that it is no
 longer necessary to remember the information. Because of the
 technological phenomenon, the mass of information is available
-ubiquitously[^4] to a learner (or a knowledge worker), in every moment
+ubiquitously ^[
+    as long as there is internet connection
+] to a learner (or a knowledge worker), in every moment
 of learning. Empirical details such as facts, definitions, proofs, or
 equations do not need to be remembered today, because they can always be
 looked up again [@cope2017elearningc; @amina2017active].
 
 This creates an interesting shift in the focus of learning and knowledge
-work today: *"if we are not going to measure and value long-term memory
-in education, what are we going to assess?"* [@cope2017elearningc]
-suggest that **we assess the knowledge artefacts** that learners
-produce. In active knowledge making, the final work[^5] can be proof of
+work today: *"if we are not going to measure and value long-term memory in education, what are we going to assess?"*
+@cope2017elearningc suggest that **we assess the knowledge artefacts** that learners
+produce. In active knowledge making, the final work ^[
+    be it a project report, poster, presentation, video, software,research  paper, website, etc.
+] can be proof of
 the learning outcome and represent a learner's ability to use the
-resources that are available [@amina2017active]. **Measure of learning
-can be measure of information quality and information use in
-artefacts.** This shows a shift in pedagogy and assessment and an
+resources that are available [@amina2017active]. **Measure of learning can be measure of information quality and information use in artefacts.** This shows a shift in pedagogy and assessment and an
 increase in personalization and individualization of learning
 [@pea2014learning]. Memorizing the information on a topic is less
 important, compared to the writing, synthesizing, analyzing, and
@@ -374,7 +370,7 @@ not convey everything that was learned. Additionally, writing skills are
 likely to vary across learners, and some may not be able to effectively
 articulate everything that was learnt.
 
-### 'Information Search and Evaluation' as and for Learning {#sec_bg_learn_info_eval}
+### 'Information Search and Evaluation' as and for Learning {#sec-bg-learn-info-eval}
 
 Learning today is more about **navigation, discernment, induction, and
 synthesis**, and less about memory and deduction [@cope2013new].
@@ -397,7 +393,7 @@ provides learners with misconstrued information and ideas
 [@amina2017active; @breakstone2021students; @mcgrew2017challenge].
 
 The Stanford History Education Group (SHEG) conceptualised the **Civic
-Online Reasoning** (COR) curriculum[^6] to enable students to
+Online Reasoning** (COR) curriculum ^[<https://cor.stanford.edu>] to enable students to
 effectively search for and evaluate online information
 [@mcgrew2020learning; @breakstone2021students; @breakstone2018we]. The
 curriculum centres on asking three questions of any digital content:
@@ -421,13 +417,12 @@ online, a prerequisite for responsible civic engagement in the
 twenty-first century
 [@breakstone2021students; @kahne2012digital; @mihailidis2013media].
 
-## Promoting Better Learning {#sec_bg_learn_promoting_learning}
+## Promoting Better Learning {#sec-bg-learn-promoting-learning}
 
-::: displayquote
-"It is not the technology that makes a difference; it is the pedagogy."
- \
--- [@cope2017elearningc]
-:::
+> *It is not the technology that makes a difference; it is the pedagogy.*
+>
+>`r nb_blockquote_author('--- @cope2017elearningc')`
+>
 
 Having discussed how meaningful learning takes place, and how it is
 influenced by the presence of digital media and the mass of information
@@ -437,7 +432,7 @@ metacognitive practices and aspects of learners can promote better
 learning. These phenomena have important implications for any digital
 systems that aim to foster learning.
 
-### Externalization and Articulation {#sec_bg_learn_articulation}
+### Externalization and Articulation {#sec-bg-learn-articulation}
 
 The learning sciences have discovered that when learners externalize and
 articulate their developing knowledge, they learn more effectively
@@ -459,9 +454,11 @@ in articulating their developing understandings, as they do not yet know
 how to think about thinking, or talk about thinking; their knowledge
 state is *anomalous* [@belkin1982ask].
 
-### Metacognition and Reflection {#sec_bg_learn_metacognition}
+### Metacognition and Reflection {#sec-bg-learn-metacognition}
 
-![image](figs/metacognition_components.pdf){width="\\linewidth"}
+<!-- 
+![image](figs/metacognition-components.pdf){width="\\linewidth"}
+ -->
 
 One of the reasons that articulation is so helpful to learning is that
 it promotes *reflection* or *metacognition*. **Metacognition**, commonly
@@ -471,8 +468,7 @@ level of abstraction, which in turn improves thinking and learning
 directing one's own thinking" [@council2000how p. 78], and involves
 thinking about the process of learning, and thinking about knowledge.
 This ties forward to the self-regulation that effective learners exhibit
-(Section [1.5.4](#sec_bg_learn_self_regulation){reference-type="ref"
-reference="sec_bg_learn_self_regulation"}. Effective learners are aware
+(Section \@ref(sec-bg-learn-self-regulation)). Effective learners are aware
 of their learning process, and can measure how efficiently they are
 learning as they study.
 
@@ -489,18 +485,20 @@ been discussed extensively in the literature, including planning,
 information management strategies, comprehension monitoring, debugging
 strategies, and evaluation. The operational definitions of these
 components are described in Table
-[\[tab_metacognition_components\]](#tab_metacognition_components){reference-type="ref"
-reference="tab_metacognition_components"}. [@schraw1994assessing]
+<!-- 
+[\[tab-metacognition-components\]](#tab-metacognition-components){reference-type="ref"
+reference="tab-metacognition-components"}.  
+-->.
+@schraw1994assessing
 developed the **Metacognitive Awareness Inventory** (MAI) survey and a
 scoring guide to measure these self-reported components and subprocesses
 of metacognition. The original survey consists of 52 true/false
-questions (Appendix [\[app_mai\]](#app_mai){reference-type="ref"
-reference="app_mai"}), such as "I consider several alternatives to a
+questions (Appendix \@ref(app-mai)), such as "I consider several alternatives to a
 problem before I answer", "I understand my intellectual strengths and
 weaknesses", "I have control over how well I learn", and "I change
 strategies when I fail to understand". The instrument has been widely
 used in research, and has its reliability and validity measures
-available. Later, [@terlecki2018call] proposed a revised version of the
+available. Later, @terlecki2018call proposed a revised version of the
 MAI, using five-point Likert-scales, ranging from "I never do this" to
 "I do this always". They argue that when measuring change in
 metacognition over time, the Likert-scale based 'how often' questions
@@ -509,11 +507,14 @@ are more effective than dichotomous 'Yes/No' questions
 
 ### Motivation
 
+<!-- 
 ![ The motivation and self-determination continuum, as proposed by the
 Self-Determination Theory (SDT). Figure adapted from
 [@ryan2000intrinsic; @ryan2000self; @guyan2013improving].
-](figs/sdt_components.pdf){#fig_sdt_components width="\\linewidth"}
+](figs/sdt-components.pdf){#fig-sdt-components width="\\linewidth"} 
+-->
 
+<!--
 **Motivation** is the process that initiates, guides, and maintains
 goal-oriented behaviours [@cherry2020what]. The **Self-Determination
 Theory** (SDT) represents a broad framework for the study of human
@@ -527,14 +528,14 @@ motivation** is engaging in a task or behaviour for the rewards
 *outside* the task or behaviour, such as receiving rewards, avoidance of
 punishment, gaining social approval, or achievement of a valued result.
 Extrinsic motivation is on a continuum from less stable to more stable,
-as illustrated in Figure [1.3](#fig_sdt_components){reference-type="ref"
-reference="fig_sdt_components"}. Extrinsic motivation does not last
+as illustrated in Figure [1.3](#fig-sdt-components){reference-type="ref"
+reference="fig-sdt-components"}. Extrinsic motivation does not last
 unless the rewards and punishments are explicitly visible
 [@tahamtan2019effect; @deci2013intrinsic; @ryan2000self].
 
 [@ryan1982control] proposed the **Intrinsic Motivation Inventory** (IMI)
-(Appendix [\[app_imi\]](#app_imi){reference-type="ref"
-reference="app_imi"}), a multidimensional questionnaire intended to
+(Appendix [\[app-imi\]](#app-imi){reference-type="ref"
+reference="app-imi"}), a multidimensional questionnaire intended to
 assess participants' subjective experience related to a target activity
 in laboratory experiments. The instrument assesses participants'
 interest/enjoyment, perceived competence, effort, value/usefulness, felt
@@ -551,7 +552,7 @@ measure internalization, with the idea being that people internalize and
 become self-regulating with respect to activities that they experience
 as useful or valuable for themselves.
 
-### Self-regulation {#sec_bg_learn_self_regulation}
+### Self-regulation {#sec-bg-learn-self-regulation}
 
 **Self-regulation** is the ability to develop, implement, and flexibly
 maintain planned behaviour in order to achieve one's goals.
@@ -574,7 +575,7 @@ Although this model was developed specifically to study addictive
 behaviours, the self-regulatory processes it describes are meant to be
 general principles of behavioural self-control. [@brown1999self]
 developed the **Self-Regulation Questionnaire** (SRQ) (Appendix
-[\[app_srq\]](#app_srq){reference-type="ref" reference="app_srq"}) to
+[\[app-srq\]](#app-srq){reference-type="ref" reference="app-srq"}) to
 assess these self-regulatory processes through self-report. The items
 were developed to mark each of the seven sub-processes of the
 [@miller1991self] model, forming seven subscales of the SRQ. The 63-item
@@ -604,13 +605,13 @@ active participants in their own learning process" [@zimmerman1989social
 p.329].
 
 ![ Self-directed learning vs. self-regulated learning, as illustrated by
-[@saks2014distinguishing]. ](figs/sdl_v_srl.pdf){#fig_sdl_v_srl
+[@saks2014distinguishing]. ](figs/sdl-v-srl.pdf){#fig-sdl-v-srl
 width="0.8\\linewidth"}
 
 Often used interchangeably, self-directed learning (SDL) and
 self-regulated learning (SRL) have some important similarities and
-differences (Figure [1.4](#fig_sdl_v_srl){reference-type="ref"
-reference="fig_sdl_v_srl"}) [@saks2014distinguishing]. SDL, originating
+differences (Figure [1.4](#fig-sdl-v-srl){reference-type="ref"
+reference="fig-sdl-v-srl"}) [@saks2014distinguishing]. SDL, originating
 from adult education, is a broader, macro-level construct, and is
 usually practised outside the traditional school environment. The
 self-directed learner is free to design their own learning environment,
@@ -642,7 +643,7 @@ application of metacognition and self-regulation to learning
 [@mannion2020metacognition]; and the whole learning process is sustained
 by motivation, which is desirable to be intrinsic.
 
-## Summary and Implications for this Proposal {#sec_bg_learn_summary}
+## Summary and Implications for this Proposal {#sec-bg-learn-summary}
 
 In this first chapter of the background literature review, we discussed
 *(i)* what is meaningful learning, a.k.a. deep learning, or sensemaking;
@@ -671,22 +672,8 @@ learner's knowledge work.
 In the next chapter, we look at relevant literature from the Information
 Sciences and Interactive Information Retrieval disciplines.
 
-[^1]: <https://www.merriam-webster.com/dictionary/knowledge>
 
-[^2]: of the human kind
 
-[^3]: "Brenda Dervin, one of the originators of the sense-making
-    methodology, prefers the spelling with a hyphen, while the community
-    in computer science and more technical people in information science
-    (e.g., SIGCHI) use sensemaking without a hyphen" --
-    [@zhang2014towards].
-
-[^4]: as long as there is internet connection
-
-[^5]: be it a project report, poster, presentation, video, software,
-    research paper, website, etc.
-
-[^6]: <https://cor.stanford.edu>
 
 [^7]: "Digital literacy describes a holistic approach to cultivating
     skills that allow people to participate meaningfully in online

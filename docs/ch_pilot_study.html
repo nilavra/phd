@@ -69,7 +69,7 @@
         <ul class="book-toc list-unstyled">
 <li><a class="" href="index.html">Nilavra Bhattacharya’s PhD Thesis</a></li>
 <li><a class="" href="introduction.html"><span class="header-section-number">1</span> Introduction</a></li>
-<li><a class="" href="ch_bg_learn.html"><span class="header-section-number">2</span> Background: Knowledge and Learning</a></li>
+<li><a class="" href="ch-bg-learn.html"><span class="header-section-number">2</span> Background: Knowledge and Learning</a></li>
 <li><a class="" href="ch_bg_search.html"><span class="header-section-number">3</span> Background: Information Searching</a></li>
 <li><a class="" href="research-questions-and-hypotheses.html"><span class="header-section-number">4</span> Research Questions and Hypotheses</a></li>
 <li><a class="" href="methods-longitudinal-study.html"><span class="header-section-number">5</span> Methods: Longitudinal Study</a></li>
@@ -78,7 +78,7 @@
 <li><a class="" href="conclusions-contributions-and-future-work.html"><span class="header-section-number">8</span> Conclusions, Contributions, and Future Work</a></li>
 <li class="book-part">Appendix</li>
 <li><a class="active" href="ch_pilot_study.html"><span class="header-section-number">A</span> Prior Work: Pilot Study</a></li>
-<li><a class="" href="app_signup_survey.html"><span class="header-section-number">B</span> SUR1: Entry Survey</a></li>
+<li><a class="" href="app-signup-survey.html"><span class="header-section-number">B</span> SUR1: Entry Survey</a></li>
 <li><a class="" href="app_pre_post_tasks.html"><span class="header-section-number">C</span> Questionnaires for Initial (SES1) and Final (SES3) Sessions</a></li>
 <li><a class="" href="app_midterm_survey.html"><span class="header-section-number">D</span> SUR2: Midterm Survey</a></li>
 <li><a class="" href="app_final_survey.html"><span class="header-section-number">E</span> SUR3: Exit Survey</a></li>
@@ -352,7 +352,7 @@ reference="app_post_task_interview"}.
 </div>
   <div class="chapter-nav">
 <div class="prev"><a href="conclusions-contributions-and-future-work.html"><span class="header-section-number">8</span> Conclusions, Contributions, and Future Work</a></div>
-<div class="next"><a href="app_signup_survey.html"><span class="header-section-number">B</span> SUR1: Entry Survey</a></div>
+<div class="next"><a href="app-signup-survey.html"><span class="header-section-number">B</span> SUR1: Entry Survey</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
@@ -383,6 +383,34 @@ reference="app_post_task_interview"}.
   </div>
 
 </div></div>
-</footer>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
 </body>
 </html>

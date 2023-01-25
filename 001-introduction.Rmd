@@ -57,7 +57,7 @@ Therefore, "knowing the source, finding the source, and using the information ap
 All of these interests in the intersection of searching and learning goes to emphasize that understanding learning during search is critical to
 improve human-information interaction.
 
-## Problem Statement {#sec_intro_problem_statement}
+## Problem Statement {#sec-intro-problem-statement}
 
 A major limitation in the area of Search as Learning, Interactive IR (IIR), and more broadly, in Human-Computer Interaction (HCI) research is
 that, the user is examined in the short-term, typically over the course of a single experimental session in a lab
@@ -80,7 +80,7 @@ Increased knowledge and understanding of students', and more broadly searchers',
 The internet and digital educational technologies offer great opportunities to transform learning and the education experience.
 Enabled by our increased comprehension of the longitudinal searching-as-learning process, improved and validated by empirical data, we can create a new wave of fundamentally transformative educational technologies and "e-learning ecologies, that will be more engaging for learners, more effective (than traditional classroom practices), more resource efficient, and more equitable in the face of learner diversity" [@cope2017elearningc].
 
-## Purpose of this Dissertation Proposal {#sec_intro_purpose}
+## Purpose of this Dissertation Proposal {#sec-intro-purpose}
 
 To address the gaps in our knowledge of how information searching influences students' learning process over time, this dissertation proposal proposes to conduct a semester-long longitudinal study (approx. 16 weeks) with university student participants.
 The overarching research aim is to identify how students' online searching behaviour correlate with their learning outcomes for a particular university course.
@@ -92,12 +92,13 @@ this dissertation proposal aims to:
 - measure students' information search and information use behaviour over time
 - correlate the information search behaviour with the learning outcomes for the university course
 
-Learning, or addressing a gap in one's knowledge, has been well established as an important motivator behind information-seeking activities (Section \@ref(sec-intro-overview)).
+Learning, or addressing a gap in one's knowledge, has been well established as an important motivator behind information-seeking activities 
+Section \@ref(sec-intro-overview).
 Therefore, search systems that support rapid learning across a number of searchers, and a range of tasks, can be considered as more effective search systems [@white2016interactions, p. 310].
 This dissertation proposal takes a step in this direction.
 "It opens great expectations for many-sided, great contribution to our knowledge on the relations between search process and learning outcomes" [anonymous reviewer for @bhattacharya2021longitudinal].
 
-## Outline {#sec_intro_outline}
+## Outline {#sec-intro-outline}
 
 This dissertation proposal document is structured as follows.
 First, principles of learning and relevant background from the domain of Educational Sciences are presented in Chapter 2.
