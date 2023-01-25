@@ -17,8 +17,7 @@ knit: (function(input, ...) {
 #####################
 ## thesis metadata ##
 #####################
-title: |
-  LongSAL: A Longitudinal Search as Learning Study With University Students [work in progress]
+title: "LongSAL: A Longitudinal Search as Learning Study With University Students"
 author: Nilavra Bhattacharya
 author-dispname: নীলাভ্র ভট্টাচার্য্য
 description: Work-in-progress eBook of Nilavra's PhD thesis, created using oxforddown template.
@@ -33,6 +32,7 @@ department: Faculty of the Graduate School
 university: The University of Texas at Austin
 degree-month: May
 degree-year: 2023
+date: "`r format(Sys.time(), '%Y-%m-%d %H:%M:%S')` CST"
 
 
 acknowledgements: |
@@ -193,12 +193,19 @@ output:
       - templates/corrections.css # remove to stop highlighting corrections
     theme:
       primary: "#bf5700"
+      # https://rstudio.github.io/sass/reference/font_face.html
       base_font: 
-        google: Libre Franklin
+        google:
+          local: false
+          ital: [0, 1] # 0: normal, 1: italic
+          wght: [200, 300, 400, 500, 600, 700, 800]
+          family: Cardo # Spectral | # EB Garamond / Crimson Text / Cormorant Garamond / Nanum Myeongjo / Spectral / Cormorant / Cardo / Libre Franklin (UT Sans Serif) 
       heading_font:
         google:
-          family: Libre Franklin
-          wght: 700
+          local: false
+          wght: [700]
+          ital: [0, 1]
+          family: Cardo #Newsreader # Libre Franklin
     repo: https://github.com/nilavra/phd
     pandoc_args: "--lua-filter=scripts_and_filters/colour_and_highlight.lua"
   bookdown::gitbook:

@@ -55,7 +55,7 @@ methodology
 contributions
 limitations
 future-work
-ch_pilot_study
+app-pilot-study
 ses1-initial-session-1
 app-signup-survey
 app-demographics

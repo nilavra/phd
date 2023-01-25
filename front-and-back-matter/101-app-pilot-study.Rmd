@@ -4,7 +4,7 @@
 
 <!-- If you feel it necessary to include an appendix, it goes here. The first appendix should include the commands above. -->
 
-# Prior Work: Pilot Study {#ch_pilot_study}
+# Prior Work: Pilot Study {#app-pilot-study}
 
 ## SES1: Initial Session
 
