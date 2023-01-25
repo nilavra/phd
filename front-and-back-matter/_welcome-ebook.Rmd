@@ -1,4 +1,4 @@
-# Nilavra Bhattacharya's PhD Thesis {-}
+# [Work in progress] Nilavra Bhattacharya's PhD Thesis {-}
 
 
 
@@ -8,11 +8,11 @@ To read the eBook version, simply scroll down, or jump to a specific chapter fro
 
 <a href="_main.pdf" target="_blank" title="Click to view PDF version of thesis" class="text-decoration-none">
 <div class="text-center shadow pt-1 pb-3 mb-5 bg-white rounded">
-<div class="text-right pt-3 pb-2 px-4 small font-italic">Last compiled on `r format(Sys.time(), '%Y-%m-%d %H:%M:%S')`</div>
+<div class="text-right pt-3 pb-2 px-4 small font-italic">Last compiled on `r format(Sys.time(), '%Y-%m-%d %H:%M:%S')` CST</div>
 **LongSAL: A Longitudinal Search as Learning Study
 \
 \
-With University Students**
+With University Students [Work in Progress]**
 \
 \
 \
