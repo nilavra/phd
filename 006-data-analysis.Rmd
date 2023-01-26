@@ -24,6 +24,23 @@ see crescenzi thesis
 
 ## URL Categorization
 
+<!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
+
+- peer-reviewed publications are `PUB`s
+- others are `ARTICLE`S (e.g. Wikipedia)
+- if no other info, then `WEB`
+- fuzzy between `WEB` and `ARTICLE` (when classified manually)
+- `ARTICLE` IF THERE IS A CLEAR AUTHOR
+  - EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE
+  - ENCYCLOPEDIAS
+- JOURNAL HOMEPAGES ARE `WEB`
+- LIST OF CHAPTERS IN A BOOK ARE `L.PUB`.
+  - E.G. IN DETAIL VIEW OF
+- BOOK CHAPTER IS `PUB`
+
+
+
+
 
 ## Latent Profile Analysis
 
@@ -32,3 +49,5 @@ see crescenzi thesis
 
 
 ## Dwell Time Analysis
+
+- DO ALAYSIS WITH `LIB` AND `LIBGUIDE` TYPE URLS - LIBRARY WEBSITES
