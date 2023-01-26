@@ -1,18 +1,33 @@
-# Results
+# Results and Discussion
 
 - Also see Yung Sheng's Dissertation
 - think hard about which data component has not been touched / analysed
 
-## RQ1: - search behaviours?
+## Q - query reformulation
 
-### Q - query reformulation
-- see Yung Sheng's Dissertation
+Yung Sheng's Dissertation:
 
-### L - source selection
+### Number of terms per query
 
-### I - interacting with sources
+### Number of queries per search
 
-### SHEG tasks - information evaluation
+### Number of reformulated query types
+
+
+## L - source selection
+
+- dwell times
+
+## I - interacting with sources
+
+- dwell times
+
+## SHEG tasks - information evaluation capabilities
+
+## Overall search behaviour
+
+- profile transition analyses
+- tab transition / parallel browsing behaviour
 
 > We’ve confused young people’s ability to operate digital devices with the sophistication they need to discern whether the information those devices yield is something that can be relied upon
 >
@@ -20,12 +35,15 @@
 > https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/
 
 
-## RQ2: mention here
+## Discussion - Research Questions
+
+### RQ1: - search behaviours?
+
+### RQ2: mention here
 
 
 
-## RQ3: mention here
+### RQ3: mention here
 
 
-
-## RQ4: mention here
+### RQ4: mention here
