@@ -1,6 +1,7 @@
 :root {
   --theme-color1: #bf5700;
   --theme-color2: #bf5700;
+  --theme-color3: #579d42;
 }
 
 a {
@@ -8,7 +9,7 @@ a {
 }
 
 body {
-  font-size: 120% !important;
+  font-size: 115% !important;
   line-height: 1.7;
 }
 
@@ -16,12 +17,22 @@ body {
 .sidebar-chapter a {
   /* color: #9cadb7; */
   color: darkgray;
-  font-size: 120% !important;
+  /* color: #333f48; */
+  font-size: 115% !important;
 }
 
 .sidebar-book:hover a,
 .sidebar-chapter:hover a {
   color: var(--theme-color1);
+}
+
+.sidebar-book a.active {
+  color: var(--theme-color1);
+}
+.sidebar-chapter a.active {
+  color: var(--theme-color1);
+  background-color: transparent !important;
+  /* font-weight: bold !important; */
 }
 
 h1,
