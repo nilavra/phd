@@ -69,17 +69,23 @@ Yung Sheng's Dissertation:
   - pogo sticking
   - thrashing
 
-for LongSAL, tactics:
+for LongSAL, tactics / states:
 - Q
+  - subdivided by Q reform types?
 - L
-- I\_short (DT <= 10s)
+- I\_short (DT <= 10s) -- rethink these durs
 - I\_med ( 10 < DT <= 30s)
 - I\_long (> 30s)
 - opening a new tab: parallel mission?
 - closing ta tab
+- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip&m paper
+- beginning and end of sessions?
+- clicks?
+  - clicks on L pages
+  - clicks on I pages
 
 or maybe I.type of webpage visited?
-or combine DT with I.PUB?
+or combine DT with I.PUB / I.X?
 
 ### Transition analysis
 
