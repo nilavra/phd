@@ -117,6 +117,9 @@
 <h3>
 <span class="header-section-number">7.1.1</span> Number of terms per query<a class="anchor" aria-label="anchor" href="#number-of-terms-per-query"><i class="fas fa-link"></i></a>
 </h3>
+<ul>
+<li>also query length (characters?)</li>
+</ul>
 </div>
 <div id="number-of-queries-per-search" class="section level3" number="7.1.2">
 <h3>
@@ -188,17 +191,33 @@
 <p>for LongSAL, tactics:
 - Q
 - L
-- I
-- opening a new tab: parallel mission?</p>
+- I_short (DT &lt;= 10s)
+- I_med ( 10 &lt; DT &lt;= 30s)
+- I_long (&gt; 30s)
+- opening a new tab: parallel mission?
+- closing ta tab</p>
+<p>or maybe I.type of webpage visited?
+or combine DT with I.PUB?</p>
 </div>
-<div id="tab-transition-parallel-browsing-behaviour" class="section level3" number="7.4.3">
+<div id="transition-analysis" class="section level3" number="7.4.3">
 <h3>
-<span class="header-section-number">7.4.3</span> tab transition / parallel browsing behaviour<a class="anchor" aria-label="anchor" href="#tab-transition-parallel-browsing-behaviour"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.4.3</span> Transition analysis<a class="anchor" aria-label="anchor" href="#transition-analysis"><i class="fas fa-link"></i></a>
 </h3>
+<p>Transition analysis can be applied to:</p>
+<ul>
+<li>tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs?)</li>
+<li>search tactics</li>
+<li>combined (opening tab and closing tabs are tactics / events in markov process)</li>
+</ul>
+<p>Help with analyses:</p>
 <ul>
 <li>Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.</li>
 <li>
-<span class="citation">(see <a href="#ref-he2016beyond" role="doc-biblioref">He et al., 2016, p. 1220</a>)</span> to get formula for entropy of transitions</li>
+<span class="citation">(<a href="#ref-he2016beyond" role="doc-biblioref">He et al., 2016, p. 1220</a> sec 6.1)</span> for calculation formulas for entropy of transitions</li>
+<li>
+<span class="citation">(<a href="#ref-krejtz2014entropy" role="doc-biblioref">Krejtz et al., 2014</a>)</span> sec 4 for calculation formulas</li>
+<li>
+<span class="citation">(<a href="#ref-he2016beyond" role="doc-biblioref">He et al., 2016, p. 1220</a> sec 6.2)</span> for hypotheses</li>
 </ul>
 </div>
 </div>
@@ -244,6 +263,9 @@
 <div id="ref-he2016beyond" class="csl-entry">
 He, J., Qvarfordt, P., Halvey, M., &amp; Golovchinsky, G. (2016). Beyond actions: Exploring the discovery of tactics from user logs. <em>Information Processing &amp; Management</em>, <em>52</em>(6), 1200–1226.
 </div>
+<div id="ref-krejtz2014entropy" class="csl-entry">
+Krejtz, K., Szmidt, T., Duchowski, A. T., &amp; Krejtz, I. (2014). Entropy-based statistical analysis of eye movement transitions. <em>Proceedings of the Symposium on Eye Tracking Research and Applications</em>, 159–166.
+</div>
 </div>
   <div class="chapter-nav">
 <div class="prev"><a href="data-analysis.html"><span class="header-section-number">6</span> Data Analysis</a></div>
@@ -265,7 +287,7 @@ He, J., Qvarfordt, P., Halvey, M., &amp; Golovchinsky, G. (2016). Beyond actions
 <a class="nav-link" href="#overall-search-behaviour"><span class="header-section-number">7.4</span> Overall search behaviour</a><ul class="nav navbar-nav">
 <li><a class="nav-link" href="#profile-transition-analyses"><span class="header-section-number">7.4.1</span> profile transition analyses</a></li>
 <li><a class="nav-link" href="#search-tactics"><span class="header-section-number">7.4.2</span> search tactics</a></li>
-<li><a class="nav-link" href="#tab-transition-parallel-browsing-behaviour"><span class="header-section-number">7.4.3</span> tab transition / parallel browsing behaviour</a></li>
+<li><a class="nav-link" href="#transition-analysis"><span class="header-section-number">7.4.3</span> Transition analysis</a></li>
 </ul>
 </li>
 <li><a class="nav-link" href="#sheg-tasks---information-evaluation-capabilities"><span class="header-section-number">7.5</span> SHEG tasks - information evaluation capabilities</a></li>

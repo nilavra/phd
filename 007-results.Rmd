@@ -22,6 +22,8 @@ Yung Sheng's Dissertation:
 
 ### Number of terms per query
 
+- also query length (characters?)
+
 ### Number of queries per search
 
 ### Number of reformulated query types
@@ -70,14 +72,31 @@ Yung Sheng's Dissertation:
 for LongSAL, tactics:
 - Q
 - L
-- I
+- I\_short (DT <= 10s)
+- I\_med ( 10 < DT <= 30s)
+- I\_long (> 30s)
 - opening a new tab: parallel mission?
+- closing ta tab
+
+or maybe I.type of webpage visited?
+or combine DT with I.PUB?
+
+### Transition analysis
+
+Transition analysis can be applied to:
+
+- tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs?)
+- search tactics
+- combined (opening tab and closing tabs are tactics / events in markov process)
 
 
-### tab transition / parallel browsing behaviour
+Help with analyses:
 
 - Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
-- [see @he2016beyond p. 1220] to get formula for entropy of transitions
+- [@he2016beyond p. 1220 sec 6.1] for calculation formulas for entropy of transitions
+- [@krejtz2014entropy] sec 4 for calculation formulas
+- [@he2016beyond p. 1220 sec 6.2] for hypotheses
+
 
 
 ## SHEG tasks - information evaluation capabilities

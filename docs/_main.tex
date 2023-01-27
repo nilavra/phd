@@ -1175,7 +1175,7 @@ all participants are referred to using gender-neutral they/them pronouns.
 
 Final feedback:
 P022Pisa said
-\textgreater{} \emph{It is great to be able to participate in the research this semester. Using the extension somehow brings me postive feedback and that helps me in study I303. So I wanna say thank you}\\
+\textgreater{} \emph{It is great to be able to participate in the research this semester. Using the extension somehow brings me postive feedback and that helps me in study I303. So I wanna say thank you}
 \textgreater{} - P022Pisa
 
 \hypertarget{data-cleaning-and-processing}{%
@@ -1306,6 +1306,12 @@ Yung Sheng's Dissertation:
 \hypertarget{number-of-terms-per-query}{%
 \subsection{Number of terms per query}\label{number-of-terms-per-query}}
 
+\begin{itemize}
+\tightlist
+\item
+  also query length (characters?)
+\end{itemize}
+
 \hypertarget{number-of-queries-per-search}{%
 \subsection{Number of queries per search}\label{number-of-queries-per-search}}
 
@@ -1386,18 +1392,42 @@ Yung Sheng's Dissertation:
 for LongSAL, tactics:
 - Q
 - L
-- I
+- I\_short (DT \textless= 10s)
+- I\_med ( 10 \textless{} DT \textless= 30s)
+- I\_long (\textgreater{} 30s)
 - opening a new tab: parallel mission?
+- closing ta tab
 
-\hypertarget{tab-transition-parallel-browsing-behaviour}{%
-\subsection{tab transition / parallel browsing behaviour}\label{tab-transition-parallel-browsing-behaviour}}
+or maybe I.type of webpage visited?
+or combine DT with I.PUB?
+
+\hypertarget{transition-analysis}{%
+\subsection{Transition analysis}\label{transition-analysis}}
+
+Transition analysis can be applied to:
+
+\begin{itemize}
+\tightlist
+\item
+  tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs?)
+\item
+  search tactics
+\item
+  combined (opening tab and closing tabs are tactics / events in markov process)
+\end{itemize}
+
+Help with analyses:
 
 \begin{itemize}
 \tightlist
 \item
   Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
 \item
-  (see \protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220}) to get formula for entropy of transitions
+  (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.1) for calculation formulas for entropy of transitions
+\item
+  (\protect\hyperlink{ref-krejtz2014entropy}{Krejtz et al., 2014}) sec 4 for calculation formulas
+\item
+  (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.2) for hypotheses
 \end{itemize}
 
 \hypertarget{sheg-tasks---information-evaluation-capabilities}{%
@@ -1441,6 +1471,34 @@ see Jacek's thesis
 
 \hypertarget{contributions}{%
 \section{Contributions}\label{contributions}}
+
+From ASIST award session
+
+FOLLOW UP WITH \ldots{}
+
+\begin{itemize}
+\tightlist
+\item
+  Change of the self, self-reflection
+\item
+  Look at anthropology perspective
+\end{itemize}
+
+ROB:
+
+\begin{itemize}
+\tightlist
+\item
+  Look at qualitative data. More interesting
+\end{itemize}
+
+HEATHER:
+
+\begin{itemize}
+\tightlist
+\item
+  what can we share back to the teachers of the course, librarians and others
+\end{itemize}
 
 \hypertarget{limitations}{%
 \section{Limitations}\label{limitations}}
@@ -2538,6 +2596,9 @@ Ko, A. J. (2021). Seeking information. In \emph{Foundations of {Information}}. \
 
 \leavevmode\vadjust pre{\hypertarget{ref-HCIUXres81_online}{}}%
 Koeman, L. (2020). \emph{HCI/UX research: What methods do we use? -- lisa koeman -- blog}. \url{https://lisakoeman.nl/blog/hci-ux-research-what-methods-do-we-use/}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-krejtz2014entropy}{}}%
+Krejtz, K., Szmidt, T., Duchowski, A. T., \& Krejtz, I. (2014). Entropy-based statistical analysis of eye movement transitions. \emph{Proceedings of the Symposium on Eye Tracking Research and Applications}, 159--166.
 
 \leavevmode\vadjust pre{\hypertarget{ref-kuhlthau2004seeking}{}}%
 Kuhlthau, C. C. (2004). \emph{Seeking meaning: A process approach to library and information services} (Vol. 2). Libraries Unlimited Westport, CT.

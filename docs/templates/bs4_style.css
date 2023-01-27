@@ -30,8 +30,8 @@ body {
   color: var(--theme-color1);
 }
 .sidebar-chapter a.active {
-  color: var(--theme-color1);
-  background-color: transparent !important;
+  /* color: var(--theme-color1); */
+  /* background-color: transparent !important; */
   /* font-weight: bold !important; */
 }
 

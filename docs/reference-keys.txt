@@ -49,7 +49,7 @@ i---interacting-with-sources
 overall-search-behaviour
 profile-transition-analyses
 search-tactics
-tab-transition-parallel-browsing-behaviour
+transition-analysis
 sheg-tasks---information-evaluation-capabilities
 discussion---research-questions
 rq1---search-behaviours
