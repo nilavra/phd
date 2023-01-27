@@ -44,10 +44,30 @@ see crescenzi thesis
 
 ## Latent Profile Analysis
 
-- add WMC / memory span to features
-- Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership
+- feature sets for profiling (toggle on and off)
+  - IMI
+  - MAI
+  - SRQ
+  - WMC / memory span: 
+    - scaling by dividing by 10 (?) (that's the max Coglab would show)
+    - min-max scaling
+  - perceived learning outcome (/100)
+  - perceived search outcome (/100)
+  - others?
+
+
+
+- Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership (no no; a simple examination of what feature values changed between timepoints will be enoug)
+
+use 2 groups! 2 groups is always better. easier to explain; easier to write.
 
 
 ## Dwell Time Analysis
 
-- DO ALAYSIS WITH `LIB` AND `LIBGUIDE` TYPE URLS - LIBRARY WEBSITES
+- DO ANAYSIS WITH `LIB` AND `LIBGUIDE` TYPE URLS - LIBRARY WEBSITES
+
+
+
+<!-- 
+https://www.google.com/search?q=nilavra&oq=nilavra&aqs=edge..69i57j0i512j69i60l3j69i61j69i65j69i60j69i65.4522j0j4&sourceid=chrome&ie=UTF-8 
+-->

@@ -4,6 +4,17 @@
 - think hard about which data component has not been touched / analysed
 
 
+Hypotheses from @he2016beyond:
+
+The second set (H2) compares two different user groups, experts and novices, using one of the search systems in two different conditions. The H2 hypotheses illustrate how a focus on search tactics provides a different lens to view search logs.
+
+- H2.1: Search experts are likely to be more predictable in their choice of search tactics compared to novices
+- H2.2: Search experts have developed a set of search tactics they prefer over others, while novices use search tactics more uniformly.
+- H2.3: While working with a search system novices will find a preferred method of transitioning from one search tactic to another. In other words, their search tactics transitions will become more predictable over time.
+- H2.4: While working with a search systems novices will find preferred search tactics to use. In other words, their distribution of search tactics will become less uniform over time.
+
+
+
 
 ## Q - query reformulation
 
@@ -24,6 +35,13 @@ Yung Sheng's Dissertation:
 
 - dwell times
 
+> 
+> *If the dwell time is long, i.e. ≥ 5 seconds, it is more likely that a user is reading the search results summary (ER) rather than only skimming it (EI). The 5 second threshold was determined based on reading research using eye tracking (Rayner, 1998) and the size of the summaries in Querium. A time span of less than 5 seconds is a too short period for being able to read a summary and extract information.*
+>
+> `r nb_blockquote_author('--- @he2016beyond')`
+>
+
+
 ## Overall search behaviour
 
 ### profile transition analyses
@@ -31,9 +49,17 @@ Yung Sheng's Dissertation:
 
 ### search tactics
 
-- Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing & Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226. http://dx.doi.org/10.1016/j.ipm.2016.05.007
+- Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing & Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226. 
+  - http://dx.doi.org/10.1016/j.ipm.2016.05.007
   - https://www.pernillaq.com/exploratory-search
-- other search tactics from *Search Patterns* book
+  - [checkout the forward citations of this paper on automated log analyses](https://scholar.google.com/scholar?cites=16001618163231710088&as_sdt=5,44&sciodt=0,44&hl=en)
+  - like process mining!
+  - "*Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended*"
+
+
+
+
+- other behaviours from *Search Patterns* book
   - quit
   - narrow
   - expand
@@ -41,8 +67,17 @@ Yung Sheng's Dissertation:
   - pogo sticking
   - thrashing
 
+for LongSAL, tactics:
+- Q
+- L
+- I
+- opening a new tab: parallel mission?
+
+
 ### tab transition / parallel browsing behaviour
 
+- Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
+- [see @he2016beyond p. 1220] to get formula for entropy of transitions
 
 
 ## SHEG tasks - information evaluation capabilities
