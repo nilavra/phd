@@ -32,7 +32,11 @@ department: Faculty of the Graduate School
 university: The University of Texas at Austin
 degree-month: May
 degree-year: 2023
-date: "`r format(Sys.time(), '%Y-%m-%d %H:%M:%S')` CST"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+# use the following AFTER submission, 
+# for now, adding seconds creates more number of diffs in output HTML than necessary
+# that is availble in the "cover page" of welcome HTML
+date-after-submission: "`r format(Sys.time(), '%Y-%m-%d %H:%M:%S')` CST"
 
 
 acknowledgements: |

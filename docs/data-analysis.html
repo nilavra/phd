@@ -152,17 +152,36 @@ Analysis steps:
 <span class="header-section-number">6.4</span> Latent Profile Analysis<a class="anchor" aria-label="anchor" href="#latent-profile-analysis"><i class="fas fa-link"></i></a>
 </h2>
 <ul>
-<li>add WMC / memory span to features</li>
-<li>Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership</li>
+<li>feature sets for profiling (toggle on and off)
+<ul>
+<li>IMI</li>
+<li>MAI</li>
+<li>SRQ</li>
+<li>WMC / memory span:
+<ul>
+<li>scaling by dividing by 10 (?) (that’s the max Coglab would show)</li>
+<li>min-max scaling</li>
 </ul>
+</li>
+<li>perceived learning outcome (/100)</li>
+<li>perceived search outcome (/100)</li>
+<li>others?</li>
+</ul>
+</li>
+<li>Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership (no no; a simple examination of what feature values changed between timepoints will be enoug)</li>
+</ul>
+<p>use 2 groups! 2 groups is always better. easier to explain; easier to write.</p>
 </div>
 <div id="dwell-time-analysis" class="section level2" number="6.5">
 <h2>
 <span class="header-section-number">6.5</span> Dwell Time Analysis<a class="anchor" aria-label="anchor" href="#dwell-time-analysis"><i class="fas fa-link"></i></a>
 </h2>
 <ul>
-<li>DO ALAYSIS WITH <code>LIB</code> AND <code>LIBGUIDE</code> TYPE URLS - LIBRARY WEBSITES</li>
+<li>DO ANAYSIS WITH <code>LIB</code> AND <code>LIBGUIDE</code> TYPE URLS - LIBRARY WEBSITES</li>
 </ul>
+<!-- 
+https://www.google.com/search?q=nilavra&oq=nilavra&aqs=edge..69i57j0i512j69i60l3j69i61j69i65j69i60j69i65.4522j0j4&sourceid=chrome&ie=UTF-8 
+-->
 </div>
 </div>
   <div class="chapter-nav">
@@ -194,7 +213,7 @@ Analysis steps:
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>LongSAL: A Longitudinal Search as Learning Study With University Students</strong>" was written by Nilavra Bhattacharya. It was last built on 2023-01-26 12:59:41 CST.</p>
+    <p>"<strong>LongSAL: A Longitudinal Search as Learning Study With University Students</strong>" was written by Nilavra Bhattacharya. It was last built on 2023-01-26.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

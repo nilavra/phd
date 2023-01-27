@@ -1229,10 +1229,38 @@ see crescenzi thesis
 \begin{itemize}
 \tightlist
 \item
-  add WMC / memory span to features
+  feature sets for profiling (toggle on and off)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    IMI
+  \item
+    MAI
+  \item
+    SRQ
+  \item
+    WMC / memory span:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      scaling by dividing by 10 (?) (that's the max Coglab would show)
+    \item
+      min-max scaling
+    \end{itemize}
+  \item
+    perceived learning outcome (/100)
+  \item
+    perceived search outcome (/100)
+  \item
+    others?
+  \end{itemize}
 \item
-  Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership
+  Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership (no no; a simple examination of what feature values changed between timepoints will be enoug)
 \end{itemize}
+
+use 2 groups! 2 groups is always better. easier to explain; easier to write.
 
 \hypertarget{dwell-time-analysis}{%
 \section{Dwell Time Analysis}\label{dwell-time-analysis}}
@@ -1240,7 +1268,7 @@ see crescenzi thesis
 \begin{itemize}
 \tightlist
 \item
-  DO ALAYSIS WITH \texttt{LIB} AND \texttt{LIBGUIDE} TYPE URLS - LIBRARY WEBSITES
+  DO ANAYSIS WITH \texttt{LIB} AND \texttt{LIBGUIDE} TYPE URLS - LIBRARY WEBSITES
 \end{itemize}
 
 \hypertarget{results-and-discussion}{%
@@ -1252,6 +1280,22 @@ see crescenzi thesis
   Also see Yung Sheng's Dissertation
 \item
   think hard about which data component has not been touched / analysed
+\end{itemize}
+
+Hypotheses from He et al. (\protect\hyperlink{ref-he2016beyond}{2016}):
+
+The second set (H2) compares two different user groups, experts and novices, using one of the search systems in two different conditions. The H2 hypotheses illustrate how a focus on search tactics provides a different lens to view search logs.
+
+\begin{itemize}
+\tightlist
+\item
+  H2.1: Search experts are likely to be more predictable in their choice of search tactics compared to novices
+\item
+  H2.2: Search experts have developed a set of search tactics they prefer over others, while novices use search tactics more uniformly.
+\item
+  H2.3: While working with a search system novices will find a preferred method of transitioning from one search tactic to another. In other words, their search tactics transitions will become more predictable over time.
+\item
+  H2.4: While working with a search systems novices will find preferred search tactics to use. In other words, their distribution of search tactics will become less uniform over time.
 \end{itemize}
 
 \hypertarget{q---query-reformulation}{%
@@ -1286,6 +1330,12 @@ Yung Sheng's Dissertation:
   dwell times
 \end{itemize}
 
+\begin{quote}
+\emph{If the dwell time is long, i.e.~≥ 5 seconds, it is more likely that a user is reading the search results summary (ER) rather than only skimming it (EI). The 5 second threshold was determined based on reading research using eye tracking (Rayner, 1998) and the size of the summaries in Querium. A time span of less than 5 seconds is a too short period for being able to read a summary and extract information.}
+
+\hfill --- He et al. (\protect\hyperlink{ref-he2016beyond}{2016})
+\end{quote}
+
 \hypertarget{overall-search-behaviour}{%
 \section{Overall search behaviour}\label{overall-search-behaviour}}
 
@@ -1298,15 +1348,23 @@ Yung Sheng's Dissertation:
 \begin{itemize}
 \tightlist
 \item
-  Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing \& Management, vol.~52, issue 6, Nov.~2016, pp.~1200--1226. \url{http://dx.doi.org/10.1016/j.ipm.2016.05.007}
+  Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing \& Management, vol.~52, issue 6, Nov.~2016, pp.~1200--1226.
 
   \begin{itemize}
   \tightlist
   \item
+    \url{http://dx.doi.org/10.1016/j.ipm.2016.05.007}
+  \item
     \url{https://www.pernillaq.com/exploratory-search}
+  \item
+    \href{https://scholar.google.com/scholar?cites=16001618163231710088\&as_sdt=5,44\&sciodt=0,44\&hl=en}{checkout the forward citations of this paper on automated log analyses}
+  \item
+    like process mining!
+  \item
+    ``\emph{Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended}''
   \end{itemize}
 \item
-  other search tactics from \emph{Search Patterns} book
+  other behaviours from \emph{Search Patterns} book
 
   \begin{itemize}
   \tightlist
@@ -1325,8 +1383,22 @@ Yung Sheng's Dissertation:
   \end{itemize}
 \end{itemize}
 
+for LongSAL, tactics:
+- Q
+- L
+- I
+- opening a new tab: parallel mission?
+
 \hypertarget{tab-transition-parallel-browsing-behaviour}{%
 \subsection{tab transition / parallel browsing behaviour}\label{tab-transition-parallel-browsing-behaviour}}
+
+\begin{itemize}
+\tightlist
+\item
+  Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
+\item
+  (see \protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220}) to get formula for entropy of transitions
+\end{itemize}
 
 \hypertarget{sheg-tasks---information-evaluation-capabilities}{%
 \section{SHEG tasks - information evaluation capabilities}\label{sheg-tasks---information-evaluation-capabilities}}
@@ -2439,6 +2511,9 @@ Halttunen, K., \& Jarvelin, K. (2005). Assessing learning outcomes in two inform
 
 \leavevmode\vadjust pre{\hypertarget{ref-hansen2016editorial}{}}%
 Hansen, P., \& Rieh, S. Y. (2016). Editorial: Recent advances on searching as learning: An introduction to the special issue. \emph{Journal of Information Science}, \emph{42}(1), 3--6. \url{https://doi.org/10.1177/0165551515614473}
+
+\leavevmode\vadjust pre{\hypertarget{ref-he2016beyond}{}}%
+He, J., Qvarfordt, P., Halvey, M., \& Golovchinsky, G. (2016). Beyond actions: Exploring the discovery of tactics from user logs. \emph{Information Processing \& Management}, \emph{52}(6), 1200--1226.
 
 \leavevmode\vadjust pre{\hypertarget{ref-kahne2012digital}{}}%
 Kahne, J., Lee, N.-J., \& Feezell, J. T. (2012). Digital media literacy education and online civic and political participation. \emph{International Journal of Communication}, \emph{6}, 24.
