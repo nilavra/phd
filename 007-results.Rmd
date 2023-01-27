@@ -119,6 +119,18 @@ Help with analyses:
 
 
 
+## search trails analysis
+
+- low priority
+- chirag sha's student; has intersting metrics like coverage, unique pages visited etc.
+- https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/
+- maybe future work?
+
+
+
+
+
+
 
 ## Discussion - Research Questions
 
