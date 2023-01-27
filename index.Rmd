@@ -17,7 +17,7 @@ knit: (function(input, ...) {
 #####################
 ## thesis metadata ##
 #####################
-title: "LongSAL: A Longitudinal Search as Learning Study With University Students"
+title: "LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]"
 author: Nilavra Bhattacharya
 author-dispname: নীলাভ্র ভট্টাচার্য্য
 description: Work-in-progress eBook of Nilavra's PhD thesis, created using oxforddown template.

@@ -9,7 +9,7 @@ To view a PDF version, click on the cover-sheet below.
 
 <a href="_main.pdf" target="_blank" title="Click to view PDF version" class="text-decoration-none">
 <div class="text-center shadow pt-1 pb-3 mb-5 bg-white rounded">
-<div class="text-right pt-3 pb-2 px-4 small font-italic">Last update: `r format(Sys.time(), '%Y-%m-%d %H:%M:%S')` CST</div>
+<div class="text-right pt-3 pb-2 px-4 small font-italic">Draft version: `r format(Sys.time(), '%Y-%m-%d %H:%M:%S')` CST</div>
 <div style="font-weight:bold; line-height:2.5; max-width: 80%; margin: 0 auto; font-size:120%">`r metadata[['title']]`</div>
 \
 by
