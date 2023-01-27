@@ -40,6 +40,8 @@ url-categorization
 latent-profile-analysis
 dwell-time-analysis
 results-and-discussion
+descriptive-statistics
+profile-transition-analyses
 q---query-reformulation
 number-of-terms-per-query
 number-of-queries-per-search
@@ -47,10 +49,11 @@ number-of-reformulated-query-types
 l---source-selection
 i---interacting-with-sources
 overall-search-behaviour
-profile-transition-analyses
 search-tactics
 transition-analysis
+correlation-analysis
 sheg-tasks---information-evaluation-capabilities
+search-trails-analysis
 discussion---research-questions
 rq1---search-behaviours
 rq2-mention-here
