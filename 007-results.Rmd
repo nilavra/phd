@@ -104,6 +104,10 @@ Help with analyses:
 - [@he2016beyond p. 1220 sec 6.2] for hypotheses
 
 
+### correlation analysis
+
+- correlation between user profiles and search tactics (as in taramigkou paper table 9)
+
 
 ## SHEG tasks - information evaluation capabilities
 
