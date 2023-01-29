@@ -38,6 +38,7 @@ data-cleaning-and-processing
 data-analysis-approach
 url-categorization
 latent-profile-analysis
+search-tactic-analysis
 dwell-time-analysis
 results-and-discussion
 descriptive-statistics
@@ -54,6 +55,7 @@ transition-analysis
 correlation-analysis
 sheg-tasks---information-evaluation-capabilities
 search-trails-analysis
+qualitative-free-text-results
 discussion---research-questions
 rq1---search-behaviours
 rq2-mention-here
