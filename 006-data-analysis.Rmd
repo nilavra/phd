@@ -22,27 +22,9 @@ Analysis steps:
 
 see crescenzi thesis
 
-## URL Categorization
-
-<!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
-
-- peer-reviewed publications are `PUB`s
-- others are `ARTICLE`S (e.g. Wikipedia)
-- if no other info, then `WEB`
-- fuzzy between `WEB` and `ARTICLE` (when classified manually)
-- `ARTICLE` IF THERE IS A CLEAR AUTHOR
-  - EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE
-  - ENCYCLOPEDIAS
-- JOURNAL HOMEPAGES ARE `WEB`
-- LIST OF CHAPTERS IN A BOOK ARE `L.PUB`.
-  - E.G. IN DETAIL VIEW OF
-- BOOK CHAPTER IS `PUB`
 
 
-
-
-
-## Latent Profile Analysis
+## Latent Profiles
 
 - feature sets for profiling (toggle on and off)
   - IMI
@@ -61,7 +43,125 @@ Memory span values normalized by 10, because "The maximum memory span measurable
 
 use 2 groups! 2 groups is always better. easier to explain; easier to write.
 
-## Search Tactic Analysis
+
+
+## URL Categorization
+
+<!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
+
+- peer-reviewed publications are `PUB`s
+- others are `ARTICLE`S (e.g. Wikipedia)
+- if no other info, then `WEB`
+- fuzzy between `WEB` and `ARTICLE` (when classified manually)
+- `ARTICLE` IF THERE IS A CLEAR AUTHOR
+  - EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE
+  - ENCYCLOPEDIAS
+- JOURNAL HOMEPAGES ARE `WEB`
+- LIST OF CHAPTERS IN A BOOK ARE `L.PUB`.
+  - E.G. IN DETAIL VIEW OF
+- BOOK CHAPTER IS `PUB`
+
+
+## Implicit Features for Exploratory Search Process
+
+From @hendahewa2016implicit and related papers
+
+- Creativity --> Information Novelty
+  - Unique Coverage: Unique web pages visited
+  - Likelihood of Discovery: Measurement of difficulty to find certain information
+- Exploration
+  - Total Coverage: Total number of content pages visited
+  - Distinct Queries: Total number of different queries issued
+  - Query diversity: Measurement of similarity between queries issued
+- Knowledge Discovery --> Finding usefule and relevant information
+  - Useful Coverage: Number of pages where users spend a considerable amount of time
+  - Relevant Coverage: Number of pages that users denote as relevant to the task
+
+
+
+## Search Tactics
+
+From @white2016interactions, Table 2.1:
+
+- Level 1: Move
+  - Atomic search event – for example, a query or click
+- Level 2: Tactic
+  - Goal or task, including query or click chain
+- Level 3: Statagem
+  - Mission or session
+- Level 4: Strategy
+  - Session or cross-session search task
+
+
+
+
+- Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing & Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226. 
+  - http://dx.doi.org/10.1016/j.ipm.2016.05.007
+  - https://www.pernillaq.com/exploratory-search
+  - [checkout the forward citations of this paper on automated log analyses](https://scholar.google.com/scholar?cites=16001618163231710088&as_sdt=5,44&sciodt=0,44&hl=en)
+  - like process mining!
+  - "*Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended*"
+
+
+
+
+- other behaviours from *Search Patterns* book
+  - quit
+  - narrow
+  - expand
+  - pearl growing / citation mining / snowballing
+  - pogo sticking
+  - thrashing
+
+for LongSAL, tactics / states:
+- Q
+  - subdivided by Q reform types?
+- L
+- I\_short (DT <= 10s) -- rethink these durs
+- I\_med ( 10 < DT <= 30s)
+- I\_long (> 30s) 
+  - 30s from Handehawa's thesis, and related Shah references
+- opening a new tab: parallel mission?
+- closing ta tab
+- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip&m paper
+- beginning and end of sessions?
+- clicks?
+  - clicks on L pages
+  - clicks on I pages
+
+or maybe I.type of webpage visited?
+or combine DT with I.PUB / I.X?
+
+
+
+### Transition analysis of Search Tactics
+
+Transition analysis can be applied to:
+
+- search tactics
+- tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs for this to work?)
+- combined (opening tab and closing tabs are tactics / events in markov process)
+
+
+Help with analyses:
+
+- Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
+- [@he2016beyond p. 1220 sec 6.1] for calculation formulas for entropy of transitions
+- [@krejtz2014entropy] sec 4 for calculation formulas
+- [@he2016beyond p. 1220 sec 6.2] for hypotheses
+
+
+## correlation analysis
+
+- correlation between user profiles and search tactics (as in taramigkou paper table 9)
+
+## search trails analysis
+
+- low priority
+- chirag sha's student; has intersting metrics like coverage, unique pages visited etc.
+- https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/
+- maybe future work?
+
 
 ## Dwell Time Analysis
 
