@@ -48,24 +48,34 @@ see crescenzi thesis
   - IMI
   - MAI
   - SRQ
-  - WMC / memory span: 
+  - WMC / memory span:
     - scaling by dividing by 10 (?) (that's the max Coglab would show)
     - min-max scaling
   - perceived learning outcome (/100)
   - perceived search outcome (/100)
   - others?
 
-
+Memory span values normalized by 10, because "The maximum memory span measurable with this experiment is ten" as per CogLab output
 
 - Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership (no no; a simple examination of what feature values changed between timepoints will be enoug)
 
 use 2 groups! 2 groups is always better. easier to explain; easier to write.
 
+## Search Tactic Analysis
 
 ## Dwell Time Analysis
 
 - DO ANAYSIS WITH `LIB` AND `LIBGUIDE` TYPE URLS - LIBRARY WEBSITES
-
+- Dwell Time:
+  - overall
+  - per task
+  - per timepoint?
+- sig diff in DT between
+  - SES1 and SES3
+  - SES2a and SES2d?
+- checkout: sns.pairplot() -- pairwise relationships in a dataset
+  - https://seaborn.pydata.org/generated/seaborn.pairplot.html
+- checkout seaborn's plotting capabilites!
 
 
 <!-- 

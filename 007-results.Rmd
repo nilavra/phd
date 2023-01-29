@@ -139,7 +139,15 @@ Help with analyses:
 
 
 
+## Qualitative / Free Text Results
 
+Note-taking strategies
+
+- how do you organize your notes
+- how long do you store your notes
+- how do you search for a bit of info in the notes
+
+Other surveys
 
 
 
@@ -155,3 +163,5 @@ Help with analyses:
 
 
 ### RQ4: mention here
+
+
