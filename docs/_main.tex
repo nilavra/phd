@@ -1186,6 +1186,44 @@ P022Pisa said
 
 see crescenzi thesis
 
+From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1:
+
+\begin{itemize}
+\tightlist
+\item
+  Level 1: Move
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Atomic search event -- for example, a query or click
+  \end{itemize}
+\item
+  Level 2: Tactic
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Goal or task, including query or click chain
+  \end{itemize}
+\item
+  Level 3: Statagem
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Mission or session
+  \end{itemize}
+\item
+  Level 4: Strategy
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Session or cross-session search task
+  \end{itemize}
+\end{itemize}
+
 \hypertarget{latent-profiles}{%
 \section{Latent Profiles}\label{latent-profiles}}
 
@@ -1268,8 +1306,86 @@ use 2 groups! 2 groups is always better. easier to explain; easier to write.
   BOOK CHAPTER IS \texttt{PUB}
 \end{itemize}
 
-\hypertarget{implicit-features-for-exploratory-search-process}{%
-\section{Implicit Features for Exploratory Search Process}\label{implicit-features-for-exploratory-search-process}}
+\hypertarget{level-1-moves---query-reformulation}{%
+\section{Level 1: Moves - Query Reformulation}\label{level-1-moves---query-reformulation}}
+
+\begin{itemize}
+\tightlist
+\item
+  Yung Sheng's Dissertation
+\item
+  (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014}) Table 1
+\end{itemize}
+
+Measures:
+
+\begin{itemize}
+\tightlist
+\item
+  Number of terms per Query
+\item
+  Query length (characters?)
+\item
+  Number of (unique) queries per search
+\item
+  Number of reformulated query types
+\item
+  Abandoned Queries (Percentage of queries with no clicks)
+\item
+  query similarity (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    average similarity between all queries to the first query in every session
+  \item
+    exact match, approx match, lemma match, semantic match
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{level-1-moves---dwell-time}{%
+\section{Level 1: Moves - Dwell Time}\label{level-1-moves---dwell-time}}
+
+\begin{itemize}
+\tightlist
+\item
+  DO ANAYSIS WITH \texttt{LIB} AND \texttt{LIBGUIDE} TYPE URLS - LIBRARY WEBSITES
+\item
+  Dwell Time:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    overall
+  \item
+    per task
+  \item
+    per timepoint?
+  \end{itemize}
+\item
+  sig diff in DT between
+
+  \begin{itemize}
+  \tightlist
+  \item
+    SES1 and SES3
+  \item
+    SES2a and SES2d?
+  \end{itemize}
+\item
+  checkout: sns.pairplot() -- pairwise relationships in a dataset
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{https://seaborn.pydata.org/generated/seaborn.pairplot.html}
+  \end{itemize}
+\item
+  checkout seaborn's plotting capabilites!
+\end{itemize}
+
+\hypertarget{level-2-implicit-features-for-exploratory-search-process}{%
+\section{Level 2+: Implicit Features for Exploratory Search Process}\label{level-2-implicit-features-for-exploratory-search-process}}
 
 From Hendahewa (\protect\hyperlink{ref-hendahewa2016implicit}{2016}) and related papers
 
@@ -1309,90 +1425,34 @@ From Hendahewa (\protect\hyperlink{ref-hendahewa2016implicit}{2016}) and related
   \end{itemize}
 \end{itemize}
 
-\hypertarget{search-tactics-and-strategies}{%
-\section{Search Tactics and Strategies}\label{search-tactics-and-strategies}}
+\hypertarget{level-2-search-tactics-and-strategies}{%
+\section{Level 2+: Search Tactics and Strategies}\label{level-2-search-tactics-and-strategies}}
 
-From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1:
+Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing \& Management, vol.~52, issue 6, Nov.~2016, pp.~1200--1226.
+- \url{http://dx.doi.org/10.1016/j.ipm.2016.05.007}
+- \url{https://www.pernillaq.com/exploratory-search}
+- \href{https://scholar.google.com/scholar?cites=16001618163231710088\&as_sdt=5,44\&sciodt=0,44\&hl=en}{checkout the forward citations of this paper on automated log analyses}
+- like process mining!
+- ``\emph{Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended}''
 
-\begin{itemize}
-\tightlist
-\item
-  Level 1: Move
+From IWSS Book
+- Navigators vs.~Explorers
+- Struggling vs.~Exploring (p 204), originally in (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014})
+- predictive of struggling:
+- low amount of similarity between consecutive queries
+- more clicks per query
+- differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
 
-  \begin{itemize}
-  \tightlist
-  \item
-    Atomic search event -- for example, a query or click
-  \end{itemize}
-\item
-  Level 2: Tactic
+Behaviours from \emph{Search Patterns} book
+- quit
+- narrow
+- expand
+- pearl growing / citation mining / snowballing
+- pogo sticking
+- thrashing
 
-  \begin{itemize}
-  \tightlist
-  \item
-    Goal or task, including query or click chain
-  \end{itemize}
-\item
-  Level 3: Statagem
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Mission or session
-  \end{itemize}
-\item
-  Level 4: Strategy
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Session or cross-session search task
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{background}{%
-\subsection{Background}\label{background}}
-
-\begin{itemize}
-\tightlist
-\item
-  Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing \& Management, vol.~52, issue 6, Nov.~2016, pp.~1200--1226.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \url{http://dx.doi.org/10.1016/j.ipm.2016.05.007}
-  \item
-    \url{https://www.pernillaq.com/exploratory-search}
-  \item
-    \href{https://scholar.google.com/scholar?cites=16001618163231710088\&as_sdt=5,44\&sciodt=0,44\&hl=en}{checkout the forward citations of this paper on automated log analyses}
-  \item
-    like process mining!
-  \item
-    ``\emph{Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended}''
-  \end{itemize}
-\item
-  other behaviours from \emph{Search Patterns} book
-
-  \begin{itemize}
-  \tightlist
-  \item
-    quit
-  \item
-    narrow
-  \item
-    expand
-  \item
-    pearl growing / citation mining / snowballing
-  \item
-    pogo sticking
-  \item
-    thrashing
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{analysis-1---based-on-dwell-time}{%
-\subsection{Analysis 1 - based on Dwell Time}\label{analysis-1---based-on-dwell-time}}
+\hypertarget{strategies-from-dwell-time}{%
+\subsection{Strategies from Dwell Time}\label{strategies-from-dwell-time}}
 
 \begin{itemize}
 \tightlist
@@ -1460,8 +1520,8 @@ From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1:
   \end{itemize}
 \end{itemize}
 
-\hypertarget{analysis-2---using-webpage-l2-categories}{%
-\subsection{Analysis 2 - using webpage L2 categories}\label{analysis-2---using-webpage-l2-categories}}
+\hypertarget{strategies-from-webpage-l2-categories}{%
+\subsection{Strategies from webpage L2 categories}\label{strategies-from-webpage-l2-categories}}
 
 \begin{itemize}
 \tightlist
@@ -1531,8 +1591,8 @@ From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1:
   \end{itemize}
 \end{itemize}
 
-\hypertarget{analysis-3}{%
-\subsection{Analysis 3}\label{analysis-3}}
+\hypertarget{strategies-from-analysis3}{%
+\subsection{Strategies from Analysis3}\label{strategies-from-analysis3}}
 
 \begin{itemize}
 \tightlist
@@ -1654,8 +1714,8 @@ Help with analyses:
   correlation between user profiles and search tactics (as in taramigkou paper table 9)
 \end{itemize}
 
-\hypertarget{search-trails-analysis}{%
-\section{search trails analysis}\label{search-trails-analysis}}
+\hypertarget{level-2-search-trails}{%
+\section{Level 2+: Search Trails}\label{level-2-search-trails}}
 
 \begin{itemize}
 \tightlist
@@ -1667,47 +1727,6 @@ Help with analyses:
   \url{https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/}
 \item
   maybe future work?
-\end{itemize}
-
-\hypertarget{dwell-time-analysis}{%
-\section{Dwell Time Analysis}\label{dwell-time-analysis}}
-
-\begin{itemize}
-\tightlist
-\item
-  DO ANAYSIS WITH \texttt{LIB} AND \texttt{LIBGUIDE} TYPE URLS - LIBRARY WEBSITES
-\item
-  Dwell Time:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    overall
-  \item
-    per task
-  \item
-    per timepoint?
-  \end{itemize}
-\item
-  sig diff in DT between
-
-  \begin{itemize}
-  \tightlist
-  \item
-    SES1 and SES3
-  \item
-    SES2a and SES2d?
-  \end{itemize}
-\item
-  checkout: sns.pairplot() -- pairwise relationships in a dataset
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \url{https://seaborn.pydata.org/generated/seaborn.pairplot.html}
-  \end{itemize}
-\item
-  checkout seaborn's plotting capabilites!
 \end{itemize}
 
 \hypertarget{results-and-discussion}{%
@@ -1761,24 +1780,7 @@ The second set (H2) compares two different user groups, experts and novices, usi
 \end{itemize}
 
 \hypertarget{q---query-reformulation}{%
-\section{Q - query reformulation}\label{q---query-reformulation}}
-
-Yung Sheng's Dissertation:
-
-\hypertarget{number-of-terms-per-query}{%
-\subsection{Number of terms per query}\label{number-of-terms-per-query}}
-
-\begin{itemize}
-\tightlist
-\item
-  also query length (characters?)
-\end{itemize}
-
-\hypertarget{number-of-queries-per-search}{%
-\subsection{Number of queries per search}\label{number-of-queries-per-search}}
-
-\hypertarget{number-of-reformulated-query-types}{%
-\subsection{Number of reformulated query types}\label{number-of-reformulated-query-types}}
+\section{Q - query (re)formulation}\label{q---query-reformulation}}
 
 \hypertarget{l---source-selection-item-selection}{%
 \section{L - source selection / Item Selection}\label{l---source-selection-item-selection}}
@@ -2970,6 +2972,9 @@ Halttunen, K., \& Jarvelin, K. (2005). Assessing learning outcomes in two inform
 
 \leavevmode\vadjust pre{\hypertarget{ref-hansen2016editorial}{}}%
 Hansen, P., \& Rieh, S. Y. (2016). Editorial: Recent advances on searching as learning: An introduction to the special issue. \emph{Journal of Information Science}, \emph{42}(1), 3--6. \url{https://doi.org/10.1177/0165551515614473}
+
+\leavevmode\vadjust pre{\hypertarget{ref-hassan2014struggling}{}}%
+Hassan, A., White, R. W., Dumais, S. T., \& Wang, Y.-M. (2014). Struggling or exploring? Disambiguating long search sessions. \emph{Proceedings of the 7th ACM International Conference on Web Search and Data Mining}, 53--62.
 
 \leavevmode\vadjust pre{\hypertarget{ref-he2016beyond}{}}%
 He, J., Qvarfordt, P., Halvey, M., \& Golovchinsky, G. (2016). Beyond actions: Exploring the discovery of tactics from user logs. \emph{Information Processing \& Management}, \emph{52}(6), 1200--1226.

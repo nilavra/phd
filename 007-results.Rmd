@@ -27,17 +27,9 @@ The second set (H2) compares two different user groups, experts and novices, usi
   - perceived learning, perceived search outcome
 
 
-## Q - query reformulation
+## Q - query (re)formulation
 
-Yung Sheng's Dissertation:
 
-### Number of terms per query
-
-- also query length (characters?)
-
-### Number of queries per search
-
-### Number of reformulated query types
 
 
 ## L - source selection / Item Selection

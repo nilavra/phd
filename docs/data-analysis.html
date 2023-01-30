@@ -117,6 +117,29 @@ Analysis steps:
 <span class="header-section-number">6.2</span> Data Analysis Approach<a class="anchor" aria-label="anchor" href="#data-analysis-approach"><i class="fas fa-link"></i></a>
 </h2>
 <p>see crescenzi thesis</p>
+<p>From <span class="citation">White (<a href="#ref-white2016interactions">2016a</a>)</span>, Table 2.1:</p>
+<ul>
+<li>Level 1: Move
+<ul>
+<li>Atomic search event – for example, a query or click</li>
+</ul>
+</li>
+<li>Level 2: Tactic
+<ul>
+<li>Goal or task, including query or click chain</li>
+</ul>
+</li>
+<li>Level 3: Statagem
+<ul>
+<li>Mission or session</li>
+</ul>
+</li>
+<li>Level 4: Strategy
+<ul>
+<li>Session or cross-session search task</li>
+</ul>
+</li>
+</ul>
 </div>
 <div id="latent-profiles" class="section level2" number="6.3">
 <h2>
@@ -175,9 +198,60 @@ Analysis steps:
 </li>
 </ul>
 </div>
-<div id="implicit-features-for-exploratory-search-process" class="section level2" number="6.5">
+<div id="level-1-moves---query-reformulation" class="section level2" number="6.5">
 <h2>
-<span class="header-section-number">6.5</span> Implicit Features for Exploratory Search Process<a class="anchor" aria-label="anchor" href="#implicit-features-for-exploratory-search-process"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.5</span> Level 1: Moves - Query Reformulation<a class="anchor" aria-label="anchor" href="#level-1-moves---query-reformulation"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>Yung Sheng’s Dissertation</li>
+<li>
+<span class="citation">(<a href="#ref-hassan2014struggling">Hassan et al., 2014</a>)</span> Table 1</li>
+</ul>
+<p>Measures:</p>
+<ul>
+<li>Number of terms per Query</li>
+<li>Query length (characters?)</li>
+<li>Number of (unique) queries per search</li>
+<li>Number of reformulated query types</li>
+<li>Abandoned Queries (Percentage of queries with no clicks)</li>
+<li>query similarity <span class="citation">(<a href="#ref-hassan2014struggling">Hassan et al., 2014</a>)</span>
+<ul>
+<li>average similarity between all queries to the first query in every session</li>
+<li>exact match, approx match, lemma match, semantic match</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="level-1-moves---dwell-time" class="section level2" number="6.6">
+<h2>
+<span class="header-section-number">6.6</span> Level 1: Moves - Dwell Time<a class="anchor" aria-label="anchor" href="#level-1-moves---dwell-time"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>DO ANAYSIS WITH <code>LIB</code> AND <code>LIBGUIDE</code> TYPE URLS - LIBRARY WEBSITES</li>
+<li>Dwell Time:
+<ul>
+<li>overall</li>
+<li>per task</li>
+<li>per timepoint?</li>
+</ul>
+</li>
+<li>sig diff in DT between
+<ul>
+<li>SES1 and SES3</li>
+<li>SES2a and SES2d?</li>
+</ul>
+</li>
+<li>checkout: sns.pairplot() – pairwise relationships in a dataset
+<ul>
+<li><a href="https://seaborn.pydata.org/generated/seaborn.pairplot.html" class="uri">https://seaborn.pydata.org/generated/seaborn.pairplot.html</a></li>
+</ul>
+</li>
+<li>checkout seaborn’s plotting capabilites!</li>
+</ul>
+</div>
+<div id="level-2-implicit-features-for-exploratory-search-process" class="section level2" number="6.7">
+<h2>
+<span class="header-section-number">6.7</span> Level 2+: Implicit Features for Exploratory Search Process<a class="anchor" aria-label="anchor" href="#level-2-implicit-features-for-exploratory-search-process"><i class="fas fa-link"></i></a>
 </h2>
 <p>From <span class="citation">Hendahewa (<a href="#ref-hendahewa2016implicit">2016</a>)</span> and related papers</p>
 <ul>
@@ -202,62 +276,34 @@ Analysis steps:
 </li>
 </ul>
 </div>
-<div id="search-tactics-and-strategies" class="section level2" number="6.6">
+<div id="level-2-search-tactics-and-strategies" class="section level2" number="6.8">
 <h2>
-<span class="header-section-number">6.6</span> Search Tactics and Strategies<a class="anchor" aria-label="anchor" href="#search-tactics-and-strategies"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.8</span> Level 2+: Search Tactics and Strategies<a class="anchor" aria-label="anchor" href="#level-2-search-tactics-and-strategies"><i class="fas fa-link"></i></a>
 </h2>
-<p>From <span class="citation">White (<a href="#ref-white2016interactions">2016a</a>)</span>, Table 2.1:</p>
-<ul>
-<li>Level 1: Move
-<ul>
-<li>Atomic search event – for example, a query or click</li>
-</ul>
-</li>
-<li>Level 2: Tactic
-<ul>
-<li>Goal or task, including query or click chain</li>
-</ul>
-</li>
-<li>Level 3: Statagem
-<ul>
-<li>Mission or session</li>
-</ul>
-</li>
-<li>Level 4: Strategy
-<ul>
-<li>Session or cross-session search task</li>
-</ul>
-</li>
-</ul>
-<div id="background" class="section level3" number="6.6.1">
+<p>Pernilla Q et al’s paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing &amp; Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226.
+- <a href="http://dx.doi.org/10.1016/j.ipm.2016.05.007" class="uri">http://dx.doi.org/10.1016/j.ipm.2016.05.007</a>
+- <a href="https://www.pernillaq.com/exploratory-search" class="uri">https://www.pernillaq.com/exploratory-search</a>
+- <a href="https://scholar.google.com/scholar?cites=16001618163231710088&amp;as_sdt=5,44&amp;sciodt=0,44&amp;hl=en">checkout the forward citations of this paper on automated log analyses</a>
+- like process mining!
+- “<em>Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended</em>”</p>
+<p>From IWSS Book
+- Navigators vs. Explorers
+- Struggling vs. Exploring (p 204), originally in <span class="citation">(<a href="#ref-hassan2014struggling">Hassan et al., 2014</a>)</span>
+- predictive of struggling:
+- low amount of similarity between consecutive queries
+- more clicks per query
+- differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring</p>
+<!-- Hassan et al. (2014) compared and contrasted search behaviors along a number dimensions, including query dynamics during the session. They found that there are some features that may be predictive of struggling, such as a low amount of similarity between consecutive queries, more clicks per query, as well as differences in the nature of the reformulation patterns (i.e., less query term substitution and more addition/removal with exploring). Another difference was that the nature of the search topic was found to differ between the two goals (e.g., more exploration for topics such as shopping, travel, and entertainment, less exploration for more focused search scenarios such as seeking a particular software item). Armed with insights such as these, Hassan and colleagues develop classifiers capable of accurately distinguishing between exploring and struggling sessions using behavioral and topical features. -->
+<p>Behaviours from <em>Search Patterns</em> book
+- quit
+- narrow
+- expand
+- pearl growing / citation mining / snowballing
+- pogo sticking
+- thrashing</p>
+<div id="strategies-from-dwell-time" class="section level3" number="6.8.1">
 <h3>
-<span class="header-section-number">6.6.1</span> Background<a class="anchor" aria-label="anchor" href="#background"><i class="fas fa-link"></i></a>
-</h3>
-<ul>
-<li>Pernilla Q et al’s paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing &amp; Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226.
-<ul>
-<li><a href="http://dx.doi.org/10.1016/j.ipm.2016.05.007" class="uri">http://dx.doi.org/10.1016/j.ipm.2016.05.007</a></li>
-<li><a href="https://www.pernillaq.com/exploratory-search" class="uri">https://www.pernillaq.com/exploratory-search</a></li>
-<li><a href="https://scholar.google.com/scholar?cites=16001618163231710088&amp;as_sdt=5,44&amp;sciodt=0,44&amp;hl=en">checkout the forward citations of this paper on automated log analyses</a></li>
-<li>like process mining!</li>
-<li>“<em>Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended</em>”</li>
-</ul>
-</li>
-<li>other behaviours from <em>Search Patterns</em> book
-<ul>
-<li>quit</li>
-<li>narrow</li>
-<li>expand</li>
-<li>pearl growing / citation mining / snowballing</li>
-<li>pogo sticking</li>
-<li>thrashing</li>
-</ul>
-</li>
-</ul>
-</div>
-<div id="analysis-1---based-on-dwell-time" class="section level3" number="6.6.2">
-<h3>
-<span class="header-section-number">6.6.2</span> Analysis 1 - based on Dwell Time<a class="anchor" aria-label="anchor" href="#analysis-1---based-on-dwell-time"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.8.1</span> Strategies from Dwell Time<a class="anchor" aria-label="anchor" href="#strategies-from-dwell-time"><i class="fas fa-link"></i></a>
 </h3>
 <ul>
 <li>Q
@@ -298,9 +344,9 @@ Analysis steps:
 </li>
 </ul>
 </div>
-<div id="analysis-2---using-webpage-l2-categories" class="section level3" number="6.6.3">
+<div id="strategies-from-webpage-l2-categories" class="section level3" number="6.8.2">
 <h3>
-<span class="header-section-number">6.6.3</span> Analysis 2 - using webpage L2 categories<a class="anchor" aria-label="anchor" href="#analysis-2---using-webpage-l2-categories"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.8.2</span> Strategies from webpage L2 categories<a class="anchor" aria-label="anchor" href="#strategies-from-webpage-l2-categories"><i class="fas fa-link"></i></a>
 </h3>
 <ul>
 <li>Q
@@ -342,9 +388,9 @@ Analysis steps:
 </li>
 </ul>
 </div>
-<div id="analysis-3" class="section level3" number="6.6.4">
+<div id="strategies-from-analysis3" class="section level3" number="6.8.3">
 <h3>
-<span class="header-section-number">6.6.4</span> Analysis 3<a class="anchor" aria-label="anchor" href="#analysis-3"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.8.3</span> Strategies from Analysis3<a class="anchor" aria-label="anchor" href="#strategies-from-analysis3"><i class="fas fa-link"></i></a>
 </h3>
 <ul>
 <li>As in <span class="citation">(<a href="#ref-lam2007session">Lam et al., 2007</a>)</span> Sec 6:
@@ -364,9 +410,9 @@ Analysis steps:
 </li>
 </ul>
 </div>
-<div id="original-idea" class="section level3" number="6.6.5">
+<div id="original-idea" class="section level3" number="6.8.4">
 <h3>
-<span class="header-section-number">6.6.5</span> Original Idea<a class="anchor" aria-label="anchor" href="#original-idea"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.8.4</span> Original Idea<a class="anchor" aria-label="anchor" href="#original-idea"><i class="fas fa-link"></i></a>
 </h3>
 <p>for LongSAL, tactics / states:</p>
 <ul>
@@ -397,9 +443,9 @@ Analysis steps:
 <p>or maybe I.type of webpage visited?
 or combine DT with I.PUB / I.X?</p>
 </div>
-<div id="transition-analysis-of-search-tactics-strategies" class="section level3" number="6.6.6">
+<div id="transition-analysis-of-search-tactics-strategies" class="section level3" number="6.8.5">
 <h3>
-<span class="header-section-number">6.6.6</span> Transition analysis of Search Tactics / Strategies<a class="anchor" aria-label="anchor" href="#transition-analysis-of-search-tactics-strategies"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.8.5</span> Transition analysis of Search Tactics / Strategies<a class="anchor" aria-label="anchor" href="#transition-analysis-of-search-tactics-strategies"><i class="fas fa-link"></i></a>
 </h3>
 <p>Transition analysis can be applied to:</p>
 <ul>
@@ -419,50 +465,23 @@ or combine DT with I.PUB / I.X?</p>
 </ul>
 </div>
 </div>
-<div id="correlation-analysis" class="section level2" number="6.7">
+<div id="correlation-analysis" class="section level2" number="6.9">
 <h2>
-<span class="header-section-number">6.7</span> correlation analysis<a class="anchor" aria-label="anchor" href="#correlation-analysis"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.9</span> correlation analysis<a class="anchor" aria-label="anchor" href="#correlation-analysis"><i class="fas fa-link"></i></a>
 </h2>
 <ul>
 <li>correlation between user profiles and search tactics (as in taramigkou paper table 9)</li>
 </ul>
 </div>
-<div id="search-trails-analysis" class="section level2" number="6.8">
+<div id="level-2-search-trails" class="section level2" number="6.10">
 <h2>
-<span class="header-section-number">6.8</span> search trails analysis<a class="anchor" aria-label="anchor" href="#search-trails-analysis"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.10</span> Level 2+: Search Trails<a class="anchor" aria-label="anchor" href="#level-2-search-trails"><i class="fas fa-link"></i></a>
 </h2>
 <ul>
 <li>low priority</li>
 <li>chirag sha’s student; has intersting metrics like coverage, unique pages visited etc.</li>
 <li><a href="https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/" class="uri">https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/</a></li>
 <li>maybe future work?</li>
-</ul>
-</div>
-<div id="dwell-time-analysis" class="section level2" number="6.9">
-<h2>
-<span class="header-section-number">6.9</span> Dwell Time Analysis<a class="anchor" aria-label="anchor" href="#dwell-time-analysis"><i class="fas fa-link"></i></a>
-</h2>
-<ul>
-<li>DO ANAYSIS WITH <code>LIB</code> AND <code>LIBGUIDE</code> TYPE URLS - LIBRARY WEBSITES</li>
-<li>Dwell Time:
-<ul>
-<li>overall</li>
-<li>per task</li>
-<li>per timepoint?</li>
-</ul>
-</li>
-<li>sig diff in DT between
-<ul>
-<li>SES1 and SES3</li>
-<li>SES2a and SES2d?</li>
-</ul>
-</li>
-<li>checkout: sns.pairplot() – pairwise relationships in a dataset
-<ul>
-<li><a href="https://seaborn.pydata.org/generated/seaborn.pairplot.html" class="uri">https://seaborn.pydata.org/generated/seaborn.pairplot.html</a></li>
-</ul>
-</li>
-<li>checkout seaborn’s plotting capabilites!</li>
 </ul>
 <!-- 
 https://www.google.com/search?q=nilavra&oq=nilavra&aqs=edge..69i57j0i512j69i60l3j69i61j69i65j69i60j69i65.4522j0j4&sourceid=chrome&ie=UTF-8 
@@ -471,6 +490,9 @@ https://www.google.com/search?q=nilavra&oq=nilavra&aqs=edge..69i57j0i512j69i60l3
 </div>
 <h3>References</h3>
 <div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-hassan2014struggling" class="csl-entry">
+Hassan, A., White, R. W., Dumais, S. T., &amp; Wang, Y.-M. (2014). Struggling or exploring? Disambiguating long search sessions. <em>Proceedings of the 7th ACM International Conference on Web Search and Data Mining</em>, 53–62.
+</div>
 <div id="ref-he2016beyond" class="csl-entry">
 He, J., Qvarfordt, P., Halvey, M., &amp; Golovchinsky, G. (2016). Beyond actions: Exploring the discovery of tactics from user logs. <em>Information Processing &amp; Management</em>, <em>52</em>(6), 1200–1226.
 </div>
@@ -501,20 +523,20 @@ White, R. (2016a). <em>Interactions with search systems</em>. Cambridge Universi
 <li><a class="nav-link" href="#data-analysis-approach"><span class="header-section-number">6.2</span> Data Analysis Approach</a></li>
 <li><a class="nav-link" href="#latent-profiles"><span class="header-section-number">6.3</span> Latent Profiles</a></li>
 <li><a class="nav-link" href="#url-categorization"><span class="header-section-number">6.4</span> URL Categorization</a></li>
-<li><a class="nav-link" href="#implicit-features-for-exploratory-search-process"><span class="header-section-number">6.5</span> Implicit Features for Exploratory Search Process</a></li>
+<li><a class="nav-link" href="#level-1-moves---query-reformulation"><span class="header-section-number">6.5</span> Level 1: Moves - Query Reformulation</a></li>
+<li><a class="nav-link" href="#level-1-moves---dwell-time"><span class="header-section-number">6.6</span> Level 1: Moves - Dwell Time</a></li>
+<li><a class="nav-link" href="#level-2-implicit-features-for-exploratory-search-process"><span class="header-section-number">6.7</span> Level 2+: Implicit Features for Exploratory Search Process</a></li>
 <li>
-<a class="nav-link" href="#search-tactics-and-strategies"><span class="header-section-number">6.6</span> Search Tactics and Strategies</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#background"><span class="header-section-number">6.6.1</span> Background</a></li>
-<li><a class="nav-link" href="#analysis-1---based-on-dwell-time"><span class="header-section-number">6.6.2</span> Analysis 1 - based on Dwell Time</a></li>
-<li><a class="nav-link" href="#analysis-2---using-webpage-l2-categories"><span class="header-section-number">6.6.3</span> Analysis 2 - using webpage L2 categories</a></li>
-<li><a class="nav-link" href="#analysis-3"><span class="header-section-number">6.6.4</span> Analysis 3</a></li>
-<li><a class="nav-link" href="#original-idea"><span class="header-section-number">6.6.5</span> Original Idea</a></li>
-<li><a class="nav-link" href="#transition-analysis-of-search-tactics-strategies"><span class="header-section-number">6.6.6</span> Transition analysis of Search Tactics / Strategies</a></li>
+<a class="nav-link" href="#level-2-search-tactics-and-strategies"><span class="header-section-number">6.8</span> Level 2+: Search Tactics and Strategies</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#strategies-from-dwell-time"><span class="header-section-number">6.8.1</span> Strategies from Dwell Time</a></li>
+<li><a class="nav-link" href="#strategies-from-webpage-l2-categories"><span class="header-section-number">6.8.2</span> Strategies from webpage L2 categories</a></li>
+<li><a class="nav-link" href="#strategies-from-analysis3"><span class="header-section-number">6.8.3</span> Strategies from Analysis3</a></li>
+<li><a class="nav-link" href="#original-idea"><span class="header-section-number">6.8.4</span> Original Idea</a></li>
+<li><a class="nav-link" href="#transition-analysis-of-search-tactics-strategies"><span class="header-section-number">6.8.5</span> Transition analysis of Search Tactics / Strategies</a></li>
 </ul>
 </li>
-<li><a class="nav-link" href="#correlation-analysis"><span class="header-section-number">6.7</span> correlation analysis</a></li>
-<li><a class="nav-link" href="#search-trails-analysis"><span class="header-section-number">6.8</span> search trails analysis</a></li>
-<li><a class="nav-link" href="#dwell-time-analysis"><span class="header-section-number">6.9</span> Dwell Time Analysis</a></li>
+<li><a class="nav-link" href="#correlation-analysis"><span class="header-section-number">6.9</span> correlation analysis</a></li>
+<li><a class="nav-link" href="#level-2-search-trails"><span class="header-section-number">6.10</span> Level 2+: Search Trails</a></li>
 </ul>
 
       <div class="book-extra">
