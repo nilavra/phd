@@ -1181,51 +1181,47 @@ P022Pisa said
 \hypertarget{data-cleaning-and-processing}{%
 \section{Data Cleaning and Processing}\label{data-cleaning-and-processing}}
 
-\hypertarget{data-analysis-approach}{%
-\section{Data Analysis Approach}\label{data-analysis-approach}}
-
 see crescenzi thesis
 
-From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1:
+\hypertarget{url-categorization}{%
+\section{URL Categorization}\label{url-categorization}}
 
 \begin{itemize}
 \tightlist
 \item
-  Level 1: Move
+  peer-reviewed publications are \texttt{PUB}s
+\item
+  others are \texttt{ARTICLE}S (e.g.~Wikipedia)
+\item
+  if no other info, then \texttt{WEB}
+\item
+  fuzzy between \texttt{WEB} and \texttt{ARTICLE} (when classified manually)
+\item
+  \texttt{ARTICLE} IF THERE IS A CLEAR AUTHOR
 
   \begin{itemize}
   \tightlist
   \item
-    Atomic search event -- for example, a query or click
+    EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE
+  \item
+    ENCYCLOPEDIAS
   \end{itemize}
 \item
-  Level 2: Tactic
+  JOURNAL HOMEPAGES ARE \texttt{WEB}
+\item
+  LIST OF CHAPTERS IN A BOOK ARE \texttt{L.PUB}.
 
   \begin{itemize}
   \tightlist
   \item
-    Goal or task, including query or click chain
+    E.G. IN DETAIL VIEW OF
   \end{itemize}
 \item
-  Level 3: Statagem
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Mission or session
-  \end{itemize}
-\item
-  Level 4: Strategy
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Session or cross-session search task
-  \end{itemize}
+  BOOK CHAPTER IS \texttt{PUB}
 \end{itemize}
 
-\hypertarget{latent-profiles}{%
-\section{Latent Profiles}\label{latent-profiles}}
+\hypertarget{user-characteristics-latent-profiles}{%
+\section{User characteristics: Latent Profiles}\label{user-characteristics-latent-profiles}}
 
 \begin{itemize}
 \tightlist
@@ -1269,41 +1265,49 @@ Memory span values normalized by 10, because ``The maximum memory span measurabl
 
 use 2 groups! 2 groups is always better. easier to explain; easier to write.
 
-\hypertarget{url-categorization}{%
-\section{URL Categorization}\label{url-categorization}}
+\hypertarget{search-behaviour-data-analysis-approach}{%
+\section{Search Behaviour Data Analysis Approach}\label{search-behaviour-data-analysis-approach}}
+
+From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1 (adapted from Bates, 1989):
 
 \begin{itemize}
 \tightlist
 \item
-  peer-reviewed publications are \texttt{PUB}s
-\item
-  others are \texttt{ARTICLE}S (e.g.~Wikipedia)
-\item
-  if no other info, then \texttt{WEB}
-\item
-  fuzzy between \texttt{WEB} and \texttt{ARTICLE} (when classified manually)
-\item
-  \texttt{ARTICLE} IF THERE IS A CLEAR AUTHOR
+  Level 1: Move
 
   \begin{itemize}
   \tightlist
   \item
-    EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE
-  \item
-    ENCYCLOPEDIAS
+    Atomic search event -- for example, a query or click
+    (\emph{An identifiable thought or action that is part of information searching.})
   \end{itemize}
 \item
-  JOURNAL HOMEPAGES ARE \texttt{WEB}
-\item
-  LIST OF CHAPTERS IN A BOOK ARE \texttt{L.PUB}.
+  Level 2: Tactic
 
   \begin{itemize}
   \tightlist
   \item
-    E.G. IN DETAIL VIEW OF
+    Goal or task, including query or click chain
+    (\emph{One or several moves made to further a search})
   \end{itemize}
 \item
-  BOOK CHAPTER IS \texttt{PUB}
+  Level 3: Statagem
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Mission or session
+    (\emph{A larger, more complex set of thoughts and/or actions than the tactic; a stratagem consists of multiple tactics and/or moves, all of which are designed to exploit a particular search domain that is thought to contain the desired information})
+  \end{itemize}
+\item
+  Level 4: Strategy
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Session or cross-session search task
+    (\emph{A plan, which may contain moves, tactics, and/or stratagems, for an entire information search.})
+  \end{itemize}
 \end{itemize}
 
 \hypertarget{level-1-moves---query-reformulation}{%
@@ -1343,8 +1347,44 @@ Measures:
   \end{itemize}
 \end{itemize}
 
-\hypertarget{level-1-moves---dwell-time}{%
-\section{Level 1: Moves - Dwell Time}\label{level-1-moves---dwell-time}}
+\hypertarget{level-1-moves---dwell-time-dt}{%
+\section{Level 1: Moves - Dwell Time (DT)}\label{level-1-moves---dwell-time-dt}}
+
+Dwell Time categories:
+
+\begin{itemize}
+\tightlist
+\item
+  short:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    1 \textless= DT \textless= 5s
+  \item
+    A time span of less than 5 seconds is a too short period for being able to read a summary and extract information (\protect\hyperlink{ref-he2016beyond}{He et al., 2016}).
+  \end{itemize}
+\item
+  med
+
+  \begin{itemize}
+  \tightlist
+  \item
+    5 \textless{} DT \textless= 30s
+  \end{itemize}
+\item
+  long
+
+  \begin{itemize}
+  \tightlist
+  \item
+    DT \textgreater{} 30s
+  \item
+    from Handehawa's thesis, and related Shah references
+  \end{itemize}
+\end{itemize}
+
+Other Ideas
 
 \begin{itemize}
 \tightlist
@@ -1384,10 +1424,39 @@ Measures:
   checkout seaborn's plotting capabilites!
 \end{itemize}
 
-\hypertarget{level-2-implicit-features-for-exploratory-search-process}{%
-\section{Level 2+: Implicit Features for Exploratory Search Process}\label{level-2-implicit-features-for-exploratory-search-process}}
+\hypertarget{level-1-moves---tab-parallel-browsing-behaviour}{%
+\section{Level 1: Moves - Tab (Parallel Browsing) Behaviour}\label{level-1-moves---tab-parallel-browsing-behaviour}}
 
-From Hendahewa (\protect\hyperlink{ref-hendahewa2016implicit}{2016}) and related papers
+\begin{itemize}
+\tightlist
+\item
+  Tab Events:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    open
+  \item
+    switch
+  \item
+    close
+  \end{itemize}
+\item
+  Session Events (from YASBIL events and \texttt{task\_id})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    beginning
+  \item
+    end
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{level-2-implicit-features-for-exploratory-search-process}{%
+\section{Level 2: Implicit Features for Exploratory Search Process}\label{level-2-implicit-features-for-exploratory-search-process}}
+
+From Hendahewa (\protect\hyperlink{ref-hendahewa2016implicit}{2016}) and related papers.
 
 \begin{itemize}
 \tightlist
@@ -1425,6 +1494,8 @@ From Hendahewa (\protect\hyperlink{ref-hendahewa2016implicit}{2016}) and related
   \end{itemize}
 \end{itemize}
 
+\url{https://rucore.libraries.rutgers.edu/rutgers-lib/49207/}
+
 \hypertarget{level-2-search-tactics-and-strategies}{%
 \section{Level 2+: Search Tactics and Strategies}\label{level-2-search-tactics-and-strategies}}
 
@@ -1435,89 +1506,47 @@ Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golov
 - like process mining!
 - ``\emph{Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended}''
 
-From IWSS Book
-- Navigators vs.~Explorers
-- Struggling vs.~Exploring (p 204), originally in (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014})
-- predictive of struggling:
-- low amount of similarity between consecutive queries
-- more clicks per query
-- differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
-
 Behaviours from \emph{Search Patterns} book
-- quit
-- narrow
-- expand
-- pearl growing / citation mining / snowballing
-- pogo sticking
-- thrashing
-
-\hypertarget{strategies-from-dwell-time}{%
-\subsection{Strategies from Dwell Time}\label{strategies-from-dwell-time}}
 
 \begin{itemize}
 \tightlist
 \item
-  Q
-
-  \begin{itemize}
-  \tightlist
-  \item
-    types of reformulations
-  \end{itemize}
+  quit
 \item
-  L
+  narrow
+\item
+  expand
+\item
+  pearl growing / citation mining / snowballing
+\item
+  pogo sticking
+\item
+  thrashing
+\end{itemize}
 
-  \begin{itemize}
-  \tightlist
-  \item
-    short (1 \textless= DT \textless= 5s)
-  \item
-    med (5 \textless{} DT \textless= 30s)
-  \item
-    long (DT \textgreater{} 30s) (from Handehawa's thesis, and related Shah references)
-  \end{itemize}
+\hypertarget{strategies-from-dwell-time-dt}{%
+\subsection{Strategies from Dwell Time (DT)}\label{strategies-from-dwell-time-dt}}
+
+\begin{itemize}
+\tightlist
+\item
+  Q.\{types of reformulations\}
+\item
+  L.\{DT categories\}
 \item
   L.click (only hyperlink clicks)
 \item
-  I
-
-  \begin{itemize}
-  \tightlist
-  \item
-    short
-  \item
-    med
-  \item
-    long
-  \end{itemize}
+  I.\{DT categories\}
 \item
   I.click
 \item
-  Other
+  Other.\{DT categories\}
 \item
-  Tab
-
-  \begin{itemize}
-  \tightlist
-  \item
-    open
-  \item
-    switch
-  \item
-    close
-  \end{itemize}
+  Tab.\{tab events\}
 \item
-  staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip\&m paper
+  Idle: user stays idle for 1 minute (\protect\hyperlink{ref-taramigkou2018leveraging}{Taramigkou et al., 2018})
 \item
-  session
-
-  \begin{itemize}
-  \tightlist
-  \item
-    beginning
-  \item
-    end
-  \end{itemize}
+  session.\{session events\}
 \end{itemize}
 
 \hypertarget{strategies-from-webpage-l2-categories}{%
@@ -1526,73 +1555,27 @@ Behaviours from \emph{Search Patterns} book
 \begin{itemize}
 \tightlist
 \item
-  Q
-
-  \begin{itemize}
-  \tightlist
-  \item
-    types of reformulations
-  \end{itemize}
+  Q.\{types of reformulations\}
 \item
-  L
-
-  \begin{itemize}
-  \tightlist
-  \item
-    PUB
-  \item
-    WEB
-  \item
-    X
-  \end{itemize}
+  L.\{PUB / WEB / X\}
 \item
   L.click (only hyperlink clicks)
 \item
-  I
-
-  \begin{itemize}
-  \tightlist
-  \item
-    PUB
-  \item
-    WEB
-  \item
-    ARTICLE
-  \item
-    other
-  \end{itemize}
+  I.\{PUB / WEB / ARTICLE / X\}
 \item
   I.click
 \item
-  Other
+  Other.\{X\}
 \item
-  Tab
-
-  \begin{itemize}
-  \tightlist
-  \item
-    open
-  \item
-    switch
-  \item
-    close
-  \end{itemize}
+  Tab.\{tab events\}
 \item
-  staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip\&m paper
+  Idle: user stays idle for 1 minute (\protect\hyperlink{ref-taramigkou2018leveraging}{Taramigkou et al., 2018})
 \item
-  session
-
-  \begin{itemize}
-  \tightlist
-  \item
-    beginning
-  \item
-    end
-  \end{itemize}
+  session.\{session events\}
 \end{itemize}
 
-\hypertarget{strategies-from-analysis3}{%
-\subsection{Strategies from Analysis3}\label{strategies-from-analysis3}}
+\hypertarget{strategies-from-lam2007session}{%
+\subsection{\texorpdfstring{Strategies from Lam et al. (\protect\hyperlink{ref-lam2007session}{2007})}{Strategies from Lam et al. (2007)}}\label{strategies-from-lam2007session}}
 
 \begin{itemize}
 \tightlist
@@ -1624,110 +1607,45 @@ Behaviours from \emph{Search Patterns} book
   \end{itemize}
 \end{itemize}
 
-\hypertarget{original-idea}{%
-\subsection{Original Idea}\label{original-idea}}
+\hypertarget{struggling-vs.-exploring}{%
+\subsection{Struggling vs.~Exploring}\label{struggling-vs.-exploring}}
 
-for LongSAL, tactics / states:
+Indicators predictive of struggling (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014}):
 
 \begin{itemize}
 \tightlist
 \item
-  Q
-
-  \begin{itemize}
-  \tightlist
-  \item
-    subdivided by Q reform types?
-  \end{itemize}
+  low amount of similarity between consecutive queries
 \item
-  L
+  more clicks per query
 \item
-  I\_short (DT \textless= 10s) -- rethink these durs
-\item
-  I\_med ( 10 \textless{} DT \textless= 30s)
-\item
-  I\_long (\textgreater{} 30s)
-
-  \begin{itemize}
-  \tightlist
-  \item
-    30s from Handehawa's thesis, and related Shah references
-  \end{itemize}
-\item
-  opening a new tab: parallel mission?
-\item
-  closing ta tab
-\item
-  staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip\&m paper
-\item
-  beginning and end of sessions?
-\item
-  clicks?
-
-  \begin{itemize}
-  \tightlist
-  \item
-    clicks on L pages
-  \item
-    clicks on I pages
-  \end{itemize}
+  differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
 \end{itemize}
 
-or maybe I.type of webpage visited?
-or combine DT with I.PUB / I.X?
+\hypertarget{navigators-vs.-explorers}{%
+\subsection{Navigators vs.~Explorers}\label{navigators-vs.-explorers}}
+
+From IWSS book
+(later, low priority)
 
 \hypertarget{transition-analysis-of-search-tactics-strategies}{%
 \subsection{Transition analysis of Search Tactics / Strategies}\label{transition-analysis-of-search-tactics-strategies}}
 
 Transition analysis can be applied to:
-
-\begin{itemize}
-\tightlist
-\item
-  search tactics
-\item
-  tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs for this to work?)
-\item
-  combined (opening tab and closing tabs are tactics / events in markov process)
-\end{itemize}
+- search tactics
+- tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs for this to work?)
+- combined (opening tab and closing tabs are tactics / events in markov process)
 
 Help with analyses:
-
-\begin{itemize}
-\tightlist
-\item
-  Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
-\item
-  (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.1) for calculation formulas for entropy of transitions
-\item
-  (\protect\hyperlink{ref-krejtz2014entropy}{Krejtz et al., 2014}) sec 4 for calculation formulas
-\item
-  (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.2) for hypotheses
-\end{itemize}
+- Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
+- (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.1) for calculation formulas for entropy of transitions
+- (\protect\hyperlink{ref-krejtz2014entropy}{Krejtz et al., 2014}) sec 4 for calculation formulas
+- (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.2) for hypotheses
 
 \hypertarget{correlation-analysis}{%
-\section{correlation analysis}\label{correlation-analysis}}
+\section{Correlation analysis}\label{correlation-analysis}}
 
-\begin{itemize}
-\tightlist
-\item
-  correlation between user profiles and search tactics (as in taramigkou paper table 9)
-\end{itemize}
-
-\hypertarget{level-2-search-trails}{%
-\section{Level 2+: Search Trails}\label{level-2-search-trails}}
-
-\begin{itemize}
-\tightlist
-\item
-  low priority
-\item
-  chirag sha's student; has intersting metrics like coverage, unique pages visited etc.
-\item
-  \url{https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/}
-\item
-  maybe future work?
-\end{itemize}
+Correlation between user profiles and search tactics (Table 9 \protect\hyperlink{ref-taramigkou2018leveraging}{Taramigkou et al., 2018})
 
 \hypertarget{results-and-discussion}{%
 \chapter{Results and Discussion}\label{results-and-discussion}}
@@ -3098,6 +3016,9 @@ Sawyer, R. K. (2005). \emph{The {Cambridge} handbook of the learning sciences}. 
 
 \leavevmode\vadjust pre{\hypertarget{ref-schraw1994assessing}{}}%
 Schraw, G., \& Dennison, R. S. (1994). Assessing {Metacognitive Awareness}. \emph{Contemporary Educational Psychology}, \emph{19}(4), 460--475. \url{https://doi.org/10.1006/ceps.1994.1033}
+
+\leavevmode\vadjust pre{\hypertarget{ref-taramigkou2018leveraging}{}}%
+Taramigkou, M., Apostolou, D., \& Mentzas, G. (2018). Leveraging exploratory search with personality traits and interactional context. \emph{Information Processing \& Management}, \emph{54}(4), 609--629.
 
 \leavevmode\vadjust pre{\hypertarget{ref-terlecki2020revising}{}}%
 Terlecki, M. (2020). Revising the {Metacognitive Awareness Inventory} ({MAI}) to be {More User}-{Friendly}. In \emph{Improve with Metacognition}. \url{https://www.improvewithmetacognition.com/revising-the-metacognitive-awareness-inventory/}

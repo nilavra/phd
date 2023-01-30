@@ -5,7 +5,7 @@ all participants are referred to using gender-neutral they/them pronouns.
 
 Final feedback:
 P022Pisa said 
-> _It is great to be able to participate in the research this semester. Using the extension somehow brings me postive feedback and that helps me in study I303. So I wanna say thank you_
+> *It is great to be able to participate in the research this semester. Using the extension somehow brings me postive feedback and that helps me in study I303. So I wanna say thank you*
 > - P022Pisa
 
 <!--
@@ -15,25 +15,27 @@ Analysis steps:
 -->
 
 
-
 ## Data Cleaning and Processing
-
-## Data Analysis Approach
 
 see crescenzi thesis
 
-From @white2016interactions, Table 2.1:
+## URL Categorization
 
-- Level 1: Move
-  - Atomic search event – for example, a query or click
-- Level 2: Tactic
-  - Goal or task, including query or click chain
-- Level 3: Statagem
-  - Mission or session
-- Level 4: Strategy
-  - Session or cross-session search task
+<!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
 
-## Latent Profiles
+- peer-reviewed publications are `PUB`s
+- others are `ARTICLE`S (e.g. Wikipedia)
+- if no other info, then `WEB`
+- fuzzy between `WEB` and `ARTICLE` (when classified manually)
+- `ARTICLE` IF THERE IS A CLEAR AUTHOR
+  - EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE
+  - ENCYCLOPEDIAS
+- JOURNAL HOMEPAGES ARE `WEB`
+- LIST OF CHAPTERS IN A BOOK ARE `L.PUB`.
+  - E.G. IN DETAIL VIEW OF
+- BOOK CHAPTER IS `PUB`
+
+## User characteristics: Latent Profiles
 
 - feature sets for profiling (toggle on and off)
   - IMI
@@ -54,27 +56,29 @@ use 2 groups! 2 groups is always better. easier to explain; easier to write.
 
 
 
-## URL Categorization
+## Search Behaviour Data Analysis Approach
 
-<!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
+From @white2016interactions, Table 2.1 (adapted from Bates, 1989):
 
-- peer-reviewed publications are `PUB`s
-- others are `ARTICLE`S (e.g. Wikipedia)
-- if no other info, then `WEB`
-- fuzzy between `WEB` and `ARTICLE` (when classified manually)
-- `ARTICLE` IF THERE IS A CLEAR AUTHOR
-  - EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE
-  - ENCYCLOPEDIAS
-- JOURNAL HOMEPAGES ARE `WEB`
-- LIST OF CHAPTERS IN A BOOK ARE `L.PUB`.
-  - E.G. IN DETAIL VIEW OF
-- BOOK CHAPTER IS `PUB`
-
+- Level 1: Move
+  - Atomic search event – for example, a query or click
+  (*An identifiable thought or action that is part of information searching.*)
+- Level 2: Tactic
+  - Goal or task, including query or click chain
+  (*One or several moves made to further a search*)
+- Level 3: Statagem
+  - Mission or session
+  (*A larger, more complex set of thoughts and/or actions than the tactic; a stratagem consists of multiple tactics and/or moves, all of which are designed to exploit a particular search domain that is thought to contain the desired information*)
+- Level 4: Strategy
+  - Session or cross-session search task
+  (*A plan, which may contain moves, tactics, and/or stratagems, for an entire information search.*)
 
 ## Level 1: Moves - Query Reformulation
 
 - Yung Sheng's Dissertation
 - [@hassan2014struggling] Table 1
+
+
 
 Measures:
 
@@ -87,7 +91,24 @@ Measures:
   - average similarity between all queries to the first query in every session
   - exact match, approx match, lemma match, semantic match
 
-## Level 1: Moves - Dwell Time
+
+
+
+## Level 1: Moves - Dwell Time (DT)
+
+Dwell Time categories:
+
+- short:
+  - 1 <= DT <= 5s
+  - A time span of less than 5 seconds is a too short period for being able to read a summary and extract information [@he2016beyond].
+- med
+  - 5 < DT <= 30s
+- long
+  - DT > 30s
+  - from Handehawa's thesis, and related Shah references
+
+
+Other Ideas
 
 - DO ANAYSIS WITH `LIB` AND `LIBGUIDE` TYPE URLS - LIBRARY WEBSITES
 - Dwell Time:
@@ -101,10 +122,20 @@ Measures:
   - https://seaborn.pydata.org/generated/seaborn.pairplot.html
 - checkout seaborn's plotting capabilites!
 
+## Level 1: Moves - Tab (Parallel Browsing) Behaviour
 
-## Level 2+: Implicit Features for Exploratory Search Process
+- Tab Events:
+  - open
+  - switch
+  - close
+- Session Events (from YASBIL events and `task_id`)
+  - beginning
+  - end
 
-From @hendahewa2016implicit and related papers
+
+## Level 2: Implicit Features for Exploratory Search Process
+
+From @hendahewa2016implicit and related papers.
 
 - Creativity --> Information Novelty
   - Unique Coverage: Unique web pages visited
@@ -117,11 +148,18 @@ From @hendahewa2016implicit and related papers
   - Useful Coverage: Number of pages where users spend a considerable amount of time
   - Relevant Coverage: Number of pages that users denote as relevant to the task
 
+https://rucore.libraries.rutgers.edu/rutgers-lib/49207/
+
+<!-- - low priority
+- chirag sha's student; has intersting metrics like coverage, unique pages visited etc.
+- https://rucore.libraries.rutgers.edu/rutgers-lib/49207/
+- maybe future work? -->
+
+
+
 
 
 ## Level 2+: Search Tactics and Strategies
-
-
 
 
 Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing & Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226.
@@ -132,17 +170,8 @@ Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golov
 - "*Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended*"
 
 
-From IWSS Book
-- Navigators vs. Explorers
-- Struggling vs. Exploring (p 204), originally in [@hassan2014struggling]
-  - predictive of struggling:
-    - low amount of similarity between consecutive queries
-    - more clicks per query
-    - differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
-
-<!-- Hassan et al. (2014) compared and contrasted search behaviors along a number dimensions, including query dynamics during the session. They found that there are some features that may be predictive of struggling, such as a low amount of similarity between consecutive queries, more clicks per query, as well as differences in the nature of the reformulation patterns (i.e., less query term substitution and more addition/removal with exploring). Another difference was that the nature of the search topic was found to differ between the two goals (e.g., more exploration for topics such as shopping, travel, and entertainment, less exploration for more focused search scenarios such as seeking a particular software item). Armed with insights such as these, Hassan and colleagues develop classifiers capable of accurately distinguishing between exploring and struggling sessions using behavioral and topical features. -->
-
 Behaviours from *Search Patterns* book
+
 - quit
 - narrow
 - expand
@@ -153,59 +182,36 @@ Behaviours from *Search Patterns* book
 
 
 
-### Strategies from Dwell Time
+### Strategies from Dwell Time (DT)
 
-- Q
-  - types of reformulations
-- L
-  - short (1 <= DT <= 5s)
-  - med (5 < DT <= 30s)
-  - long (DT > 30s) (from Handehawa's thesis, and related Shah references)
+
+- Q.{types of reformulations}
+- L.{DT categories}
 - L.click (only hyperlink clicks)
-- I
-  - short
-  - med
-  - long
+- I.{DT categories}
 - I.click
-- Other
-- Tab
-  - open
-  - switch
-  - close
-- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip&m paper
-- session
-  - beginning
-  - end
+- Other.{DT categories}
+- Tab.{tab events}
+- Idle: user stays idle for 1 minute [@taramigkou2018leveraging]
+- session.{session events}
 
 
 
 
 ### Strategies from webpage L2 categories
 
-- Q
-  - types of reformulations
-- L
-  - PUB
-  - WEB
-  - X
+- Q.{types of reformulations}
+- L.{PUB / WEB / X}
 - L.click (only hyperlink clicks)
-- I
-  - PUB
-  - WEB
-  - ARTICLE
-  - other
+- I.{PUB / WEB / ARTICLE / X}
 - I.click
-- Other
-- Tab
-  - open
-  - switch
-  - close
-- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip&m paper
-- session
-  - beginning
-  - end
+- Other.{X}
+- Tab.{tab events}
+- Idle: user stays idle for 1 minute [@taramigkou2018leveraging]
+- session.{session events}
 
-### Strategies from Analysis3
+
+### Strategies from @lam2007session
 
 - As in [@lam2007session] Sec 6:
   - Short Navigation: S(Start) -> X (End), with the S event limits to the first session events and the X event to the last events.
@@ -217,6 +223,23 @@ Behaviours from *Search Patterns* book
   - maximal sequential pattern
   - etc.
 
+### Struggling vs. Exploring
+
+Indicators predictive of struggling [@hassan2014struggling]:
+
+- low amount of similarity between consecutive queries
+- more clicks per query
+- differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
+
+<!-- Hassan et al. (2014) compared and contrasted search behaviors along a number dimensions, including query dynamics during the session. They found that there are some features that may be predictive of struggling, such as a low amount of similarity between consecutive queries, more clicks per query, as well as differences in the nature of the reformulation patterns (i.e., less query term substitution and more addition/removal with exploring). Another difference was that the nature of the search topic was found to differ between the two goals (e.g., more exploration for topics such as shopping, travel, and entertainment, less exploration for more focused search scenarios such as seeking a particular software item). Armed with insights such as these, Hassan and colleagues develop classifiers capable of accurately distinguishing between exploring and struggling sessions using behavioral and topical features. -->
+
+### Navigators vs. Explorers
+
+From IWSS book 
+(later, low priority)
+
+
+<!-- 
 ### Original Idea
 
 for LongSAL, tactics / states:
@@ -237,39 +260,28 @@ for LongSAL, tactics / states:
   - clicks on I pages
 
 or maybe I.type of webpage visited?
-or combine DT with I.PUB / I.X?
+or combine DT with I.PUB / I.X? -->
 
 
 
 ### Transition analysis of Search Tactics / Strategies
 
 Transition analysis can be applied to:
-
 - search tactics
 - tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs for this to work?)
 - combined (opening tab and closing tabs are tactics / events in markov process)
 
 
 Help with analyses:
-
 - Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
 - [@he2016beyond p. 1220 sec 6.1] for calculation formulas for entropy of transitions
 - [@krejtz2014entropy] sec 4 for calculation formulas
 - [@he2016beyond p. 1220 sec 6.2] for hypotheses
 
 
-## correlation analysis
+## Correlation analysis
 
-- correlation between user profiles and search tactics (as in taramigkou paper table 9)
-
-## Level 2+: Search Trails
-
-- low priority
-- chirag sha's student; has intersting metrics like coverage, unique pages visited etc.
-- https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/
-- maybe future work?
-
-
+Correlation between user profiles and search tactics [Table 9 @taramigkou2018leveraging]
 
 
 
