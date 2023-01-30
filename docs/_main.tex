@@ -1309,8 +1309,8 @@ From Hendahewa (\protect\hyperlink{ref-hendahewa2016implicit}{2016}) and related
   \end{itemize}
 \end{itemize}
 
-\hypertarget{search-tactics}{%
-\section{Search Tactics}\label{search-tactics}}
+\hypertarget{search-tactics-and-strategies}{%
+\section{Search Tactics and Strategies}\label{search-tactics-and-strategies}}
 
 From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1:
 
@@ -1348,6 +1348,13 @@ From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1:
   \item
     Session or cross-session search task
   \end{itemize}
+\end{itemize}
+
+\hypertarget{background}{%
+\subsection{Background}\label{background}}
+
+\begin{itemize}
+\tightlist
 \item
   Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing \& Management, vol.~52, issue 6, Nov.~2016, pp.~1200--1226.
 
@@ -1384,27 +1391,233 @@ From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1:
   \end{itemize}
 \end{itemize}
 
+\hypertarget{analysis-1---based-on-dwell-time}{%
+\subsection{Analysis 1 - based on Dwell Time}\label{analysis-1---based-on-dwell-time}}
+
+\begin{itemize}
+\tightlist
+\item
+  Q
+
+  \begin{itemize}
+  \tightlist
+  \item
+    types of reformulations
+  \end{itemize}
+\item
+  L
+
+  \begin{itemize}
+  \tightlist
+  \item
+    short (1 \textless= DT \textless= 5s)
+  \item
+    med (5 \textless{} DT \textless= 30s)
+  \item
+    long (DT \textgreater{} 30s) (from Handehawa's thesis, and related Shah references)
+  \end{itemize}
+\item
+  L.click (only hyperlink clicks)
+\item
+  I
+
+  \begin{itemize}
+  \tightlist
+  \item
+    short
+  \item
+    med
+  \item
+    long
+  \end{itemize}
+\item
+  I.click
+\item
+  Other
+\item
+  Tab
+
+  \begin{itemize}
+  \tightlist
+  \item
+    open
+  \item
+    switch
+  \item
+    close
+  \end{itemize}
+\item
+  staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip\&m paper
+\item
+  session
+
+  \begin{itemize}
+  \tightlist
+  \item
+    beginning
+  \item
+    end
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{analysis-2---using-webpage-l2-categories}{%
+\subsection{Analysis 2 - using webpage L2 categories}\label{analysis-2---using-webpage-l2-categories}}
+
+\begin{itemize}
+\tightlist
+\item
+  Q
+
+  \begin{itemize}
+  \tightlist
+  \item
+    types of reformulations
+  \end{itemize}
+\item
+  L
+
+  \begin{itemize}
+  \tightlist
+  \item
+    PUB
+  \item
+    WEB
+  \item
+    X
+  \end{itemize}
+\item
+  L.click (only hyperlink clicks)
+\item
+  I
+
+  \begin{itemize}
+  \tightlist
+  \item
+    PUB
+  \item
+    WEB
+  \item
+    ARTICLE
+  \item
+    other
+  \end{itemize}
+\item
+  I.click
+\item
+  Other
+\item
+  Tab
+
+  \begin{itemize}
+  \tightlist
+  \item
+    open
+  \item
+    switch
+  \item
+    close
+  \end{itemize}
+\item
+  staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip\&m paper
+\item
+  session
+
+  \begin{itemize}
+  \tightlist
+  \item
+    beginning
+  \item
+    end
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{analysis-3}{%
+\subsection{Analysis 3}\label{analysis-3}}
+
+\begin{itemize}
+\tightlist
+\item
+  As in (\protect\hyperlink{ref-lam2007session}{Lam et al., 2007}) Sec 6:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Short Navigation: S(Start) -\textgreater{} X (End), with the S event limits to the first session events and the X event to the last events.
+  \item
+    Topic Exploration: S -\textgreater{} X -\textgreater{} X -\textgreater{} X -\textgreater{} X -\textgreater{} \ldots{}
+  \item
+    Methodical Results Exploration: S -\textgreater{} X -\textgreater{} S -\textgreater{} X -\textgreater{} S -\textgreater{} \ldots{}
+  \item
+    Query Refinement: S -\textgreater{} S -\textgreater{} S -\textgreater{} S -\textgreater{} \ldots{}
+  \end{itemize}
+\item
+  Using WebNavigation events and tab switches
+\item
+  can do sequential pattern mining as in (\protect\hyperlink{ref-ibanez2022comparison}{Ibáñez \& Simperl, 2022})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    maximal sequential pattern
+  \item
+    etc.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{original-idea}{%
+\subsection{Original Idea}\label{original-idea}}
+
 for LongSAL, tactics / states:
-- Q
-- subdivided by Q reform types?
-- L
-- I\_short (DT \textless= 10s) -- rethink these durs
-- I\_med ( 10 \textless{} DT \textless= 30s)
-- I\_long (\textgreater{} 30s)
-- 30s from Handehawa's thesis, and related Shah references
-- opening a new tab: parallel mission?
-- closing ta tab
-- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip\&m paper
-- beginning and end of sessions?
-- clicks?
-- clicks on L pages
-- clicks on I pages
+
+\begin{itemize}
+\tightlist
+\item
+  Q
+
+  \begin{itemize}
+  \tightlist
+  \item
+    subdivided by Q reform types?
+  \end{itemize}
+\item
+  L
+\item
+  I\_short (DT \textless= 10s) -- rethink these durs
+\item
+  I\_med ( 10 \textless{} DT \textless= 30s)
+\item
+  I\_long (\textgreater{} 30s)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    30s from Handehawa's thesis, and related Shah references
+  \end{itemize}
+\item
+  opening a new tab: parallel mission?
+\item
+  closing ta tab
+\item
+  staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip\&m paper
+\item
+  beginning and end of sessions?
+\item
+  clicks?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    clicks on L pages
+  \item
+    clicks on I pages
+  \end{itemize}
+\end{itemize}
 
 or maybe I.type of webpage visited?
 or combine DT with I.PUB / I.X?
 
-\hypertarget{transition-analysis-of-search-tactics}{%
-\subsection{Transition analysis of Search Tactics}\label{transition-analysis-of-search-tactics}}
+\hypertarget{transition-analysis-of-search-tactics-strategies}{%
+\subsection{Transition analysis of Search Tactics / Strategies}\label{transition-analysis-of-search-tactics-strategies}}
 
 Transition analysis can be applied to:
 
@@ -1567,13 +1780,15 @@ Yung Sheng's Dissertation:
 \hypertarget{number-of-reformulated-query-types}{%
 \subsection{Number of reformulated query types}\label{number-of-reformulated-query-types}}
 
-\hypertarget{l---source-selection}{%
-\section{L - source selection}\label{l---source-selection}}
+\hypertarget{l---source-selection-item-selection}{%
+\section{L - source selection / Item Selection}\label{l---source-selection-item-selection}}
 
 \begin{itemize}
 \tightlist
 \item
   dwell times
+\item
+  ``Item'' selection as in IWSS
 \end{itemize}
 
 \hypertarget{i---interacting-with-sources}{%
@@ -1594,8 +1809,8 @@ Yung Sheng's Dissertation:
 \hypertarget{overall-search-behaviour}{%
 \section{Overall search behaviour}\label{overall-search-behaviour}}
 
-\hypertarget{search-tactics-1}{%
-\subsection{search tactics}\label{search-tactics-1}}
+\hypertarget{search-tactics}{%
+\subsection{search tactics}\label{search-tactics}}
 
 \hypertarget{sheg-tasks---information-evaluation-capabilities}{%
 \section{SHEG tasks - information evaluation capabilities}\label{sheg-tasks---information-evaluation-capabilities}}
@@ -2762,6 +2977,9 @@ He, J., Qvarfordt, P., Halvey, M., \& Golovchinsky, G. (2016). Beyond actions: E
 \leavevmode\vadjust pre{\hypertarget{ref-hendahewa2016implicit}{}}%
 Hendahewa, C. H. (2016). \emph{Implicit search feature based approach to assist users in exploratory search tasks} {[}PhD thesis{]}. Rutgers, The State University of New Jersey.
 
+\leavevmode\vadjust pre{\hypertarget{ref-ibanez2022comparison}{}}%
+Ibáñez, L.-D., \& Simperl, E. (2022). A comparison of dataset search behaviour of internal versus search engine referred sessions. \emph{Acm Sigir Conference on Human Information Interaction and Retrieval}, 158--168.
+
 \leavevmode\vadjust pre{\hypertarget{ref-kahne2012digital}{}}%
 Kahne, J., Lee, N.-J., \& Feezell, J. T. (2012). Digital media literacy education and online civic and political participation. \emph{International Journal of Communication}, \emph{6}, 24.
 
@@ -2791,6 +3009,9 @@ Krejtz, K., Szmidt, T., Duchowski, A. T., \& Krejtz, I. (2014). Entropy-based st
 
 \leavevmode\vadjust pre{\hypertarget{ref-kuhlthau2004seeking}{}}%
 Kuhlthau, C. C. (2004). \emph{Seeking meaning: A process approach to library and information services} (Vol. 2). Libraries Unlimited Westport, CT.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lam2007session}{}}%
+Lam, H., Russell, D., Tang, D., \& Munzner, T. (2007). Session viewer: Visual exploratory analysis of web session logs. \emph{2007 IEEE Symposium on Visual Analytics Science and Technology}, 147--154.
 
 \leavevmode\vadjust pre{\hypertarget{ref-lei2015effect}{}}%
 Lei, P.-L., Sun, C.-T., Lin, S. S., \& Huang, T.-K. (2015). Effect of metacognitive strategies and verbal-imagery cognitive style on biology-based video search and learning performance. \emph{Computers \& Education}, \emph{87}, 326--339.

@@ -2,3 +2,4 @@
 {"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QPlease state your major(s)\\E$"}
 {"rule":"USE_TO_VERB","sentence":"^\\QWhich device(s) and browser(s) do you normally use to surf the internet?\\E$"}
 {"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QSearch engines don't help us sensemake -- we have to use our minds to integrate what we've found into our knowledge.\"\\E$"}
+{"rule":"PRP_VB","sentence":"^\\QQ\ntypes of reformulations\nL\nPUB\nWEB\nX\nL.click (only hyperlink clicks)\nI\nPUB\nWEB\nARTICLE\nother\nI.click\nOther\nTab\nopen\nswitch\nclose\nstaying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip&m paper\nsession\nbeginning\nend\\E$"}

@@ -40,9 +40,10 @@ Yung Sheng's Dissertation:
 ### Number of reformulated query types
 
 
-## L - source selection
+## L - source selection / Item Selection
 
 - dwell times
+- "Item" selection as in IWSS
 
 ## I - interacting with sources
 

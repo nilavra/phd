@@ -79,7 +79,7 @@ From @hendahewa2016implicit and related papers
 
 
 
-## Search Tactics
+## Search Tactics and Strategies
 
 From @white2016interactions, Table 2.1:
 
@@ -95,13 +95,13 @@ From @white2016interactions, Table 2.1:
 
 
 
+### Background
 - Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing & Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226. 
   - http://dx.doi.org/10.1016/j.ipm.2016.05.007
   - https://www.pernillaq.com/exploratory-search
   - [checkout the forward citations of this paper on automated log analyses](https://scholar.google.com/scholar?cites=16001618163231710088&as_sdt=5,44&sciodt=0,44&hl=en)
   - like process mining!
   - "*Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended*"
-
 
 
 
@@ -113,7 +113,74 @@ From @white2016interactions, Table 2.1:
   - pogo sticking
   - thrashing
 
+### Analysis 1 - based on Dwell Time
+
+- Q
+  - types of reformulations
+- L
+  - short (1 <= DT <= 5s)
+  - med (5 < DT <= 30s)
+  - long (DT > 30s) (from Handehawa's thesis, and related Shah references)
+- L.click (only hyperlink clicks)
+- I
+  - short
+  - med
+  - long
+- I.click
+- Other
+- Tab
+  - open
+  - switch
+  - close
+- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip&m paper
+- session
+  - beginning
+  - end
+
+
+
+
+### Analysis 2 - using webpage L2 categories
+
+- Q
+  - types of reformulations
+- L
+  - PUB
+  - WEB
+  - X
+- L.click (only hyperlink clicks)
+- I
+  - PUB
+  - WEB
+  - ARTICLE
+  - other
+- I.click
+- Other
+- Tab
+  - open
+  - switch
+  - close
+- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip&m paper
+- session
+  - beginning
+  - end
+
+### Analysis 3
+
+- As in [@lam2007session] Sec 6:
+  - Short Navigation: S(Start) -> X (End), with the S event limits to the first session events and the X event to the last events.
+  - Topic Exploration: S -> X -> X -> X -> X -> ...
+  - Methodical Results Exploration: S -> X -> S -> X -> S -> ...
+  - Query Refinement: S -> S -> S -> S -> ...
+- Using WebNavigation events and tab switches
+- can do sequential pattern mining as in [@ibanez2022comparison]
+  - maximal sequential pattern
+  - etc.
+
+### Original Idea
+
 for LongSAL, tactics / states:
+
 - Q
   - subdivided by Q reform types?
 - L
@@ -134,7 +201,7 @@ or combine DT with I.PUB / I.X?
 
 
 
-### Transition analysis of Search Tactics
+### Transition analysis of Search Tactics / Strategies
 
 Transition analysis can be applied to:
 

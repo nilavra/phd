@@ -202,9 +202,9 @@ Analysis steps:
 </li>
 </ul>
 </div>
-<div id="search-tactics" class="section level2" number="6.6">
+<div id="search-tactics-and-strategies" class="section level2" number="6.6">
 <h2>
-<span class="header-section-number">6.6</span> Search Tactics<a class="anchor" aria-label="anchor" href="#search-tactics"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.6</span> Search Tactics and Strategies<a class="anchor" aria-label="anchor" href="#search-tactics-and-strategies"><i class="fas fa-link"></i></a>
 </h2>
 <p>From <span class="citation">White (<a href="#ref-white2016interactions">2016a</a>)</span>, Table 2.1:</p>
 <ul>
@@ -228,6 +228,12 @@ Analysis steps:
 <li>Session or cross-session search task</li>
 </ul>
 </li>
+</ul>
+<div id="background" class="section level3" number="6.6.1">
+<h3>
+<span class="header-section-number">6.6.1</span> Background<a class="anchor" aria-label="anchor" href="#background"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
 <li>Pernilla Q et al’s paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing &amp; Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226.
 <ul>
 <li><a href="http://dx.doi.org/10.1016/j.ipm.2016.05.007" class="uri">http://dx.doi.org/10.1016/j.ipm.2016.05.007</a></li>
@@ -248,26 +254,152 @@ Analysis steps:
 </ul>
 </li>
 </ul>
-<p>for LongSAL, tactics / states:
-- Q
-- subdivided by Q reform types?
-- L
-- I_short (DT &lt;= 10s) – rethink these durs
-- I_med ( 10 &lt; DT &lt;= 30s)
-- I_long (&gt; 30s)
-- 30s from Handehawa’s thesis, and related Shah references
-- opening a new tab: parallel mission?
-- closing ta tab
-- staying Idle (?) – user stays idle for 1 minute – as in taramigkou 2018 ip&amp;m paper
-- beginning and end of sessions?
-- clicks?
-- clicks on L pages
-- clicks on I pages</p>
+</div>
+<div id="analysis-1---based-on-dwell-time" class="section level3" number="6.6.2">
+<h3>
+<span class="header-section-number">6.6.2</span> Analysis 1 - based on Dwell Time<a class="anchor" aria-label="anchor" href="#analysis-1---based-on-dwell-time"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Q
+<ul>
+<li>types of reformulations</li>
+</ul>
+</li>
+<li>L
+<ul>
+<li>short (1 &lt;= DT &lt;= 5s)</li>
+<li>med (5 &lt; DT &lt;= 30s)</li>
+<li>long (DT &gt; 30s) (from Handehawa’s thesis, and related Shah references)</li>
+</ul>
+</li>
+<li>L.click (only hyperlink clicks)</li>
+<li>I
+<ul>
+<li>short</li>
+<li>med</li>
+<li>long</li>
+</ul>
+</li>
+<li>I.click</li>
+<li>Other</li>
+<li>Tab
+<ul>
+<li>open</li>
+<li>switch</li>
+<li>close</li>
+</ul>
+</li>
+<li>staying Idle (?) – user stays idle for 1 minute – as in taramigkou 2018 ip&amp;m paper</li>
+<li>session
+<ul>
+<li>beginning</li>
+<li>end</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="analysis-2---using-webpage-l2-categories" class="section level3" number="6.6.3">
+<h3>
+<span class="header-section-number">6.6.3</span> Analysis 2 - using webpage L2 categories<a class="anchor" aria-label="anchor" href="#analysis-2---using-webpage-l2-categories"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Q
+<ul>
+<li>types of reformulations</li>
+</ul>
+</li>
+<li>L
+<ul>
+<li>PUB</li>
+<li>WEB</li>
+<li>X</li>
+</ul>
+</li>
+<li>L.click (only hyperlink clicks)</li>
+<li>I
+<ul>
+<li>PUB</li>
+<li>WEB</li>
+<li>ARTICLE</li>
+<li>other</li>
+</ul>
+</li>
+<li>I.click</li>
+<li>Other</li>
+<li>Tab
+<ul>
+<li>open</li>
+<li>switch</li>
+<li>close</li>
+</ul>
+</li>
+<li>staying Idle (?) – user stays idle for 1 minute – as in taramigkou 2018 ip&amp;m paper</li>
+<li>session
+<ul>
+<li>beginning</li>
+<li>end</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="analysis-3" class="section level3" number="6.6.4">
+<h3>
+<span class="header-section-number">6.6.4</span> Analysis 3<a class="anchor" aria-label="anchor" href="#analysis-3"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>As in <span class="citation">(<a href="#ref-lam2007session">Lam et al., 2007</a>)</span> Sec 6:
+<ul>
+<li>Short Navigation: S(Start) -&gt; X (End), with the S event limits to the first session events and the X event to the last events.</li>
+<li>Topic Exploration: S -&gt; X -&gt; X -&gt; X -&gt; X -&gt; …</li>
+<li>Methodical Results Exploration: S -&gt; X -&gt; S -&gt; X -&gt; S -&gt; …</li>
+<li>Query Refinement: S -&gt; S -&gt; S -&gt; S -&gt; …</li>
+</ul>
+</li>
+<li>Using WebNavigation events and tab switches</li>
+<li>can do sequential pattern mining as in <span class="citation">(<a href="#ref-ibanez2022comparison">Ibáñez &amp; Simperl, 2022</a>)</span>
+<ul>
+<li>maximal sequential pattern</li>
+<li>etc.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="original-idea" class="section level3" number="6.6.5">
+<h3>
+<span class="header-section-number">6.6.5</span> Original Idea<a class="anchor" aria-label="anchor" href="#original-idea"><i class="fas fa-link"></i></a>
+</h3>
+<p>for LongSAL, tactics / states:</p>
+<ul>
+<li>Q
+<ul>
+<li>subdivided by Q reform types?</li>
+</ul>
+</li>
+<li>L</li>
+<li>I_short (DT &lt;= 10s) – rethink these durs</li>
+<li>I_med ( 10 &lt; DT &lt;= 30s)</li>
+<li>I_long (&gt; 30s)
+<ul>
+<li>30s from Handehawa’s thesis, and related Shah references</li>
+</ul>
+</li>
+<li>opening a new tab: parallel mission?</li>
+<li>closing ta tab</li>
+<li>staying Idle (?) – user stays idle for 1 minute – as in taramigkou 2018 ip&amp;m paper</li>
+<li>beginning and end of sessions?</li>
+<li>clicks?
+<ul>
+<li>clicks on L pages</li>
+<li>clicks on I pages</li>
+</ul>
+</li>
+</ul>
 <p>or maybe I.type of webpage visited?
 or combine DT with I.PUB / I.X?</p>
-<div id="transition-analysis-of-search-tactics" class="section level3" number="6.6.1">
+</div>
+<div id="transition-analysis-of-search-tactics-strategies" class="section level3" number="6.6.6">
 <h3>
-<span class="header-section-number">6.6.1</span> Transition analysis of Search Tactics<a class="anchor" aria-label="anchor" href="#transition-analysis-of-search-tactics"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.6.6</span> Transition analysis of Search Tactics / Strategies<a class="anchor" aria-label="anchor" href="#transition-analysis-of-search-tactics-strategies"><i class="fas fa-link"></i></a>
 </h3>
 <p>Transition analysis can be applied to:</p>
 <ul>
@@ -345,8 +477,14 @@ He, J., Qvarfordt, P., Halvey, M., &amp; Golovchinsky, G. (2016). Beyond actions
 <div id="ref-hendahewa2016implicit" class="csl-entry">
 Hendahewa, C. H. (2016). <em>Implicit search feature based approach to assist users in exploratory search tasks</em> [PhD thesis]. Rutgers, The State University of New Jersey.
 </div>
+<div id="ref-ibanez2022comparison" class="csl-entry">
+Ibáñez, L.-D., &amp; Simperl, E. (2022). A comparison of dataset search behaviour of internal versus search engine referred sessions. <em>Acm Sigir Conference on Human Information Interaction and Retrieval</em>, 158–168.
+</div>
 <div id="ref-krejtz2014entropy" class="csl-entry">
 Krejtz, K., Szmidt, T., Duchowski, A. T., &amp; Krejtz, I. (2014). Entropy-based statistical analysis of eye movement transitions. <em>Proceedings of the Symposium on Eye Tracking Research and Applications</em>, 159–166.
+</div>
+<div id="ref-lam2007session" class="csl-entry">
+Lam, H., Russell, D., Tang, D., &amp; Munzner, T. (2007). Session viewer: Visual exploratory analysis of web session logs. <em>2007 IEEE Symposium on Visual Analytics Science and Technology</em>, 147–154.
 </div>
 <div id="ref-white2016interactions" class="csl-entry">
 White, R. (2016a). <em>Interactions with search systems</em>. Cambridge University Press.
@@ -365,7 +503,14 @@ White, R. (2016a). <em>Interactions with search systems</em>. Cambridge Universi
 <li><a class="nav-link" href="#url-categorization"><span class="header-section-number">6.4</span> URL Categorization</a></li>
 <li><a class="nav-link" href="#implicit-features-for-exploratory-search-process"><span class="header-section-number">6.5</span> Implicit Features for Exploratory Search Process</a></li>
 <li>
-<a class="nav-link" href="#search-tactics"><span class="header-section-number">6.6</span> Search Tactics</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#transition-analysis-of-search-tactics"><span class="header-section-number">6.6.1</span> Transition analysis of Search Tactics</a></li></ul>
+<a class="nav-link" href="#search-tactics-and-strategies"><span class="header-section-number">6.6</span> Search Tactics and Strategies</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#background"><span class="header-section-number">6.6.1</span> Background</a></li>
+<li><a class="nav-link" href="#analysis-1---based-on-dwell-time"><span class="header-section-number">6.6.2</span> Analysis 1 - based on Dwell Time</a></li>
+<li><a class="nav-link" href="#analysis-2---using-webpage-l2-categories"><span class="header-section-number">6.6.3</span> Analysis 2 - using webpage L2 categories</a></li>
+<li><a class="nav-link" href="#analysis-3"><span class="header-section-number">6.6.4</span> Analysis 3</a></li>
+<li><a class="nav-link" href="#original-idea"><span class="header-section-number">6.6.5</span> Original Idea</a></li>
+<li><a class="nav-link" href="#transition-analysis-of-search-tactics-strategies"><span class="header-section-number">6.6.6</span> Transition analysis of Search Tactics / Strategies</a></li>
+</ul>
 </li>
 <li><a class="nav-link" href="#correlation-analysis"><span class="header-section-number">6.7</span> correlation analysis</a></li>
 <li><a class="nav-link" href="#search-trails-analysis"><span class="header-section-number">6.8</span> search trails analysis</a></li>
@@ -387,7 +532,7 @@ White, R. (2016a). <em>Interactions with search systems</em>. Cambridge Universi
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]</strong>" was written by Nilavra Bhattacharya. It was last built on 2023-01-29.</p>
+    <p>"<strong>LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]</strong>" was written by Nilavra Bhattacharya. It was last built on 2023-01-30.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
