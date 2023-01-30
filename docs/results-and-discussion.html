@@ -102,7 +102,7 @@ What are the measures of learning?</p>
 <li>Also see Yung Sheng’s Dissertation</li>
 <li>think hard about which data component has not been touched / analysed</li>
 </ul>
-<p>Hypotheses from <span class="citation">He et al. (<a href="#ref-he2016beyond" role="doc-biblioref">2016</a>)</span>:</p>
+<p>Hypotheses from <span class="citation">He et al. (<a href="#ref-he2016beyond">2016</a>)</span>:</p>
 <p>The second set (H2) compares two different user groups, experts and novices, using one of the search systems in two different conditions. The H2 hypotheses illustrate how a focus on search tactics provides a different lens to view search logs.</p>
 <ul>
 <li>H2.1: Search experts are likely to be more predictable in their choice of search tactics compared to novices</li>
@@ -114,9 +114,9 @@ What are the measures of learning?</p>
 <h2>
 <span class="header-section-number">7.1</span> Descriptive statistics<a class="anchor" aria-label="anchor" href="#descriptive-statistics"><i class="fas fa-link"></i></a>
 </h2>
-<div id="profile-transition-analyses" class="section level3" number="7.1.1">
+<div id="profile-transitions" class="section level3" number="7.1.1">
 <h3>
-<span class="header-section-number">7.1.1</span> profile transition analyses<a class="anchor" aria-label="anchor" href="#profile-transition-analyses"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.1.1</span> profile transitions<a class="anchor" aria-label="anchor" href="#profile-transitions"><i class="fas fa-link"></i></a>
 </h3>
 <ul>
 <li>how the following changed over time
@@ -170,7 +170,7 @@ What are the measures of learning?</p>
 <blockquote>
 <p><em>If the dwell time is long, i.e. ≥ 5 seconds, it is more likely that a user is reading the search results summary (ER) rather than only skimming it (EI). The 5 second threshold was determined based on reading research using eye tracking (Rayner, 1998) and the size of the summaries in Querium. A time span of less than 5 seconds is a too short period for being able to read a summary and extract information.</em></p>
 <div style="text-align:right">
-— <span class="citation">He et al. (<a href="#ref-he2016beyond" role="doc-biblioref">2016</a>)</span>
+— <span class="citation">He et al. (<a href="#ref-he2016beyond">2016</a>)</span>
 </div>
 </blockquote>
 </div>
@@ -178,76 +178,10 @@ What are the measures of learning?</p>
 <h2>
 <span class="header-section-number">7.5</span> Overall search behaviour<a class="anchor" aria-label="anchor" href="#overall-search-behaviour"><i class="fas fa-link"></i></a>
 </h2>
-<div id="search-tactics" class="section level3" number="7.5.1">
+<div id="search-tactics-1" class="section level3" number="7.5.1">
 <h3>
-<span class="header-section-number">7.5.1</span> search tactics<a class="anchor" aria-label="anchor" href="#search-tactics"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.5.1</span> search tactics<a class="anchor" aria-label="anchor" href="#search-tactics-1"><i class="fas fa-link"></i></a>
 </h3>
-<ul>
-<li>Pernilla Q et al’s paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing &amp; Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226.
-<ul>
-<li><a href="http://dx.doi.org/10.1016/j.ipm.2016.05.007" class="uri">http://dx.doi.org/10.1016/j.ipm.2016.05.007</a></li>
-<li><a href="https://www.pernillaq.com/exploratory-search" class="uri">https://www.pernillaq.com/exploratory-search</a></li>
-<li><a href="https://scholar.google.com/scholar?cites=16001618163231710088&amp;as_sdt=5,44&amp;sciodt=0,44&amp;hl=en">checkout the forward citations of this paper on automated log analyses</a></li>
-<li>like process mining!</li>
-<li>“<em>Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended</em>”</li>
-</ul>
-</li>
-<li>other behaviours from <em>Search Patterns</em> book
-<ul>
-<li>quit</li>
-<li>narrow</li>
-<li>expand</li>
-<li>pearl growing / citation mining / snowballing</li>
-<li>pogo sticking</li>
-<li>thrashing</li>
-</ul>
-</li>
-</ul>
-<p>for LongSAL, tactics / states:
-- Q
-- subdivided by Q reform types?
-- L
-- I_short (DT &lt;= 10s) – rethink these durs
-- I_med ( 10 &lt; DT &lt;= 30s)
-- I_long (&gt; 30s)
-- opening a new tab: parallel mission?
-- closing ta tab
-- staying Idle (?) – user stays idle for 1 minute – as in taramigkou 2018 ip&amp;m paper
-- beginning and end of sessions?
-- clicks?
-- clicks on L pages
-- clicks on I pages</p>
-<p>or maybe I.type of webpage visited?
-or combine DT with I.PUB / I.X?</p>
-</div>
-<div id="transition-analysis" class="section level3" number="7.5.2">
-<h3>
-<span class="header-section-number">7.5.2</span> Transition analysis<a class="anchor" aria-label="anchor" href="#transition-analysis"><i class="fas fa-link"></i></a>
-</h3>
-<p>Transition analysis can be applied to:</p>
-<ul>
-<li>tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs?)</li>
-<li>search tactics</li>
-<li>combined (opening tab and closing tabs are tactics / events in markov process)</li>
-</ul>
-<p>Help with analyses:</p>
-<ul>
-<li>Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.</li>
-<li>
-<span class="citation">(<a href="#ref-he2016beyond" role="doc-biblioref">He et al., 2016, p. 1220</a> sec 6.1)</span> for calculation formulas for entropy of transitions</li>
-<li>
-<span class="citation">(<a href="#ref-krejtz2014entropy" role="doc-biblioref">Krejtz et al., 2014</a>)</span> sec 4 for calculation formulas</li>
-<li>
-<span class="citation">(<a href="#ref-he2016beyond" role="doc-biblioref">He et al., 2016, p. 1220</a> sec 6.2)</span> for hypotheses</li>
-</ul>
-</div>
-<div id="correlation-analysis" class="section level3" number="7.5.3">
-<h3>
-<span class="header-section-number">7.5.3</span> correlation analysis<a class="anchor" aria-label="anchor" href="#correlation-analysis"><i class="fas fa-link"></i></a>
-</h3>
-<ul>
-<li>correlation between user profiles and search tactics (as in taramigkou paper table 9)</li>
-</ul>
 </div>
 </div>
 <div id="sheg-tasks---information-evaluation-capabilities" class="section level2" number="7.6">
@@ -260,20 +194,9 @@ or combine DT with I.PUB / I.X?</p>
 <a href="https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/" class="uri">https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/</a></p>
 </blockquote>
 </div>
-<div id="search-trails-analysis" class="section level2" number="7.7">
+<div id="qualitative-free-text-results" class="section level2" number="7.7">
 <h2>
-<span class="header-section-number">7.7</span> search trails analysis<a class="anchor" aria-label="anchor" href="#search-trails-analysis"><i class="fas fa-link"></i></a>
-</h2>
-<ul>
-<li>low priority</li>
-<li>chirag sha’s student; has intersting metrics like coverage, unique pages visited etc.</li>
-<li><a href="https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/" class="uri">https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/</a></li>
-<li>maybe future work?</li>
-</ul>
-</div>
-<div id="qualitative-free-text-results" class="section level2" number="7.8">
-<h2>
-<span class="header-section-number">7.8</span> Qualitative / Free Text Results<a class="anchor" aria-label="anchor" href="#qualitative-free-text-results"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.7</span> Qualitative / Free Text Results<a class="anchor" aria-label="anchor" href="#qualitative-free-text-results"><i class="fas fa-link"></i></a>
 </h2>
 <p>Note-taking strategies</p>
 <ul>
@@ -283,28 +206,28 @@ or combine DT with I.PUB / I.X?</p>
 </ul>
 <p>Other surveys</p>
 </div>
-<div id="discussion---research-questions" class="section level2" number="7.9">
+<div id="discussion---research-questions" class="section level2" number="7.8">
 <h2>
-<span class="header-section-number">7.9</span> Discussion - Research Questions<a class="anchor" aria-label="anchor" href="#discussion---research-questions"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.8</span> Discussion - Research Questions<a class="anchor" aria-label="anchor" href="#discussion---research-questions"><i class="fas fa-link"></i></a>
 </h2>
-<div id="rq1---search-behaviours" class="section level3" number="7.9.1">
+<div id="rq1---search-behaviours" class="section level3" number="7.8.1">
 <h3>
-<span class="header-section-number">7.9.1</span> RQ1: - search behaviours?<a class="anchor" aria-label="anchor" href="#rq1---search-behaviours"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.8.1</span> RQ1: - search behaviours?<a class="anchor" aria-label="anchor" href="#rq1---search-behaviours"><i class="fas fa-link"></i></a>
 </h3>
 </div>
-<div id="rq2-mention-here" class="section level3" number="7.9.2">
+<div id="rq2-mention-here" class="section level3" number="7.8.2">
 <h3>
-<span class="header-section-number">7.9.2</span> RQ2: mention here<a class="anchor" aria-label="anchor" href="#rq2-mention-here"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.8.2</span> RQ2: mention here<a class="anchor" aria-label="anchor" href="#rq2-mention-here"><i class="fas fa-link"></i></a>
 </h3>
 </div>
-<div id="rq3-mention-here" class="section level3" number="7.9.3">
+<div id="rq3-mention-here" class="section level3" number="7.8.3">
 <h3>
-<span class="header-section-number">7.9.3</span> RQ3: mention here<a class="anchor" aria-label="anchor" href="#rq3-mention-here"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.8.3</span> RQ3: mention here<a class="anchor" aria-label="anchor" href="#rq3-mention-here"><i class="fas fa-link"></i></a>
 </h3>
 </div>
-<div id="rq4-mention-here" class="section level3" number="7.9.4">
+<div id="rq4-mention-here" class="section level3" number="7.8.4">
 <h3>
-<span class="header-section-number">7.9.4</span> RQ4: mention here<a class="anchor" aria-label="anchor" href="#rq4-mention-here"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.8.4</span> RQ4: mention here<a class="anchor" aria-label="anchor" href="#rq4-mention-here"><i class="fas fa-link"></i></a>
 </h3>
 
 </div>
@@ -315,9 +238,6 @@ or combine DT with I.PUB / I.X?</p>
 <div id="ref-he2016beyond" class="csl-entry">
 He, J., Qvarfordt, P., Halvey, M., &amp; Golovchinsky, G. (2016). Beyond actions: Exploring the discovery of tactics from user logs. <em>Information Processing &amp; Management</em>, <em>52</em>(6), 1200–1226.
 </div>
-<div id="ref-krejtz2014entropy" class="csl-entry">
-Krejtz, K., Szmidt, T., Duchowski, A. T., &amp; Krejtz, I. (2014). Entropy-based statistical analysis of eye movement transitions. <em>Proceedings of the Symposium on Eye Tracking Research and Applications</em>, 159–166.
-</div>
 </div>
   <div class="chapter-nav">
 <div class="prev"><a href="data-analysis.html"><span class="header-section-number">6</span> Data Analysis</a></div>
@@ -327,7 +247,7 @@ Krejtz, K., Szmidt, T., Duchowski, A. T., &amp; Krejtz, I. (2014). Entropy-based
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#results-and-discussion"><span class="header-section-number">7</span> Results and Discussion</a></li>
 <li>
-<a class="nav-link" href="#descriptive-statistics"><span class="header-section-number">7.1</span> Descriptive statistics</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#profile-transition-analyses"><span class="header-section-number">7.1.1</span> profile transition analyses</a></li></ul>
+<a class="nav-link" href="#descriptive-statistics"><span class="header-section-number">7.1</span> Descriptive statistics</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#profile-transitions"><span class="header-section-number">7.1.1</span> profile transitions</a></li></ul>
 </li>
 <li>
 <a class="nav-link" href="#q---query-reformulation"><span class="header-section-number">7.2</span> Q - query reformulation</a><ul class="nav navbar-nav">
@@ -339,21 +259,16 @@ Krejtz, K., Szmidt, T., Duchowski, A. T., &amp; Krejtz, I. (2014). Entropy-based
 <li><a class="nav-link" href="#l---source-selection"><span class="header-section-number">7.3</span> L - source selection</a></li>
 <li><a class="nav-link" href="#i---interacting-with-sources"><span class="header-section-number">7.4</span> I - interacting with sources</a></li>
 <li>
-<a class="nav-link" href="#overall-search-behaviour"><span class="header-section-number">7.5</span> Overall search behaviour</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#search-tactics"><span class="header-section-number">7.5.1</span> search tactics</a></li>
-<li><a class="nav-link" href="#transition-analysis"><span class="header-section-number">7.5.2</span> Transition analysis</a></li>
-<li><a class="nav-link" href="#correlation-analysis"><span class="header-section-number">7.5.3</span> correlation analysis</a></li>
-</ul>
+<a class="nav-link" href="#overall-search-behaviour"><span class="header-section-number">7.5</span> Overall search behaviour</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#search-tactics-1"><span class="header-section-number">7.5.1</span> search tactics</a></li></ul>
 </li>
 <li><a class="nav-link" href="#sheg-tasks---information-evaluation-capabilities"><span class="header-section-number">7.6</span> SHEG tasks - information evaluation capabilities</a></li>
-<li><a class="nav-link" href="#search-trails-analysis"><span class="header-section-number">7.7</span> search trails analysis</a></li>
-<li><a class="nav-link" href="#qualitative-free-text-results"><span class="header-section-number">7.8</span> Qualitative / Free Text Results</a></li>
+<li><a class="nav-link" href="#qualitative-free-text-results"><span class="header-section-number">7.7</span> Qualitative / Free Text Results</a></li>
 <li>
-<a class="nav-link" href="#discussion---research-questions"><span class="header-section-number">7.9</span> Discussion - Research Questions</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#rq1---search-behaviours"><span class="header-section-number">7.9.1</span> RQ1: - search behaviours?</a></li>
-<li><a class="nav-link" href="#rq2-mention-here"><span class="header-section-number">7.9.2</span> RQ2: mention here</a></li>
-<li><a class="nav-link" href="#rq3-mention-here"><span class="header-section-number">7.9.3</span> RQ3: mention here</a></li>
-<li><a class="nav-link" href="#rq4-mention-here"><span class="header-section-number">7.9.4</span> RQ4: mention here</a></li>
+<a class="nav-link" href="#discussion---research-questions"><span class="header-section-number">7.8</span> Discussion - Research Questions</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#rq1---search-behaviours"><span class="header-section-number">7.8.1</span> RQ1: - search behaviours?</a></li>
+<li><a class="nav-link" href="#rq2-mention-here"><span class="header-section-number">7.8.2</span> RQ2: mention here</a></li>
+<li><a class="nav-link" href="#rq3-mention-here"><span class="header-section-number">7.8.3</span> RQ3: mention here</a></li>
+<li><a class="nav-link" href="#rq4-mention-here"><span class="header-section-number">7.8.4</span> RQ4: mention here</a></li>
 </ul>
 </li>
 </ul>

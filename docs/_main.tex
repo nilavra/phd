@@ -531,7 +531,7 @@ Overall, these works generally advocate that future research in this domain shou
 
 Parallelly, the Educational Science and the Learning Science research communities have also been organizing workshops and formulating research
 agendas to conceptualize forms of `new learning' (\protect\hyperlink{ref-cope2013new}{Cope \& Kalantzis, 2013}; \protect\hyperlink{ref-kalantzis2012newa}{Kalantzis \& Cope, 2012}; \protect\hyperlink{ref-newlondon1996pedagogy}{New London Group, 1996}) that are afforded by innovations in digital technologies and e-learning ecologies (\protect\hyperlink{ref-cope2017elearningc}{Cope \& Kalantzis, 2017}).
-Higher education researchers have been increasingly studying how students' information search and information use behaviour affect and support their learning (\protect\hyperlink{ref-weber2019informationseeking}{Weber et al., 2019}, \protect\hyperlink{ref-weber2018can}{2018}; \protect\hyperlink{ref-zlatkin2021students}{Zlatkin-Troitschanskaia et al., 2021}).
+Higher education researchers have been increasingly studying how students' information search and information use behaviour affect and support their learning (\protect\hyperlink{ref-weber2018can}{Weber et al., 2018}, \protect\hyperlink{ref-weber2019informationseeking}{2019}; \protect\hyperlink{ref-zlatkin2021students}{Zlatkin-Troitschanskaia et al., 2021}).
 Efforts are underway to conceptualize a theoretical framework around new forms of e-Learning that is aided and afforded by digital technologies (\protect\hyperlink{ref-amina2017active}{Amina, 2017}; \protect\hyperlink{ref-cope2017elearningc}{Cope \& Kalantzis, 2017}).
 In the community's own words: ``learning today is more about navigation, discernment, induction, and synthesis'' of the wide body of information present ubiquitously at every student's fingertips (\protect\hyperlink{ref-amina2017active}{Amina, 2017}).
 Therefore, ``knowing the source, finding the source, and using the information aptly is important to learn and know now more than ever before'' (\protect\hyperlink{ref-cope2013new}{Cope \& Kalantzis, 2013}).
@@ -994,7 +994,7 @@ provides learners with misconstrued information and ideas
 The Stanford History Education Group (SHEG) conceptualised the \textbf{Civic
 Online Reasoning} (COR) curriculum \footnote{\url{https://cor.stanford.edu}} to enable students to
 effectively search for and evaluate online information
-(\protect\hyperlink{ref-breakstone2021students}{Breakstone et al., 2021}; \protect\hyperlink{ref-breakstone2018we}{Breakstone et al., 2018}; \protect\hyperlink{ref-mcgrew2020learning}{McGrew, 2020}). The
+(\protect\hyperlink{ref-breakstone2018we}{Breakstone et al., 2018}; \protect\hyperlink{ref-breakstone2021students}{Breakstone et al., 2021}; \protect\hyperlink{ref-mcgrew2020learning}{McGrew, 2020}). The
 curriculum centres on asking three questions of any digital content:
 \emph{(i)} who is behind a piece of information? \emph{(ii)} what is the evidence
 for a claim? \emph{(iii)} what do other sources say? The curriculum has
@@ -1186,45 +1186,8 @@ P022Pisa said
 
 see crescenzi thesis
 
-\hypertarget{url-categorization}{%
-\section{URL Categorization}\label{url-categorization}}
-
-\begin{itemize}
-\tightlist
-\item
-  peer-reviewed publications are \texttt{PUB}s
-\item
-  others are \texttt{ARTICLE}S (e.g.~Wikipedia)
-\item
-  if no other info, then \texttt{WEB}
-\item
-  fuzzy between \texttt{WEB} and \texttt{ARTICLE} (when classified manually)
-\item
-  \texttt{ARTICLE} IF THERE IS A CLEAR AUTHOR
-
-  \begin{itemize}
-  \tightlist
-  \item
-    EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE
-  \item
-    ENCYCLOPEDIAS
-  \end{itemize}
-\item
-  JOURNAL HOMEPAGES ARE \texttt{WEB}
-\item
-  LIST OF CHAPTERS IN A BOOK ARE \texttt{L.PUB}.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    E.G. IN DETAIL VIEW OF
-  \end{itemize}
-\item
-  BOOK CHAPTER IS \texttt{PUB}
-\end{itemize}
-
-\hypertarget{latent-profile-analysis}{%
-\section{Latent Profile Analysis}\label{latent-profile-analysis}}
+\hypertarget{latent-profiles}{%
+\section{Latent Profiles}\label{latent-profiles}}
 
 \begin{itemize}
 \tightlist
@@ -1268,8 +1231,230 @@ Memory span values normalized by 10, because ``The maximum memory span measurabl
 
 use 2 groups! 2 groups is always better. easier to explain; easier to write.
 
-\hypertarget{search-tactic-analysis}{%
-\section{Search Tactic Analysis}\label{search-tactic-analysis}}
+\hypertarget{url-categorization}{%
+\section{URL Categorization}\label{url-categorization}}
+
+\begin{itemize}
+\tightlist
+\item
+  peer-reviewed publications are \texttt{PUB}s
+\item
+  others are \texttt{ARTICLE}S (e.g.~Wikipedia)
+\item
+  if no other info, then \texttt{WEB}
+\item
+  fuzzy between \texttt{WEB} and \texttt{ARTICLE} (when classified manually)
+\item
+  \texttt{ARTICLE} IF THERE IS A CLEAR AUTHOR
+
+  \begin{itemize}
+  \tightlist
+  \item
+    EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE
+  \item
+    ENCYCLOPEDIAS
+  \end{itemize}
+\item
+  JOURNAL HOMEPAGES ARE \texttt{WEB}
+\item
+  LIST OF CHAPTERS IN A BOOK ARE \texttt{L.PUB}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    E.G. IN DETAIL VIEW OF
+  \end{itemize}
+\item
+  BOOK CHAPTER IS \texttt{PUB}
+\end{itemize}
+
+\hypertarget{implicit-features-for-exploratory-search-process}{%
+\section{Implicit Features for Exploratory Search Process}\label{implicit-features-for-exploratory-search-process}}
+
+From Hendahewa (\protect\hyperlink{ref-hendahewa2016implicit}{2016}) and related papers
+
+\begin{itemize}
+\tightlist
+\item
+  Creativity --\textgreater{} Information Novelty
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Unique Coverage: Unique web pages visited
+  \item
+    Likelihood of Discovery: Measurement of difficulty to find certain information
+  \end{itemize}
+\item
+  Exploration
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Total Coverage: Total number of content pages visited
+  \item
+    Distinct Queries: Total number of different queries issued
+  \item
+    Query diversity: Measurement of similarity between queries issued
+  \end{itemize}
+\item
+  Knowledge Discovery --\textgreater{} Finding useful and relevant information
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Useful Coverage: Number of pages where users spend a considerable amount of time
+  \item
+    Relevant Coverage: Number of pages that users denote as relevant to the task
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{search-tactics}{%
+\section{Search Tactics}\label{search-tactics}}
+
+From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1:
+
+\begin{itemize}
+\tightlist
+\item
+  Level 1: Move
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Atomic search event -- for example, a query or click
+  \end{itemize}
+\item
+  Level 2: Tactic
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Goal or task, including query or click chain
+  \end{itemize}
+\item
+  Level 3: Statagem
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Mission or session
+  \end{itemize}
+\item
+  Level 4: Strategy
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Session or cross-session search task
+  \end{itemize}
+\item
+  Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing \& Management, vol.~52, issue 6, Nov.~2016, pp.~1200--1226.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{http://dx.doi.org/10.1016/j.ipm.2016.05.007}
+  \item
+    \url{https://www.pernillaq.com/exploratory-search}
+  \item
+    \href{https://scholar.google.com/scholar?cites=16001618163231710088\&as_sdt=5,44\&sciodt=0,44\&hl=en}{checkout the forward citations of this paper on automated log analyses}
+  \item
+    like process mining!
+  \item
+    ``\emph{Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended}''
+  \end{itemize}
+\item
+  other behaviours from \emph{Search Patterns} book
+
+  \begin{itemize}
+  \tightlist
+  \item
+    quit
+  \item
+    narrow
+  \item
+    expand
+  \item
+    pearl growing / citation mining / snowballing
+  \item
+    pogo sticking
+  \item
+    thrashing
+  \end{itemize}
+\end{itemize}
+
+for LongSAL, tactics / states:
+- Q
+- subdivided by Q reform types?
+- L
+- I\_short (DT \textless= 10s) -- rethink these durs
+- I\_med ( 10 \textless{} DT \textless= 30s)
+- I\_long (\textgreater{} 30s)
+- 30s from Handehawa's thesis, and related Shah references
+- opening a new tab: parallel mission?
+- closing ta tab
+- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip\&m paper
+- beginning and end of sessions?
+- clicks?
+- clicks on L pages
+- clicks on I pages
+
+or maybe I.type of webpage visited?
+or combine DT with I.PUB / I.X?
+
+\hypertarget{transition-analysis-of-search-tactics}{%
+\subsection{Transition analysis of Search Tactics}\label{transition-analysis-of-search-tactics}}
+
+Transition analysis can be applied to:
+
+\begin{itemize}
+\tightlist
+\item
+  search tactics
+\item
+  tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs for this to work?)
+\item
+  combined (opening tab and closing tabs are tactics / events in markov process)
+\end{itemize}
+
+Help with analyses:
+
+\begin{itemize}
+\tightlist
+\item
+  Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
+\item
+  (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.1) for calculation formulas for entropy of transitions
+\item
+  (\protect\hyperlink{ref-krejtz2014entropy}{Krejtz et al., 2014}) sec 4 for calculation formulas
+\item
+  (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.2) for hypotheses
+\end{itemize}
+
+\hypertarget{correlation-analysis}{%
+\section{correlation analysis}\label{correlation-analysis}}
+
+\begin{itemize}
+\tightlist
+\item
+  correlation between user profiles and search tactics (as in taramigkou paper table 9)
+\end{itemize}
+
+\hypertarget{search-trails-analysis}{%
+\section{search trails analysis}\label{search-trails-analysis}}
+
+\begin{itemize}
+\tightlist
+\item
+  low priority
+\item
+  chirag sha's student; has intersting metrics like coverage, unique pages visited etc.
+\item
+  \url{https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/}
+\item
+  maybe future work?
+\end{itemize}
 
 \hypertarget{dwell-time-analysis}{%
 \section{Dwell Time Analysis}\label{dwell-time-analysis}}
@@ -1345,8 +1530,8 @@ The second set (H2) compares two different user groups, experts and novices, usi
 \hypertarget{descriptive-statistics}{%
 \section{Descriptive statistics}\label{descriptive-statistics}}
 
-\hypertarget{profile-transition-analyses}{%
-\subsection{profile transition analyses}\label{profile-transition-analyses}}
+\hypertarget{profile-transitions}{%
+\subsection{profile transitions}\label{profile-transitions}}
 
 \begin{itemize}
 \tightlist
@@ -1409,102 +1594,8 @@ Yung Sheng's Dissertation:
 \hypertarget{overall-search-behaviour}{%
 \section{Overall search behaviour}\label{overall-search-behaviour}}
 
-\hypertarget{search-tactics}{%
-\subsection{search tactics}\label{search-tactics}}
-
-\begin{itemize}
-\tightlist
-\item
-  Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing \& Management, vol.~52, issue 6, Nov.~2016, pp.~1200--1226.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \url{http://dx.doi.org/10.1016/j.ipm.2016.05.007}
-  \item
-    \url{https://www.pernillaq.com/exploratory-search}
-  \item
-    \href{https://scholar.google.com/scholar?cites=16001618163231710088\&as_sdt=5,44\&sciodt=0,44\&hl=en}{checkout the forward citations of this paper on automated log analyses}
-  \item
-    like process mining!
-  \item
-    ``\emph{Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended}''
-  \end{itemize}
-\item
-  other behaviours from \emph{Search Patterns} book
-
-  \begin{itemize}
-  \tightlist
-  \item
-    quit
-  \item
-    narrow
-  \item
-    expand
-  \item
-    pearl growing / citation mining / snowballing
-  \item
-    pogo sticking
-  \item
-    thrashing
-  \end{itemize}
-\end{itemize}
-
-for LongSAL, tactics / states:
-- Q
-- subdivided by Q reform types?
-- L
-- I\_short (DT \textless= 10s) -- rethink these durs
-- I\_med ( 10 \textless{} DT \textless= 30s)
-- I\_long (\textgreater{} 30s)
-- opening a new tab: parallel mission?
-- closing ta tab
-- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip\&m paper
-- beginning and end of sessions?
-- clicks?
-- clicks on L pages
-- clicks on I pages
-
-or maybe I.type of webpage visited?
-or combine DT with I.PUB / I.X?
-
-\hypertarget{transition-analysis}{%
-\subsection{Transition analysis}\label{transition-analysis}}
-
-Transition analysis can be applied to:
-
-\begin{itemize}
-\tightlist
-\item
-  tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs?)
-\item
-  search tactics
-\item
-  combined (opening tab and closing tabs are tactics / events in markov process)
-\end{itemize}
-
-Help with analyses:
-
-\begin{itemize}
-\tightlist
-\item
-  Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
-\item
-  (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.1) for calculation formulas for entropy of transitions
-\item
-  (\protect\hyperlink{ref-krejtz2014entropy}{Krejtz et al., 2014}) sec 4 for calculation formulas
-\item
-  (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.2) for hypotheses
-\end{itemize}
-
-\hypertarget{correlation-analysis}{%
-\subsection{correlation analysis}\label{correlation-analysis}}
-
-\begin{itemize}
-\tightlist
-\item
-  correlation between user profiles and search tactics (as in taramigkou paper table 9)
-\end{itemize}
+\hypertarget{search-tactics-1}{%
+\subsection{search tactics}\label{search-tactics-1}}
 
 \hypertarget{sheg-tasks---information-evaluation-capabilities}{%
 \section{SHEG tasks - information evaluation capabilities}\label{sheg-tasks---information-evaluation-capabilities}}
@@ -1515,21 +1606,6 @@ Help with analyses:
 \url{https://twitter.com/suzettelohmeyer/status/1617909351766757376}
 \url{https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/}
 \end{quote}
-
-\hypertarget{search-trails-analysis}{%
-\section{search trails analysis}\label{search-trails-analysis}}
-
-\begin{itemize}
-\tightlist
-\item
-  low priority
-\item
-  chirag sha's student; has intersting metrics like coverage, unique pages visited etc.
-\item
-  \url{https://rucore.libraries.rutgers.edu/rutgers-lib/49207/PDF/1/}
-\item
-  maybe future work?
-\end{itemize}
 
 \hypertarget{qualitative-free-text-results}{%
 \section{Qualitative / Free Text Results}\label{qualitative-free-text-results}}
@@ -1711,7 +1787,7 @@ HEATHER:
   >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Choice
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -1729,14 +1805,15 @@ Other (6)
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 None (7)
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Desktop & & & & & & & \\
 Laptop & & & & & & & \\
 Tablet & & & & & & & \\
 Smartphone & & & & & & & \\
 & & & & & & & \\
-\bottomrule()
 \end{longtable}
 
 \begin{enumerate}
@@ -2341,16 +2418,17 @@ learner (student, attending classes, university etc.) Please indicate
 how true each reason is for you using the following scale:}
 
 \begin{longtable}[]{@{}ll@{}}
-\toprule()
+\toprule\noalign{}
 Score & Response \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 1 & I \textbf{NEVER} do this \\
 2 & I do this \textbf{infrequently} \\
 3 & I do this \textbf{inconsistently} \\
 4 & I do this \textbf{frequently} \\
 5 & I \textbf{ALWAYS} do this \\
-\bottomrule()
 \end{longtable}
 
 \begin{enumerate}
@@ -2633,11 +2711,11 @@ Brown, J. M., Miller, W. R., \& Lawendowski, L. A. (1999). The self-regulation q
 \leavevmode\vadjust pre{\hypertarget{ref-collins2017search}{}}%
 Collins-Thompson, K., Hansen, P., \& Hauff, C. (2017). Search as learning (dagstuhl seminar 17092). \emph{Dagstuhl Reports}, \emph{7}.
 
-\leavevmode\vadjust pre{\hypertarget{ref-cope2017elearningc}{}}%
-Cope, B., \& Kalantzis, M. (2017). \emph{E-{Learning Ecologies}: Principles for {New Learning} and {Assessment}}. {Taylor \& Francis}.
-
 \leavevmode\vadjust pre{\hypertarget{ref-cope2013new}{}}%
 Cope, B., \& Kalantzis, M. (2013). Towards a {New Learning}: The {\emph{Scholar}} {Social Knowledge Workspace}, in {Theory} and {Practice}. \emph{E-Learning and Digital Media}, \emph{10}(4), 332--356. \url{https://doi.org/10.2304/elea.2013.10.4.332}
+
+\leavevmode\vadjust pre{\hypertarget{ref-cope2017elearningc}{}}%
+Cope, B., \& Kalantzis, M. (2017). \emph{E-{Learning Ecologies}: Principles for {New Learning} and {Assessment}}. {Taylor \& Francis}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-dervin2010sensemaking}{}}%
 Dervin, B., \& Naumer, C. M. (2010). Sense-making. In M. J. Bates \& M. M. N. (Eds.), \emph{Encyclopedia of library and information sciences (3rd ed.)} (pp. 4696-\/-4707). Taylor; Francis.
@@ -2680,6 +2758,9 @@ Hansen, P., \& Rieh, S. Y. (2016). Editorial: Recent advances on searching as le
 
 \leavevmode\vadjust pre{\hypertarget{ref-he2016beyond}{}}%
 He, J., Qvarfordt, P., Halvey, M., \& Golovchinsky, G. (2016). Beyond actions: Exploring the discovery of tactics from user logs. \emph{Information Processing \& Management}, \emph{52}(6), 1200--1226.
+
+\leavevmode\vadjust pre{\hypertarget{ref-hendahewa2016implicit}{}}%
+Hendahewa, C. H. (2016). \emph{Implicit search feature based approach to assist users in exploratory search tasks} {[}PhD thesis{]}. Rutgers, The State University of New Jersey.
 
 \leavevmode\vadjust pre{\hypertarget{ref-kahne2012digital}{}}%
 Kahne, J., Lee, N.-J., \& Feezell, J. T. (2012). Digital media literacy education and online civic and political participation. \emph{International Journal of Communication}, \emph{6}, 24.
@@ -2798,11 +2879,11 @@ Terlecki, M. (2020). Revising the {Metacognitive Awareness Inventory} ({MAI}) to
 \leavevmode\vadjust pre{\hypertarget{ref-terlecki2018call}{}}%
 Terlecki, M., \& McMahon, A. (2018). A {Call} for {Metacognitive Intervention}: Improvements {Due} to {Curricular Programming} in {Leadership}. \emph{Journal of Leadership Education}, \emph{17}(4), 130--145. \url{https://doi.org/10.12806/V17/I4/R8}
 
-\leavevmode\vadjust pre{\hypertarget{ref-vakkari2016searching}{}}%
-Vakkari, P. (2016). Searching as learning: A systematization based on literature. \emph{Journal of Information Science}, \emph{42}(1), 7--18. \url{https://doi.org/10.1177/0165551515615833}
-
 \leavevmode\vadjust pre{\hypertarget{ref-vakkari2001changes}{}}%
 Vakkari, P. (2001). Changes in search tactics and relevance judgements when preparing a research proposal a summary of the findings of a longitudinal study. \emph{Information Retrieval}, \emph{4}(3), 295--310.
+
+\leavevmode\vadjust pre{\hypertarget{ref-vakkari2016searching}{}}%
+Vakkari, P. (2016). Searching as learning: A systematization based on literature. \emph{Journal of Information Science}, \emph{42}(1), 7--18. \url{https://doi.org/10.1177/0165551515615833}
 
 \leavevmode\vadjust pre{\hypertarget{ref-van2017development}{}}%
 Van Der Vaart, R., \& Drossaert, C. (2017). Development of the digital health literacy instrument: Measuring a broad spectrum of health 1.0 and health 2.0 skills. \emph{Journal of Medical Internet Research}, \emph{19}(1), e27.

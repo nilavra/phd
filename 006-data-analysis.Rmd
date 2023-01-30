@@ -73,7 +73,7 @@ From @hendahewa2016implicit and related papers
   - Total Coverage: Total number of content pages visited
   - Distinct Queries: Total number of different queries issued
   - Query diversity: Measurement of similarity between queries issued
-- Knowledge Discovery --> Finding usefule and relevant information
+- Knowledge Discovery --> Finding useful and relevant information
   - Useful Coverage: Number of pages where users spend a considerable amount of time
   - Relevant Coverage: Number of pages that users denote as relevant to the task
 
