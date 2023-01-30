@@ -24,16 +24,16 @@ see crescenzi thesis
 <!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
 
 - peer-reviewed publications are `PUB`s
-- others are `ARTICLE`S (e.g. Wikipedia)
+- others are `ARTICLE`s (e.g. Wikipedia)
 - if no other info, then `WEB`
 - fuzzy between `WEB` and `ARTICLE` (when classified manually)
-- `ARTICLE` IF THERE IS A CLEAR AUTHOR
-  - EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE
-  - ENCYCLOPEDIAS
-- JOURNAL HOMEPAGES ARE `WEB`
-- LIST OF CHAPTERS IN A BOOK ARE `L.PUB`.
-  - E.G. IN DETAIL VIEW OF
-- BOOK CHAPTER IS `PUB`
+- `ARTICLE` if there is a clear author
+  - except `WIKIPEDIA`, due to common parlance
+  - encyclopedias
+- journal homepages are `WEB`
+- list of chapters in a book are `L.PUB`.
+  - e.g. in detail view of
+- book chapter is `PUB`
 
 ## User characteristics: Latent Profiles
 
@@ -43,7 +43,6 @@ see crescenzi thesis
   - `SRQ`
   - `WMC` / memory span:
     - scaling by dividing by 10 (?) (that's the max Coglab would show)
-    - min-max scaling
 
 <!-- 
   - PLO: perceived learning outcome (/100): 
@@ -53,11 +52,11 @@ see crescenzi thesis
 PLO and PSO can't be used as there are multiple of them in SES1 and SES3 
 -->
 
-Memory span values normalized by 10, because "The maximum memory span measurable with this experiment is ten" as per CogLab output
+Memory span values normalized by 10, because "*The maximum memory span measurable with this experiment is ten*" as per CogLab output
 
-- Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership (no no; a simple examination of what feature values changed between timepoints will be enoug)
-
-use 2 groups! 2 groups is always better. easier to explain; easier to write.
+- ~~Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership~~
+- no no; a simple examination of what feature values changed between timepoints will be enough
+- use 2 groups! 2 groups is always better. easier to explain; easier to write.
 
 
 
@@ -115,7 +114,7 @@ Dwell Time categories:
 
 Other Ideas
 
-- do analysis `LIB` and `LIBGUIDE` type URLs - library websites
+- do analysis of `LIB` and `LIBGUIDE` type URLs - library websites
 - Dwell Time:
   - overall
   - per-task
@@ -123,7 +122,7 @@ Other Ideas
 - sig diff in DT between
   - `SES1` and `SES3`
   - `SES2a` and `SES2d`?
-- checkout: sns.pairplot() -- pairwise relationships in a dataset
+- checkout: `sns.pairplot()` -- pairwise relationships in a dataset
   - https://seaborn.pydata.org/generated/seaborn.pairplot.html
 - checkout seaborn's plotting capabilites!
 
@@ -143,14 +142,14 @@ Other Ideas
 
 From @hendahewa2016implicit and related papers.
 
-- Creativity --> Information Novelty
+- **Creativity** --> Information Novelty
   - **Unique Coverage:** Unique web pages visited
   - **Likelihood of Discovery:** Measurement of difficulty to find certain information
-- Exploration
+- **Exploration**
   - **Total Coverage:** Total number of content pages visited
   - **Distinct Queries:** Total number of different queries issued
   - **Query diversity:** Measurement of similarity between queries issued
-- Knowledge Discovery --> Finding useful and relevant information
+- **Knowledge Discovery** --> Finding useful and relevant information
   - **Useful Coverage:** Number of pages where users spend a considerable amount of time
   - **Relevant Coverage:** Number of pages that users denote as relevant to the task
 
@@ -190,6 +189,7 @@ Behaviours from *Search Patterns* book
 
 ### Strategies from Dwell Time (DT)
 
+Tactics
 
 - Q.{types of reformulations}
 - L.{DT categories}
@@ -205,6 +205,8 @@ Behaviours from *Search Patterns* book
 
 
 ### Strategies from webpage L2 categories
+
+Tactics
 
 - Q.{types of reformulations}
 - L.{`PUB` / `WEB` / `X`}
