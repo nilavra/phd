@@ -4,7 +4,7 @@ Note about pronouns:
 all participants are referred to using gender-neutral they/them pronouns.
 
 Final feedback:
-P022Pisa said 
+P022Pisa said
 > *It is great to be able to participate in the research this semester. Using the extension somehow brings me postive feedback and that helps me in study I303. So I wanna say thank you*
 > - P022Pisa
 
@@ -38,15 +38,20 @@ see crescenzi thesis
 ## User characteristics: Latent Profiles
 
 - feature sets for profiling (toggle on and off)
-  - IMI
-  - MAI
-  - SRQ
-  - WMC / memory span:
+  - `IMI`
+  - `MAI`
+  - `SRQ`
+  - `WMC` / memory span:
     - scaling by dividing by 10 (?) (that's the max Coglab would show)
     - min-max scaling
-  - perceived learning outcome (/100)
-  - perceived search outcome (/100)
+
+<!-- 
+  - PLO: perceived learning outcome (/100): 
+  - PSO: perceived search outcome (/100)
   - others?
+
+PLO and PSO can't be used as there are multiple of them in SES1 and SES3 
+-->
 
 Memory span values normalized by 10, because "The maximum memory span measurable with this experiment is ten" as per CogLab output
 
@@ -60,16 +65,16 @@ use 2 groups! 2 groups is always better. easier to explain; easier to write.
 
 From @white2016interactions, Table 2.1 (adapted from Bates, 1989):
 
-- Level 1: Move
+- **Level 1: Move**
   - Atomic search event – for example, a query or click
   (*An identifiable thought or action that is part of information searching.*)
-- Level 2: Tactic
+- **Level 2: Tactic**
   - Goal or task, including query or click chain
   (*One or several moves made to further a search*)
-- Level 3: Statagem
+- **Level 3: Statagem**
   - Mission or session
   (*A larger, more complex set of thoughts and/or actions than the tactic; a stratagem consists of multiple tactics and/or moves, all of which are designed to exploit a particular search domain that is thought to contain the desired information*)
-- Level 4: Strategy
+- **Level 4: Strategy**
   - Session or cross-session search task
   (*A plan, which may contain moves, tactics, and/or stratagems, for an entire information search.*)
 
@@ -98,39 +103,40 @@ Measures:
 
 Dwell Time categories:
 
-- short:
+- `short`
   - 1 <= DT <= 5s
-  - A time span of less than 5 seconds is a too short period for being able to read a summary and extract information [@he2016beyond].
-- med
+  - "*A time span of less than 5 seconds is a too short period for being able to read a summary and extract information*" [@he2016beyond].
+- `med`
   - 5 < DT <= 30s
-- long
+- `long`
   - DT > 30s
   - from Handehawa's thesis, and related Shah references
 
 
 Other Ideas
 
-- DO ANAYSIS WITH `LIB` AND `LIBGUIDE` TYPE URLS - LIBRARY WEBSITES
+- do analysis `LIB` and `LIBGUIDE` type URLs - library websites
 - Dwell Time:
   - overall
-  - per task
+  - per-task
   - per timepoint?
 - sig diff in DT between
-  - SES1 and SES3
-  - SES2a and SES2d?
+  - `SES1` and `SES3`
+  - `SES2a` and `SES2d`?
 - checkout: sns.pairplot() -- pairwise relationships in a dataset
   - https://seaborn.pydata.org/generated/seaborn.pairplot.html
 - checkout seaborn's plotting capabilites!
 
-## Level 1: Moves - Tab (Parallel Browsing) Behaviour
+## Level 1: Moves - Other Behaviour
 
-- Tab Events:
-  - open
-  - switch
-  - close
-- Session Events (from YASBIL events and `task_id`)
-  - beginning
-  - end
+- `TAB`: Parallel Browsing Events
+  - `open`
+  - `switch`
+  - `close`
+- `SESSION`: from YASBIL events and `task_id`
+  - `start`
+  - `end`
+- `IDLE`: user stays idle for 1 minute [@taramigkou2018leveraging]
 
 
 ## Level 2: Implicit Features for Exploratory Search Process
@@ -138,15 +144,15 @@ Other Ideas
 From @hendahewa2016implicit and related papers.
 
 - Creativity --> Information Novelty
-  - Unique Coverage: Unique web pages visited
-  - Likelihood of Discovery: Measurement of difficulty to find certain information
+  - **Unique Coverage:** Unique web pages visited
+  - **Likelihood of Discovery:** Measurement of difficulty to find certain information
 - Exploration
-  - Total Coverage: Total number of content pages visited
-  - Distinct Queries: Total number of different queries issued
-  - Query diversity: Measurement of similarity between queries issued
+  - **Total Coverage:** Total number of content pages visited
+  - **Distinct Queries:** Total number of different queries issued
+  - **Query diversity:** Measurement of similarity between queries issued
 - Knowledge Discovery --> Finding useful and relevant information
-  - Useful Coverage: Number of pages where users spend a considerable amount of time
-  - Relevant Coverage: Number of pages that users denote as relevant to the task
+  - **Useful Coverage:** Number of pages where users spend a considerable amount of time
+  - **Relevant Coverage:** Number of pages that users denote as relevant to the task
 
 https://rucore.libraries.rutgers.edu/rutgers-lib/49207/
 
@@ -161,8 +167,8 @@ https://rucore.libraries.rutgers.edu/rutgers-lib/49207/
 
 ## Level 2+: Search Tactics and Strategies
 
-
 Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing & Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226.
+
 - http://dx.doi.org/10.1016/j.ipm.2016.05.007
 - https://www.pernillaq.com/exploratory-search
 - [checkout the forward citations of this paper on automated log analyses](https://scholar.google.com/scholar?cites=16001618163231710088&as_sdt=5,44&sciodt=0,44&hl=en)
@@ -190,10 +196,10 @@ Behaviours from *Search Patterns* book
 - L.click (only hyperlink clicks)
 - I.{DT categories}
 - I.click
-- Other.{DT categories}
-- Tab.{tab events}
-- Idle: user stays idle for 1 minute [@taramigkou2018leveraging]
-- session.{session events}
+- OTHER.{DT categories}
+- TAB.{tab events}
+- IDLE
+- SESSION.{session events}
 
 
 
@@ -201,27 +207,31 @@ Behaviours from *Search Patterns* book
 ### Strategies from webpage L2 categories
 
 - Q.{types of reformulations}
-- L.{PUB / WEB / X}
+- L.{`PUB` / `WEB` / `X`}
 - L.click (only hyperlink clicks)
-- I.{PUB / WEB / ARTICLE / X}
+- I.{`PUB` / `WEB` / `ARTICLE` / X}
 - I.click
-- Other.{X}
-- Tab.{tab events}
-- Idle: user stays idle for 1 minute [@taramigkou2018leveraging]
-- session.{session events}
+- OTHER.{`X`}
+- TAB.{tab events}
+- IDLE
+- SESSION.{session events}
 
 
 ### Strategies from @lam2007session
 
-- As in [@lam2007session] Sec 6:
-  - Short Navigation: S(Start) -> X (End), with the S event limits to the first session events and the X event to the last events.
-  - Topic Exploration: S -> X -> X -> X -> X -> ...
-  - Methodical Results Exploration: S -> X -> S -> X -> S -> ...
-  - Query Refinement: S -> S -> S -> S -> ...
-- Using WebNavigation events and tab switches
+- As in [@lam2007session] Sec 6 (`S` to denote a Search event and `X` to denote a non-search engine event):
+  - Short Navigation: S(Start) --> X (End), with the S event limits to the first session events and the X event to the last events.
+  - Topic Exploration: S --> X --> X --> X --> X --> ...
+  - Methodical Results Exploration: S --> X --> S --> X --> S ...
+  - Query Refinement: S --> S --> S --> S ...
+- Using `WebNavigation` events and tab switches
 - can do sequential pattern mining as in [@ibanez2022comparison]
   - maximal sequential pattern
   - etc.
+- Other search patters:
+  - `SS`: Search-engine Searches
+  - `TS`: Third-party Searches using third-party online sites as search engines
+  - `TE`: True Explorations of search results
 
 ### Struggling vs. Exploring
 
@@ -235,7 +245,7 @@ Indicators predictive of struggling [@hassan2014struggling]:
 
 ### Navigators vs. Explorers
 
-From IWSS book 
+From IWSS book
 (later, low priority)
 
 
@@ -267,12 +277,14 @@ or combine DT with I.PUB / I.X? -->
 ### Transition analysis of Search Tactics / Strategies
 
 Transition analysis can be applied to:
+
 - search tactics
-- tabs: parallel browsing behaviour (think hard.. do we need a constant number of tabs for this to work?)
-- combined (opening tab and closing tabs are tactics / events in markov process)
+- tabs: parallel browsing behaviour (think hard... do we need a constant number of tabs for this to work?)
+- combined (opening tab and closing tabs are tactics / events in Markov process)
 
 
 Help with analyses:
+
 - Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
 - [@he2016beyond p. 1220 sec 6.1] for calculation formulas for entropy of transitions
 - [@krejtz2014entropy] sec 4 for calculation formulas
