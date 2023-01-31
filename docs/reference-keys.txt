@@ -25,6 +25,10 @@ sec-bg-search-terminology
 sec-bg-search-3-stage
 sec-bg-search-query
 sec-bg-search-list
+ranking-of-search-results
+information-shown-in-search-results-surrogates
+individual-user-characteristics
+relevance-judgement
 sec-bg-search-content-page
 sec-bg-search-expertise
 assessing-learning-during-search

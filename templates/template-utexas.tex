@@ -491,11 +491,6 @@ $if(show-abstract-in-toc)$
 \renewcommand{\numberstyleabstract}{plain}
 $endif$
 
-% ----------- original abstract ----------
-% \renewcommand{\abstracttitle}{$if(abstract-heading)$$abstract-heading$$else$Abstract$endif$}
-% \begin{abstract}
-% 	$abstract$
-% \end{abstract}
 
 % --------- start: UTexas abstract -------
 \begin{center}
@@ -503,16 +498,18 @@ $endif$
   
   \vspace{18pt}
   
+  % title
   \begin{spacing}{2}
     {\Large{\textbf{$title$}}}
   \end{spacing}
 
   \vspace{18pt}
 
+  % author + supervisor
   \begin{spacing}{1.4}
     $author$ $author-dispname$, $degree-suffix$\\
     $university$, $degree-year$\\
-    \vspace{24pt}
+    \vspace{18pt}
     Supervisor: $supervisor$
   \end{spacing}
 

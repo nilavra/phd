@@ -278,7 +278,10 @@ rest 20% of the tasks, participants switched languages for querying,
 with a transition from first language to second language being the most
 common.
 
-### Stage 2: Search Results Evaluation {#sec-bg-search-list}
+
+
+
+### Stage 2: Search Results Evaluation / List Item Selection {#sec-bg-search-list}
 
 *How do users behave when examining a list of information-objects
 (returned by an IR system)?*
@@ -309,9 +312,10 @@ width="\\linewidth"}
 -->
 
 
- \
+#### Ranking of search results
+<!--  \
 **Relationships between [ranking of search results]{.underline}, and
-search behaviour:**
+search behaviour:** -->
 
 Most search engines display results in a rank ordered list, with the
 highest *algorithmically* relevant results placed at the top, and others
@@ -363,9 +367,11 @@ interest and increasing mental effort, which could demonstrate
 of various behavioural traits associated with task-types and task-goals
 can be found in [@126 Table 8].
 
- \
+
+#### Information Shown in Search Results (Surrogates)
+<!--  \
 **Relationships between [information shown in search
-results]{.underline}, and search behaviour:**
+results]{.underline}, and search behaviour:** -->
 
 The amount and quality of different kinds of information shown on SERPs
 also affected user's information searching behaviour. @104 saw that as
@@ -429,9 +435,10 @@ width="\\linewidth"}
 -->
 
 
- \
+#### Individual User Characteristics
+<!--  \
 **Relationships between [individual user characteristics]{.underline},
-and search behaviour:**
+and search behaviour:** -->
 
 Individual traits of searchers also influence their pattern of
 interactions with a SERP, and these patterns can be revealed by
@@ -524,8 +531,9 @@ width="0.93\\linewidth"}
 -->
 
 
-**Relationships between [relevance judgement]{.underline}, and search
-behaviour:**
+#### Relevance Judgement
+<!-- **Relationships between [relevance judgement]{.underline}, and search
+behaviour:** -->
 
 @119, @114 proposed a list of 'relevance criteria' for understanding
 how searchers evaluate search results, or perform *relevance judgement*.
@@ -547,9 +555,11 @@ instance, 'images' and 'software download' verticals had higher visual
 attention, while news verticals had equal attention as the "ten blue
 links" search results.
 
-### Stage 3: Content Page Evaluation {#sec-bg-search-content-page}
 
-*How do users behave when examining a single information-object (e.g., a
+
+### Stage 3: Content Page Evaluation / Item Examination {#sec-bg-search-content-page}
+
+> *How do users behave when examining a single information-object (e.g., a
 a non-search-engine webpage, aka content page) obtained from an IR
 system?*
 
