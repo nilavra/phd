@@ -41,16 +41,18 @@
 % single double and other spacing
 \usepackage{setspace}
 
+\usepackage{fontspec}    
+\newfontfamily\dispnamefont{kalpurush.ttf}
+% don't use Tiro Bangla; messes up juktakkhors
+
 % for bengali fonts
 % \babelprovide[import]{bangla}
 % \babelfont[bangla]{rm}{kalpurush.ttf}
-
 % \usepackage{fontspec} 
 % \usepackage{polyglossia} 
 % \setdefaultlanguage{english} 
 % \setotherlanguages{bengali}
 % \newfontfamily{\bengalifont}[Script=Bengali]{kalpurush.ttf}
-
 % \setotherlanguages{hindi,sanskrit,bengali}
 % \setmainfont{Times New Roman} 
 % \newfontfamily{\devanagarifont}[Script=Devanagari]{Lohit Devanagari.ttf} 
@@ -300,7 +302,7 @@
 % --------- start: UTexas Frontmatter (committee membership, title page) -------
 
 % ~~~~ committee membership page ~~~~
-% \thispagestyle{empty}
+\thispagestyle{empty} % to not show roman page numbers
 \begin{center}
   The Dissertation Committee for Nilavra Bhattacharya\\
   certifies that this is the approved version of the following Dissertation:\\
@@ -328,7 +330,7 @@
 
 % ~~~~ title page ~~~~
 \newpage
-% \thispagestyle{empty}
+\thispagestyle{empty} % to not show roman page numbers
 \begin{center}
   
   \begin{spacing}{2}
@@ -344,7 +346,8 @@
     
     {\Large{\textbf{
       Nilavra Bhattacharya\\
-      নীলাভ্র ভট্টাচার্য্য
+      \vspace*{10pt}
+      {\Huge \dispnamefont নীলাভ্র ভট্টাচার্য্য}
     }}}\\
     
     \vspace*{72pt}
@@ -412,7 +415,8 @@
 
   % author + supervisor
   \begin{spacing}{1.4}
-    Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য, PhD TBD\\
+    % Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য, PhD TBD\\
+    Nilavra Bhattacharya {\dispnamefont নীলাভ্র ভট্টাচার্য্য}, PhD TBD\\
     The University of Texas at Austin, 2023\\
     \vspace{18pt}
     Supervisor: Jacek Gwizdka

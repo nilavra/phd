@@ -41,16 +41,18 @@
 % single double and other spacing
 \usepackage{setspace}
 
+\usepackage{fontspec}    
+\newfontfamily\dispnamefont{kalpurush.ttf}
+% don't use Tiro Bangla; messes up juktakkhors
+
 % for bengali fonts
 % \babelprovide[import]{bangla}
 % \babelfont[bangla]{rm}{kalpurush.ttf}
-
 % \usepackage{fontspec} 
 % \usepackage{polyglossia} 
 % \setdefaultlanguage{english} 
 % \setotherlanguages{bengali}
 % \newfontfamily{\bengalifont}[Script=Bengali]{kalpurush.ttf}
-
 % \setotherlanguages{hindi,sanskrit,bengali}
 % \setmainfont{Times New Roman} 
 % \newfontfamily{\devanagarifont}[Script=Devanagari]{Lohit Devanagari.ttf} 
@@ -383,7 +385,7 @@ $else$
 % --------- start: UTexas Frontmatter (committee membership, title page) -------
 
 % ~~~~ committee membership page ~~~~
-% \thispagestyle{empty}
+\thispagestyle{empty} % to not show roman page numbers
 \begin{center}
   The $document-type$ Committee for $author$\\
   certifies that this is the approved version of the following $document-type$:\\
@@ -411,7 +413,7 @@ $else$
 
 % ~~~~ title page ~~~~
 \newpage
-% \thispagestyle{empty}
+\thispagestyle{empty} % to not show roman page numbers
 \begin{center}
   
   \begin{spacing}{2}
@@ -427,7 +429,8 @@ $else$
     
     {\Large{\textbf{
       $author$\\
-      $author-dispname$
+      \vspace*{10pt}
+      {\Huge \dispnamefont $author-dispname$}
     }}}\\
     
     \vspace*{72pt}
@@ -507,7 +510,8 @@ $endif$
 
   % author + supervisor
   \begin{spacing}{1.4}
-    $author$ $author-dispname$, $degree-suffix$\\
+    % $author$ $author-dispname$, $degree-suffix$\\
+    $author$ {\dispnamefont $author-dispname$}, $degree-suffix$\\
     $university$, $degree-year$\\
     \vspace{18pt}
     Supervisor: $supervisor$
