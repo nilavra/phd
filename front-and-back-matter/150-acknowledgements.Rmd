@@ -1,4 +1,4 @@
-# Acknowledgements - The PhD Journey {#sec_app_ack}
+# Acknowledgements - The PhD Journey {#sec-app-ack}
 
 Similar to David Maxwell's thesis.
 

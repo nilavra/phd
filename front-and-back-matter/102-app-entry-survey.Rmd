@@ -22,7 +22,7 @@
     - Native American
     - Pacific Islander
     - Mixed
-    - Other: ____
+    - Other: ......
 
 8. Are you an international student? Yes / No; If Yes, where are you originally from?
 9. Please enter an email address that you check regularly. We will send communications and compensation information to this email address.
@@ -49,7 +49,7 @@
     5. I feel neither comfortable nor uncomfortable to use Mozilla Firefox.
     6. I feel comfortable to use Mozilla Firefox.
     7. I feel very comfortable to use Mozilla Firefox.
-    8. Other: ____
+    8. Other: ......
 
 3. Which search engines do you normally use?
     1. Google
@@ -174,16 +174,16 @@ course)*
 
 ---
 
-32. How do you organise your notes? _____
+32. How do you organise your notes? ......
 33. Have you ever wished that you had written better notes? Why?
-    - Yes: ____
-    - No: ____
+    - Yes: ......
+    - No: ......
 34. How long do you store your notes for?
     1. Till the end of the semester
     1. End of academic year
     1. End of college
     1. Lifelong
-    1. Other: ____
+    1. Other: ......
 
 35. How do you search for a bit of information in your notes?
 

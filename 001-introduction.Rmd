@@ -29,7 +29,7 @@ In essence, IR systems are software that take, as input, some query, and return 
 >
 >- *Search engines **don't help us sensemake** -- we have to use our minds to integrate what we've found into our knowledge.*
 >
-> `r nb_blockquote_author('--- @ko2021seeking')`
+> `r nbQuoteAuthor('--- @ko2021seeking')`
 >
 
 In recent years, the IIR research community has been actively promoting the **Search as Learning** (SAL) research direction.
@@ -61,9 +61,9 @@ improve human-information interaction.
 
 A major limitation in the area of Search as Learning, Interactive IR (IIR), and more broadly, in Human-Computer Interaction (HCI) research is
 that, the user is examined in the short-term, typically over the course of a single experimental session in a lab
-[@kelly2009evaluation; @HCIUXres81_online; @zlatkin2021students; @karapanos2021advances].
-Very few studies exist in the search-as-learning domain that have observed *the same participant* over a longer period of time than a single search session [@kelly2006measuring_a; @kelly2006measuring_b; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
-This ephemeral approach has acute implications in any domain where learning is involved because "learning is a *process* that leads to *change* in knowledge ... (which) unfolds over time" [@ambrose2010howa], and "...does not happen all at once" [@white_2016_iwss_learning].
+[@kelly2009evaluation; @koeman2020hciux; @zlatkin2021students; @karapanos2021advances].
+Very few studies exist in the search-as-learning domain that have observed *the same participant* over a longer period of time than a single search session [@kelly2006measuring-a; @kelly2006measuring-b; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
+This ephemeral approach has acute implications in any domain where learning is involved because "learning is a *process* that leads to *change* in knowledge ... (which) unfolds over time" [@ambrose2010howa], and "...does not happen all at once" [@white-2016-iwss-learning].
 
 **To the best of the author's knowledge, almost no new longitudinal studies were reported in major search-as-learning literature in the last five years, that systematically studied students' information search behaviour and information-use over the long term, in their *in-situ* naturalistic environment and contexts, and linked those behaviours quantitatively to the students' learning outcomes and individual differences.**
 
@@ -71,12 +71,12 @@ Higher education students are increasingly using the Internet as their main lear
 
 > *When research in this area relies so heavily on (short-term) lab studies, can we realistically say we are comprehensively studying human-tech interactions -- when many of those interactions take place over long periods of time in real-world contexts? ... An over-reliance on short studies risks inaccurate findings, potentially resulting in prematurely embracing or disregarding new concepts.*
 >
-> `r nb_blockquote_author('--- @HCIUXres81_online')`
+> `r nbQuoteAuthor('--- @koeman2020hciux')`
 
 Current search engines and information retrieval systems "do not help us know what we want to know, ...do not help us know if what we've found is relevant or true; and they do not help us make sense of the retrieved information.
 All they do is quickly retrieve what other people on the internet have shared" [@ko2021seeking].
 Unless we have more long-term understanding of the nature of knowledge gain during search, the limitations of current search systems will continue to persist.
-Increased knowledge and understanding of students', and more broadly searchers', information searching and learning behaviour over time will help us to overcome the limitations of current IR systems, and transform them into rich learning spaces where "search experiences and learning experiences are intertwined and even synergized" [@url_rieh_homepage].
+Increased knowledge and understanding of students', and more broadly searchers', information searching and learning behaviour over time will help us to overcome the limitations of current IR systems, and transform them into rich learning spaces where "search experiences and learning experiences are intertwined and even synergized" [@url-rieh-homepage].
 The internet and digital educational technologies offer great opportunities to transform learning and the education experience.
 Enabled by our increased comprehension of the longitudinal searching-as-learning process, improved and validated by empirical data, we can create a new wave of fundamentally transformative educational technologies and "e-learning ecologies, that will be more engaging for learners, more effective (than traditional classroom practices), more resource efficient, and more equitable in the face of learner diversity" [@cope2017elearningc].
 

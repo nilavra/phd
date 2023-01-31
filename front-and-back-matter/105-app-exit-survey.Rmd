@@ -1,4 +1,4 @@
-# SUR3: Exit Survey {#app_final_survey}
+# SUR3: Exit Survey {#app-final-survey}
 <!-- 
 **Overall Instructions:**
 

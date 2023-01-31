@@ -255,7 +255,7 @@ options(tinytex.verbose = TRUE)
 <!-- ---------- NB Util functions -------- -->
 <!-- auto converts between SVG and PDF for web (SVG) and LaTeX (PDF) output -->
 ```{r, include=FALSE}
-show_fig <- function(f)
+nbShowFig <- function(f)
   {if (knitr::is_latex_output())
   {
     output = xfun::with_ext(f, 'pdf')
@@ -273,7 +273,7 @@ show_fig <- function(f)
   https://github.com/rstudio/tufte/blob/main/R/utils.R
  -->
 ```{r, include=FALSE}
-nb_blockquote_author <- function(text) {
+nbQuoteAuthor <- function(text) {
   if (knitr::is_html_output()) {
     sprintf("<div style='text-align:right'>%s</div>", text)
   } else if (knitr::is_latex_output()) {

@@ -13,8 +13,8 @@ Information, University of Texas at Austin (Texas iSchool). This was
 mainly a feasibility study to determine the technical logistics and
 participant retention rates. It included SES1, SES2, and SES3 from the
 proposed study procedure (Figure
-[\[fig_study_procedure\]](#fig_study_procedure){reference-type="ref"
-reference="fig_study_procedure"}). There was no recording of individual
+[\[fig-study-procedure\]](#fig-study-procedure){reference-type="ref"
+reference="fig-study-procedure"}). There was no recording of individual
 differences via recruitment, mid-term, and final surveys. It also did
 not include submission of concept maps. Eight students from two courses
 at the Texas iSchool -- *Academic Success in the Digital University*
@@ -111,7 +111,7 @@ forgot to log their data for the first two assignments, despite the
 email reminder. However, upon following up with them, they remembered to
 log their data for the third and fourth sessions.
 
-## SES3: Final Session {#sec_app_pilot_ses3}
+## SES3: Final Session {#sec-app-pilot-ses3}
 
 All eight participants from SES1 completed SES3 (no drop off).
 Participants performed two search tasks, and one website reliability
@@ -120,8 +120,8 @@ measurement of mental workload using NASA-TLX. At the end of the tasks,
 they underwent a short semi-structured interview to reflect on their
 overall study experience. The interview questions can be found in
 Appendix
-[\[app_post_task_interview\]](#app_post_task_interview){reference-type="ref"
-reference="app_post_task_interview"}.
+[\[app-post-task-interview\]](#app-post-task-interview){reference-type="ref"
+reference="app-post-task-interview"}.
 
  \
 **Task 1: Financial Literacy** (Repeated from SES1)
@@ -251,7 +251,7 @@ After Task 3, participants participated in a semi-structured interview
 to reflect on their overall searching and learning experience, as well
 as participating in the study. The questions asked in the interview are
 presented in Appendix
-[\[app_post_task_interview\]](#app_post_task_interview){reference-type="ref"
-reference="app_post_task_interview"}.
+[\[app-post-task-interview\]](#app-post-task-interview){reference-type="ref"
+reference="app-post-task-interview"}.
 
 [^1]: <https://cor.stanford.edu/curriculum/assessments/website-reliability> -->

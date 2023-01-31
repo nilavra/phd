@@ -82,7 +82,7 @@ knowledge to knowledge that the learner already possesses" and involves
 "substantive, non-arbitrary incorporations of concepts into cognitive
 structure" [@novak2002meaningful p. 549] and may eventually lead to the
 development of transferable knowledge and skills. A parallel terminology
-for deep learning [@marton1976qualitative_a; @marton1976qualitative_b]
+for deep learning [@marton1976qualitative-a; @marton1976qualitative-b]
 is **meaningful learning**
 [@ausubel1968educational; @novak2002meaningful], and they are often
 contrasted with *surface learning* or *rote learning*. 
@@ -155,14 +155,14 @@ qualified using the concepts of sensemaking.
 process that occurs when learners *connect* their *previously developed*
 knowledge, ideas, abilities, and experiences together to address the
 uncertainty presented by a newly introduced phenomenon, problem, or
-piece of information [@ngss_sensemaking]. A significant portion of
+piece of information [@ngss-sensemaking]. A significant portion of
 learning is sensemaking, especially those which use recorded information
 or systematic discovery to learn concepts, ideas, theories, and facts in
 a domain (such as science or history) [@zhang2014towards]. The phrase
 "figure something out" is often synonymous with sensemaking. Sensemaking
 is generally about actively trying to figure out the way the world
 works, and/or exploring how to create or alter things to achieve desired
-goals [@ngss_sensemaking]. [@dervin2010sensemaking] distinguish work on
+goals [@ngss-sensemaking]. [@dervin2010sensemaking] distinguish work on
 sensemaking in four fields: "Human Computer Interaction (HCI) (Russell's
 sensemaking); Cognitive Systems Engineering (Klein's sensemaking);
 Organizational Communication (Weick's sensemaking; Kurtz and Snowden's
@@ -313,7 +313,7 @@ experiences, the knowledge artefact they create is often uniquely voiced
 instead of a templated "correct" response [@amina2017active].
 
 > *Learners become **active knowledge producers** (for instance, project-based learning, using multiple knowledge sources, and research based knowledge making), and not merely knowledge consumers (as exemplified in the 'transmission' pedagogies of traditional textbook learning or e-learning focused on video or e-textbook delivery). Active knowledge making practices underpin contemporary emphases on innovation, creativity and problem solving, which are quintessential 'knowledge economy' and 'knowledge society' attributes.*
-> `r nb_blockquote_author('--- @cope2017elearningc')`
+> `r nbQuoteAuthor('--- @cope2017elearningc')`
 >
 
 
@@ -421,7 +421,7 @@ twenty-first century [@breakstone2021students; @kahne2012digital; @mihailidis201
 
 > *It is not the technology that makes a difference; it is the pedagogy.*
 >
->`r nb_blockquote_author('--- @cope2017elearningc')`
+>`r nbQuoteAuthor('--- @cope2017elearningc')`
 >
 
 Having discussed how meaningful learning takes place, and how it is
@@ -554,7 +554,7 @@ people take on more complex tasks and greater responsibilities for their
 own learning. However, these metacognitive skills tend to fall outside
 the content area of most courses, and therefore, often neglected in
 instruction [@ambrose2010howa p. 191]. Building on the foundational work
-of [@kanfer1970self_a; @kanfer1970self_b], Miller and Brown formulated a
+of [@kanfer1970self-a; @kanfer1970self-b], Miller and Brown formulated a
 seven-step model of self-regulation [@miller1991self; @brown1998self].
 In this model, behavioural self-regulation may falter because of failure
 or deficits at any of these seven steps: *(i)* receiving relevant

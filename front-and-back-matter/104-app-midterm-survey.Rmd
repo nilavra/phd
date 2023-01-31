@@ -1,4 +1,4 @@
-# SUR2: Midterm Survey {#app_midterm_survey}
+# SUR2: Midterm Survey {#app-midterm-survey}
 <!-- 
 ## Overall Instructions
 
