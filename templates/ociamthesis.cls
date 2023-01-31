@@ -79,10 +79,16 @@
 %
 
 \ifmc@nobind
-\usepackage[includehead,hmargin={3.1cm, 3.1cm}, vmargin={2.5cm,2.7cm}, headsep=.8cm,footskip=1.2cm]{geometry}
+%% Nilavra override: UTexas margins override
+%% in proposal: \geometry{left=0.7in, right=0.7in, top=0.5in, bottom=0.5in,}
+\usepackage[includehead, hmargin={0.9in}, vmargin={0.9in, 1.2in}, headsep=.8cm,footskip=1.2cm]{geometry}
+%% original ociamthesis.cls:
+% \usepackage[includehead,hmargin={3.1cm, 3.1cm}, vmargin={2.5cm,2.7cm}, headsep=.8cm,footskip=1.2cm]{geometry}
 \else
 \usepackage[includehead,hmargin={3.6cm, 2.6cm}, vmargin={2.5cm,2.7cm}, headsep=.8cm,footskip=1.2cm]{geometry}
 \fi
+
+
 
 % JEM fix header on cleared pages for openright
 \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else

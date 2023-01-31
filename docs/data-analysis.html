@@ -120,25 +120,25 @@ Analysis steps:
 <!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
 <ul>
 <li>peer-reviewed publications are <code>PUB</code>s</li>
-<li>others are <code>ARTICLE</code>S (e.g. Wikipedia)</li>
+<li>others are <code>ARTICLE</code>s (e.g. Wikipedia)</li>
 <li>if no other info, then <code>WEB</code>
 </li>
 <li>fuzzy between <code>WEB</code> and <code>ARTICLE</code> (when classified manually)</li>
 <li>
-<code>ARTICLE</code> IF THERE IS A CLEAR AUTHOR
+<code>ARTICLE</code> if there is a clear author
 <ul>
-<li>EXCEPT WIKIPEDIA, DUE TO COMMON PARLANCE</li>
-<li>ENCYCLOPEDIAS</li>
+<li>except <code>WIKIPEDIA</code>, due to common parlance</li>
+<li>encyclopedias</li>
 </ul>
 </li>
-<li>JOURNAL HOMEPAGES ARE <code>WEB</code>
+<li>journal homepages are <code>WEB</code>
 </li>
-<li>LIST OF CHAPTERS IN A BOOK ARE <code>L.PUB</code>.
+<li>list of chapters in a book are <code>L.PUB</code>.
 <ul>
-<li>E.G. IN DETAIL VIEW OF</li>
+<li>e.g. in detail view of</li>
 </ul>
 </li>
-<li>BOOK CHAPTER IS <code>PUB</code>
+<li>book chapter is <code>PUB</code>
 </li>
 </ul>
 </div>
@@ -156,7 +156,6 @@ Analysis steps:
 <code>WMC</code> / memory span:
 <ul>
 <li>scaling by dividing by 10 (?) (that’s the max Coglab would show)</li>
-<li>min-max scaling</li>
 </ul>
 </li>
 </ul>
@@ -168,11 +167,12 @@ Analysis steps:
   - others?
 
 PLO and PSO can't be used as there are multiple of them in SES1 and SES3 
---><p>Memory span values normalized by 10, because “The maximum memory span measurable with this experiment is ten” as per CogLab output</p>
+--><p>Memory span values normalized by 10, because “<em>The maximum memory span measurable with this experiment is ten</em>” as per CogLab output</p>
 <ul>
-<li>Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership (no no; a simple examination of what feature values changed between timepoints will be enoug)</li>
+<li><del>Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership</del></li>
+<li>no no; a simple examination of what feature values changed between timepoints will be enough</li>
+<li>use 2 groups! 2 groups is always better. easier to explain; easier to write.</li>
 </ul>
-<p>use 2 groups! 2 groups is always better. easier to explain; easier to write.</p>
 </div>
 <div id="search-behaviour-data-analysis-approach" class="section level2" number="6.4">
 <h2>
@@ -263,7 +263,7 @@ PLO and PSO can't be used as there are multiple of them in SES1 and SES3
 </ul>
 <p>Other Ideas</p>
 <ul>
-<li>do analysis <code>LIB</code> and <code>LIBGUIDE</code> type URLs - library websites</li>
+<li>do analysis of <code>LIB</code> and <code>LIBGUIDE</code> type URLs - library websites</li>
 <li>Dwell Time:
 <ul>
 <li>overall</li>
@@ -280,7 +280,7 @@ PLO and PSO can't be used as there are multiple of them in SES1 and SES3
 <code>SES2a</code> and <code>SES2d</code>?</li>
 </ul>
 </li>
-<li>checkout: sns.pairplot() – pairwise relationships in a dataset
+<li>checkout: <code>sns.pairplot()</code> – pairwise relationships in a dataset
 <ul>
 <li><a href="https://seaborn.pydata.org/generated/seaborn.pairplot.html" class="uri">https://seaborn.pydata.org/generated/seaborn.pairplot.html</a></li>
 </ul>
@@ -319,7 +319,8 @@ PLO and PSO can't be used as there are multiple of them in SES1 and SES3
 </h2>
 <p>From <span class="citation">Hendahewa (<a href="#ref-hendahewa2016implicit">2016</a>)</span> and related papers.</p>
 <ul>
-<li>Creativity –&gt; Information Novelty
+<li>
+<strong>Creativity</strong> –&gt; Information Novelty
 <ul>
 <li>
 <strong>Unique Coverage:</strong> Unique web pages visited</li>
@@ -327,7 +328,8 @@ PLO and PSO can't be used as there are multiple of them in SES1 and SES3
 <strong>Likelihood of Discovery:</strong> Measurement of difficulty to find certain information</li>
 </ul>
 </li>
-<li>Exploration
+<li>
+<strong>Exploration</strong>
 <ul>
 <li>
 <strong>Total Coverage:</strong> Total number of content pages visited</li>
@@ -337,7 +339,8 @@ PLO and PSO can't be used as there are multiple of them in SES1 and SES3
 <strong>Query diversity:</strong> Measurement of similarity between queries issued</li>
 </ul>
 </li>
-<li>Knowledge Discovery –&gt; Finding useful and relevant information
+<li>
+<strong>Knowledge Discovery</strong> –&gt; Finding useful and relevant information
 <ul>
 <li>
 <strong>Useful Coverage:</strong> Number of pages where users spend a considerable amount of time</li>
@@ -377,6 +380,7 @@ PLO and PSO can't be used as there are multiple of them in SES1 and SES3
 <h3>
 <span class="header-section-number">6.9.1</span> Strategies from Dwell Time (DT)<a class="anchor" aria-label="anchor" href="#strategies-from-dwell-time-dt"><i class="fas fa-link"></i></a>
 </h3>
+<p>Tactics</p>
 <ul>
 <li>Q.{types of reformulations}</li>
 <li>L.{DT categories}</li>
@@ -393,6 +397,7 @@ PLO and PSO can't be used as there are multiple of them in SES1 and SES3
 <h3>
 <span class="header-section-number">6.9.2</span> Strategies from webpage L2 categories<a class="anchor" aria-label="anchor" href="#strategies-from-webpage-l2-categories"><i class="fas fa-link"></i></a>
 </h3>
+<p>Tactics</p>
 <ul>
 <li>Q.{types of reformulations}</li>
 <li>L.{<code>PUB</code> / <code>WEB</code> / <code>X</code>}</li>

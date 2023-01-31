@@ -63,7 +63,7 @@ A major limitation in the area of Search as Learning, Interactive IR (IIR), and 
 that, the user is examined in the short-term, typically over the course of a single experimental session in a lab
 [@kelly2009evaluation; @HCIUXres81_online; @zlatkin2021students; @karapanos2021advances].
 Very few studies exist in the search-as-learning domain that have observed *the same participant* over a longer period of time than a single search session [@kelly2006measuring_a; @kelly2006measuring_b; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
-This ephemeral approach has acute implications in any domain where learning is involved because "learning is a *process* that leads to *change* in knowledge ... (which) unfolds over time" [@ambrose2010howa], and "...does not happen all at once"[@white_2016_iwss_learning].
+This ephemeral approach has acute implications in any domain where learning is involved because "learning is a *process* that leads to *change* in knowledge ... (which) unfolds over time" [@ambrose2010howa], and "...does not happen all at once" [@white_2016_iwss_learning].
 
 **To the best of the author's knowledge, almost no new longitudinal studies were reported in major search-as-learning literature in the last five years, that systematically studied students' information search behaviour and information-use over the long term, in their *in-situ* naturalistic environment and contexts, and linked those behaviours quantitatively to the students' learning outcomes and individual differences.**
 

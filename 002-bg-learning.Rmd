@@ -312,7 +312,7 @@ works. Because learners bring their own views, outlooks, and
 experiences, the knowledge artefact they create is often uniquely voiced
 instead of a templated "correct" response [@amina2017active].
 
-> Learners become **active knowledge producers** (for instance, project-based learning, using multiple knowledge sources, and research based knowledge making), and not merely knowledge consumers (as exemplified in the 'transmission' pedagogies of traditional textbook learning or e-learning focused on video or e-textbook delivery). Active knowledge making practices underpin contemporary emphases on innovation, creativity and problem solving, which are quintessential 'knowledge economy' and 'knowledge society' attributes.
+> *Learners become **active knowledge producers** (for instance, project-based learning, using multiple knowledge sources, and research based knowledge making), and not merely knowledge consumers (as exemplified in the 'transmission' pedagogies of traditional textbook learning or e-learning focused on video or e-textbook delivery). Active knowledge making practices underpin contemporary emphases on innovation, creativity and problem solving, which are quintessential 'knowledge economy' and 'knowledge society' attributes.*
 > `r nb_blockquote_author('--- @cope2017elearningc')`
 >
 
@@ -410,12 +410,12 @@ evaluate digital content, from the perspectives of professional fact
 checkers.
 
 The purview of the *Civic Online Reasoning* curriculum is more targeted
-than the expansive fields of media and digital literacy[^7], (which can
-embrace topics ranging from cyberbullying to identity theft). Civic
-Online Reasoning focuses squarely on how to sort fact from fiction
+than the expansive fields of media and digital literacy ^[
+    *"Digital literacy describes a holistic approach to cultivating skills that allow people to participate meaningfully in online communities, interpret the changing digital landscape, understand the relationships between systemic -isms and information, and unlock the power of digital tools for good. This includes media literacy. Terms like critical media literacy, media literacy, news literacy, and more are not necessarily interchangeable."* -- @collins2021reimagining
+], (which can embrace topics ranging from cyberbullying to identity theft). 
+Civic Online Reasoning focuses squarely on how to sort fact from fiction
 online, a prerequisite for responsible civic engagement in the
-twenty-first century
-[@breakstone2021students; @kahne2012digital; @mihailidis2013media].
+twenty-first century [@breakstone2021students; @kahne2012digital; @mihailidis2013media].
 
 ## Promoting Better Learning {#sec-bg-learn-promoting-learning}
 
@@ -493,17 +493,9 @@ reference="tab-metacognition-components"}.
 developed the **Metacognitive Awareness Inventory** (MAI) survey and a
 scoring guide to measure these self-reported components and subprocesses
 of metacognition. The original survey consists of 52 true/false
-questions (Appendix \@ref(app-mai)), such as "I consider several alternatives to a
-problem before I answer", "I understand my intellectual strengths and
-weaknesses", "I have control over how well I learn", and "I change
-strategies when I fail to understand". The instrument has been widely
-used in research, and has its reliability and validity measures
-available. Later, @terlecki2018call proposed a revised version of the
-MAI, using five-point Likert-scales, ranging from "I never do this" to
-"I do this always". They argue that when measuring change in
-metacognition over time, the Likert-scale based 'how often' questions
-are more effective than dichotomous 'Yes/No' questions
-[@terlecki2018call; @terlecki2020revising].
+questions (Appendix \@ref(app-mai)), such as "*I consider several alternatives to a problem before I answer*", "*I understand my intellectual strengths and weaknesses*", "*I have control over how well I learn", and "I change strategies when I fail to understand*".
+The instrument has been widely used in research, and has its reliability and validity measures available. Later, @terlecki2018call proposed a revised version of the MAI, using five-point Likert-scales, ranging from "*I never do this*" to "*I do this always*".
+They argue that when measuring change in metacognition over time, the Likert-scale based 'how often' questions are more effective than dichotomous 'Yes/No' questions [@terlecki2018call; @terlecki2020revising].
 
 ### Motivation
 
@@ -514,7 +506,7 @@ Self-Determination Theory (SDT). Figure adapted from
 ](figs/sdt-components.pdf){#fig-sdt-components width="\\linewidth"} 
 -->
 
-<!--
+
 **Motivation** is the process that initiates, guides, and maintains
 goal-oriented behaviours [@cherry2020what]. The **Self-Determination
 Theory** (SDT) represents a broad framework for the study of human
@@ -528,14 +520,13 @@ motivation** is engaging in a task or behaviour for the rewards
 *outside* the task or behaviour, such as receiving rewards, avoidance of
 punishment, gaining social approval, or achievement of a valued result.
 Extrinsic motivation is on a continuum from less stable to more stable,
-as illustrated in Figure [1.3](#fig-sdt-components){reference-type="ref"
-reference="fig-sdt-components"}. Extrinsic motivation does not last
+as illustrated in Figure \@ref(fig-sdt-components). 
+Extrinsic motivation does not last
 unless the rewards and punishments are explicitly visible
 [@tahamtan2019effect; @deci2013intrinsic; @ryan2000self].
 
 [@ryan1982control] proposed the **Intrinsic Motivation Inventory** (IMI)
-(Appendix [\[app-imi\]](#app-imi){reference-type="ref"
-reference="app-imi"}), a multidimensional questionnaire intended to
+(Appendix \@ref(app-imi), a multidimensional questionnaire intended to
 assess participants' subjective experience related to a target activity
 in laboratory experiments. The instrument assesses participants'
 interest/enjoyment, perceived competence, effort, value/usefulness, felt
@@ -575,7 +566,7 @@ Although this model was developed specifically to study addictive
 behaviours, the self-regulatory processes it describes are meant to be
 general principles of behavioural self-control. [@brown1999self]
 developed the **Self-Regulation Questionnaire** (SRQ) (Appendix
-[\[app-srq\]](#app-srq){reference-type="ref" reference="app-srq"}) to
+\@ref(app-srq)) to
 assess these self-regulatory processes through self-report. The items
 were developed to mark each of the seven sub-processes of the
 [@miller1991self] model, forming seven subscales of the SRQ. The 63-item
@@ -604,14 +595,15 @@ which students are "metacognitively, motivationally, and behaviourally
 active participants in their own learning process" [@zimmerman1989social
 p.329].
 
+<!-- 
 ![ Self-directed learning vs. self-regulated learning, as illustrated by
 [@saks2014distinguishing]. ](figs/sdl-v-srl.pdf){#fig-sdl-v-srl
-width="0.8\\linewidth"}
+width="0.8\\linewidth"} 
+-->
 
 Often used interchangeably, self-directed learning (SDL) and
 self-regulated learning (SRL) have some important similarities and
-differences (Figure [1.4](#fig-sdl-v-srl){reference-type="ref"
-reference="fig-sdl-v-srl"}) [@saks2014distinguishing]. SDL, originating
+differences (Figure \@ref(fig-sdl-v-srl)) [@saks2014distinguishing]. SDL, originating
 from adult education, is a broader, macro-level construct, and is
 usually practised outside the traditional school environment. The
 self-directed learner is free to design their own learning environment,
@@ -622,17 +614,19 @@ environment. Learners do not have as much freedom as in SDL. The
 instructor or facilitator often defines the learning task and the
 learning goals. Self-directed learning may include self-regulated
 learning, but the converse is not true
-[@jossberger2010challenge; @loyens2008selfdirected]. In other words, *"a
-self-directed learner is supposed to self-regulate, but a self-regulated
-learner may not self-direct"* [@saks2014distinguishing]. Despite their
+[@jossberger2010challenge; @loyens2008selfdirected]. In other words, *"a self-directed learner is supposed to self-regulate, but a self-regulated learner may not self-direct"* [@saks2014distinguishing]. Despite their
 differences, SDL and SRL share key similarities
-[@saks2014distinguishing]. First, both can be seen in two dimensions:
+[@saks2014distinguishing]. 
+First, both can be seen in two dimensions:
 *(i)* *external* to the learner, as a process or series of events, and
-*(ii)* *internal* to the learner, arising from the learner's
-personality, aptitude, and individual differences. Second, both the
-learning processes have four key phases: *(i)* defining tasks, *(ii)*
-setting goals and planning, *(iii)* enacting strategies, and *(iv)*
-monitoring and reflecting. Third, both SDL and SRL require active
+*(ii)* *internal* to the learner, arising from the learner's personality, aptitude, and individual differences. 
+Second, both the
+learning processes have four key phases: 
+*(i)* defining tasks, 
+*(ii)* setting goals and planning, 
+*(iii)* enacting strategies, and 
+*(iv)* monitoring and reflecting. 
+Third, both SDL and SRL require active
 participation, goal-directed behaviour, metacognition, and intrinsic
 motivation.
 
@@ -673,13 +667,3 @@ In the next chapter, we look at relevant literature from the Information
 Sciences and Interactive Information Retrieval disciplines.
 
 
-
-
-[^7]: "Digital literacy describes a holistic approach to cultivating
-    skills that allow people to participate meaningfully in online
-    communities, interpret the changing digital landscape, understand
-    the relationships between systemic -isms and information, and unlock
-    the power of digital tools for good. This includes media literacy.
-    Terms like critical media literacy, media literacy, news literacy,
-    and more are not necessarily interchangeable." --
-    [@collins2021reimagining] -->

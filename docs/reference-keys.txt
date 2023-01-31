@@ -17,6 +17,9 @@ sec-bg-learn-promoting-learning
 sec-bg-learn-articulation
 sec-bg-learn-metacognition
 motivation
+sec-bg-learn-self-regulation
+self-directed-and-self-regulated-learning
+sec-bg-learn-summary
 ch_bg_search
 research-questions-and-hypotheses
 methods-longitudinal-study
