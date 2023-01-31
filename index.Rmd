@@ -38,6 +38,8 @@ date: "`r format(Sys.time(), '%Y-%m-%d')`"
 # that is availble in the "cover page" of welcome HTML
 date-after-submission: "`r format(Sys.time(), '%Y-%m-%d %H:%M:%S')` CST"
 
+# for PDF:
+
 
 acknowledgements: |
   `r paste(readLines("front-and-back-matter/_acknowledgements.Rmd"), collapse = '\n  ')`
@@ -116,12 +118,12 @@ border-around-links: false # false = links have colored text; true = links have 
 # Set the link text/border coloring here, in RGB. 
 # If printing a physical version of your thesis, you'll want to comment out all of these.
 urlcolor-rgb: "0,0,139"     # web addresses
-citecolor-rgb: "0,33,71"    # citations
+citecolor-rgb: "197,75,140"    # citations: mulberry
 linkcolor-rgb: "0,0,139"    # links to sections in your thesis
 
 # Make page number, not text, be link in TOC, LOF, and LOT. Otherwise, section link
 # highlighting may look a bit excessive.
-toc-link-page-numbers: true
+# toc-link-page-numbers: false
 
 ### binding / margins ###
 page-layout: nobind #'nobind' for equal margins (PDF output), 'twoside' for two-sided binding (mirror margins and blank pages), leave blank for one-sided binding (left margin > right margin)

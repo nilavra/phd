@@ -19,20 +19,16 @@ The research questions are first stated in this section, to put them all
 together in one place for easy reference. Then the overarching
 hypotheses are discussed in Section \@ref(sec-rq-hypotheses).
 
-> **RQ1:** What kind of longitudinal information search behaviours are
-> correlated to the degree of change in students' knowledge levels and
-> learning outcomes?
->
-> **RQ2:** What are the similarities and differences in information
-> search behaviours for tasks where the learning goals are new (new
-> search tasks), versus those where the learning goals are repeated
-> (repeated search tasks)?
->
-> **RQ3:** How does externalisation and articulation affect students'
-> learning outcomes and experiences during search?
->
-> **RQ4:** How do (changing) individual differences of students moderate
-> their information search behaviours and learning outcomes?
+> **RQ1:** *What kind of longitudinal information search behaviours are correlated to the degree of change in students' knowledge levels and learning outcomes?*
+\
+\
+> **RQ2:** *What are the similarities and differences in information search behaviours for tasks where the learning goals are new (new search tasks), versus those where the learning goals are repeated (repeated search tasks)?*
+\
+\
+> **RQ3:** *How does externalisation and articulation affect students' learning outcomes and experiences during search?*
+\
+\
+> **RQ4:** *How do (changing) individual differences of students moderate their information search behaviours and learning outcomes?*
 
 ## Overarching Hypotheses {#sec-rq-hypotheses}
 

@@ -32,12 +32,14 @@
 
 
 %%%%% ADDING LATEX PACKAGES
-% add hyperref package with options from YAML %
-\usepackage[pdfpagelabels]{hyperref}
+
 % handle long urls
 \usepackage{xurl}
+
 % change the default coloring of links to something sensible
-\usepackage{xcolor}
+% NB: no need to import xcolor again; already imported in .cls file
+% \usepackage[dvipsnames]{xcolor}
+
 % single double and other spacing
 \usepackage{setspace}
 
@@ -51,20 +53,35 @@
 % \newfontface\dispnamefont{kalpurush.ttf}
 % don't use Tiro Bangla; messes up juktakkhors
 
-
-\definecolor{mylinkcolor}{RGB}{0,0,139}
-\definecolor{myurlcolor}{RGB}{0,0,139}
-\definecolor{mycitecolor}{RGB}{0,33,71}
+% add hyperref package with options from YAML %
+\usepackage[pdfpagelabels]{hyperref}
 
 \hypersetup{
-  hidelinks,
-  colorlinks,
-  linktocpage=true,
-  linkcolor=mylinkcolor,
-  urlcolor=myurlcolor,
-  citecolor=mycitecolor
+    colorlinks=true,
+    linkcolor=BlueViolet, %Mulberry,
+    urlcolor=blue,
+    linktoc=all,
+    pdftitle={LongSAL: A Longitudinal Search as Learning Study With University Students {[}Draft{]}},
+    pdfauthor={Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য},
+    % pdfpagemode=Bookmarks,
+    % filecolor=magenta,
+    % citecolor=blue, % not necessary; pandoc is not using \cite{}, it is converting citations to hyperlinks
 }
 
+% % \definecolor{mylinkcolor}{RGB}{0,0,139}
+% % % \definecolor{myurlcolor}{RGB}{0,0,139}
+% % % \definecolor{mycitecolor}{RGB}{197,75,140}
+% 
+% % \hypersetup{
+%   hidelinks,
+%   colorlinks,
+%   linktoc=all,
+%   % linktocpage=true,
+%   linkcolor=mylinkcolor,
+%   urlcolor=myurlcolor,
+%   citecolor=mycitecolor
+% }
+% 
 
 % add float package to allow manual control of figure positioning %
 \usepackage{float}
@@ -2117,20 +2134,13 @@ together in one place for easy reference. Then the overarching
 hypotheses are discussed in Section \ref{sec-rq-hypotheses}.
 
 \begin{quote}
-\textbf{RQ1:} What kind of longitudinal information search behaviours are
-correlated to the degree of change in students' knowledge levels and
-learning outcomes?
-
-\textbf{RQ2:} What are the similarities and differences in information
-search behaviours for tasks where the learning goals are new (new
-search tasks), versus those where the learning goals are repeated
-(repeated search tasks)?
-
-\textbf{RQ3:} How does externalisation and articulation affect students'
-learning outcomes and experiences during search?
-
-\textbf{RQ4:} How do (changing) individual differences of students moderate
-their information search behaviours and learning outcomes?
+\textbf{RQ1:} \emph{What kind of longitudinal information search behaviours are correlated to the degree of change in students' knowledge levels and learning outcomes?}\\
+\strut \\
+\textbf{RQ2:} \emph{What are the similarities and differences in information search behaviours for tasks where the learning goals are new (new search tasks), versus those where the learning goals are repeated (repeated search tasks)?}\\
+\strut \\
+\textbf{RQ3:} \emph{How does externalisation and articulation affect students' learning outcomes and experiences during search?}\\
+\strut \\
+\textbf{RQ4:} \emph{How do (changing) individual differences of students moderate their information search behaviours and learning outcomes?}
 \end{quote}
 
 \hypertarget{sec-rq-hypotheses}{%
