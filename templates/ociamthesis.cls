@@ -414,6 +414,22 @@
 \renewcommand*\bibliography[1]{{%
 \renewcommand*\MakeUppercase[1]{##1}\@ldbib{#1}}}
 
+% NB: first load fontspec for Bengali / non-Latin fonts
+% bengali fonts-- need to put them before call to fontspec
+% in .cls file
+% otherwise chapter headings will look odd
+% because fontenc uses the EU encodings
+% whereas fontspec automatically includes newer UTF-8 encodings
+% source: fontspec docs Sec. 3
+% https://texdoc.org/serve/fontspec/0
+% Comment for advanced users: The commands defined by \newfontfamily 
+% (and \newfontface; see next section) include their encoding information, 
+% so even if the document is set to use a legacy TEX encoding, such 
+% commands will still work correctly
+
+\usepackage{fontspec}
+\newfontface\dispnamefont{kalpurush.ttf}
+
 % JEM: for crazy multi character set quotes and Unicode and all
 \usepackage{lmodern}
 \usepackage[LGR,TS1,T1]{fontenc}

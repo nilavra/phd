@@ -41,21 +41,15 @@
 % single double and other spacing
 \usepackage{setspace}
 
-\usepackage{fontspec}    
-\newfontfamily\dispnamefont{kalpurush.ttf}
-% don't use Tiro Bangla; messes up juktakkhors
+% bengali fonts-- need to put them before call to fontspec
+% in .cls file
+% otherwise chapter headings will look odd
+% because fontenc uses the EU encodings
+% whereas fontspec automatically includes newer UTF-8 encodings
 
-% for bengali fonts
-% \babelprovide[import]{bangla}
-% \babelfont[bangla]{rm}{kalpurush.ttf}
-% \usepackage{fontspec} 
-% \usepackage{polyglossia} 
-% \setdefaultlanguage{english} 
-% \setotherlanguages{bengali}
-% \newfontfamily{\bengalifont}[Script=Bengali]{kalpurush.ttf}
-% \setotherlanguages{hindi,sanskrit,bengali}
-% \setmainfont{Times New Roman} 
-% \newfontfamily{\devanagarifont}[Script=Devanagari]{Lohit Devanagari.ttf} 
+% \usepackage{fontspec}    
+% \newfontface\dispnamefont{kalpurush.ttf}
+% don't use Tiro Bangla; messes up juktakkhors
 
 
 $if(linkcolor-rgb)$
@@ -430,8 +424,8 @@ $else$
     {\Large{\textbf{
       $author$\\
       \vspace*{10pt}
-      {\Huge \dispnamefont $author-dispname$}
-    }}}\\
+      {\Huge {\dispnamefont $author-dispname$}}
+    }}}
     
     \vspace*{72pt}
     
@@ -511,8 +505,11 @@ $endif$
   % author + supervisor
   \begin{spacing}{1.4}
     % $author$ $author-dispname$, $degree-suffix$\\
-    $author$ {\dispnamefont $author-dispname$}, $degree-suffix$\\
-    $university$, $degree-year$\\
+    $author$ 
+    {\dispnamefont $author-dispname$}, 
+    $degree-suffix$\\
+    $university$, 
+    $degree-year$\\
     \vspace{18pt}
     Supervisor: $supervisor$
   \end{spacing}

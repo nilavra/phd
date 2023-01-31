@@ -37,6 +37,11 @@ sec-bg-search-longitudinal-studies
 sec-bg-search-sensemaking
 sec-bg-search-summary
 research-questions-and-hypotheses
+sec-rq
+sec-rq-hypotheses
+sec-framework-rq1-rq2
+sec-framework-rq3-rq4
+sec-rq-diss-contributions
 methods-longitudinal-study
 sec-method-exp-design
 apparatus

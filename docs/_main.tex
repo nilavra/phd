@@ -41,21 +41,15 @@
 % single double and other spacing
 \usepackage{setspace}
 
-\usepackage{fontspec}    
-\newfontfamily\dispnamefont{kalpurush.ttf}
-% don't use Tiro Bangla; messes up juktakkhors
+% bengali fonts-- need to put them before call to fontspec
+% in .cls file
+% otherwise chapter headings will look odd
+% because fontenc uses the EU encodings
+% whereas fontspec automatically includes newer UTF-8 encodings
 
-% for bengali fonts
-% \babelprovide[import]{bangla}
-% \babelfont[bangla]{rm}{kalpurush.ttf}
-% \usepackage{fontspec} 
-% \usepackage{polyglossia} 
-% \setdefaultlanguage{english} 
-% \setotherlanguages{bengali}
-% \newfontfamily{\bengalifont}[Script=Bengali]{kalpurush.ttf}
-% \setotherlanguages{hindi,sanskrit,bengali}
-% \setmainfont{Times New Roman} 
-% \newfontfamily{\devanagarifont}[Script=Devanagari]{Lohit Devanagari.ttf} 
+% \usepackage{fontspec}    
+% \newfontface\dispnamefont{kalpurush.ttf}
+% don't use Tiro Bangla; messes up juktakkhors
 
 
 \definecolor{mylinkcolor}{RGB}{0,0,139}
@@ -347,8 +341,8 @@
     {\Large{\textbf{
       Nilavra Bhattacharya\\
       \vspace*{10pt}
-      {\Huge \dispnamefont নীলাভ্র ভট্টাচার্য্য}
-    }}}\\
+      {\Huge {\dispnamefont নীলাভ্র ভট্টাচার্য্য}}
+    }}}
     
     \vspace*{72pt}
     
@@ -416,8 +410,11 @@
   % author + supervisor
   \begin{spacing}{1.4}
     % Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য, PhD TBD\\
-    Nilavra Bhattacharya {\dispnamefont নীলাভ্র ভট্টাচার্য্য}, PhD TBD\\
-    The University of Texas at Austin, 2023\\
+    Nilavra Bhattacharya 
+    {\dispnamefont নীলাভ্র ভট্টাচার্য্য}, 
+    PhD TBD\\
+    The University of Texas at Austin, 
+    2023\\
     \vspace{18pt}
     Supervisor: Jacek Gwizdka
   \end{spacing}
@@ -2089,6 +2086,144 @@ research questions and hypotheses.
 
 \hypertarget{research-questions-and-hypotheses}{%
 \chapter{Research Questions and Hypotheses}\label{research-questions-and-hypotheses}}
+
+\hypertarget{sec-rq}{%
+\section{Research Questions}\label{sec-rq}}
+
+Combining empirical findings and gaps in the literature from the disciplines of Education (Chapter \ref{ch-bg-learn}) and Information (Chapter \ref{ch-bg-search}), we saw that:
+
+\begin{itemize}
+\tightlist
+\item
+  searching for information online is an integral part of new learning (Section \ref{sec-bg-learn-info-eval})
+\item
+  learning happens when students connect new pieces of information to their existing knowledge structures via assimilation, restructuring, or tuning (Section \ref{sec-bg-learn-sensemaking}), and this process is influenced by the learner's individual traits (Section \ref{sec-bg-learn-promoting-learning})
+\item
+  modern knowledge-work requires less of long term memory, and more of creation of knowledge-artefacts, which should be treated as better assessors and outcomes of learning (Section \ref{sec-bg-learn-artefact})
+\item
+  domain expertise and search behaviour are strongly linked (Section \ref{sec-bg-search-expertise})
+\item
+  learning is a process that takes place longitudinally over time (Sections \ref{sec-bg-learn-sensemaking} and \ref{sec-bg-learn-principles}), yet only a handful of studies (mostly over a decade ago) have investigated the intertwined process of searchers' learning and their information searching behaviour over time (Section \ref{sec-bg-search-longitudinal-studies})
+\item
+  this creates acute gaps in our knowledge about long term information searching and learning behaviour, which is crucial for building learning-centric search systems of the future, which can support sensemaking and knowledge-gain
+\end{itemize}
+
+Guided by the above insights, we ask the following research questions in this dissertation proposal, and aim to answer them via a longitudinal study of students' information search behaviour and learning outcomes over the course of a university semester (Section \ref{sec-method-exp-design}). For the purposes of this
+dissertation, we consider learning as change in a student's knowledge
+about certain topics over the duration of a university semester.
+
+The research questions are first stated in this section, to put them all
+together in one place for easy reference. Then the overarching
+hypotheses are discussed in Section \ref{sec-rq-hypotheses}.
+
+\begin{quote}
+\textbf{RQ1:} What kind of longitudinal information search behaviours are
+correlated to the degree of change in students' knowledge levels and
+learning outcomes?
+
+\textbf{RQ2:} What are the similarities and differences in information
+search behaviours for tasks where the learning goals are new (new
+search tasks), versus those where the learning goals are repeated
+(repeated search tasks)?
+
+\textbf{RQ3:} How does externalisation and articulation affect students'
+learning outcomes and experiences during search?
+
+\textbf{RQ4:} How do (changing) individual differences of students moderate
+their information search behaviours and learning outcomes?
+\end{quote}
+
+\hypertarget{sec-rq-hypotheses}{%
+\section{Overarching Hypotheses}\label{sec-rq-hypotheses}}
+
+In this Section, we discuss the research framework and hypotheses behind
+the research questions. The study is primarily planned to be
+exploratory, therefore the hypotheses are exploratory in nature as well.
+
+\hypertarget{sec-framework-rq1-rq2}{%
+\subsection{Learning as Students' Transition from Novice to Expert (RQ1, RQ2)}\label{sec-framework-rq1-rq2}}
+
+Learning and expertise are closely connected: expertise is an evolving
+characteristic of learners that reflects learning over time, rather than
+being a static property (\protect\hyperlink{ref-rieh2016searching}{Rieh et al., 2016}). Domain expertise and
+search behaviour has been studied, albeit mostly during single lab
+sessions, and sometimes longitudinally (Section \ref{sec-bg-search-expertise}). There is a clear gap in
+understanding how higher education students search for information in
+the long term, how their information use behaviour develop over time,
+and how it affects their learning (\protect\hyperlink{ref-zlatkin2021students}{Zlatkin-Troitschanskaia et al., 2021}). RQ1 and RQ2
+aims to address some of these gaps.
+
+\textbf{Hypothesis for RQ1:} Search behaviours described in Table \ref{tab-search-behaviours} will occur both within individual search sessions, and across progressive search sessions recorded over a semester, as domain expertise of students increases (\protect\hyperlink{ref-eickhoff2014lessons}{Eickhoff et al., 2014}).
+
+\textbf{Hypotheses for RQ2:} This research question stems from the idea of lifelong or continuous learning: how do search behaviours evolve over time when gaining knowledge about perpetual life skills (e.g., financial literacy). We hypothesize that
+
+\begin{itemize}
+\tightlist
+\item
+  relevance judgement of previously viewed information on this topic will change over time, as searcher gains more knowledge and expertise
+\item
+  the decision or choice to put effort into searching again, or satisfice with previously found information, will have links to motivation and self-regulation
+\end{itemize}
+
+\hypertarget{sec-framework-rq3-rq4}{%
+\subsection{Promoting Better Learning (RQ3, RQ4)}\label{sec-framework-rq3-rq4}}
+
+Better learning takes place when students articulate and their unformed
+and still developing understanding, and continue to articulate it
+throughout the learning process (Section \ref{sec-bg-learn-articulation}). Also, students' motivation,
+self-regulation and metacognition capabilities determine, direct, and
+sustain the approaches they take to learn (Section \ref{sec-bg-learn-promoting-learning}). Effective searching for
+learning is affected by students' search tactics and information
+evaluation capabilities (Section \ref{sec-bg-learn-info-eval}) as well as cognitive capabilities
+such as memory span (Section \ref{sec-bg-search-expertise}).
+
+\textbf{Hypothesis for RQ3:} articulation during the search as learning
+process (via concurrent think aloud) will lead to better learning (and
+possibly better searching) outcomes, than working silently.
+
+\textbf{Hypotheses for RQ4:} with respect to the individual differences and
+contexts in which students search to learn, we speculate the following
+hypotheses:
+
+\begin{itemize}
+\item
+  students showing sustained or increasing metacognition,
+  self-regulation, and motivation over the duration of the semester
+  will put more ``effort'' into their searches, and demonstrate better
+  learning and search outcomes
+\item
+  students with higher memory span will demonstrate more `branchiness'
+  and parallel browsing in their search behaviour
+\item
+  students with better information evaluation capabilities will
+  demonstrate better learning and search outcomes
+\end{itemize}
+
+\hypertarget{sec-rq-diss-contributions}{%
+\section{Anticipated Contributions}\label{sec-rq-diss-contributions}}
+
+We anticipate by answering the proposed research hypotheses and
+question, the results can greatly contribute to the existing knowledge
+of Interactive Information Retrieval and Educational Sciences in
+general, and Search as Learning in particular. Referring back to some of
+the research agenda advocated by the multiple workshops and journal
+special issues on Search as Learning (Section
+\ref{sec-intro-outline}), our research questions aim to
+investigate \emph{(i)} the contexts in which students search to learn; \emph{(ii)}
+the factors that influence their learning outcomes; and \emph{(iii)} whether
+students are more critical consumers of information.
+
+Many researchers have expressed their concern with the lack of
+longitudinal studies in IIR and related domains
+(\protect\hyperlink{ref-kelly2009evaluation}{Kelly et al., 2009}; \protect\hyperlink{ref-koeman2020hciux}{Koeman, 2020}; \protect\hyperlink{ref-zlatkin2021students}{Zlatkin-Troitschanskaia et al., 2021}). If
+significant relationships were to be found between students' information
+search behaviours and learning outcomes, the results of this
+dissertation can provide great insights and contributions towards \emph{(i)}
+understanding how search behaviours can predict learning outcomes;
+\emph{(ii)} creating reliable measures, methods, and instruments for
+capturing changes in people's knowledge level, learning experiences, and
+learning outcomes (\protect\hyperlink{ref-url-rieh-homepage}{Rieh, 2020}); and \emph{(iii)} developing search
+systems that better support learning and sensemaking.
 
 \hypertarget{methods-longitudinal-study}{%
 \chapter{Methods: Longitudinal Study}\label{methods-longitudinal-study}}
@@ -3972,6 +4107,9 @@ Eickhoff, C., Dungs, S., \& Tran, V. (2015). An eye-tracking study of query refo
 
 \leavevmode\vadjust pre{\hypertarget{ref-eickhoff2017introduction}{}}%
 Eickhoff, C., Gwizdka, J., Hauff, C., \& He, J. (2017). Introduction to the special issue on search as learning. \emph{Information Retrieval Journal}, \emph{20}(5), 399--402.
+
+\leavevmode\vadjust pre{\hypertarget{ref-eickhoff2014lessons}{}}%
+Eickhoff, C., Teevan, J., White, R., \& Dumais, S. (2014). Lessons from the journey: A query log analysis of within-session learning. \emph{Proceedings of the 7th ACM International Conference on Web Search and Data Mining}, 223--232.
 
 \leavevmode\vadjust pre{\hypertarget{ref-freund2013searching}{}}%
 Freund, L., Gwizdka, J., Hansen, P., Kando, N., \& Rieh, S. Y. (2013). From searching to learning. \emph{Evaluation Methodologies in Information Retrieval. Dagstuhl Reports}, \emph{13441}, 102--105.
