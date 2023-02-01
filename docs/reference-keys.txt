@@ -1,4 +1,5 @@
-fig:fig-study-proc-diss
+fig:meaningful-learning
+fig:study-proc
 introduction
 sec-intro-overview
 sec-intro-problem-statement

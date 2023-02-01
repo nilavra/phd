@@ -22,14 +22,21 @@
 
 Insert diagram and check how it looks
 
-(cap-fig-study-proc-diss) Very very very very very very very very long caption.
 
-```{r fig-study-proc-diss, fig.cap = '(cap-fig-study-proc-diss)', fig.scap='Short Caption for LoF', echo=FALSE, out.width='100%', fig.align='center'}
-#knitr::include-graphics("figs/study-procedure-CHI-SRC2.svg")
-nbShowFig("figs/fig-study-proc-diss")
+<!----------- fig:study-proc ----------->
+
+```{r study-proc, fig.scap='(ref:scap-study-proc)', fig.cap = '(ref:cap-study-proc)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/study-proc")
 ```
+<!-- each text reference needs to be their own line / paragraph ! -->
+(ref:scap-study-proc) Longitudinal Study Procedure
 
-Reference it
+(ref:cap-study-proc) Longitudinal Study procedure with long caption containing **bold** and *italic* text, which is not possible from within `R code`.
+
+<!----------- fig:study-proc ----------->
+
+
+Reference it like Figure \@ref(fig:study-proc)
 
 ### SUR1: Entry Survey {#sec-method-sur1}
 

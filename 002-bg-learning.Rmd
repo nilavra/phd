@@ -61,6 +61,18 @@ teacher. "There is a special focus on long-term memory, or retention,
 measurable by the ritual of closed-book, summative examination"
 [@cope2017elearningc].
 
+<!----------- fig:meaningful-learning ----------->
+
+```{r meaningful-learning, fig.scap='(ref:scap-meaningful-learning)', fig.cap = '(ref:cap-meaningful-learning)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/meaningful-learning")
+```
+<!-- each text reference needs to be their own line / paragraph ! -->
+(ref:scap-meaningful-learning) Meaningful learning
+
+(ref:cap-meaningful-learning) Meaningful learning (ake deep learning) as explained by Novak [-@novak2010learninga Fig. 5.3] (annotations our own).
+
+<!----------- fig:meaningful-learning ----------->
+
 <!-- 
 ![image](figs/deep-learning-surface-learning.pdf){width="\\linewidth"}
 
@@ -74,10 +86,7 @@ Cognitive scientists had discovered that learners retain material
 better, and are able to generalize and apply it to a broader range of
 contexts, when they learn **deep knowledge** rather than **surface
 knowledge**, and when they learn how to use that knowledge in real-world
-social and practical settings [@sawyer2005cambridge]. Deep learning ^[
-    of the human kind
-]
-takes place when "the learner chooses conscientiously to integrate new
+social and practical settings [@sawyer2005cambridge]. Deep learning ^[of the human kind] takes place when "the learner chooses conscientiously to integrate new
 knowledge to knowledge that the learner already possesses" and involves
 "substantive, non-arbitrary incorporations of concepts into cognitive
 structure" [@novak2002meaningful p. 549] and may eventually lead to the
@@ -92,9 +101,7 @@ reference="tab-deep-learning-surface-learning"}  -->
 discusses some more
 details on deep or meaningful learning, and the limitations of
 traditional classroom practices to promote deep learning. 
-Figure
-<!-- [1.1](#fig-meaningful-learning){reference-type="ref"
-reference="fig-meaningful-learning"}  -->
+Figure \@ref(fig:meaningful-learning)
 describes (using a concept map) how
 meaningful learning can be achieved and sustained, and our annotations
 highlight how Search-as-learning systems can foster the same.
