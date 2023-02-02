@@ -134,14 +134,20 @@ retrieval, to supporting more complex tasks. In the <strong>cognitive view of
 IR</strong>, which is the broadest, the interactions for obtaining information
 can be between a person and a system, as well as between people, for
 retrieval of information.</p>
-<!-- 
-![ Nested model of information behaviour by [@wilson1999models].
-](figs/wilson-info-behaviour.pdf){#fig-wilson-info-behaviour
-width="0.5\\linewidth"} 
--->
+<!----------- fig:wilson-info-behaviour ----------->
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:wilson-info-behaviour"></span>
+<img src="figs/wilson-info-behaviour.svg" alt="Nested model of information behaviour by T. D. Wilson (1999)." width="50%"><p class="caption">
+Figure 3.1: Nested model of information behaviour by <span class="citation">T. D. Wilson (<a href="#ref-wilson1999models">1999</a>)</span>.
+</p>
+</div>
+<!-- each text reference needs to be their own single paragraph ! -->
+
+
+<!---- fig:wilson-info-behaviour (leave a blank line before this) ------>
 <p>People’s behaviour around information can be modelled as a nested Venn
-diagram as proposed by <span class="citation">(<a href="#ref-wilson1999models">T. D. Wilson, 1999</a>)</span> (Figure
-<a href="#fig-wilson-info-behaviour"><strong>??</strong></a>). <strong>Information behaviour</strong> is
+diagram as proposed by <span class="citation">T. D. Wilson (<a href="#ref-wilson1999models">1999</a>)</span> (Figure
+<a href="ch-bg-search.html#fig:wilson-info-behaviour">3.1</a>). <strong>Information behaviour</strong> is
 the more general field of investigation. <strong>Information-seeking
 behaviour</strong> can be seen as a sub-set of the field, particularly
 concerned with the variety of methods people employ to discover, and
@@ -152,7 +158,7 @@ dissertation, we focus on information search rather than the other two
 higher hierarchical concepts. This is because online IR systems, such as
 search engines or digital libraries, have become the primary source for
 people to obtain information in modern times, and web search is becoming
-ever more pervasive and ubiquitious in our day to day lives.</p>
+ever more pervasive and ubiquitous in our day-to-day lives.</p>
 <p>The field of <strong>interactive information retrieval</strong> (IIR) posits that IR
 systems should operate in the way that good libraries do. Good libraries
 provide both the information a visitor needs, as well as a <em>partner</em> in
@@ -202,18 +208,23 @@ the matter at hand changes.</p>
 <h2>
 <span class="header-section-number">3.2</span> Three-stage Interactions with Online Search Systems<a class="anchor" aria-label="anchor" href="#sec-bg-search-3-stage"><i class="fas fa-link"></i></a>
 </h2>
-<!-- 
-![ Models of information search process, with our coloured annotations
-identifying the three stages.
-](figs/info-search-models.pdf){#fig-info-search-models
-width="\\linewidth"} 
--->
+<!----------- fig:info-search-models ----------->
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:info-search-models"></span>
+<img src="figs/info-search-models.svg" alt="Models of information search process, with our coloured annotations identifying the three stages: (1) query formulation, (2) list-item selection, and (3) item examination." width="100%"><p class="caption">
+Figure 3.2: Models of information search process, with our coloured annotations identifying the three stages: (1) query formulation, (2) list-item selection, and (3) item examination.
+</p>
+</div>
+<!-- each text reference needs to be their own single paragraph ! -->
+
+
+<!---- fig:info-search-models (leave a blank line before this) ------>
 <p>As we saw in the previous section, information search behaviour is the
 (study of) interactions between a user, and digital Information
 Retrieval (IR) systems. The field of Information Science/Studies has
 developed multiple models explaining how information search works
 <span class="citation">(<a href="#ref-wilson1999models">T. D. Wilson, 1999</a>)</span>. A few of them are presented in Figure
-<a href="#fig-info-search-models"><strong>??</strong></a>. Across many of these models, we
+<a href="ch-bg-search.html#fig:info-search-models">3.2</a>. Across many of these models, we
 observe that most major Information Retrieval (IR) systems have three
 fundamental ways of letting users interact with the system, and the
 underlying information: <em>(1)</em> an interface for entering search
@@ -232,11 +243,11 @@ those with web based search systems) can be grouped around these thee
 stages of interactions with search systems:</p>
 <ol style="list-style-type: decimal">
 <li>
-<em>Stage 1:</em> search query formulation / reformulation</li>
+<em>Stage 1:</em> search query (re)formulation</li>
 <li>
-<em>Stage 2:</em> search results evaluation (or source selection)</li>
+<em>Stage 2:</em> list-item selection: search results evaluation (aka source selection)</li>
 <li>
-<em>Stage 3:</em> content page evaluation (or, interacting with sources)</li>
+<em>Stage 3:</em> item examination: content page evaluation (aka interacting with sources)</li>
 </ol>
 <p>The discussions in the following subsections are based around these
 three stages of interactions. The empirical studies discussed below
@@ -265,6 +276,17 @@ query to propose a taxonomy of QRTs, while <span class="citation">C. Liu et al. 
 similar taxonomy focusing more on the linguistic properties of the two
 successive queries. These are compared and contrasted in
 Table <a href="#tab-res-Q-QRT-txnmy"><strong>??</strong></a>.</p>
+<!----------- fig:int-Q ----------->
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:int-Q"></span>
+<img src="figs/int-Q.svg" alt="Investigating user-interactions with queries: (a) Visualizing the distribution of retrieved search results prior to running a query, for helping searchers understand their queries’ effectiveness (Qvarfordt et al., 2013). The visualization is a stacked column chart with ten columns. Each column represents ten search results: first column represents results ranked 1-10, second column represents results 11-20, etc. Individual columns have three divisions, indicating the counts of results that: are already seen by the searcher (dark blue, top), will be re-retrieved, but have not been seen by the searcher (medium blue, middle), and will be newly-retrieved (bright teal blue, bottom). The system evaluates the searcher’s query continuously as it is being typed, and updates the visualization in real-time. (b) Interfaces for examining interactions with query auto-completion (QAC), by (i) Smith et al. (2016), and (ii) Hofmann et al. (2014) (overlaid with heatmaps of eye fixations for all participants). This figure is best viewed in colour." width="100%"><p class="caption">
+Figure 3.3: Investigating user-interactions with queries: <strong>(a)</strong> Visualizing the distribution of retrieved search results prior to running a query, for helping searchers understand their queries’ effectiveness <span class="citation">(<a href="#ref-121">Qvarfordt et al., 2013</a>)</span>. The visualization is a stacked column chart with ten columns. Each column represents ten search results: first column represents results ranked 1-10, second column represents results 11-20, etc. Individual columns have three divisions, indicating the counts of results that: are already seen by the searcher (dark blue, top), will be re-retrieved, but have not been seen by the searcher (medium blue, middle), and will be newly-retrieved (bright teal blue, bottom). The system evaluates the searcher’s query continuously as it is being typed, and updates the visualization in real-time. <strong>(b)</strong> Interfaces for examining interactions with query auto-completion (QAC), by <strong><em>(i)</em></strong> <span class="citation">Smith et al. (<a href="#ref-129">2016</a>)</span>, and <strong><em>(ii)</em></strong> <span class="citation">Hofmann et al. (<a href="#ref-125">2014</a>)</span> (overlaid with heatmaps of eye fixations for all participants). This figure is best viewed in colour.
+</p>
+</div>
+<!-- each text reference needs to be their own single paragraph ! -->
+
+
+<!---- fig:int-Q (leave a blank line before this) ------>
 <!-- 
 ![ Investigating user-interactions with queries: **(a)** Visualizing the
 distribution of retrieved search results prior to running a query, for
@@ -281,7 +303,7 @@ visualization in real-time. **(b)** Interfaces for examining
 interactions with query auto-completion (QAC), by ***(i)*** @129, and
 ***(ii)*** @125 (overlaid with heatmaps of eye fixations for all
 participants). This figure is best viewed in colour.
-](figs/int-Q.pdf){#fig-int-Q width="\\linewidth"} 
+](figs/int-Q.pdf){#fig:int-Q width="\\linewidth"} 
 -->
 <p>Task-type, task-topic, task-goal, and domain-expertise were found to
 influence query reformulation patterns of searchers <span class="citation">(<a href="#ref-127">Eickhoff et al., 2015</a>; <a href="#ref-126">Jiang et al., 2014</a>; <a href="#ref-133">Mao et al., 2018</a>)</span>.
@@ -325,7 +347,7 @@ possible queries to web search users from the moment they start typing a
 query. It is nearly ubiquitous in modern search systems, and is thought
 to reduce physical and cognitive effort when formulating a query. QAC
 suggestions are usually displayed as a list
-(Figure <a href="#fig-int-Q"><strong>??</strong></a>(b)
+(Figure <a href="ch-bg-search.html#fig:int-Q">3.3</a>(b)
 and (c)), and users interact in a variety of ways with the list. <span class="citation">Hofmann et al. (<a href="#ref-125">2014</a>)</span>
 observed a strong position bias among searchers who examined the QAC
 list: the top suggestions received the highest visual attention, even
@@ -365,7 +387,7 @@ common.</p>
 </div>
 <div id="sec-bg-search-list" class="section level3" number="3.2.2">
 <h3>
-<span class="header-section-number">3.2.2</span> Stage 2: Search Results Evaluation / List Item Selection<a class="anchor" aria-label="anchor" href="#sec-bg-search-list"><i class="fas fa-link"></i></a>
+<span class="header-section-number">3.2.2</span> Stage 2: Search Results Evaluation / List-Item Selection<a class="anchor" aria-label="anchor" href="#sec-bg-search-list"><i class="fas fa-link"></i></a>
 </h3>
 <p><em>How do users behave when examining a list of information-objects
 (returned by an IR system)?</em></p>
@@ -380,6 +402,17 @@ themes, as relationships between search behaviour and: <em>(i)</em> ranking of
 search results; <em>(ii)</em> information shown in search results; <em>(iii)</em>
 individual user characteristics; and <em>(iv)</em> relevance judgement and
 feedback.</p>
+<!----------- fig:int-L-serp ----------->
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:int-L-serp"></span>
+<img src="figs/int-L-serp.svg" alt="Example interfaces for studying user-interactions with a search-engine results page (SERP): (a) a simplified SERP without query input facility, to judge relevance of search results (on a 4-level scale) for pre-determined search queries (in this case ‘why do airplanes have differently shaped wings?’), from Scharinger et al. (2016); (b) eye-tracking heatmap on an organic SERP from Buscher et al. (2010; Dumais et al., 2010), showing the F-shaped pattern of visual attention; (c) a multilingual SERP from Ling et al. (2018). This figure is best viewed in colour." width="100%"><p class="caption">
+Figure 3.4: Example interfaces for studying user-interactions with a search-engine results page (SERP): <strong>(a)</strong> a simplified SERP without query input facility, to judge relevance of search results (on a 4-level scale) for pre-determined search queries (in this case ‘why do airplanes have differently shaped wings?’), from <span class="citation">Scharinger et al. (<a href="#ref-63">2016</a>)</span>; <strong>(b)</strong> eye-tracking heatmap on an organic SERP from <span class="citation">Buscher et al. (<a href="#ref-115">2010</a>; <a href="#ref-117">Dumais et al., 2010</a>)</span>, showing the F-shaped pattern of visual attention; <strong>(c)</strong> a multilingual SERP from <span class="citation">Ling et al. (<a href="#ref-132">2018</a>)</span>. This figure is best viewed in colour.
+</p>
+</div>
+<!-- each text reference needs to be their own single paragraph ! -->
+
+
+<!---- fig:int-L-serp (leave a blank line before this) ------>
 <!-- 
 ![ Example interfaces for studying user-interactions with a
 search-engine results page (SERP): **(a)** a simplified SERP without
@@ -388,7 +421,7 @@ scale) for pre-determined search queries (in this case 'why do airplanes
 have differently shaped wings?'), from @63; **(b)** eye-tracking heatmap
 on an organic SERP from @115 [@117], showing the F-shaped pattern of
 visual attention; **(c)** a multilingual SERP from @132. This figure is
-best viewed in colour. ](figs/int-L-serp.pdf){#fig-int-L-serp
+best viewed in colour. ](figs/int-L-serp.pdf){#fig:int-L-serp
 width="\\linewidth"}
 -->
 <div id="ranking-of-search-results" class="section level4" number="3.2.2.1">
@@ -462,7 +495,7 @@ data, they posited that the difference in performance was due to users
 paying more attention to the snippet, and less attention to the URL
 located at the bottom of the search result. This led to performance
 deterioration in navigational searches. <span class="citation">Buscher et al. (<a href="#ref-115">2010</a>)</span> studied the effects of the
-quality of advertisements placed in the SERPs (Figure <a href="#fig-int-L-serp"><strong>??</strong></a>(b)). Similar to findings discussed above, a
+quality of advertisements placed in the SERPs (Figure <a href="ch-bg-search.html#fig:int-L-serp">3.4</a>(b)). Similar to findings discussed above, a
 strong position bias of visual attention was found towards the top few
 organic result entries — the well known F-shaped pattern of visual
 attention — which was stronger for informational than for navigational
@@ -480,7 +513,7 @@ results, and query reformulation time), and some self-reported measures
 However, none of these differences were statistically significant.</p>
 <p>The novel query-preview interface by <span class="citation">Qvarfordt et al. (<a href="#ref-121">2013</a>)</span> was discussed in
 Section <a href="ch-bg-search.html#sec-bg-search-query">3.2.1</a> and in
-Figure <a href="#fig-int-Q"><strong>??</strong></a>(a).
+Figure <a href="ch-bg-search.html#fig:int-Q">3.3</a>(a).
 The authors also reported several observations about user behaviour on
 SERPs. They saw that the presence of the preview visualization enabled
 participants to look deeper into the results lists. Participants tried
@@ -493,22 +526,20 @@ documents found in a search session, which could in turn lead to better
 performance in terms of recall and precision. Thus, the tool helped
 searchers overcome the strong position bias towards top-ranked results,
 as observed by other studies discussed previously.</p>
+<!----------- fig:res-L-serp-user-chars ----------->
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:res-L-serp-user-chars"></span>
+<img src="figs/res-L-serp-user-chars.svg" alt="Effects of differences in user characteristics on interactions with SERPs: (a) exhaustive or depth-first user (User 1), vs. economic or breadth-first user (User 2), examining mostly irrelevant results in Task A, and mostly relevant results in Task B (both users followed the second link in Task B); vertical axis denotes vertical location on SERP, and horizontal axis denotes temporal ordering of result examination; from Aula et al. (2005); (similar patterns were identified by Bilal &amp; Gwizdka (2016), in the SERP examination behaviour of children) (b) children vs. adults examining SERPs from a German search engine for children (left), and Google (right); differently from adults, children exhaustively explored all search results, paid more attention to thumbnails and embedded media, and read less text-only snippets; from Gossen et al. (2014). Similar observations as with children were reported for searchers with dyslexia (Palani et al., 2020). This figure is best viewed in colour." width="100%"><p class="caption">
+Figure 3.5: Effects of differences in user characteristics on interactions with SERPs: <strong>(a)</strong> exhaustive or <em>depth-first</em> user (User 1), vs. economic or <em>breadth-first</em> user (User 2), examining mostly irrelevant results in Task A, and mostly relevant results in Task B (both users followed the second link in Task B); vertical axis denotes vertical location on SERP, and horizontal axis denotes temporal ordering of result examination; from <span class="citation">Aula et al. (<a href="#ref-102">2005</a>)</span>; (similar patterns were identified by <span class="citation">Bilal &amp; Gwizdka (<a href="#ref-139">2016</a>)</span>, in the SERP examination behaviour of children) <strong>(b)</strong> children vs. adults examining SERPs from a German search engine for children (left), and Google (right); differently from adults, children exhaustively explored all search results, paid more attention to thumbnails and embedded media, and read less text-only snippets; from <span class="citation">Gossen et al. (<a href="#ref-124">2014</a>)</span>. Similar observations as with children were reported for searchers with dyslexia <span class="citation">(<a href="#ref-palani2020eye">Palani et al., 2020</a>)</span>. This figure is best viewed in colour.
+</p>
+</div>
+<!-- each text reference needs to be their own single paragraph ! -->
+
+
+<!---- fig:res-L-serp-user-chars (leave a blank line before this) ------>
 <!-- 
-![ Effects of differences in user characteristics on interactions with
-SERPs: **(a)** exhaustive or *depth-first* user (User 1), vs. economic
-or *breadth-first* user (User 2), examining mostly irrelevant results in
-Task A, and mostly relevant results in Task B (both users followed the
-second link in Task B); vertical axis denotes vertical location on SERP,
-and horizontal axis denotes temporal ordering of result examination;
-from @102; (similar patterns were identified by @139, in the SERP
-examination behaviour of children) **(b)** children vs. adults examining
-SERPs from a German search engine for children (left), and Google
-(right); differently from adults, children exhaustively explored all
-search results, paid more attention to thumbnails and embedded media,
-and read less text-only snippets; from @124. Similar observations as
-with children were reported for searchers with dyslexia
-[@palani2020eye]. This figure is best viewed in colour.
-](figs/res-L-serp-user-chars.pdf){#fig-res-L-serp-user-chars
+![ .
+](figs/res-L-serp-user-chars.pdf){#fig:res-L-serp-user-chars
 width="\\linewidth"}
 -->
 </div>
@@ -531,7 +562,7 @@ above the fold, or even scrolled the results page to view all of the
 results, before performing the first action. Thus, economic searchers
 demonstrated depth-first search strategy, while exhaustive users
 favoured the breadth-first approach
-(Figure <a href="#fig-res-L-serp-user-chars"><strong>??</strong></a>(a)). <span class="citation">Dumais et al. (<a href="#ref-117">2010</a>)</span> demonstrated the use of
+(Figure <a href="ch-bg-search.html#fig:res-L-serp-user-chars">3.5</a>(a)). <span class="citation">Dumais et al. (<a href="#ref-117">2010</a>)</span> demonstrated the use of
 unsupervised clustering to re-identify the <em>economic</em>-<em>exhaustive</em> user
 groups, based on differences in total fixation impact <a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;
 a measure derived from eye fixation durations, proposed by &lt;span class="citation"&gt;Buscher et al. (&lt;a href="#ref-110"&gt;2009&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;'><sup>9</sup></a>, scanpaths,
@@ -554,9 +585,10 @@ search results are special</em></strong>, more so for economic users. On submitt
 a ’weak’ query, if economic users did not find a correct result within
 the first three results, they abandoned examination, and reformulated
 their query.</p>
+<!-- also talk about navigators vs explorers, and other such profiles -->
 <p>Age of searchers also influence SERP evaluation behaviour. <span class="citation">Gossen et al. (<a href="#ref-124">2014</a>)</span>
 demonstrated differences in SERP evaluation for children and adults
-(Figure <a href="#fig-res-L-serp-user-chars"><strong>??</strong></a>(b)). When answers were not found
+(Figure <a href="ch-bg-search.html#fig:res-L-serp-user-chars">3.5</a>(b)). When answers were not found
 within the top search results, the adults reformulated the query
 starting a new search, while young users exhaustively explored all the
 ten results, and used the navigation buttons between results pages to
@@ -579,7 +611,7 @@ with children (scrolling further down on SERPs, exhaustive exploration,
 etc.) were also observed recently for searchers with dyslexia
 <span class="citation">(<a href="#ref-palani2020eye">Palani et al., 2020</a>)</span>.</p>
 <p>Searcher’s native language also influenced SERP interaction behaviour
-<span class="citation">(<a href="#ref-132">Ling et al., 2018</a>)</span> (Figure <a href="#fig-int-L-serp"><strong>??</strong></a>(c)). We discussed in
+<span class="citation">(<a href="#ref-132">Ling et al., 2018</a>)</span> (Figure <a href="ch-bg-search.html#fig:int-L-serp">3.4</a>(c)). We discussed in
 Section <a href="ch-bg-search.html#sec-bg-search-query">3.2.1</a> that users strongly preferred issuing
 queries in a single language, especially their native language. However,
 while examining SERPs, they marked search results in both their first
@@ -589,6 +621,17 @@ from multiple languages. However, a clear separation in the language of
 the search results was strongly preferred, and an ‘interleaved’
 presentation (e.g. odd numbered results in one language and even
 numbered results in another language) was least preferred.</p>
+<!----------- fig:int-L-serp-new-vertical ----------->
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:int-L-serp-new-vertical"></span>
+<img src="figs/int-L-serp-new-vertical.svg" alt="Google search engine result page (SERP) for the queries: (a) “coronavirus” (b) “toyota” (c) “evaporation”, and (d) “life of pie”. All screenshots are from ‘above-the-fold’, viewed on a \(2560 \times 1440\) monitor. These examples highlight that modern SERPs have come a long way from a list of “ten blue links”. SERPs are becoming consumable information-objects in their own right, and thus require different kinds of cognitive processing and interactions, than from the early days of the internet. Inspired and adapted from Wang et al. (2018). Accessed on May 5, 2020. This figure is best viewed in colour." width="100%"><p class="caption">
+Figure 3.6: Google search engine result page (SERP) for the queries: <strong>(a)</strong> “coronavirus” <strong>(b)</strong> “toyota” <strong>(c)</strong> “evaporation”, and <strong>(d)</strong> “life of pie”. All screenshots are from ‘above-the-fold’, viewed on a <span class="math inline">\(2560 \times 1440\)</span> monitor. These examples highlight that modern SERPs have come a long way from a list of “ten blue links”. SERPs are becoming consumable information-objects in their own right, and thus require different kinds of cognitive processing and interactions, than from the early days of the internet. Inspired and adapted from <span class="citation">Wang et al. (<a href="#ref-yue2018optimizing">2018</a>)</span>. Accessed on May 5, 2020. This figure is best viewed in colour.
+</p>
+</div>
+<!-- each text reference needs to be their own single paragraph ! -->
+
+
+<!---- fig:int-L-serp-new-vertical (leave a blank line before this) ------>
 <!-- 
 ![ Google search engine result page (SERP) for the queries: **(a)**
 "coronavirus" **(b)** "toyota" **(c)** "evaporation", and **(d)** "life
@@ -600,7 +643,7 @@ different kinds of cognitive processing and interactions, than from the
 early days of the internet. Inspired and adapted from
 [@yue2018optimizing]. Accessed on May 5, 2020. This figure is best
 viewed in colour.
-](figs/int-L-serp-new-vertical.pdf){#fig-int-L-serp-new-vertical
+](figs/int-L-serp-new-vertical.pdf){#fig:int-L-serp-new-vertical
 width="0.93\\linewidth"} 
 -->
 </div>
@@ -619,7 +662,7 @@ relevance criteria (e.g., <em>topicality</em>, <em>quality</em>, <em>recency</em
 <p>Search engines are increasingly adding different modalities of
 information on the SERP, besides the “ten blue links”. These include
 images, videos, encyclopaedic information, and maps
-(Figure <a href="#fig-int-L-serp-new-vertical"><strong>??</strong></a>). <span class="citation">Z. Liu et al. (<a href="#ref-128">2015</a>)</span> studied the influence of
+(Figure <a href="ch-bg-search.html#fig:int-L-serp-new-vertical">3.6</a>). <span class="citation">Z. Liu et al. (<a href="#ref-128">2015</a>)</span> studied the influence of
 these different forms of SERP information – called ‘verticals’ – on
 searcher’s relevance judgements. A general observation was that if
 verticals were present in a SERP, they created strong attraction biases.
@@ -755,6 +798,17 @@ two entries.</p>
 <h2>
 <span class="header-section-number">3.3</span> Effects of Expertise and Working Memory on Search Behaviour<a class="anchor" aria-label="anchor" href="#sec-bg-search-expertise"><i class="fas fa-link"></i></a>
 </h2>
+<!----------- fig:search-behaviours ----------->
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:search-behaviours"></span>
+<img src="figs/search-behaviours.svg" alt="Literature reviews by Rieh et al. (2016) and Vakkari (2016) identified the following search behavioural traits as indicative of domain experts, or novices undergoing learning to become experts." width="100%"><p class="caption">
+Figure 3.7: Literature reviews by Rieh et al. (2016) and Vakkari (2016) identified the following search behavioural traits as indicative of domain experts, or novices undergoing learning to become experts.
+</p>
+</div>
+<!-- each text reference needs to be their own single paragraph ! -->
+
+
+<!---- fig:search-behaviours (leave a blank line before this) ------>
 <!-- 
 ![image](figs/search-behaviours.pdf){width="\\linewidth"} 
 -->
@@ -1249,6 +1303,9 @@ Saracevic, T. (2016). The <span>Notion</span> of <span>Relevance</span> in <span
 <div id="ref-sawyer2005cambridge" class="csl-entry">
 Sawyer, R. K. (2005). <em>The <span>Cambridge</span> handbook of the learning sciences</em>. <span>Cambridge University Press</span>.
 </div>
+<div id="ref-63" class="csl-entry">
+Scharinger, C., Kammerer, Y., &amp; Gerjets, P. (2016). Fixation-<span>Related EEG Frequency Band Power Analysis</span>: <span>A Promising Neuro</span>-<span>Cognitive Methodology</span> to <span>Evaluate</span> the <span>Matching</span>-<span>Quality</span> of <span>Web Search Results</span>? <em><span>HCI International</span> 2016 <span>Posters</span>’ <span>Extended Abstracts</span></em>, 245–250. <a href="https://doi.org/10.1007/978-3-319-40548-3-41">https://doi.org/10.1007/978-3-319-40548-3-41</a>
+</div>
 <div id="ref-simon1956rational" class="csl-entry">
 Simon, H. A. (1956). Rational choice and the structure of the environment. <em>Psychological Review</em>, <em>63</em>(2), 129.
 </div>
@@ -1281,6 +1338,9 @@ Vakkari, P. (2016). Searching as learning: A systematization based on literature
 </div>
 <div id="ref-villa2013relevance" class="csl-entry">
 Villa, R., &amp; Halvey, M. (2013). Is relevance hard work? Evaluating the effort of making relevant assessments. <em>Proceedings of the 36th International ACM SIGIR Conference on Research and Development in Information Retrieval</em>, 765–768.
+</div>
+<div id="ref-yue2018optimizing" class="csl-entry">
+Wang, Y., Yin, D., Jie, L., Wang, P., Yamada, M., Chang, Y., &amp; Mei, Q. (2018). Optimizing whole-page presentation for web search. <em>ACM Trans. Web</em>, <em>12</em>(3). <a href="https://doi.org/10.1145/3204461">https://doi.org/10.1145/3204461</a>
 </div>
 <div id="ref-weber2019informationseeking" class="csl-entry">
 Weber, H., Becker, D., &amp; Hillmert, S. (2019). Information-seeking behaviour and academic success in higher education: Which search strategies matter for grade differences among university students and how does this relevance differ by field of study? <em>Higher Education</em>, <em>77</em>(4), 657–678. <a href="https://doi.org/10.1007/s10734-018-0296-4">https://doi.org/10.1007/s10734-018-0296-4</a>
@@ -1331,7 +1391,7 @@ Zlatkin-Troitschanskaia, O., Hartig, J., Goldhammer, F., &amp; Krstev, J. (2021)
 <li>
 <a class="nav-link" href="#sec-bg-search-3-stage"><span class="header-section-number">3.2</span> Three-stage Interactions with Online Search Systems</a><ul class="nav navbar-nav">
 <li><a class="nav-link" href="#sec-bg-search-query"><span class="header-section-number">3.2.1</span> Stage 1: Query (Re)formulation</a></li>
-<li><a class="nav-link" href="#sec-bg-search-list"><span class="header-section-number">3.2.2</span> Stage 2: Search Results Evaluation / List Item Selection</a></li>
+<li><a class="nav-link" href="#sec-bg-search-list"><span class="header-section-number">3.2.2</span> Stage 2: Search Results Evaluation / List-Item Selection</a></li>
 <li><a class="nav-link" href="#sec-bg-search-content-page"><span class="header-section-number">3.2.3</span> Stage 3: Content Page Evaluation / Item Examination</a></li>
 </ul>
 </li>
@@ -1361,7 +1421,7 @@ Zlatkin-Troitschanskaia, O., Hartig, J., Goldhammer, F., &amp; Krstev, J. (2021)
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]</strong>" was written by Nilavra Bhattacharya. It was last built on 2023-02-01.</p>
+    <p>"<strong>LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]</strong>" was written by Nilavra Bhattacharya. It was last built on 2023-02-02.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

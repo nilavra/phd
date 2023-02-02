@@ -1,4 +1,15 @@
+fig:deep-learning-surface-learning
 fig:meaningful-learning
+fig:metacognition-components
+fig:sdt-components
+fig:sdl-v-srl
+fig:wilson-info-behaviour
+fig:info-search-models
+fig:int-Q
+fig:int-L-serp
+fig:res-L-serp-user-chars
+fig:int-L-serp-new-vertical
+fig:search-behaviours
 fig:study-proc
 introduction
 sec-intro-overview

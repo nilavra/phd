@@ -29,11 +29,11 @@ Insert diagram and check how it looks
 nbShowFig("figs/study-proc")
 ```
 <!-- each text reference needs to be their own line / paragraph ! -->
-(ref:scap-study-proc) Longitudinal Study Procedure
+(ref:scap-study-proc) Longitudinal study procedure.
 
-(ref:cap-study-proc) Longitudinal Study procedure with long caption containing **bold** and *italic* text, which is not possible from within `R code`.
+(ref:cap-study-proc) Longitudinal study procedure with long caption containing **bold** and *italic* text, which is not possible from within `R code`.
 
-<!----------- fig:study-proc ----------->
+<!----------- fig:study-proc (leave a blank line before this) ----------->
 
 
 Reference it like Figure \@ref(fig:study-proc)

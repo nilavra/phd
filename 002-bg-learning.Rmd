@@ -49,6 +49,17 @@ Education concerns itself with the systematic investigation of the ways
 in which humans know and learn. It is the science of "coming to know"
 [@kalantzis2012newa].
 
+<!----------- fig:deep-learning-surface-learning ----------->
+```{r deep-learning-surface-learning, fig.scap='(ref:scap-deep-learning-surface-learning)', fig.cap = '(ref:cap-deep-learning-surface-learning)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/deep-learning-surface-learning")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-deep-learning-surface-learning) Deep learning (of the human kind) versus traditional (also often online) classroom practices. Compiled from @cope2017elearningc and @sawyer2005cambridge.
+
+(ref:scap-deep-learning-surface-learning) Learning knowledge deeply vs. traditional classroom practices.
+
+<!--- fig:deep-learning-surface-learning (leave a blank line before this) ---->
+
 **Pedagogy** describes small sequences of learner activities that
 promote learning in educational settings [@kalantzis2012newa].
 Traditional approaches to (classroom) pedagogy, especially the *didactic
@@ -62,25 +73,16 @@ measurable by the ritual of closed-book, summative examination"
 [@cope2017elearningc].
 
 <!----------- fig:meaningful-learning ----------->
-
 ```{r meaningful-learning, fig.scap='(ref:scap-meaningful-learning)', fig.cap = '(ref:cap-meaningful-learning)',  echo=FALSE, out.width='100%', fig.align='center'}
 nbShowFig("figs/meaningful-learning")
 ```
-<!-- each text reference needs to be their own line / paragraph ! -->
-(ref:scap-meaningful-learning) Meaningful learning
-
+<!-- each text reference needs to be their own single paragraph ! -->
 (ref:cap-meaningful-learning) Meaningful learning (ake deep learning) as explained by Novak [-@novak2010learninga Fig. 5.3] (annotations our own).
 
-<!----------- fig:meaningful-learning ----------->
+(ref:scap-meaningful-learning) Meaningful learning.
 
-<!-- 
-![image](figs/deep-learning-surface-learning.pdf){width="\\linewidth"}
+<!--- fig:meaningful-learning (leave a blank line before this) ----->
 
-![ Meaningful learning (ake deep learning) as explained by
-@novak2010learninga [Fig. 5.3] (annotations our own).
-](figs/meaningful-learning.pdf){#fig-meaningful-learning
-width="0.7\\linewidth"} 
--->
 
 Cognitive scientists had discovered that learners retain material
 better, and are able to generalize and apply it to a broader range of
@@ -94,17 +96,11 @@ development of transferable knowledge and skills. A parallel terminology
 for deep learning [@marton1976qualitative-a; @marton1976qualitative-b]
 is **meaningful learning**
 [@ausubel1968educational; @novak2002meaningful], and they are often
-contrasted with *surface learning* or *rote learning*. 
-Table
-<!-- [\[tab-deep-learning-surface-learning\]](#tab-deep-learning-surface-learning){reference-type="ref"
-reference="tab-deep-learning-surface-learning"}  -->
-discusses some more
-details on deep or meaningful learning, and the limitations of
-traditional classroom practices to promote deep learning. 
-Figure \@ref(fig:meaningful-learning)
-describes (using a concept map) how
-meaningful learning can be achieved and sustained, and our annotations
-highlight how Search-as-learning systems can foster the same.
+contrasted with *surface learning* or *rote learning*.
+Figure \@ref(fig:deep-learning-surface-learning) discusses some more details on deep or meaningful learning, and the limitations of traditional classroom practices to promote deep learning.
+Figure \@ref(fig:meaningful-learning) describes (using a concept map) how meaningful learning can be achieved and sustained, and our annotations highlight how Search-as-learning systems can foster the same.
+
+
 
 ## Principles of Meaningful Learning {#sec-bg-learn-principles}
 
@@ -463,9 +459,17 @@ state is *anomalous* [@belkin1982ask].
 
 ### Metacognition and Reflection {#sec-bg-learn-metacognition}
 
-<!-- 
-![image](figs/metacognition-components.pdf){width="\\linewidth"}
- -->
+<!----------- fig:metacognition-components ----------->
+```{r metacognition-components, fig.scap='(ref:scap-metacognition-components)', fig.cap = '(ref:cap-metacognition-components)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/metacognition-components")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-metacognition-components) Operational definitions and features of the metacognition components, adapted from @schraw1994assessing and @viu2021mai.
+
+(ref:scap-metacognition-components) Components of metacognition.
+
+<!---- fig:metacognition-components (leave a blank line before this) ------>
+
 
 One of the reasons that articulation is so helpful to learning is that
 it promotes *reflection* or *metacognition*. **Metacognition**, commonly
@@ -491,13 +495,9 @@ of cognition** include a number of subprocesses that facilitate the
 been discussed extensively in the literature, including planning,
 information management strategies, comprehension monitoring, debugging
 strategies, and evaluation. The operational definitions of these
-components are described in Table
-<!-- 
-[\[tab-metacognition-components\]](#tab-metacognition-components){reference-type="ref"
-reference="tab-metacognition-components"}.  
--->.
-@schraw1994assessing
-developed the **Metacognitive Awareness Inventory** (MAI) survey and a
+components are described in Figure \@ref(fig:metacognition-components)
+
+@schraw1994assessing developed the **Metacognitive Awareness Inventory** (MAI) survey and a
 scoring guide to measure these self-reported components and subprocesses
 of metacognition. The original survey consists of 52 true/false
 questions (Appendix \@ref(app-mai)), such as "*I consider several alternatives to a problem before I answer*", "*I understand my intellectual strengths and weaknesses*", "*I have control over how well I learn", and "I change strategies when I fail to understand*".
@@ -506,12 +506,16 @@ They argue that when measuring change in metacognition over time, the Likert-sca
 
 ### Motivation
 
-<!-- 
-![ The motivation and self-determination continuum, as proposed by the
-Self-Determination Theory (SDT). Figure adapted from
-[@ryan2000intrinsic; @ryan2000self; @guyan2013improving].
-](figs/sdt-components.pdf){#fig-sdt-components width="\\linewidth"} 
--->
+<!----------- fig:sdt-components ----------->
+```{r sdt-components, fig.scap='(ref:scap-sdt-components)', fig.cap = '(ref:cap-sdt-components)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/sdt-components")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-sdt-components) The motivation and self-determination continuum, as proposed by the Self-Determination Theory (SDT). Figure adapted from @ryan2000intrinsic, @ryan2000self, and @guyan2013improving.
+
+(ref:scap-sdt-components) Motivation and self-determination continuum.
+
+<!---- fig:sdt-components (leave a blank line before this) ------>
 
 
 **Motivation** is the process that initiates, guides, and maintains
@@ -527,7 +531,7 @@ motivation** is engaging in a task or behaviour for the rewards
 *outside* the task or behaviour, such as receiving rewards, avoidance of
 punishment, gaining social approval, or achievement of a valued result.
 Extrinsic motivation is on a continuum from less stable to more stable,
-as illustrated in Figure \@ref(fig-sdt-components). 
+as illustrated in Figure \@ref(fig:sdt-components).
 Extrinsic motivation does not last
 unless the rewards and punishments are explicitly visible
 [@tahamtan2019effect; @deci2013intrinsic; @ryan2000self].
@@ -602,15 +606,21 @@ which students are "metacognitively, motivationally, and behaviourally
 active participants in their own learning process" [@zimmerman1989social
 p.329].
 
-<!-- 
-![ Self-directed learning vs. self-regulated learning, as illustrated by
-[@saks2014distinguishing]. ](figs/sdl-v-srl.pdf){#fig-sdl-v-srl
-width="0.8\\linewidth"} 
--->
+<!----------- fig:sdl-v-srl ----------->
+```{r sdl-v-srl, fig.scap='(ref:scap-sdl-v-srl)', fig.cap = '(ref:cap-sdl-v-srl)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/sdl-v-srl")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-sdl-v-srl) Self-directed learning vs. self-regulated learning, as illustrated by @saks2014distinguishing.
+
+(ref:scap-sdl-v-srl) Self-directed learning vs. self-regulated learning.
+
+<!---- fig:sdl-v-srl (leave a blank line before this) ------>
+
 
 Often used interchangeably, self-directed learning (SDL) and
 self-regulated learning (SRL) have some important similarities and
-differences (Figure \@ref(fig-sdl-v-srl)) [@saks2014distinguishing]. SDL, originating
+differences (Figure \@ref(fig:sdl-v-srl)) [@saks2014distinguishing]. SDL, originating
 from adult education, is a broader, macro-level construct, and is
 usually practised outside the traditional school environment. The
 self-directed learner is free to design their own learning environment,

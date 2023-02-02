@@ -257,13 +257,13 @@ options(tinytex.verbose = TRUE)
 <!-- ---------- NB Util functions -------- -->
 <!-- auto converts between SVG and PDF for web (SVG) and LaTeX (PDF) output -->
 ```{r, include=FALSE}
-nbShowFig <- function(f)
+nbShowFig <- function(filename)
   {if (knitr::is_latex_output())
   {
-    output = xfun::with_ext(f, 'pdf')
-    rsvg::rsvg_pdf(xfun::with_ext(f,'svg'), file=output)
+    output = xfun::with_ext(filename, 'pdf')
+    rsvg::rsvg_pdf(xfun::with_ext(filename,'svg'), file=output)
   } else {
-    output = xfun::with_ext(f, 'svg')
+    output = xfun::with_ext(filename, 'svg')
   }
   knitr::include_graphics(output)
 }
