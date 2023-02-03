@@ -87,12 +87,12 @@ This brings us to the concept of information need. **Information Need**
 is the desire to locate and obtain information to satisfy a conscious or
 unconscious human need. Most search systems of today assume that the
 search query is an accurate representation of a user's information need.
-However, [@belkin1982ask] observed that in many cases, users of search
+However, @belkin1982ask observed that in many cases, users of search
 systems are unable to precisely formulate what they need. They miss some
 vital knowledge to formulate their queries. As humans, we have
 difficulty in asking questions about what we do not know. Belkin called
 this phenomenon as **Anomalous State of Knowledge**, or ASK. Later,
-[@huang2013relevance] identified an exhaustive set of criteria that
+@huang2013relevance identified an exhaustive set of criteria that
 should be considered in order to ideally represent a user's information
 need. These criteria for information need are highly dependent on the
 user context: user attributes, tasks or goals, as well as the situation
@@ -140,9 +140,9 @@ underlying information: *(1)* an interface for entering search
 **queries**; *(2)* an interface for viewing and evaluating a **list** of
 retrieved information-objects, or search results; *(3)* an interface for
 viewing and evaluating **individual information-objects**. For instance,
-[@marchionini1995information]'s ISP model hints at these three
+@marchionini1995information's ISP model hints at these three
 interfaces in the fourth, sixth and seventh stages, namely "formulate
-query", "examine results", and "extract info". [@spink1997study]'s model
+query", "examine results", and "extract info". @spink1997study's model
 of the IR interaction process consists of sequential steps or cycles,
 and each cycle comprises one or more interactive feedback occurrences of
 user input (query), IR system output (list), and user interpretation and
@@ -273,7 +273,7 @@ usage. Total eye-gaze duration was longest when visual attention was
 shared between the QAC suggestions and the actual search query input
 box. Some additional time was probably due to decision making on whether
 to use a QAC suggestion. Typing was faster when a QAC was not used.
-However, the IR system's retrieval performance (measured using NDCG@3),
+However, the IR system's retrieval performance (measured using NDCG\@3),
 was greater when QAC was used. So @129 speculated that the value of
 using QAC suggestions was realized later in the search session by users,
 when they saw a reduction in the number of additional queries needed, or
@@ -589,7 +589,7 @@ width="0.93\\linewidth"}
 <!-- **Relationships between [relevance judgement]{.underline}, and search
 behaviour:** -->
 
-@119, @114 proposed a list of 'relevance criteria' for understanding
+Balatsoukas & Ruthven [-@119;-@114] proposed a list of relevance criteria for understanding
 how searchers evaluate search results, or perform *relevance judgement*.
 These criteria were developed based on literature reviews and their
 empirical findings from eye-tracking studies. The final list contains 15

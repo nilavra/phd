@@ -536,8 +536,8 @@ Extrinsic motivation does not last
 unless the rewards and punishments are explicitly visible
 [@tahamtan2019effect; @deci2013intrinsic; @ryan2000self].
 
-[@ryan1982control] proposed the **Intrinsic Motivation Inventory** (IMI)
-(Appendix \@ref(app-imi), a multidimensional questionnaire intended to
+@ryan1982control proposed the **Intrinsic Motivation Inventory** (IMI)
+(Appendix \@ref(app-imi)), a multidimensional questionnaire intended to
 assess participants' subjective experience related to a target activity
 in laboratory experiments. The instrument assesses participants'
 interest/enjoyment, perceived competence, effort, value/usefulness, felt
@@ -565,7 +565,7 @@ people take on more complex tasks and greater responsibilities for their
 own learning. However, these metacognitive skills tend to fall outside
 the content area of most courses, and therefore, often neglected in
 instruction [@ambrose2010howa p. 191]. Building on the foundational work
-of [@kanfer1970self-a; @kanfer1970self-b], Miller and Brown formulated a
+of @kanfer1970self-a; @kanfer1970self-b, Miller and Brown formulated a
 seven-step model of self-regulation [@miller1991self; @brown1998self].
 In this model, behavioural self-regulation may falter because of failure
 or deficits at any of these seven steps: *(i)* receiving relevant
@@ -575,12 +575,12 @@ formulating a plan, *(vi)* implementing the plan, and *(vii)* assessing
 the plan's effectiveness (which recycles to steps *(i)* and *(ii)*).
 Although this model was developed specifically to study addictive
 behaviours, the self-regulatory processes it describes are meant to be
-general principles of behavioural self-control. [@brown1999self]
-developed the **Self-Regulation Questionnaire** (SRQ) (Appendix
+general principles of behavioural self-control. 
+@brown1999self developed the **Self-Regulation Questionnaire** (SRQ) (Appendix
 \@ref(app-srq)) to
 assess these self-regulatory processes through self-report. The items
 were developed to mark each of the seven sub-processes of the
-[@miller1991self] model, forming seven subscales of the SRQ. The 63-item
+@miller1991self model, forming seven subscales of the SRQ. The 63-item
 scale elicits responses in the form of 5-point Likert scale, ranging
 from strongly disagree to strongly agree. Based on clinical and college
 samples, the authors tentatively recommend a score of 239 and above as
