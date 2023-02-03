@@ -170,7 +170,20 @@ other sources of data to answer research questions.
 
 ### Stage 1: Query (Re)formulation {#sec-bg-search-query}
 
-*How do users behave when submitting search queries (to an IR system)?*
+> *How do users behave when submitting search queries (to an IR system)?*
+
+
+
+<!----------- fig:res-Q-QRT-txnmy ----------->
+```{r res-Q-QRT-txnmy, fig.scap='(ref:scap-res-Q-QRT-txnmy)', fig.cap = '(ref:cap-res-Q-QRT-txnmy)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/res-Q-QRT-txnmy")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-res-Q-QRT-txnmy) Comparison of Query Reformulation Types (QRTs) proposed by @boldi2009dango and @liu2010analysis.
+
+(ref:scap-res-Q-QRT-txnmy) Comparison of Query Reformulation Types (QRTs) proposed in the literature.
+
+<!---- fig:res-Q-QRT-txnmy (leave a blank line before this) ------>
 
 **Query formulation** is the process of composing a search query that
 describes the information need of a searcher. **Query reformulation**
@@ -184,37 +197,7 @@ are called *Query Reformulation Types*, or QRTs. Amongst many other,
 query to propose a taxonomy of QRTs, while @liu2010analysis proposed a
 similar taxonomy focusing more on the linguistic properties of the two
 successive queries. These are compared and contrasted in
-Table \@ref(tab-res-Q-QRT-txnmy).
-
-<!----------- fig:int-Q ----------->
-```{r int-Q, fig.scap='(ref:scap-int-Q)', fig.cap = '(ref:cap-int-Q)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/int-Q")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-int-Q) Investigating user-interactions with queries: **(a)** Visualizing the distribution of retrieved search results prior to running a query, for helping searchers understand their queries' effectiveness [@121]. The visualization is a stacked column chart with ten columns. Each column represents ten search results: first column represents results ranked 1-10, second column represents results 11-20, etc. Individual columns have three divisions, indicating the counts of results that: are already seen by the searcher (dark blue, top), will be re-retrieved, but have not been seen by the searcher (medium blue, middle), and will be newly-retrieved (bright teal blue, bottom). The system evaluates the searcher's query continuously as it is being typed, and updates the visualization in real-time. **(b)** Interfaces for examining interactions with query auto-completion (QAC), by ***(i)*** @129, and ***(ii)*** @125 (overlaid with heatmaps of eye fixations for all participants). This figure is best viewed in colour.
-
-(ref:scap-int-Q) Investigating user-interactions with queries.
-
-<!---- fig:int-Q (leave a blank line before this) ------>
-
-<!-- 
-![ Investigating user-interactions with queries: **(a)** Visualizing the
-distribution of retrieved search results prior to running a query, for
-helping searchers understand their queries' effectiveness [@121]. The
-visualization is a stacked column chart with ten columns. Each column
-represents ten search results: first column represents results ranked
-1-10, second column represents results 11-20, etc. Individual columns
-have three divisions, indicating the counts of results that: are already
-seen by the searcher (dark blue, top), will be re-retrieved, but have
-not been seen by the searcher (medium blue, middle), and will be
-newly-retrieved (bright teal blue, bottom). The system evaluates the
-searcher's query continuously as it is being typed, and updates the
-visualization in real-time. **(b)** Interfaces for examining
-interactions with query auto-completion (QAC), by ***(i)*** @129, and
-***(ii)*** @125 (overlaid with heatmaps of eye fixations for all
-participants). This figure is best viewed in colour.
-](figs/int-Q.pdf){#fig:int-Q width="\\linewidth"} 
--->
+Figure \@ref(fig:res-Q-QRT-txnmy).
 
 
 Task-type, task-topic, task-goal, and domain-expertise were found to
@@ -258,6 +241,18 @@ suggested that domain knowledge and expertise is more important for
 formulating good search queries in highly technical disciplines (e.g.,
 medicine), compared to less technical domains (e.g., politics).
 
+<!----------- fig:int-Q ----------->
+```{r int-Q, fig.scap='(ref:scap-int-Q)', fig.cap = '(ref:cap-int-Q)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/int-Q")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-int-Q) Investigating user-interactions with queries: **(a)** Visualizing the distribution of retrieved search results prior to running a query, for helping searchers understand their queries' effectiveness [@121]. The visualization is a stacked column chart with ten columns. Each column represents ten search results: first column represents results ranked 1-10, second column represents results 11-20, etc. Individual columns have three divisions, indicating the counts of results that: are already seen by the searcher (dark blue, top), will be re-retrieved, but have not been seen by the searcher (medium blue, middle), and will be newly-retrieved (bright teal blue, bottom). The system evaluates the searcher's query continuously as it is being typed, and updates the visualization in real-time. **(b)** Interfaces for examining interactions with query auto-completion (QAC), by ***(i)*** @129, and ***(ii)*** @125 (overlaid with heatmaps of eye fixations for all participants). This figure is best viewed in colour.
+
+(ref:scap-int-Q) Investigating user-interactions with queries.
+
+<!---- fig:int-Q (leave a blank line before this) ------>
+
+
 **Query Auto Completion (QAC)** is a technological feature that suggests
 possible queries to web search users from the moment they start typing a
 query. It is nearly ubiquitous in modern search systems, and is thought
@@ -284,11 +279,23 @@ using QAC suggestions was realized later in the search session by users,
 when they saw a reduction in the number of additional queries needed, or
 an increase in the value of the information found.
 
+<!----------- fig:res-Q-QAC-profiles ----------->
+
+```{r res-Q-QAC-profiles, fig.scap='(ref:scap-res-Q-QAC-profiles)', fig.cap = '(ref:cap-res-Q-QAC-profiles)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/res-Q-QAC-profiles")
+```
+<!-- each text reference needs to be their own line / paragraph ! -->
+(ref:cap-res-Q-QAC-profiles) Comparison of User behaviour profiles identified around Query Auto-Completion (QAC), from eye-tracking data, by @125 and @129.
+
+(ref:scap-res-Q-QAC-profiles) Comparison of User behaviour profiles identified around Query Auto-Completion from eye-tracking data.
+
+<!----------- fig:res-Q-QAC-profiles (leave a blank line before this) ----------->
+
 Several user behavioural profiles were identified by exploring
 associations between visual attention from eye-tracking, search
 interactions from mouse and keyboard activity, and the use of QAC
 suggestions [@125; @129]. These profiles are described in
-Table \@ref(tab-res-Q-QAC-profiles). An interesting, yet common-sense
+Figure \@ref(fig:res-Q-QAC-profiles). An interesting, yet common-sense
 observation was that participants' touch-typing ability greatly
 influenced their interactions with QAC suggestions.
 
@@ -733,7 +740,7 @@ two entries.
 nbShowFig("figs/search-behaviours")
 ```
 <!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-search-behaviours) Literature reviews by Rieh et al. (2016) and Vakkari (2016) identified the following search behavioural traits as indicative of domain experts, or novices undergoing learning to become experts.
+(ref:cap-search-behaviours) Literature reviews by @rieh2016searching and @vakkari2016searching identified the following search behavioural traits as indicative of domain experts, or novices undergoing learning to become experts.
 
 (ref:scap-search-behaviours) Components of metacognition.
 
@@ -765,7 +772,7 @@ Previous work on domain knowledge and expertise have linked ^[and continue to li
 expertise and search behaviour in terms of metrics, behavioural
 patterns, and criteria
 [@white2009characterizing; @133; @o2020role; @cole2013inferring]. A
-representative summary is presented in Table \@ref(tab-search-behaviours), and is adapted from literature
+representative summary is presented in Figure \@ref(fig:search-behaviours), and is adapted from literature
 reviews by [@rieh2016searching] and [@vakkari2016searching]. Briefly,
 [@wildemuth2004effects] showed that novices converge toward the same
 search patterns as experts, as they are exposed to a topic and learn

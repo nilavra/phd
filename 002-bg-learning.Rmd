@@ -73,11 +73,11 @@ measurable by the ritual of closed-book, summative examination"
 [@cope2017elearningc].
 
 <!----------- fig:meaningful-learning ----------->
-```{r meaningful-learning, fig.scap='(ref:scap-meaningful-learning)', fig.cap = '(ref:cap-meaningful-learning)',  echo=FALSE, out.width='100%', fig.align='center'}
+```{r meaningful-learning, fig.scap='(ref:scap-meaningful-learning)', fig.cap = '(ref:cap-meaningful-learning)',  echo=FALSE, out.width='70%', fig.align='center'}
 nbShowFig("figs/meaningful-learning")
 ```
 <!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-meaningful-learning) Meaningful learning (ake deep learning) as explained by Novak [-@novak2010learninga Fig. 5.3] (annotations our own).
+(ref:cap-meaningful-learning) Meaningful learning (aka deep learning) as explained by Novak [-@novak2010learninga Fig. 5.3] (annotations our own).
 
 (ref:scap-meaningful-learning) Meaningful learning.
 
@@ -607,7 +607,7 @@ active participants in their own learning process" [@zimmerman1989social
 p.329].
 
 <!----------- fig:sdl-v-srl ----------->
-```{r sdl-v-srl, fig.scap='(ref:scap-sdl-v-srl)', fig.cap = '(ref:cap-sdl-v-srl)',  echo=FALSE, out.width='100%', fig.align='center'}
+```{r sdl-v-srl, fig.scap='(ref:scap-sdl-v-srl)', fig.cap = '(ref:cap-sdl-v-srl)',  echo=FALSE, out.width='80%', fig.align='center'}
 nbShowFig("figs/sdl-v-srl")
 ```
 <!-- each text reference needs to be their own single paragraph ! -->
