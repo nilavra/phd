@@ -63,7 +63,7 @@ Memory span values normalized by 10, because "*The maximum memory span measurabl
 
 
 
-## Search Behaviour Data Analysis Approach
+## Search Behaviour Data Analysis Framework
 
 From @white2016interactions, Table 2.1 (adapted from Bates, 1989):
 
@@ -138,7 +138,10 @@ Other Ideas
 - `SESSION`: from YASBIL events and `task_id`
   - `start`
   - `end`
+  - not to be confused with SES1, SES2, SES3 etc.
+    - think of a better name?
 - `IDLE`: user stays idle for 1 minute [@taramigkou2018leveraging]
+  - `IDLE` could be PDF reading, or hand note-taking, or truly idle.
 
 
 ## Level 2: Implicit Features for Exploratory Search Process

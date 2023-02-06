@@ -74,7 +74,7 @@ data-analysis
 data-cleaning-and-processing
 url-categorization
 user-characteristics-latent-profiles
-search-behaviour-data-analysis-approach
+search-behaviour-data-analysis-framework
 level-1-moves---query-reformulation
 level-1-moves---dwell-time-dt
 level-1-moves---other-behaviour
