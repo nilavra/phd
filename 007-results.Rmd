@@ -4,6 +4,8 @@
 What about learning??
 What are the measures of learning?
 
+Transition analysis and entropy helps to cover differences in disparate tasks and activities (get text from Qvardford paper)
+
 
 - Also see Yung Sheng's Dissertation
 - think hard about which data component has not been touched / analysed

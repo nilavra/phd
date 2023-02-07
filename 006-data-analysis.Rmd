@@ -140,8 +140,10 @@ Other Ideas
   - `end`
   - not to be confused with SES1, SES2, SES3 etc.
     - think of a better name?
+    - treat IDLE.LONG as new session?
 - `IDLE`: user stays idle for 1 minute [@taramigkou2018leveraging]
   - `IDLE` could be PDF reading, or hand note-taking, or truly idle.
+  - 
 
 
 ## Level 2: Implicit Features for Exploratory Search Process
@@ -202,6 +204,7 @@ Tactics
 - Q.{types of reformulations}
 - L.{DT categories}
 - L.click (only hyperlink clicks)
+- L.HOVER (?) (hover = reading?)
 - I.{DT categories}
 - I.click
 - OTHER.{DT categories}
