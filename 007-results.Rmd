@@ -98,3 +98,7 @@ Other surveys
 ### RQ4: mention here
 
 
+## Quick Check Results (Descriptive)
+
+- which users went beyond page 1 in a SERP?
+- possible to track revisits across SES2a - SES2d?

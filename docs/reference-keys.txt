@@ -83,7 +83,6 @@ level-2-search-tactics-and-strategies
 strategies-from-webpage-l2-categories-only
 strategies-from-webpage-l1-categories-and-dwell-time-dt
 strategies-from-webpage-l2-categories-and-dwell-time-dt
-strategies-combi
 strategies-from-lam2007session
 struggling-vs.-exploring
 navigators-vs.-explorers
@@ -104,6 +103,7 @@ rq1---search-behaviours
 rq2-mention-here
 rq3-mention-here
 rq4-mention-here
+quick-check-results-descriptive
 conclusions-contributions-and-future-work
 research-summary
 summary-of-results

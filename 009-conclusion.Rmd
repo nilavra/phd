@@ -32,6 +32,12 @@ HEATHER:
 - N=16 to N=10
 - Also check anticipated limitations section from proposal
 - Did not assess goodness of fit of whether first order Markov chain is the most appropriate for modelling search tactic transitions
+- did not track revisits across different tasks
+
+Some difficulties:
+
+- opening same URL in 2 different tabs and switching between them for a while before realising one is different from the other
+  - or maybe long webpage (e.g.) book - two tabs at two different locations in webpage
 
 ## Future Work
 

@@ -259,8 +259,6 @@ Tactics (per task)
 
 
 
-### Strategies combi
-
 
 ### Strategies from @lam2007session
 
