@@ -80,8 +80,10 @@ level-1-moves---dwell-time-dt
 level-1-moves---other-behaviour
 level-2-implicit-features-for-exploratory-search-process
 level-2-search-tactics-and-strategies
-strategies-from-dwell-time-dt
-strategies-from-webpage-l2-categories
+strategies-from-webpage-l2-categories-only
+strategies-from-webpage-l1-categories-and-dwell-time-dt
+strategies-from-webpage-l2-categories-and-dwell-time-dt
+strategies-combi
 strategies-from-lam2007session
 struggling-vs.-exploring
 navigators-vs.-explorers

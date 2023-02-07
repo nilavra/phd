@@ -2851,50 +2851,23 @@ Behaviours from \emph{Search Patterns} book
   thrashing
 \end{itemize}
 
-\hypertarget{strategies-from-dwell-time-dt}{%
-\subsection{Strategies from Dwell Time (DT)}\label{strategies-from-dwell-time-dt}}
+\hypertarget{strategies-from-webpage-l2-categories-only}{%
+\subsection{Strategies from webpage L2 categories only}\label{strategies-from-webpage-l2-categories-only}}
 
-\texttt{SES2a} and \texttt{SES2b} have to be combined
+No sense of time. Only events
 
-Tactics
-
-\begin{itemize}
-\tightlist
-\item
-  Q.\{types of reformulations\}
-\item
-  L.\{DT categories\}
-\item
-  L.click (only hyperlink clicks)
-\item
-  L.HOVER (?) (hover = reading?)
-\item
-  I.\{DT categories\}
-\item
-  I.click
-\item
-  OTHER.\{DT categories\}
-\item
-  TAB.\{tab events\}
-\item
-  IDLE
-\item
-  SESSION.\{session events\}
-\end{itemize}
-
-\hypertarget{strategies-from-webpage-l2-categories}{%
-\subsection{Strategies from webpage L2 categories}\label{strategies-from-webpage-l2-categories}}
-
-Tactics
+Tactics (per task)
 
 \begin{itemize}
 \tightlist
+\item
+  TASK.\{START / END\}
 \item
   Q.\{types of reformulations\}
 \item
   L.\{\texttt{PUB} / \texttt{WEB} / \texttt{X}\}
 \item
-  L.click (only hyperlink clicks)
+  L.click (only hyperlink clicks (?))
 \item
   I.\{\texttt{PUB} / \texttt{WEB} / \texttt{ARTICLE} / X\}
 \item
@@ -2904,10 +2877,83 @@ Tactics
 \item
   TAB.\{tab events\}
 \item
-  IDLE
-\item
-  SESSION.\{session events\}
+  IDLE.\{DT categories\}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    IDLE.LONG = change of episode (or session)
+  \end{itemize}
 \end{itemize}
+
+\hypertarget{strategies-from-webpage-l1-categories-and-dwell-time-dt}{%
+\subsection{Strategies from webpage L1 categories and Dwell Time (DT)}\label{strategies-from-webpage-l1-categories-and-dwell-time-dt}}
+
+Tactics (per task)
+
+\begin{itemize}
+\tightlist
+\item
+  TASK.\{START / END\}
+\item
+  Q.\{types of reformulations\}
+\item
+  L.\{DT categories\}
+\item
+  L.click (only hyperlink clicks (?))
+\item
+  I.\{DT categories\}
+\item
+  I.click
+\item
+  OTHER.\{DT categories\}
+\item
+  TAB.\{tab events\}
+\item
+  IDLE.\{DT categories\}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    IDLE.LONG = change of episode (or session)
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{strategies-from-webpage-l2-categories-and-dwell-time-dt}{%
+\subsection{Strategies from webpage L2 categories and Dwell Time (DT)}\label{strategies-from-webpage-l2-categories-and-dwell-time-dt}}
+
+Tactics (per task)
+
+\begin{itemize}
+\tightlist
+\item
+  TASK.\{START / END\}
+\item
+  Q.\{types of reformulations\}
+\item
+  L.\{\texttt{PUB} / \texttt{WEB} / \texttt{X}\}.\{DT categories\}
+\item
+  L.click (only hyperlink clicks (?))
+\item
+  I.\{\texttt{PUB} / \texttt{WEB} / \texttt{ARTICLE} / X\}.\{DT categories\}
+\item
+  I.click
+\item
+  OTHER.\{\texttt{X}\}.\{DT categories\}
+\item
+  TAB.\{tab events\}
+\item
+  IDLE.\{DT categories\}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    IDLE.LONG = change of episode (or session)
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{strategies-combi}{%
+\subsection{Strategies combi}\label{strategies-combi}}
 
 \hypertarget{strategies-from-lam2007session}{%
 \subsection{\texorpdfstring{Strategies from Lam et al. (\protect\hyperlink{ref-lam2007session}{2007})}{Strategies from Lam et al. (2007)}}\label{strategies-from-lam2007session}}
@@ -2927,6 +2973,18 @@ Tactics
     Methodical Results Exploration: S --\textgreater{} X --\textgreater{} S --\textgreater{} X --\textgreater{} S \ldots{}
   \item
     Query Refinement: S --\textgreater{} S --\textgreater{} S --\textgreater{} S \ldots{}
+  \end{itemize}
+\item
+  In our coding:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Short Navigation: QUERY --\textgreater{} non-Query (NQ: L / I / ?)
+  \item
+    Topic Exploration: QUERY --\textgreater{} NQ --\textgreater{} NQ --\textgreater{} NQ --\textgreater{} NQ --\textgreater{} \ldots{}
+  \item
+    etc.
   \end{itemize}
 \item
   Using \texttt{WebNavigation} events and tab switches
@@ -3197,6 +3255,8 @@ HEATHER:
   N=16 to N=10
 \item
   Also check anticipated limitations section from proposal
+\item
+  Did not assess goodness of fit of whether first order Markov chain is the most appropriate for modelling search tactic transitions
 \end{itemize}
 
 \hypertarget{future-work}{%

@@ -195,39 +195,71 @@ Behaviours from *Search Patterns* book
 
 
 
-### Strategies from Dwell Time (DT)
+### Strategies from webpage L2 categories only
 
-`SES2a` and `SES2b` have to be combined
+No sense of time. Only events
 
-Tactics
+Tactics (per task)
 
-- Q.{types of reformulations}
-- L.{DT categories}
-- L.click (only hyperlink clicks)
-- L.HOVER (?) (hover = reading?)
-- I.{DT categories}
-- I.click
-- OTHER.{DT categories}
-- TAB.{tab events}
-- IDLE
-- SESSION.{session events}
-
-
-
-
-### Strategies from webpage L2 categories
-
-Tactics
-
+- TASK.{START / END}
 - Q.{types of reformulations}
 - L.{`PUB` / `WEB` / `X`}
-- L.click (only hyperlink clicks)
+- L.click (only hyperlink clicks (?))
 - I.{`PUB` / `WEB` / `ARTICLE` / X}
 - I.click
 - OTHER.{`X`}
 - TAB.{tab events}
-- IDLE
+- IDLE.{DT categories}
+  - IDLE.LONG = change of episode (or session)
+
+<!-- - SESSION.{session events} -->
+
+
+### Strategies from webpage L1 categories and Dwell Time (DT)
+
+<!-- 
+`SES2a` and `SES2b` have to be combined
+(no: we are calculating per user-task, and taking care of episodes through IDLE time) 
+-->
+
+Tactics (per task)
+
+- TASK.{START / END}
+- Q.{types of reformulations}
+- L.{DT categories}
+- L.click (only hyperlink clicks (?))
+- I.{DT categories}
+- I.click
+- OTHER.{DT categories}
+- TAB.{tab events}
+- IDLE.{DT categories}
+  - IDLE.LONG = change of episode (or session)
+
+
+<!-- 
+- L.HOVER (?) (hover = reading?)
 - SESSION.{session events}
+- -->
+
+
+### Strategies from webpage L2 categories and Dwell Time (DT)
+
+Tactics (per task)
+
+- TASK.{START / END}
+- Q.{types of reformulations}
+- L.{`PUB` / `WEB` / `X`}.{DT categories}
+- L.click (only hyperlink clicks (?))
+- I.{`PUB` / `WEB` / `ARTICLE` / X}.{DT categories}
+- I.click
+- OTHER.{`X`}.{DT categories}
+- TAB.{tab events}
+- IDLE.{DT categories}
+  - IDLE.LONG =  change of episode (or session)
+
+
+
+### Strategies combi
 
 
 ### Strategies from @lam2007session
@@ -237,6 +269,12 @@ Tactics
   - Topic Exploration: S --> X --> X --> X --> X --> ...
   - Methodical Results Exploration: S --> X --> S --> X --> S ...
   - Query Refinement: S --> S --> S --> S ...
+- In our coding:
+  - Short Navigation: QUERY --> non-Query (NQ: L / I / ?)
+  - Topic Exploration: QUERY --> NQ --> NQ --> NQ --> NQ --> ...
+  - etc.
+
+
 - Using `WebNavigation` events and tab switches
 - can do sequential pattern mining as in [@ibanez2022comparison]
   - maximal sequential pattern
