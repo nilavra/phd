@@ -31,7 +31,7 @@ HEATHER:
 - No PDF
 - N=16 to N=10
 - Also check anticipated limitations section from proposal
-- Did not assess goodness of fit of whether first order Markov chain is the most appropriate for modelling search tactic transitions
+- Did not assess goodness of fit of whether first order Markov chain is the most appropriate for modelling search tactic transitions (Besag and Mondal’s (2013) statistical test)
 - did not track revisits across different tasks
 
 Some difficulties:
