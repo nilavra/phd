@@ -235,29 +235,33 @@ PLO and PSO can't be used as there are multiple of them in SES1 and SES3
 </li>
 </ul>
 </div>
-<div id="level-1-moves---dwell-time-dt" class="section level2" number="6.6">
+<div id="level-1-moves---dwell-time-dt---combined-with-url-types" class="section level2" number="6.6">
 <h2>
-<span class="header-section-number">6.6</span> Level 1: Moves - Dwell Time (DT)<a class="anchor" aria-label="anchor" href="#level-1-moves---dwell-time-dt"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.6</span> Level 1: Moves - Dwell Time (DT) - combined with URL types<a class="anchor" aria-label="anchor" href="#level-1-moves---dwell-time-dt---combined-with-url-types"><i class="fas fa-link"></i></a>
 </h2>
+<p>URL type categories</p>
+<ul>
+<li><code>Q</code></li>
+<li><code>L</code></li>
+<li><code>I</code></li>
+<li><code>NOTETAKING</code></li>
+<li><code>LONGSAL</code></li>
+<li>
+<code>?</code> (<code>UNCLASSIFIED</code>)</li>
+</ul>
 <p>Dwell Time categories:</p>
 <ul>
 <li>
-<code>short</code>
+<code>SHORT</code>: 1 - 5 seconds
 <ul>
-<li>1 &lt;= DT &lt;= 5s</li>
 <li>“<em>A time span of less than 5 seconds is a too short period for being able to read a summary and extract information</em>” <span class="citation">(<a href="#ref-he2016beyond">He et al., 2016</a>)</span>.</li>
 </ul>
 </li>
 <li>
-<code>med</code>
-<ul>
-<li>5 &lt; DT &lt;= 30s</li>
-</ul>
-</li>
+<code>MEDIUM</code>: 5 - 30 seconds</li>
 <li>
-<code>long</code>
+<code>LONG</code>: &gt; 30 seconds
 <ul>
-<li>DT &gt; 30s</li>
 <li>from Handehawa’s thesis, and related Shah references</li>
 </ul>
 </li>
@@ -289,41 +293,43 @@ PLO and PSO can't be used as there are multiple of them in SES1 and SES3
 <li>checkout seaborn’s plotting capabilites!</li>
 </ul>
 </div>
-<div id="level-1-moves---other-behaviour" class="section level2" number="6.7">
+<div id="level-1-moves---interactions" class="section level2" number="6.7">
 <h2>
-<span class="header-section-number">6.7</span> Level 1: Moves - Other Behaviour<a class="anchor" aria-label="anchor" href="#level-1-moves---other-behaviour"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.7</span> Level 1: Moves - Interactions<a class="anchor" aria-label="anchor" href="#level-1-moves---interactions"><i class="fas fa-link"></i></a>
 </h2>
+<p>Events</p>
 <ul>
 <li>
 <code>TAB</code>: Parallel Browsing Events
 <ul>
-<li><code>open</code></li>
-<li><code>switch</code></li>
-<li><code>close</code></li>
+<li><code>OPEN</code></li>
+<li><code>SWITCH</code></li>
+<li><code>CLOSE</code></li>
 </ul>
 </li>
 <li>
-<code>SESSION</code>: from YASBIL events and <code>task_id</code>
+<code>TASK</code>: from YASBIL events and <code>task_id</code>
 <ul>
-<li><code>start</code></li>
-<li><code>end</code></li>
-<li>not to be confused with SES1, SES2, SES3 etc.
-<ul>
-<li>think of a better name?</li>
-<li>treat IDLE.LONG as new session?</li>
-</ul>
-</li>
+<li><code>START</code></li>
+<li><code>END</code></li>
 </ul>
 </li>
 <li>
-<code>IDLE</code>: user stays idle for 1 minute <span class="citation">(<a href="#ref-taramigkou2018leveraging">Taramigkou et al., 2018</a>)</span>
+<code>IDLE</code>: user stays idle for &gt;=1 minute <span class="citation">(<a href="#ref-taramigkou2018leveraging">Taramigkou et al., 2018</a>)</span>
 <ul>
 <li>
-<code>IDLE</code> could be PDF reading, or hand note-taking, or truly idle.</li>
+<code>SHORT</code>: 1 - 5mins</li>
 <li>
+<code>MEDIUM</code>: 5 - 30 mins</li>
+<li>
+<code>LONG</code>: &gt;= 30 mins – treat as new session</li>
 </ul>
 </li>
 </ul>
+<p><code>IDLE</code> could be PDF reading, or hand note-taking, or truly idle.</p>
+<!-- - not to be confused with SES1, SES2, SES3 etc.
+    - think of a better name?
+    - treat IDLE.LONG as new session? -->
 </div>
 <div id="level-2-implicit-features-for-exploratory-search-process" class="section level2" number="6.8">
 <h2>
@@ -616,8 +622,8 @@ White, R. (2016a). <em>Interactions with search systems</em>. Cambridge Universi
 <li><a class="nav-link" href="#user-characteristics-latent-profiles"><span class="header-section-number">6.3</span> User characteristics: Latent Profiles</a></li>
 <li><a class="nav-link" href="#search-behaviour-data-analysis-framework"><span class="header-section-number">6.4</span> Search Behaviour Data Analysis Framework</a></li>
 <li><a class="nav-link" href="#level-1-moves---query-reformulation"><span class="header-section-number">6.5</span> Level 1: Moves - Query Reformulation</a></li>
-<li><a class="nav-link" href="#level-1-moves---dwell-time-dt"><span class="header-section-number">6.6</span> Level 1: Moves - Dwell Time (DT)</a></li>
-<li><a class="nav-link" href="#level-1-moves---other-behaviour"><span class="header-section-number">6.7</span> Level 1: Moves - Other Behaviour</a></li>
+<li><a class="nav-link" href="#level-1-moves---dwell-time-dt---combined-with-url-types"><span class="header-section-number">6.6</span> Level 1: Moves - Dwell Time (DT) - combined with URL types</a></li>
+<li><a class="nav-link" href="#level-1-moves---interactions"><span class="header-section-number">6.7</span> Level 1: Moves - Interactions</a></li>
 <li><a class="nav-link" href="#level-2-implicit-features-for-exploratory-search-process"><span class="header-section-number">6.8</span> Level 2: Implicit Features for Exploratory Search Process</a></li>
 <li>
 <a class="nav-link" href="#level-2-search-tactics-and-strategies"><span class="header-section-number">6.9</span> Level 2+: Search Tactics and Strategies</a><ul class="nav navbar-nav">

@@ -85,8 +85,6 @@ From @white2016interactions, Table 2.1 (adapted from Bates, 1989):
 - Yung Sheng's Dissertation
 - [@hassan2014struggling] Table 1
 
-
-
 Measures:
 
 - Number of terms per Query
@@ -101,17 +99,23 @@ Measures:
 
 
 
-## Level 1: Moves - Dwell Time (DT)
+## Level 1: Moves - Dwell Time (DT) - combined with URL types
+
+URL type categories
+
+- `Q`
+- `L`
+- `I`
+- `NOTETAKING`
+- `LONGSAL`
+- `?` (`UNCLASSIFIED`)
 
 Dwell Time categories:
 
-- `short`
-  - 1 <= DT <= 5s
+- `SHORT`: 1 - 5 seconds
   - "*A time span of less than 5 seconds is a too short period for being able to read a summary and extract information*" [@he2016beyond].
-- `med`
-  - 5 < DT <= 30s
-- `long`
-  - DT > 30s
+- `MEDIUM`: 5 - 30 seconds
+- `LONG`: > 30 seconds
   - from Handehawa's thesis, and related Shah references
 
 
@@ -129,21 +133,28 @@ Other Ideas
   - https://seaborn.pydata.org/generated/seaborn.pairplot.html
 - checkout seaborn's plotting capabilites!
 
-## Level 1: Moves - Other Behaviour
+
+## Level 1: Moves - Interactions
+
+Events
 
 - `TAB`: Parallel Browsing Events
-  - `open`
-  - `switch`
-  - `close`
-- `SESSION`: from YASBIL events and `task_id`
-  - `start`
-  - `end`
-  - not to be confused with SES1, SES2, SES3 etc.
+  - `OPEN`
+  - `SWITCH`
+  - `CLOSE`
+- `TASK`: from YASBIL events and `task_id`
+  - `START`
+  - `END`
+- `IDLE`: user stays idle for >=1 minute [@taramigkou2018leveraging]
+  - `SHORT`: 1 - 5mins
+  - `MEDIUM`: 5 - 30 mins
+  - `LONG`: >= 30 mins -- treat as new session
+
+`IDLE` could be PDF reading, or hand note-taking, or truly idle.
+
+<!-- - not to be confused with SES1, SES2, SES3 etc.
     - think of a better name?
-    - treat IDLE.LONG as new session?
-- `IDLE`: user stays idle for 1 minute [@taramigkou2018leveraging]
-  - `IDLE` could be PDF reading, or hand note-taking, or truly idle.
-  - 
+    - treat IDLE.LONG as new session? -->
 
 
 ## Level 2: Implicit Features for Exploratory Search Process

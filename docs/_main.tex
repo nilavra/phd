@@ -2646,38 +2646,46 @@ Measures:
   \end{itemize}
 \end{itemize}
 
-\hypertarget{level-1-moves---dwell-time-dt}{%
-\section{Level 1: Moves - Dwell Time (DT)}\label{level-1-moves---dwell-time-dt}}
+\hypertarget{level-1-moves---dwell-time-dt---combined-with-url-types}{%
+\section{Level 1: Moves - Dwell Time (DT) - combined with URL types}\label{level-1-moves---dwell-time-dt---combined-with-url-types}}
+
+URL type categories
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{Q}
+\item
+  \texttt{L}
+\item
+  \texttt{I}
+\item
+  \texttt{NOTETAKING}
+\item
+  \texttt{LONGSAL}
+\item
+  \texttt{?} (\texttt{UNCLASSIFIED})
+\end{itemize}
 
 Dwell Time categories:
 
 \begin{itemize}
 \tightlist
 \item
-  \texttt{short}
+  \texttt{SHORT}: 1 - 5 seconds
 
   \begin{itemize}
   \tightlist
-  \item
-    1 \textless= DT \textless= 5s
   \item
     ``\emph{A time span of less than 5 seconds is a too short period for being able to read a summary and extract information}'' (\protect\hyperlink{ref-he2016beyond}{He et al., 2016}).
   \end{itemize}
 \item
-  \texttt{med}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    5 \textless{} DT \textless= 30s
-  \end{itemize}
+  \texttt{MEDIUM}: 5 - 30 seconds
 \item
-  \texttt{long}
+  \texttt{LONG}: \textgreater{} 30 seconds
 
   \begin{itemize}
   \tightlist
-  \item
-    DT \textgreater{} 30s
   \item
     from Handehawa's thesis, and related Shah references
   \end{itemize}
@@ -2723,8 +2731,10 @@ Other Ideas
   checkout seaborn's plotting capabilites!
 \end{itemize}
 
-\hypertarget{level-1-moves---other-behaviour}{%
-\section{Level 1: Moves - Other Behaviour}\label{level-1-moves---other-behaviour}}
+\hypertarget{level-1-moves---interactions}{%
+\section{Level 1: Moves - Interactions}\label{level-1-moves---interactions}}
+
+Events
 
 \begin{itemize}
 \tightlist
@@ -2734,42 +2744,37 @@ Other Ideas
   \begin{itemize}
   \tightlist
   \item
-    \texttt{open}
+    \texttt{OPEN}
   \item
-    \texttt{switch}
+    \texttt{SWITCH}
   \item
-    \texttt{close}
+    \texttt{CLOSE}
   \end{itemize}
 \item
-  \texttt{SESSION}: from YASBIL events and \texttt{task\_id}
+  \texttt{TASK}: from YASBIL events and \texttt{task\_id}
 
   \begin{itemize}
   \tightlist
   \item
-    \texttt{start}
+    \texttt{START}
   \item
-    \texttt{end}
-  \item
-    not to be confused with SES1, SES2, SES3 etc.
-
-    \begin{itemize}
-    \tightlist
-    \item
-      think of a better name?
-    \item
-      treat IDLE.LONG as new session?
-    \end{itemize}
+    \texttt{END}
   \end{itemize}
 \item
-  \texttt{IDLE}: user stays idle for 1 minute (\protect\hyperlink{ref-taramigkou2018leveraging}{Taramigkou et al., 2018})
+  \texttt{IDLE}: user stays idle for \textgreater=1 minute (\protect\hyperlink{ref-taramigkou2018leveraging}{Taramigkou et al., 2018})
 
   \begin{itemize}
   \tightlist
   \item
-    \texttt{IDLE} could be PDF reading, or hand note-taking, or truly idle.
+    \texttt{SHORT}: 1 - 5mins
   \item
+    \texttt{MEDIUM}: 5 - 30 mins
+  \item
+    \texttt{LONG}: \textgreater= 30 mins -- treat as new session
   \end{itemize}
 \end{itemize}
+
+\texttt{IDLE} could be PDF reading, or hand note-taking, or truly idle.
 
 \hypertarget{level-2-implicit-features-for-exploratory-search-process}{%
 \section{Level 2: Implicit Features for Exploratory Search Process}\label{level-2-implicit-features-for-exploratory-search-process}}
