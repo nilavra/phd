@@ -103,8 +103,10 @@ Measures:
 
 URL type categories
 
+(`Q` is a web-page type; `QUERY` is a move) 
+
 - `Q`
-  - reform type
+  - BOOK / PUB / WEB / WORD ~~reform type~~
 - `L`
   - `WEB%`
   - `PUB%`
@@ -153,6 +155,8 @@ Other Ideas
 
 Events
 
+- `QUERY`
+  - reformulation types
 - `TAB`: Parallel Browsing Events
   - `OPEN`
   - `SWITCH`
@@ -224,11 +228,13 @@ Behaviours from *Search Patterns* book
 ### Strategies from webpage L2 categories only
 
 No sense of time. Only events
+query is a move, Q is aweb-page type
 
 Tactics (per task)
 
 - TASK.{START / END}
-- Q.{types of reformulations}
+- QUERY.{types of reformulations} 
+- Q.{BOOK / PUB / WEB / WORD}
 - L.{`PUB` / `WEB` / `X`}
 - L.click (only hyperlink clicks (?))
 - I.{`PUB` / `WEB` / `ARTICLE` / X}
