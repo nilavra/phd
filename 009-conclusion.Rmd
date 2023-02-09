@@ -41,6 +41,11 @@ Some difficulties:
 
 ## Future Work
 
+- Bing + ChatGPT, from MSR blogpost:
+  - https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/
+- Google + ChatGPT, from Sundar Pichai
+  - https://blog.google/technology/ai/bard-google-ai-search-updates/
+  - "AI features in Search can distill information to help you see the big picture."
 
 Final feedback:
 P022Pisa said
