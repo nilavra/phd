@@ -48,7 +48,7 @@ the long term, how their information use behaviour develop over time,
 and how it affects their learning [@zlatkin2021students]. RQ1 and RQ2
 aims to address some of these gaps.
 
-**Hypothesis for RQ1:** Search behaviours described in Table \@ref(tab-search-behaviours) will occur both within individual search sessions, and across progressive search sessions recorded over a semester, as domain expertise of students increases [@eickhoff2014lessons].
+**Hypothesis for RQ1:** Search behaviours described in Table \@ref(fig:search-behaviours) will occur both within individual search sessions, and across progressive search sessions recorded over a semester, as domain expertise of students increases [@eickhoff2014lessons].
 
 **Hypotheses for RQ2:** This research question stems from the idea of lifelong or continuous learning: how do search behaviours evolve over time when gaining knowledge about perpetual life skills (e.g., financial literacy). We hypothesize that
 

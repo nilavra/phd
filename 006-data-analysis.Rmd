@@ -104,11 +104,26 @@ Measures:
 URL type categories
 
 - `Q`
+  - reform type
 - `L`
+  - `WEB%`
+  - `PUB%`
+  - `ARTICLE%`
+  - `BOOK%`
+  - `VIDEO%`
+  - `COURSE%`
 - `I`
+  - all subcategories in `L` 
+  - `CITATION%`
+  - `FILE%`
 - `NOTETAKING`
 - `LONGSAL`
 - `?` (`UNCLASSIFIED`)
+
+Separately (as in [@lam2007session])
+- `SEARCH`
+- `LIB`
+- `OTHER`
 
 Dwell Time categories:
 
