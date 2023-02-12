@@ -47,6 +47,14 @@ Some difficulties:
   - https://blog.google/technology/ai/bard-google-ai-search-updates/
   - "AI features in Search can distill information to help you see the big picture."
 
+Contrary opinions_
+- https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web
+  - "When we’re dealing with sequences of words, lossy compression looks smarter than lossless compression."
+  - hallucinations
+- https://abcnews4.com/news/nation-world/experts-warn-dangers-ai-google-microsoft-push-new-chatbots-chatgpt-bard-technology-big-tech-open-ended-questions-responses-alphabet-misinformation-disinformation-internet-new-developments-bing-search-engines
+  - Matt is here
+  - potential to misinformation
+
 Final feedback:
 P022Pisa said
 > *It is great to be able to participate in the research this semester. Using the extension somehow brings me postive feedback and that helps me in study I303. So I wanna say thank you*
