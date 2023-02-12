@@ -19,7 +19,7 @@ knit: (function(input, ...) {
 #####################
 second-language: Bengali
 title: "LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]"
-title-second-language: "লংস্যাল: বিশ্ববিদ্যালয় শিক্ষার্থীদের ইনটারনেটে তথ্য অনুসন্ধানের সাহায্যে জ্ঞানলাভ বোঝার জন্য একটি অনুদৈর্ঘ্য গবেষণা [খসড়া]"
+title-second-language: "লংস্যাল: ইন্টারনেটে তথ্য অনুসন্ধানের মাধ্যমে শিক্ষার্থীদের জ্ঞানলাভ বোঝার জন্য একটি অনুদৈর্ঘ্য গবেষণা [খসড়া]"
 author: Nilavra Bhattacharya
 author-second-language: নীলাভ্র ভট্টাচার্য্য
 description: Work-in-progress eBook of Nilavra's PhD thesis, created using oxforddown template.
