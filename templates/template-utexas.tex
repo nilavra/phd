@@ -43,15 +43,11 @@
 % single double and other spacing
 \usepackage{setspace}
 
-% bengali fonts-- need to put them before call to fontspec
-% in .cls file
+% ----- BENGALI FONTS --- 
+% need to put them before call to fontenc in .cls file
 % otherwise chapter headings will look odd
 % because fontenc uses the EU encodings
 % whereas fontspec automatically includes newer UTF-8 encodings
-
-% \usepackage{fontspec}    
-% \newfontface\dispnamefont{kalpurush.ttf}
-% don't use Tiro Bangla; messes up juktakkhors
 
 % add hyperref package with options from YAML %
 \usepackage[pdfpagelabels]{hyperref}
@@ -62,7 +58,7 @@
     urlcolor=blue,
     linktoc=all,
     pdftitle={$title$},
-    pdfauthor={$author$ $author-dispname$},
+    pdfauthor={$author$ $author-second-language$},
     % pdfpagemode=Bookmarks,
     % filecolor=magenta,
     % citecolor=blue, % not necessary; pandoc is not using \cite{}, it is converting citations to hyperlinks
@@ -442,7 +438,7 @@ $else$
     {\Large{\textbf{
       $author$\\
       \vspace*{10pt}
-      {\Huge {\dispnamefont $author-dispname$}}
+      {\Huge {\secondlanguage $author-second-language$}}
     }}}
     
     \vspace*{72pt}
@@ -522,9 +518,9 @@ $endif$
 
   % author + supervisor
   \begin{spacing}{1.4}
-    % $author$ $author-dispname$, $degree-suffix$\\
+    % $author$ $author-second-language$, $degree-suffix$\\
     $author$ 
-    {\dispnamefont $author-dispname$}, 
+    {\secondlanguage $author-second-language$}, 
     $degree-suffix$\\
     $university$, 
     $degree-year$\\
@@ -541,6 +537,42 @@ $endif$
 \end{spacing}
 
 % --------- end: UTexas abstract -------
+
+% --------- start: UTexas abstract 2nd language -------
+\newpage
+\begin{center}
+  \textbf{\secondlanguage{$abstract-second-language-heading$} (Abstract in $second-language$)}\\
+  
+  \vspace{18pt}
+  
+  % title
+  \begin{spacing}{2}
+    {\Large{\textbf{$title$}}}
+  \end{spacing}
+
+  \vspace{18pt}
+
+  % author + supervisor
+  \begin{spacing}{1.4}
+    % $author$ $author-second-language$, $degree-suffix$\\
+    % $author$ 
+    \secondlanguage{$author-second-language$}, 
+    $degree-suffix$\\
+    $university-second-language$, 
+    $degree-date-second-language$\\
+    \vspace{18pt}
+    $supervisor-second-language$
+  \end{spacing}
+
+\end{center}
+
+\begin{spacing}{1.5}
+  \indent
+  % \indent
+  \secondlanguage{$abstract-second-language$}
+\end{spacing}
+
+% --------- end: UTexas abstract 2nd language -------
 
 $endif$
 

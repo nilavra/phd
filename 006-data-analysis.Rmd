@@ -47,6 +47,9 @@ as per Google Analytics^[https://www.hotjar.com/google-analytics/glossary/sessio
   - `WMC` / memory span:
     - scaling by dividing by 10 (?) (that's the max Coglab would show)
 
+
+What factors are specifically responsible for the transitions or the changes in the Latent profiles at different points in the semester?
+
 <!-- 
   - PLO: perceived learning outcome (/100): 
   - PSO: perceived search outcome (/100)
@@ -60,6 +63,7 @@ Memory span values normalized by 10, because "*The maximum memory span measurabl
 - ~~Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership~~
 - no no; a simple examination of what feature values changed between timepoints will be enough
 - use 2 groups! 2 groups is always better. easier to explain; easier to write.
+
 
 
 

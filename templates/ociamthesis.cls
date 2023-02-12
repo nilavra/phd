@@ -428,7 +428,7 @@
 % commands will still work correctly
 
 \usepackage{fontspec}
-\newfontface\dispnamefont{kalpurush.ttf}
+\newfontface\secondlanguage{kalpurush.ttf}
 
 % JEM: for crazy multi character set quotes and Unicode and all
 \usepackage{lmodern}

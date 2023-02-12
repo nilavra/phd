@@ -17,11 +17,14 @@ knit: (function(input, ...) {
 #####################
 ## thesis metadata ##
 #####################
+second-language: Bengali
 title: "LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]"
+title-second-language: "লংস্যাল: বিশ্ববিদ্যালয় শিক্ষার্থীদের ইনটারনেটে তথ্য অনুসন্ধানের সাহায্যে জ্ঞানলাভ বোঝার জন্য একটি অনুদৈর্ঘ্য গবেষণা [খসড়া]"
 author: Nilavra Bhattacharya
-author-dispname: নীলাভ্র ভট্টাচার্য্য
+author-second-language: নীলাভ্র ভট্টাচার্য্য
 description: Work-in-progress eBook of Nilavra's PhD thesis, created using oxforddown template.
 supervisor: Jacek Gwizdka
+supervisor-second-language: "সুপারভাইজার: ইয়াৎসেক গুইজদকা"
 committee-member-2: Soo-Young Rieh
 committee-member-3: Matthew Lease
 committee-member-4: Robert Capra
@@ -30,8 +33,10 @@ degree: Doctor of Philosophy
 degree-suffix: PhD TBD
 department: Faculty of the Graduate School
 university: The University of Texas at Austin
+university-second-language: টেক্সাস বিশ্ববিদ্যালয়, অস্টিন, মার্কিন যুক্তরাষ্ট্র
 degree-month: May
 degree-year: 2023
+degree-date-second-language: বৈশাখ ১৪৩০ (মে ২০২৩) 
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
 # use the following AFTER submission, 
 # for now, adding seconds creates more number of diffs in output HTML than necessary
@@ -46,8 +51,12 @@ acknowledgements: |
 show-acknowledgements-in-toc: false
 abstract-heading: "Abstract"
 abstract: |
-  `r paste(readLines("front-and-back-matter/_abstract.Rmd"), collapse = "\n  ")`
+  `r paste(readLines("front-and-back-matter/_abstract-main.Rmd"), collapse = "\n  ")`
 show-abstract-in-toc: false
+abstract-second-language: |
+  `r paste(readLines("front-and-back-matter/_abstract-second-language.Rmd"), collapse = "\n  ")`
+
+abstract-second-language-heading: সারসংক্ষেপ
 
 # add a second abstract with abstract-second-heading: "Abstract two", and abstract-second: "My abstract"
 abbreviations: |

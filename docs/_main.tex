@@ -43,15 +43,11 @@
 % single double and other spacing
 \usepackage{setspace}
 
-% bengali fonts-- need to put them before call to fontspec
-% in .cls file
+% ----- BENGALI FONTS --- 
+% need to put them before call to fontenc in .cls file
 % otherwise chapter headings will look odd
 % because fontenc uses the EU encodings
 % whereas fontspec automatically includes newer UTF-8 encodings
-
-% \usepackage{fontspec}    
-% \newfontface\dispnamefont{kalpurush.ttf}
-% don't use Tiro Bangla; messes up juktakkhors
 
 % add hyperref package with options from YAML %
 \usepackage[pdfpagelabels]{hyperref}
@@ -358,7 +354,7 @@
     {\Large{\textbf{
       Nilavra Bhattacharya\\
       \vspace*{10pt}
-      {\Huge {\dispnamefont নীলাভ্র ভট্টাচার্য্য}}
+      {\Huge {\secondlanguage নীলাভ্র ভট্টাচার্য্য}}
     }}}
     
     \vspace*{72pt}
@@ -428,7 +424,7 @@
   \begin{spacing}{1.4}
     % Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য, PhD TBD\\
     Nilavra Bhattacharya 
-    {\dispnamefont নীলাভ্র ভট্টাচার্য্য}, 
+    {\secondlanguage নীলাভ্র ভট্টাচার্য্য}, 
     PhD TBD\\
     The University of Texas at Austin, 
     2023\\
@@ -441,13 +437,9 @@
 \begin{spacing}{1.5}
   \indent
   % \indent
-  \dispnamefont
-
-  \textbf{Jacek suggested writing a Bengali version of the abstract.}
-  আমার পিএইচডি এডভাইসর বললেন যে থিসিস এর সারসংক্ষেপ এর একটা বাংলা সংস্করণ ও লিখতে। উনি ওনার থিসিস এর সারসংক্ষেপ ইংরেজি এবং পোলিশ দুই ভাষায় লিখেছিলেন।
   Learning today is about navigation, discernment, induction, and synthesis of the wide body of information on the Internet present ubiquitously at every student's fingertips.
   Learning, or addressing a gap in one's knowledge, has been well established as an important motivator behind information-seeking activities.
-  The Search as Learning research community advocates that online information search systems should be reconfigured to become educational platforms to foster learning and sensemaking.
+  The Search as Learning research community advocates that online information search systems should be reconfigured to become educational platforms to foster learning and \emph{sensemaking}.
   Modern search systems have yet to adapt to support this function.
   An important step to foster learning during online search is to identify behavioural patterns that distinguish searchers gaining more vs.~less knowledge during search.
   Previous efforts have primarily studied searchers in the short term, typically during a single lab session.
@@ -455,10 +447,47 @@
   In this dissertation, an exploratory longitudinal study was conducted to analyse the long-term searching behaviour of students enrolled in a university course, over the span of a semester.
   Our research aims are to identify if and how students' searching behaviour changes over time, as they gain new knowledge on a subject; and how do processes like motivation, metacognition, self-regulation, and other individual differences moderate their `searching as learning' behaviour.
   Findings from this exploratory longitudinal study will help to build improved search systems that foster human learning and sensemaking, and are more equitable in the face of learner diversity.
-  বাংলা সংস্করণ এর উৎসর্গ: দিদার জন্য (tie back to PhD Statement of Purpose)
 \end{spacing}
 
 % --------- end: UTexas abstract -------
+
+% --------- start: UTexas abstract 2nd language -------
+\newpage
+\begin{center}
+  \textbf{\secondlanguage{সারসংক্ষেপ} (Abstract in Bengali)}\\
+  
+  \vspace{18pt}
+  
+  % title
+  \begin{spacing}{2}
+    {\Large{\textbf{LongSAL: A Longitudinal Search as Learning Study With University Students {[}Draft{]}}}}
+  \end{spacing}
+
+  \vspace{18pt}
+
+  % author + supervisor
+  \begin{spacing}{1.4}
+    % Nilavra Bhattacharya নীলাভ্র ভট্টাচার্য্য, PhD TBD\\
+    % Nilavra Bhattacharya 
+    \secondlanguage{নীলাভ্র ভট্টাচার্য্য}, 
+    PhD TBD\\
+    টেক্সাস বিশ্ববিদ্যালয়, অস্টিন, মার্কিন যুক্তরাষ্ট্র, 
+    বৈশাখ ১৪৩০ (মে ২০২৩)\\
+    \vspace{18pt}
+    সুপারভাইজার: ইয়াৎসেক গুইজদকা
+  \end{spacing}
+
+\end{center}
+
+\begin{spacing}{1.5}
+  \indent
+  % \indent
+  \secondlanguage{আমার পিএইচডি এডভাইসর পরামর্শ দিয়েছেন যে এই থিসিস এর একটি বাংলা ভাসায় সারসংক্ষেপ ও লিখতে। উনি ওনার থিসিস এর সারসংক্ষেপ ইংরেজি এবং পোলিশ দুই ভাষায় লিখেছিলেন।
+থিসিসের প্রথম খসড়া জমা দেওয়ার পরে বাংলা সারসংক্ষেপ টি আরও বিস্তারিতভাবে লেখা হবে।
+বাংলা সংস্করণ এর উৎসর্গ: দিদার জন্য (tie back to PhD Statement of Purpose)}
+\end{spacing}
+
+% --------- end: UTexas abstract 2nd language -------
 
 
 
@@ -2556,6 +2585,8 @@ as per Google Analytics\footnote{\url{https://www.hotjar.com/google-analytics/gl
     \end{itemize}
   \end{itemize}
 \end{itemize}
+
+What factors are specifically responsible for the transitions or the changes in the Latent profiles at different points in the semester?
 
 Memory span values normalized by 10, because ``\emph{The maximum memory span measurable with this experiment is ten}'' as per CogLab output
 
