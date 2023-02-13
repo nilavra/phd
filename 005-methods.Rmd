@@ -1,27 +1,78 @@
-# Methods: Longitudinal Study
+# Methods: LongSAL - the Longitudinal Study
 
-## Study Design {#sec-method-exp-design}
+To investigate the research questions and hypotheses discussed in Section \@ref(sec-rq), we conducted the LongSAL study.
+The following sections discuss the study design, apparatus and procedure.
+
+## Study Design and Participants {#sec-method-exp-design}
+
+LongSAL (Longitudinal Search as Learning study) is a remote, exploratory, longitudinal study that was conducted between January and June 2022 (Spring semester) at the School of Information, University of Texas at Austin (UT Austin).
+
+Participants were recruited from the student pool enrolled in the required undergraduate core-course: *Ethical Foundations for Informatics* [@fleischmann2022i303].
+18 participants originally signed up for the study; 10 participants fully completed all the phases of the study, and the remaining 8 dropped off at different points during the semester.
+Students enrolled in the course had to submit a research paper of 2,000-2,500 words as the final project for the course.
+There were has four checkpoints spread across the semester to submit the drafts in progress: (i) paper proposal, (ii) outline, (iii) rough draft, and (iv) final paper. 
+Writing the research paper required choosing an informatics ethical dilemma, and applying three ethical perspectives covered in the course to explore potential solutions to the selected dilemma.
+This involved searching and navigating information online, finding at least 20 relevant external sources, combining ideas, and weaving a narration around the information found in the selected sources.
+
+
+The study design was informed by running a pilot study during Summer
+2021 semester, in partnership with two courses at UT Austin School of
+Information: *Information in Cyberspace*, and *Academic Success in the
+Digital University*. More details of the pilot study are presented in
+Appendix \@ref(ch-pilot-study). 
+<!-- The final project overview from the *Information in Cyberspace* course is presented in Figure [1.1](#fig-final-project-description){reference-type="ref" reference="fig-final-project-description"}.  -->
+
 
 
 ## Apparatus
 
 ### YASBIL Browsing Logger
 
-### Qualtrics Survey Software
+The YASBIL browsing logger [@bhattacharya2021yasbil] was utilised
+for this study. YASBIL (Yet Another Search Behaviour and Interaction
+Logger)^[https://github.com/LongSAL/yasbil] is a two-component logging solution for ethically recording a
+user's browsing activity for Interactive IR user studies. It was
+developed by the author in early Spring 2021, and was employed in the
+pilot study for data collection and testing. YASBIL comprises a Firefox
+browser extension and a WordPress plugin. The browser extension logs
+browsing activity in the participants' machines. The WordPress plugin
+collects the logged data into the researcher's data server. YASBIL
+captures participant's behavioural data, such as webpage visits, time
+spent on pages, identification of popular search engines and their
+SERPs, 
+<!-- identifying rank of result clicked on SERPs,  -->
+tracking mouse
+clicks and scrolls, and the order and sequences of these events. The
+logging works on any webpage, without the need to own or have knowledge
+about the HTML structure of the webpage. To protect the privacy of
+participants, the logger software can be switched on or off by the participant.
+Participants received regular reminders to turn YASBIL on only when they were searching for information related to the course.
 
-### Zoom Video-conferencing Software
+<!-- and participants will be instructed (and encouraged) to switch on the logger only when they are performing search activities related to the experiment.  -->
+YASBIL offers ethical data transparency and security
+for participants, by enabling them to view and obtain copies of the
+logged data, as well as securely upload the data to the researcher's
+server over an HTTPS connection. Although developed using the
+cross-browser WebExtension API ^[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Build-a-cross-browser-extension], YASBIL
+currently works in the Firefox Web Browser. So participants were
+instructed to install Firefox and YASBIL on their machines when they
+volunteered to participate in the study.
 
 
 
 
-## Search Task Template {#sec-method-search-task-template}
+<!-- ### Qualtrics Survey Software -->
+
+<!-- ### Zoom Video-conferencing Software -->
+
+
+
+
+<!-- ## Search Task Template {#sec-method-search-task-template} -->
 
 
 
 ## Procedure {#sec-method-procedure}
-
-Insert diagram and check how it looks
-
 
 <!----------- fig:study-proc ----------->
 
@@ -35,20 +86,211 @@ nbShowFig("figs/study-proc")
 
 <!----------- fig:study-proc (leave a blank line before this) ----------->
 
+The longitudinal study consisted of six data collection components, as illustrated in Figure \@ref(fig:study-proc).
+They comprise three asynchronous **questionnaires** (QSNR1, QSNR2, QSNR3),
+two **remote synchronous study phases** over Zoom video conferencing software (PHASE1, PHASE3),
+and a set of four asynchronous **longitudinal tracking phases** (PHASE2a, PHASE2b, PHASE2c, PHASE2d).
+These phases are discussed in detail in the following sections.
+<!-- Reference it like Figure \@ref(fig:study-proc) -->
 
-Reference it like Figure \@ref(fig:study-proc)
 
-### SUR1: Entry Survey {#sec-method-sur1}
+### QSNR0: Recruitment Questionnaire {#sec-method-qsnr0}
 
-### SES1: Initial Session
+Participants were recruited for the study via the recruitment questionnaire (QSNR0). The description of the study and the link to the questionnaire was posted in the Canvas Learning Management System used for the I303 course.
 
-### SES2a - SES2d: Longitudinal Tracking Sessions
 
-### SUR2: Mid-Term Survey {#sec-method-sur2}
+### QSNR1: Entry Questionnaire {#sec-method-qsnr1}
 
-### SES3: Final Session
+After recruitment, participants completed the entry questionnaire (QSNR1).
+The purpose of QSNR1 was to capture their individual-differences, or
+moderating variables, at the beginning of the semester.
+Details of the data captured in SUR1 are
+described below, with references to sections in the Appendix, where the
+full-text of the questionnaire can be found.
 
-### SUR3: Exit Survey
+1. **Consent Form:** (Appendix \@ref(app-qsnr-consent-form))
+    The first page of QSNR1 was the
+    online consent form for participating in the study. Participants
+    were able to proceed with the study once they provided informed consent.
+
+1. **Demographics:** (Appendix \@ref(app-qsnr-demographics))
+   demographic information
+
+<!-- 1. **Search and IT proficiency:** (Appendix \@ref(app-qsnr-search-it-proficiency))
+   Captures previous search experience, and proficiency in navigating the web.
+   Some items are
+    adapted from the *Digital Health Literacy Instrument (DHLI)* by
+    [@van2017development], and the *Search Self-Efficacy scale (SSE)* by
+    [@brennan2016factor]. -->
+
+<!-- 2. **Course Load and other engagements:** (Appendix \@ref(app-qsnr-course-load))
+   To determine how busy the participant
+    will be in the semester, and how much time they plan to allocate for
+    the course with which the study is integrated. This will help to
+    establish the learner's context. -->
+
+<!-- 3. **Note-taking Strategies:** (Appendix \@ref(app-qsnr-note-taking))
+    Captures styles and
+    strategies used by participants to take notes. Adapted from
+    *Listening and Note Taking Survey* by
+    [@note-taking-survey-penn-state], and *Note Taking Strategies
+    Inventory* by [@note-taking-strategies-umass]. -->
+
+1. **Motivation:** (Appendix \@ref(app-qsnr-imi))
+    Adapted from the *Intrinsic Motivation Inventory (IMI)* by
+    [@ryan1982control], which is a multidimensional measurement device
+    intended to assess participants' subjective experience related to a
+    target activity (the assignments for the course they are taking).
+    The instrument assesses participants' interest/enjoyment, perceived
+    competence, effort/importance, pressure/tension, perceived choice,
+    and value/usefulness, while performing a given activity, thus
+    yielding six subscale scores. 
+    <!-- Three items in the value/usefulness
+    subscale were completed with contextual information when the
+    study site is finalized.  -->
+    The pressure/tension and the perceived
+    choice components were not included in the entry questionnaire QSNR1, and were
+    present in the mid-term (QSNR2) and exit (QSNR3) questionnaires.
+
+2. **Self-regulation:** (Appendix \@ref(app-qsnr-srq))
+    Adapted from the *Self-Regulation Questionnaire (SRQ)* by
+    [@brown1999self], which assess seven self-regulatory processes
+    through self-report: receiving relevant information, evaluating the
+    information and comparing it to norms, triggering change, searching
+    for options, formulating a plan, implementing the plan, and
+    assessing the plan's effectiveness (Section \@ref(sec-bg-learn-self-regulation)).
+
+3. **Metacognition:** (Appendix \@ref(app-qsnr-mai))
+    Adapted from the *Metacognivite Awareness Inventory (MAI)*,
+    originally proposed by [@schraw1994assessing] as a 52-item true /
+    false questionnaire, and later revised by [@terlecki2018call] to use
+    five-point Likert scales. The instrument measures two components of
+    cognition through self-report: knowledge about cognition, and
+    regulation of cognition (Section \@ref(sec-bg-learn-metacognition)).
+
+After completing QSNR1 offline, participants were instructed to prepare
+for the initial synchronous phase, PHASE1, by 
+installing Firefox web browser and the YASBIL extension on their machines.
+<!-- *(ii)* get a quick introduction to concept maps (by watching a short video),
+*(ii)* familiarizing themselves with the *Sero!* learning platform
+(for creating and assessing concept maps).  -->
+This was a one-time step. 
+If a
+participant could not find the time for this step, they were informed
+that an extra 5-10 minutes would be taken in the beginning of PHASE1 to
+complete this step.
+
+The entry questionnaire and the software installation took about
+10-15 minutes to complete. Participants were compensated with USD 5
+for their time for completing this step. The questionnaire was published to the I-303 course students in
+the first week of the Spring 2022 semester.
+<!-- , and was closed after 18 participants participants have been recruited. -->
+
+
+
+### PHASE1: Initial Phase {#sec-method-phase1}
+
+For the Initial Phase (PHASE1), participants were invited to a
+remote study session over the Zoom video-conferencing platform. The
+purpose of PHASE1 was to establish baseline search
+behaviour and domain knowledge of the participants. The study
+consisted of a training task, two actual search tasks, one website
+reliability assessment, and a memory span test. Each of these components
+are described below.
+
+1.  **Training Task:** Participants performed a training task to
+    familiarize themselves with how to operate the YASBIL browser
+    extension to log their browsing activity.
+    The training task took around 2-5 minutes.
+
+2.  **Actual Search Tasks:** Participants performed two search tasks: -- `PHASE1-FINANCE`, and `PHASE1-UBUNTU`, of
+    which the `PHASE1-FINANCE` was repeated at the end of the semester as `PHASE3-FINANCE`. 
+    in the final session \[SES3\] at the end
+    of the semester, and the other will not be repeated. This will help
+    to answer research question RQ2 (Section
+    [\[sec-rq\]](#sec-rq){reference-type="ref" reference="sec-rq"}). The
+    order of the two search tasks will be randomized. The generic format
+    the search tasks are described in Figure
+    [1.2](#fig-search-task-template){reference-type="ref"
+    reference="fig-search-task-template"}.
+
+    The repeated search task will be on the topic of financial literacy,
+    a topic that may be considered to be universally important to
+    college students, and part of lifelong learning. The SES1 and SES3
+    versions of the repeated task are presented in Figure
+    [1.4](#fig-search-task-repeated){reference-type="ref"
+    reference="fig-search-task-repeated"}. The non-repeated search task
+    will be on topics that will be taught in the course serving as the
+    site for the study. Examples of search tasks used in the Pilot Study
+    are in Appendix
+    [\[ch-pilot-study\]](#ch-pilot-study){reference-type="ref"
+    reference="ch-pilot-study"}. Each search task is expected to take
+    around 20 minutes.
+
+    To answer RQ3 (effect of externalisation and articulation in
+    learning), each participant will perform one of the search tasks
+    while thinking aloud (concurrent think-aloud, or *CTA condition*),
+    and perform the other one in silence (*silent condition*). The
+    choice of the task for each of the conditions will be randomized and
+    balanced.
+
+    Each search task will begin with a pre-task questionnaire (Appendix
+    [\[app-pre-task-qsn\]](#app-pre-task-qsn){reference-type="ref"
+    reference="app-pre-task-qsn"}), which asks participants to self-rate
+    their pre-search topic knowledge and interest. Then participants
+    will turn on the YASBIL browsing logger and start searching. The
+    deliverable for each search task will be a written summary
+    (artefact), and a concept map. After participants are satisfied with
+    the quality of the deliverable, they will turn off YASBIL browsing
+    logger, and proceed to the post-task questionnaire. The post-task
+    questionnaire (Appendix
+    [\[app-post-task-qsn\]](#app-post-task-qsn){reference-type="ref"
+    reference="app-post-task-qsn"}) asks participants to self-rate their
+    post-search topic knowledge, search experience, interest and
+    motivation, and overall perceptions. The pre-task and post-task
+    questionnaires are adapted from
+    [@collins2016assessing; @crescenzi2020adaptation]. After the two
+    search tasks are completed, participants will answer questions about
+    whether they preferred the think-aloud condition or the silent
+    condition, and why (Appendix
+    [\[app-cta-v\-silent\]](#app-cta-v-silent){reference-type="ref"
+    reference="app-cta-v-silent"}).
+
+3.  **Webpage Comparison Assessment:** To assess participants'
+    (mis)information evaluation capabilities, they will perform a
+    Website Comparison assessment created by the
+    [@sheg2021webpage-comparison]. This task asks students to compare
+    two websites and select the one that they would use to begin
+    research on a topic. One of the pages is a Wikipedia article. The
+    other has ".edu" in its URL, but the page reveals that the content
+    is a student-written blog post created as part of a university
+    course. Many students have been taught that Wikipedia pages are
+    completely unreliable and should be avoided. Many have also been
+    taught that sites with a .edu domain are trustworthy. This
+    assessment gauges their ability to think in more nuanced ways about
+    these kinds of sites. The website reliability assessment is expected
+    to take 10 minutes.
+
+4.  **Memory Span Test:** The session will conclude with the assessment
+    of the participant's working memory capacity (WMC) using a memory
+    span task [@francis2004coglab]. Memory span assessment is kept in
+    the synchronous session because it is a timed task, and needs to
+    conducted in a controlled (experimenter observed) condition.
+
+Participants will be asked to share their screen for the whole duration
+of the session. Their screens and audio will be recorded for the entire
+duration. They may choose to turn off their video. The total time for
+SES1 is expected to not exceed 1.5 hours (90 minutes). Participants will
+be compensated with USD 25 for this session.
+
+
+### PHASE2A - PHASE2D: Longitudinal Tracking Phase {#sec-method-phase2}
+
+### QSNR2: Mid-Term Questionnaire {#sec-method-qsnr2}
+
+### PHASE3: Final Phase {#sec-method-phase3}
+
+### QSNR3: Exit Questionnaire {#sec-method-qsnr3}
 
 
 <!-- We propose to conduct a remote longitudinal study to investigate the
@@ -97,32 +339,7 @@ analysis.
 
 ### YASBIL Browsing Logger
 
-The YASBIL browsing logger [@bhattacharya2021yasbil] will be utilised
-for this study. YASBIL (Yet Another Search Behaviour and Interaction
-Logger) is a two-component logging solution for ethically recording a
-user's browsing activity for Interactive IR user studies. It was
-developed by the author in early Spring 2021, and was employed in the
-pilot study for data collection and testing. YASBIL comprises a Firefox
-browser extension and a WordPress plugin. The browser extension logs the
-browsing activity in the participants' machines. The WordPress plugin
-collects the logged data into the researcher's data server. YASBIL
-captures participant's behavioural data, such as webpage visits, time
-spent on pages, identification of popular search engines and their
-SERPs, identifying rank of result clicked on SERPs, tracking mouse
-clicks and scrolls, and the order and sequences of this events. The
-logging works on any webpage, without the need to own or have knowledge
-about the HTML structure of the webpage. To protect the privacy of
-participants, the logger software can be switched on or off, and
-participants will be instructed (and encouraged) to switch on the logger
-only when they are performing search activities related to the
-experiment. YASBIL also offers ethical data transparency and security
-towards participants, by enabling them to view and obtain copies of the
-logged data, as well as securely upload the data to the researcher's
-server over an HTTPS connection. Although developed using the
-cross-browser WebExtension API [@url-cross-browser-extn], YASBIL
-currently works in the Firefox Web Browser. So participants will be
-instructed to install Firefox and YASBIL on their machines if they
-choose to participate in the study.
+
 
 ### Online Concept Mapping Software
 
@@ -272,98 +489,7 @@ Final Session \[SES3\].
 ](figs/search-task-repeated.pdf){#fig-search-task-repeated
 width="\\linewidth"}
 
-For the Initial Session, (aka SES1), participants will be invited to a
-remote study session over a video-conferencing platform (Zoom). The
-purpose of the the pre-test will be to establish baseline search
-behaviour and domain knowledge of the participants. The study will
-consist of a training task, two actual search tasks, one website
-reliability assessment, and a memory span test. Each of these components
-are described below.
 
-1.  **Training Task:** Participants will perform a training task to
-    familiarize themselves with how to operate the YASBIL browser
-    extension to log their browsing activity, and how to create concept
-    maps while they are searching. The training task is expected to take
-    around 5-10 minutes.
-
-2.  **Two Search Tasks:** Participants will perform two search tasks, of
-    which one will be repeated in the final session \[SES3\] at the end
-    of the semester, and the other will not be repeated. This will help
-    to answer research question RQ2 (Section
-    [\[sec-rq\]](#sec-rq){reference-type="ref" reference="sec-rq"}). The
-    order of the two search tasks will be randomized. The generic format
-    the search tasks are described in Figure
-    [1.2](#fig-search-task-template){reference-type="ref"
-    reference="fig-search-task-template"}.
-
-    The repeated search task will be on the topic of financial literacy,
-    a topic that may be considered to be universally important to
-    college students, and part of lifelong learning. The SES1 and SES3
-    versions of the repeated task are presented in Figure
-    [1.4](#fig-search-task-repeated){reference-type="ref"
-    reference="fig-search-task-repeated"}. The non-repeated search task
-    will be on topics that will be taught in the course serving as the
-    site for the study. Examples of search tasks used in the Pilot Study
-    are in Appendix
-    [\[ch-pilot-study\]](#ch-pilot-study){reference-type="ref"
-    reference="ch-pilot-study"}. Each search task is expected to take
-    around 20 minutes.
-
-    To answer RQ3 (effect of externalisation and articulation in
-    learning), each participant will perform one of the search tasks
-    while thinking aloud (concurrent think-aloud, or *CTA condition*),
-    and perform the other one in silence (*silent condition*). The
-    choice of the task for each of the conditions will be randomized and
-    balanced.
-
-    Each search task will begin with a pre-task questionnaire (Appendix
-    [\[app-pre-task-qsn\]](#app-pre-task-qsn){reference-type="ref"
-    reference="app-pre-task-qsn"}), which asks participants to self-rate
-    their pre-search topic knowledge and interest. Then participants
-    will turn on the YASBIL browsing logger and start searching. The
-    deliverable for each search task will be a written summary
-    (artefact), and a concept map. After participants are satisfied with
-    the quality of the deliverable, they will turn off YASBIL browsing
-    logger, and proceed to the post-task questionnaire. The post-task
-    questionnaire (Appendix
-    [\[app-post-task-qsn\]](#app-post-task-qsn){reference-type="ref"
-    reference="app-post-task-qsn"}) asks participants to self-rate their
-    post-search topic knowledge, search experience, interest and
-    motivation, and overall perceptions. The pre-task and post-task
-    questionnaires are adapted from
-    [@collins2016assessing; @crescenzi2020adaptation]. After the two
-    search tasks are completed, participants will answer questions about
-    whether they preferred the think-aloud condition or the silent
-    condition, and why (Appendix
-    [\[app-cta-v\-silent\]](#app-cta-v-silent){reference-type="ref"
-    reference="app-cta-v-silent"}).
-
-3.  **Webpage Comparison Assessment:** To assess participants'
-    (mis)information evaluation capabilities, they will perform a
-    Website Comparison assessment created by the
-    [@sheg2021webpage-comparison]. This task asks students to compare
-    two websites and select the one that they would use to begin
-    research on a topic. One of the pages is a Wikipedia article. The
-    other has ".edu" in its URL, but the page reveals that the content
-    is a student-written blog post created as part of a university
-    course. Many students have been taught that Wikipedia pages are
-    completely unreliable and should be avoided. Many have also been
-    taught that sites with a .edu domain are trustworthy. This
-    assessment gauges their ability to think in more nuanced ways about
-    these kinds of sites. The website reliability assessment is expected
-    to take 10 minutes.
-
-4.  **Memory Span Test:** The session will conclude with the assessment
-    of the participant's working memory capacity (WMC) using a memory
-    span task [@francis2004coglab]. Memory span assessment is kept in
-    the synchronous session because it is a timed task, and needs to
-    conducted in a controlled (experimenter observed) condition.
-
-Participants will be asked to share their screen for the whole duration
-of the session. Their screens and audio will be recorded for the entire
-duration. They may choose to turn off their video. The total time for
-SES1 is expected to not exceed 1.5 hours (90 minutes). Participants will
-be compensated with USD 25 for this session.
 
 ### SES2: Longitudinal Tracking
 
