@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>6 Data Analysis | LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]</title>
+<meta name="author" content="Nilavra Bhattacharya">
+<meta name="description" content="Note about pronouns: all participants are referred to using gender-neutral they/them pronouns. Merge SES2a and SES2b into SES2ab  6.1 Data Cleaning and Processing see crescenzi thesis Session:...">
+<meta name="generator" content="bookdown 0.32 with bs4_book()">
+<meta property="og:title" content="6 Data Analysis | LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Note about pronouns: all participants are referred to using gender-neutral they/them pronouns. Merge SES2a and SES2b into SES2ab  6.1 Data Cleaning and Processing see crescenzi thesis Session:...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="6 Data Analysis | LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]">
+<meta name="twitter:description" content="Note about pronouns: all participants are referred to using gender-neutral they/them pronouns. Merge SES2a and SES2b into SES2ab  6.1 Data Cleaning and Processing see crescenzi thesis Session:...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
+<script src="libs/bs3compat-0.4.2/transition.js"></script><script src="libs/bs3compat-0.4.2/tabs.js"></script><script src="libs/bs3compat-0.4.2/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="templates/bs4_style.css">
+<link rel="stylesheet" href="templates/corrections.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">[Work in progress] Nilavra Bhattacharya’s Dissertation</a></li>
+<li><a class="" href="introduction.html"><span class="header-section-number">1</span> Introduction</a></li>
+<li><a class="" href="ch-bg-learn.html"><span class="header-section-number">2</span> Background: Knowledge and Learning</a></li>
+<li><a class="" href="ch-bg-search.html"><span class="header-section-number">3</span> Background: Information Searching</a></li>
+<li><a class="" href="research-questions-and-hypotheses.html"><span class="header-section-number">4</span> Research Questions and Hypotheses</a></li>
+<li><a class="" href="methods-longsal---the-longitudinal-study.html"><span class="header-section-number">5</span> Methods: LongSAL - the Longitudinal Study</a></li>
+<li><a class="active" href="sec-method-qsnr3.html"><span class="header-section-number">6</span> Data Analysis</a></li>
+<li><a class="" href="results-and-discussion.html"><span class="header-section-number">7</span> Results and Discussion</a></li>
+<li><a class="" href="conclusions-contributions-and-future-work.html"><span class="header-section-number">8</span> Conclusions, Contributions, and Future Work</a></li>
+<li class="book-part">Appendix</li>
+<li><a class="" href="app-pilot-study.html"><span class="header-section-number">A</span> Prior Work: Pilot Study</a></li>
+<li><a class="" href="app-signup-survey.html"><span class="header-section-number">B</span> SUR1: Entry Survey</a></li>
+<li><a class="" href="app-pre-post-tasks.html"><span class="header-section-number">C</span> Questionnaires for Initial (SES1) and Final (SES3) Sessions</a></li>
+<li><a class="" href="app-midterm-survey.html"><span class="header-section-number">D</span> SUR2: Midterm Survey</a></li>
+<li><a class="" href="app-final-survey.html"><span class="header-section-number">E</span> SUR3: Exit Survey</a></li>
+<li><a class="" href="app-variables.html"><span class="header-section-number">F</span> Variables and Measures</a></li>
+<li><a class="" href="sec-app-ack.html"><span class="header-section-number">G</span> Acknowledgements - The PhD Journey</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/nilavra/phd">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="sec-method-qsnr3" class="section level1" number="6">
+<h1>
+<span class="header-section-number">6</span> Data Analysis<a class="anchor" aria-label="anchor" href="#sec-method-qsnr3"><i class="fas fa-link"></i></a>
+</h1>
+<p>Note about pronouns:
+all participants are referred to using gender-neutral they/them pronouns.</p>
+<p>Merge <code>SES2a</code> and <code>SES2b</code> into <code>SES2ab</code></p>
+<!--
+Analysis steps:
+- Check analysis ideas for more ideas
+- get data for IMI, MAI, etc
+-->
+<div id="data-cleaning-and-processing" class="section level2" number="6.1">
+<h2>
+<span class="header-section-number">6.1</span> Data Cleaning and Processing<a class="anchor" aria-label="anchor" href="#data-cleaning-and-processing"><i class="fas fa-link"></i></a>
+</h2>
+<p>see crescenzi thesis</p>
+<p>Session: <code>task_id</code>, 30 minutes of inactivity
+(Google Analytics: a session lasts until there’s 30 minutes of inactivity)</p>
+<p>Session duration is considered 30 minutes (!) (or maybe 1 hour?)
+as per Google Analytics<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;&lt;a href="https://www.hotjar.com/google-analytics/glossary/session-duration" class="uri"&gt;https://www.hotjar.com/google-analytics/glossary/session-duration&lt;/a&gt;&lt;/p&gt;'><sup>14</sup></a> and (TODO: find reference)</p>
+</div>
+<div id="url-categorization" class="section level2" number="6.2">
+<h2>
+<span class="header-section-number">6.2</span> URL Categorization<a class="anchor" aria-label="anchor" href="#url-categorization"><i class="fas fa-link"></i></a>
+</h2>
+<!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
+<ul>
+<li>peer-reviewed publications are <code>PUB</code>s</li>
+<li>others are <code>ARTICLE</code>s (e.g. Wikipedia)</li>
+<li>if no other info, then <code>WEB</code>
+</li>
+<li>fuzzy between <code>WEB</code> and <code>ARTICLE</code> (when classified manually)</li>
+<li>
+<code>ARTICLE</code> if there is a clear author
+<ul>
+<li>except <code>WIKIPEDIA</code>, due to common parlance</li>
+<li>encyclopedias</li>
+</ul>
+</li>
+<li>journal homepages are <code>WEB</code>
+</li>
+<li>list of chapters in a book are <code>L.PUB</code>.
+<ul>
+<li>e.g. in detail view of</li>
+</ul>
+</li>
+<li>book chapter is <code>PUB</code>
+</li>
+</ul>
+</div>
+<div id="user-characteristics-latent-profiles" class="section level2" number="6.3">
+<h2>
+<span class="header-section-number">6.3</span> User characteristics: Latent Profiles<a class="anchor" aria-label="anchor" href="#user-characteristics-latent-profiles"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>feature sets for profiling (toggle on and off)
+<ul>
+<li><code>IMI</code></li>
+<li><code>MAI</code></li>
+<li><code>SRQ</code></li>
+<li>
+<code>WMC</code> / memory span:
+<ul>
+<li>scaling by dividing by 10 (?) (that’s the max Coglab would show)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>What factors are specifically responsible for the transitions or the changes in the Latent profiles at different points in the semester?</p>
+<!-- 
+  - PLO: perceived learning outcome (/100): 
+  - PSO: perceived search outcome (/100)
+  - others?
+
+PLO and PSO can't be used as there are multiple of them in SES1 and SES3 
+-->
+<p>Memory span values normalized by 10, because “<em>The maximum memory span measurable with this experiment is ten</em>” as per CogLab output</p>
+<ul>
+<li><del>Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership</del></li>
+<li>no no; a simple examination of what feature values changed between timepoints will be enough</li>
+<li>use 2 groups! 2 groups is always better. easier to explain; easier to write.</li>
+</ul>
+</div>
+<div id="search-behaviour-data-analysis-framework" class="section level2" number="6.4">
+<h2>
+<span class="header-section-number">6.4</span> Search Behaviour Data Analysis Framework<a class="anchor" aria-label="anchor" href="#search-behaviour-data-analysis-framework"><i class="fas fa-link"></i></a>
+</h2>
+<p>From <span class="citation">White (<a href="#ref-white2016interactions">2016a</a>)</span>, Table 2.1 (adapted from Bates, 1989):</p>
+<ul>
+<li>
+<strong>Level 1: Move</strong>
+<ul>
+<li>Atomic search event – for example, a query or click
+(<em>An identifiable thought or action that is part of information searching.</em>)</li>
+</ul>
+</li>
+<li>
+<strong>Level 2: Tactic</strong>
+<ul>
+<li>Goal or task, including query or click chain
+(<em>One or several moves made to further a search</em>)</li>
+</ul>
+</li>
+<li>
+<strong>Level 3: Statagem</strong>
+<ul>
+<li>Mission or session
+(<em>A larger, more complex set of thoughts and/or actions than the tactic; a stratagem consists of multiple tactics and/or moves, all of which are designed to exploit a particular search domain that is thought to contain the desired information</em>)</li>
+</ul>
+</li>
+<li>
+<strong>Level 4: Strategy</strong>
+<ul>
+<li>Session or cross-session search task
+(<em>A plan, which may contain moves, tactics, and/or stratagems, for an entire information search.</em>)</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="level-1-moves---query-reformulation" class="section level2" number="6.5">
+<h2>
+<span class="header-section-number">6.5</span> Level 1: Moves - Query Reformulation<a class="anchor" aria-label="anchor" href="#level-1-moves---query-reformulation"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>Yung Sheng’s Dissertation</li>
+<li>
+<span class="citation">(<a href="#ref-hassan2014struggling">Hassan et al., 2014</a>)</span> Table 1</li>
+</ul>
+<p>Measures:</p>
+<ul>
+<li>Number of terms per Query</li>
+<li>Query length (characters?)</li>
+<li>Number of (unique) queries per search</li>
+<li>Number of reformulated query types</li>
+<li>Abandoned Queries (Percentage of queries with no clicks)</li>
+<li>query similarity <span class="citation">(<a href="#ref-hassan2014struggling">Hassan et al., 2014</a>)</span>
+<ul>
+<li>average similarity between all queries to the first query in every session</li>
+<li>exact match, approx match, lemma match, semantic match</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="level-1-moves---dwell-time-dt---combined-with-url-types" class="section level2" number="6.6">
+<h2>
+<span class="header-section-number">6.6</span> Level 1: Moves - Dwell Time (DT) - combined with URL types<a class="anchor" aria-label="anchor" href="#level-1-moves---dwell-time-dt---combined-with-url-types"><i class="fas fa-link"></i></a>
+</h2>
+<p>URL type categories</p>
+<p>(<code>Q</code> is a web-page type; <code>QUERY</code> is a move)</p>
+<ul>
+<li>
+<code>Q</code>
+<ul>
+<li>BOOK / PUB / WEB / WORD <del>reform type</del>
+</li>
+</ul>
+</li>
+<li>
+<code>L</code>
+<ul>
+<li><code>WEB%</code></li>
+<li><code>PUB%</code></li>
+<li><code>ARTICLE%</code></li>
+<li><code>BOOK%</code></li>
+<li><code>VIDEO%</code></li>
+<li><code>COURSE%</code></li>
+</ul>
+</li>
+<li>
+<code>I</code>
+<ul>
+<li>all subcategories in <code>L</code>
+</li>
+<li><code>CITATION%</code></li>
+<li><code>FILE%</code></li>
+</ul>
+</li>
+<li><code>NOTETAKING</code></li>
+<li><code>LONGSAL</code></li>
+<li>
+<code>?</code> (<code>UNCLASSIFIED</code>)</li>
+</ul>
+<p>Separately (as in <span class="citation">(<a href="#ref-lam2007session">Lam et al., 2007</a>)</span>)
+- <code>SEARCH</code>
+- <code>LIB</code>
+- <code>OTHER</code></p>
+<p>Dwell Time categories:</p>
+<ul>
+<li>
+<code>SHORT</code>: 1 - 5 seconds
+<ul>
+<li>“<em>A time span of less than 5 seconds is a too short period for being able to read a summary and extract information</em>” <span class="citation">(<a href="#ref-he2016beyond">He et al., 2016</a>)</span>.</li>
+</ul>
+</li>
+<li>
+<code>MEDIUM</code>: 5 - 30 seconds</li>
+<li>
+<code>LONG</code>: &gt; 30 seconds
+<ul>
+<li>from Handehawa’s thesis, and related Shah references</li>
+</ul>
+</li>
+</ul>
+<p>Other Ideas</p>
+<ul>
+<li>do analysis of <code>LIB</code> and <code>LIBGUIDE</code> type URLs - library websites</li>
+<li>Dwell Time:
+<ul>
+<li>overall</li>
+<li>per-task</li>
+<li>per timepoint?</li>
+</ul>
+</li>
+<li>sig diff in DT between
+<ul>
+<li>
+<code>SES1</code> and <code>SES3</code>
+</li>
+<li>
+<code>SES2a</code> and <code>SES2d</code>?</li>
+</ul>
+</li>
+<li>checkout: <code>sns.pairplot()</code> – pairwise relationships in a dataset
+<ul>
+<li><a href="https://seaborn.pydata.org/generated/seaborn.pairplot.html" class="uri">https://seaborn.pydata.org/generated/seaborn.pairplot.html</a></li>
+</ul>
+</li>
+<li>checkout seaborn’s plotting capabilites!</li>
+</ul>
+</div>
+<div id="level-1-moves---interactions" class="section level2" number="6.7">
+<h2>
+<span class="header-section-number">6.7</span> Level 1: Moves - Interactions<a class="anchor" aria-label="anchor" href="#level-1-moves---interactions"><i class="fas fa-link"></i></a>
+</h2>
+<p>Events</p>
+<ul>
+<li>
+<code>QUERY</code>
+<ul>
+<li>reformulation types</li>
+</ul>
+</li>
+<li>
+<code>TAB</code>: Parallel Browsing Events
+<ul>
+<li><code>OPEN</code></li>
+<li><code>SWITCH</code></li>
+<li><code>CLOSE</code></li>
+</ul>
+</li>
+<li>
+<code>TASK</code>: from YASBIL events and <code>task_id</code>
+<ul>
+<li><code>START</code></li>
+<li><code>END</code></li>
+</ul>
+</li>
+<li>
+<code>IDLE</code>: user stays idle for &gt;=1 minute <span class="citation">(<a href="#ref-taramigkou2018leveraging">Taramigkou et al., 2018</a>)</span>
+<ul>
+<li>
+<code>SHORT</code>: 1 - 5mins</li>
+<li>
+<code>MEDIUM</code>: 5 - 30 mins</li>
+<li>
+<code>LONG</code>: &gt;= 30 mins – treat as new session</li>
+</ul>
+</li>
+</ul>
+<p><code>IDLE</code> could be PDF reading, or hand note-taking, or truly idle.</p>
+<!-- - not to be confused with SES1, SES2, SES3 etc.
+    - think of a better name?
+    - treat IDLE.LONG as new session? -->
+</div>
+<div id="level-2-implicit-features-for-exploratory-search-process" class="section level2" number="6.8">
+<h2>
+<span class="header-section-number">6.8</span> Level 2: Implicit Features for Exploratory Search Process<a class="anchor" aria-label="anchor" href="#level-2-implicit-features-for-exploratory-search-process"><i class="fas fa-link"></i></a>
+</h2>
+<p>From <span class="citation">Hendahewa (<a href="#ref-hendahewa2016implicit">2016</a>)</span> and related papers.</p>
+<ul>
+<li>
+<strong>Creativity</strong> –&gt; Information Novelty
+<ul>
+<li>
+<strong>Unique Coverage:</strong> Unique web pages visited</li>
+<li>
+<strong>Likelihood of Discovery:</strong> Measurement of difficulty to find certain information</li>
+</ul>
+</li>
+<li>
+<strong>Exploration</strong>
+<ul>
+<li>
+<strong>Total Coverage:</strong> Total number of content pages visited</li>
+<li>
+<strong>Distinct Queries:</strong> Total number of different queries issued</li>
+<li>
+<strong>Query diversity:</strong> Measurement of similarity between queries issued</li>
+</ul>
+</li>
+<li>
+<strong>Knowledge Discovery</strong> –&gt; Finding useful and relevant information
+<ul>
+<li>
+<strong>Useful Coverage:</strong> Number of pages where users spend a considerable amount of time</li>
+<li>
+<strong>Relevant Coverage:</strong> Number of pages that users denote as relevant to the task</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://rucore.libraries.rutgers.edu/rutgers-lib/49207/" class="uri">https://rucore.libraries.rutgers.edu/rutgers-lib/49207/</a></p>
+<!-- - low priority
+- chirag sha's student; has intersting metrics like coverage, unique pages visited etc.
+- https://rucore.libraries.rutgers.edu/rutgers-lib/49207/
+- maybe future work? -->
+</div>
+<div id="level-2-search-tactics-and-strategies" class="section level2" number="6.9">
+<h2>
+<span class="header-section-number">6.9</span> Level 2+: Search Tactics and Strategies<a class="anchor" aria-label="anchor" href="#level-2-search-tactics-and-strategies"><i class="fas fa-link"></i></a>
+</h2>
+<p>Pernilla Q et al’s paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing &amp; Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226.</p>
+<ul>
+<li><a href="http://dx.doi.org/10.1016/j.ipm.2016.05.007" class="uri">http://dx.doi.org/10.1016/j.ipm.2016.05.007</a></li>
+<li><a href="https://www.pernillaq.com/exploratory-search" class="uri">https://www.pernillaq.com/exploratory-search</a></li>
+<li><a href="https://scholar.google.com/scholar?cites=16001618163231710088&amp;as_sdt=5,44&amp;sciodt=0,44&amp;hl=en">checkout the forward citations of this paper on automated log analyses</a></li>
+<li>like process mining!</li>
+<li>“<em>Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended</em>”</li>
+</ul>
+<p>Behaviours from <em>Search Patterns</em> book</p>
+<ul>
+<li>quit</li>
+<li>narrow</li>
+<li>expand</li>
+<li>pearl growing / citation mining / snowballing</li>
+<li>pogo sticking</li>
+<li>thrashing</li>
+</ul>
+<div id="strategies-from-webpage-l2-categories-only" class="section level3" number="6.9.1">
+<h3>
+<span class="header-section-number">6.9.1</span> Strategies from webpage L2 categories only<a class="anchor" aria-label="anchor" href="#strategies-from-webpage-l2-categories-only"><i class="fas fa-link"></i></a>
+</h3>
+<p>No sense of time. Only events
+query is a move, Q is aweb-page type</p>
+<p>Tactics (per task)</p>
+<ul>
+<li>TASK.{START / END}</li>
+<li>QUERY.{types of reformulations}</li>
+<li>Q.{BOOK / PUB / WEB / WORD}</li>
+<li>L.{<code>PUB</code> / <code>WEB</code> / <code>X</code>}</li>
+<li>L.click (only hyperlink clicks (?))</li>
+<li>I.{<code>PUB</code> / <code>WEB</code> / <code>ARTICLE</code> / X}</li>
+<li>I.click</li>
+<li>OTHER.{<code>X</code>}</li>
+<li>TAB.{tab events}</li>
+<li>IDLE.{DT categories}
+<ul>
+<li>IDLE.LONG = change of episode (or session)</li>
+</ul>
+</li>
+</ul>
+<!-- - SESSION.{session events} -->
+</div>
+<div id="strategies-from-webpage-l1-categories-and-dwell-time-dt" class="section level3" number="6.9.2">
+<h3>
+<span class="header-section-number">6.9.2</span> Strategies from webpage L1 categories and Dwell Time (DT)<a class="anchor" aria-label="anchor" href="#strategies-from-webpage-l1-categories-and-dwell-time-dt"><i class="fas fa-link"></i></a>
+</h3>
+<!-- 
+`SES2a` and `SES2b` have to be combined
+(no: we are calculating per user-task, and taking care of episodes through IDLE time) 
+-->
+<p>Tactics (per task)</p>
+<ul>
+<li>TASK.{START / END}</li>
+<li>Q.{types of reformulations}</li>
+<li>L.{DT categories}</li>
+<li>L.click (only hyperlink clicks (?))</li>
+<li>I.{DT categories}</li>
+<li>I.click</li>
+<li>OTHER.{DT categories}</li>
+<li>TAB.{tab events}</li>
+<li>IDLE.{DT categories}
+<ul>
+<li>IDLE.LONG = change of episode (or session)</li>
+</ul>
+</li>
+</ul>
+<!-- 
+- L.HOVER (?) (hover = reading?)
+- SESSION.{session events}
+- -->
+</div>
+<div id="strategies-from-webpage-l2-categories-and-dwell-time-dt" class="section level3" number="6.9.3">
+<h3>
+<span class="header-section-number">6.9.3</span> Strategies from webpage L2 categories and Dwell Time (DT)<a class="anchor" aria-label="anchor" href="#strategies-from-webpage-l2-categories-and-dwell-time-dt"><i class="fas fa-link"></i></a>
+</h3>
+<p>Tactics (per task)</p>
+<ul>
+<li>TASK.{START / END}</li>
+<li>Q.{types of reformulations}</li>
+<li>L.{<code>PUB</code> / <code>WEB</code> / <code>X</code>}.{DT categories}</li>
+<li>L.click (only hyperlink clicks (?))</li>
+<li>I.{<code>PUB</code> / <code>WEB</code> / <code>ARTICLE</code> / X}.{DT categories}</li>
+<li>I.click</li>
+<li>OTHER.{<code>X</code>}.{DT categories}</li>
+<li>TAB.{tab events}</li>
+<li>IDLE.{DT categories}
+<ul>
+<li>IDLE.LONG = change of episode (or session)</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="strategies-from-lam2007session" class="section level3" number="6.9.4">
+<h3>
+<span class="header-section-number">6.9.4</span> Strategies from <span class="citation">Lam et al. (<a href="#ref-lam2007session">2007</a>)</span><a class="anchor" aria-label="anchor" href="#strategies-from-lam2007session"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>As in <span class="citation">(<a href="#ref-lam2007session">Lam et al., 2007</a>)</span> Sec 6 (<code>S</code> to denote a Search event and <code>X</code> to denote a non-search engine event):
+<ul>
+<li>Short Navigation: S(Start) –&gt; X (End), with the S event limits to the first session events and the X event to the last events.</li>
+<li>Topic Exploration: S –&gt; X –&gt; X –&gt; X –&gt; X –&gt; …</li>
+<li>Methodical Results Exploration: S –&gt; X –&gt; S –&gt; X –&gt; S …</li>
+<li>Query Refinement: S –&gt; S –&gt; S –&gt; S …</li>
+</ul>
+</li>
+<li>In our coding:
+<ul>
+<li>Short Navigation: QUERY –&gt; non-Query (NQ: L / I / ?)</li>
+<li>Topic Exploration: QUERY –&gt; NQ –&gt; NQ –&gt; NQ –&gt; NQ –&gt; …</li>
+<li>etc.</li>
+</ul>
+</li>
+<li>Using <code>WebNavigation</code> events and tab switches</li>
+<li>can do sequential pattern mining as in <span class="citation">(<a href="#ref-ibanez2022comparison">Ibáñez &amp; Simperl, 2022</a>)</span>
+<ul>
+<li>maximal sequential pattern</li>
+<li>etc.</li>
+</ul>
+</li>
+<li>Other search patters:
+<ul>
+<li>
+<code>SS</code>: Search-engine Searches</li>
+<li>
+<code>TS</code>: Third-party Searches using third-party online sites as search engines</li>
+<li>
+<code>TE</code>: True Explorations of search results</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="struggling-vs.-exploring" class="section level3" number="6.9.5">
+<h3>
+<span class="header-section-number">6.9.5</span> Struggling vs. Exploring<a class="anchor" aria-label="anchor" href="#struggling-vs.-exploring"><i class="fas fa-link"></i></a>
+</h3>
+<p>Indicators predictive of struggling <span class="citation">(<a href="#ref-hassan2014struggling">Hassan et al., 2014</a>)</span>:</p>
+<ul>
+<li>low amount of similarity between consecutive queries</li>
+<li>more clicks per query</li>
+<li>differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring</li>
+</ul>
+<!-- Hassan et al. (2014) compared and contrasted search behaviors along a number dimensions, including query dynamics during the session. They found that there are some features that may be predictive of struggling, such as a low amount of similarity between consecutive queries, more clicks per query, as well as differences in the nature of the reformulation patterns (i.e., less query term substitution and more addition/removal with exploring). Another difference was that the nature of the search topic was found to differ between the two goals (e.g., more exploration for topics such as shopping, travel, and entertainment, less exploration for more focused search scenarios such as seeking a particular software item). Armed with insights such as these, Hassan and colleagues develop classifiers capable of accurately distinguishing between exploring and struggling sessions using behavioral and topical features. -->
+</div>
+<div id="navigators-vs.-explorers" class="section level3" number="6.9.6">
+<h3>
+<span class="header-section-number">6.9.6</span> Navigators vs. Explorers<a class="anchor" aria-label="anchor" href="#navigators-vs.-explorers"><i class="fas fa-link"></i></a>
+</h3>
+<p>From IWSS book
+(later, low priority)</p>
+<!-- 
+### Original Idea
+
+for LongSAL, tactics / states:
+
+- Q
+  - subdivided by Q reform types?
+- L
+- I\_short (DT <= 10s) -- rethink these durs
+- I\_med ( 10 < DT <= 30s)
+- I\_long (> 30s) 
+  - 30s from Handehawa's thesis, and related Shah references
+- opening a new tab: parallel mission?
+- closing ta tab
+- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip&m paper
+- beginning and end of sessions?
+- clicks?
+  - clicks on L pages
+  - clicks on I pages
+
+or maybe I.type of webpage visited?
+or combine DT with I.PUB / I.X? -->
+</div>
+<div id="transition-analysis-of-search-tactics-strategies" class="section level3" number="6.9.7">
+<h3>
+<span class="header-section-number">6.9.7</span> Transition analysis of Search Tactics / Strategies<a class="anchor" aria-label="anchor" href="#transition-analysis-of-search-tactics-strategies"><i class="fas fa-link"></i></a>
+</h3>
+<p>Transition analysis can be applied to:</p>
+<ul>
+<li>search tactics</li>
+<li>tabs: parallel browsing behaviour (think hard… do we need a constant number of tabs for this to work?)</li>
+<li>combined (opening tab and closing tabs are tactics / events in Markov process)</li>
+</ul>
+<p>Analyze / compare entropies and transition matrices across different tasks and sessions?
+- e.g. SES1 tasks –&gt; SES2 –&gt; SES3</p>
+<p>Help with analyses:</p>
+<ul>
+<li>Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.</li>
+<li>
+<span class="citation">(<a href="#ref-he2016beyond">He et al., 2016, p. 1220</a> sec 6.1)</span> for calculation formulas for entropy of transitions</li>
+<li>
+<span class="citation">(<a href="#ref-krejtz2014entropy">Krejtz et al., 2014</a>)</span> sec 4 for calculation formulas</li>
+<li>
+<span class="citation">(<a href="#ref-he2016beyond">He et al., 2016, p. 1220</a> sec 6.2)</span> for hypotheses</li>
+</ul>
+</div>
+</div>
+<div id="correlation-analysis" class="section level2" number="6.10">
+<h2>
+<span class="header-section-number">6.10</span> Correlation analysis<a class="anchor" aria-label="anchor" href="#correlation-analysis"><i class="fas fa-link"></i></a>
+</h2>
+<p>Correlation between user profiles and search tactics <span class="citation">(Table 9 <a href="#ref-taramigkou2018leveraging">Taramigkou et al., 2018</a>)</span></p>
+<!-- 
+https://www.google.com/search?q=nilavra&oq=nilavra&aqs=edge..69i57j0i512j69i60l3j69i61j69i65j69i60j69i65.4522j0j4&sourceid=chrome&ie=UTF-8 
+-->
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-hassan2014struggling" class="csl-entry">
+Hassan, A., White, R. W., Dumais, S. T., &amp; Wang, Y.-M. (2014). Struggling or exploring? Disambiguating long search sessions. <em>Proceedings of the 7th ACM International Conference on Web Search and Data Mining</em>, 53–62.
+</div>
+<div id="ref-he2016beyond" class="csl-entry">
+He, J., Qvarfordt, P., Halvey, M., &amp; Golovchinsky, G. (2016). Beyond actions: Exploring the discovery of tactics from user logs. <em>Information Processing &amp; Management</em>, <em>52</em>(6), 1200–1226.
+</div>
+<div id="ref-hendahewa2016implicit" class="csl-entry">
+Hendahewa, C. H. (2016). <em>Implicit search feature based approach to assist users in exploratory search tasks</em> [PhD thesis]. Rutgers, The State University of New Jersey.
+</div>
+<div id="ref-ibanez2022comparison" class="csl-entry">
+Ibáñez, L.-D., &amp; Simperl, E. (2022). A comparison of dataset search behaviour of internal versus search engine referred sessions. <em>Acm Sigir Conference on Human Information Interaction and Retrieval</em>, 158–168.
+</div>
+<div id="ref-krejtz2014entropy" class="csl-entry">
+Krejtz, K., Szmidt, T., Duchowski, A. T., &amp; Krejtz, I. (2014). Entropy-based statistical analysis of eye movement transitions. <em>Proceedings of the Symposium on Eye Tracking Research and Applications</em>, 159–166.
+</div>
+<div id="ref-lam2007session" class="csl-entry">
+Lam, H., Russell, D., Tang, D., &amp; Munzner, T. (2007). Session viewer: Visual exploratory analysis of web session logs. <em>2007 IEEE Symposium on Visual Analytics Science and Technology</em>, 147–154.
+</div>
+<div id="ref-taramigkou2018leveraging" class="csl-entry">
+Taramigkou, M., Apostolou, D., &amp; Mentzas, G. (2018). Leveraging exploratory search with personality traits and interactional context. <em>Information Processing &amp; Management</em>, <em>54</em>(4), 609–629.
+</div>
+<div id="ref-white2016interactions" class="csl-entry">
+White, R. (2016a). <em>Interactions with search systems</em>. Cambridge University Press.
+</div>
+</div>
+
+  <div class="chapter-nav">
+<div class="prev"><a href="methods-longsal---the-longitudinal-study.html"><span class="header-section-number">5</span> Methods: LongSAL - the Longitudinal Study</a></div>
+<div class="next"><a href="results-and-discussion.html"><span class="header-section-number">7</span> Results and Discussion</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#sec-method-qsnr3"><span class="header-section-number">6</span> Data Analysis</a></li>
+<li><a class="nav-link" href="#data-cleaning-and-processing"><span class="header-section-number">6.1</span> Data Cleaning and Processing</a></li>
+<li><a class="nav-link" href="#url-categorization"><span class="header-section-number">6.2</span> URL Categorization</a></li>
+<li><a class="nav-link" href="#user-characteristics-latent-profiles"><span class="header-section-number">6.3</span> User characteristics: Latent Profiles</a></li>
+<li><a class="nav-link" href="#search-behaviour-data-analysis-framework"><span class="header-section-number">6.4</span> Search Behaviour Data Analysis Framework</a></li>
+<li><a class="nav-link" href="#level-1-moves---query-reformulation"><span class="header-section-number">6.5</span> Level 1: Moves - Query Reformulation</a></li>
+<li><a class="nav-link" href="#level-1-moves---dwell-time-dt---combined-with-url-types"><span class="header-section-number">6.6</span> Level 1: Moves - Dwell Time (DT) - combined with URL types</a></li>
+<li><a class="nav-link" href="#level-1-moves---interactions"><span class="header-section-number">6.7</span> Level 1: Moves - Interactions</a></li>
+<li><a class="nav-link" href="#level-2-implicit-features-for-exploratory-search-process"><span class="header-section-number">6.8</span> Level 2: Implicit Features for Exploratory Search Process</a></li>
+<li>
+<a class="nav-link" href="#level-2-search-tactics-and-strategies"><span class="header-section-number">6.9</span> Level 2+: Search Tactics and Strategies</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#strategies-from-webpage-l2-categories-only"><span class="header-section-number">6.9.1</span> Strategies from webpage L2 categories only</a></li>
+<li><a class="nav-link" href="#strategies-from-webpage-l1-categories-and-dwell-time-dt"><span class="header-section-number">6.9.2</span> Strategies from webpage L1 categories and Dwell Time (DT)</a></li>
+<li><a class="nav-link" href="#strategies-from-webpage-l2-categories-and-dwell-time-dt"><span class="header-section-number">6.9.3</span> Strategies from webpage L2 categories and Dwell Time (DT)</a></li>
+<li><a class="nav-link" href="#strategies-from-lam2007session"><span class="header-section-number">6.9.4</span> Strategies from Lam et al. (2007)</a></li>
+<li><a class="nav-link" href="#struggling-vs.-exploring"><span class="header-section-number">6.9.5</span> Struggling vs. Exploring</a></li>
+<li><a class="nav-link" href="#navigators-vs.-explorers"><span class="header-section-number">6.9.6</span> Navigators vs. Explorers</a></li>
+<li><a class="nav-link" href="#transition-analysis-of-search-tactics-strategies"><span class="header-section-number">6.9.7</span> Transition analysis of Search Tactics / Strategies</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#correlation-analysis"><span class="header-section-number">6.10</span> Correlation analysis</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/nilavra/phd/blob/master/006-data-analysis.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/nilavra/phd/edit/master/006-data-analysis.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>LongSAL: A Longitudinal Search as Learning Study With University Students [Draft]</strong>" was written by Nilavra Bhattacharya. It was last built on 2023-02-13.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

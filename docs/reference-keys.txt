@@ -76,9 +76,9 @@ memory-span-test
 sec-method-phase2
 sec-method-qsnr2
 sec-method-phase3
-phase3-sheg-webpage-comparison-assessment
+phase3-finance-and-phase3-bias-two-actual-search-tasks
+phase3-sheg-website-comparison-assessment
 sec-method-qsnr3
-data-analysis
 data-cleaning-and-processing
 url-categorization
 user-characteristics-latent-profiles

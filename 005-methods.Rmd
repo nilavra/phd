@@ -6,6 +6,8 @@ The following sections discuss the study design, apparatus and procedure.
 ## Study Design and Participants {#sec-method-exp-design}
 
 LongSAL (Longitudinal Search as Learning study) is a remote, exploratory, longitudinal study that was conducted between January and June 2022 (Spring semester) at the School of Information, University of Texas at Austin (UT Austin).
+The study was approved by The University of Texas at Austin Institutional Review Board (Submission ID: `STUDY00002136`, Date Approved: December 8, 2021).
+
 
 Participants were recruited from the student pool enrolled in the required undergraduate core-course: *Ethical Foundations for Informatics* [@fleischmann2022i303].
 18 participants originally signed up for the study; 10 participants fully completed all the phases of the study, and the remaining 8 dropped off at different points during the semester.
@@ -273,129 +275,93 @@ The type of material participants were asked to recall were: digits, letters tha
 
 ### `PHASE2A` - `PHASE2D`: Longitudinal Tracking Phase {#sec-method-phase2}
 
+The four-part longitudinal tracking phases `PHASE2A` - `PHASE2D` were conducted asynchronously over the duration of the semester, to understand the change (or lack thereof) of participants' search behaviour and knowledge gain over time. 
+Whenever participants worked on different parts of their final project (Ethical dilemma research paper for the I-303 course), as described in Figure \@ref(fig:final-project-description), they used Firefox web browser, and logged their browsing activity using YASBIL browsing logger. 
+To protect their privacy, participants were regularly instructed to turn YASBIL on only when they were searching for information related to coursework. 
+After each checkpoint assignment, participants self-uploaded an anonymized version of the working-draft of their research paper, and answered a post-task questionnaire.
+The post-task questionnaire were similar to those used in the `PHASE1` and `PHASE3` search tasks, where participants self-reported, among other things, their perceived learning outcome and perceived search outcome [@collins2016assessing].
+Participants received reminder emails before the deadline of each assignment, to remind them to use Firefox, turn YASBIL on, and upload the anonymized working-draft. 
+To prevent participant drop-off, a staggered payment model was adopted during PHASE2.
+Participants received USD 5 each when they completed `PHASE2A` and `PHASE2B`, USD 10 for `PHASE2C`, and USD 15 for `PHASE2D`, for a total of USD 35 for entire `PHASE2`. 
+<!-- per each assignment for which they log data, up to a maximum of USD 20 for four assignments. -->
+
+
+
+
+
+
+
+
 ### `QSNR2`: Mid-Term Questionnaire {#sec-method-qsnr2}
+
+The mid-term questionnaire `QSNR2` took place around the mid-point of the semester (Week 8-9). 
+The purpose was to track whether any of the participants' individual difference measures (motivation, metacognition, and self-regulation) changed during the first half of the semester. 
+This questionnaire was essentially a replica of the Entry Questionnaire `QSNR1`, with two modifications. First, the consent form and the demographics sections were absent. 
+Second, the Intrinsic Motivation Inventory (IMI) included the 'pressure/tension' and the 'perceived choice' subscales, as these scales are more meaningful after an activity has taken place [@ryan1982control]. 
+The IMI was also be reworded to reflect the mid-point of the semester.
+<!-- (Appendix \@ref(app-midterm-survey)).  -->
+Participants were compensated with USD 10 for completing this step.
+
+
+
 
 ### `PHASE3`: Final Phase {#sec-method-phase3}
 
-#### `PHASE3-SHEG`: Webpage Comparison Assessment
+The Final Phase `PHASE3` was similar in structure to the Initial Phase (`PHASE1`), and took place at the end of the semester, after all the course related tasks were completed by the participant. The purpose of the session is to record the 'evolved' search behaviour, and final knowledge state. 
+Participants performed two search tasks: `PHASE3-FINANCE` and `PHASE3-BIAS`, 
+and one website comparison task: `PHASE3-SHEG`.
+<!-- In the end, there will be a short semi-structured interview. -->
 
 
-To assess participants' (mis)information evaluation capabilities, they performed a Website Comparison assessment created by the @sheg2021webpage-comparison. 
-This task asked participants to compare two websites and select one that they would use to begin research on a topic. One of the pages is a Wikipedia article. The other has ".edu" in its URL, but the page reveals that the content is a student-written blog post created as part of a university course. Many students have been taught that Wikipedia pages are completely unreliable and should be avoided. Many have also been taught that sites with a .edu domain are trustworthy. This assessment gauges their ability to think in more nuanced ways about these kinds of sites. 
-<!-- The website reliability assessment is expected to take 10 minutes. -->
+#### `PHASE3-FINANCE` and `PHASE3-BIAS`: Two Actual Search Tasks
 
-### QSNR3: Exit Questionnaire {#sec-method-qsnr3}
+
+Of the two search tasks, the topic of one was repeated from `PHASE1` (financial literacy, Figure \@ref(fig:search-task-repeated)), while the topic of the other came from the course material: algorithmic bias (Figure \@ref(fig:search-task-new)). 
+In both search tasks, participants were given the option of ***not searching*** if they felt confident enough to answer the search task questions from their prior knowledge [@crescenzi2020adaptation]. 
+The deliverables for each search-task, as before, was a written summary (artefact).
+
+
+
+#### `PHASE3-SHEG`: Website Comparison Assessment
+
+Following the two search tasks, participants performed another website comparison assessment from the @sheg2021webpage-comparison. This task assessed their evolved information evaluation skills. 
+
+<!-- To assess participants' (mis)information evaluation capabilities, they performed a Website Comparison assessment created by the @sheg2021webpage-comparison.  -->
+
+> *This task instructed participants to compare two websites and select the one that they would use to begin research on a topic. One of the pages is a Wikipedia article. The other has ".edu" in its URL, but the page reveals that the content is a student-written blog post created as part of a university course. Many students have been taught that Wikipedia pages are unreliable and should be avoided. Many have also been taught that sites with a .edu domain are trustworthy. This assessment gauges their ability to think in more nuanced ways about these kinds of websites.*
+> 
+> `r nbQuoteAuthor('--- @sheg2021webpage-comparison')`
+
+The prompt for the `PHASE3-SHEG` task is present in Appendix \@ref(app-phase3-sheg)).
+
+<!-- A semi-structured interview will be conducted in the end, where participants will reflect on their overall searching and learning experience. Certain 'interesting' handpicked sessions from their submitted logs may be identified and questions about them can also be asked to participants. A list of the interview questions asked in the Pilot Study (Appendix [\[ch-pilot-study\]](#ch-pilot-study){reference-type="ref" reference="ch-pilot-study"}) are presented in Appendix [\[app-post-task-interview\]](#app-post-task-interview){reference-type="ref" reference="app-post-task-interview"}, which can be reused. -->
+
+Similar to `PHASE1`, participants were asked to share their screen for the whole duration of the phase. 
+<!-- except for the interview, whence they can stop screen-sharing.  -->
+Their screen and audio was recorded for the same. They had the freedom to turn off their video. The total time for `PHASE3` was expected to not exceed 1.5 hours (90 minutes). 
+Participants were compensated with USD 30 for `PHASE3`. 
+At the end of `PHASE3`, participants were instructed to complete the Exit Questionnaire `QSNR3` as soon as convenient.
+
+
+
+
+
+### `QSNR3`: Exit Questionnaire {#sec-method-qsnr3}
+
+The exit questionnaire `QSNR3` took place after the Final Phase `PHASE3`. 
+The purpose was to record the final state of the participants' individual difference measures (motivation, metacognition, self-regulation), and whether these characteristics changed during the second half of the semester. 
+As before, `QSNR3` questionnaire was essentially be a replica of `QSNR2`, with the Intrinsic Motivation Inventory (IMI) reworded to reflect the end-point of the semester 
+<!-- (Appendix [\[app-final-survey\]](#app-final-survey){reference-type="ref" reference="app-final-survey"}).  -->
+Participants were be compensated with USD 15 for their time for completing this step. 
+
+
+After `QSNR3` was complete, participants received a bonus compensation of USD 30, if they completed all the phases of the LongSAL study without missing anything.
+
+
+After data collection for all the phases was complete, data analysis was performed on the collected data, which is discussed in the next chapter. 
 
 
 <!-- 
-
-
-### SES2: Longitudinal Tracking
-
-The longitudinal tracking \[SES2\] will be conducted asynchronously over
-the duration of the semester, to understand the change (or lack thereof)
-of participants' search behaviour and knowledge gain over time. Whenever
-participants will work on different parts of their final project
-research paper (which will be termed as SES2a, SES2b, ...etc.), as
-described in Figure
- [1.1](#fig-final-project-description){reference-type="ref"
-reference="fig-final-project-description"}, they will use Firefox web
-browser, and will log their browsing activity using the YASBIL browsing
-logger. To protect their privacy, participants will be instructed to
-turn YASBIL on only when they are searching for information related to
-the course. In addition to the submitted working-draft of their research
-paper, participants will submit a cumulative concept map with each
-document submission. The cumulative concept map will help to track
-participants' evolution of knowledge about the final project topic(s)
-over the course of the semester. Participants will receive reminder
-emails before the deadline of each assignment, to remind them to use
-Firefox, turn YASBIL on, and incrementally update the concept map.
-Participants will receive USD 5 per each assignment for which they log
-data, up to a maximum of USD 20 for four assignments.
-
-### SUR2: Mid-Term Survey {#sec-method-sur2}
-
-The mid-term survey \[SUR2\] will take place around the mid point of the
-semester (Week 8-9). The purpose is to track whether any of the
-participants' individual difference measures (e.g. motivation,
-metacognition, course load etc.) changed during the first half of the
-semester. This survey will essentially be a replica of the Entry Survey
-\[SUR1\] (Section [1.4.1](#sec-method-sur1){reference-type="ref"
-reference="sec-method-sur1"}), with two modifications. First, the
-consent form and the demographics sections will be absent. Second,
-Intrinsic Motivation Inventory (IMI) will include the 'pressure/tension'
-and the 'perceived choice' subscales, as these scales are more
-meaningful after an activity has taken place [@ryan1982control]. The IMI
-will also be reworded to reflect the mid-point of the semester (Appendix
-[\[app-midterm-survey\]](#app-midterm-survey){reference-type="ref"
-reference="app-midterm-survey"}). Participants will be compensated with
-USD 5 for their time for completing this step.
-
-### SES3: Final Session
-
-The Final Session \[SES3\] will be similar in structure to the Initial
-Session (SES1), and will take place at the end of the semester, after
-all the course related tasks are completed by the student. The purpose
-of the session is to record the 'evolved' search behaviour, and final
-knowledge state. Participants will perform two search tasks, one website
-reliability assessment task, and take the memory span test once again.
-In the end, there will be a short semi-structured interview.
-
-Of the two search tasks, the topic of one will be repeated from SES1
-(financial literacy, Figure
-[1.4](#fig-search-task-repeated){reference-type="ref"
-reference="fig-search-task-repeated"}), while the topic of the other
-will come from the course material. In both search tasks, participants
-will be given the option of ***not searching*** if they feel confident
-enough to answer the search task questions from their prior knowledge.
-The deliverables for each search-task will be a written summary
-(artefact) and a concept map (Figure
-[1.2](#fig-search-task-template){reference-type="ref"
-reference="fig-search-task-template"}).
-
-Following the two search task, participants will perform another website
-comparison/reliability task created by the
-[@sheg2021webpage-comparison], which will assess their evolved
-information evaluation skills. Then they will retake the memory span
-test [@francis2004coglab].
-
-A semi-structured interview will be conducted in the end, where
-participants will reflect on their overall searching and learning
-experience. Certain 'interesting' handpicked sessions from their
-submitted logs may be identified and questions about them can also be
-asked to participants. A list of the interview questions asked in the
-Pilot Study (Appendix
-[\[ch-pilot-study\]](#ch-pilot-study){reference-type="ref"
-reference="ch-pilot-study"}) are presented in Appendix
-[\[app-post-task-interview\]](#app-post-task-interview){reference-type="ref"
-reference="app-post-task-interview"}, which can be reused.
-
-Similar to SES1, participants will be asked to share their screen for
-the whole duration of the session, except for the interview, whence they
-can stop screen-sharing. Their screens and audio will be recorded for
-the same. They may choose to turn off their video. The total time for
-SES3 is expected to not exceed 1.5 hours (90 minutes). Participants will
-be compensated with USD 25 for this session, and will be asked to
-complete the Exit Survey \[SUR3\] as soon as convenient.
-
-### SUR3: Exit Survey
-
-The exit survey \[SUR3\] will take place after the Final Session
-\[SES3\]. The purpose is to record the final state of the participants'
-individual difference measures (e.g. motivation, metacognition, course
-load etc.), and whether they changed during the second half of the
-semester. This survey will essentially be a replica of the mid-term
-survey \[SUR2\] (Section [1.4.4](#sec-method-sur2){reference-type="ref"
-reference="sec-method-sur2"}), with the Intrinsic Motivation Inventory
-(IMI) reworded to reflect the end-point of the semester (Appendix
-[\[app-final-survey\]](#app-final-survey){reference-type="ref"
-reference="app-final-survey"}). Participants will be compensated with
-USD 5 for their time for completing this step. If participants do not
-take the survey within three days (say) after appearing for SES3, they
-will be sent reminder emails.
-
-Participants will be compensated with a bonus payment of USD 15, if they
-complete all the parts of the study without missing any component.
 
 ## Measurement and Variables
 
@@ -497,31 +463,5 @@ the (semi) qualitative data -- the semi structured interview at the end,
 the concurrent think alouds, and others -- to derive interesting
 findings.
 
-## Proposed Dissertation Timeline
 
-![image](figs/timeline-data-collection.pdf){width="0.9\\linewidth"}
-
-1.  **November 2021:** prepare and submit IRB proposal
-
-2.  **December 2021:** defend proposal, and if changes to the study
-    protocol are suggested by the committee, submit them as an IRB
-    amendment
-
-3.  **January - May 2022:** conduct longitudinal study; a week-by-week
-    schedule is in Table
-    [\[tab-timeline-data-collection\]](#tab-timeline-data-collection){reference-type="ref"
-    reference="tab-timeline-data-collection"}
-
-4.  **Summer and Fall 2022:** two backup semesters for data collection,
-    if something goes wrong in Spring 2022, especially due to COVID-19
-    pandemic situations.
-
-5.  **August 2022 - February 2023:** analyze data and write dissertation
-
-6.  **April 2023:** Dissertation defense
-
-7.  **May 2023:** revise and complete dissertation
-
-[^1]: <https://serolearn.com>
-
-[^2]: <https://youtu.be/RkBUZ4At8Qg> -->
+-->
