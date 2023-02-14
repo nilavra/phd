@@ -1,9 +1,17 @@
 # [Work in progress] `r metadata[['author']]`'s `r metadata[['document-type']]` {-}
 
 Welcome to the eBook version of `r metadata[['author']]`'s work-in-progress `r metadata[['degree-suffix']]` `r metadata[['document-type']]`.
+This website disseminates my PhD research in a format which is more user-friendly and accessible than a 150-page, double-spaced PDF file. 
+<!-- The materials were submitted to the University Graduate School of UT Austin on December 8, 2017 in fullfillment of the requirments for a Ph.D. degree. -->
 
-To read this eBook, simply scroll down, or jump to a specific chapter from the navigation menu (on the left in dekstops; on the top in mobile devices).
+
+If you are viewing this webpage on a laptop or tablet, you may be able to see the table of contents on the left, and the subheadings for each page on the right. If you are viewing this webpage on your phone, you can navigate between chapters by clicking the three horizontal bars in the top right to view the table of contents. 
 To view a PDF version, click on the cover-sheet below.
+Happy viewing! 😊
+
+
+<!-- To read this eBook, simply scroll down, or jump to a specific chapter from the navigation menu (on the left in dekstops; on the top in mobile devices). -->
+
 
 <!-- - To view/download a PDF version of the thesis, click the button below. -->
 
