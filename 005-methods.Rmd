@@ -250,11 +250,11 @@ After the two search tasks were completed, participants answered questions about
 
 #### `PHASE1-SHEG`: Website Reliability Assessment
 
-To assess participants' (mis)information evaluation capabilities, they performed a website reliability assessment created by the Stanford History Education Group (SHEG) [@sheg2021website-reliability].
+To assess participants' (mis)information evaluation capabilities, participants performed a website reliability assessment created by the @sheg2021website-reliability.
 
-> *This task presents students with the website of the American College of Pediatricians (ACPeds.org) and asks them whether it is a trustworthy source to learn about children’s health. Despite the site’s professional title and appearance, the American College of Pediatricians is not the nation’s major professional organization of pediatricians. That designation belongs to the similarly named American Academy of Pediatrics.
-> 
-> This exercise is an open web search in which students are free to stay on the American College of Pediatricians site or leave it to search for information about the group. Successful students will look beyond the surface features of the site and detect its agenda from its new releases or other focus issues. A faster route, however, is to leave the site almost immediately to search for reliable information about the true agenda of this organization.*
+> *This task presents students with the website of the American College of Pediatricians (ACPeds.org) and asks them whether it is a trustworthy source to learn about children’s health. Despite the site’s professional title and appearance, the American College of Pediatricians is not the nation’s major professional organization of pediatricians. That designation belongs to the similarly named American Academy of Pediatrics.*
+>
+> *This exercise is an open web search in which students are free to stay on the American College of Pediatricians site or leave it to search for information about the group. Successful students will look beyond the surface features of the site and detect its agenda from its new releases or other focus issues. A faster route, however, is to leave the site almost immediately to search for reliable information about the true agenda of this organization.*
 > 
 > `r nbQuoteAuthor('--- @sheg2021website-reliability')`
 
@@ -271,16 +271,16 @@ The type of material participants were asked to recall were: digits, letters tha
 
 
 
-### PHASE2A - PHASE2D: Longitudinal Tracking Phase {#sec-method-phase2}
+### `PHASE2A` - `PHASE2D`: Longitudinal Tracking Phase {#sec-method-phase2}
 
-### QSNR2: Mid-Term Questionnaire {#sec-method-qsnr2}
+### `QSNR2`: Mid-Term Questionnaire {#sec-method-qsnr2}
 
-### PHASE3: Final Phase {#sec-method-phase3}
+### `PHASE3`: Final Phase {#sec-method-phase3}
 
 #### `PHASE3-SHEG`: Webpage Comparison Assessment
 
 
-To assess participants' (mis)information evaluation capabilities, they performed a Website Comparison assessment created by the Stanford History Education Group (SHEG) [@sheg2021webpage-comparison]. 
+To assess participants' (mis)information evaluation capabilities, they performed a Website Comparison assessment created by the @sheg2021webpage-comparison. 
 This task asked participants to compare two websites and select one that they would use to begin research on a topic. One of the pages is a Wikipedia article. The other has ".edu" in its URL, but the page reveals that the content is a student-written blog post created as part of a university course. Many students have been taught that Wikipedia pages are completely unreliable and should be avoided. Many have also been taught that sites with a .edu domain are trustworthy. This assessment gauges their ability to think in more nuanced ways about these kinds of sites. 
 <!-- The website reliability assessment is expected to take 10 minutes. -->
 

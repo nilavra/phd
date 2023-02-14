@@ -2444,11 +2444,29 @@ capturing changes in people's knowledge level, learning experiences, and
 learning outcomes (\protect\hyperlink{ref-url-rieh-homepage}{Rieh, 2020}); and \emph{(iii)} developing search
 systems that better support learning and sensemaking.
 
-\hypertarget{methods-longitudinal-study}{%
-\chapter{Methods: Longitudinal Study}\label{methods-longitudinal-study}}
+\hypertarget{methods-longsal---the-longitudinal-study}{%
+\chapter{Methods: LongSAL - the Longitudinal Study}\label{methods-longsal---the-longitudinal-study}}
+
+To investigate the research questions and hypotheses discussed in Section \ref{sec-rq}, we conducted the LongSAL study.
+The following sections discuss the study design, apparatus and procedure.
 
 \hypertarget{sec-method-exp-design}{%
-\section{Study Design}\label{sec-method-exp-design}}
+\section{Study Design and Participants}\label{sec-method-exp-design}}
+
+LongSAL (Longitudinal Search as Learning study) is a remote, exploratory, longitudinal study that was conducted between January and June 2022 (Spring semester) at the School of Information, University of Texas at Austin (UT Austin).
+
+Participants were recruited from the student pool enrolled in the required undergraduate core-course: \emph{Ethical Foundations for Informatics} (\protect\hyperlink{ref-fleischmann2022i303}{Fleischmann et al., 2022}).
+18 participants originally signed up for the study; 10 participants fully completed all the phases of the study, and the remaining 8 dropped off at different points during the semester.
+Students enrolled in the course had to submit a research paper of 2,000-2,500 words as the final project for the course.
+There were has four checkpoints spread across the semester to submit the drafts in progress: (i) paper proposal, (ii) outline, (iii) rough draft, and (iv) final paper.
+Writing the research paper required choosing an informatics ethical dilemma, and applying three ethical perspectives covered in the course to explore potential solutions to the selected dilemma.
+This involved searching and navigating information online, finding at least 20 relevant external sources, combining ideas, and weaving a narration around the information found in the selected sources.
+
+The study design was informed by running a pilot study during Summer
+2021 semester, in partnership with two courses at UT Austin School of
+Information: \emph{Information in Cyberspace}, and \emph{Academic Success in the
+Digital University}. More details of the pilot study are presented in
+Appendix \ref{ch-pilot-study}.
 
 \hypertarget{apparatus}{%
 \section{Apparatus}\label{apparatus}}
@@ -2456,19 +2474,36 @@ systems that better support learning and sensemaking.
 \hypertarget{yasbil-browsing-logger}{%
 \subsection{YASBIL Browsing Logger}\label{yasbil-browsing-logger}}
 
-\hypertarget{qualtrics-survey-software}{%
-\subsection{Qualtrics Survey Software}\label{qualtrics-survey-software}}
+The YASBIL browsing logger (\protect\hyperlink{ref-bhattacharya2021yasbil}{Bhattacharya \& Gwizdka, 2021}) was utilised
+for this study. YASBIL (Yet Another Search Behaviour and Interaction
+Logger)\footnote{\url{https://github.com/LongSAL/yasbil}} is a two-component logging solution for ethically recording a
+user's browsing activity for Interactive IR user studies. It was
+developed by the author in early Spring 2021, and was employed in the
+pilot study for data collection and testing. YASBIL comprises a Firefox
+browser extension and a WordPress plugin. The browser extension logs
+browsing activity in the participants' machines. The WordPress plugin
+collects the logged data into the researcher's data server. YASBIL
+captures participant's behavioural data, such as webpage visits, time
+spent on pages, identification of popular search engines and their
+SERPs,
+tracking mouse
+clicks and scrolls, and the order and sequences of these events. The
+logging works on any webpage, without the need to own or have knowledge
+about the HTML structure of the webpage. To protect the privacy of
+participants, the logger software can be switched on or off by the participant.
+Participants received regular reminders to turn YASBIL on only when they were searching for information related to the course.
 
-\hypertarget{zoom-video-conferencing-software}{%
-\subsection{Zoom Video-conferencing Software}\label{zoom-video-conferencing-software}}
-
-\hypertarget{sec-method-search-task-template}{%
-\section{Search Task Template}\label{sec-method-search-task-template}}
+YASBIL offers ethical data transparency and security
+for participants, by enabling them to view and obtain copies of the
+logged data, as well as securely upload the data to the researcher's
+server over an HTTPS connection. Although developed using the
+cross-browser WebExtension API \footnote{\url{https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Build-a-cross-browser-extension}}, YASBIL
+currently works in the Firefox Web Browser. So participants were
+instructed to install Firefox and YASBIL on their machines when they
+volunteered to participate in the study.
 
 \hypertarget{sec-method-procedure}{%
 \section{Procedure}\label{sec-method-procedure}}
-
-Insert diagram and check how it looks
 
 \begin{figure}
 
@@ -2483,25 +2518,174 @@ Insert diagram and check how it looks
 
 
 
-Reference it like Figure \ref{fig:study-proc}
+The longitudinal study consisted of six data collection components, as illustrated in Figure \ref{fig:study-proc}.
+They comprise three asynchronous \textbf{questionnaires} (\texttt{QSNR1}, \texttt{QSNR2}, \texttt{QSNR3}),
+two \textbf{remote synchronous study phases} over Zoom video conferencing software (\texttt{PHASE1}, \texttt{PHASE3}),
+and a set of four asynchronous \textbf{longitudinal tracking phases} (\texttt{PHASE2a}, \texttt{PHASE2b}, \texttt{PHASE2c}, \texttt{PHASE2d}).
+These phases are discussed in detail in the following sections.
 
-\hypertarget{sec-method-sur1}{%
-\subsection{SUR1: Entry Survey}\label{sec-method-sur1}}
+\hypertarget{sec-method-qsnr0}{%
+\subsection{\texorpdfstring{\texttt{QSNR0}: Recruitment Questionnaire}{QSNR0: Recruitment Questionnaire}}\label{sec-method-qsnr0}}
 
-\hypertarget{ses1-initial-session}{%
-\subsection{SES1: Initial Session}\label{ses1-initial-session}}
+Participants were recruited for the study via the recruitment questionnaire (QSNR0). The description of the study and the link to the questionnaire was posted in the Canvas Learning Management System used for the I303 course.
 
-\hypertarget{ses2a---ses2d-longitudinal-tracking-sessions}{%
-\subsection{SES2a - SES2d: Longitudinal Tracking Sessions}\label{ses2a---ses2d-longitudinal-tracking-sessions}}
+\hypertarget{sec-method-qsnr1}{%
+\subsection{\texorpdfstring{\texttt{QSNR1}: Entry Questionnaire}{QSNR1: Entry Questionnaire}}\label{sec-method-qsnr1}}
 
-\hypertarget{sec-method-sur2}{%
-\subsection{SUR2: Mid-Term Survey}\label{sec-method-sur2}}
+After recruitment, participants completed the entry questionnaire (QSNR1).
+The purpose of QSNR1 was to capture their individual-differences, or
+moderating variables, at the beginning of the semester.
+Details of the data captured in SUR1 are
+described below, with references to sections in the Appendix, where the
+full-text of the questionnaire can be found.
 
-\hypertarget{ses3-final-session}{%
-\subsection{SES3: Final Session}\label{ses3-final-session}}
+\hypertarget{consent-form-appendix-refapp-qsnr-consent-form}{%
+\subsubsection{Consent Form (Appendix \ref{app-qsnr-consent-form})}\label{consent-form-appendix-refapp-qsnr-consent-form}}
 
-\hypertarget{sur3-exit-survey}{%
-\subsection{SUR3: Exit Survey}\label{sur3-exit-survey}}
+The first page of QSNR1 was online consent form for participating in the study. Participants
+were able to proceed with the study once they provided informed consent.
+
+\hypertarget{demographics-appendix-refapp-qsnr-demographics}{%
+\subsubsection{Demographics (Appendix \ref{app-qsnr-demographics})}\label{demographics-appendix-refapp-qsnr-demographics}}
+
+Questions about demographic information of the participant pool.
+
+\hypertarget{motivation-appendix-refapp-qsnr-imi}{%
+\subsubsection{Motivation (Appendix \ref{app-qsnr-imi})}\label{motivation-appendix-refapp-qsnr-imi}}
+
+Adapted from the \emph{Intrinsic Motivation Inventory (IMI)} by
+(\protect\hyperlink{ref-ryan1982control}{Ryan, 1982}), which is a multidimensional measurement device
+intended to assess participants' subjective experience related to a
+target activity (the assignments for the course they are taking).
+The instrument assesses participants' interest/enjoyment, perceived
+competence, effort/importance, pressure/tension, perceived choice,
+and value/usefulness, while performing a given activity, thus
+yielding six subscale scores.
+The pressure/tension and the perceived
+choice components were not included in the entry questionnaire QSNR1, and were
+present in the mid-term (QSNR2) and exit (QSNR3) questionnaires.
+
+\hypertarget{self-regulation-appendix-refapp-qsnr-srq}{%
+\subsubsection{Self-regulation (Appendix \ref{app-qsnr-srq})}\label{self-regulation-appendix-refapp-qsnr-srq}}
+
+Adapted from the \emph{Self-Regulation Questionnaire (SRQ)} by
+(\protect\hyperlink{ref-brown1999self}{J. M. Brown et al., 1999}), which assess seven self-regulatory processes
+through self-report: receiving relevant information, evaluating the
+information and comparing it to norms, triggering change, searching
+for options, formulating a plan, implementing the plan, and
+assessing the plan's effectiveness (Section \ref{sec-bg-learn-self-regulation}).
+
+\hypertarget{metacognition-appendix-refapp-qsnr-mai}{%
+\subsubsection{Metacognition (Appendix \ref{app-qsnr-mai})}\label{metacognition-appendix-refapp-qsnr-mai}}
+
+Adapted from the \emph{Metacognivite Awareness Inventory (MAI)},
+originally proposed by (\protect\hyperlink{ref-schraw1994assessing}{Schraw \& Dennison, 1994}) as a 52-item true /
+false questionnaire, and later revised by (\protect\hyperlink{ref-terlecki2018call}{Terlecki \& McMahon, 2018}) to use
+five-point Likert scales. The instrument measures two components of
+cognition through self-report: knowledge about cognition, and
+regulation of cognition (Section \ref{sec-bg-learn-metacognition}).
+
+After completing QSNR1 offline, participants were instructed to prepare
+for the initial synchronous phase, \texttt{PHASE1}, by
+installing Firefox web browser and the YASBIL extension on their machines.
+This was a one-time step.
+If a
+participant could not find the time for this step, they were informed
+that an extra 5-10 minutes would be taken in the beginning of \texttt{PHASE1} to
+complete this step.
+
+The entry questionnaire and the software installation took about
+10-15 minutes to complete. Participants were compensated with USD 5
+for their time for completing this step. The questionnaire was published to the I-303 course students in
+the first week of the Spring 2022 semester.
+
+\hypertarget{sec-method-phase1}{%
+\subsection{\texorpdfstring{\texttt{PHASE1}: Initial Phase}{PHASE1: Initial Phase}}\label{sec-method-phase1}}
+
+The \texttt{PHASE1} of the data collection took place in the beginning of the semester.
+The data-collection took place over a Zoom video call combined with YASBIL browsing logger installed in the participants' machines.
+Participants were asked to share their screen for the whole duration of the phase.
+Their screens and audio were recorded for the entire duration.
+They had the freedom to turn off their video.
+The total time for \texttt{PHASE1} was expected to not exceed 1.5 hours (90 minutes).
+Participants were compensated with USD 25 for this phase.
+The different components of \texttt{PHASE1} are described below.
+
+\hypertarget{training-search-task}{%
+\subsubsection{Training Search Task}\label{training-search-task}}
+
+Participants performed a training search task to familiarize themselves with how to operate the YASBIL browser extension to log their browsing activity. The training task took around 2-5 minutes.
+
+\hypertarget{phase1-finance-and-phase1-ubuntu-two-actual-search-tasks}{%
+\subsubsection{\texorpdfstring{\texttt{PHASE1-FINANCE} and \texttt{PHASE1-UBUNTU}: Two Actual Search Tasks}{PHASE1-FINANCE and PHASE1-UBUNTU: Two Actual Search Tasks}}\label{phase1-finance-and-phase1-ubuntu-two-actual-search-tasks}}
+
+Participants performed two search tasks: \texttt{PHASE1-FINANCE}, and \texttt{PHASE1-UBUNTU}.
+The \texttt{PHASE1-FINANCE} task was repeated at the end of the semester as \texttt{PHASE3-FINANCE} task.
+The \texttt{PHASE1-UBUNTU} task was not repeated, and instead the \texttt{PHASE3-BIAS} task too its place.
+This helps to answer the research question RQ2 (Section \ref{sec-rq}).
+The order of the two search tasks were randomized.
+
+The repeated search task \texttt{FINANCE} was on the topic of financial literacy, a topic that we posit can be considered as universally important to college students, and part of lifelong learning.
+The prompts for the \texttt{PHASE1-FINANCE} and \texttt{PHASE3-FINANCE} tasks are presented in Figure \ref{fig:search-task-repeated}.
+The non-repeated search task were on topics that were taught in the I303 course:
+Ubuntu ethics (for \texttt{PHASE1})
+and
+Algorithmic Bias (for \texttt{PHASE3}).
+The prompts for these tasks are present in Figure \ref{fig:search-task-new}.
+
+To answer RQ3 (effect of externalization and articulation in learning), each participant performed one of the search tasks while thinking aloud (Concurrent-Think Aloud or \emph{CTA condition}), and performed the other search task in silence (\emph{silent condition}).
+The choice of the search task for each of the conditions was randomized and balanced.
+
+Each search task began with a pre-task questionnaire (Appendix \ref{app-phase1-pretask}), which asked participants to self-rate their pre-search knowledge-level and interest on the topic.
+Then participants turned on the YASBIL browsing logger and started searching.
+The deliverable for each search task was a written summary (artefact).
+After participants are satisfied with the quality of the deliverable, they turned off YASBIL browsing logger, and proceeded to the post-task questionnaire.
+
+The post-task questionnaire (Appendix \ref{app-phase1-posttask}) asked participants to self-rate their post-search topic knowledge, search experience, interest and motivation, and overall perceptions.
+The pre-task and post-task questionnaires are adapted from (\protect\hyperlink{ref-collins2016assessing}{Collins-Thompson et al., 2016}; \protect\hyperlink{ref-crescenzi2020adaptation}{Crescenzi, 2020}).
+
+After the two search tasks were completed, participants answered questions about whether they preferred the think-aloud condition or the silent condition, and why (Appendix \ref{app-phase1-cta-v-silent}).
+
+\hypertarget{phase1-sheg-website-reliability-assessment}{%
+\subsubsection{\texorpdfstring{\texttt{PHASE1-SHEG}: Website Reliability Assessment}{PHASE1-SHEG: Website Reliability Assessment}}\label{phase1-sheg-website-reliability-assessment}}
+
+To assess participants' (mis)information evaluation capabilities, they performed a website reliability assessment created by the Stanford History Education Group (SHEG) (\protect\hyperlink{ref-sheg2021website-reliability}{2021b}).
+
+\begin{quote}
+\emph{This task presents students with the website of the American College of Pediatricians (ACPeds.org) and asks them whether it is a trustworthy source to learn about children's health. Despite the site's professional title and appearance, the American College of Pediatricians is not the nation's major professional organization of pediatricians. That designation belongs to the similarly named American Academy of Pediatrics.}
+
+\emph{This exercise is an open web search in which students are free to stay on the American College of Pediatricians site or leave it to search for information about the group. Successful students will look beyond the surface features of the site and detect its agenda from its new releases or other focus issues. A faster route, however, is to leave the site almost immediately to search for reliable information about the true agenda of this organization.}
+
+\hfill --- Stanford History Education Group (SHEG) (\protect\hyperlink{ref-sheg2021website-reliability}{2021b})
+\end{quote}
+
+The prompt for the \texttt{PHASE1-SHEG} task is present in Appendix \ref{app-phase1-sheg}).
+
+\hypertarget{memory-span-test}{%
+\subsubsection{Memory Span Test}\label{memory-span-test}}
+
+\texttt{PHASE1} concluded with the assessment of the participant's working memory capacity (WMC) using a memory span task (\protect\hyperlink{ref-francis2004coglab}{Francis et al., 2004}).
+The task has 25 trials. On each trial participants saw a list of items presented one at a time in random order and were asked to recall the items in the same order in which they were presented. If they got a list correct, the list length increased by 1 for that type of material. If they got a list incorrect, the list length decreased by 1.
+
+The type of material participants were asked to recall were: digits, letters that sound dissimilar, letters that sound similar, short words, and long words. The outcome score was the list length of the last list that participants could correctly recall.
+
+\hypertarget{sec-method-phase2}{%
+\subsection{\texorpdfstring{\texttt{PHASE2A} - \texttt{PHASE2D}: Longitudinal Tracking Phase}{PHASE2A - PHASE2D: Longitudinal Tracking Phase}}\label{sec-method-phase2}}
+
+\hypertarget{sec-method-qsnr2}{%
+\subsection{\texorpdfstring{\texttt{QSNR2}: Mid-Term Questionnaire}{QSNR2: Mid-Term Questionnaire}}\label{sec-method-qsnr2}}
+
+\hypertarget{sec-method-phase3}{%
+\subsection{\texorpdfstring{\texttt{PHASE3}: Final Phase}{PHASE3: Final Phase}}\label{sec-method-phase3}}
+
+\hypertarget{phase3-sheg-webpage-comparison-assessment}{%
+\subsubsection{\texorpdfstring{\texttt{PHASE3-SHEG}: Webpage Comparison Assessment}{PHASE3-SHEG: Webpage Comparison Assessment}}\label{phase3-sheg-webpage-comparison-assessment}}
+
+To assess participants' (mis)information evaluation capabilities, they performed a Website Comparison assessment created by the Stanford History Education Group (SHEG) (\protect\hyperlink{ref-sheg2021webpage-comparison}{Stanford History Education Group (SHEG), 2021a}).
+This task asked participants to compare two websites and select one that they would use to begin research on a topic. One of the pages is a Wikipedia article. The other has ``.edu'' in its URL, but the page reveals that the content is a student-written blog post created as part of a university course. Many students have been taught that Wikipedia pages are completely unreliable and should be avoided. Many have also been taught that sites with a .edu domain are trustworthy. This assessment gauges their ability to think in more nuanced ways about these kinds of sites.
+
+\hypertarget{sec-method-qsnr3}{%
+\subsection{QSNR3: Exit Questionnaire}\label{sec-method-qsnr3}}
 
 \hypertarget{data-analysis}{%
 \chapter{Data Analysis}\label{data-analysis}}
@@ -3399,6 +3583,14 @@ Some difficulties:
   \end{itemize}
 \end{itemize}
 
+Contrary opinions\_
+- \url{https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web}
+- ``When we're dealing with sequences of words, lossy compression looks smarter than lossless compression.''
+- hallucinations
+- \url{https://abcnews4.com/news/nation-world/experts-warn-dangers-ai-google-microsoft-push-new-chatbots-chatgpt-bard-technology-big-tech-open-ended-questions-responses-alphabet-misinformation-disinformation-internet-new-developments-bing-search-engines}
+- Matt is here
+- potential to misinformation
+
 Final feedback:
 P022Pisa said
 \textgreater{} \emph{It is great to be able to participate in the research this semester. Using the extension somehow brings me postive feedback and that helps me in study I303. So I wanna say thank you}
@@ -3418,8 +3610,8 @@ P022Pisa said
 \hypertarget{app-pilot-study}{%
 \chapter{Prior Work: Pilot Study}\label{app-pilot-study}}
 
-\hypertarget{ses1-initial-session-1}{%
-\section{SES1: Initial Session}\label{ses1-initial-session-1}}
+\hypertarget{ses1-initial-session}{%
+\section{SES1: Initial Session}\label{ses1-initial-session}}
 
 \hypertarget{app-signup-survey}{%
 \chapter{SUR1: Entry Survey}\label{app-signup-survey}}
@@ -4430,6 +4622,9 @@ Bhattacharya, N., \& Gwizdka, J. (2019b). Measuring learning during search: Diff
 \leavevmode\vadjust pre{\hypertarget{ref-CHIIR19}{}}%
 Bhattacharya, N., \& Gwizdka, J. (2019a). Measuring learning during search: Differences in interactions, eye-gaze, and semantic similarity to expert knowledge. \emph{CHIIR'19}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-bhattacharya2021yasbil}{}}%
+Bhattacharya, N., \& Gwizdka, J. (2021). YASBIL: Yet another search behaviour (and) interaction logger. \emph{Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval}, 2585--2589.
+
 \leavevmode\vadjust pre{\hypertarget{ref-139}{}}%
 Bilal, D., \& Gwizdka, J. (2016). Children's {Eye}-fixations on {Google Search Results}. \emph{Proceedings of the 79th {ASIS}\&{T Annual Meeting}}, \emph{79}, 89:1--89:6. \url{https://doi.org/10.1002/pra2.2016.14505301089}
 
@@ -4487,11 +4682,17 @@ Collins, C. (2021). Reimagining {Digital Literacy Education} to {Save Ourselves}
 \leavevmode\vadjust pre{\hypertarget{ref-collins2017search}{}}%
 Collins-Thompson, K., Hansen, P., \& Hauff, C. (2017). Search as learning (dagstuhl seminar 17092). \emph{Dagstuhl Reports}, \emph{7}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-collins2016assessing}{}}%
+Collins-Thompson, K., Rieh, S. Y., Haynes, C. C., \& Syed, R. (2016). Assessing learning outcomes in web search: A comparison of tasks and query strategies. \emph{Proceedings of the 2016 ACM on Conference on Human Information Interaction and Retrieval}, 163--172.
+
 \leavevmode\vadjust pre{\hypertarget{ref-cope2013new}{}}%
 Cope, B., \& Kalantzis, M. (2013). Towards a {New Learning}: The {\emph{Scholar}} {Social Knowledge Workspace}, in {Theory} and {Practice}. \emph{E-Learning and Digital Media}, \emph{10}(4), 332--356. \url{https://doi.org/10.2304/elea.2013.10.4.332}
 
 \leavevmode\vadjust pre{\hypertarget{ref-cope2017elearningc}{}}%
 Cope, B., \& Kalantzis, M. (2017). \emph{E-{Learning Ecologies}: Principles for {New Learning} and {Assessment}}. {Taylor \& Francis}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-crescenzi2020adaptation}{}}%
+Crescenzi, A. M. C. (2020). \emph{Adaptation in {Information Search} and {Decision}-{Making} under {Time Pressure}} {[}PhD thesis, The University of North Carolina at Chapel Hill University Libraries{]}. \url{https://doi.org/10.17615/YT6K-AC37}
 
 \leavevmode\vadjust pre{\hypertarget{ref-104}{}}%
 Cutrell, E., \& Guan, Z. (2007). What are you looking for? {An} eye-tracking study of information usage in web search. \emph{Proceedings of the {SIGCHI} Conference on Human Factors in Computing Systems}, 407--416. \url{https://doi.org/10.1145/1240624.1240690}
@@ -4537,6 +4738,12 @@ Eickhoff, C., Gwizdka, J., Hauff, C., \& He, J. (2017). Introduction to the spec
 
 \leavevmode\vadjust pre{\hypertarget{ref-eickhoff2014lessons}{}}%
 Eickhoff, C., Teevan, J., White, R., \& Dumais, S. (2014). Lessons from the journey: A query log analysis of within-session learning. \emph{Proceedings of the 7th ACM International Conference on Web Search and Data Mining}, 223--232.
+
+\leavevmode\vadjust pre{\hypertarget{ref-fleischmann2022i303}{}}%
+Fleischmann, K., Verma, N., Gursoy, A., Bautista, J. R., \& Day, J. (2022). I 303 : Ethical foundations for informatics {[}syllabus{]}. \emph{School of Information, University of Texas at Austin}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-francis2004coglab}{}}%
+Francis, G., MacKewn, A., \& Goldthwaite, D. (2004). \emph{{CogLab} on a {CD}}. {Wadsworth Publishing Company}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-freund2013searching}{}}%
 Freund, L., Gwizdka, J., Hansen, P., Kando, N., \& Rieh, S. Y. (2013). From searching to learning. \emph{Evaluation Methodologies in Information Retrieval. Dagstuhl Reports}, \emph{13441}, 102--105.
@@ -4870,6 +5077,12 @@ Smith, C. L., \& Kantor, P. B. (2008). User adaptation: Good results from poor s
 
 \leavevmode\vadjust pre{\hypertarget{ref-spink1997study}{}}%
 Spink, A. (1997). Study of interactive feedback during mediated information retrieval. \emph{Journal of the American Society for Information Science}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sheg2021webpage-comparison}{}}%
+Stanford History Education Group (SHEG). (2021a). \emph{Webpage comparison \textbar{} {Civic Online Reasoning}}. \url{https://cor.stanford.edu/curriculum/assessments/webpage-comparison}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sheg2021website-reliability}{}}%
+Stanford History Education Group (SHEG). (2021b). \emph{Website {Reliability} \textbar{} {Civic Online Reasoning}}. \url{https://cor.stanford.edu/curriculum/assessments/website-reliability}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-syed2020improving}{}}%
 Syed, R., Collins-Thompson, K., Bennett, P. N., Teng, M., Williams, S., Tay, D. W. W., \& Iqbal, S. (2020). Improving learning outcomes with gaze tracking and automatic question generation. \emph{The Web Conference (WWW)}.
