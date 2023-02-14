@@ -10,7 +10,7 @@ LongSAL (Longitudinal Search as Learning study) is a remote, exploratory, longit
 Participants were recruited from the student pool enrolled in the required undergraduate core-course: *Ethical Foundations for Informatics* [@fleischmann2022i303].
 18 participants originally signed up for the study; 10 participants fully completed all the phases of the study, and the remaining 8 dropped off at different points during the semester.
 Students enrolled in the course had to submit a research paper of 2,000-2,500 words as the final project for the course.
-There were has four checkpoints spread across the semester to submit the drafts in progress: (i) paper proposal, (ii) outline, (iii) rough draft, and (iv) final paper. 
+There were has four checkpoints spread across the semester to submit the drafts in progress: (i) paper proposal, (ii) outline, (iii) rough draft, and (iv) final paper.
 Writing the research paper required choosing an informatics ethical dilemma, and applying three ethical perspectives covered in the course to explore potential solutions to the selected dilemma.
 This involved searching and navigating information online, finding at least 20 relevant external sources, combining ideas, and weaving a narration around the information found in the selected sources.
 
@@ -87,19 +87,19 @@ nbShowFig("figs/study-proc")
 <!----------- fig:study-proc (leave a blank line before this) ----------->
 
 The longitudinal study consisted of six data collection components, as illustrated in Figure \@ref(fig:study-proc).
-They comprise three asynchronous **questionnaires** (QSNR1, QSNR2, QSNR3),
-two **remote synchronous study phases** over Zoom video conferencing software (PHASE1, PHASE3),
-and a set of four asynchronous **longitudinal tracking phases** (PHASE2a, PHASE2b, PHASE2c, PHASE2d).
+They comprise three asynchronous **questionnaires** (`QSNR1`, `QSNR2`, `QSNR3`),
+two **remote synchronous study phases** over Zoom video conferencing software (`PHASE1`, `PHASE3`),
+and a set of four asynchronous **longitudinal tracking phases** (`PHASE2a`, `PHASE2b`, `PHASE2c`, `PHASE2d`).
 These phases are discussed in detail in the following sections.
 <!-- Reference it like Figure \@ref(fig:study-proc) -->
 
 
-### QSNR0: Recruitment Questionnaire {#sec-method-qsnr0}
+### `QSNR0`: Recruitment Questionnaire {#sec-method-qsnr0}
 
 Participants were recruited for the study via the recruitment questionnaire (QSNR0). The description of the study and the link to the questionnaire was posted in the Canvas Learning Management System used for the I303 course.
 
 
-### QSNR1: Entry Questionnaire {#sec-method-qsnr1}
+### `QSNR1`: Entry Questionnaire {#sec-method-qsnr1}
 
 After recruitment, participants completed the entry questionnaire (QSNR1).
 The purpose of QSNR1 was to capture their individual-differences, or
@@ -108,13 +108,17 @@ Details of the data captured in SUR1 are
 described below, with references to sections in the Appendix, where the
 full-text of the questionnaire can be found.
 
-1. **Consent Form:** (Appendix \@ref(app-qsnr-consent-form))
-    The first page of QSNR1 was the
-    online consent form for participating in the study. Participants
-    were able to proceed with the study once they provided informed consent.
 
-1. **Demographics:** (Appendix \@ref(app-qsnr-demographics))
-   demographic information
+#### Consent Form (Appendix \@ref(app-qsnr-consent-form))
+
+The first page of QSNR1 was online consent form for participating in the study. Participants
+were able to proceed with the study once they provided informed consent.
+
+
+
+#### Demographics (Appendix \@ref(app-qsnr-demographics))
+
+Questions about demographic information of the participant pool.
 
 <!-- 1. **Search and IT proficiency:** (Appendix \@ref(app-qsnr-search-it-proficiency))
    Captures previous search experience, and proficiency in navigating the web.
@@ -136,48 +140,53 @@ full-text of the questionnaire can be found.
     [@note-taking-survey-penn-state], and *Note Taking Strategies
     Inventory* by [@note-taking-strategies-umass]. -->
 
-1. **Motivation:** (Appendix \@ref(app-qsnr-imi))
-    Adapted from the *Intrinsic Motivation Inventory (IMI)* by
-    [@ryan1982control], which is a multidimensional measurement device
-    intended to assess participants' subjective experience related to a
-    target activity (the assignments for the course they are taking).
-    The instrument assesses participants' interest/enjoyment, perceived
-    competence, effort/importance, pressure/tension, perceived choice,
-    and value/usefulness, while performing a given activity, thus
-    yielding six subscale scores. 
-    <!-- Three items in the value/usefulness
-    subscale were completed with contextual information when the
-    study site is finalized.  -->
-    The pressure/tension and the perceived
-    choice components were not included in the entry questionnaire QSNR1, and were
-    present in the mid-term (QSNR2) and exit (QSNR3) questionnaires.
 
-2. **Self-regulation:** (Appendix \@ref(app-qsnr-srq))
-    Adapted from the *Self-Regulation Questionnaire (SRQ)* by
-    [@brown1999self], which assess seven self-regulatory processes
-    through self-report: receiving relevant information, evaluating the
-    information and comparing it to norms, triggering change, searching
-    for options, formulating a plan, implementing the plan, and
-    assessing the plan's effectiveness (Section \@ref(sec-bg-learn-self-regulation)).
+#### Motivation (Appendix \@ref(app-qsnr-imi))
 
-3. **Metacognition:** (Appendix \@ref(app-qsnr-mai))
-    Adapted from the *Metacognivite Awareness Inventory (MAI)*,
-    originally proposed by [@schraw1994assessing] as a 52-item true /
-    false questionnaire, and later revised by [@terlecki2018call] to use
-    five-point Likert scales. The instrument measures two components of
-    cognition through self-report: knowledge about cognition, and
-    regulation of cognition (Section \@ref(sec-bg-learn-metacognition)).
+Adapted from the *Intrinsic Motivation Inventory (IMI)* by
+[@ryan1982control], which is a multidimensional measurement device
+intended to assess participants' subjective experience related to a
+target activity (the assignments for the course they are taking).
+The instrument assesses participants' interest/enjoyment, perceived
+competence, effort/importance, pressure/tension, perceived choice,
+and value/usefulness, while performing a given activity, thus
+yielding six subscale scores. 
+<!-- Three items in the value/usefulness
+subscale were completed with contextual information when the
+study site is finalized.  -->
+The pressure/tension and the perceived
+choice components were not included in the entry questionnaire QSNR1, and were
+present in the mid-term (QSNR2) and exit (QSNR3) questionnaires.
+
+
+#### Self-regulation (Appendix \@ref(app-qsnr-srq))
+
+Adapted from the *Self-Regulation Questionnaire (SRQ)* by
+[@brown1999self], which assess seven self-regulatory processes
+through self-report: receiving relevant information, evaluating the
+information and comparing it to norms, triggering change, searching
+for options, formulating a plan, implementing the plan, and
+assessing the plan's effectiveness (Section \@ref(sec-bg-learn-self-regulation)).
+
+#### Metacognition (Appendix \@ref(app-qsnr-mai))
+
+Adapted from the *Metacognivite Awareness Inventory (MAI)*,
+originally proposed by [@schraw1994assessing] as a 52-item true /
+false questionnaire, and later revised by [@terlecki2018call] to use
+five-point Likert scales. The instrument measures two components of
+cognition through self-report: knowledge about cognition, and
+regulation of cognition (Section \@ref(sec-bg-learn-metacognition)).
 
 After completing QSNR1 offline, participants were instructed to prepare
-for the initial synchronous phase, PHASE1, by 
+for the initial synchronous phase, `PHASE1`, by
 installing Firefox web browser and the YASBIL extension on their machines.
 <!-- *(ii)* get a quick introduction to concept maps (by watching a short video),
 *(ii)* familiarizing themselves with the *Sero!* learning platform
 (for creating and assessing concept maps).  -->
-This was a one-time step. 
+This was a one-time step.
 If a
 participant could not find the time for this step, they were informed
-that an extra 5-10 minutes would be taken in the beginning of PHASE1 to
+that an extra 5-10 minutes would be taken in the beginning of `PHASE1` to
 complete this step.
 
 The entry questionnaire and the software installation took about
@@ -188,100 +197,78 @@ the first week of the Spring 2022 semester.
 
 
 
-### PHASE1: Initial Phase {#sec-method-phase1}
+### `PHASE1`: Initial Phase {#sec-method-phase1}
 
-For the Initial Phase (PHASE1), participants were invited to a
-remote study session over the Zoom video-conferencing platform. The
-purpose of PHASE1 was to establish baseline search
-behaviour and domain knowledge of the participants. The study
-consisted of a training task, two actual search tasks, one website
-reliability assessment, and a memory span test. Each of these components
-are described below.
+The `PHASE1` of the data collection took place in the beginning of the semester.
+The data-collection took place over a Zoom video call combined with YASBIL browsing logger installed in the participants' machines.
+Participants were asked to share their screen for the whole duration of the phase.
+Their screens and audio were recorded for the entire duration.
+They had the freedom to turn off their video.
+The total time for `PHASE1` was expected to not exceed 1.5 hours (90 minutes).
+Participants were compensated with USD 25 for this phase.
+The different components of `PHASE1` are described below.
 
-1.  **Training Task:** Participants performed a training task to
-    familiarize themselves with how to operate the YASBIL browser
-    extension to log their browsing activity.
-    The training task took around 2-5 minutes.
+#### Training Search Task
 
-2.  **Actual Search Tasks:** Participants performed two search tasks: -- `PHASE1-FINANCE`, and `PHASE1-UBUNTU`, of
-    which the `PHASE1-FINANCE` was repeated at the end of the semester as `PHASE3-FINANCE`. 
-    in the final session \[SES3\] at the end
-    of the semester, and the other will not be repeated. This will help
-    to answer research question RQ2 (Section
-    [\[sec-rq\]](#sec-rq){reference-type="ref" reference="sec-rq"}). The
-    order of the two search tasks will be randomized. The generic format
-    the search tasks are described in Figure
-    [1.2](#fig-search-task-template){reference-type="ref"
-    reference="fig-search-task-template"}.
+Participants performed a training search task to familiarize themselves with how to operate the YASBIL browser extension to log their browsing activity. The training task took around 2-5 minutes.
 
-    The repeated search task will be on the topic of financial literacy,
-    a topic that may be considered to be universally important to
-    college students, and part of lifelong learning. The SES1 and SES3
-    versions of the repeated task are presented in Figure
-    [1.4](#fig-search-task-repeated){reference-type="ref"
-    reference="fig-search-task-repeated"}. The non-repeated search task
-    will be on topics that will be taught in the course serving as the
-    site for the study. Examples of search tasks used in the Pilot Study
-    are in Appendix
-    [\[ch-pilot-study\]](#ch-pilot-study){reference-type="ref"
-    reference="ch-pilot-study"}. Each search task is expected to take
-    around 20 minutes.
 
-    To answer RQ3 (effect of externalisation and articulation in
-    learning), each participant will perform one of the search tasks
-    while thinking aloud (concurrent think-aloud, or *CTA condition*),
-    and perform the other one in silence (*silent condition*). The
-    choice of the task for each of the conditions will be randomized and
-    balanced.
+#### `PHASE1-FINANCE` and `PHASE1-UBUNTU`: Two Actual Search Tasks
 
-    Each search task will begin with a pre-task questionnaire (Appendix
-    [\[app-pre-task-qsn\]](#app-pre-task-qsn){reference-type="ref"
-    reference="app-pre-task-qsn"}), which asks participants to self-rate
-    their pre-search topic knowledge and interest. Then participants
-    will turn on the YASBIL browsing logger and start searching. The
-    deliverable for each search task will be a written summary
-    (artefact), and a concept map. After participants are satisfied with
-    the quality of the deliverable, they will turn off YASBIL browsing
-    logger, and proceed to the post-task questionnaire. The post-task
-    questionnaire (Appendix
-    [\[app-post-task-qsn\]](#app-post-task-qsn){reference-type="ref"
-    reference="app-post-task-qsn"}) asks participants to self-rate their
-    post-search topic knowledge, search experience, interest and
-    motivation, and overall perceptions. The pre-task and post-task
-    questionnaires are adapted from
-    [@collins2016assessing; @crescenzi2020adaptation]. After the two
-    search tasks are completed, participants will answer questions about
-    whether they preferred the think-aloud condition or the silent
-    condition, and why (Appendix
-    [\[app-cta-v\-silent\]](#app-cta-v-silent){reference-type="ref"
-    reference="app-cta-v-silent"}).
+Participants performed two search tasks: `PHASE1-FINANCE`, and `PHASE1-UBUNTU`. 
+The `PHASE1-FINANCE` task was repeated at the end of the semester as `PHASE3-FINANCE` task.
+The `PHASE1-UBUNTU` task was not repeated, and instead the `PHASE3-BIAS` task too its place.
+This helps to answer the research question RQ2 (Section \@ref(sec-rq)).
+The order of the two search tasks were randomized.
 
-3.  **Webpage Comparison Assessment:** To assess participants'
-    (mis)information evaluation capabilities, they will perform a
-    Website Comparison assessment created by the
-    [@sheg2021webpage-comparison]. This task asks students to compare
-    two websites and select the one that they would use to begin
-    research on a topic. One of the pages is a Wikipedia article. The
-    other has ".edu" in its URL, but the page reveals that the content
-    is a student-written blog post created as part of a university
-    course. Many students have been taught that Wikipedia pages are
-    completely unreliable and should be avoided. Many have also been
-    taught that sites with a .edu domain are trustworthy. This
-    assessment gauges their ability to think in more nuanced ways about
-    these kinds of sites. The website reliability assessment is expected
-    to take 10 minutes.
 
-4.  **Memory Span Test:** The session will conclude with the assessment
-    of the participant's working memory capacity (WMC) using a memory
-    span task [@francis2004coglab]. Memory span assessment is kept in
-    the synchronous session because it is a timed task, and needs to
-    conducted in a controlled (experimenter observed) condition.
+The repeated search task `FINANCE` was on the topic of financial literacy, a topic that we posit can be considered as universally important to college students, and part of lifelong learning. 
+The prompts for the `PHASE1-FINANCE` and `PHASE3-FINANCE` tasks are presented in Figure \@ref(fig:search-task-repeated).
+The non-repeated search task were on topics that were taught in the I303 course: 
+Ubuntu ethics (for `PHASE1`)
+and
+Algorithmic Bias (for `PHASE3`).
+The prompts for these tasks are present in Figure \@ref(fig:search-task-new).
 
-Participants will be asked to share their screen for the whole duration
-of the session. Their screens and audio will be recorded for the entire
-duration. They may choose to turn off their video. The total time for
-SES1 is expected to not exceed 1.5 hours (90 minutes). Participants will
-be compensated with USD 25 for this session.
+<!-- Each search task is expected to take around 20 minutes. -->
+
+To answer RQ3 (effect of externalization and articulation in learning), each participant performed one of the search tasks while thinking aloud (Concurrent-Think Aloud or *CTA condition*), and performed the other search task in silence (*silent condition*). 
+The choice of the search task for each of the conditions was randomized and balanced.
+
+ 
+
+Each search task began with a pre-task questionnaire (Appendix \@ref(app-phase1-pretask)), which asked participants to self-rate their pre-search knowledge-level and interest on the topic. 
+Then participants turned on the YASBIL browsing logger and started searching. 
+The deliverable for each search task was a written summary (artefact). 
+After participants are satisfied with the quality of the deliverable, they turned off YASBIL browsing logger, and proceeded to the post-task questionnaire.
+
+The post-task questionnaire (Appendix \@ref(app-phase1-posttask)) asked participants to self-rate their post-search topic knowledge, search experience, interest and motivation, and overall perceptions.
+The pre-task and post-task questionnaires are adapted from [@collins2016assessing; @crescenzi2020adaptation]. 
+
+After the two search tasks were completed, participants answered questions about whether they preferred the think-aloud condition or the silent condition, and why (Appendix \@ref(app-phase1-cta-v-silent)).
+
+
+#### `PHASE1-SHEG`: Website Reliability Assessment
+
+To assess participants' (mis)information evaluation capabilities, they performed a website reliability assessment created by the Stanford History Education Group (SHEG) [@sheg2021website-reliability].
+
+> *This task presents students with the website of the American College of Pediatricians (ACPeds.org) and asks them whether it is a trustworthy source to learn about children’s health. Despite the site’s professional title and appearance, the American College of Pediatricians is not the nation’s major professional organization of pediatricians. That designation belongs to the similarly named American Academy of Pediatrics.
+> 
+> This exercise is an open web search in which students are free to stay on the American College of Pediatricians site or leave it to search for information about the group. Successful students will look beyond the surface features of the site and detect its agenda from its new releases or other focus issues. A faster route, however, is to leave the site almost immediately to search for reliable information about the true agenda of this organization.*
+> 
+> `r nbQuoteAuthor('--- @sheg2021website-reliability')`
+
+The prompt for the `PHASE1-SHEG` task is present in Appendix \@ref(app-phase1-sheg)).
+
+
+#### Memory Span Test
+
+`PHASE1` concluded with the assessment of the participant's working memory capacity (WMC) using a memory span task [@francis2004coglab].
+<!-- Memory span assessment is kept in the synchronous session because it is a timed task, and needs to conducted in a controlled (experimenter observed) condition. -->
+The task has 25 trials. On each trial participants saw a list of items presented one at a time in random order and were asked to recall the items in the same order in which they were presented. If they got a list correct, the list length increased by 1 for that type of material. If they got a list incorrect, the list length decreased by 1.
+
+The type of material participants were asked to recall were: digits, letters that sound dissimilar, letters that sound similar, short words, and long words. The outcome score was the list length of the last list that participants could correctly recall.
+
 
 
 ### PHASE2A - PHASE2D: Longitudinal Tracking Phase {#sec-method-phase2}
@@ -290,205 +277,17 @@ be compensated with USD 25 for this session.
 
 ### PHASE3: Final Phase {#sec-method-phase3}
 
+#### `PHASE3-SHEG`: Webpage Comparison Assessment
+
+
+To assess participants' (mis)information evaluation capabilities, they performed a Website Comparison assessment created by the Stanford History Education Group (SHEG) [@sheg2021webpage-comparison]. 
+This task asked participants to compare two websites and select one that they would use to begin research on a topic. One of the pages is a Wikipedia article. The other has ".edu" in its URL, but the page reveals that the content is a student-written blog post created as part of a university course. Many students have been taught that Wikipedia pages are completely unreliable and should be avoided. Many have also been taught that sites with a .edu domain are trustworthy. This assessment gauges their ability to think in more nuanced ways about these kinds of sites. 
+<!-- The website reliability assessment is expected to take 10 minutes. -->
+
 ### QSNR3: Exit Questionnaire {#sec-method-qsnr3}
 
 
-<!-- We propose to conduct a remote longitudinal study to investigate the
-research questions and hypotheses discussed in Section
-[\[sec-rq\]](#sec-rq){reference-type="ref" reference="sec-rq"}. The
-study will primarily be exploratory in nature. The following sections
-discuss the apparatus, procedure, measurement of variables, plans for
-data analysis, anticipated limitations, and the expected timeline for
-the data collection and dissertation defence.
-
-## Study Design {#sec-method-exp-design}
-
-![ Final project description, setting up the search tasks throughout the
-semester.
-](figs/final-project-description.pdf){#fig-final-project-description
-width="\\linewidth"}
-
-The remote longitudinal study is planned to span over the course of a
-typical university semester (approximately 16 weeks). Participants will
-be recruited from a course (study site) at the University of Texas at
-Austin (UT Austin). The ideal study site will be a final-project based
-course, where the final-project report (artefact, Section
-[\[sec-bg-learn-artefact\]](#sec-bg-learn-artefact){reference-type="ref"
-reference="sec-bg-learn-artefact"}) will be built over time throughout
-the semester, with periodic check-ins. Completing the final project will
-require searching and navigating information online, finding relevant
-sources for a set of assigned or self-chosen topics, and weaving a
-narration around the information found in the selected sources.
-
-The study design was informed by running a pilot study during Summer
-2021 semester, in partnership with two courses at UT Austin School of
-Information: *Information in Cyberspace*, and *Academic Success in the
-Digital University*. More details of the pilot study are presented in
-Appendix [\[ch-pilot-study\]](#ch-pilot-study){reference-type="ref"
-reference="ch-pilot-study"}. The final project overview from the
-*Information in Cyberspace* course is presented in Figure
-[1.1](#fig-final-project-description){reference-type="ref"
-reference="fig-final-project-description"}. The words or phrases
-enclosed in \[\[square brackets\]\] will be appropriately modified when
-the study site is finalised. We aim to recruit upwards of 30
-participants. Since the study is exploratory in nature, and is intended
-to inform future confirmatory studies, we are unable to conduct a power
-analysis.
-
-## Apparatus
-
-### YASBIL Browsing Logger
-
-
-
-### Online Concept Mapping Software
-
-As discussed in Section
-[\[sec-bg-concept-maps\]](#sec-bg-concept-maps){reference-type="ref"
-reference="sec-bg-concept-maps"}, concept maps are an appropriate way to
-understand and assess sense-making and change in knowledge structures.
-In this study, participants will produce concept maps whenever they are
-working on an information search task. An appropriate browser based
-concept-mapping tool will be used for this purpose. The "Sero!"
-platform[^1] is a promising choice for this purpose. Sero! "uses concept
-mapping for knowledge and learning assessment" and "facilitates
-big-picture comprehension and gives educators deeper insight into
-students' thinking".
-
-## Search Task Template {#sec-method-search-task-template}
-
-![ Template for each search task, adapted from the *Information in
-Cyberspace* course at the UT Austin School of Information. Phrases
-enclosed in \[\[square brackets\]\] will be modified for individual
-tasks. ](figs/search-task-template.pdf){#fig-search-task-template
-width="\\linewidth"}
-
-Participants of the longitudinal study will be performing several search
-tasks throughout the duration of the semester (Section
-[1.4](#sec-method-procedure){reference-type="ref"
-reference="sec-method-procedure"}). The search tasks mentioned will
-generally be on the topics of the material taught in the course. The
-generic template for each search task is presented in Figure
-[1.2](#fig-search-task-template){reference-type="ref"
-reference="fig-search-task-template"}, and is adapted from the
-*Information in Cyberspace* course. The words or phrases enclosed in
-\[\[square brackets\]\] will be appropriately modified when the study
-site is finalized.
-
-## Procedure {#sec-method-procedure}
-
-![ Overview of the study procedure.
-](figs/study-procedure.pdf){#fig-study-procedure width="\\linewidth"}
-
-The longitudinal study will consist of six data collection stages, as
-outlined in Figure [1.3](#fig-study-procedure){reference-type="ref"
-reference="fig-study-procedure"}. Each of these stages are described
-below.
-
-### SUR1: Entry Survey {#sec-method-sur1}
-
-Participants will be recruited for the study via the entry survey
-\[SUR1\]. The description of the study and the link to the survey will
-be posted in the Learning Management System used for the course
-(Canvas). The entry survey will serve dual purpose: recruit
-participants, as well as capture their individual-differences, or
-moderating variables. This is done so as to avoid having to capture all
-of this information in the initial session (SES1), which would have made
-the SES1 session overly long. Details of the data captured in SUR1 are
-described below, with references to sections in the Appendix, where the
-full-text of the questionnaire can be found.
-
-1.  **Consent Form:** The first page of the entry survey will be the
-    online consent form for participating in the study. Participants
-    will be able to proceed once they provide consent.
-
-2.  **Demographics:** (Appendix
-    [\[app-demographics\]](#app-demographics){reference-type="ref"
-    reference="app-demographics"}) demographic information
-
-3.  **Search and IT proficiency:** (Appendix
-    [\[app-search-it-proficiency\]](#app-search-it-proficiency){reference-type="ref"
-    reference="app-search-it-proficiency"}) Captures previous search
-    experience, and proficiency in navigating the web. Some items are
-    adapted from the *Digital Health Literacy Instrument (DHLI)* by
-    [@van2017development], and the *Search Self-Efficacy scale (SSE)* by
-    [@brennan2016factor].
-
-4.  **Course Load and other engagements:** (Appendix
-    [\[app-course-load\]](#app-course-load){reference-type="ref"
-    reference="app-course-load"}) To determine how busy the participant
-    will be in the semester, and how much time they plan to allocate for
-    the course with which the study is integrated. This will help to
-    establish the learner's context.
-
-5.  **Note-taking Strategies:** (Appendix
-    [\[app-note-taking-strategies\]](#app-note-taking-strategies){reference-type="ref"
-    reference="app-note-taking-strategies"}) Captures styles and
-    strategies used by participants to take notes. Adapted from
-    *Listening and Note Taking Survey* by
-    [@note-taking-survey-penn-state], and *Note Taking Strategies
-    Inventory* by [@note-taking-strategies-umass].
-
-6.  **Motivation:** (Appendix
-    [\[app-imi\]](#app-imi){reference-type="ref" reference="app-imi"})
-    Adapted from the *Intrinsic Motivation Inventory (IMI)* by
-    [@ryan1982control], which is a multidimensional measurement device
-    intended to assess participants' subjective experience related to a
-    target activity (the assignments for the course they are taking).
-    The instrument assesses participants' interest/enjoyment, perceived
-    competence, effort/importance, pressure/tension, perceived choice,
-    and value/usefulness, while performing a given activity, thus
-    yielding six subscale scores. Three items in the value/usefulness
-    subscale will be completed with contextual information when the
-    study site is finalized. The pressure/tension and the perceived
-    choice components will not be included in the entry survey, and will
-    be present in the mid-term \[SUR2\] and exit \[SUS3\] surveys.
-
-7.  **Self-regulation:** (Appendix
-    [\[app-srq\]](#app-srq){reference-type="ref" reference="app-srq"})
-    Adapted from the *Self-Regulation Questionnaire (SRQ)* by
-    [@brown1999self], which assess seven self-regulatory processes
-    through self-report: receiving relevant information, evaluating the
-    information and comparing it to norms, triggering change, searching
-    for options, formulating a plan, implementing the plan, and
-    assessing the plan's effectiveness (Section
-    [\[sec-bg-learn-self-regulation\]](#sec-bg-learn-self-regulation){reference-type="ref"
-    reference="sec-bg-learn-self-regulation"}).
-
-8.  **Metacognition:** (Appendix
-    [\[app-mai\]](#app-mai){reference-type="ref" reference="app-mai"})
-    Adapted from the *Metacognivite Awareness Inventory (MAI)*,
-    originally proposed by [@schraw1994assessing] as a 52-item true /
-    false questionnaire, and later revised by [@terlecki2018call] to use
-    five-point Likert scales. The instrument measures two components of
-    cognition through self-report: knowledge about cognition, and
-    regulation of cognition (Section
-    [\[sec-bg-learn-metacognition\]](#sec-bg-learn-metacognition){reference-type="ref"
-    reference="sec-bg-learn-metacognition"}).
-
-After completing the entry survey, participants will be asked to prepare
-for the initial synchronous session, \[SES1\], by *(i)* installing
-Firefox web browser and the YASBIL extension on their machines, *(ii)*
-get a quick introduction to concept maps (by watching a short video),
-and *(iii)* familiarising themselves with the *Sero!* learning platform
-(for creating and assessing concept maps). This is a one-time step. If a
-participant cannot find the time for this step, they will be informed
-that an extra 5-10 minutes will be taken in the beginning of SES1 to
-complete this step.
-
-The entry survey and the software installation is expected to take about
-10-15 minutes to complete. Participants will be compensated with USD 5
-for their time for completing this step. The survey will be floated in
-the first week of the semester, and will be closed after sufficient a
-number participants have been recruited.
-
-### SES1: Initial Session
-
-![ Prompts for the search task repeated in Initial Session \[SES1\] and
-Final Session \[SES3\].
-](figs/search-task-repeated.pdf){#fig-search-task-repeated
-width="\\linewidth"}
-
+<!-- 
 
 
 ### SES2: Longitudinal Tracking
