@@ -1,0 +1,73 @@
+# SUR2: Midterm Survey {#app-midterm-survey}
+<!-- 
+## Overall Instructions
+
+*You may have seen these questions before. We ask you to carefully
+consider the questions again, reflect back on your activities and
+experiences since the beginning of the semester, and answer the
+questions accordingly. We all grow and evolve with time. These questions
+will help us to understand how you have evolved over the past few
+weeks.*
+
+## Reworded Version of Intrinsic Motivation Inventory
+
+(slightly different from SUR1 to indicate midpoint of the semester)
+
+*For each of the following statements, please indicate how true it is
+for you, using the following scale:\
+(1) not at all true -- somewhat true -- very true (5)*
+
+### Interest/Enjoyment
+
+1. I am enjoying the course and doing the final project activities very much.
+1. The final project activities are fun to do.
+1. I think this is a boring course. **(R)**
+1. The course and the final project activities are not holding my attention at all. **(R)**
+1. I would describe the final project activities as very interesting.
+1. I think the final project activities are quite enjoyable.
+1. While I was doing the final project activities, I was thinking about how much I was enjoying them.
+
+### Perceived Competence
+
+1. I think I am pretty good at the final project activities.
+1. I think I am doing pretty well in the final project activities, compared to other students.
+1. After working at the final project activities for awhile, I am feeling pretty competent.
+1. I am satisfied with my performance in this course.
+1. I am pretty skilled at the final project activities.
+1. This is a course that I am not able to do very well. **(R)**
+
+### Effort / Importance
+
+1. I am putting a lot of effort into this course.
+1. I am not trying very hard to do well at the final project activities. **(R)**
+1. I am trying very hard on the final project activities.
+1. It is important to me to do well in this course.
+1. I am not putting much energy into the final project activities. **(R)**
+
+### Pressure / Tension
+
+1. I do not feel nervous while doing the final project activities. **(R)**
+1. I feel very tensed while doing the final project activities.
+1. I am very relaxed while doing the final project activities. **(R)**
+1. I feel anxious while working on the final project parts.
+1. I feel pressured while doing the final project activities.
+
+### Perceived Choice
+
+1. I believe I have some choice about doing the final project activities.
+1. I feel like it is not my own choice to do the final project parts. **(R)**
+1. I don't really have a choice about doing the final project tasks. **(R)**
+1. I feel like I have to do the final project tasks. **(R)**
+1. I do the final project activities because I have no choice. **(R)**
+1. I do the final project activities because I want to.
+1. I do the final project activities because I have to. **(R)**
+
+### Value / Usefulness
+
+1. I believe the course and the final project activities are of some value to me.
+1. I think that doing the final project activities is useful for me.
+1. I think the final project activity is important because it is equipping me with skills that are necessary for making ethical decisions in my adult and professional life.
+1. I am willing to do research on the final project topic again because it has some value to me.
+1. I think the outcome of the final project activity will help me in my adult and professional life.
+1. I believe doing the final project activities are beneficial to me.
+1. I think this is proving to be an important course and final project for me. -->

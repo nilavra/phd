@@ -1,0 +1,269 @@
+# Variables and Measures {#app-variables}
+<!-- 
+This Section contains a non-exhaustive list of possible variables and
+operationalizations of information search behaviour collated from recent
+literature.
+
+## Query Reformulation Variables {#sec-app-vars-qry}
+
+-   **#Queries:** the number of issued queries in a session
+    [@133; @vakkari2016searching]
+
+-   **Query Reformulation Type (QRT)**, and corresponding counts:
+
+    -   **automated:** generalization, specialization, word
+        substitution, repeat, new [@liu2010analysis]
+
+    -   **partially manual:** generalization, specialization, parallel
+        move, mission change, error correction [@boldi2009dango]
+
+-   **#Terms per q.:** the number of terms in a query [@133]
+
+-   **#Unique terms:** the number of unique terms in a session [@133]
+
+-   **#Unique terms per q.:** (#Unique terms / #queries) , the number of
+    unique terms per query (query vocabulary richness, QVR) [@133]
+
+-   **#Synonyms:** number of synonyms in terms [@vakkari2016searching]
+
+-   **%Terms from desc.:** the ratio of terms from the task description
+    / assignment description [@133]
+
+-   **%Terms from SERP:** the proportion of novel query terms found in
+    the text of SERPs [@133]
+
+-   **%Terms from content page:** the proportion of novel query terms
+    found in the text of content pages [@133]
+
+-   **%Others:** the proportion of novel query terms from other sources
+    (i.e., not webpage text) [@133]
+
+-   **Query type time:** time taken to issue the query (may not be a
+    signal; will be dependent on typing speed)
+
+-   [@downey2007models Table 3] has more linguistic features of query
+    terms: web frequency, geo mean, max bigram, etc. of query terms
+
+## SERP / Content Page Examination variables {#sec-app-vars-serp-content-pg}
+
+-   **Transition Type:** how the browser navigated to a particular URL
+    on a particular visit (Appendix
+    [1.6](#sec-app-vars-transition-typ){reference-type="ref"
+    reference="sec-app-vars-transition-typ"})
+
+-   **Dwell time:** time spent on the page (seconds)
+
+-   **Avg. page display time:** average length of time for which a
+    webpage is viewed during a session [@white2009characterizing]
+
+-   **#Clicks:** number of clicks on page
+
+-   **Scroll depth:** how far down the page was scrolled (pixels,
+    viewport proportion, % of total webpage length)
+
+-   **Click depth:** how far down in the page was a click made
+
+-   **Scrolled Distance:** total distance scrolled
+
+-   **%Scroll Time:** % of time spent in scrolling
+
+-   **Scroll speed:** indicative of reading vs scanning
+
+-   **Scroll pattern:** entropy / scroll chaosness
+
+-   **#Scroll direction change:** the number of times scrolling
+    direction was changed --- indicative of hesitancy
+
+-   **Non-scroll time:** % of time NOT spent in scrolling, which is
+    indicative of reading
+
+-   **#Visit-in-session:** whether first visit or revisit, in this
+    session
+
+-   **#Visit-overall:** whether first visit or revisit, in the whole
+    data
+
+-   **Number of unclicked hovers:** Median number of times for which the
+    query was issued and the URL is hovered on but not clicked, per the
+    earlier definition. "We selected the number of unclicked hovers as a
+    feature because we found that it was correlated with clickthrough in
+    our previous analysis." [@huang2011no]
+
+-   **Cursor trail length:** Total distance (in pixels) travelled by the
+    cursor on the SERP. [@huang2011no]
+
+-   **Movement time:** Total time (in seconds) for which the cursor was
+    being moved on the SERP. [@huang2011no]
+
+-   **Cursor speed:** The average cursor speed (in pixels per second) as
+    a function of trail length and movement time [@huang2011no]
+
+-   All distances / depths can be measured using raw pixel values,
+    viewport proportions and % of total webpage lengths
+
+## SERP-only variables {#sec-app-vars-serp}
+
+-   **Rank:** rank of result clicked
+
+-   **Avg. SERP dwell time per query:** Total SERP Dwell Time / #queries
+    entered [@collins2016assessing]
+
+-   **Focus:** "degree to which a SERP is covered by a single topic.
+    Topics may be derived based on existing class hierarchies such as
+    the Open Directory Project; Experts tend to explore more narrow
+    topical spaces than non-experts"
+    [@eickhoff2014lessons; @rieh2016searching]
+
+-   **Entropy:** "captures diversity across multiple topics on search
+    results pages. Experts typically have higher focus, less diversity,
+    and thus, lower entropy across topics" [@rieh2016searching]
+
+## Content page-only variables {#sec-app-vars-content-pg}
+
+-   **Avg. Content dwell time per query:** Total content page dwell time
+    / #queries [@collins2016assessing]
+
+## Overall Search Behaviour {#sec-app-vars-overall-search}
+
+-   **Session length (time):** total time spent in the session, from
+    logging software turn on to turn-off (or last page-visit, if
+    turn-off time is null)
+
+-   **Session length (pages):** no. of pages visited in session,
+    including search engine home pages and result pages
+    [@white2009characterizing]
+
+-   **Session length (queries):** no. of queries issued in session
+    [@white2009characterizing]
+
+-   **#Search engines:** number of unique search engines used (will
+    probably be one?)
+
+-   **#Tabs:** number of tabs opened during the session
+
+-   **#Windows:** number of windows opened during the session
+
+-   **Branchiness:** no. of revisits to previous pages in the session
+    that were then followed by a forward motion to a previously
+    unvisited page in the session[@white2009characterizing]
+
+-   **#Unqiue domains:** number of unique websites visited during the
+    session; diversity of websites / breadth of
+    coverage[@white2009characterizing]
+
+-   **Ratio of querying to browsing:** proportion of the session that is
+    devoted to querying versus browsing pages retrieved by the search
+    engine or linked to from search results. A high number (much greater
+    than one) means that the session was query-intensive. In contrast, a
+    low number (much less than one) means that the session was
+    browse-intensive[@white2009characterizing]
+
+-   **#Bookmarks-add:** no. of bookmarks added
+
+-   **#Bookmarks-delete:** no. of bookmarks deleted
+
+-   **Search success:** "If the final event in a search session was a
+    URL click, we scored the session as a success, and if the final
+    action was a query, we score the session as a failure."
+    [@white2009characterizing]
+
+-   **Last Page Visited:** Where was the last click in a session?
+    [@eickhoff2014lessons] treated sessions ending at ehow.com as
+    procedural search sessions (users visiting tutorial articles), and
+    sessions ending at Wikipedia as declarative search sessions.
+
+-   **Search visualization:** as described by [@bateman2012search]
+
+## Webpage Transition Types {#sec-app-vars-transition-typ}
+
+In browser history API parlance, a *transition type* is used to describe
+how the browser navigated to a particular URL on a particular visit.
+E.g., if a user visits a page by clicking a link on another page, the
+transition type is "link". The following definitions are taken from
+Google Chrome Developer Website[^1].
+
+-   **link:** The user got to this page by clicking a link on another
+    page.
+
+-   **typed:** The user got this page by typing the URL in the address
+    bar. Also used for other explicit navigation actions. See also
+    generated, which is used for cases where the user selected a choice
+    that didn't look at all like a URL.
+
+-   **auto-bookmark:** The user got to this page through a suggestion in
+    the UI---for example, through a menu item.
+
+-   **auto-subframe:** Subframe navigation. This is any content that is
+    automatically loaded in a non-top-level frame. For example, if a
+    page consists of several frames containing ads, those ad URLs have
+    this transition type. The user may not even realize the content in
+    these pages is a separate frame, and so may not care about the URL
+    (see also manual-subframe).
+
+-   **manual-subframe:** For subframe navigations that are explicitly
+    requested by the user and generate new navigation entries in the
+    back/forward list. An explicitly requested frame is probably more
+    important than an automatically loaded frame because the user
+    probably cares about the fact that the requested frame was loaded.
+
+-   **generated:** The user got to this page by typing in the address
+    bar and selecting an entry that did not look like a URL. For
+    example, a match might have the URL of a Google search result page,
+    but it might appear to the user as \"Search Google for \...\". These
+    are not quite the same as typed navigations because the user didn't
+    type or see the destination URL. See also keyword.
+
+-   **auto-toplevel:** The page was specified in the command line or is
+    the start page.
+
+-   **form-submit:** The user filled out values in a form and submitted
+    it. Note that in some situations---such as when a form uses script
+    to submit contents---submitting a form does not result in this
+    transition type.
+
+-   **reload:** The user reloaded the page, either by clicking the
+    reload button or by pressing Enter in the address bar. Session
+    restore and Reopen closed tab use this transition type, too.
+
+-   **keyword:** The URL was generated from a replaceable keyword other
+    than the default search provider. See also keyword-generated.
+
+-   **keyword-generated:** Corresponds to a visit generated for a
+    keyword. See also keyword.
+
+## Concept Map Analysis Measures {#sec-app-vars-concept-maps}
+
+The following concept map analysis measures are adapted from
+[@halttunen2005assessing].
+
+-   The number of concepts in the beginning of instruction (beginning),
+
+-   The number of new concepts presented in second essay (new),
+
+-   The number of concepts in the end of instruction (end),
+
+-   The difference between the number of concepts in the beginning and
+    end of instruction (difference),
+
+-   The number of concepts which remained same along the time (stable),
+
+-   The number of concepts that were ignored or changed fundamentally
+    along the instruction (changed/ignored),
+
+-   The number of top-level concepts in the end (top level),
+
+-   The number of new top-level concepts presented in the second essay
+    (new top level),
+
+-   The number of links between concept hierarchies in the end (links),
+
+-   Maximum depth of hierarchy levels in the end,
+
+-   The number of concepts per different levels of hierarchy in the end,
+
+-   The number of concepts per top-level concepts i.e. hierarchies in
+    the end, and
+
+-   The level where new concepts were introduced.
+
+[^1]: <https://developer.chrome.com/docs/extensions/reference/history/#transition-types> -->

@@ -1,0 +1,88 @@
+# SUR3: Exit Survey {#app-final-survey}
+<!-- 
+**Overall Instructions:**
+
+*You may have seen these questions before. We ask you to carefully
+consider the questions again, reflect back on your activities and
+experiences since the beginning of the semester, and answer the
+questions accordingly. We all grow and evolve with time. These questions
+will help us to understand how you have evolved over the past few
+months.*
+
+ \
+**Reworded Version of Intrinsic Motivation Inventory:**\
+(Slightly different from SUR2 to indicate end of the semester)
+
+*For each of the following statements, please indicate how true it is
+for you, using the following scale:*
+
+*(1) not at all true \| somewhat true \| very true (5)*
+
+\
+**Interest/Enjoyment**\
+I enjoyed taking the course and doing the final project activities very
+much.\
+The course and final project activities were fun to do.\
+I think this was a boring course. (R)\
+The course and the final project activities were not holding my
+attention at all. (R)\
+I would describe the final project activities as very interesting.\
+I think the final project activities were quite enjoyable.\
+While I was doing the final project activities, I was thinking about how
+much I enjoyed them.
+
+ \
+**Perceived Competence**\
+I think I am pretty good at this course and the final project
+activities.\
+I think I did pretty well in the course, and in the final project
+activities, compared to other students.\
+After working at the final project activities for awhile, I felt pretty
+competent.\
+I am satisfied with my performance in this course.\
+I am pretty skilled at the final project activities.\
+This is a course that I was not able to do very well. (R)
+
+ \
+**Effort/Importance**\
+I put a lot of effort into this course.\
+I did not try very hard to do well in this course, and in the final
+project activities. (R)\
+I tried very hard in the course, and in the final project activities.\
+It was important to me to do well in this course.\
+I did not put much energy into the course and the final project
+activities. (R)
+
+ \
+**Pressure/Tension**\
+I did not feel nervous at all while doing the final project activities.
+(R)\
+I felt very tensed while doing the final project activities.\
+I felt very relaxed while doing the final project activities. (R)\
+I was anxious while working on the final project parts.\
+I felt pressured while doing the final project activities.
+
+ \
+**Perceived Choice**\
+I believe I have some choice about doing the final project.\
+I felt like it is not my own choice to do the final project parts. (R)\
+I didn't really have a choice about doing the final project tasks. (R)\
+I felt like I had to do the final project tasks. (R)\
+I did the final project activities because I had no choice. (R)\
+I did the final project activities because I wanted to.\
+I did the final project activities because I had to. (R)
+
+ \
+**Value/Usefulness** [^1]\
+I believe the course and the final project activities could be of some
+value to me.\
+I think that doing the final project activities is useful for\
+I think this is important to do because it can\
+I would be willing to do research on the final project topics/subtopics
+again because it has some value to me.\
+I think doing the final project activities will help me to\
+I believe doing the final project activities will be beneficial to me.\
+I think this was an important course and final project for me.
+
+[^1]: items with blanks will be completed with contextual information
+    once the study site is finalised -->

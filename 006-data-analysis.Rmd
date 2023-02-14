@@ -1,4 +1,4 @@
-# Data Analysis {#sec-method-qsnr3}
+# Data Analysis
 
 Note about pronouns:
 all participants are referred to using gender-neutral they/them pronouns.

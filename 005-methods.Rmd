@@ -68,8 +68,6 @@ volunteered to participate in the study.
 <!-- ### Zoom Video-conferencing Software -->
 
 
-
-
 <!-- ## Search Task Template {#sec-method-search-task-template} -->
 
 
@@ -96,9 +94,11 @@ These phases are discussed in detail in the following sections.
 <!-- Reference it like Figure \@ref(fig:study-proc) -->
 
 
-### `QSNR0`: Recruitment Questionnaire {#sec-method-qsnr0}
+### `QSNR0`: Recruitment Questionnaire (Appendix \@ref(app-qsnr0)) {#sec-method-qsnr0}
 
-Participants were recruited for the study via the recruitment questionnaire (QSNR0). The description of the study and the link to the questionnaire was posted in the Canvas Learning Management System used for the I303 course.
+Participants were recruited for the study via the recruitment questionnaire (`QSNR0`). 
+The questionnaire contained questions about demographic information of the participant pool. 
+The description of the study and the link to the questionnaire was posted in the Canvas Learning Management System used for the I303 course.
 
 
 ### `QSNR1`: Entry Questionnaire {#sec-method-qsnr1}
@@ -118,9 +118,6 @@ were able to proceed with the study once they provided informed consent.
 
 
 
-#### Demographics (Appendix \@ref(app-qsnr-demographics))
-
-Questions about demographic information of the participant pool.
 
 <!-- 1. **Search and IT proficiency:** (Appendix \@ref(app-qsnr-search-it-proficiency))
    Captures previous search experience, and proficiency in navigating the web.
@@ -169,6 +166,8 @@ through self-report: receiving relevant information, evaluating the
 information and comparing it to norms, triggering change, searching
 for options, formulating a plan, implementing the plan, and
 assessing the plan's effectiveness (Section \@ref(sec-bg-learn-self-regulation)).
+
+
 
 #### Metacognition (Appendix \@ref(app-qsnr-mai))
 
@@ -239,15 +238,15 @@ The choice of the search task for each of the conditions was randomized and bala
 
  
 
-Each search task began with a pre-task questionnaire (Appendix \@ref(app-phase1-pretask)), which asked participants to self-rate their pre-search knowledge-level and interest on the topic. 
+Each search task began with a pre-task questionnaire (Appendix \@ref(app-phase13-pretask)), which asked participants to self-rate their pre-search knowledge-level and interest on the topic. 
 Then participants turned on the YASBIL browsing logger and started searching. 
 The deliverable for each search task was a written summary (artefact). 
 After participants are satisfied with the quality of the deliverable, they turned off YASBIL browsing logger, and proceeded to the post-task questionnaire.
 
-The post-task questionnaire (Appendix \@ref(app-phase1-posttask)) asked participants to self-rate their post-search topic knowledge, search experience, interest and motivation, and overall perceptions.
+The post-task questionnaire (Appendix \@ref(app-phase13-posttask)) asked participants to self-rate their post-search topic knowledge, search experience, interest and motivation, and overall perceptions.
 The pre-task and post-task questionnaires are adapted from [@collins2016assessing; @crescenzi2020adaptation]. 
 
-After the two search tasks were completed, participants answered questions about whether they preferred the think-aloud condition or the silent condition, and why (Appendix \@ref(app-phase1-cta-v-silent)).
+After the two search tasks were completed, participants answered questions about whether they preferred the think-aloud condition or the silent condition, and why (Appendix \@ref(app-phase13-cta-v-silent)).
 
 
 #### `PHASE1-SHEG`: Website Reliability Assessment
@@ -299,7 +298,6 @@ The purpose was to track whether any of the participants' individual difference 
 This questionnaire was essentially a replica of the Entry Questionnaire `QSNR1`, with two modifications. First, the consent form and the demographics sections were absent. 
 Second, the Intrinsic Motivation Inventory (IMI) included the 'pressure/tension' and the 'perceived choice' subscales, as these scales are more meaningful after an activity has taken place [@ryan1982control]. 
 The IMI was also be reworded to reflect the mid-point of the semester.
-<!-- (Appendix \@ref(app-midterm-survey)).  -->
 Participants were compensated with USD 10 for completing this step.
 
 
@@ -356,6 +354,16 @@ Participants were be compensated with USD 15 for their time for completing this 
 
 
 After `QSNR3` was complete, participants received a bonus compensation of USD 30, if they completed all the phases of the LongSAL study without missing anything.
+
+
+
+## Measures to Address Ethical Concerns
+
+- Participation in the study (which was voluntary and compensated separately) and participation in the I303 course (which was required for graduation from the Informatics major) were sufficiently disentangled. The course instructors were never aware of which students participate in the course, and did not share any student data with the researchers. This avoided any undue pressure or expectation on the students.
+
+- Participants logged their browsing activity using a Firefox browser extension YASBIL, which was been developed by the authors. The extension has an ON-OFF button, which put the participants in full control of when they wished to start and stop the logging. Participants had been sufficiently trained to use the browser extension, and were repeatedly reminded to log data only when they were working on the research paper assignments for the course, and not at other times.
+
+- This study has been approved by The University of Texas at Austin Institutional Review Board (Submission ID: STUDY00002136, Date Approved: December 8, 2021).
 
 
 After data collection for all the phases was complete, data analysis was performed on the collected data, which is discussed in the next chapter. 
