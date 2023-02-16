@@ -101,11 +101,17 @@ results-and-discussion
 descriptive-statistics
 profile-transitions
 q---query-reformulation
+number-of-terms-per-query
+number-of-queries-per-search-task
+number-of-reformulated-query-types
+query-location
 l---source-selection-item-selection
 i---interacting-with-sources
 overall-search-behaviour
 search-tactics
 sheg-tasks---information-evaluation-capabilities
+learning-outcomes
+correlation-of-spl-with-grades
 qualitative-free-text-results
 discussion---research-questions
 rq1---search-behaviours

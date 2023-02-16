@@ -31,6 +31,50 @@ The second set (H2) compares two different user groups, experts and novices, usi
 
 ## Q - query (re)formulation
 
+<!-- 
+
+Difference between timepoints (across all profiles?)
+Difference between profiles (across all times)
+Mix (?)
+
+For everything below: change in mean and sig diff over time / task type
+    - repeated task
+        - A / B
+    - non-repeated task
+        - A / B
+    - longitudinal task
+        - A / B
+
+    Number of terms per query: sum, avg, std
+
+    Number of queries per search task: sum, avg, std
+
+    Number of reformulated query types
+
+    Entropy of query reformulation types
+
+    Query Location: where did participants query?
+    - Google, Library, etc
+
+-->
+
+### Number of terms per query
+
+- change in mean and sig diff over time / task type
+  - repeated task
+  - non-repeated task
+  - longitudinal task
+
+### Number of queries per search task
+
+
+### Number of reformulated query types
+
+
+### Query Location
+
+where did participants query?
+Google, Library, etc
 
 
 
@@ -52,7 +96,8 @@ The second set (H2) compares two different user groups, experts and novices, usi
 
 ## Overall search behaviour
 
-
+- sig diffs at (beginning, middle and end of tasks) x (LPA profiles)
+- 
 
 
 ### search tactics
@@ -69,7 +114,13 @@ The second set (H2) compares two different user groups, experts and novices, usi
 
 
 
+## Learning Outcomes
 
+### Correlation of SPL with Grades
+
+- self-perceived learning
+- grades
+- CONCL: obtained grades are not good indicators of learning
 
 
 ## Qualitative / Free Text Results

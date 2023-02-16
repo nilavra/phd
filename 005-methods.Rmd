@@ -80,7 +80,7 @@ volunteered to participate in the study.
 nbShowFig("figs/study-proc")
 ```
 <!-- each text reference needs to be their own line / paragraph ! -->
-(ref:cap-study-proc) Longitudinal study procedure with long caption containing **bold** and *italic* text, which is not possible from within `R code`.
+(ref:cap-study-proc) Longitudinal study procedure.
 
 (ref:scap-study-proc) Longitudinal study procedure.
 
