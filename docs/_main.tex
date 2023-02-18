@@ -33,6 +33,9 @@
 
 %%%%% ADDING LATEX PACKAGES
 
+% hyphenate monospace texttt properly
+\usepackage[htt]{hyphenat}
+
 % handle long urls
 \usepackage{xurl}
 
@@ -1176,7 +1179,7 @@ components are described in Figure \ref{fig:metacognition-components}
 Schraw \& Dennison (\protect\hyperlink{ref-schraw1994assessing}{1994}) developed the \textbf{Metacognitive Awareness Inventory} (MAI) survey and a
 scoring guide to measure these self-reported components and subprocesses
 of metacognition. The original survey consists of 52 true/false
-questions (Appendix \ref{app-mai}), such as ``\emph{I consider several alternatives to a problem before I answer}'', ``\emph{I understand my intellectual strengths and weaknesses}'', ``\emph{I have control over how well I learn'', and ''I change strategies when I fail to understand}''.
+questions (Appendix \ref{app-qsnr-mai}), such as ``\emph{I consider several alternatives to a problem before I answer}'', ``\emph{I understand my intellectual strengths and weaknesses}'', ``\emph{I have control over how well I learn'', and ''I change strategies when I fail to understand}''.
 The instrument has been widely used in research, and has its reliability and validity measures available. Later, Terlecki \& McMahon (\protect\hyperlink{ref-terlecki2018call}{2018}) proposed a revised version of the MAI, using five-point Likert-scales, ranging from ``\emph{I never do this}'' to ``\emph{I do this always}''.
 They argue that when measuring change in metacognition over time, the Likert-scale based `how often' questions are more effective than dichotomous `Yes/No' questions (\protect\hyperlink{ref-terlecki2020revising}{Terlecki, 2020}; \protect\hyperlink{ref-terlecki2018call}{Terlecki \& McMahon, 2018}).
 
@@ -1215,7 +1218,7 @@ unless the rewards and punishments are explicitly visible
 (\protect\hyperlink{ref-deci2013intrinsic}{Deci \& Ryan, 2013}; \protect\hyperlink{ref-ryan2000self}{Ryan \& Deci, 2000b}; \protect\hyperlink{ref-tahamtan2019effect}{Tahamtan, 2019}).
 
 Ryan (\protect\hyperlink{ref-ryan1982control}{1982}) proposed the \textbf{Intrinsic Motivation Inventory} (IMI)
-(Appendix \ref{app-imi}), a multidimensional questionnaire intended to
+(Appendix \ref{app-qsnr-imi}), a multidimensional questionnaire intended to
 assess participants' subjective experience related to a target activity
 in laboratory experiments. The instrument assesses participants'
 interest/enjoyment, perceived competence, effort, value/usefulness, felt
@@ -1256,7 +1259,7 @@ Although this model was developed specifically to study addictive
 behaviours, the self-regulatory processes it describes are meant to be
 general principles of behavioural self-control.
 J. M. Brown et al. (\protect\hyperlink{ref-brown1999self}{1999}) developed the \textbf{Self-Regulation Questionnaire} (SRQ) (Appendix
-\ref{app-srq}) to
+\ref{app-qsnr-srq}) to
 assess these self-regulatory processes through self-report. The items
 were developed to mark each of the seven sub-processes of the
 W. R. Miller \& Brown (\protect\hyperlink{ref-miller1991self}{1991}) model, forming seven subscales of the SRQ. The 63-item
@@ -2617,19 +2620,45 @@ Participants performed a training search task to familiarize themselves with how
 \hypertarget{phase1-finance-and-phase1-ubuntu-two-actual-search-tasks}{%
 \subsubsection{\texorpdfstring{\texttt{PHASE1-FINANCE} and \texttt{PHASE1-UBUNTU}: Two Actual Search Tasks}{PHASE1-FINANCE and PHASE1-UBUNTU: Two Actual Search Tasks}}\label{phase1-finance-and-phase1-ubuntu-two-actual-search-tasks}}
 
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figs/search-task-repeated} 
+
+}
+
+\caption[Prompts for repeated search task.]{Prompts for the search task that was repeated in the final phase, on the topic of financial literacy.}\label{fig:search-task-repeated}
+\end{figure}
+
+
+
+
+
 Participants performed two search tasks: \texttt{PHASE1-FINANCE}, and \texttt{PHASE1-UBUNTU}.
 The \texttt{PHASE1-FINANCE} task was repeated at the end of the semester as \texttt{PHASE3-FINANCE} task.
-The \texttt{PHASE1-UBUNTU} task was not repeated, and instead the \texttt{PHASE3-BIAS} task too its place.
+The \texttt{PHASE1-UBUNTU} task was not repeated, and instead the \texttt{PHASE3-BIAS} task tooK its place.
 This helps to answer the research question RQ2 (Section \ref{sec-rq}).
 The order of the two search tasks were randomized.
 
 The repeated search task \texttt{FINANCE} was on the topic of financial literacy, a topic that we posit can be considered as universally important to college students, and part of lifelong learning.
 The prompts for the \texttt{PHASE1-FINANCE} and \texttt{PHASE3-FINANCE} tasks are presented in Figure \ref{fig:search-task-repeated}.
-The non-repeated search task were on topics that were taught in the I303 course:
+The non-repeated search tasks were on topics that were taught in the I303 course:
 Ubuntu ethics (for \texttt{PHASE1})
 and
 Algorithmic Bias (for \texttt{PHASE3}).
 The prompts for these tasks are present in Figure \ref{fig:search-task-new}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figs/search-task-new} 
+
+}
+
+\caption[Prompts for non-repeated search task.]{Prompts for the non-repeating search tasks. Topics were selected from the I-303 course content.}\label{fig:search-task-new}
+\end{figure}
+
+
+
+
 
 To answer RQ3 (effect of externalization and articulation in learning), each participant performed one of the search tasks while thinking aloud (Concurrent-Think Aloud or \emph{CTA condition}), and performed the other search task in silence (\emph{silent condition}).
 The choice of the search task for each of the conditions was randomized and balanced.
@@ -2669,6 +2698,19 @@ The type of material participants were asked to recall were: digits, letters tha
 
 \hypertarget{sec-method-phase2}{%
 \subsection{\texorpdfstring{\texttt{PHASE2A} - \texttt{PHASE2D}: Longitudinal Tracking Phase}{PHASE2A - PHASE2D: Longitudinal Tracking Phase}}\label{sec-method-phase2}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figs/final-project-description} 
+
+}
+
+\caption[Final project description.]{Final project description, setting up the longitudinal tracking phase of the study throughout the duration of the Spring 2022 semester. Text taken from I-303 course syllabus (\protect\hyperlink{ref-fleischmann2022i303}{Fleischmann et al., 2022}); emphasis and annotations our own.}\label{fig:final-project-description}
+\end{figure}
+
+
+
+
 
 The four-part longitudinal tracking phases \texttt{PHASE2A} - \texttt{PHASE2D} were conducted asynchronously over the duration of the semester, to understand the change (or lack thereof) of participants' search behaviour and knowledge gain over time.
 Whenever participants worked on different parts of their final project (Ethical dilemma research paper for the I-303 course), as described in Figure \ref{fig:final-project-description}, they used Firefox web browser, and logged their browsing activity using YASBIL browsing logger.
@@ -3403,6 +3445,8 @@ Correlation between user profiles and search tactics (Table 9 \protect\hyperlink
 \hypertarget{results-and-discussion}{%
 \chapter{Results and Discussion}\label{results-and-discussion}}
 
+As the sample sizes were often small, and / or did not match the normality assumptions of parametric tests, we have employed the non-parametric Mann-Whitney U test for all the null-hypothesis testing. This allows easy comparison between different categories of results.
+
 What about learning??
 What are the measures of learning?
 
@@ -3454,6 +3498,8 @@ The second set (H2) compares two different user groups, experts and novices, usi
 
 \hypertarget{q---query-reformulation}{%
 \section{Q - query (re)formulation}\label{q---query-reformulation}}
+
+TODO: across time, somehow
 
 \hypertarget{number-of-terms-per-query}{%
 \subsection{Number of terms per query}\label{number-of-terms-per-query}}

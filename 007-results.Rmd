@@ -55,23 +55,30 @@ For everything below: change in mean and sig diff over time / task type
     ✅ Number (count) of queries per search task: 
       - query_n_{sum, avg, sd}
 
-    Number (count) of reformulated query types:
+    ✅ Number (count) of reformulated query types:
       - query_reform_gen_{sum, avg, sd}
       - query_reform_spec_{sum, avg, sd}
       - query_reform_wsub_{sum, avg, sd}
       - query_reform_rpt_{sum, avg, sd}
       - query_reform_new_{sum, avg, sd}
 
-    Entropy of query reformulation types
+    ✅ Entropy of query reformulation types
+      - for different task types
+      - query_reform_{Hs, Ht}
+      - 🧠 always use closed state space for better entropy
+    
+    ⏳ generate report containing each variable (cols?), and each task name (rows)
+    like CHI SRC paper
+
+    📃 create graphs
 
     Query Location: where did participants query?
     - Google, Library, etc
 
-  TODO: generate report containing each variable (cols?), and each task name (rows)
-  like CHI SRC paper
+  TODO: 
 -->
 
-TODO: non-repeating task
+TODO: across time, somehow
 
 ### Number of terms per query
 

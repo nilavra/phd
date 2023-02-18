@@ -216,20 +216,42 @@ Participants performed a training search task to familiarize themselves with how
 
 #### `PHASE1-FINANCE` and `PHASE1-UBUNTU`: Two Actual Search Tasks
 
+<!----------- fig:search-task-repeated ----------->
+```{r search-task-repeated, fig.scap='(ref:scap-search-task-repeated)', fig.cap = '(ref:cap-search-task-repeated)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/search-task-repeated")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-search-task-repeated) Prompts for the search task that was repeated in the final phase, on the topic of financial literacy.
+
+(ref:scap-search-task-repeated) Prompts for repeated search task.
+
+<!---- fig:search-task-repeated (leave a blank line before this) ------>
+
 Participants performed two search tasks: `PHASE1-FINANCE`, and `PHASE1-UBUNTU`. 
 The `PHASE1-FINANCE` task was repeated at the end of the semester as `PHASE3-FINANCE` task.
-The `PHASE1-UBUNTU` task was not repeated, and instead the `PHASE3-BIAS` task too its place.
+The `PHASE1-UBUNTU` task was not repeated, and instead the `PHASE3-BIAS` task tooK its place.
 This helps to answer the research question RQ2 (Section \@ref(sec-rq)).
 The order of the two search tasks were randomized.
 
 
 The repeated search task `FINANCE` was on the topic of financial literacy, a topic that we posit can be considered as universally important to college students, and part of lifelong learning. 
 The prompts for the `PHASE1-FINANCE` and `PHASE3-FINANCE` tasks are presented in Figure \@ref(fig:search-task-repeated).
-The non-repeated search task were on topics that were taught in the I303 course: 
+The non-repeated search tasks were on topics that were taught in the I303 course: 
 Ubuntu ethics (for `PHASE1`)
 and
 Algorithmic Bias (for `PHASE3`).
 The prompts for these tasks are present in Figure \@ref(fig:search-task-new).
+
+<!----------- fig:search-task-new ----------->
+```{r search-task-new, fig.scap='(ref:scap-search-task-new)', fig.cap = '(ref:cap-search-task-new)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/search-task-new")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-search-task-new) Prompts for the non-repeating search tasks. Topics were selected from the I-303 course content.
+
+(ref:scap-search-task-new) Prompts for non-repeated search task.
+
+<!---- fig:search-task-new (leave a blank line before this) ------>
 
 <!-- Each search task is expected to take around 20 minutes. -->
 
@@ -273,6 +295,18 @@ The type of material participants were asked to recall were: digits, letters tha
 
 
 ### `PHASE2A` - `PHASE2D`: Longitudinal Tracking Phase {#sec-method-phase2}
+
+<!----------- fig:final-project-description ----------->
+
+```{r final-project-description, fig.scap='(ref:scap-final-project-description)', fig.cap = '(ref:cap-final-project-description)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/final-project-description")
+```
+<!-- each text reference needs to be their own line / paragraph ! -->
+(ref:cap-final-project-description) Final project description, setting up the longitudinal tracking phase of the study throughout the duration of the Spring 2022 semester. Text taken from I-303 course syllabus [@fleischmann2022i303]; emphasis and annotations our own.
+
+(ref:scap-final-project-description) Final project description.
+
+<!----------- fig:final-project-description (leave a blank line before this) ----------->
 
 The four-part longitudinal tracking phases `PHASE2A` - `PHASE2D` were conducted asynchronously over the duration of the semester, to understand the change (or lack thereof) of participants' search behaviour and knowledge gain over time. 
 Whenever participants worked on different parts of their final project (Ethical dilemma research paper for the I-303 course), as described in Figure \@ref(fig:final-project-description), they used Firefox web browser, and logged their browsing activity using YASBIL browsing logger. 

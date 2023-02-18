@@ -500,7 +500,7 @@ components are described in Figure \@ref(fig:metacognition-components)
 @schraw1994assessing developed the **Metacognitive Awareness Inventory** (MAI) survey and a
 scoring guide to measure these self-reported components and subprocesses
 of metacognition. The original survey consists of 52 true/false
-questions (Appendix \@ref(app-mai)), such as "*I consider several alternatives to a problem before I answer*", "*I understand my intellectual strengths and weaknesses*", "*I have control over how well I learn", and "I change strategies when I fail to understand*".
+questions (Appendix \@ref(app-qsnr-mai)), such as "*I consider several alternatives to a problem before I answer*", "*I understand my intellectual strengths and weaknesses*", "*I have control over how well I learn", and "I change strategies when I fail to understand*".
 The instrument has been widely used in research, and has its reliability and validity measures available. Later, @terlecki2018call proposed a revised version of the MAI, using five-point Likert-scales, ranging from "*I never do this*" to "*I do this always*".
 They argue that when measuring change in metacognition over time, the Likert-scale based 'how often' questions are more effective than dichotomous 'Yes/No' questions [@terlecki2018call; @terlecki2020revising].
 
@@ -537,7 +537,7 @@ unless the rewards and punishments are explicitly visible
 [@tahamtan2019effect; @deci2013intrinsic; @ryan2000self].
 
 @ryan1982control proposed the **Intrinsic Motivation Inventory** (IMI)
-(Appendix \@ref(app-imi)), a multidimensional questionnaire intended to
+(Appendix \@ref(app-qsnr-imi)), a multidimensional questionnaire intended to
 assess participants' subjective experience related to a target activity
 in laboratory experiments. The instrument assesses participants'
 interest/enjoyment, perceived competence, effort, value/usefulness, felt
@@ -577,7 +577,7 @@ Although this model was developed specifically to study addictive
 behaviours, the self-regulatory processes it describes are meant to be
 general principles of behavioural self-control. 
 @brown1999self developed the **Self-Regulation Questionnaire** (SRQ) (Appendix
-\@ref(app-srq)) to
+\@ref(app-qsnr-srq)) to
 assess these self-regulatory processes through self-report. The items
 were developed to mark each of the seven sub-processes of the
 @miller1991self model, forming seven subscales of the SRQ. The 63-item
