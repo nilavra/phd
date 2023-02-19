@@ -24,6 +24,67 @@ The second set (H2) compares two different user groups, experts and novices, usi
 - H2.3: While working with a search system novices will find a preferred method of transitioning from one search tactic to another. In other words, their search tactics transitions will become more predictable over time.
 - H2.4: While working with a search systems novices will find preferred search tactics to use. In other words, their distribution of search tactics will become less uniform over time.
 
+
+<!-- ## Discussion - Research Questions -->
+
+## RQ1: - how do search behaviours change over time?
+
+- Phase 1
+  - Query reform measures
+  - search measures
+  - learning outcomes
+  - SHEG tasks
+
+- Phase 2
+- Phase 3
+
+## RQ2: repeated vs new tasks
+
+Phase 1 and Phase 3 only
+
+- search task
+- SHEG tasks
+
+
+
+## RQ3: mention here
+
+
+## RQ4: mention here
+
+
+
+## Learning Outcomes
+
+### Correlation of SPL with Grades
+
+- self-perceived learning (SPL)
+- grades
+- paired t-tests for SPL with obtained grade
+- CONCL: obtained grades are not good indicators of learning
+
+
+## Qualitative / Free Text Results
+
+Note-taking strategies
+
+- how do you organize your notes
+- how long do you store your notes
+- how do you search for a bit of info in the notes
+
+Other surveys
+
+
+
+
+## Quick Check Results (Descriptive)
+
+- which users went beyond page 1 in a SERP?
+- possible to track revisits across SES2a - SES2d?
+
+
+
+
 ## Descriptive statistics
 
 ### profile transitions
@@ -134,44 +195,3 @@ Google, Library, etc
 > https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/
 
 
-
-
-## Learning Outcomes
-
-### Correlation of SPL with Grades
-
-- self-perceived learning
-- grades
-- CONCL: obtained grades are not good indicators of learning
-
-
-## Qualitative / Free Text Results
-
-Note-taking strategies
-
-- how do you organize your notes
-- how long do you store your notes
-- how do you search for a bit of info in the notes
-
-Other surveys
-
-
-
-## Discussion - Research Questions
-
-### RQ1: - search behaviours?
-
-### RQ2: mention here
-
-
-
-### RQ3: mention here
-
-
-### RQ4: mention here
-
-
-## Quick Check Results (Descriptive)
-
-- which users went beyond page 1 in a SERP?
-- possible to track revisits across SES2a - SES2d?
