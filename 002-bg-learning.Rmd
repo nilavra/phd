@@ -10,8 +10,8 @@ and how modern technologies provide affordances for new forms of
 learning and knowledge work in the 21st century. We also discuss some
 concepts about individual differences of learners as well as techniques
 that can promote better learning. In the last section, we state what
-implications these findings have for shaping the proposed study in this
-dissertation proposal.
+implications these findings have for shaping the longitudinal study in this
+dissertation.
 
 ## Terminology {#sec-bg-learn-terminology}
 
@@ -654,7 +654,7 @@ application of metacognition and self-regulation to learning
 [@mannion2020metacognition]; and the whole learning process is sustained
 by motivation, which is desirable to be intrinsic.
 
-## Summary and Implications for this Proposal {#sec-bg-learn-summary}
+## Summary and Implications for this Dissertation {#sec-bg-learn-summary}
 
 In this first chapter of the background literature review, we discussed
 *(i)* what is meaningful learning, a.k.a. deep learning, or sensemaking;
@@ -668,19 +668,11 @@ Sciences. We argue that these are important aspects to be considered
 when designing future IR or educational information systems that aim to
 combine and improve the searching and learning experience.
 
-Guided by these findings, we make some important decision choices for
-the proposed longitudinal study in this dissertation proposal. We aim to
-situate learners in their context, and incorporate their individual
-differences using metacognition, motivation, and self-regulation
-characteristics. Additionally, we aim to assess learning using artefacts
-and concept maps. We choose not use traditional tests like
-question-answers, and multiple choice assignments, since they are often
-not the preferred choice of knowledge-work output in real world
-scenarios. Concept maps are better suited to represent the learning and
-sensemaking process, and artefacts are better able to demonstrate a
-learner's knowledge work.
+Guided by these findings, we made some important decision choices for the longitudinal study conducted in this dissertation. 
+We aimed to situate learners in their context, and incorporate their individual differences using metacognition, motivation, and self-regulation characteristics. 
+Additionally, we aimed to assess learning using artefacts and concept maps. 
+We chose not use traditional tests like question-answers, and multiple choice assignments, since they are often not the preferred choice of knowledge-work output in real world scenarios. 
+<!-- Concept maps are better suited to represent the learning and sensemaking process, and artefacts are better able to demonstrate a learner's knowledge work. -->
 
-In the next chapter, we look at relevant literature from the Information
-Sciences and Interactive Information Retrieval disciplines.
-
+In the next chapter, we look at relevant literature from the Information Sciences and Interactive Information Retrieval disciplines.
 

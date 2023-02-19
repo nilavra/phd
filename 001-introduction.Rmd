@@ -80,27 +80,27 @@ Increased knowledge and understanding of students', and more broadly searchers',
 The internet and digital educational technologies offer great opportunities to transform learning and the education experience.
 Enabled by our increased comprehension of the longitudinal searching-as-learning process, improved and validated by empirical data, we can create a new wave of fundamentally transformative educational technologies and "e-learning ecologies, that will be more engaging for learners, more effective (than traditional classroom practices), more resource efficient, and more equitable in the face of learner diversity" [@cope2017elearningc].
 
-## Purpose of this Dissertation Proposal {#sec-intro-purpose}
+## Purpose of this Dissertation {#sec-intro-purpose}
 
-To address the gaps in our knowledge of how information searching influences students' learning process over time, this dissertation proposal proposes to conduct a semester-long longitudinal study (approx. 16 weeks) with university student participants.
+To address the gaps in our knowledge of how information searching influences students' learning process over time, this dissertation conducted a semester-long longitudinal study (approx. 16 weeks) with university student participants.
 The overarching research aim is to identify how students' online searching behaviour correlate with their learning outcomes for a particular university course.
 Building upon principles from the Learning Sciences [@sawyer2005cambridge; @ambrose2010howa; @council2000how; @novak2010learninga],
 and empirical evidences from the Information Sciences [@vakkari2016searching; @rieh2016searching; @white2016interactions],
-this dissertation proposal aims to:
+this dissertation aimed at:
 
-- situate students as learners in their naturalistic contexts, and characterized by their individual differences
-- measure students' information search and information use behaviour over time
-- correlate the information search behaviour with the learning outcomes for the university course
+- situating students as learners in their naturalistic contexts, and characterized by their individual differences
+- measuring students' information search and information use behaviour over time
+- correlating the information search behaviour with the learning outcomes for the university course
 
 Learning, or addressing a gap in one's knowledge, has been well established as an important motivator behind information-seeking activities 
 Section \@ref(sec-intro-overview).
 Therefore, search systems that support rapid learning across a number of searchers, and a range of tasks, can be considered as more effective search systems [@white2016interactions, p. 310].
-This dissertation proposal takes a step in this direction.
+This dissertation takes a step in this direction.
 "It opens great expectations for many-sided, great contribution to our knowledge on the relations between search process and learning outcomes" [anonymous reviewer for @bhattacharya2021longitudinal].
 
 ## Outline {#sec-intro-outline}
 
-This dissertation proposal document is structured as follows.
+This dissertation document is structured as follows.
 First, principles of learning and relevant background from the domain of Educational Sciences are presented in Chapter 2.
 Next, relevant empirical evidences from the Information Searching Literature are discussed in Chapter 3.
 Chapter 4 presents the research questions, the overarching hypotheses, and discusses their rationale in the context of

@@ -11,8 +11,8 @@ Combining empirical findings and gaps in the literature from the disciplines of 
 - learning is a process that takes place longitudinally over time (Sections \@ref(sec-bg-learn-sensemaking) and \@ref(sec-bg-learn-principles)), yet only a handful of studies (mostly over a decade ago) have investigated the intertwined process of searchers' learning and their information searching behaviour over time (Section \@ref(sec-bg-search-longitudinal-studies))
 - this creates acute gaps in our knowledge about long term information searching and learning behaviour, which is crucial for building learning-centric search systems of the future, which can support sensemaking and knowledge-gain
 
-Guided by the above insights, we ask the following research questions in this dissertation proposal, and aim to answer them via a longitudinal study of students' information search behaviour and learning outcomes over the course of a university semester (Section \@ref(sec-method-exp-design)). For the purposes of this
-dissertation, we consider learning as change in a student's knowledge
+Guided by the above insights, we asked the following research questions in this dissertation, and aimed to answer them via a longitudinal study of students' information search behaviour and learning outcomes over the course of a university semester (Section \@ref(sec-method-exp-design)). For the purposes of this
+dissertation, we considered learning as change in a student's knowledge
 about certain topics over the duration of a university semester.
 
 The research questions are first stated in this section, to put them all

@@ -12,8 +12,8 @@ working memory. Next we discuss how learning has been assessed in recent
 search-as-learning studies. We also discuss some limitations of current
 search systems to foster learning, including the lack of sufficient
 number of longitudinal studies. In the last section, we state what
-implications these findings have for shaping the proposed study in this
-dissertation proposal.
+implications these findings had for shaping the longitudinal study conducted for this
+dissertation.
 
 ## Terminology {#sec-bg-search-terminology}
 
@@ -750,7 +750,7 @@ nbShowFig("figs/search-behaviours")
 ![image](figs/search-behaviours.pdf){width="\\linewidth"} 
 -->
 
-Our focus of discussion in this proposal is information searching and
+Our focus of discussion in this dissertation is information searching and
 learning. As we saw in Chapter \@ref(ch-bg-learn), learning and expertise are closely connected:
 expertise is an evolving characteristic of users that reflects learning
 over time, rather than being a static property
