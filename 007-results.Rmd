@@ -127,8 +127,15 @@ For everything below: change in mean and sig diff over time / task type
       - for different task types
       - query_reform_{Hs, Ht}
       - 🧠 always use closed state space for better entropy
+
+    ✅ No. of clicks per query
+    - query_click_n_{sum, avg, sd}
+  
+    📌 Abandoned queries (Percentage of queries with no clicks) ==> per task
+    - query_abandoned_pct_{sum, avg, sd}
+    - only 56 queries were without clicks
     
-    ⏳ generate report containing each variable (cols?), and each task name (rows)
+    ✅ generate report containing each variable (cols?), and each task name (rows)
     like CHI SRC paper
 
     📃 create graphs
@@ -182,6 +189,20 @@ Google, Library, etc
 - sig diffs at (beginning, middle and end of tasks) x (LPA profiles)
 - 
 
+<!--
+
+📃 Number (Count) of webpages visited
+- 
+
+📃 Dwell time on webpages
+- {sum, avg, sd}
+
+📃 Sequences
+-
+
+- query without click will come through in sequence analysis
+
+-->
 
 ### search tactics
 
