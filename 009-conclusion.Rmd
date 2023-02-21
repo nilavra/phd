@@ -33,6 +33,7 @@ HEATHER:
 - Also check anticipated limitations section from proposal
 - Did not assess goodness of fit of whether first order Markov chain is the most appropriate for modelling search tactic transitions (Besag and Mondal’s (2013) statistical test)
 - did not track revisits across different tasks
+- clicks may have been on popup ads, cookie consent forms, and others, instead of only links (difficult to guesstimate from HTML markup)
 
 Some difficulties:
 

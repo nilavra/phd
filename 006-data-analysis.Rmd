@@ -22,6 +22,8 @@ Session: `task_id`, 30 minutes of inactivity
 Session duration is considered 30 minutes (!) (or maybe 1 hour?)
 as per Google Analytics^[https://www.hotjar.com/google-analytics/glossary/session-duration] and (TODO: find reference)
 
+Possibility to create a step by step diagram? (powerpoint)
+
 ## URL Categorization
 
 <!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
@@ -63,6 +65,8 @@ Memory span values normalized by 10, because "*The maximum memory span measurabl
 - ~~Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership~~
 - no no; a simple examination of what feature values changed between timepoints will be enough
 - use 2 groups! 2 groups is always better. easier to explain; easier to write.
+
+## Active Tab Identification for Log Parsing
 
 
 

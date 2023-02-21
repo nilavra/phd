@@ -38,6 +38,11 @@ The second set (H2) compares two different user groups, experts and novices, usi
 - Phase 2
 - Phase 3
 
+- Indicators predictive of struggling [@hassan2014struggling]:
+  - low amount of similarity between consecutive queries
+  - more clicks per query
+  - differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
+
 ## RQ2: repeated vs new tasks
 
 Phase 1 and Phase 3 only
@@ -124,9 +129,14 @@ For everything below: change in mean and sig diff over time / task type
       - query_reform_new_{sum, avg, sd}
 
     ✅ Entropy of query reformulation types
+      - {overall, beginning, middle, end} of tasks
       - for different task types
       - query_reform_{Hs, Ht}
       - 🧠 always use closed state space for better entropy
+
+    📌 characterizing words in query according to difficulty
+      - freq in vocabulary / specialized terms
+        - whether this changes over time
 
     ✅ No. of clicks per query
     - query_click_n_{sum, avg, sd}
@@ -142,6 +152,8 @@ For everything below: change in mean and sig diff over time / task type
 
     Query Location: where did participants query?
     - Google, Library, etc
+
+    
 
   TODO: 
 -->
@@ -191,16 +203,66 @@ Google, Library, etc
 
 <!--
 
-📃 Number (Count) of webpages visited
+Sequences
+
+✅ Transition and Stationary Entropies
+- Change in entropy with time (Qvardfort paper)
+- Transition matrix density (ET bibile Sec 10.7.2)
+
+- Patterns from Russell Paper
+  - Short Navigation: [BREAK]* -> S -> X -> BREAK
+  - Topic Exploration: S –> X –> X –> X –> X –> …
+  - Methodical Results Exploration: S –> X –> S –> X –> S …
+  - Query Refinement: S –> S –> S –> S …
+
+- query without clicks
+  
+- [Overall / Beginning / Middle / End of task] x [LPA Profiles]
+  ✅ Entropies
+  - Patterns
+  - Sequence Lengths ==> no. of actions performed.
+
+
+✅ Number (Count) of unique URLs (webpages) visited [visit_n_{sum,avg,sd}]
+- url_n
+    _{lweb, lpub, lother, iweb, ipub, iother, misc, all}
+    _{sum, avg, sd}
+    _{whole, beg, mid, end}
+
+⏳ Dwell Times on webpages [dwell_{category}_{sum,avg,sd}] - seconds
+  - url_dur
+    _{lweb, lpub, lother, iweb, ipub, iother, misc, all}
+    _{sum, avg, sd}
+    _{whole, beg, mid, end}
+
+^^ Already Too much
+
+📃 Viz: LPA Profile Mean + Transition parallel categories (like CHI paper)
+- generate for each profile (60)
+- extract HTML for each plot, and put all of them together in one HTML file
+
+🚨🚨 LEARNING OUTCOME!!! 🚨🚨 
+- grades
+
+Task Time
+  - task_dur_{sum, avg, sd}
+  - maybe too much, because need to exclude IDLE time from task
+  - or, aka, `url_dur_all_sum` is an indicator of `task_dur`?
+
+
+Other Time
+  - time between queries [later]
+
+
+
+Unique domains
+  - Percentage and number of unique  clicked domains
+
+
+
 - 
 
-📃 Dwell time on webpages
-- {sum, avg, sd}
-
-📃 Sequences
--
-
-- query without click will come through in sequence analysis
+📃 Viz: Distributions of all tactics - tables / bars / etc.
 
 -->
 
