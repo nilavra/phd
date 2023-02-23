@@ -1,6 +1,287 @@
 # Results and Discussion
 
 
+## Latent Profiles
+
+TODO: Describe stats from `HI` and `LO` profiles, as in YSC Sec 5.1.
+
+<!-- 
+
+The rank biserial correlation [2] is the difference between the proportion of favorable evidence minus the proportion of unfavorable evidence.
+
+The common language effect size is the proportion of pairs where x is higher than y. It was first introduced by McGraw and Wong (1992) [3]. Pingouin uses a brute-force version of the formula given by Vargha and Delaney 2000 [4]:
+
+The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
+
+Common language effect size (CLES):
+the probability that a score sampled at random from one distribution will be greater than a score sampled from some other distribution.
+
+CLES are concordant with sig_dir_mean: so use them
+-->
+
+## Query Formulation
+
+
+### Length of Queries
+
+<!----------- fig:ResN5894660104957913932 ----------->
+```{r ResN5894660104957913932, fig.scap='(ref:scap-ResN5894660104957913932)', fig.cap = '(ref:cap-ResN5894660104957913932)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN5894660104957913932")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN5894660104957913932) Longcaption.
+
+(ref:scap-ResN5894660104957913932) Shortcaption.
+
+<!---- fig:ResN5894660104957913932 (leave a blank line before this) ------>
+
+
+LO group had highest total query length before final paper (ResN5894660104957913932)
+
+<!----------- fig:ResP6726131652814458688 ----------->
+```{r ResP6726131652814458688, fig.scap='(ref:scap-ResP6726131652814458688)', fig.cap = '(ref:cap-ResP6726131652814458688)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResP6726131652814458688")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResP6726131652814458688) Longcaption.
+
+(ref:scap-ResP6726131652814458688) Shortcaption.
+
+<!---- fig:ResP6726131652814458688 (leave a blank line before this) ------>
+
+HI group had highest average query length during rough draft (ResP6726131652814458688)
+
+LO group was slacking and putting it off till last minute.
+
+
+
+
+
+
+start
+long
+end
+overall
+
+total, avg, SD
+
+$5 \pm 4$
+
+- change in mean and sig diff over time / task type
+  - longitudinal phase
+  - all
+  - repeated task
+  - non-repeated task
+  
+
+### Count of queries per search task
+
+<!----------- fig:ResP7469411730579087048 ----------->
+```{r ResP7469411730579087048, fig.scap='(ref:scap-ResP7469411730579087048)', fig.cap = '(ref:cap-ResP7469411730579087048)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResP7469411730579087048")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResP7469411730579087048) Longcaption.
+
+(ref:scap-ResP7469411730579087048) Shortcaption.
+
+<!---- fig:ResP7469411730579087048 (leave a blank line before this) ------>
+
+ResP7469411730579087048
+
+Like avg query length, LO group issued highest number of queries when writing final paper, while HI roup did that during outline.
+Even, one participant commendted "I had downloaded all the papers I needed during..."
+
+
+
+### Count of reformulated query types
+
+<!----------- fig:ResN8316003849035045794 ----------->
+```{r ResN8316003849035045794, fig.scap='(ref:scap-ResN8316003849035045794)', fig.cap = '(ref:cap-ResN8316003849035045794)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN8316003849035045794")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN8316003849035045794) Longcaption.
+
+(ref:scap-ResN8316003849035045794) Shortcaption.
+
+<!---- fig:ResN8316003849035045794 (leave a blank line before this) ------>
+
+ResN8316003849035045794 
+no. of new queries was the highest during final paper for the LO group
+they were frantically searching for new information
+on an average, each participant in the LO group was making 4 more search queries than those in the HI group during the final paper phase.
+
+<!----------- fig:ResN3604624796642370520 ----------->
+```{r ResN3604624796642370520, fig.scap='(ref:scap-ResN3604624796642370520)', fig.cap = '(ref:cap-ResN3604624796642370520)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN3604624796642370520")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN3604624796642370520) Longcaption.
+
+(ref:scap-ResN3604624796642370520) Shortcaption.
+
+<!---- fig:ResN3604624796642370520 (leave a blank line before this) ------>
+ResN3604624796642370520
+generalizations
+
+
+<!----------- fig:ResP5443351906342031714 ----------->
+```{r ResP5443351906342031714, fig.scap='(ref:scap-ResP5443351906342031714)', fig.cap = '(ref:cap-ResP5443351906342031714)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResP5443351906342031714")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResP5443351906342031714) Longcaption.
+
+(ref:scap-ResP5443351906342031714) Shortcaption.
+
+<!---- fig:ResP5443351906342031714 (leave a blank line before this) ------>
+ResP5443351906342031714 specializations
+
+
+<!----------- fig:ResN4290201084087196149 ----------->
+```{r ResN4290201084087196149, fig.scap='(ref:scap-ResN4290201084087196149)', fig.cap = '(ref:cap-ResN4290201084087196149)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN4290201084087196149")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN4290201084087196149) Longcaption.
+
+(ref:scap-ResN4290201084087196149) Shortcaption.
+
+<!---- fig:ResN4290201084087196149 (leave a blank line before this) ------>
+ResN4290201084087196149 word substitutions
+
+
+<!----------- fig:ResN9056495301645634830 ----------->
+```{r ResN9056495301645634830, fig.scap='(ref:scap-ResN9056495301645634830)', fig.cap = '(ref:cap-ResN9056495301645634830)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN9056495301645634830")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN9056495301645634830) Longcaption.
+
+(ref:scap-ResN9056495301645634830) Shortcaption.
+
+<!---- fig:ResN9056495301645634830 (leave a blank line before this) ------>
+ResN9056495301645634830 repeat
+must be taken with a grain of salt as repeat behaviour was diffcult to tease out from hub and spoke behaviour, if the user pressed the back button of the browser
+
+
+
+### Entropy of query reformulation
+
+<!----------- fig:ResN2968292861275564559 ----------->
+```{r ResN2968292861275564559, fig.scap='(ref:scap-ResN2968292861275564559)', fig.cap = '(ref:cap-ResN2968292861275564559)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN2968292861275564559")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN2968292861275564559) Longcaption.
+
+(ref:scap-ResN2968292861275564559) Shortcaption.
+
+<!---- fig:ResN2968292861275564559 (leave a blank line before this) ------>
+ResN2968292861275564559 - whole
+stationary entropy
+
+Stationary entropy:
+for HI goup
+high in the beginning of task
+then low at the end of task
+their chaosness decreased as they progressed through the tasks, while for the LO group, their uncertainty increased?
+
+
+<!----------- fig:ResN634943316862196398 ----------->
+```{r ResN634943316862196398, fig.scap='(ref:scap-ResN634943316862196398)', fig.cap = '(ref:cap-ResN634943316862196398)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/queryHsBegMidEnd")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN634943316862196398) Stationary entropy of Query reformulation at beginning (top-left), middle (top-right), and end (bottom) of task
+
+(ref:scap-ResN634943316862196398) Stationary entropy of Query reformulations.
+
+<!---- fig:ResN634943316862196398 (leave a blank line before this) ------>
+
+ResN634943316862196398 - beginning
+ResN6777243644016606483 - middle
+ResN6573661794052961083 - end
+
+Transition entropy remained lower for HI group at beginning, middle and end
+
+
+For repeated task (finance) HI group stopped querying from the middle of the task.
+Hi group felt more certain (TODO: get quote from response?)
+While LO group continued till the end to query - they were more uncertain.
+
+
+TODO: add network figure?
+
+
+<!-- ### Query Location
+
+where did participants query?
+Google, Library, etc -->
+
+
+
+
+
+## Search Behaviour
+
+
+
+
+### Number of clicks per query
+
+<!----------- fig:ResP878771263343515297 ----------->
+```{r ResP878771263343515297, fig.scap='(ref:scap-ResP878771263343515297)', fig.cap = '(ref:cap-ResP878771263343515297)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResP878771263343515297")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResP878771263343515297) Longcaption.
+
+(ref:scap-ResP878771263343515297) Shortcaption.
+
+<!---- fig:ResP878771263343515297 (leave a blank line before this) ------>
+ResP878771263343515297
+HI group was more efficient. Average number of clicks per query was lowe (less than 4) as they moved forward in the semester, with highest in the Outline phase.
+
+
+<!----------- fig:ResN2805268620307804410 ----------->
+```{r ResN2805268620307804410, fig.scap='(ref:scap-ResN2805268620307804410)', fig.cap = '(ref:cap-ResN2805268620307804410)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN2805268620307804410")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN2805268620307804410) Longcaption.
+
+(ref:scap-ResN2805268620307804410) Shortcaption.
+
+<!---- fig:ResN2805268620307804410 (leave a blank line before this) ------>
+ResN2805268620307804410
+
+
+<!----------- fig:ResN5118140679486679749 ----------->
+```{r ResN5118140679486679749, fig.scap='(ref:scap-ResN5118140679486679749)', fig.cap = '(ref:cap-ResN5118140679486679749)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN5118140679486679749")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN5118140679486679749) Longcaption.
+
+(ref:scap-ResN5118140679486679749) Shortcaption.
+
+<!---- fig:ResN5118140679486679749 (leave a blank line before this) ------>
+ResN5118140679486679749
+SD also says something
+
+
+## Entropy of Search tactics
+
+R!esN7928923989685423424 is a VERY good result!
+Model ID = 10
+
+<!-- ================= OLD CONTENTS =============== -->
+
+## COMMENT OUT: Old Content - Remove everything from here
+
+
 As the sample sizes were often small, and / or did not match the normality assumptions of parametric tests, we have employed the non-parametric Mann-Whitney U test for all the null-hypothesis testing. This allows easy comparison between different categories of results.
 
 
@@ -84,8 +365,10 @@ Other surveys
 
 ## Quick Check Results (Descriptive)
 
+- which results have the strongest effect sizes and RBC scores?
 - which users went beyond page 1 in a SERP?
 - possible to track revisits across SES2a - SES2d?
+- 
 
 
 
@@ -99,7 +382,7 @@ Other surveys
   - perceived learning, perceived search outcome
 
 
-## Q - query (re)formulation
+
 
 <!-- 
 
@@ -155,28 +438,10 @@ For everything below: change in mean and sig diff over time / task type
 
     
 
-  TODO: 
+  TODO: across time, somehow
 -->
 
-TODO: across time, somehow
 
-### Number of terms per query
-
-- change in mean and sig diff over time / task type
-  - repeated task
-  - non-repeated task
-  - longitudinal task
-
-### Number of queries per search task
-
-
-### Number of reformulated query types
-
-
-### Query Location
-
-where did participants query?
-Google, Library, etc
 
 
 

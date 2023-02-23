@@ -278,6 +278,37 @@ nbShowFig <- function(filename)
 }
 ```
 
+<!-- Two figures-->
+```{r, include=FALSE}
+nbShow2Fig <- function(filename1, filename2)
+  {if (knitr::is_latex_output())
+  {
+    output1 = xfun::with_ext(filename1, 'pdf')
+    output2 = xfun::with_ext(filename2, 'pdf')
+    rsvg::rsvg_pdf(xfun::with_ext(filename1,'svg'), file=output1)
+    rsvg::rsvg_pdf(xfun::with_ext(filename2,'svg'), file=output2)
+  } else {
+    output1 = xfun::with_ext(filename1, 'svg')
+    output2 = xfun::with_ext(filename2, 'svg')
+  }
+  knitr::include_graphics(output1, output2)
+}
+```
+
+<!-- for multiple plots: return the SVG / PDF output -->
+```{r, include=FALSE}
+nbSvg <- function(filename)
+  {if (knitr::is_latex_output())
+  {
+    output = xfun::with_ext(filename, 'pdf')
+    rsvg::rsvg_pdf(xfun::with_ext(filename,'svg'), file=output)
+  } else {
+    output = xfun::with_ext(filename, 'svg')
+  }
+  output
+}
+```
+
 <!-- 
   right aligns quote quotee (author) to the end of blockquote
   adapted from tufte::quote_footer()

@@ -6,6 +6,8 @@ see Jacek's thesis
 
 ## Summary of Results
 
+which results have the strongest effect sizes and RBC scores?
+
 ## Methodology
 
 ## Contributions
