@@ -1,0 +1,56 @@
+# Discussion
+
+Quick Check Results (Descriptive)
+
+- which results have the strongest effect sizes and RBC scores?
+- which users went beyond page 1 in a SERP?
+<!-- - possible to track revisits across SES2a - SES2d? -->
+
+
+Hypotheses from @he2016beyond:
+
+The second set (H2) compares two different user groups, experts and novices, using one of the search systems in two different conditions. The H2 hypotheses illustrate how a focus on search tactics provides a different lens to view search logs.
+
+- H2.1: Search experts are likely to be more predictable in their choice of search tactics compared to novices
+- H2.2: Search experts have developed a set of search tactics they prefer over others, while novices use search tactics more uniformly.
+- H2.3: While working with a search system novices will find a preferred method of transitioning from one search tactic to another. In other words, their search tactics transitions will become more predictable over time.
+- H2.4: While working with a search systems novices will find preferred search tactics to use. In other words, their distribution of search tactics will become less uniform over time.
+
+
+## RQ1: how do search behaviours change over time?
+
+
+
+
+
+- Phase 1
+  - Query reform measures
+  - search measures
+  - learning outcomes
+  - SHEG tasks
+
+- Phase 2
+- Phase 3
+
+- Indicators predictive of struggling [@hassan2014struggling]:
+  - low amount of similarity between consecutive queries
+  - more clicks per query
+  - differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
+
+
+
+
+
+## RQ2: similarities and differences in repeated vs new tasks
+
+Phase 1 and Phase 3 only
+
+- search task
+- SHEG tasks
+- Similarities -> measures having no sig diff
+  - Overall task, Beginning, middle, end
+- Differences -> measures having sig diff
+  - Overall task, Beginning, middle, end
+
+
+## RQ3: correlation with learning?

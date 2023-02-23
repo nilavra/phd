@@ -1,7 +1,12 @@
-# Results and Discussion
+# Results
 
 
-Additionally we also report Common Language Effect Size (CLES) for each statistical test result.
+
+As the sample sizes were often small, and / or did not match the normality assumptions of parametric tests, we have employed the non-parametric Mann-Whitney U test for all the null-hypothesis testing. This allows easy comparison between different categories of results.
+
+
+
+Additionally, we also report Common Language Effect Size (CLES) for each statistical test result.
 The common language effect size is the proportion of pairs where $x$ is higher than $y$. 
 In other words, it is the probability that a score sampled at random from one distribution will be greater than a score sampled from some other distribution. 
 CLES was first introduced by McGraw and Wong (1992) [TODO]. The Python statistical library employed in data analysis -- Pingouin [@vallat2018pingouin] -- uses a brute-force version of the formula given by Vargha and Delaney 2000 [TODO]:
@@ -11,12 +16,18 @@ In the interest of better presentation and readability of this chapter, some of 
 
 
 
-## Latent Profiles
+## Latent Profiles (and Transitions)
 
 
 TODO: describe the high and low groups appropriately.
 
 TODO: Describe stats from `HI` and `LO` profiles, as in YSC Sec 5.1.
+
+- how the following changed over time 
+  - motivation, metacognition, self regulation
+  - perceived learning, perceived search outcome
+
+
 
 <!-- 
 
@@ -132,7 +143,7 @@ Even, one participant commendted "I had downloaded all the papers I needed durin
 
 Query reformulation refers to the process of modifying or refining a search query in order to improve the relevance of search results and better match the user's information needs (Section \@ref(sec-bg-search-query)). 
 Query reformulation typically occurs due to a searcher's improved understanding of how to better translate their information need into a search query.
-Using the taxonomy proposed by @liu2010analysis (Figure \@ref(fig:res-Q-QRT-txnmy)), we classified each previous-next query pair issued by participants into one of the five query reformulation types:
+Using the taxonomy proposed by @liu2010analysis (Figure \@ref(fig:res-Q-QRT-txnmy)), we classified each previous-next query pair issued by participants into one of the five query reformulation types (QRTs):
 New,
 Generalization,
 Specialization,
@@ -201,7 +212,35 @@ SD also says something
 
 
 
-### Entropy of Query Reformulation
+### Entropy of Query Reformulation {#sec-res-query-H}
+
+Inspired by previous works in analysing eye-movement sequences [@krejtz2014entropy, @krejtz2015gaze] and search tactics sequences [@he2016beyond], we employed a similar entropy analysis of query reformulation sequences issued by users.
+
+Transition analysis and entropy helps to cover differences in disparate tasks and activities (get text from Qvardford paper)
+
+If we consider the sequence of query reformulations issued by a participant 
+(e.g., *New -> New -> Specialization -> Specialization -> Word Substitution -> Generalization*)
+then this sequence can be considered as a first order Markov chain, wherein, the next step in the chain depends only on the current state.
+Entropy analysis on these Markov chains quantifies how predictable the states are, and yields two categories of uncertainty measures: transition entropy, $H_t$, and stationary entropy $H_s$.
+
+In the context of query reformulations, the maximum **transition entropy** $(s \log s)$ can be reached when there is an equal probability of switching between each of the $s = 5$ states, or QRTs (query reformulation types). 
+The minimum transition entropy (0) is achieved in a fully deterministic Markov chain where all transition probabilities are either 1 or 0. 
+This means that with a higher transition entropy there is more randomness in the participant's transitions between different QRTs. 
+This randomness is an indication that the participants do not have a clear progression from one QRT to another. 
+On the other hand, a lower transition entropy indicates that the participant's transition between QRTs are highly predictable.
+**Stationary entropy** is calculated from the distribution of QRTs. 
+A higher stationary entropy value indicates that the QRTs were used uniformly, while a lower stationary entropy indicates that some QRTs are preferred over others. 
+Values of stationary entropy vary between 0 and $(\log s)$, where $s$ is the number of possible states (QRTs)^[The explanation is adapted from @he2016beyond].
+The entropies discussed in the following sections were normalized by their theoretical maximums, for equivalent comparison across different conditions.
+
+
+<!-- A higher query reformulation entropy indicates a greater degree of uncertainty or randomness in the user's query reformulation behaviour, indicating that the user may be struggling to find relevant information or is uncertain about their information needs. In contrast, a lower query reformulation entropy suggests a more systematic and directed approach to search, indicating that the user has a clearer understanding of their information needs and is using query reformulation strategies to efficiently retrieve relevant information. Query reformulation entropy is a useful metric for evaluating the effectiveness of search systems and understanding user search behaviour.
+
+Transition entropy is a metric that measures the uncertainty or randomness in the transitions between different search states, such as between queries, documents, or web pages. It quantifies the level of unpredictability or randomness in the user's navigation behavior as they move from one state to another, and can be used to evaluate the efficiency and effectiveness of search systems and interfaces.
+
+Stationary entropy, on the other hand, measures the uncertainty or randomness in the distribution of user behavior within a single search state. For example, it can be used to analyze the frequency and distribution of query terms used by a user during a search session, or the distribution of clicks on search results pages. Stationary entropy provides insights into the structure and characteristics of user search behavior within a given context, and can be used to optimize search algorithms and ranking models. -->
+
+
 
 #### Transition Entropy of Query Reformulation
 
@@ -308,6 +347,18 @@ Dwell Time
 
 ## Entropy of Search Tactics
 
+
+Similar to entropy analysis of Query Reformulation types (Section \@ref(sec-res-query-H)), we perform entropy analysis of search tactic transitions.
+This analysis is directly inspired from @he2016beyond, who in turn were inspired from [@krejtz2014entropy, @krejtz2015gaze].
+
+In the context of search tactic transitions, a higher value of transition entropy ($H_t$) indicates more randomness and uncertainty in the participant's search behaviour (which is composed of different search tactics, and transitioning or switching between those tactics).
+<!-- in transitions between different search tactics, and consequently in search behaviour. -->
+A lower value of transition entropy indicates that the search behaviour (i.e. tactic switching behaviour) is highly predictable.
+For stationary entropy of search tactics ($H_s$), a higher value indicates that participants utilize all the search tactics with equal probability, while a lower value suggests that certain search tactics are favoured over others.
+<!-- all search tactics are used uniformly, whereas a lower value indicates that some search tactics are more preferred over others. -->
+The entropies discussed in the following sections were normalized by their theoretical maximums, for equivalent comparison across different conditions.
+
+
 ### Transition Entropy of Search Tactics
 
 ResN7289045485214067875 
@@ -347,6 +398,19 @@ More plots are in Appendix \@ref(app-plots), such as Figure \@ref(fig:ResP518323
 
 
 
+## Learning Outcomes
+
+Correlation of SPL with Grades
+
+- self-perceived learning (SPL)
+- grades
+- paired t-tests for SPL with obtained grade
+- CONCL: obtained grades are not good indicators of learning
+
+
+
+
+
 
 
 
@@ -359,76 +423,22 @@ More plots are in Appendix \@ref(app-plots), such as Figure \@ref(fig:ResP518323
 
 <!-- ================= OLD CONTENTS =============== -->
 
-## ------------ COMMENT OUT: Old Content - Remove everything from here ------------
 
-
-As the sample sizes were often small, and / or did not match the normality assumptions of parametric tests, we have employed the non-parametric Mann-Whitney U test for all the null-hypothesis testing. This allows easy comparison between different categories of results.
-
-
+<!-- 
 
 What about learning??
 What are the measures of learning?
 
-Transition analysis and entropy helps to cover differences in disparate tasks and activities (get text from Qvardford paper)
-
-
 - Also see Yung Sheng's Dissertation
-- think hard about which data component has not been touched / analysed
-
-
-Hypotheses from @he2016beyond:
-
-The second set (H2) compares two different user groups, experts and novices, using one of the search systems in two different conditions. The H2 hypotheses illustrate how a focus on search tactics provides a different lens to view search logs.
-
-- H2.1: Search experts are likely to be more predictable in their choice of search tactics compared to novices
-- H2.2: Search experts have developed a set of search tactics they prefer over others, while novices use search tactics more uniformly.
-- H2.3: While working with a search system novices will find a preferred method of transitioning from one search tactic to another. In other words, their search tactics transitions will become more predictable over time.
-- H2.4: While working with a search systems novices will find preferred search tactics to use. In other words, their distribution of search tactics will become less uniform over time.
-
-
-<!-- ## Discussion - Research Questions -->
-
-## RQ1: - how do search behaviours change over time?
-
-- Phase 1
-  - Query reform measures
-  - search measures
-  - learning outcomes
-  - SHEG tasks
-
-- Phase 2
-- Phase 3
-
-- Indicators predictive of struggling [@hassan2014struggling]:
-  - low amount of similarity between consecutive queries
-  - more clicks per query
-  - differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
-
-## RQ2: repeated vs new tasks
-
-Phase 1 and Phase 3 only
-
-- search task
-- SHEG tasks
+- think hard about which data component has not been touched / analysed 
+-->
 
 
 
-## RQ3: mention here
-
-
-## RQ4: mention here
 
 
 
-## Learning Outcomes
-
-### Correlation of SPL with Grades
-
-- self-perceived learning (SPL)
-- grades
-- paired t-tests for SPL with obtained grade
-- CONCL: obtained grades are not good indicators of learning
-
+<!-- 
 
 ## Qualitative / Free Text Results
 
@@ -443,28 +453,11 @@ Other surveys
 
 
 
-## Quick Check Results (Descriptive)
-
-- which results have the strongest effect sizes and RBC scores?
-- which users went beyond page 1 in a SERP?
-- possible to track revisits across SES2a - SES2d?
-- 
 
 
 
 
-## Descriptive statistics
 
-### profile transitions
-
-- how the following changed over time 
-  - motivation, metacognition, self regulation
-  - perceived learning, perceived search outcome
-
-
-
-
-<!-- 
 
 Difference between timepoints (across all profiles?)
 Difference between profiles (across all times)
@@ -521,7 +514,7 @@ For everything below: change in mean and sig diff over time / task type
   TODO: across time, somehow
 -->
 
-
+<!--
 
 
 
@@ -546,7 +539,7 @@ For everything below: change in mean and sig diff over time / task type
 - sig diffs at (beginning, middle and end of tasks) x (LPA profiles)
 - 
 
-<!--
+
 
 Sequences
 
@@ -610,16 +603,3 @@ Unique domains
 📃 Viz: Distributions of all tactics - tables / bars / etc.
 
 -->
-
-### search tactics
-
-
-
-## SHEG tasks - information evaluation capabilities
-
-> *We've confused young people’s ability to operate digital devices with the sophistication they need to discern whether the information those devices yield is something that can be relied upon*
->
-> https://twitter.com/suzettelohmeyer/status/1617909351766757376
-> https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/
-
-

@@ -214,7 +214,7 @@ Even, one participant commendted "I had downloaded all the papers I needed durin
 </h3>
 <p>Query reformulation refers to the process of modifying or refining a search query in order to improve the relevance of search results and better match the user’s information needs (Section <a href="ch-bg-search.html#sec-bg-search-query">3.2.1</a>).
 Query reformulation typically occurs due to a searcher’s improved understanding of how to better translate their information need into a search query.
-Using the taxonomy proposed by <span class="citation">C. Liu et al. (<a href="#ref-liu2010analysis">2010</a>)</span> (Figure <a href="ch-bg-search.html#fig:res-Q-QRT-txnmy">3.3</a>), we classified each previous-next query pair issued by participants into one of the five query reformulation types:
+Using the taxonomy proposed by <span class="citation">C. Liu et al. (<a href="#ref-liu2010analysis">2010</a>)</span> (Figure <a href="ch-bg-search.html#fig:res-Q-QRT-txnmy">3.3</a>), we classified each previous-next query pair issued by participants into one of the five query reformulation types (QRTs):
 New,
 Generalization,
 Specialization,
@@ -267,6 +267,24 @@ SD also says something</p>
 <h3>
 <span class="header-section-number">7.2.5</span> Entropy of Query Reformulation<a class="anchor" aria-label="anchor" href="#entropy-of-query-reformulation"><i class="fas fa-link"></i></a>
 </h3>
+<p>Inspired by previous works in analysing eye-movement sequences <span class="citation">Krejtz et al. (<a href="#ref-krejtz2015gaze">2015</a>)</span> and search tactics sequences <span class="citation">(<a href="#ref-he2016beyond">He et al., 2016</a>)</span>, we employed a similar entropy analysis of query reformulation sequences issued by users.</p>
+<p>If we consider the sequence of query reformulations issued by a participant
+(e.g., <em>New -&gt; New -&gt; Specialization -&gt; Specialization -&gt; Word Substitution -&gt; Generalization</em>)
+then this sequence can be considered as a first order Markov chain (wherein, the next step in the chain depends only on the current state).
+Entropy analysis on these Markov chains quantifies how predictable the states are, and yields two categories of uncertainty measures: transition entropy, <span class="math inline">\(H_t\)</span>, and stationary entropy <span class="math inline">\(H_s\)</span>.</p>
+<p>In the context of query reformulations, the maximum <strong>transition entropy</strong> <span class="math inline">\((s \log s)\)</span> can be reached when there is an equal probability of switching between each of the <span class="math inline">\(s = 5\)</span> QRTs (query reformulation types).
+The minimum transition entropy (0) is achieved in a fully deterministic Markov chain where all transition probabilities are either 1 or 0.
+This means that with a higher transition entropy there is more randomness in the participant’s transitions between different QRTs.
+This randomness is an indication that the participants do not have a clear progression from one QRT to another.
+On the other hand, a lower transition entropy indicates that the participant’s transition between QRTs are highly predictable.
+<strong>Stationary entropy</strong> is calculated from the distribution of QRTs.
+A higher stationary entropy value indicates that the QRTs were used uniformly, while a lower stationary entropy indicates that some QRTs are preferred over others.
+Values of stationary entropy vary between 0 and <span class="math inline">\((\log s)\)</span>, where <span class="math inline">\(s\)</span> is the number of possible states (QRTs) <a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;The explanation is adapted from &lt;span class="citation"&gt;He et al. (&lt;a href="#ref-he2016beyond"&gt;2016&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;'><sup>16</sup></a>.</p>
+<!-- A higher query reformulation entropy indicates a greater degree of uncertainty or randomness in the user's query reformulation behaviour, indicating that the user may be struggling to find relevant information or is uncertain about their information needs. In contrast, a lower query reformulation entropy suggests a more systematic and directed approach to search, indicating that the user has a clearer understanding of their information needs and is using query reformulation strategies to efficiently retrieve relevant information. Query reformulation entropy is a useful metric for evaluating the effectiveness of search systems and understanding user search behaviour.
+
+Transition entropy is a metric that measures the uncertainty or randomness in the transitions between different search states, such as between queries, documents, or web pages. It quantifies the level of unpredictability or randomness in the user's navigation behavior as they move from one state to another, and can be used to evaluate the efficiency and effectiveness of search systems and interfaces.
+
+Stationary entropy, on the other hand, measures the uncertainty or randomness in the distribution of user behavior within a single search state. For example, it can be used to analyze the frequency and distribution of query terms used by a user during a search session, or the distribution of clicks on search results pages. Stationary entropy provides insights into the structure and characteristics of user search behavior within a given context, and can be used to optimize search algorithms and ranking models. -->
 <div id="transition-entropy-of-query-reformulation" class="section level4" number="7.2.5.1">
 <h4>
 <span class="header-section-number">7.2.5.1</span> Transition Entropy of Query Reformulation<a class="anchor" aria-label="anchor" href="#transition-entropy-of-query-reformulation"><i class="fas fa-link"></i></a>
@@ -685,6 +703,9 @@ Hassan, A., White, R. W., Dumais, S. T., &amp; Wang, Y.-M. (2014). Struggling or
 </div>
 <div id="ref-he2016beyond" class="csl-entry">
 He, J., Qvarfordt, P., Halvey, M., &amp; Golovchinsky, G. (2016). Beyond actions: Exploring the discovery of tactics from user logs. <em>Information Processing &amp; Management</em>, <em>52</em>(6), 1200–1226.
+</div>
+<div id="ref-krejtz2015gaze" class="csl-entry">
+Krejtz, K., Duchowski, A., Szmidt, T., Krejtz, I., González Perilli, F., Pires, A., Vilaro, A., &amp; Villalobos, N. (2015). Gaze transition entropy. <em>ACM Transactions on Applied Perception (TAP)</em>, <em>13</em>(1), 1–20.
 </div>
 <div id="ref-liu2010analysis" class="csl-entry">
 Liu, C., Gwizdka, J., Liu, J., Xu, T., &amp; Belkin, N. J. (2010). Analysis and evaluation of query reformulations in different task types. <em>Proceedings of the American Society for Information Science and Technology</em>, <em>47</em>(1), 1–9.

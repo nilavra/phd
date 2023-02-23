@@ -3456,8 +3456,10 @@ Refer to Test PnG in Figure \ref{fig:ResP4650362619704565728}.
 
 
 
-\hypertarget{results-and-discussion}{%
-\chapter{Results and Discussion}\label{results-and-discussion}}
+\hypertarget{results}{%
+\chapter{Results}\label{results}}
+
+As the sample sizes were often small, and / or did not match the normality assumptions of parametric tests, we have employed the non-parametric Mann-Whitney U test for all the null-hypothesis testing. This allows easy comparison between different categories of results.
 
 Additionally we also report Common Language Effect Size (CLES) for each statistical test result.
 The common language effect size is the proportion of pairs where \(x\) is higher than \(y\).
@@ -3467,12 +3469,26 @@ The advantage is of this method are twofold. First, the brute-force approach pai
 
 In the interest of better presentation and readability of this chapter, some of the ancillary plots are presented in Appendices \ref{app-plots-query} and \ref{app-plots-search}.
 
-\hypertarget{latent-profiles}{%
-\section{Latent Profiles}\label{latent-profiles}}
+\hypertarget{latent-profiles-and-transitions}{%
+\section{Latent Profiles (and Transitions)}\label{latent-profiles-and-transitions}}
 
 TODO: describe the high and low groups appropriately.
 
 TODO: Describe stats from \texttt{HI} and \texttt{LO} profiles, as in YSC Sec 5.1.
+
+\begin{itemize}
+\tightlist
+\item
+  how the following changed over time
+
+  \begin{itemize}
+  \tightlist
+  \item
+    motivation, metacognition, self regulation
+  \item
+    perceived learning, perceived search outcome
+  \end{itemize}
+\end{itemize}
 
 TODO:
 
@@ -3548,7 +3564,7 @@ The difference in the total number of queries issued by the two groups approched
 
 Query reformulation refers to the process of modifying or refining a search query in order to improve the relevance of search results and better match the user's information needs (Section \ref{sec-bg-search-query}).
 Query reformulation typically occurs due to a searcher's improved understanding of how to better translate their information need into a search query.
-Using the taxonomy proposed by C. Liu et al. (\protect\hyperlink{ref-liu2010analysis}{2010}) (Figure \ref{fig:res-Q-QRT-txnmy}), we classified each previous-next query pair issued by participants into one of the five query reformulation types:
+Using the taxonomy proposed by C. Liu et al. (\protect\hyperlink{ref-liu2010analysis}{2010}) (Figure \ref{fig:res-Q-QRT-txnmy}), we classified each previous-next query pair issued by participants into one of the five query reformulation types (QRTs):
 New,
 Generalization,
 Specialization,
@@ -3592,8 +3608,27 @@ ResN2805268620307804410
 ResN5118140679486679749
 SD also says something
 
-\hypertarget{entropy-of-query-reformulation}{%
-\subsection{Entropy of Query Reformulation}\label{entropy-of-query-reformulation}}
+\hypertarget{sec-res-query-H}{%
+\subsection{Entropy of Query Reformulation}\label{sec-res-query-H}}
+
+Inspired by previous works in analysing eye-movement sequences Krejtz et al. (\protect\hyperlink{ref-krejtz2015gaze}{2015}) and search tactics sequences (\protect\hyperlink{ref-he2016beyond}{He et al., 2016}), we employed a similar entropy analysis of query reformulation sequences issued by users.
+
+Transition analysis and entropy helps to cover differences in disparate tasks and activities (get text from Qvardford paper)
+
+If we consider the sequence of query reformulations issued by a participant
+(e.g., \emph{New -\textgreater{} New -\textgreater{} Specialization -\textgreater{} Specialization -\textgreater{} Word Substitution -\textgreater{} Generalization})
+then this sequence can be considered as a first order Markov chain, wherein, the next step in the chain depends only on the current state.
+Entropy analysis on these Markov chains quantifies how predictable the states are, and yields two categories of uncertainty measures: transition entropy, \(H_t\), and stationary entropy \(H_s\).
+
+In the context of query reformulations, the maximum \textbf{transition entropy} \((s \log s)\) can be reached when there is an equal probability of switching between each of the \(s = 5\) states, or QRTs (query reformulation types).
+The minimum transition entropy (0) is achieved in a fully deterministic Markov chain where all transition probabilities are either 1 or 0.
+This means that with a higher transition entropy there is more randomness in the participant's transitions between different QRTs.
+This randomness is an indication that the participants do not have a clear progression from one QRT to another.
+On the other hand, a lower transition entropy indicates that the participant's transition between QRTs are highly predictable.
+\textbf{Stationary entropy} is calculated from the distribution of QRTs.
+A higher stationary entropy value indicates that the QRTs were used uniformly, while a lower stationary entropy indicates that some QRTs are preferred over others.
+Values of stationary entropy vary between 0 and \((\log s)\), where \(s\) is the number of possible states (QRTs)\footnote{The explanation is adapted from He et al. (\protect\hyperlink{ref-he2016beyond}{2016})}.
+The entropies discussed in the following sections were normalized by their theoretical maximums, for equivalent comparison across different conditions.
 
 \hypertarget{transition-entropy-of-query-reformulation}{%
 \subsubsection{Transition Entropy of Query Reformulation}\label{transition-entropy-of-query-reformulation}}
@@ -3679,6 +3714,14 @@ Dwell Time
 \hypertarget{entropy-of-search-tactics}{%
 \section{Entropy of Search Tactics}\label{entropy-of-search-tactics}}
 
+Similar to entropy analysis of Query Reformulation types (Section \ref{sec-res-query-H}), we perform entropy analysis of search tactic transitions.
+This analysis is directly inspired from He et al. (\protect\hyperlink{ref-he2016beyond}{2016}), who in turn were inspired from Krejtz et al. (\protect\hyperlink{ref-krejtz2015gaze}{2015}).
+
+In the context of search tactic transitions, a higher value of transition entropy (\(H_t\)) indicates more randomness and uncertainty in the participant's search behaviour (which is composed of different search tactics, and transitioning or switching between those tactics).
+A lower value of transition entropy indicates that the search behaviour (i.e.~tactic switching behaviour) is highly predictable.
+For stationary entropy of search tactics (\(H_s\)), a higher value indicates that participants utilize all the search tactics with equal probability, while a lower value suggests that certain search tactics are favoured over others.
+The entropies discussed in the following sections were normalized by their theoretical maximums, for equivalent comparison across different conditions.
+
 \hypertarget{transition-entropy-of-search-tactics}{%
 \subsection{Transition Entropy of Search Tactics}\label{transition-entropy-of-search-tactics}}
 
@@ -3708,22 +3751,34 @@ Model ID = 10
 
 More plots are in Appendix \ref{app-plots}, such as Figure \ref{fig:ResP5183239600404564866}
 
-\hypertarget{comment-out-old-content---remove-everything-from-here}{%
-\section{------------ COMMENT OUT: Old Content - Remove everything from here ------------}\label{comment-out-old-content---remove-everything-from-here}}
+\hypertarget{learning-outcomes}{%
+\section{Learning Outcomes}\label{learning-outcomes}}
 
-As the sample sizes were often small, and / or did not match the normality assumptions of parametric tests, we have employed the non-parametric Mann-Whitney U test for all the null-hypothesis testing. This allows easy comparison between different categories of results.
-
-What about learning??
-What are the measures of learning?
-
-Transition analysis and entropy helps to cover differences in disparate tasks and activities (get text from Qvardford paper)
+Correlation of SPL with Grades
 
 \begin{itemize}
 \tightlist
 \item
-  Also see Yung Sheng's Dissertation
+  self-perceived learning (SPL)
 \item
-  think hard about which data component has not been touched / analysed
+  grades
+\item
+  paired t-tests for SPL with obtained grade
+\item
+  CONCL: obtained grades are not good indicators of learning
+\end{itemize}
+
+\hypertarget{discussion}{%
+\chapter{Discussion}\label{discussion}}
+
+Quick Check Results (Descriptive)
+
+\begin{itemize}
+\tightlist
+\item
+  which results have the strongest effect sizes and RBC scores?
+\item
+  which users went beyond page 1 in a SERP?
 \end{itemize}
 
 Hypotheses from He et al. (\protect\hyperlink{ref-he2016beyond}{2016}):
@@ -3742,8 +3797,8 @@ The second set (H2) compares two different user groups, experts and novices, usi
   H2.4: While working with a search systems novices will find preferred search tactics to use. In other words, their distribution of search tactics will become less uniform over time.
 \end{itemize}
 
-\hypertarget{rq1---how-do-search-behaviours-change-over-time}{%
-\section{RQ1: - how do search behaviours change over time?}\label{rq1---how-do-search-behaviours-change-over-time}}
+\hypertarget{rq1-how-do-search-behaviours-change-over-time}{%
+\section{RQ1: how do search behaviours change over time?}\label{rq1-how-do-search-behaviours-change-over-time}}
 
 \begin{itemize}
 \item
@@ -3778,8 +3833,8 @@ The second set (H2) compares two different user groups, experts and novices, usi
   \end{itemize}
 \end{itemize}
 
-\hypertarget{rq2-repeated-vs-new-tasks}{%
-\section{RQ2: repeated vs new tasks}\label{rq2-repeated-vs-new-tasks}}
+\hypertarget{rq2-similarities-and-differences-in-repeated-vs-new-tasks}{%
+\section{RQ2: similarities and differences in repeated vs new tasks}\label{rq2-similarities-and-differences-in-repeated-vs-new-tasks}}
 
 Phase 1 and Phase 3 only
 
@@ -3789,134 +3844,29 @@ Phase 1 and Phase 3 only
   search task
 \item
   SHEG tasks
-\end{itemize}
-
-\hypertarget{rq3-mention-here}{%
-\section{RQ3: mention here}\label{rq3-mention-here}}
-
-\hypertarget{rq4-mention-here}{%
-\section{RQ4: mention here}\label{rq4-mention-here}}
-
-\hypertarget{learning-outcomes}{%
-\section{Learning Outcomes}\label{learning-outcomes}}
-
-\hypertarget{correlation-of-spl-with-grades}{%
-\subsection{Correlation of SPL with Grades}\label{correlation-of-spl-with-grades}}
-
-\begin{itemize}
-\tightlist
 \item
-  self-perceived learning (SPL)
-\item
-  grades
-\item
-  paired t-tests for SPL with obtained grade
-\item
-  CONCL: obtained grades are not good indicators of learning
-\end{itemize}
-
-\hypertarget{qualitative-free-text-results}{%
-\section{Qualitative / Free Text Results}\label{qualitative-free-text-results}}
-
-Note-taking strategies
-
-\begin{itemize}
-\tightlist
-\item
-  how do you organize your notes
-\item
-  how long do you store your notes
-\item
-  how do you search for a bit of info in the notes
-\end{itemize}
-
-Other surveys
-
-\hypertarget{quick-check-results-descriptive}{%
-\section{Quick Check Results (Descriptive)}\label{quick-check-results-descriptive}}
-
-\begin{itemize}
-\tightlist
-\item
-  which results have the strongest effect sizes and RBC scores?
-\item
-  which users went beyond page 1 in a SERP?
-\item
-  possible to track revisits across SES2a - SES2d?
-\item
-\end{itemize}
-
-\hypertarget{descriptive-statistics}{%
-\section{Descriptive statistics}\label{descriptive-statistics}}
-
-\hypertarget{profile-transitions}{%
-\subsection{profile transitions}\label{profile-transitions}}
-
-\begin{itemize}
-\tightlist
-\item
-  how the following changed over time
+  Similarities -\textgreater{} measures having no sig diff
 
   \begin{itemize}
   \tightlist
   \item
-    motivation, metacognition, self regulation
+    Overall task, Beginning, middle, end
+  \end{itemize}
+\item
+  Differences -\textgreater{} measures having sig diff
+
+  \begin{itemize}
+  \tightlist
   \item
-    perceived learning, perceived search outcome
+    Overall task, Beginning, middle, end
   \end{itemize}
 \end{itemize}
 
-\hypertarget{l---source-selection-item-selection}{%
-\section{L - source selection / Item Selection}\label{l---source-selection-item-selection}}
+\hypertarget{rq3-correlation-with-learning}{%
+\section{RQ3: correlation with learning?}\label{rq3-correlation-with-learning}}
 
-\begin{itemize}
-\tightlist
-\item
-  dwell times
-\item
-  ``Item'' selection as in IWSS
-\end{itemize}
-
-\hypertarget{i---interacting-with-sources}{%
-\section{I - interacting with sources}\label{i---interacting-with-sources}}
-
-\begin{itemize}
-\tightlist
-\item
-  dwell times
-\end{itemize}
-
-\begin{quote}
-\emph{If the dwell time is long, i.e.~≥ 5 seconds, it is more likely that a user is reading the search results summary (ER) rather than only skimming it (EI). The 5 second threshold was determined based on reading research using eye tracking (Rayner, 1998) and the size of the summaries in Querium. A time span of less than 5 seconds is a too short period for being able to read a summary and extract information.}
-
-\hfill --- He et al. (\protect\hyperlink{ref-he2016beyond}{2016})
-\end{quote}
-
-\hypertarget{overall-search-behaviour}{%
-\section{Overall search behaviour}\label{overall-search-behaviour}}
-
-\begin{itemize}
-\tightlist
-\item
-  sig diffs at (beginning, middle and end of tasks) x (LPA profiles)
-\item
-\end{itemize}
-
-\hypertarget{search-tactics}{%
-\subsection{search tactics}\label{search-tactics}}
-
-\hypertarget{sheg-tasks---information-evaluation-capabilities}{%
-\section{SHEG tasks - information evaluation capabilities}\label{sheg-tasks---information-evaluation-capabilities}}
-
-\begin{quote}
-\emph{We've confused young people's ability to operate digital devices with the sophistication they need to discern whether the information those devices yield is something that can be relied upon}
-
-\url{https://twitter.com/suzettelohmeyer/status/1617909351766757376}
-\url{https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/}
-\end{quote}
-
-\hypertarget{conclusions-contributions-and-future-work}{%
-\chapter{Conclusions, Contributions, and Future Work}\label{conclusions-contributions-and-future-work}}
+\hypertarget{discussion-and-conclusion}{%
+\chapter{Discussion and Conclusion}\label{discussion-and-conclusion}}
 
 see Jacek's thesis
 
@@ -3933,6 +3883,12 @@ which results have the strongest effect sizes and RBC scores?
 
 \hypertarget{contributions}{%
 \section{Contributions}\label{contributions}}
+
+Transition analysis and entropy are powerful tools in the field of information retrieval that can help to uncover patterns in user search behaviour across disparate tasks and activities. By analysing transitions between different states, such as between queries, documents, or web pages, transition analysis can reveal important insights into how users navigate information spaces and interact with search systems. For example, it can be used to identify common search patterns or to identify areas where users may be experiencing difficulty or confusion.
+
+Entropy, on the other hand, provides a quantitative measure of the uncertainty or randomness in user search behaviour. By calculating entropy values for different aspects of search behaviour, such as query reformulation or click-through behaviour, researchers can gain a better understanding of the structure and characteristics of user search behaviour in different contexts. This can help to identify areas for improvement in search systems and to design more effective search algorithms and interfaces.
+
+Together, transition analysis and entropy provide a powerful framework for understanding user search behaviour and improving the design and effectiveness of search systems. By analysing transitions and quantifying the level of uncertainty in user behaviour, researchers can uncover valuable insights that can inform the development of more effective search systems and improve the overall user experience.
 
 From ASIST award session
 
@@ -3964,6 +3920,14 @@ HEATHER:
 
 \hypertarget{limitations}{%
 \section{Limitations}\label{limitations}}
+
+\hypertarget{theoretical-limitations}{%
+\subsection{Theoretical Limitations}\label{theoretical-limitations}}
+
+Learning outcomes
+
+\hypertarget{technical-limitation}{%
+\subsection{Technical Limitation}\label{technical-limitation}}
 
 \begin{itemize}
 \tightlist
@@ -4027,6 +3991,13 @@ Contrary opinions\_
 - \url{https://abcnews4.com/news/nation-world/experts-warn-dangers-ai-google-microsoft-push-new-chatbots-chatgpt-bard-technology-big-tech-open-ended-questions-responses-alphabet-misinformation-disinformation-internet-new-developments-bing-search-engines}
 - Matt is here
 - potential to misinformation
+
+\begin{quote}
+\emph{We've confused young people's ability to operate digital devices with the sophistication they need to discern whether the information those devices yield is something that can be relied upon}
+
+\url{https://twitter.com/suzettelohmeyer/status/1617909351766757376}
+\url{https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/}
+\end{quote}
 
 Final feedback:
 P022Pisa said
@@ -5671,6 +5642,9 @@ Ko, A. J. (2021). Seeking information. In \emph{Foundations of {Information}}. \
 
 \leavevmode\vadjust pre{\hypertarget{ref-koeman2020hciux}{}}%
 Koeman, L. (2020). \emph{HCI/UX research: What methods do we use? -- lisa koeman -- blog}. \url{https://lisakoeman.nl/blog/hci-ux-research-what-methods-do-we-use/}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-krejtz2015gaze}{}}%
+Krejtz, K., Duchowski, A., Szmidt, T., Krejtz, I., González Perilli, F., Pires, A., Vilaro, A., \& Villalobos, N. (2015). Gaze transition entropy. \emph{ACM Transactions on Applied Perception (TAP)}, \emph{13}(1), 1--20.
 
 \leavevmode\vadjust pre{\hypertarget{ref-krejtz2014entropy}{}}%
 Krejtz, K., Szmidt, T., Duchowski, A. T., \& Krejtz, I. (2014). Entropy-based statistical analysis of eye movement transitions. \emph{Proceedings of the Symposium on Eye Tracking Research and Applications}, 159--166.
