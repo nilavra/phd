@@ -10,6 +10,8 @@ see Jacek's thesis
 
 which results have the strongest effect sizes and RBC scores?
 
+CONCLUSION: obtained grades are not good indicators of learning
+
 ## Methodology
 
 ## Contributions
@@ -45,6 +47,8 @@ HEATHER:
 ### Theoretical Limitations
 
 Learning outcomes
+Cite @urgo2022learning
+
 
 ### Technical Limitation
 

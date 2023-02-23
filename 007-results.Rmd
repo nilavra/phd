@@ -16,6 +16,17 @@ In the interest of better presentation and readability of this chapter, some of 
 
 
 
+## Learning Outcomes
+
+Correlation of SPL with Grades
+
+- self-perceived learning (SPL)
+- grades
+- paired t-tests for SPL with obtained grade
+- CONCLUSION: obtained grades are not good indicators of learning
+
+
+
 ## Latent Profiles (and Transitions)
 
 
@@ -397,15 +408,9 @@ Model ID = 10
 More plots are in Appendix \@ref(app-plots), such as Figure \@ref(fig:ResP5183239600404564866)
 
 
+## 
 
-## Learning Outcomes
 
-Correlation of SPL with Grades
-
-- self-perceived learning (SPL)
-- grades
-- paired t-tests for SPL with obtained grade
-- CONCL: obtained grades are not good indicators of learning
 
 
 

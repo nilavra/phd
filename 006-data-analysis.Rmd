@@ -5,6 +5,36 @@
 
 
 
+## Search Behaviour Data Analysis Framework
+
+After log data was cleaned 
+From @white2016interactions, Table 2.1 (adapted from Bates, 1989):
+
+- **Level 1: Move**
+  - Atomic search event – for example, a query or click
+  (*An identifiable thought or action that is part of information searching.*)
+- **Level 2: Tactic**
+  - Goal or task, including query or click chain
+  (*One or several moves made to further a search*)
+- **Level 3: Statagem**
+  - Mission or session
+  (*A larger, more complex set of thoughts and/or actions than the tactic; a stratagem consists of multiple tactics and/or moves, all of which are designed to exploit a particular search domain that is thought to contain the desired information*)
+- **Level 4: Strategy**
+  - Session or cross-session search task
+  (*A plan, which may contain moves, tactics, and/or stratagems, for an entire information search.*)
+
+
+
+
+
+
+
+
+<!-- ========================= OLD CONTENT ==================== -->
+
+
+
+
 Note about pronouns:
 all participants are referred to using gender-neutral they/them pronouns.
 
@@ -85,22 +115,7 @@ Memory span values normalized by 10, because "*The maximum memory span measurabl
 
 
 
-## Search Behaviour Data Analysis Framework
 
-From @white2016interactions, Table 2.1 (adapted from Bates, 1989):
-
-- **Level 1: Move**
-  - Atomic search event – for example, a query or click
-  (*An identifiable thought or action that is part of information searching.*)
-- **Level 2: Tactic**
-  - Goal or task, including query or click chain
-  (*One or several moves made to further a search*)
-- **Level 3: Statagem**
-  - Mission or session
-  (*A larger, more complex set of thoughts and/or actions than the tactic; a stratagem consists of multiple tactics and/or moves, all of which are designed to exploit a particular search domain that is thought to contain the desired information*)
-- **Level 4: Strategy**
-  - Session or cross-session search task
-  (*A plan, which may contain moves, tactics, and/or stratagems, for an entire information search.*)
 
 ## Level 1: Moves - Query Reformulation
 

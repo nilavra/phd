@@ -119,6 +119,7 @@ navigators-vs.-explorers
 transition-analysis-of-search-tactics-strategies
 correlation-analysis
 results
+learning-outcomes
 latent-profiles-and-transitions
 query-formulation
 length-of-queries
@@ -139,7 +140,7 @@ ipub---publications
 entropy-of-search-tactics
 transition-entropy-of-search-tactics
 stationary-entropy-of-search-tactics
-learning-outcomes
+section
 discussion
 rq1-how-do-search-behaviours-change-over-time
 rq2-similarities-and-differences-in-repeated-vs-new-tasks
