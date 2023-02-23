@@ -125,8 +125,8 @@ length-of-queries
 count-of-queries-per-search-task
 count-of-reformulated-query-types
 number-of-clicks-per-query
-entropy-of-query-qeformulation
-transition-entropy-of-query-qeformulation
+entropy-of-query-reformulation
+transition-entropy-of-query-reformulation
 stationary-entropy-of-query-qeformulation
 webpages-visits
 all

@@ -100,6 +100,7 @@ The common language effect size is the proportion of pairs where <span class="ma
 In other words, it is the probability that a score sampled at random from one distribution will be greater than a score sampled from some other distribution.
 CLES was first introduced by McGraw and Wong (1992) [TODO]. The Python statistical library employed in data analysis – Pingouin <span class="citation">(<a href="#ref-vallat2018pingouin">Vallat, 2018</a>)</span> – uses a brute-force version of the formula given by Vargha and Delaney 2000 [TODO]:
 The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.</p>
+<p>In the interest of better presentation and readability of this chapter, some of the ancillary plots are presented in Appendices <a href="app-plots-query.html#app-plots-query">D</a> and <a href="app-plots-search.html#app-plots-search">E</a>.</p>
 <div id="latent-profiles" class="section level2" number="7.1">
 <h2>
 <span class="header-section-number">7.1</span> Latent Profiles<a class="anchor" aria-label="anchor" href="#latent-profiles"><i class="fas fa-link"></i></a>
@@ -200,24 +201,56 @@ LO group was slacking and putting it off till last minute.
 <!-- single information-seeking task on a search engine or other information retrieval system. A search task is typically defined as a specific information need or question that the user is attempting to answer through a series of search queries.  -->
 The count of queries per search task may vary depending on the complexity of the information need, the user’s level of expertise with the search system, and other factors.
 <!-- This metric is commonly used in information retrieval research to evaluate the effectiveness of search systems and user search behavior. --></p>
-<p>The average number of queries issued by the high group were the highest before the Outline (<code>PHASE2B</code>).
-ResP1663923804528545778</p>
-<p>Like avg query length, LO group issued highest number of queries when writing final paper, while HI roup did that during outline.
-Even, one participant commendted “I had downloaded all the papers I needed during…”</p>
+<p>The average number of queries issued by the high group increased from Proposal to Outline to Rough Draft, and then decreased before the Final Paper task (Figure ResP4526976288600811998).
+In contrast, the low group issued higher number of queries during the early part of the semester – Proposal and Outline – but then they issued lower number of queries during the later parts of the semester, w.r.t. the high group.
+The difference in the total number of queries issued by the two groups approched statistical significance according to a two-tailed Mann-Whitney U test, but the effect size was very weak <span class="math inline">\((U = 14.0, n_{low}=8, n_{high}=8, p=.06, CLES=0.22)\)</span>.</p>
+<!-- were the highest before the Rough Draft (`PHASE2C`) . -->
+<!-- Like avg query length, LO group issued highest number of queries when writing final paper, while HI roup did that during outline.
+Even, one participant commendted "I had downloaded all the papers I needed during..." -->
 </div>
 <div id="count-of-reformulated-query-types" class="section level3" number="7.2.3">
 <h3>
 <span class="header-section-number">7.2.3</span> Count of reformulated query types<a class="anchor" aria-label="anchor" href="#count-of-reformulated-query-types"><i class="fas fa-link"></i></a>
 </h3>
-<p>ResN8316003849035045794
+<p>Query reformulation refers to the process of modifying or refining a search query in order to improve the relevance of search results and better match the user’s information needs (Section <a href="ch-bg-search.html#sec-bg-search-query">3.2.1</a>).
+Query reformulation typically occurs due to a searcher’s improved understanding of how to better translate their information need into a search query.
+Using the taxonomy proposed by <span class="citation">C. Liu et al. (<a href="#ref-liu2010analysis">2010</a>)</span> (Figure <a href="ch-bg-search.html#fig:res-Q-QRT-txnmy">3.3</a>), we classified each previous-next query pair issued by participants into one of the five query reformulation types:
+New,
+Generalization,
+Specialization,
+Word Substitution,
+and
+Repeat.</p>
+<!-- When a user submits a search query that does not return satisfactory results, they may attempt to reformulate their query by using different keywords, rephrasing their question, or adding or removing search terms. Query reformulation can be done manually by the user or automatically by the search system using techniques such as query expansion or query suggestion. The goal of query reformulation is to help users find the information they are looking for more efficiently and effectively. -->
+<p>The low group issued more number of <strong>New</strong> queries in total (Figure ResN3873804091287075248) and on average (Figure ResP3026382842695489517), compared to the high group.
+During the Rough Draft and Final Paper phases, the low group exhibited heightened tendency to generate New search queries in their pursuit of novel information.
+On average, participants in the low group issued four more search queries than those in the HI group in these last two phases of the research project (Figure ResP3026382842695489517).
+This suggests that the LO group engaged in more active and extensive information-seeking behaviour, potentially reflecting a greater sense of urgency and pressure to complete their assignments.
+The difference in total number of New queries between the groups approached significance <span class="math inline">\((U = 50.0, n_{low}=8, n_{high}=8, p=.06, CLES=0.78)\)</span>, with a moderately strong effect size.</p>
+<!-- ResN8316003849035045794 
 no. of new queries was the highest during final paper for the LO group
 they were frantically searching for new information
-on an average, each participant in the LO group was making 4 more search queries than those in the HI group during the final paper phase.</p>
-<p>ResN3604624796642370520 generalizations
+on an average, each participant in the LO group was making 4 more search queries than those in the HI group during the final paper phase. -->
+<p>The low group demonstrated a significantly higher count of total <strong>Query Generalizations</strong> <span class="math inline">\((U = 44.5, n_{low}=7, n_{high}=7, p=.01, CLES=0.91)\)</span>.
+While the high group issued a total of <span class="math inline">\(2.57 \pm 2.1\)</span> query generalizations per task the low group were issuing <span class="math inline">\(9.86 \pm 6.7\)</span> generalized queries for the same, across the entire study (Figure ResN3302769723271690264).
+Query generalization is an indicative of exploratory behaviour, and this increase by the low group indicates a lack of specificity in the participants’ information needs, which may lead to lower precision in search results.</p>
+<p>The high group issued an average at least one word substitution for each search task.
+The trend in the count of total <strong>Query Specializations</strong> was similar to that of Query Generalizations (Figure ResN6450294753032251158).
+The high group demonstrated the maximum number of query specialization before the Outline phase, whereas the low group did the same before the Final Paper phase.
+While the difference was not significant, the effect size was moderately high <span class="math inline">\((U = 42.5, n_{low}=8, n_{high}=7, p=.10, CLES=0.76)\)</span>.</p>
+<p><strong>Word Substitutions</strong> were performed in all the tasks by the high group, whereas the low group skipped it during Proposal, and the <code>PHASE3-BIAS</code> task (Figure ResN3108315939720148502).</p>
+<p>We faced a challenge in disentangling <strong>Repeat</strong> queries from “hub-and-spoke” behaviour, where the user goes back and forth between the SERP and a content page by using the browser’s forward and back buttons <a class="footnote-ref" tabindex="0" data-toggle="popover" data-content="&lt;p&gt;The SERP is the hub, which represents the initial point of inquiry, while the spokes represent the subsequent branches of exploration along different content pages. This search behaviour is often used when users have a general idea of the topic they are interested in, but need to explore different facets of the topic to narrow down their search and find relevant information.&lt;/p&gt;"><sup>15</sup></a>.
+Each back button press on the browser (to go back to the SERP from a content page) meant a fresh HTTP GET request was sent to the search engine.
+This resulted in YASBIL logging the move as a resubmission of the query.
+Keeping this in mind, we observed that the low group issued a significantly higher number of repeat queries (or hub-and-spoke moves), compared to the high group <span class="math inline">\((U = 51.5, n_{low}=7, n_{high}=8, p=.0077, CLES=0.92)\)</span>.
+The highest differences occurred in the Outline phase and the Final paper phase (Figure ResP7955607431899741484), with the low group issuing double the number of repeat queries <span class="math inline">\((6.11 \pm 3.7)\)</span> on average, w.r.t. the high group <span class="math inline">\((3.51 \pm 2.8)\)</span></p>
+<!-- 
+
+ResN3604624796642370520 generalizations
 ResP5443351906342031714 specializations
 ResN4290201084087196149 word substitutions
 ResN9056495301645634830 repeat
-Repeat must be taken with a grain of salt as repeat behaviour was diffcult to tease out from hub and spoke behaviour, if the user pressed the back button of the browser</p>
+Repeat must be taken with a grain of salt as repeat behaviour was diffcult to tease out from hub and spoke behaviour, if the user pressed the back button of the browser -->
 </div>
 <div id="number-of-clicks-per-query" class="section level3" number="7.2.4">
 <h3>
@@ -226,17 +259,17 @@ Repeat must be taken with a grain of salt as repeat behaviour was diffcult to te
 <p>ResP878771263343515297
 HI group was more efficient. Average number of clicks per query was lowe (less than 4) as they moved forward in the semester, with highest in the Outline phase.</p>
 <p>ResN2805268620307804410</p>
-<p><span class="math inline">\((U = 1069.5, n_{HI}=56, n_{LO}=30, p=.0378)\)</span></p>
+<p><span class="math inline">\((U = 1069.5, n_{HI}=56, n_{LO}=30, p=.03)\)</span></p>
 <p>ResN5118140679486679749
 SD also says something</p>
 </div>
-<div id="entropy-of-query-qeformulation" class="section level3" number="7.2.5">
+<div id="entropy-of-query-reformulation" class="section level3" number="7.2.5">
 <h3>
-<span class="header-section-number">7.2.5</span> Entropy of Query Qeformulation<a class="anchor" aria-label="anchor" href="#entropy-of-query-qeformulation"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.2.5</span> Entropy of Query Reformulation<a class="anchor" aria-label="anchor" href="#entropy-of-query-reformulation"><i class="fas fa-link"></i></a>
 </h3>
-<div id="transition-entropy-of-query-qeformulation" class="section level4" number="7.2.5.1">
+<div id="transition-entropy-of-query-reformulation" class="section level4" number="7.2.5.1">
 <h4>
-<span class="header-section-number">7.2.5.1</span> Transition Entropy of Query Qeformulation<a class="anchor" aria-label="anchor" href="#transition-entropy-of-query-qeformulation"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.2.5.1</span> Transition Entropy of Query Reformulation<a class="anchor" aria-label="anchor" href="#transition-entropy-of-query-reformulation"><i class="fas fa-link"></i></a>
 </h4>
 <p>Transition entropy remained lower for HI group at beginning, middle and end</p>
 <p>For repeated task (finance) HI group stopped querying from the middle of the task.
@@ -354,7 +387,7 @@ Model ID = 10</p>
 </div>
 <div id="comment-out-old-content---remove-everything-from-here" class="section level2" number="7.5">
 <h2>
-<span class="header-section-number">7.5</span> COMMENT OUT: Old Content - Remove everything from here<a class="anchor" aria-label="anchor" href="#comment-out-old-content---remove-everything-from-here"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.5</span> ———— COMMENT OUT: Old Content - Remove everything from here ————<a class="anchor" aria-label="anchor" href="#comment-out-old-content---remove-everything-from-here"><i class="fas fa-link"></i></a>
 </h2>
 <p>As the sample sizes were often small, and / or did not match the normality assumptions of parametric tests, we have employed the non-parametric Mann-Whitney U test for all the null-hypothesis testing. This allows easy comparison between different categories of results.</p>
 <p>What about learning??
@@ -653,10 +686,14 @@ Hassan, A., White, R. W., Dumais, S. T., &amp; Wang, Y.-M. (2014). Struggling or
 <div id="ref-he2016beyond" class="csl-entry">
 He, J., Qvarfordt, P., Halvey, M., &amp; Golovchinsky, G. (2016). Beyond actions: Exploring the discovery of tactics from user logs. <em>Information Processing &amp; Management</em>, <em>52</em>(6), 1200–1226.
 </div>
+<div id="ref-liu2010analysis" class="csl-entry">
+Liu, C., Gwizdka, J., Liu, J., Xu, T., &amp; Belkin, N. J. (2010). Analysis and evaluation of query reformulations in different task types. <em>Proceedings of the American Society for Information Science and Technology</em>, <em>47</em>(1), 1–9.
+</div>
 <div id="ref-vallat2018pingouin" class="csl-entry">
 Vallat, R. (2018). Pingouin: Statistics in python. <em>J. Open Source Softw.</em>, <em>3</em>(31), 1026.
 </div>
 </div>
+
   <div class="chapter-nav">
 <div class="prev"><a href="data-analysis.html"><span class="header-section-number">6</span> Data Analysis</a></div>
 <div class="next"><a href="conclusions-contributions-and-future-work.html"><span class="header-section-number">8</span> Conclusions, Contributions, and Future Work</a></div>
@@ -671,7 +708,7 @@ Vallat, R. (2018). Pingouin: Statistics in python. <em>J. Open Source Softw.</em
 <li><a class="nav-link" href="#count-of-queries-per-search-task"><span class="header-section-number">7.2.2</span> Count of queries per search task</a></li>
 <li><a class="nav-link" href="#count-of-reformulated-query-types"><span class="header-section-number">7.2.3</span> Count of reformulated query types</a></li>
 <li><a class="nav-link" href="#number-of-clicks-per-query"><span class="header-section-number">7.2.4</span> Number of clicks per query</a></li>
-<li><a class="nav-link" href="#entropy-of-query-qeformulation"><span class="header-section-number">7.2.5</span> Entropy of Query Qeformulation</a></li>
+<li><a class="nav-link" href="#entropy-of-query-reformulation"><span class="header-section-number">7.2.5</span> Entropy of Query Reformulation</a></li>
 </ul>
 </li>
 <li>
@@ -687,7 +724,7 @@ Vallat, R. (2018). Pingouin: Statistics in python. <em>J. Open Source Softw.</em
 <li><a class="nav-link" href="#stationary-entropy-of-search-tactics"><span class="header-section-number">7.4.2</span> Stationary Entropy of Search Tactics</a></li>
 </ul>
 </li>
-<li><a class="nav-link" href="#comment-out-old-content---remove-everything-from-here"><span class="header-section-number">7.5</span> COMMENT OUT: Old Content - Remove everything from here</a></li>
+<li><a class="nav-link" href="#comment-out-old-content---remove-everything-from-here"><span class="header-section-number">7.5</span> ———— COMMENT OUT: Old Content - Remove everything from here ————</a></li>
 <li><a class="nav-link" href="#rq1---how-do-search-behaviours-change-over-time"><span class="header-section-number">7.6</span> RQ1: - how do search behaviours change over time?</a></li>
 <li><a class="nav-link" href="#rq2-repeated-vs-new-tasks"><span class="header-section-number">7.7</span> RQ2: repeated vs new tasks</a></li>
 <li><a class="nav-link" href="#rq3-mention-here"><span class="header-section-number">7.8</span> RQ3: mention here</a></li>
