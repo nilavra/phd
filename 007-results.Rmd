@@ -24,30 +24,10 @@ CLES are concordant with sig_dir_mean: so use them
 
 ### Length of Queries
 
-<!----------- fig:ResN5894660104957913932 ----------->
-```{r ResN5894660104957913932, fig.scap='(ref:scap-ResN5894660104957913932)', fig.cap = '(ref:cap-ResN5894660104957913932)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResN5894660104957913932")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResN5894660104957913932) Longcaption.
-
-(ref:scap-ResN5894660104957913932) Shortcaption.
-
-<!---- fig:ResN5894660104957913932 (leave a blank line before this) ------>
 
 
 LO group had highest total query length before final paper (ResN5894660104957913932)
 
-<!----------- fig:ResP6726131652814458688 ----------->
-```{r ResP6726131652814458688, fig.scap='(ref:scap-ResP6726131652814458688)', fig.cap = '(ref:cap-ResP6726131652814458688)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResP6726131652814458688")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResP6726131652814458688) Longcaption.
-
-(ref:scap-ResP6726131652814458688) Shortcaption.
-
-<!---- fig:ResP6726131652814458688 (leave a blank line before this) ------>
 
 HI group had highest average query length during rough draft (ResP6726131652814458688)
 
@@ -76,16 +56,6 @@ $5 \pm 4$
 
 ### Count of queries per search task
 
-<!----------- fig:ResP7469411730579087048 ----------->
-```{r ResP7469411730579087048, fig.scap='(ref:scap-ResP7469411730579087048)', fig.cap = '(ref:cap-ResP7469411730579087048)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResP7469411730579087048")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResP7469411730579087048) Longcaption.
-
-(ref:scap-ResP7469411730579087048) Shortcaption.
-
-<!---- fig:ResP7469411730579087048 (leave a blank line before this) ------>
 
 ResP7469411730579087048
 
@@ -96,89 +66,22 @@ Even, one participant commendted "I had downloaded all the papers I needed durin
 
 ### Count of reformulated query types
 
-<!----------- fig:ResN8316003849035045794 ----------->
-```{r ResN8316003849035045794, fig.scap='(ref:scap-ResN8316003849035045794)', fig.cap = '(ref:cap-ResN8316003849035045794)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResN8316003849035045794")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResN8316003849035045794) Longcaption.
-
-(ref:scap-ResN8316003849035045794) Shortcaption.
-
-<!---- fig:ResN8316003849035045794 (leave a blank line before this) ------>
 
 ResN8316003849035045794 
 no. of new queries was the highest during final paper for the LO group
 they were frantically searching for new information
 on an average, each participant in the LO group was making 4 more search queries than those in the HI group during the final paper phase.
 
-<!----------- fig:ResN3604624796642370520 ----------->
-```{r ResN3604624796642370520, fig.scap='(ref:scap-ResN3604624796642370520)', fig.cap = '(ref:cap-ResN3604624796642370520)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResN3604624796642370520")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResN3604624796642370520) Longcaption.
-
-(ref:scap-ResN3604624796642370520) Shortcaption.
-
-<!---- fig:ResN3604624796642370520 (leave a blank line before this) ------>
-ResN3604624796642370520
-generalizations
-
-
-<!----------- fig:ResP5443351906342031714 ----------->
-```{r ResP5443351906342031714, fig.scap='(ref:scap-ResP5443351906342031714)', fig.cap = '(ref:cap-ResP5443351906342031714)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResP5443351906342031714")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResP5443351906342031714) Longcaption.
-
-(ref:scap-ResP5443351906342031714) Shortcaption.
-
-<!---- fig:ResP5443351906342031714 (leave a blank line before this) ------>
+ResN3604624796642370520 generalizations
 ResP5443351906342031714 specializations
-
-
-<!----------- fig:ResN4290201084087196149 ----------->
-```{r ResN4290201084087196149, fig.scap='(ref:scap-ResN4290201084087196149)', fig.cap = '(ref:cap-ResN4290201084087196149)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResN4290201084087196149")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResN4290201084087196149) Longcaption.
-
-(ref:scap-ResN4290201084087196149) Shortcaption.
-
-<!---- fig:ResN4290201084087196149 (leave a blank line before this) ------>
 ResN4290201084087196149 word substitutions
-
-
-<!----------- fig:ResN9056495301645634830 ----------->
-```{r ResN9056495301645634830, fig.scap='(ref:scap-ResN9056495301645634830)', fig.cap = '(ref:cap-ResN9056495301645634830)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResN9056495301645634830")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResN9056495301645634830) Longcaption.
-
-(ref:scap-ResN9056495301645634830) Shortcaption.
-
-<!---- fig:ResN9056495301645634830 (leave a blank line before this) ------>
 ResN9056495301645634830 repeat
-must be taken with a grain of salt as repeat behaviour was diffcult to tease out from hub and spoke behaviour, if the user pressed the back button of the browser
+Repeat must be taken with a grain of salt as repeat behaviour was diffcult to tease out from hub and spoke behaviour, if the user pressed the back button of the browser
 
 
 
 ### Entropy of query reformulation
 
-<!----------- fig:ResN2968292861275564559 ----------->
-```{r ResN2968292861275564559, fig.scap='(ref:scap-ResN2968292861275564559)', fig.cap = '(ref:cap-ResN2968292861275564559)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResN2968292861275564559")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResN2968292861275564559) Longcaption.
-
-(ref:scap-ResN2968292861275564559) Shortcaption.
-
-<!---- fig:ResN2968292861275564559 (leave a blank line before this) ------>
 ResN2968292861275564559 - whole
 stationary entropy
 
@@ -189,16 +92,6 @@ then low at the end of task
 their chaosness decreased as they progressed through the tasks, while for the LO group, their uncertainty increased?
 
 
-<!----------- fig:ResN634943316862196398 ----------->
-```{r ResN634943316862196398, fig.scap='(ref:scap-ResN634943316862196398)', fig.cap = '(ref:cap-ResN634943316862196398)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/queryHsBegMidEnd")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResN634943316862196398) Stationary entropy of Query reformulation at beginning (top-left), middle (top-right), and end (bottom) of task
-
-(ref:scap-ResN634943316862196398) Stationary entropy of Query reformulations.
-
-<!---- fig:ResN634943316862196398 (leave a blank line before this) ------>
 
 ResN634943316862196398 - beginning
 ResN6777243644016606483 - middle
@@ -231,45 +124,15 @@ Google, Library, etc -->
 
 ### Number of clicks per query
 
-<!----------- fig:ResP878771263343515297 ----------->
-```{r ResP878771263343515297, fig.scap='(ref:scap-ResP878771263343515297)', fig.cap = '(ref:cap-ResP878771263343515297)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResP878771263343515297")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResP878771263343515297) Longcaption.
-
-(ref:scap-ResP878771263343515297) Shortcaption.
-
-<!---- fig:ResP878771263343515297 (leave a blank line before this) ------>
 ResP878771263343515297
 HI group was more efficient. Average number of clicks per query was lowe (less than 4) as they moved forward in the semester, with highest in the Outline phase.
 
 
-<!----------- fig:ResN2805268620307804410 ----------->
-```{r ResN2805268620307804410, fig.scap='(ref:scap-ResN2805268620307804410)', fig.cap = '(ref:cap-ResN2805268620307804410)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResN2805268620307804410")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResN2805268620307804410) Longcaption.
-
-(ref:scap-ResN2805268620307804410) Shortcaption.
-
-<!---- fig:ResN2805268620307804410 (leave a blank line before this) ------>
 ResN2805268620307804410
 
 $(U = 1069.5, n_{HI}=56, n_{LO}=30, p=.0378)$
 
 
-<!----------- fig:ResN5118140679486679749 ----------->
-```{r ResN5118140679486679749, fig.scap='(ref:scap-ResN5118140679486679749)', fig.cap = '(ref:cap-ResN5118140679486679749)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/ResN5118140679486679749")
-```
-<!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-ResN5118140679486679749) Longcaption.
-
-(ref:scap-ResN5118140679486679749) Shortcaption.
-
-<!---- fig:ResN5118140679486679749 (leave a blank line before this) ------>
 ResN5118140679486679749
 SD also says something
 
@@ -278,6 +141,23 @@ SD also says something
 
 R!esN7928923989685423424 is a VERY good result!
 Model ID = 10
+
+
+
+
+More plots are in Appendix \@ref(app-plots), such as Figure \@ref(fig:ResP5183239600404564866)
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- ================= OLD CONTENTS =============== -->
 

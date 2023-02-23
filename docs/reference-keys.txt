@@ -27,9 +27,12 @@ fig:ResN4290201084087196149
 fig:ResN9056495301645634830
 fig:ResN2968292861275564559
 fig:ResN634943316862196398
+fig:ResN6777243644016606483
+fig:ResN6573661794052961083
 fig:ResP878771263343515297
 fig:ResN2805268620307804410
 fig:ResN5118140679486679749
+fig:ResP5183239600404564866
 introduction
 sec-intro-overview
 sec-intro-problem-statement
@@ -164,10 +167,12 @@ pressure-tension-not-in-qsnr1
 perceived-choice-not-in-qsnr1
 app-qsnr-srq
 app-qsnr-mai
-app-phase12
+app-phase13
 app-phase13-pretask
 app-phase13-posttask
 app-phase13-cta-v-silent
 app-phase1-sheg
 app-phase3-sheg
+app-plots-query
+app-plots-search
 sec-app-ack
