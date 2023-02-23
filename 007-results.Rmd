@@ -1,7 +1,18 @@
 # Results and Discussion
 
 
+Additionally we also report Common Language Effect Size (CLES) for each statistical test result.
+The common language effect size is the proportion of pairs where $x$ is higher than $y$. 
+In other words, it is the probability that a score sampled at random from one distribution will be greater than a score sampled from some other distribution. 
+CLES was first introduced by McGraw and Wong (1992) [TODO]. The Python statistical library employed in data analysis -- Pingouin [@vallat2018pingouin] -- uses a brute-force version of the formula given by Vargha and Delaney 2000 [TODO]:
+The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
+
+
+
 ## Latent Profiles
+
+
+TODO: describe the high and low groups appropriately.
 
 TODO: Describe stats from `HI` and `LO` profiles, as in YSC Sec 5.1.
 
@@ -15,8 +26,6 @@ Common language effect size (CLES):
 the probability that a score sampled at random from one distribution will be greater than a score sampled from some other distribution.
 
 CLES are concordant with sig_dir_mean: so use them
--->
-
 
 
 start
@@ -34,6 +43,9 @@ TODO: change in mean and sig diff over time / task type
   - all
   - repeated task
   - non-repeated task
+  - 
+-->
+
 
 
 TODO: 
@@ -45,14 +57,13 @@ TODO:
 - For Disucssion later
   - Pool together the 1-2 lines
 
+Proposal (`PHASE2A`)
 
-Additionally we also report Common Language Effect Size (CLES) for each statistical test result.
-The common language effect size is the proportion of pairs where $x$ is higher than $y$. 
-In other words, it is the probability that a score sampled at random from one distribution will be greater than a score sampled from some other distribution. 
-CLES was first introduced by McGraw and Wong (1992) [TODO]. The Python statistical library employed in data analysis -- Pingouin [@vallat2018pingouin] -- uses a brute-force version of the formula given by Vargha and Delaney 2000 [TODO]:
-The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
+Outline (`PHASE2B`)
 
+Rough Draft (`PHASE2C`)
 
+Final Paper (`PHASE2D`)
 
 
 
@@ -61,8 +72,27 @@ The advantage is of this method are twofold. First, the brute-force approach pai
 
 ### Length of Queries
 
+Query length was operationalized as the number of terms (words separated by spaces) in the search query that participants submitted to the search engines or other information retrieval sites.
+Query length can vary from a single word to several phrases or a full sentence. 
+<!-- Search engines use algorithms to analyze search query length and interpret the intent of the user's search in order to provide the most relevant search results.  -->
+Longer search queries may indicate a more specific or complex information need, while shorter search queries may be more general or broad in scope.
+<!-- The number of terms in each query was aggregated over each participant-task pair, to obtain total, average, and standard deviation (variability) of query length. -->
 
+For all tasks, on average, the high group issued longer queries than the low group (Figure  ResP4090733126835336320), except before the Outline (`PHASE2B`), and the Final Paper submission (`PHASE2D`).
+The low group, with lower levels of motivation, metacognition, and self-regulation, were issuring queries which were often two terms (words) shorter on average, than the corresponding queries from the high group.
 
+The total query length for the low group increased monotonically over the semester during `PHASE2` (Figure  ResP494716060171793945), with the longest queries being issued by this group before the Final Paper submission phase (`PHASE2D`).
+On the other hand, queries from the high group were the longest during the Outline phase (`PHASE2B`), and then it decreased in the subsequent phases.
+This indicates that the high group, with higher levels of motivation, metacognition, and self-regulation, were planning ahead in the early parts of the semester to find their references. 
+On the other hand, the low group, with lower levels of those traits, demonstrated a tendency to procrastinate and delay their work until the final paper.
+A quote from participant `P006_HANOI` illustrates this phenomenon:
+
+> *"so far for this rough draft I haven't actually had to google anything since I downloaded everything into pdfs during the outline stage and haven't needed any new material so far."*
+>
+> `r nbQuoteAuthor("--- P006_HANOI")`
+>
+
+<!-- 
 LO group had highest total query length before final paper (ResN5894660104957913932)
 
 
@@ -70,7 +100,7 @@ HI group had highest average query length during rough draft (ResP67261316528144
 
 LO group was slacking and putting it off till last minute.
 
-
+ -->
 
 
 
@@ -78,8 +108,14 @@ LO group was slacking and putting it off till last minute.
 
 ### Count of queries per search task
 
+Count of queries per search task refers to the number of separate queries or search attempts that a participant issued in order to complete a task. 
+<!-- having the same information need. -->
+<!-- single information-seeking task on a search engine or other information retrieval system. A search task is typically defined as a specific information need or question that the user is attempting to answer through a series of search queries.  -->
+The count of queries per search task may vary depending on the complexity of the information need, the user's level of expertise with the search system, and other factors. 
+<!-- This metric is commonly used in information retrieval research to evaluate the effectiveness of search systems and user search behavior. -->
 
-ResP7469411730579087048
+The average number of queries issued by the high group were the highest before the Outline (`PHASE2B`).
+ResP1663923804528545778
 
 Like avg query length, LO group issued highest number of queries when writing final paper, while HI roup did that during outline.
 Even, one participant commendted "I had downloaded all the papers I needed during..."

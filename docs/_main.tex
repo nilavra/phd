@@ -3459,10 +3459,52 @@ Refer to Test PnG in Figure \ref{fig:ResP4650362619704565728}.
 \hypertarget{results-and-discussion}{%
 \chapter{Results and Discussion}\label{results-and-discussion}}
 
+Additionally we also report Common Language Effect Size (CLES) for each statistical test result.
+The common language effect size is the proportion of pairs where \(x\) is higher than \(y\).
+In other words, it is the probability that a score sampled at random from one distribution will be greater than a score sampled from some other distribution.
+CLES was first introduced by McGraw and Wong (1992) {[}TODO{]}. The Python statistical library employed in data analysis -- Pingouin (\protect\hyperlink{ref-vallat2018pingouin}{Vallat, 2018}) -- uses a brute-force version of the formula given by Vargha and Delaney 2000 {[}TODO{]}:
+The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
+
 \hypertarget{latent-profiles}{%
 \section{Latent Profiles}\label{latent-profiles}}
 
+TODO: describe the high and low groups appropriately.
+
 TODO: Describe stats from \texttt{HI} and \texttt{LO} profiles, as in YSC Sec 5.1.
+
+TODO:
+
+\begin{itemize}
+\tightlist
+\item
+  For each section below on measures
+
+  \begin{itemize}
+  \tightlist
+  \item
+    how the measure was operationalized
+  \item
+    what is the value / trend
+  \item
+    1-2 lines
+  \end{itemize}
+\item
+  For Disucssion later
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Pool together the 1-2 lines
+  \end{itemize}
+\end{itemize}
+
+Proposal (\texttt{PHASE2A})
+
+Outline (\texttt{PHASE2B})
+
+Rough Draft (\texttt{PHASE2C})
+
+Final Paper (\texttt{PHASE2D})
 
 \hypertarget{query-formulation}{%
 \section{Query Formulation}\label{query-formulation}}
@@ -3470,43 +3512,33 @@ TODO: Describe stats from \texttt{HI} and \texttt{LO} profiles, as in YSC Sec 5.
 \hypertarget{length-of-queries}{%
 \subsection{Length of Queries}\label{length-of-queries}}
 
-LO group had highest total query length before final paper (ResN5894660104957913932)
+Query length was operationalized as the number of terms (words separated by spaces) in the search query that participants submitted to the search engines or other information retrieval sites.
+Query length can vary from a single word to several phrases or a full sentence.
+Longer search queries may indicate a more specific or complex information need, while shorter search queries may be more general or broad in scope.
 
-HI group had highest average query length during rough draft (ResP6726131652814458688)
+For all tasks, on average, the high group issued longer queries than the low group (Figure ResP4090733126835336320), except before the Outline (\texttt{PHASE2B}), and the Final Paper submission (\texttt{PHASE2D}).
+The low group, with lower levels of motivation, metacognition, and self-regulation, were issuring queries which were often two terms (words) shorter on average, than the corresponding queries from the high group.
 
-LO group was slacking and putting it off till last minute.
+The total query length for the low group increased monotonically over the semester during \texttt{PHASE2} (Figure ResP494716060171793945), with the longest queries being issued by this group before the Final Paper submission phase (\texttt{PHASE2D}).
+On the other hand, queries from the high group were the longest during the Outline phase (\texttt{PHASE2B}), and then it decreased in the subsequent phases.
+This indicates that the high group, with higher levels of motivation, metacognition, and self-regulation, were planning ahead in the early parts of the semester to find their references.
+On the other hand, the low group, with lower levels of those traits, demonstrated a tendency to procrastinate and delay their work until the final paper.
+A quote from participant \texttt{P006\_HANOI} illustrates this phenomenon:
 
-start
-long
-end
-overall
+\begin{quote}
+\emph{``so far for this rough draft I haven't actually had to google anything since I downloaded everything into pdfs during the outline stage and haven't needed any new material so far.''}
 
-total, avg, SD
-
-\(5 \pm 4\)
-
-\begin{itemize}
-\tightlist
-\item
-  change in mean and sig diff over time / task type
-
-  \begin{itemize}
-  \tightlist
-  \item
-    longitudinal phase
-  \item
-    all
-  \item
-    repeated task
-  \item
-    non-repeated task
-  \end{itemize}
-\end{itemize}
+\hfill --- P006\_HANOI
+\end{quote}
 
 \hypertarget{count-of-queries-per-search-task}{%
 \subsection{Count of queries per search task}\label{count-of-queries-per-search-task}}
 
-ResP7469411730579087048
+Count of queries per search task refers to the number of separate queries or search attempts that a participant issued in order to complete a task.
+The count of queries per search task may vary depending on the complexity of the information need, the user's level of expertise with the search system, and other factors.
+
+The average number of queries issued by the high group were the highest before the Outline (\texttt{PHASE2B}).
+ResP1663923804528545778
 
 Like avg query length, LO group issued highest number of queries when writing final paper, while HI roup did that during outline.
 Even, one participant commendted ``I had downloaded all the papers I needed during\ldots{}''
@@ -3525,8 +3557,35 @@ ResN4290201084087196149 word substitutions
 ResN9056495301645634830 repeat
 Repeat must be taken with a grain of salt as repeat behaviour was diffcult to tease out from hub and spoke behaviour, if the user pressed the back button of the browser
 
-\hypertarget{entropy-of-query-reformulation}{%
-\subsection{Entropy of query reformulation}\label{entropy-of-query-reformulation}}
+\hypertarget{number-of-clicks-per-query}{%
+\subsection{Number of clicks per query}\label{number-of-clicks-per-query}}
+
+ResP878771263343515297
+HI group was more efficient. Average number of clicks per query was lowe (less than 4) as they moved forward in the semester, with highest in the Outline phase.
+
+ResN2805268620307804410
+
+\((U = 1069.5, n_{HI}=56, n_{LO}=30, p=.0378)\)
+
+ResN5118140679486679749
+SD also says something
+
+\hypertarget{entropy-of-query-qeformulation}{%
+\subsection{Entropy of Query Qeformulation}\label{entropy-of-query-qeformulation}}
+
+\hypertarget{transition-entropy-of-query-qeformulation}{%
+\subsubsection{Transition Entropy of Query Qeformulation}\label{transition-entropy-of-query-qeformulation}}
+
+Transition entropy remained lower for HI group at beginning, middle and end
+
+For repeated task (finance) HI group stopped querying from the middle of the task.
+Hi group felt more certain (TODO: get quote from response?)
+While LO group continued till the end to query - they were more uncertain.
+
+TODO: add network figure?
+
+\hypertarget{stationary-entropy-of-query-qeformulation}{%
+\subsubsection{Stationary Entropy of Query Qeformulation}\label{stationary-entropy-of-query-qeformulation}}
 
 ResN2968292861275564559 - whole
 stationary entropy
@@ -3541,32 +3600,86 @@ ResN634943316862196398 - beginning
 ResN6777243644016606483 - middle
 ResN6573661794052961083 - end
 
-Transition entropy remained lower for HI group at beginning, middle and end
+\hypertarget{webpages-visits}{%
+\section{Webpages Visits}\label{webpages-visits}}
 
-For repeated task (finance) HI group stopped querying from the middle of the task.
-Hi group felt more certain (TODO: get quote from response?)
-While LO group continued till the end to query - they were more uncertain.
+As the final project task involved searching for 20 references, we structure the discussion around visits to ``normal'' webpages, and visits to ``academic'' webpages containing publications.
 
-TODO: add network figure?
+\hypertarget{all}{%
+\subsection{All}\label{all}}
 
-\hypertarget{search-behaviour}{%
-\section{Search Behaviour}\label{search-behaviour}}
+HI group visited more number of pages in total and on average
 
-\hypertarget{number-of-clicks-per-query}{%
-\subsection{Number of clicks per query}\label{number-of-clicks-per-query}}
+Count
 
-ResP878771263343515297
-HI group was more efficient. Average number of clicks per query was lowe (less than 4) as they moved forward in the semester, with highest in the Outline phase.
+Dwell time
 
-ResN2805268620307804410
+\hypertarget{l-lists-search-results}{%
+\subsection{L: Lists / Search Results}\label{l-lists-search-results}}
 
-\((U = 1069.5, n_{HI}=56, n_{LO}=30, p=.0378)\)
+\hypertarget{lweb}{%
+\subsubsection{LWEB}\label{lweb}}
 
-ResN5118140679486679749
-SD also says something
+Count
+
+Dwell Time
+
+Web Search Results
+
+ResN7422811346952663922
+
+\hypertarget{lpub}{%
+\subsubsection{LPUB}\label{lpub}}
+
+Count
+
+Dwell Time
+
+Publication / Academic search results
+
+\hypertarget{i-information-objects-content-pages}{%
+\subsection{I: Information Objects / Content Pages}\label{i-information-objects-content-pages}}
+
+\hypertarget{iweb---normal-web-pages}{%
+\subsubsection{IWEB - Normal web pages}\label{iweb---normal-web-pages}}
+
+Count
+
+Dwell Time
+
+\hypertarget{ipub---publications}{%
+\subsubsection{IPUB - Publications}\label{ipub---publications}}
+
+Count
+
+Dwell Time
 
 \hypertarget{entropy-of-search-tactics}{%
-\section{Entropy of Search tactics}\label{entropy-of-search-tactics}}
+\section{Entropy of Search Tactics}\label{entropy-of-search-tactics}}
+
+\hypertarget{transition-entropy-of-search-tactics}{%
+\subsection{Transition Entropy of Search Tactics}\label{transition-entropy-of-search-tactics}}
+
+ResN7289045485214067875
+Both groups had highest Ht during 2C (and also 3 Finance?)
+
+ResP5638176378435107439 - beginning
+ResN3435548740759333098 - middle
+ResP6845508037293675246 - end
+
+No sig diff for whole task, and at the beginning of task
+Sig diff appeared at the middle and increased at the end of task (similar to as observed by Gwizdka).
+
+\hypertarget{stationary-entropy-of-search-tactics}{%
+\subsection{Stationary Entropy of Search Tactics}\label{stationary-entropy-of-search-tactics}}
+
+ResP8685879301269737254
+LO group had hghest Hs in 2C
+No sig diff in overall task
+
+No diff at beginning.
+Diff is most prominent at middle (ResN1140102300744288543)
+and also somewhat at end (ResN663758335140886910)
 
 R!esN7928923989685423424 is a VERY good result!
 Model ID = 10
@@ -5767,6 +5880,9 @@ Vakkari, P. (2001b). A theory of the task-based information retrieval process: A
 
 \leavevmode\vadjust pre{\hypertarget{ref-vakkari2016searching}{}}%
 Vakkari, P. (2016). Searching as learning: A systematization based on literature. \emph{Journal of Information Science}, \emph{42}(1), 7--18. \url{https://doi.org/10.1177/0165551515615833}
+
+\leavevmode\vadjust pre{\hypertarget{ref-vallat2018pingouin}{}}%
+Vallat, R. (2018). Pingouin: Statistics in python. \emph{J. Open Source Softw.}, \emph{3}(31), 1026.
 
 \leavevmode\vadjust pre{\hypertarget{ref-viu2021mai}{}}%
 Vancouver Island University. (2021). \emph{Metacognitive awareness inventory (MAI)}. \url{https://alearningjourneyweb.files.wordpress.com/2017/03/self-directed-vs-self-regulated-chart.pdf}
