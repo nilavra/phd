@@ -257,6 +257,8 @@ nbShowFig("figs/ResN2805268620307804410")
 <!---- fig:ResN2805268620307804410 (leave a blank line before this) ------>
 ResN2805268620307804410
 
+$(U = 1069.5, n_{HI}=56, n_{LO}=30, p=.0378)$
+
 
 <!----------- fig:ResN5118140679486679749 ----------->
 ```{r ResN5118140679486679749, fig.scap='(ref:scap-ResN5118140679486679749)', fig.cap = '(ref:cap-ResN5118140679486679749)',  echo=FALSE, out.width='100%', fig.align='center'}
