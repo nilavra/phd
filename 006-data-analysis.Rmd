@@ -52,9 +52,9 @@ URL patterns were first extracted from the web browsing data collected in our st
 
 To identify search engine result pages, we looked for URLs that contained terms such as "search," "query," or "result," along with specific strings associated with popular search engines such as Google or Bing. We also identified content pages by looking for URLs that contained specific strings such as "article," "blog," "news," or "opinion." Scientific peer-reviewed publications were identified based on URLs that contained specific strings associated with academic publishers or databases, while Wikipedia articles were identified by their URLs containing the string "wiki."
 
-Library websites were identified by URLs that contained terms such as "library," "catalog," or "database," as well as specific strings associated with major library systems. Finally, we used a catch-all category to identify other types of webpages that did not fit into any of the other categories.
+Library websites were identified by URLs that contained terms such as "library," "catalogue," or "database," as well as specific strings associated with major library systems. Finally, we used a catch-all category to identify other types of webpages that did not fit into any of the other categories.
 
-Overall, our URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behavior varies across different types of webpages. By analyzing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behavior. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
+Overall, our URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behavior. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
 
 
 ## Latent Profile Analysis
@@ -82,11 +82,11 @@ However, it is important to note that these constructs are not single binary var
 To cluster participants into meaningful groups based on these multiple constructs, we turned to the educational psychology literature.
 **Latent Profile Analysis (LPA)** is an increasingly popular statistical approach falling under the umbrella of person-centred techniques used in organizational psychology and child development research. It provides a framework for characterizing population heterogeneity in terms of differences across individuals on a set of behaviours or characteristics, as opposed to describing the variability of a single variable. By identifying latent subgroups within a population, LPA enables researchers to gain a more nuanced understanding of the complexity of human behaviour.
 
-The person-centred approach underlying LPA is a departure from traditional variable-centered approaches such as multiple regression analysis. Instead of quantifying the role of particular variables in a study, LPA organizes a population into a finite number of mutually exclusive and exhaustive profiles, each comprising individuals who are similar to one another. In this way, LPA identifies distinct profiles of individuals who exhibit similar patterns of behaviour across multiple variables.
+The person-centred approach underlying LPA is a departure from traditional variable-centred approaches such as multiple regression analysis. Instead of quantifying the role of particular variables in a study, LPA organizes a population into a finite number of mutually exclusive and exhaustive profiles, each comprising individuals who are similar to one another. In this way, LPA identifies distinct profiles of individuals who exhibit similar patterns of behaviour across multiple variables.
 
 The identification and description of these latent profiles is a crucial step in LPA. Each profile represents a subgroup of individuals who share similar patterns of responses on a set of variables, which can provide insights into the underlying mechanisms driving their behaviour. Furthermore, the identification of the optimal number of profiles to represent a population is a critical issue in LPA. This involves balancing the complexity of the model with its ability to capture meaningful variability in the data, and requires careful consideration of both statistical and substantive criteria.
 
-LPA has several advantages over traditional variable-centered approaches. It allows for a more nuanced understanding of the complexity of human behaviour, particularly in cases where individuals exhibit multiple and diverse patterns of behaviour across different sets of variables. 
+LPA has several advantages over traditional variable-centred approaches. It allows for a more nuanced understanding of the complexity of human behaviour, particularly in cases where individuals exhibit multiple and diverse patterns of behaviour across different sets of variables. 
 
 In the context of information search behaviour, LPA can help to identify distinct groups of individuals who engage in different search strategies or have different search motivations. This can be useful for understanding how people search for information online, what factors influence their search behaviour, and how search behaviour relates to other variables such as task performance, satisfaction, and learning outcomes.
 
@@ -145,7 +145,6 @@ Session: `task_id`, 30 minutes of inactivity
 Session duration is considered 30 minutes (!) (or maybe 1 hour?)
 as per Google Analytics^[https://www.hotjar.com/google-analytics/glossary/session-duration] and (TODO: find reference)
 
-Possibility to create a step by step diagram? (powerpoint)
 
 ## Active Tab Identification for Log Parsing
 

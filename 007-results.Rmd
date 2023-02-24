@@ -12,7 +12,7 @@ In other words, it is the probability that a score sampled at random from one di
 CLES was first introduced by McGraw and Wong (1992) [TODO]. The Python statistical library employed in data analysis -- Pingouin [@vallat2018pingouin] -- uses a brute-force version of the formula given by Vargha and Delaney 2000 [TODO]:
 The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
 
-In the interest of better presentation and readability of this chapter, some of the ancillary plots are presented in Appendices \@ref(app-plots-query) and \@ref(app-plots-search).
+In the interest of better presentation and readability of this chapter, more ancillary plots are presented in Appendices \@ref(app-plots-query) and \@ref(app-plots-search).
 
 
 
@@ -152,7 +152,7 @@ The count of queries per search task may vary depending on the complexity of the
 
 The average number of queries issued by the high group increased from Proposal to Outline to Rough Draft, and then decreased before the Final Paper task (Figure ResP4526976288600811998).
 In contrast, the low group issued higher number of queries during the early part of the semester -- Proposal and Outline -- but then they issued lower number of queries during the later parts of the semester, w.r.t. the high group. 
-The difference in the total number of queries issued by the two groups approched statistical significance according to a two-tailed Mann-Whitney U test, but the effect size was very weak $(U = 14.0, n_{low}=8, n_{high}=8, p=.06, CLES=0.22)$.
+The difference in the total number of queries issued by the two groups approached statistical significance according to a two-tailed Mann-Whitney U test, but the effect size was very weak $(U = 14.0, n_{low}=8, n_{high}=8, p=.06, CLES=0.22)$.
 
 <!-- were the highest before the Rough Draft (`PHASE2C`) . -->
 
@@ -237,7 +237,7 @@ SD also says something
 
 ### Entropy of Query Reformulation {#sec-res-query-H}
 
-Inspired by previous works in analysing eye-movement sequences [@krejtz2014entropy, @krejtz2015gaze] and search tactics sequences [@he2016beyond], we employed a similar entropy analysis of query reformulation sequences issued by users.
+Inspired by previous works in analysing eye-movement sequences [@krejtz2014entropy; @krejtz2015gaze] and search tactics sequences [@he2016beyond], we employed a similar entropy analysis of query reformulation sequences issued by users.
 
 Transition analysis and entropy helps to cover differences in disparate tasks and activities (get text from Qvardford paper)
 

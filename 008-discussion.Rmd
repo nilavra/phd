@@ -39,7 +39,7 @@ The second set (H2) compares two different user groups, experts and novices, usi
 
 
 
-
+## RWx: Entropy based research questions from He 2016
 
 ## RQ2: similarities and differences in repeated vs new tasks
 

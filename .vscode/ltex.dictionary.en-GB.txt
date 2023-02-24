@@ -11,3 +11,6 @@ Yihui
 Xie
 sensemaking
 IIR
+CLES
+Pingouin
+@ref
