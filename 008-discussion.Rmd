@@ -52,5 +52,6 @@ Phase 1 and Phase 3 only
 - Differences -> measures having sig diff
   - Overall task, Beginning, middle, end
 
+SES3 SHEG - only one participant issued a query; others did not
 
 ## RQ3: correlation with learning?

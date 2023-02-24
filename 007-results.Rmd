@@ -620,3 +620,37 @@ Unique domains
 📃 Viz: Distributions of all tactics - tables / bars / etc.
 
 -->
+
+
+<!-- 
+The results of your longitudinal study on information searching behaviors of undergraduate university students vis-a-vis their learning outcomes while writing a research paper can be presented in the following manner:
+
+1. Overview of Participants: Begin by describing the participants in your study. Provide details about their demographic characteristics, academic majors, and other relevant background information.
+
+2. Latent Profile Analysis: Describe the methodology used for the latent profile analysis and the resulting groups. Provide details on the composition of the high and low groups based on self-reported values on motivation, metacognition, and self-regulation.
+
+3. Information Searching Behaviors: Present the results of the longitudinal tracking phase of the study, focusing on the information searching behaviors of the high and low groups. Compare and contrast the strategies used by the two groups, including the number and types of information sources consulted, the time spent on information seeking activities, and the perceived effectiveness of their information searching behaviors.
+
+4. Learning Outcomes: Discuss the learning outcomes of the high and low groups, as measured by their research paper grades and their self-reported satisfaction with their research process. Analyze the relationship between information searching behaviors and learning outcomes, and identify any significant differences between the two groups.
+
+5. Correlation Analysis: Conduct a correlation analysis between the participants' demographic characteristics and their information searching behaviors and learning outcomes. Analyze the findings and identify any significant correlations.
+
+6. Final Phase: Present the results of the final phase of the study, which was conducted at the end of the semester. Discuss any changes in the information searching behaviors of the participants, and whether these changes were related to their learning outcomes.
+
+7. Conclusion: Summarize the main findings of the study, highlighting the most important results and their implications. Discuss any limitations of the study and suggest directions for future research. 
+-->
+
+
+<!--
+
+For my PhD dissertation I conducted a longitudinal study of information searching beaviours of undergraduate university students vis a vis their learning outcomes while writing a research paper.
+The study had 3 phases of data collection: an initial phase at the beginning of the semester, a longitudinal tracking phase during the 16 weeks of the semester, and a final phase at the end of the semester.
+Participants were grouped into high and low groups using Latent Profile Analysis based on self-reported values on motivation, metacognition, and self-regulation.
+Listed below are one line results for all the computed measures of my study.
+Analyse them and help me write the results chapter of my dissertation.
+
+Query reformulation measures:
+
+Search Bheaviour Measures:
+
+-->
