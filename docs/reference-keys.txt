@@ -16,6 +16,7 @@ fig:study-proc
 fig:search-task-repeated
 fig:search-task-new
 fig:final-project-description
+fig:data-analysis-framework
 fig:ResP4650362619704565728
 fig:ResN5894660104957913932
 fig:ResP6726131652814458688
@@ -100,11 +101,12 @@ phase3-sheg-website-comparison-assessment
 sec-method-qsnr3
 measures-to-address-ethical-concerns
 data-analysis
+url-categorization
+latent-profile-analysis
+search-behaviour-data-analysis-framework
 data-cleaning-and-processing
 active-tab-identification-for-log-parsing
-url-categorization
 user-characteristics-latent-profiles
-search-behaviour-data-analysis-framework
 level-1-moves---query-reformulation
 level-1-moves---dwell-time-dt---combined-with-url-types
 level-1-moves---interactions
@@ -120,7 +122,7 @@ transition-analysis-of-search-tactics-strategies
 correlation-analysis
 results
 learning-outcomes
-latent-profiles-and-transitions
+latent-profile-analysis-1
 query-formulation
 length-of-queries
 count-of-queries-per-search-task
@@ -150,6 +152,8 @@ research-summary
 summary-of-results
 methodology
 contributions
+latent-profile-analysis-2
+entropy
 limitations
 theoretical-limitations
 technical-limitation

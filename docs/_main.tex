@@ -2782,26 +2782,50 @@ After data collection for all the phases was complete, data analysis was perform
 \hypertarget{data-analysis}{%
 \chapter{Data Analysis}\label{data-analysis}}
 
-Note about pronouns:
-all participants are referred to using gender-neutral they/them pronouns.
+\begin{figure}
 
-Merge \texttt{SES2a} and \texttt{SES2b} into \texttt{SES2ab}
+{\centering \includegraphics[width=1\linewidth]{figs/data-analysis-framework} 
 
-\hypertarget{data-cleaning-and-processing}{%
-\section{Data Cleaning and Processing}\label{data-cleaning-and-processing}}
+}
 
-see crescenzi thesis
+\caption[Data analysis framework.]{Data analysis framework followed in this dissertation.}\label{fig:data-analysis-framework}
+\end{figure}
 
-Session: \texttt{task\_id}, 30 minutes of inactivity
-(Google Analytics: a session lasts until there's 30 minutes of inactivity)
 
-Session duration is considered 30 minutes (!) (or maybe 1 hour?)
-as per Google Analytics\footnote{\url{https://www.hotjar.com/google-analytics/glossary/session-duration}} and (TODO: find reference)
 
-Possibility to create a step by step diagram? (powerpoint)
 
-\hypertarget{active-tab-identification-for-log-parsing}{%
-\section{Active Tab Identification for Log Parsing}\label{active-tab-identification-for-log-parsing}}
+
+Questionnaire Data
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Cleaning and Preprocessing
+\item
+  identifying user groups - latent profile analysis
+\end{enumerate}
+
+Log Data
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Log Data cleaning and pre-processing
+\item
+  URL categorization
+\item
+  Active Tab Identification
+\item
+  Higher levelSearch Behaviour Data Analysis framework - moves, tactics, strategies
+\item
+  Combining Latent Profiles with Search Behaviour Data
+\end{enumerate}
+
+Trends Over Time
+Difference Between Groups / Profiles
+Entropy analysis of sequences
 
 \hypertarget{url-categorization}{%
 \section{URL Categorization}\label{url-categorization}}
@@ -2839,6 +2863,101 @@ Possibility to create a step by step diagram? (powerpoint)
 \item
   book chapter is \texttt{PUB}
 \end{itemize}
+
+In order to understand the relationship between users' information search behavior and the type of webpages they visit, we needed to categorize webpages into different types. To accomplish this, we developed a classification system based on URL patterns.
+
+URL patterns were first extracted from the web browsing data collected in our study. These URL patterns contain information about the structure and content of each webpage visited by the users. Based on this information, we were able to classify each webpage into one of several different types, including search engine result pages, content pages, scientific peer-reviewed publications, Wikipedia articles, library websites, or other types of webpages.
+
+To identify search engine result pages, we looked for URLs that contained terms such as ``search,'' ``query,'' or ``result,'' along with specific strings associated with popular search engines such as Google or Bing. We also identified content pages by looking for URLs that contained specific strings such as ``article,'' ``blog,'' ``news,'' or ``opinion.'' Scientific peer-reviewed publications were identified based on URLs that contained specific strings associated with academic publishers or databases, while Wikipedia articles were identified by their URLs containing the string ``wiki.''
+
+Library websites were identified by URLs that contained terms such as ``library,'' ``catalog,'' or ``database,'' as well as specific strings associated with major library systems. Finally, we used a catch-all category to identify other types of webpages that did not fit into any of the other categories.
+
+Overall, our URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behavior varies across different types of webpages. By analyzing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behavior. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
+
+\hypertarget{latent-profile-analysis}{%
+\section{Latent Profile Analysis}\label{latent-profile-analysis}}
+
+According to Ambrose et al. (\protect\hyperlink{ref-ambrose2010howa}{2010}), students' motivation, metacognition, and self-regulation are critical factors that determine, direct, and sustain what they do to learn.
+Given our interest in understanding how these traits impact students' searching as learning behaviour, we collected self-perceived reports of all three constructs, via the IMI, MAI, and SRQ questionnaires (Section \ref{sec-method-qsnr1}).
+However, it is important to note that these constructs are not single binary variables that can be used to easily group individuals. Rather, they are complex and multidimensional data that serve as observable indicators of a person's underlying latent characteristics.
+
+To cluster participants into meaningful groups based on these multiple constructs, we turned to the educational psychology literature.
+\textbf{Latent Profile Analysis (LPA)} is an increasingly popular statistical approach falling under the umbrella of person-centred techniques used in organizational psychology and child development research. It provides a framework for characterizing population heterogeneity in terms of differences across individuals on a set of behaviours or characteristics, as opposed to describing the variability of a single variable. By identifying latent subgroups within a population, LPA enables researchers to gain a more nuanced understanding of the complexity of human behaviour.
+
+The person-centred approach underlying LPA is a departure from traditional variable-centered approaches such as multiple regression analysis. Instead of quantifying the role of particular variables in a study, LPA organizes a population into a finite number of mutually exclusive and exhaustive profiles, each comprising individuals who are similar to one another. In this way, LPA identifies distinct profiles of individuals who exhibit similar patterns of behaviour across multiple variables.
+
+The identification and description of these latent profiles is a crucial step in LPA. Each profile represents a subgroup of individuals who share similar patterns of responses on a set of variables, which can provide insights into the underlying mechanisms driving their behaviour. Furthermore, the identification of the optimal number of profiles to represent a population is a critical issue in LPA. This involves balancing the complexity of the model with its ability to capture meaningful variability in the data, and requires careful consideration of both statistical and substantive criteria.
+
+LPA has several advantages over traditional variable-centered approaches. It allows for a more nuanced understanding of the complexity of human behaviour, particularly in cases where individuals exhibit multiple and diverse patterns of behaviour across different sets of variables.
+
+In the context of information search behaviour, LPA can help to identify distinct groups of individuals who engage in different search strategies or have different search motivations. This can be useful for understanding how people search for information online, what factors influence their search behaviour, and how search behaviour relates to other variables such as task performance, satisfaction, and learning outcomes.
+
+\hypertarget{search-behaviour-data-analysis-framework}{%
+\section{Search Behaviour Data Analysis Framework}\label{search-behaviour-data-analysis-framework}}
+
+After log data was cleaned
+From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1 (adapted from Bates, 1989):
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Level 1: Move}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Atomic search event -- for example, a query or click
+    (\emph{An identifiable thought or action that is part of information searching.})
+  \end{itemize}
+\item
+  \textbf{Level 2: Tactic}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Goal or task, including query or click chain
+    (\emph{One or several moves made to further a search})
+  \end{itemize}
+\item
+  \textbf{Level 3: Statagem}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Mission or session
+    (\emph{A larger, more complex set of thoughts and/or actions than the tactic; a stratagem consists of multiple tactics and/or moves, all of which are designed to exploit a particular search domain that is thought to contain the desired information})
+  \end{itemize}
+\item
+  \textbf{Level 4: Strategy}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Session or cross-session search task
+    (\emph{A plan, which may contain moves, tactics, and/or stratagems, for an entire information search.})
+  \end{itemize}
+\end{itemize}
+
+Note about pronouns:
+all participants are referred to using gender-neutral they/them pronouns.
+
+Merge \texttt{SES2a} and \texttt{SES2b} into \texttt{SES2ab}
+
+\hypertarget{data-cleaning-and-processing}{%
+\section{Data Cleaning and Processing}\label{data-cleaning-and-processing}}
+
+see crescenzi thesis
+
+Session: \texttt{task\_id}, 30 minutes of inactivity
+(Google Analytics: a session lasts until there's 30 minutes of inactivity)
+
+Session duration is considered 30 minutes (!) (or maybe 1 hour?)
+as per Google Analytics\footnote{\url{https://www.hotjar.com/google-analytics/glossary/session-duration}} and (TODO: find reference)
+
+Possibility to create a step by step diagram? (powerpoint)
+
+\hypertarget{active-tab-identification-for-log-parsing}{%
+\section{Active Tab Identification for Log Parsing}\label{active-tab-identification-for-log-parsing}}
 
 \hypertarget{user-characteristics-latent-profiles}{%
 \section{User characteristics: Latent Profiles}\label{user-characteristics-latent-profiles}}
@@ -2881,51 +3000,6 @@ Memory span values normalized by 10, because ``\emph{The maximum memory span mea
   no no; a simple examination of what feature values changed between timepoints will be enough
 \item
   use 2 groups! 2 groups is always better. easier to explain; easier to write.
-\end{itemize}
-
-\hypertarget{search-behaviour-data-analysis-framework}{%
-\section{Search Behaviour Data Analysis Framework}\label{search-behaviour-data-analysis-framework}}
-
-From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1 (adapted from Bates, 1989):
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Level 1: Move}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Atomic search event -- for example, a query or click
-    (\emph{An identifiable thought or action that is part of information searching.})
-  \end{itemize}
-\item
-  \textbf{Level 2: Tactic}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Goal or task, including query or click chain
-    (\emph{One or several moves made to further a search})
-  \end{itemize}
-\item
-  \textbf{Level 3: Statagem}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Mission or session
-    (\emph{A larger, more complex set of thoughts and/or actions than the tactic; a stratagem consists of multiple tactics and/or moves, all of which are designed to exploit a particular search domain that is thought to contain the desired information})
-  \end{itemize}
-\item
-  \textbf{Level 4: Strategy}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Session or cross-session search task
-    (\emph{A plan, which may contain moves, tactics, and/or stratagems, for an entire information search.})
-  \end{itemize}
 \end{itemize}
 
 \hypertarget{level-1-moves---query-reformulation}{%
@@ -3486,8 +3560,8 @@ Correlation of SPL with Grades
   CONCLUSION: obtained grades are not good indicators of learning
 \end{itemize}
 
-\hypertarget{latent-profiles-and-transitions}{%
-\section{Latent Profiles (and Transitions)}\label{latent-profiles-and-transitions}}
+\hypertarget{latent-profile-analysis-1}{%
+\section{Latent Profile Analysis}\label{latent-profile-analysis-1}}
 
 TODO: describe the high and low groups appropriately.
 
@@ -3888,6 +3962,32 @@ CONCLUSION: obtained grades are not good indicators of learning
 
 \hypertarget{contributions}{%
 \section{Contributions}\label{contributions}}
+
+\begin{itemize}
+\tightlist
+\item
+  Latent Profile Analysis and Latent Profile Transition Analysis
+\item
+  Entropy
+\item
+  Longitudinal Study Design
+\item
+  Combining Motivation Metacognition Self regulation
+\end{itemize}
+
+\hypertarget{latent-profile-analysis-2}{%
+\subsection{Latent Profile Analysis}\label{latent-profile-analysis-2}}
+
+Additionally, LPA can identify subgroups of individuals who may be at risk for negative outcomes, such as poor task performance, low job satisfaction, or developmental delays. This information can be used to design targeted interventions that are tailored to the specific needs of these subgroups.
+
+In summary, LPA is a powerful and flexible person-centered statistical approach that is increasingly used in organizational psychology and child development research. Its ability to identify and describe latent subgroups within a population provides a more nuanced understanding of human behavior, and its applications have the potential to inform the design of targeted interventions that can improve outcomes for individuals and organizations.
+
+In the context of information search behavior, LPA can be used to investigate how search behavior varies across different contexts or populations. For example, researchers may use LPA to identify different search patterns among novice versus expert users, or among different age or cultural groups. This can help to inform the design of search interfaces and other information systems that are tailored to the needs of specific user groups.
+
+Overall, LPA is an interesting and valuable technique for understanding information search behavior because it allows researchers to move beyond simple group comparisons and identify meaningful subgroups within a population. By uncovering these subgroups, researchers can gain deeper insights into the complex and nuanced ways that people search for information online, and use this knowledge to improve the design and effectiveness of information systems.
+
+\hypertarget{entropy}{%
+\subsection{Entropy}\label{entropy}}
 
 Transition analysis and entropy are powerful tools in the field of information retrieval that can help to uncover patterns in user search behaviour across disparate tasks and activities. By analysing transitions between different states, such as between queries, documents, or web pages, transition analysis can reveal important insights into how users navigate information spaces and interact with search systems. For example, it can be used to identify common search patterns or to identify areas where users may be experiencing difficulty or confusion.
 

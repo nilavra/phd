@@ -1,5 +1,16 @@
 # Data Analysis
 
+<!----------- fig:data-analysis-framework ----------->
+```{r data-analysis-framework, fig.scap='(ref:scap-data-analysis-framework)', fig.cap = '(ref:cap-data-analysis-framework)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/data-analysis-framework")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-data-analysis-framework) Data analysis framework followed in this dissertation.
+
+(ref:scap-data-analysis-framework) Data analysis framework.
+
+<!---- fig:data-analysis-framework (leave a blank line before this) ------>
+
 Questionnaire Data
 
 1. Cleaning and Preprocessing
