@@ -16,6 +16,25 @@ CONCLUSION: obtained grades are not good indicators of learning
 
 ## Contributions
 
+- Latent Profile Analysis and Latent Profile Transition Analysis
+- Entropy 
+- Longitudinal Study Design
+- Combining Motivation Metacognition Self regulation
+
+
+### Latent Profile Analysis
+
+Additionally, LPA can identify subgroups of individuals who may be at risk for negative outcomes, such as poor task performance, low job satisfaction, or developmental delays. This information can be used to design targeted interventions that are tailored to the specific needs of these subgroups.
+
+In summary, LPA is a powerful and flexible person-centered statistical approach that is increasingly used in organizational psychology and child development research. Its ability to identify and describe latent subgroups within a population provides a more nuanced understanding of human behavior, and its applications have the potential to inform the design of targeted interventions that can improve outcomes for individuals and organizations.
+
+
+In the context of information search behavior, LPA can be used to investigate how search behavior varies across different contexts or populations. For example, researchers may use LPA to identify different search patterns among novice versus expert users, or among different age or cultural groups. This can help to inform the design of search interfaces and other information systems that are tailored to the needs of specific user groups.
+
+Overall, LPA is an interesting and valuable technique for understanding information search behavior because it allows researchers to move beyond simple group comparisons and identify meaningful subgroups within a population. By uncovering these subgroups, researchers can gain deeper insights into the complex and nuanced ways that people search for information online, and use this knowledge to improve the design and effectiveness of information systems.
+
+
+### Entropy
 <!-- TODO: check the following text: -->
 Transition analysis and entropy are powerful tools in the field of information retrieval that can help to uncover patterns in user search behaviour across disparate tasks and activities. By analysing transitions between different states, such as between queries, documents, or web pages, transition analysis can reveal important insights into how users navigate information spaces and interact with search systems. For example, it can be used to identify common search patterns or to identify areas where users may be experiencing difficulty or confusion.
 

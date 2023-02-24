@@ -27,7 +27,19 @@ Correlation of SPL with Grades
 
 
 
-## Latent Profiles (and Transitions)
+## Latent Profile Analysis
+
+
+
+
+
+<!-- Latent Profile Analysis (LPA) is a statistical technique used to identify unobserved or latent subgroups within a population based on their responses to a set of observed variables.  -->
+
+<!-- LPA is a powerful and flexible tool that can be used to gain insights into complex and multidimensional data, such as information search behavior. -->
+
+
+
+
 
 
 TODO: describe the high and low groups appropriately.

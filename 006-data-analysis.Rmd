@@ -1,6 +1,83 @@
 # Data Analysis
 
+Questionnaire Data
 
+1. Cleaning and Preprocessing
+2. identifying user groups - latent profile analysis
+
+Log Data
+
+1. Log Data cleaning and pre-processing
+2. URL categorization
+3. Active Tab Identification
+4. Higher levelSearch Behaviour Data Analysis framework - moves, tactics, strategies
+5. Combining Latent Profiles with Search Behaviour Data
+
+Trends Over Time
+Difference Between Groups / Profiles
+Entropy analysis of sequences
+
+
+
+## URL Categorization
+
+<!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
+
+- peer-reviewed publications are `PUB`s
+- others are `ARTICLE`s (e.g. Wikipedia)
+- if no other info, then `WEB`
+- fuzzy between `WEB` and `ARTICLE` (when classified manually)
+- `ARTICLE` if there is a clear author
+  - except `WIKIPEDIA`, due to common parlance
+  - encyclopedias
+- journal homepages are `WEB`
+- list of chapters in a book are `L.PUB`.
+  - e.g. in detail view of
+- book chapter is `PUB`
+
+In order to understand the relationship between users' information search behavior and the type of webpages they visit, we needed to categorize webpages into different types. To accomplish this, we developed a classification system based on URL patterns.
+
+URL patterns were first extracted from the web browsing data collected in our study. These URL patterns contain information about the structure and content of each webpage visited by the users. Based on this information, we were able to classify each webpage into one of several different types, including search engine result pages, content pages, scientific peer-reviewed publications, Wikipedia articles, library websites, or other types of webpages.
+
+To identify search engine result pages, we looked for URLs that contained terms such as "search," "query," or "result," along with specific strings associated with popular search engines such as Google or Bing. We also identified content pages by looking for URLs that contained specific strings such as "article," "blog," "news," or "opinion." Scientific peer-reviewed publications were identified based on URLs that contained specific strings associated with academic publishers or databases, while Wikipedia articles were identified by their URLs containing the string "wiki."
+
+Library websites were identified by URLs that contained terms such as "library," "catalog," or "database," as well as specific strings associated with major library systems. Finally, we used a catch-all category to identify other types of webpages that did not fit into any of the other categories.
+
+Overall, our URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behavior varies across different types of webpages. By analyzing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behavior. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
+
+
+## Latent Profile Analysis
+
+
+<!-- @ambrose2010howa said that students' motivation, metacognition, and self-regulation determines, directs, and sustains what they do to learn.
+We were interested to study the effect of these traits on students' search behaviour.
+So we collected self-perceived reports of all 3 of them.
+However, these constructs are not single binary variables that provide nice groupings automatically.
+Instead they are multidimensional data, and are only observable indicators at best of the real hidden (latent) characteristic of an individual. 
+In order to employ these multiple constructs to cluster participants into groups, we turned to psychology literature and latent class and latent profile methods. -->
+
+
+
+According to @ambrose2010howa, students' motivation, metacognition, and self-regulation are critical factors that determine, direct, and sustain what they do to learn.
+<!-- their learning behaviors.  -->
+Given our interest in understanding how these traits impact students' searching as learning behaviour, we collected self-perceived reports of all three constructs, via the IMI, MAI, and SRQ questionnaires (Section \@ref(sec-method-qsnr1)). 
+However, it is important to note that these constructs are not single binary variables that can be used to easily group individuals. Rather, they are complex and multidimensional data that serve as observable indicators of a person's underlying latent characteristics.
+
+
+<!-- and utilized latent class and latent profile methods. These statistical techniques allow us to identify and describe subgroups within a population based on shared patterns of responses across multiple variables. By using these methods to analyze the self-perceived reports of motivation, metacognition, and self-regulation, we hope to gain a deeper understanding of how these traits relate to students' search behavior. Ultimately, this information could inform the design of interventions that are tailored to specific subgroups of students with distinct profiles of motivation, metacognition, and self-regulation. -->
+
+<!-- Latent Profile Analysis (LPA) is one of the many approaches clustered together under the umbrella term person-centred statistical approaches, that is being increasingly used in Organizational Psychology, and child development research. LPA provides a framework for describing population heterogeneity in terms of differences across individuals on a set of behaviors or characteristics, as opposed to describing the variability of a single variable. This distinction has been described as a person-centered approach, in contrast to more traditional variable-centered approaches such as multiple regression analysis. The underlying principle of person-centered approaches is that, rather than quantifying the role of particular variables in a study, a population is organized in terms of a finite number of mutually exclusive and exhaustive subgroups, each comprising similar individuals. In other words, each Latent Profile (LP) represents a subgroup of individuals characterized by a pattern of responses on a set of variables; LPA is used to identify and describe the optimal number of LPs to represent a population. -->
+
+To cluster participants into meaningful groups based on these multiple constructs, we turned to the educational psychology literature.
+**Latent Profile Analysis (LPA)** is an increasingly popular statistical approach falling under the umbrella of person-centred techniques used in organizational psychology and child development research. It provides a framework for characterizing population heterogeneity in terms of differences across individuals on a set of behaviours or characteristics, as opposed to describing the variability of a single variable. By identifying latent subgroups within a population, LPA enables researchers to gain a more nuanced understanding of the complexity of human behaviour.
+
+The person-centred approach underlying LPA is a departure from traditional variable-centered approaches such as multiple regression analysis. Instead of quantifying the role of particular variables in a study, LPA organizes a population into a finite number of mutually exclusive and exhaustive profiles, each comprising individuals who are similar to one another. In this way, LPA identifies distinct profiles of individuals who exhibit similar patterns of behaviour across multiple variables.
+
+The identification and description of these latent profiles is a crucial step in LPA. Each profile represents a subgroup of individuals who share similar patterns of responses on a set of variables, which can provide insights into the underlying mechanisms driving their behaviour. Furthermore, the identification of the optimal number of profiles to represent a population is a critical issue in LPA. This involves balancing the complexity of the model with its ability to capture meaningful variability in the data, and requires careful consideration of both statistical and substantive criteria.
+
+LPA has several advantages over traditional variable-centered approaches. It allows for a more nuanced understanding of the complexity of human behaviour, particularly in cases where individuals exhibit multiple and diverse patterns of behaviour across different sets of variables. 
+
+In the context of information search behaviour, LPA can help to identify distinct groups of individuals who engage in different search strategies or have different search motivations. This can be useful for understanding how people search for information online, what factors influence their search behaviour, and how search behaviour relates to other variables such as task performance, satisfaction, and learning outcomes.
 
 
 
@@ -61,23 +138,6 @@ Possibility to create a step by step diagram? (powerpoint)
 
 ## Active Tab Identification for Log Parsing
 
-
-
-## URL Categorization
-
-<!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
-
-- peer-reviewed publications are `PUB`s
-- others are `ARTICLE`s (e.g. Wikipedia)
-- if no other info, then `WEB`
-- fuzzy between `WEB` and `ARTICLE` (when classified manually)
-- `ARTICLE` if there is a clear author
-  - except `WIKIPEDIA`, due to common parlance
-  - encyclopedias
-- journal homepages are `WEB`
-- list of chapters in a book are `L.PUB`.
-  - e.g. in detail view of
-- book chapter is `PUB`
 
 
 
