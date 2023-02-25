@@ -1,0 +1,19 @@
+# Results from `PHASE1` and `PHASE3`: Repeated vs New Search Tasks
+
+
+Same LPA profiles from Section \@ref(sec-res-lpa).
+
+## Learning Outcomes
+
+## Querying Behaviour
+
+
+### Length of Queries
+
+### Number of Queries per Search Task
+
+### Number of Clicks per Query
+
+### Query Reformulation Types (QRTs)
+
+## Entropy Analysis of Querying Behaviour {#sec-res-query-H}

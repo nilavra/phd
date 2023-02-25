@@ -1,0 +1,121 @@
+# Discussion and Conclusion
+
+<!-- , Contributions, and Future Work -->
+
+see Jacek's thesis
+
+## Research Summary
+
+## Summary of Results
+
+which results have the strongest effect sizes and RBC scores?
+
+CONCLUSION: obtained grades are not good indicators of learning
+
+## Methodology
+
+## Contributions
+
+- Latent Profile Analysis and Latent Profile Transition Analysis
+- Entropy 
+- Longitudinal Study Design
+- Combining Motivation Metacognition Self regulation
+
+
+### Latent Profile Analysis
+
+Additionally, LPA can identify subgroups of individuals who may be at risk for negative outcomes, such as poor task performance, low job satisfaction, or developmental delays. This information can be used to design targeted interventions that are tailored to the specific needs of these subgroups.
+
+In summary, LPA is a powerful and flexible person-centered statistical approach that is increasingly used in organizational psychology and child development research. Its ability to identify and describe latent subgroups within a population provides a more nuanced understanding of human behavior, and its applications have the potential to inform the design of targeted interventions that can improve outcomes for individuals and organizations.
+
+
+In the context of information search behavior, LPA can be used to investigate how search behavior varies across different contexts or populations. For example, researchers may use LPA to identify different search patterns among novice versus expert users, or among different age or cultural groups. This can help to inform the design of search interfaces and other information systems that are tailored to the needs of specific user groups.
+
+Overall, LPA is an interesting and valuable technique for understanding information search behavior because it allows researchers to move beyond simple group comparisons and identify meaningful subgroups within a population. By uncovering these subgroups, researchers can gain deeper insights into the complex and nuanced ways that people search for information online, and use this knowledge to improve the design and effectiveness of information systems.
+
+
+### Entropy
+<!-- TODO: check the following text: -->
+Transition analysis and entropy are powerful tools in the field of information retrieval that can help to uncover patterns in user search behaviour across disparate tasks and activities. By analysing transitions between different states, such as between queries, documents, or web pages, transition analysis can reveal important insights into how users navigate information spaces and interact with search systems. For example, it can be used to identify common search patterns or to identify areas where users may be experiencing difficulty or confusion.
+
+Entropy, on the other hand, provides a quantitative measure of the uncertainty or randomness in user search behaviour. By calculating entropy values for different aspects of search behaviour, such as query reformulation or click-through behaviour, researchers can gain a better understanding of the structure and characteristics of user search behaviour in different contexts. This can help to identify areas for improvement in search systems and to design more effective search algorithms and interfaces.
+
+Together, transition analysis and entropy provide a powerful framework for understanding user search behaviour and improving the design and effectiveness of search systems. By analysing transitions and quantifying the level of uncertainty in user behaviour, researchers can uncover valuable insights that can inform the development of more effective search systems and improve the overall user experience.
+
+
+From ASIST award session
+
+FOLLOW UP WITH ...
+
+- Change of the self, self-reflection
+- Look at anthropology perspective
+
+ROB:
+
+- Look at qualitative data. More interesting
+
+HEATHER:
+
+- what can we share back to the teachers of the course, librarians and others
+
+
+
+
+## Limitations
+
+### Theoretical Limitations
+
+Learning outcomes
+Cite @urgo2022learning
+
+
+### Technical Limitation
+
+- No PDF
+- N=16 to N=10
+- Also check anticipated limitations section from proposal
+- Did not assess goodness of fit of whether first order Markov chain is the most appropriate for modelling search tactic transitions (Besag and Mondal’s (2013) statistical test)
+- did not track revisits across different tasks
+- clicks may have been on popup ads, cookie consent forms, and others, instead of only links (difficult to guesstimate from HTML markup)
+
+Some difficulties:
+
+- opening same URL in 2 different tabs and switching between them for a while before realising one is different from the other
+  - or maybe long webpage (e.g.) book - two tabs at two different locations in webpage
+
+## Future Work
+
+- Bing + ChatGPT, from MSR blogpost:
+  - https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/
+- Google + ChatGPT, from Sundar Pichai
+  - https://blog.google/technology/ai/bard-google-ai-search-updates/
+  - "AI features in Search can distill information to help you see the big picture."
+
+Contrary opinions_
+- https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web
+  - "When we’re dealing with sequences of words, lossy compression looks smarter than lossless compression."
+  - hallucinations
+- https://abcnews4.com/news/nation-world/experts-warn-dangers-ai-google-microsoft-push-new-chatbots-chatgpt-bard-technology-big-tech-open-ended-questions-responses-alphabet-misinformation-disinformation-internet-new-developments-bing-search-engines
+  - Matt is here
+  - potential to misinformation
+
+> *We've confused young people’s ability to operate digital devices with the sophistication they need to discern whether the information those devices yield is something that can be relied upon*
+>
+> https://twitter.com/suzettelohmeyer/status/1617909351766757376
+> https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/
+
+
+Final feedback:
+P022Pisa said
+> *It is great to be able to participate in the research this semester. Using the extension somehow brings me postive feedback and that helps me in study I303. So I wanna say thank you*
+> - P022Pisa
+
+
+## New references
+
+Be sure to add new references
+
+- https://www.mdpi.com/2673-4001/4/1/8
+- https://link.springer.com/article/10.1007/s10648-023-09730-8
+- Claudia Hauff's works from CHIIR2020 onwards
+- SYR and other's works
