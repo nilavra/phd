@@ -27,8 +27,27 @@ Correlation of SPL with Grades
 
 
 
+
 ## Latent Profile Analysis {#sec-res-lpa}
 
+<!----------- fig:lpa-profile-model-57 ----------->
+```{r lpa-profile-model-57, fig.scap='(ref:scap-lpa-profile-model-57)', fig.cap = '(ref:cap-lpa-profile-model-57)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/lpa-profile-model-57")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-lpa-profile-model-57) Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), and self-regulation (SRQ). 
+
+(ref:scap-lpa-profile-model-57) Groups identified by Latent Profile Analysis.
+
+<!---- fig:lpa-profile-model-57 (leave a blank line before this) ------>
+
+
+We employed Latent Profile Analysis (LPA) to identify groups (latent profiles) of participants based on their scores on the Intrinsic Motivation Inventory (IMI), Metacognitive Awareness Inventory (MAI), and Self-regulation questionnaire (SRQ).
+<!-- We employed To classify participants into high and low groups based on their self-reported scores on these questionnaires, we employed LPA.  -->
+LPA is particularly useful when the relationship between variables is not well understood, or when it is difficult to determine which variables should be used to classify individuals into groups.
+
+
+The results of the LPA showed that there were two distinct latent profiles of participants based on their scores on the IMI, MAI, and SRQ: a high group and a low group (Figure \@ref(fig:lpa-profile-model-57)). The high group had generally higher scores on the IMI, MAI, and SRQ compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.
 
 <!-- Latent Profile Analysis (LPA) is a statistical technique used to identify unobserved or latent subgroups within a population based on their responses to a set of observed variables.  -->
 
@@ -37,7 +56,7 @@ Correlation of SPL with Grades
 
 
 
-
+<!-- 
 
 TODO: describe the high and low groups appropriately.
 
@@ -46,7 +65,7 @@ TODO: Describe stats from `HI` and `LO` profiles, as in YSC Sec 5.1.
 - how the following changed over time 
   - motivation, metacognition, self regulation
   - perceived learning, perceived search outcome
-
+ -->
 
 
 <!-- 
@@ -67,7 +86,7 @@ TODO: change in mean and sig diff over time / task type
 
 
 
-TODO: 
+<!-- TODO: 
 
 - For each section below on measures
   - how the measure was operationalized 
@@ -82,7 +101,7 @@ Outline (`PHASE2B`)
 
 Rough Draft (`PHASE2C`)
 
-Final Paper (`PHASE2D`)
+Final Paper (`PHASE2D`) -->
 
 
 

@@ -1,4 +1,11 @@
-# Data Analysis
+# Data Analysis Framework
+
+<!-- 
+Deleting ALL ideas from below. A snapshot of the previous version of this page can be found in GitHub commit history at:
+
+https://github.com/nilavra/phd/blob/d90735f86eae2b88796863230825bb8cd2b49f2e/006-data-analysis.Rmd
+ -->
+
 
 <!----------- fig:data-analysis-framework ----------->
 ```{r data-analysis-framework, fig.scap='(ref:scap-data-analysis-framework)', fig.cap = '(ref:cap-data-analysis-framework)',  echo=FALSE, out.width='100%', fig.align='center'}
@@ -10,6 +17,18 @@ nbShowFig("figs/data-analysis-framework")
 (ref:scap-data-analysis-framework) Data analysis framework.
 
 <!---- fig:data-analysis-framework (leave a blank line before this) ------>
+
+
+This chapter describes the general framework for analysing the data collected in the *LongSAL* study.
+It is described in Figure \@ref(fig:data-analysis-framework).
+
+
+
+
+Here is the overall data analysis framework of my dissertation:
+Two categories of data were collected from participants. 
+1. Questionnaire data for individual differences: motivation, metacognition, self-regulation.
+2. Search Log data containing URL visits, mouse events, webnavigation events, and the order and sequence of those events.
 
 Questionnaire Data
 
@@ -28,37 +47,12 @@ Trends Over Time
 Difference Between Groups / Profiles
 Entropy analysis of sequences
 
+## Individual Differences Questionnaires Data Analysis Steps
+
+### Motivation, Metacognition, and Self Regulation Data
 
 
-## URL Categorization
-
-<!-- ALL IN CAPS BECAUSE I WAS DOING URL CATEGORIZATION -->
-
-- peer-reviewed publications are `PUB`s
-- others are `ARTICLE`s (e.g. Wikipedia)
-- if no other info, then `WEB`
-- fuzzy between `WEB` and `ARTICLE` (when classified manually)
-- `ARTICLE` if there is a clear author
-  - except `WIKIPEDIA`, due to common parlance
-  - encyclopedias
-- journal homepages are `WEB`
-- list of chapters in a book are `L.PUB`.
-  - e.g. in detail view of
-- book chapter is `PUB`
-
-In order to understand the relationship between users' information search behavior and the type of webpages they visit, we needed to categorize webpages into different types. To accomplish this, we developed a classification system based on URL patterns.
-
-URL patterns were first extracted from the web browsing data collected in our study. These URL patterns contain information about the structure and content of each webpage visited by the users. Based on this information, we were able to classify each webpage into one of several different types, including search engine result pages, content pages, scientific peer-reviewed publications, Wikipedia articles, library websites, or other types of webpages.
-
-To identify search engine result pages, we looked for URLs that contained terms such as "search," "query," or "result," along with specific strings associated with popular search engines such as Google or Bing. We also identified content pages by looking for URLs that contained specific strings such as "article," "blog," "news," or "opinion." Scientific peer-reviewed publications were identified based on URLs that contained specific strings associated with academic publishers or databases, while Wikipedia articles were identified by their URLs containing the string "wiki."
-
-Library websites were identified by URLs that contained terms such as "library," "catalogue," or "database," as well as specific strings associated with major library systems. Finally, we used a catch-all category to identify other types of webpages that did not fit into any of the other categories.
-
-Overall, our URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behavior. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
-
-
-## Latent Profile Analysis
-
+### Latent Profile Analysis (LPA)
 
 <!-- @ambrose2010howa said that students' motivation, metacognition, and self-regulation determines, directs, and sustains what they do to learn.
 We were interested to study the effect of these traits on students' search behaviour.
@@ -66,8 +60,6 @@ So we collected self-perceived reports of all 3 of them.
 However, these constructs are not single binary variables that provide nice groupings automatically.
 Instead they are multidimensional data, and are only observable indicators at best of the real hidden (latent) characteristic of an individual. 
 In order to employ these multiple constructs to cluster participants into groups, we turned to psychology literature and latent class and latent profile methods. -->
-
-
 
 According to @ambrose2010howa, students' motivation, metacognition, and self-regulation are critical factors that determine, direct, and sustain what they do to learn.
 <!-- their learning behaviors.  -->
@@ -90,10 +82,74 @@ LPA has several advantages over traditional variable-centred approaches. It allo
 
 In the context of information search behaviour, LPA can help to identify distinct groups of individuals who engage in different search strategies or have different search motivations. This can be useful for understanding how people search for information online, what factors influence their search behaviour, and how search behaviour relates to other variables such as task performance, satisfaction, and learning outcomes.
 
+<!-- I used Latent Profile Analysis to combine scores from Intrinsic Motivation Inventory (IMI), Metacognitive Awareness Inventory (MAI), and Self-regulation questionnaire (SRQ), and identify latent profiles to classify participants into high and low groups. -->
+
+
+The purpose of this study was to investigate the relationship between individual differences in motivation, metacognition, and self-regulation and search behaviour. 
+To classify participants into high and low groups based on their scores on these questionnaires, we employed LPA. 
+LPA is particularly useful when the relationship between variables is not well understood or when it is difficult to determine which variables should be used to classify individuals into groups.
+We employed LPA to identify latent profiles of participants based on their scores on the IMI, MAI, and SRQ questionnaires.
+
+<!-- We used the software program Mplus to conduct the LPA. We specified a two-class solution, which allowed us to classify participants into high and low groups based on their scores on the three questionnaires. We then compared the means of the questionnaire scores between the high and low groups using t-tests to determine whether there were significant differences in motivation, metacognition, and self-regulation between the two groups. -->
 
 
 
-## Search Behaviour Data Analysis Framework
+
+
+
+
+
+
+
+
+
+## YASBIL Search Log Data Analysis Steps
+
+### URL Categorization
+
+- peer-reviewed publications are `PUB`s
+- others are `ARTICLE`s (e.g. Wikipedia)
+- if no other info, then `WEB`
+- fuzzy between `WEB` and `ARTICLE` (when classified manually)
+- `ARTICLE` if there is a clear author
+  - except `WIKIPEDIA`, due to common parlance
+  - encyclopedias
+- journal homepages are `WEB`
+- list of chapters in a book are `L.PUB`.
+  - e.g. in detail view of
+- book chapter is `PUB`
+
+In order to understand the relationship between users' information search behavior and the type of webpages they visit, we needed to categorize webpages into different types. To accomplish this, we developed a classification system based on URL patterns.
+
+URL patterns were first extracted from the web browsing data collected in our study. These URL patterns contain information about the structure and content of each webpage visited by the users. Based on this information, we were able to classify each URL present in the log data into the following hierarchical taxonomy:
+
+- `L`: Search Result Pages, i.e., a **L**ist of Information Objects
+  - `L.PUB`: Publication Search Results, e.g., on university library websites, digital libraries, Google Scholar, etc.
+  - `L.WEB`: Web Search Engine Result Pages (SERPs)
+- `I`: Content pages, i.e., Individual **I**nformation Objects
+  - `I.PUB`: Academic Publications
+  - `I.WEB`: Webpages that have the potential to provide relevant (academic) information for the search task, but are not publication. E.g., Wikipedia articles, relevant blog posts, government and non-profit websites, etc. Some of them were classified automatically (e.g., Wikipedia), while others were classified after manual inspection.
+- `MISC`: URLs for webpages that did not fit in any of the above category
+
+<!-- several different types, including search engine result pages, content pages, scientific peer-reviewed publications, Wikipedia articles, library websites, or other types of webpages. -->
+
+To identify search engine result pages, we looked for URLs that contained URL query parameters such as `q` (Google, Bing), `search`, `query`, or `k` (Yahoo) along with specific strings associated with popular search engines such as Google or Bing. 
+We also identified content pages by looking for URLs that contained strings such as "`article`", "`blog`", or "`news`".
+Scientific peer-reviewed publications were identified based on URLs that contained specific strings associated with academic publishers or databases (ACM DL, Elsevier, Scopus, Springer etc.), while Wikipedia articles were identified by their URLs containing the string "wikipedia" in the hostname.
+
+Library websites were identified by URLs that contained terms such as "library", "catalogue", or "database" as well as specific strings associated with major library systems (e.g., UT Austin uses Primo VE system from Ex Libris). Finally, we used the catch-all category `MISC` to identify other types of webpages that did not fit into any of the other categories.
+
+Overall, our URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behaviour. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
+
+
+
+
+### Active Tab Identification
+
+
+
+### Identifying Levels of Search Activity
+
 
 After log data was cleaned 
 From @white2016interactions, Table 2.1 (adapted from Bates, 1989):
@@ -113,32 +169,6 @@ From @white2016interactions, Table 2.1 (adapted from Bates, 1989):
 
 
 
-
-
-
-
-
-<!-- ========================= OLD CONTENT ==================== -->
-
-
-
-
-Note about pronouns:
-all participants are referred to using gender-neutral they/them pronouns.
-
-Merge `SES2a` and `SES2b` into `SES2ab`
-
-<!--
-Analysis steps:
-- Check analysis ideas for more ideas
-- get data for IMI, MAI, etc
--->
-
-
-## Data Cleaning and Processing
-
-see crescenzi thesis
-
 Session: `task_id`, 30 minutes of inactivity
 (Google Analytics: a session lasts until there's 30 minutes of inactivity)
 
@@ -146,352 +176,20 @@ Session duration is considered 30 minutes (!) (or maybe 1 hour?)
 as per Google Analytics^[https://www.hotjar.com/google-analytics/glossary/session-duration] and (TODO: find reference)
 
 
-## Active Tab Identification for Log Parsing
 
 
 
+## Combining Individual Differences with Search Logs
 
-## User characteristics: Latent Profiles
 
-Finally using `HI` and `LO` groups.
+<!-- ========================= OLD CONTENT ==================== -->
 
 
-- feature sets for profiling (toggle on and off)
-  - `IMI`
-  - `MAI`
-  - `SRQ`
-  - `WMC` / memory span:
-    - scaling by dividing by 10 (?) (that's the max Coglab would show)
 
 
-What factors are specifically responsible for the transitions or the changes in the Latent profiles at different points in the semester?
 
-<!-- 
-  - PLO: perceived learning outcome (/100): 
-  - PSO: perceived search outcome (/100)
-  - others?
 
-PLO and PSO can't be used as there are multiple of them in SES1 and SES3 
--->
 
-Memory span values normalized by 10, because "*The maximum memory span measurable with this experiment is ten*" as per CogLab output
-
-- ~~Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership~~
-- no no; a simple examination of what feature values changed between timepoints will be enough
-- use 2 groups! 2 groups is always better. easier to explain; easier to write.
-
-
-
-
-
-
-
-
-## Level 1: Moves - Query Reformulation
-
-- Yung Sheng's Dissertation
-- [@hassan2014struggling] Table 1
-
-Measures:
-
-- Number of terms per Query
-- Query length (characters?)
-- Number of (unique) queries per search
-- Number of reformulated query types
-- Abandoned Queries (Percentage of queries with no clicks)
-- query similarity [@hassan2014struggling]
-  - average similarity between all queries to the first query in every session
-  - exact match, approx match, lemma match, semantic match
-
-
-
-
-## Level 1: Moves - Dwell Time (DT) - combined with URL types
-
-URL type categories
-
-(`Q` is a web-page type; `QUERY` is a move) 
-
-- `Q`
-  - BOOK / PUB / WEB / WORD ~~reform type~~
-- `L`
-  - `WEB%`
-  - `PUB%`
-  - `ARTICLE%`
-  - `BOOK%`
-  - `VIDEO%`
-  - `COURSE%`
-- `I`
-  - all subcategories in `L` 
-  - `CITATION%`
-  - `FILE%`
-- `NOTETAKING`
-- `LONGSAL`
-- `?` (`UNCLASSIFIED`)
-
-Separately (as in [@lam2007session])
-- `SEARCH`
-- `LIB`
-- `OTHER`
-
-Dwell Time categories:
-
-- `SHORT`: 1 - 5 seconds
-  - "*A time span of less than 5 seconds is a too short period for being able to read a summary and extract information*" [@he2016beyond].
-- `MEDIUM`: 5 - 30 seconds
-- `LONG`: > 30 seconds
-  - from Handehawa's thesis, and related Shah references
-
-
-Other Ideas
-
-- do analysis of `LIB` and `LIBGUIDE` type URLs - library websites
-- Dwell Time:
-  - overall
-  - per-task
-  - per timepoint?
-- sig diff in DT between
-  - `SES1` and `SES3`
-  - `SES2a` and `SES2d`?
-- checkout: `sns.pairplot()` -- pairwise relationships in a dataset
-  - https://seaborn.pydata.org/generated/seaborn.pairplot.html
-- checkout seaborn's plotting capabilites!
-
-
-## Level 1: Moves - Interactions
-
-Events
-
-- `QUERY`
-  - reformulation types
-- `TAB`: Parallel Browsing Events
-  - `OPEN`
-  - `SWITCH`
-  - `CLOSE`
-- `TASK`: from YASBIL events and `task_id`
-  - `START`
-  - `END`
-- `IDLE`: user stays idle for >=1 minute [@taramigkou2018leveraging]
-  - `SHORT`: 1 - 5mins
-  - `MEDIUM`: 5 - 30 mins
-  - `LONG`: >= 30 mins -- treat as new session
-
-`IDLE` could be PDF reading, or hand note-taking, or truly idle.
-
-<!-- - not to be confused with SES1, SES2, SES3 etc.
-    - think of a better name?
-    - treat IDLE.LONG as new session? -->
-
-
-## Level 2: Implicit Features for Exploratory Search Process
-
-From @hendahewa2016implicit and related papers.
-
-- **Creativity** --> Information Novelty
-  - **Unique Coverage:** Unique web pages visited
-  - **Likelihood of Discovery:** Measurement of difficulty to find certain information
-- **Exploration**
-  - **Total Coverage:** Total number of content pages visited
-  - **Distinct Queries:** Total number of different queries issued
-  - **Query diversity:** Measurement of similarity between queries issued
-- **Knowledge Discovery** --> Finding useful and relevant information
-  - **Useful Coverage:** Number of pages where users spend a considerable amount of time
-  - **Relevant Coverage:** Number of pages that users denote as relevant to the task
-
-https://rucore.libraries.rutgers.edu/rutgers-lib/49207/
-
-<!-- - low priority
-- chirag sha's student; has intersting metrics like coverage, unique pages visited etc.
-- https://rucore.libraries.rutgers.edu/rutgers-lib/49207/
-- maybe future work? -->
-
-
-
-
-
-## Level 2+: Search Tactics and Strategies
-
-Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing & Management, vol. 52, issue 6, Nov. 2016, pp. 1200–1226.
-
-- http://dx.doi.org/10.1016/j.ipm.2016.05.007
-- https://www.pernillaq.com/exploratory-search
-- [checkout the forward citations of this paper on automated log analyses](https://scholar.google.com/scholar?cites=16001618163231710088&as_sdt=5,44&sciodt=0,44&hl=en)
-- like process mining!
-- "*Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended*"
-
-
-Behaviours from *Search Patterns* book
-
-- quit
-- narrow
-- expand
-- pearl growing / citation mining / snowballing
-- pogo sticking
-- thrashing
-
-
-
-
-### Strategies from webpage L2 categories only
-
-No sense of time. Only events
-query is a move, Q is aweb-page type
-
-Tactics (per task)
-
-- TASK.{START / END}
-- QUERY.{types of reformulations} 
-- Q.{BOOK / PUB / WEB / WORD}
-- L.{`PUB` / `WEB` / `X`}
-- L.click (only hyperlink clicks (?))
-- I.{`PUB` / `WEB` / `ARTICLE` / X}
-- I.click
-- OTHER.{`X`}
-- TAB.{tab events}
-- IDLE.{DT categories}
-  - IDLE.LONG = change of episode (or session)
-
-<!-- - SESSION.{session events} -->
-
-
-### Strategies from webpage L1 categories and Dwell Time (DT)
-
-<!-- 
-`SES2a` and `SES2b` have to be combined
-(no: we are calculating per user-task, and taking care of episodes through IDLE time) 
--->
-
-Tactics (per task)
-
-- TASK.{START / END}
-- Q.{types of reformulations}
-- L.{DT categories}
-- L.click (only hyperlink clicks (?))
-- I.{DT categories}
-- I.click
-- OTHER.{DT categories}
-- TAB.{tab events}
-- IDLE.{DT categories}
-  - IDLE.LONG = change of episode (or session)
-
-
-<!-- 
-- L.HOVER (?) (hover = reading?)
-- SESSION.{session events}
-- -->
-
-
-### Strategies from webpage L2 categories and Dwell Time (DT)
-
-Tactics (per task)
-
-- TASK.{START / END}
-- Q.{types of reformulations}
-- L.{`PUB` / `WEB` / `X`}.{DT categories}
-- L.click (only hyperlink clicks (?))
-- I.{`PUB` / `WEB` / `ARTICLE` / X}.{DT categories}
-- I.click
-- OTHER.{`X`}.{DT categories}
-- TAB.{tab events}
-- IDLE.{DT categories}
-  - IDLE.LONG =  change of episode (or session)
-
-
-
-
-### Strategies from @lam2007session
-
-- As in [@lam2007session] Sec 6 (`S` to denote a Search event and `X` to denote a non-search engine event):
-  - Short Navigation: S(Start) --> X (End), with the S event limits to the first session events and the X event to the last events.
-  - Topic Exploration: S --> X --> X --> X --> X --> ...
-  - Methodical Results Exploration: S --> X --> S --> X --> S ...
-  - Query Refinement: S --> S --> S --> S ...
-- In our coding:
-  - Short Navigation: QUERY --> non-Query (NQ: L / I / ?)
-  - Topic Exploration: QUERY --> NQ --> NQ --> NQ --> NQ --> ...
-  - etc.
-
-
-- Using `WebNavigation` events and tab switches
-- can do sequential pattern mining as in [@ibanez2022comparison]
-  - maximal sequential pattern
-  - etc.
-- Other search patters:
-  - `SS`: Search-engine Searches
-  - `TS`: Third-party Searches using third-party online sites as search engines
-  - `TE`: True Explorations of search results
-
-### Struggling vs. Exploring
-
-Indicators predictive of struggling [@hassan2014struggling]:
-
-- low amount of similarity between consecutive queries
-- more clicks per query
-- differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
-
-<!-- Hassan et al. (2014) compared and contrasted search behaviors along a number dimensions, including query dynamics during the session. They found that there are some features that may be predictive of struggling, such as a low amount of similarity between consecutive queries, more clicks per query, as well as differences in the nature of the reformulation patterns (i.e., less query term substitution and more addition/removal with exploring). Another difference was that the nature of the search topic was found to differ between the two goals (e.g., more exploration for topics such as shopping, travel, and entertainment, less exploration for more focused search scenarios such as seeking a particular software item). Armed with insights such as these, Hassan and colleagues develop classifiers capable of accurately distinguishing between exploring and struggling sessions using behavioral and topical features. -->
-
-### Navigators vs. Explorers
-
-From IWSS book
-(later, low priority)
-
-
-<!-- 
-### Original Idea
-
-for LongSAL, tactics / states:
-
-- Q
-  - subdivided by Q reform types?
-- L
-- I\_short (DT <= 10s) -- rethink these durs
-- I\_med ( 10 < DT <= 30s)
-- I\_long (> 30s) 
-  - 30s from Handehawa's thesis, and related Shah references
-- opening a new tab: parallel mission?
-- closing ta tab
-- staying Idle (?) -- user stays idle for 1 minute -- as in taramigkou 2018 ip&m paper
-- beginning and end of sessions?
-- clicks?
-  - clicks on L pages
-  - clicks on I pages
-
-or maybe I.type of webpage visited?
-or combine DT with I.PUB / I.X? -->
-
-
-
-### Transition analysis of Search Tactics / Strategies
-
-Transition analysis can be applied to:
-
-- search tactics
-- tabs: parallel browsing behaviour (think hard... do we need a constant number of tabs for this to work?)
-- combined (opening tab and closing tabs are tactics / events in Markov process)
-
-Analyze / compare entropies and transition matrices across different tasks and sessions?
-- e.g. SES1 tasks --> SES2 --> SES3
-
-Help with analyses:
-
-- Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
-- [@he2016beyond p. 1220 sec 6.1] for calculation formulas for entropy of transitions
-- [@krejtz2014entropy] sec 4 for calculation formulas
-- [@he2016beyond p. 1220 sec 6.2] for hypotheses
-
-
-## Correlation analysis
-
-Correlation between user profiles and search tactics [Table 9 @taramigkou2018leveraging]
-
-
-
-<!-- 
-https://www.google.com/search?q=nilavra&oq=nilavra&aqs=edge..69i57j0i512j69i60l3j69i61j69i65j69i60j69i65.4522j0j4&sourceid=chrome&ie=UTF-8 
--->
-
-Refer to Test PnG in Figure \@ref(fig:ResP4650362619704565728).
 
 
 <!----------- fig:ResP4650362619704565728 ----------->

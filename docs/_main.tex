@@ -2779,8 +2779,8 @@ After \texttt{QSNR3} was complete, participants received a bonus compensation of
 
 After data collection for all the phases was complete, data analysis was performed on the collected data, which is discussed in the next chapter.
 
-\hypertarget{data-analysis}{%
-\chapter{Data Analysis}\label{data-analysis}}
+\hypertarget{data-analysis-framework}{%
+\chapter{Data Analysis Framework}\label{data-analysis-framework}}
 
 \begin{figure}
 
@@ -2794,6 +2794,14 @@ After data collection for all the phases was complete, data analysis was perform
 
 
 
+
+This chapter describes the general framework for analysing the data collected in the \emph{LongSAL} study.
+It is described in Figure \ref{fig:data-analysis-framework}.
+
+Here is the overall data analysis framework of my dissertation:
+Two categories of data were collected from participants.
+1. Questionnaire data for individual differences: motivation, metacognition, self-regulation.
+2. Search Log data containing URL visits, mouse events, webnavigation events, and the order and sequence of those events.
 
 Questionnaire Data
 
@@ -2827,8 +2835,40 @@ Trends Over Time
 Difference Between Groups / Profiles
 Entropy analysis of sequences
 
+\hypertarget{individual-differences-questionnaires-data-analysis-steps}{%
+\section{Individual Differences Questionnaires Data Analysis Steps}\label{individual-differences-questionnaires-data-analysis-steps}}
+
+\hypertarget{motivation-metacognition-and-self-regulation-data}{%
+\subsection{Motivation, Metacognition, and Self Regulation Data}\label{motivation-metacognition-and-self-regulation-data}}
+
+\hypertarget{latent-profile-analysis-lpa}{%
+\subsection{Latent Profile Analysis (LPA)}\label{latent-profile-analysis-lpa}}
+
+According to Ambrose et al. (\protect\hyperlink{ref-ambrose2010howa}{2010}), students' motivation, metacognition, and self-regulation are critical factors that determine, direct, and sustain what they do to learn.
+Given our interest in understanding how these traits impact students' searching as learning behaviour, we collected self-perceived reports of all three constructs, via the IMI, MAI, and SRQ questionnaires (Section \ref{sec-method-qsnr1}).
+However, it is important to note that these constructs are not single binary variables that can be used to easily group individuals. Rather, they are complex and multidimensional data that serve as observable indicators of a person's underlying latent characteristics.
+
+To cluster participants into meaningful groups based on these multiple constructs, we turned to the educational psychology literature.
+\textbf{Latent Profile Analysis (LPA)} is an increasingly popular statistical approach falling under the umbrella of person-centred techniques used in organizational psychology and child development research. It provides a framework for characterizing population heterogeneity in terms of differences across individuals on a set of behaviours or characteristics, as opposed to describing the variability of a single variable. By identifying latent subgroups within a population, LPA enables researchers to gain a more nuanced understanding of the complexity of human behaviour.
+
+The person-centred approach underlying LPA is a departure from traditional variable-centred approaches such as multiple regression analysis. Instead of quantifying the role of particular variables in a study, LPA organizes a population into a finite number of mutually exclusive and exhaustive profiles, each comprising individuals who are similar to one another. In this way, LPA identifies distinct profiles of individuals who exhibit similar patterns of behaviour across multiple variables.
+
+The identification and description of these latent profiles is a crucial step in LPA. Each profile represents a subgroup of individuals who share similar patterns of responses on a set of variables, which can provide insights into the underlying mechanisms driving their behaviour. Furthermore, the identification of the optimal number of profiles to represent a population is a critical issue in LPA. This involves balancing the complexity of the model with its ability to capture meaningful variability in the data, and requires careful consideration of both statistical and substantive criteria.
+
+LPA has several advantages over traditional variable-centred approaches. It allows for a more nuanced understanding of the complexity of human behaviour, particularly in cases where individuals exhibit multiple and diverse patterns of behaviour across different sets of variables.
+
+In the context of information search behaviour, LPA can help to identify distinct groups of individuals who engage in different search strategies or have different search motivations. This can be useful for understanding how people search for information online, what factors influence their search behaviour, and how search behaviour relates to other variables such as task performance, satisfaction, and learning outcomes.
+
+The purpose of this study was to investigate the relationship between individual differences in motivation, metacognition, and self-regulation and search behaviour.
+To classify participants into high and low groups based on their scores on these questionnaires, we employed LPA.
+LPA is particularly useful when the relationship between variables is not well understood or when it is difficult to determine which variables should be used to classify individuals into groups.
+We employed LPA to identify latent profiles of participants based on their scores on the IMI, MAI, and SRQ questionnaires.
+
+\hypertarget{yasbil-search-log-data-analysis-steps}{%
+\section{YASBIL Search Log Data Analysis Steps}\label{yasbil-search-log-data-analysis-steps}}
+
 \hypertarget{url-categorization}{%
-\section{URL Categorization}\label{url-categorization}}
+\subsection{URL Categorization}\label{url-categorization}}
 
 \begin{itemize}
 \tightlist
@@ -2866,34 +2906,47 @@ Entropy analysis of sequences
 
 In order to understand the relationship between users' information search behavior and the type of webpages they visit, we needed to categorize webpages into different types. To accomplish this, we developed a classification system based on URL patterns.
 
-URL patterns were first extracted from the web browsing data collected in our study. These URL patterns contain information about the structure and content of each webpage visited by the users. Based on this information, we were able to classify each webpage into one of several different types, including search engine result pages, content pages, scientific peer-reviewed publications, Wikipedia articles, library websites, or other types of webpages.
+URL patterns were first extracted from the web browsing data collected in our study. These URL patterns contain information about the structure and content of each webpage visited by the users. Based on this information, we were able to classify each URL present in the log data into the following hierarchical taxonomy:
 
-To identify search engine result pages, we looked for URLs that contained terms such as ``search,'' ``query,'' or ``result,'' along with specific strings associated with popular search engines such as Google or Bing. We also identified content pages by looking for URLs that contained specific strings such as ``article,'' ``blog,'' ``news,'' or ``opinion.'' Scientific peer-reviewed publications were identified based on URLs that contained specific strings associated with academic publishers or databases, while Wikipedia articles were identified by their URLs containing the string ``wiki.''
+\begin{itemize}
+\tightlist
+\item
+  \texttt{L}: Search Result Pages, i.e., a \textbf{L}ist of Information Objects
 
-Library websites were identified by URLs that contained terms such as ``library,'' ``catalogue,'' or ``database,'' as well as specific strings associated with major library systems. Finally, we used a catch-all category to identify other types of webpages that did not fit into any of the other categories.
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{L.PUB}: Publication Search Results, e.g., on university library websites, digital libraries, Google Scholar, etc.
+  \item
+    \texttt{L.WEB}: Web Search Engine Result Pages (SERPs)
+  \end{itemize}
+\item
+  \texttt{I}: Content pages, i.e., Individual \textbf{I}nformation Objects
 
-Overall, our URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behavior. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{I.PUB}: Academic Publications
+  \item
+    \texttt{I.WEB}: Webpages that have the potential to provide relevant (academic) information for the search task, but are not publication. E.g., Wikipedia articles, relevant blog posts, government and non-profit websites, etc. Some of them were classified automatically (e.g., Wikipedia), while others were classified after manual inspection.
+  \end{itemize}
+\item
+  \texttt{MISC}: URLs for webpages that did not fit in any of the above category
+\end{itemize}
 
-\hypertarget{latent-profile-analysis}{%
-\section{Latent Profile Analysis}\label{latent-profile-analysis}}
+To identify search engine result pages, we looked for URLs that contained URL query parameters such as \texttt{q} (Google, Bing), \texttt{search}, \texttt{query}, or \texttt{k} (Yahoo) along with specific strings associated with popular search engines such as Google or Bing.
+We also identified content pages by looking for URLs that contained strings such as ``\texttt{article}'', ``\texttt{blog}'', or ``\texttt{news}''.
+Scientific peer-reviewed publications were identified based on URLs that contained specific strings associated with academic publishers or databases (ACM DL, Elsevier, Scopus, Springer etc.), while Wikipedia articles were identified by their URLs containing the string ``wikipedia'' in the hostname.
 
-According to Ambrose et al. (\protect\hyperlink{ref-ambrose2010howa}{2010}), students' motivation, metacognition, and self-regulation are critical factors that determine, direct, and sustain what they do to learn.
-Given our interest in understanding how these traits impact students' searching as learning behaviour, we collected self-perceived reports of all three constructs, via the IMI, MAI, and SRQ questionnaires (Section \ref{sec-method-qsnr1}).
-However, it is important to note that these constructs are not single binary variables that can be used to easily group individuals. Rather, they are complex and multidimensional data that serve as observable indicators of a person's underlying latent characteristics.
+Library websites were identified by URLs that contained terms such as ``library'', ``catalogue'', or ``database'' as well as specific strings associated with major library systems (e.g., UT Austin uses Primo VE system from Ex Libris). Finally, we used the catch-all category \texttt{MISC} to identify other types of webpages that did not fit into any of the other categories.
 
-To cluster participants into meaningful groups based on these multiple constructs, we turned to the educational psychology literature.
-\textbf{Latent Profile Analysis (LPA)} is an increasingly popular statistical approach falling under the umbrella of person-centred techniques used in organizational psychology and child development research. It provides a framework for characterizing population heterogeneity in terms of differences across individuals on a set of behaviours or characteristics, as opposed to describing the variability of a single variable. By identifying latent subgroups within a population, LPA enables researchers to gain a more nuanced understanding of the complexity of human behaviour.
+Overall, our URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behaviour. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
 
-The person-centred approach underlying LPA is a departure from traditional variable-centred approaches such as multiple regression analysis. Instead of quantifying the role of particular variables in a study, LPA organizes a population into a finite number of mutually exclusive and exhaustive profiles, each comprising individuals who are similar to one another. In this way, LPA identifies distinct profiles of individuals who exhibit similar patterns of behaviour across multiple variables.
+\hypertarget{active-tab-identification}{%
+\subsection{Active Tab Identification}\label{active-tab-identification}}
 
-The identification and description of these latent profiles is a crucial step in LPA. Each profile represents a subgroup of individuals who share similar patterns of responses on a set of variables, which can provide insights into the underlying mechanisms driving their behaviour. Furthermore, the identification of the optimal number of profiles to represent a population is a critical issue in LPA. This involves balancing the complexity of the model with its ability to capture meaningful variability in the data, and requires careful consideration of both statistical and substantive criteria.
-
-LPA has several advantages over traditional variable-centred approaches. It allows for a more nuanced understanding of the complexity of human behaviour, particularly in cases where individuals exhibit multiple and diverse patterns of behaviour across different sets of variables.
-
-In the context of information search behaviour, LPA can help to identify distinct groups of individuals who engage in different search strategies or have different search motivations. This can be useful for understanding how people search for information online, what factors influence their search behaviour, and how search behaviour relates to other variables such as task performance, satisfaction, and learning outcomes.
-
-\hypertarget{search-behaviour-data-analysis-framework}{%
-\section{Search Behaviour Data Analysis Framework}\label{search-behaviour-data-analysis-framework}}
+\hypertarget{identifying-levels-of-search-activity}{%
+\subsection{Identifying Levels of Search Activity}\label{identifying-levels-of-search-activity}}
 
 After log data was cleaned
 From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1 (adapted from Bates, 1989):
@@ -2938,582 +2991,14 @@ From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1 (ad
   \end{itemize}
 \end{itemize}
 
-Note about pronouns:
-all participants are referred to using gender-neutral they/them pronouns.
-
-Merge \texttt{SES2a} and \texttt{SES2b} into \texttt{SES2ab}
-
-\hypertarget{data-cleaning-and-processing}{%
-\section{Data Cleaning and Processing}\label{data-cleaning-and-processing}}
-
-see crescenzi thesis
-
 Session: \texttt{task\_id}, 30 minutes of inactivity
 (Google Analytics: a session lasts until there's 30 minutes of inactivity)
 
 Session duration is considered 30 minutes (!) (or maybe 1 hour?)
 as per Google Analytics\footnote{\url{https://www.hotjar.com/google-analytics/glossary/session-duration}} and (TODO: find reference)
 
-\hypertarget{active-tab-identification-for-log-parsing}{%
-\section{Active Tab Identification for Log Parsing}\label{active-tab-identification-for-log-parsing}}
-
-\hypertarget{user-characteristics-latent-profiles}{%
-\section{User characteristics: Latent Profiles}\label{user-characteristics-latent-profiles}}
-
-Finally using \texttt{HI} and \texttt{LO} groups.
-
-\begin{itemize}
-\tightlist
-\item
-  feature sets for profiling (toggle on and off)
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \texttt{IMI}
-  \item
-    \texttt{MAI}
-  \item
-    \texttt{SRQ}
-  \item
-    \texttt{WMC} / memory span:
-
-    \begin{itemize}
-    \tightlist
-    \item
-      scaling by dividing by 10 (?) (that's the max Coglab would show)
-    \end{itemize}
-  \end{itemize}
-\end{itemize}
-
-What factors are specifically responsible for the transitions or the changes in the Latent profiles at different points in the semester?
-
-Memory span values normalized by 10, because ``\emph{The maximum memory span measurable with this experiment is ten}'' as per CogLab output
-
-\begin{itemize}
-\tightlist
-\item
-  \st{Use LIME / SHAP and counterfactual explanations to understand which components contribute to change in Profile Membership}
-\item
-  no no; a simple examination of what feature values changed between timepoints will be enough
-\item
-  use 2 groups! 2 groups is always better. easier to explain; easier to write.
-\end{itemize}
-
-\hypertarget{level-1-moves---query-reformulation}{%
-\section{Level 1: Moves - Query Reformulation}\label{level-1-moves---query-reformulation}}
-
-\begin{itemize}
-\tightlist
-\item
-  Yung Sheng's Dissertation
-\item
-  (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014}) Table 1
-\end{itemize}
-
-Measures:
-
-\begin{itemize}
-\tightlist
-\item
-  Number of terms per Query
-\item
-  Query length (characters?)
-\item
-  Number of (unique) queries per search
-\item
-  Number of reformulated query types
-\item
-  Abandoned Queries (Percentage of queries with no clicks)
-\item
-  query similarity (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014})
-
-  \begin{itemize}
-  \tightlist
-  \item
-    average similarity between all queries to the first query in every session
-  \item
-    exact match, approx match, lemma match, semantic match
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{level-1-moves---dwell-time-dt---combined-with-url-types}{%
-\section{Level 1: Moves - Dwell Time (DT) - combined with URL types}\label{level-1-moves---dwell-time-dt---combined-with-url-types}}
-
-URL type categories
-
-(\texttt{Q} is a web-page type; \texttt{QUERY} is a move)
-
-\begin{itemize}
-\tightlist
-\item
-  \texttt{Q}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    BOOK / PUB / WEB / WORD \st{reform type}
-  \end{itemize}
-\item
-  \texttt{L}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \texttt{WEB\%}
-  \item
-    \texttt{PUB\%}
-  \item
-    \texttt{ARTICLE\%}
-  \item
-    \texttt{BOOK\%}
-  \item
-    \texttt{VIDEO\%}
-  \item
-    \texttt{COURSE\%}
-  \end{itemize}
-\item
-  \texttt{I}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    all subcategories in \texttt{L}
-  \item
-    \texttt{CITATION\%}
-  \item
-    \texttt{FILE\%}
-  \end{itemize}
-\item
-  \texttt{NOTETAKING}
-\item
-  \texttt{LONGSAL}
-\item
-  \texttt{?} (\texttt{UNCLASSIFIED})
-\end{itemize}
-
-Separately (as in (\protect\hyperlink{ref-lam2007session}{Lam et al., 2007}))
-- \texttt{SEARCH}
-- \texttt{LIB}
-- \texttt{OTHER}
-
-Dwell Time categories:
-
-\begin{itemize}
-\tightlist
-\item
-  \texttt{SHORT}: 1 - 5 seconds
-
-  \begin{itemize}
-  \tightlist
-  \item
-    ``\emph{A time span of less than 5 seconds is a too short period for being able to read a summary and extract information}'' (\protect\hyperlink{ref-he2016beyond}{He et al., 2016}).
-  \end{itemize}
-\item
-  \texttt{MEDIUM}: 5 - 30 seconds
-\item
-  \texttt{LONG}: \textgreater{} 30 seconds
-
-  \begin{itemize}
-  \tightlist
-  \item
-    from Handehawa's thesis, and related Shah references
-  \end{itemize}
-\end{itemize}
-
-Other Ideas
-
-\begin{itemize}
-\tightlist
-\item
-  do analysis of \texttt{LIB} and \texttt{LIBGUIDE} type URLs - library websites
-\item
-  Dwell Time:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    overall
-  \item
-    per-task
-  \item
-    per timepoint?
-  \end{itemize}
-\item
-  sig diff in DT between
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \texttt{SES1} and \texttt{SES3}
-  \item
-    \texttt{SES2a} and \texttt{SES2d}?
-  \end{itemize}
-\item
-  checkout: \texttt{sns.pairplot()} -- pairwise relationships in a dataset
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \url{https://seaborn.pydata.org/generated/seaborn.pairplot.html}
-  \end{itemize}
-\item
-  checkout seaborn's plotting capabilites!
-\end{itemize}
-
-\hypertarget{level-1-moves---interactions}{%
-\section{Level 1: Moves - Interactions}\label{level-1-moves---interactions}}
-
-Events
-
-\begin{itemize}
-\tightlist
-\item
-  \texttt{QUERY}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    reformulation types
-  \end{itemize}
-\item
-  \texttt{TAB}: Parallel Browsing Events
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \texttt{OPEN}
-  \item
-    \texttt{SWITCH}
-  \item
-    \texttt{CLOSE}
-  \end{itemize}
-\item
-  \texttt{TASK}: from YASBIL events and \texttt{task\_id}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \texttt{START}
-  \item
-    \texttt{END}
-  \end{itemize}
-\item
-  \texttt{IDLE}: user stays idle for \textgreater=1 minute (\protect\hyperlink{ref-taramigkou2018leveraging}{Taramigkou et al., 2018})
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \texttt{SHORT}: 1 - 5mins
-  \item
-    \texttt{MEDIUM}: 5 - 30 mins
-  \item
-    \texttt{LONG}: \textgreater= 30 mins -- treat as new session
-  \end{itemize}
-\end{itemize}
-
-\texttt{IDLE} could be PDF reading, or hand note-taking, or truly idle.
-
-\hypertarget{level-2-implicit-features-for-exploratory-search-process}{%
-\section{Level 2: Implicit Features for Exploratory Search Process}\label{level-2-implicit-features-for-exploratory-search-process}}
-
-From Hendahewa (\protect\hyperlink{ref-hendahewa2016implicit}{2016}) and related papers.
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Creativity} --\textgreater{} Information Novelty
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{Unique Coverage:} Unique web pages visited
-  \item
-    \textbf{Likelihood of Discovery:} Measurement of difficulty to find certain information
-  \end{itemize}
-\item
-  \textbf{Exploration}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{Total Coverage:} Total number of content pages visited
-  \item
-    \textbf{Distinct Queries:} Total number of different queries issued
-  \item
-    \textbf{Query diversity:} Measurement of similarity between queries issued
-  \end{itemize}
-\item
-  \textbf{Knowledge Discovery} --\textgreater{} Finding useful and relevant information
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{Useful Coverage:} Number of pages where users spend a considerable amount of time
-  \item
-    \textbf{Relevant Coverage:} Number of pages that users denote as relevant to the task
-  \end{itemize}
-\end{itemize}
-
-\url{https://rucore.libraries.rutgers.edu/rutgers-lib/49207/}
-
-\hypertarget{level-2-search-tactics-and-strategies}{%
-\section{Level 2+: Search Tactics and Strategies}\label{level-2-search-tactics-and-strategies}}
-
-Pernilla Q et al's paper: Jiyin He, Pernilla Qvarfort, Martin Halvey, Gene Golovchinsky. Beyond actions: Exploring the discovery of tactics from user logs. In Information Processing \& Management, vol.~52, issue 6, Nov.~2016, pp.~1200--1226.
-
-\begin{itemize}
-\tightlist
-\item
-  \url{http://dx.doi.org/10.1016/j.ipm.2016.05.007}
-\item
-  \url{https://www.pernillaq.com/exploratory-search}
-\item
-  \href{https://scholar.google.com/scholar?cites=16001618163231710088\&as_sdt=5,44\&sciodt=0,44\&hl=en}{checkout the forward citations of this paper on automated log analyses}
-\item
-  like process mining!
-\item
-  ``\emph{Since modern search systems may allow user interactions beyond the tactics defined in the literature the tactics may need to be extended}''
-\end{itemize}
-
-Behaviours from \emph{Search Patterns} book
-
-\begin{itemize}
-\tightlist
-\item
-  quit
-\item
-  narrow
-\item
-  expand
-\item
-  pearl growing / citation mining / snowballing
-\item
-  pogo sticking
-\item
-  thrashing
-\end{itemize}
-
-\hypertarget{strategies-from-webpage-l2-categories-only}{%
-\subsection{Strategies from webpage L2 categories only}\label{strategies-from-webpage-l2-categories-only}}
-
-No sense of time. Only events
-query is a move, Q is aweb-page type
-
-Tactics (per task)
-
-\begin{itemize}
-\tightlist
-\item
-  TASK.\{START / END\}
-\item
-  QUERY.\{types of reformulations\}
-\item
-  Q.\{BOOK / PUB / WEB / WORD\}
-\item
-  L.\{\texttt{PUB} / \texttt{WEB} / \texttt{X}\}
-\item
-  L.click (only hyperlink clicks (?))
-\item
-  I.\{\texttt{PUB} / \texttt{WEB} / \texttt{ARTICLE} / X\}
-\item
-  I.click
-\item
-  OTHER.\{\texttt{X}\}
-\item
-  TAB.\{tab events\}
-\item
-  IDLE.\{DT categories\}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    IDLE.LONG = change of episode (or session)
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{strategies-from-webpage-l1-categories-and-dwell-time-dt}{%
-\subsection{Strategies from webpage L1 categories and Dwell Time (DT)}\label{strategies-from-webpage-l1-categories-and-dwell-time-dt}}
-
-Tactics (per task)
-
-\begin{itemize}
-\tightlist
-\item
-  TASK.\{START / END\}
-\item
-  Q.\{types of reformulations\}
-\item
-  L.\{DT categories\}
-\item
-  L.click (only hyperlink clicks (?))
-\item
-  I.\{DT categories\}
-\item
-  I.click
-\item
-  OTHER.\{DT categories\}
-\item
-  TAB.\{tab events\}
-\item
-  IDLE.\{DT categories\}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    IDLE.LONG = change of episode (or session)
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{strategies-from-webpage-l2-categories-and-dwell-time-dt}{%
-\subsection{Strategies from webpage L2 categories and Dwell Time (DT)}\label{strategies-from-webpage-l2-categories-and-dwell-time-dt}}
-
-Tactics (per task)
-
-\begin{itemize}
-\tightlist
-\item
-  TASK.\{START / END\}
-\item
-  Q.\{types of reformulations\}
-\item
-  L.\{\texttt{PUB} / \texttt{WEB} / \texttt{X}\}.\{DT categories\}
-\item
-  L.click (only hyperlink clicks (?))
-\item
-  I.\{\texttt{PUB} / \texttt{WEB} / \texttt{ARTICLE} / X\}.\{DT categories\}
-\item
-  I.click
-\item
-  OTHER.\{\texttt{X}\}.\{DT categories\}
-\item
-  TAB.\{tab events\}
-\item
-  IDLE.\{DT categories\}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    IDLE.LONG = change of episode (or session)
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{strategies-from-lam2007session}{%
-\subsection{\texorpdfstring{Strategies from Lam et al. (\protect\hyperlink{ref-lam2007session}{2007})}{Strategies from Lam et al. (2007)}}\label{strategies-from-lam2007session}}
-
-\begin{itemize}
-\tightlist
-\item
-  As in (\protect\hyperlink{ref-lam2007session}{Lam et al., 2007}) Sec 6 (\texttt{S} to denote a Search event and \texttt{X} to denote a non-search engine event):
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Short Navigation: S(Start) --\textgreater{} X (End), with the S event limits to the first session events and the X event to the last events.
-  \item
-    Topic Exploration: S --\textgreater{} X --\textgreater{} X --\textgreater{} X --\textgreater{} X --\textgreater{} \ldots{}
-  \item
-    Methodical Results Exploration: S --\textgreater{} X --\textgreater{} S --\textgreater{} X --\textgreater{} S \ldots{}
-  \item
-    Query Refinement: S --\textgreater{} S --\textgreater{} S --\textgreater{} S \ldots{}
-  \end{itemize}
-\item
-  In our coding:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Short Navigation: QUERY --\textgreater{} non-Query (NQ: L / I / ?)
-  \item
-    Topic Exploration: QUERY --\textgreater{} NQ --\textgreater{} NQ --\textgreater{} NQ --\textgreater{} NQ --\textgreater{} \ldots{}
-  \item
-    etc.
-  \end{itemize}
-\item
-  Using \texttt{WebNavigation} events and tab switches
-\item
-  can do sequential pattern mining as in (\protect\hyperlink{ref-ibanez2022comparison}{Ibáñez \& Simperl, 2022})
-
-  \begin{itemize}
-  \tightlist
-  \item
-    maximal sequential pattern
-  \item
-    etc.
-  \end{itemize}
-\item
-  Other search patters:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \texttt{SS}: Search-engine Searches
-  \item
-    \texttt{TS}: Third-party Searches using third-party online sites as search engines
-  \item
-    \texttt{TE}: True Explorations of search results
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{struggling-vs.-exploring}{%
-\subsection{Struggling vs.~Exploring}\label{struggling-vs.-exploring}}
-
-Indicators predictive of struggling (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014}):
-
-\begin{itemize}
-\tightlist
-\item
-  low amount of similarity between consecutive queries
-\item
-  more clicks per query
-\item
-  differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
-\end{itemize}
-
-\hypertarget{navigators-vs.-explorers}{%
-\subsection{Navigators vs.~Explorers}\label{navigators-vs.-explorers}}
-
-From IWSS book
-(later, low priority)
-
-\hypertarget{transition-analysis-of-search-tactics-strategies}{%
-\subsection{Transition analysis of Search Tactics / Strategies}\label{transition-analysis-of-search-tactics-strategies}}
-
-Transition analysis can be applied to:
-
-\begin{itemize}
-\tightlist
-\item
-  search tactics
-\item
-  tabs: parallel browsing behaviour (think hard\ldots{} do we need a constant number of tabs for this to work?)
-\item
-  combined (opening tab and closing tabs are tactics / events in Markov process)
-\end{itemize}
-
-Analyze / compare entropies and transition matrices across different tasks and sessions?
-- e.g.~SES1 tasks --\textgreater{} SES2 --\textgreater{} SES3
-
-Help with analyses:
-
-\begin{itemize}
-\tightlist
-\item
-  Chen and Cooper (2002) used a Chi-square test to compare the distribution of transitions in search tactic transition matrices.
-\item
-  (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.1) for calculation formulas for entropy of transitions
-\item
-  (\protect\hyperlink{ref-krejtz2014entropy}{Krejtz et al., 2014}) sec 4 for calculation formulas
-\item
-  (\protect\hyperlink{ref-he2016beyond}{He et al., 2016, p. 1220} sec 6.2) for hypotheses
-\end{itemize}
-
-\hypertarget{correlation-analysis}{%
-\section{Correlation analysis}\label{correlation-analysis}}
-
-Correlation between user profiles and search tactics (Table 9 \protect\hyperlink{ref-taramigkou2018leveraging}{Taramigkou et al., 2018})
-
-Refer to Test PnG in Figure \ref{fig:ResP4650362619704565728}.
+\hypertarget{combining-individual-differences-with-search-logs}{%
+\section{Combining Individual Differences with Search Logs}\label{combining-individual-differences-with-search-logs}}
 
 \begin{figure}
 
@@ -3561,57 +3046,23 @@ Correlation of SPL with Grades
 \hypertarget{sec-res-lpa}{%
 \section{Latent Profile Analysis}\label{sec-res-lpa}}
 
-TODO: describe the high and low groups appropriately.
+\begin{figure}
 
-TODO: Describe stats from \texttt{HI} and \texttt{LO} profiles, as in YSC Sec 5.1.
+{\centering \includegraphics[width=1\linewidth]{figs/lpa-profile-model-57} 
 
-\begin{itemize}
-\tightlist
-\item
-  how the following changed over time
+}
 
-  \begin{itemize}
-  \tightlist
-  \item
-    motivation, metacognition, self regulation
-  \item
-    perceived learning, perceived search outcome
-  \end{itemize}
-\end{itemize}
+\caption[Groups identified by Latent Profile Analysis.]{Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), and self-regulation (SRQ).}\label{fig:lpa-profile-model-57}
+\end{figure}
 
-TODO:
 
-\begin{itemize}
-\tightlist
-\item
-  For each section below on measures
 
-  \begin{itemize}
-  \tightlist
-  \item
-    how the measure was operationalized
-  \item
-    what is the value / trend
-  \item
-    1-2 lines
-  \end{itemize}
-\item
-  For Disucssion later
 
-  \begin{itemize}
-  \tightlist
-  \item
-    Pool together the 1-2 lines
-  \end{itemize}
-\end{itemize}
 
-Proposal (\texttt{PHASE2A})
+We employed Latent Profile Analysis (LPA) to identify groups (latent profiles) of participants based on their scores on the Intrinsic Motivation Inventory (IMI), Metacognitive Awareness Inventory (MAI), and Self-regulation questionnaire (SRQ).
+LPA is particularly useful when the relationship between variables is not well understood, or when it is difficult to determine which variables should be used to classify individuals into groups.
 
-Outline (\texttt{PHASE2B})
-
-Rough Draft (\texttt{PHASE2C})
-
-Final Paper (\texttt{PHASE2D})
+The results of the LPA showed that there were two distinct latent profiles of participants based on their scores on the IMI, MAI, and SRQ: a high group and a low group (Figure \ref{fig:lpa-profile-model-57}). The high group had generally higher scores on the IMI, MAI, and SRQ compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.
 
 \hypertarget{q-query-formulations}{%
 \section{Q: Query Formulations}\label{q-query-formulations}}
@@ -3648,24 +3099,6 @@ The number of queries issued per task (Figure \ref{fig:ResN5999530166888685231})
 The low group issued a steadily increasing number of queries as they progressed through the semester, from the Proposal to the Final Paper phase, overtaking the high group at the Outline phase.
 In contrast, the high group decreased their query submissions after the Outline phase, signifying they may have already collected the information they need in the earlier parts of the semester.
 The difference in the number of queries issued by the two groups approached statistical significance according to a two-tailed Mann-Whitney U test \((U = 1021.5, p = .09, ES = 0.61)\), with a moderate effect size.
-
-\hypertarget{number-of-clicks-per-query}{%
-\subsection{Number of Clicks per Query}\label{number-of-clicks-per-query}}
-
-Number of clicks per query refers to the number of times a participant clicked a link on a search result page after conducting a search query.
-This metric reflects the level of interaction and engagement of the participant with the search results, as well as their ability to assess the relevance and usefulness of each search result presented to them.
-A higher number of clicks per query may indicate that the participant is more engaged and willing to explore a wider range of information sources, while a lower number may suggest a more focused and targeted search approach.
-
-The high group had fewer total clicks per query \((U = 1069.5, p = .03, ES = 0.64)\), and a lower average number of clicks per query \((U = 1194.0, p = .01, ES = 0.65)\), compared to the low group, across most of the tasks during the semester (Figure \ref{fig:ResP6921334635387427729}).
-The low group had the highest average number of clicks per query when writing the final paper, while the high group had the highest average number of clicks per query earlier in the semester, during the paper outline phase.
-Additionally, the high group had lower variability (standard deviation) in the number of clicks per query compared to the low group \((U = 1235.0, p = .00, ES = 0.68)\), and all of these differences were statistically significant.
-
-This suggests that the high group was able to achieve better search outcomes with fewer clicks, indicating a higher level of efficiency in their search strategies.
-They may have been able to refine their search strategies and become more efficient as the semester progressed, resulting in fewer clicks per query when writing the final paper.
-This indicates the high group's ability to better assess the relevance and usefulness of search results, and to use their knowledge and cognitive strategies more effectively during the search process.
-In contrast, the low group may have struggled to improve their search strategies, resulting in a higher number of clicks per query when writing the final paper.
-
-It is also possible that the differences in average clicks per query between the two groups during different phases of the semester reflect differences in the complexity or specificity of the information needed for the different tasks. For example, the paper outline phase may have required more broad and exploratory searches, while the final paper phase may have required more targeted and specific searches.
 
 \hypertarget{query-reformulation-types-qrts}{%
 \subsection{Query Reformulation Types (QRTs)}\label{query-reformulation-types-qrts}}
@@ -3717,33 +3150,45 @@ They also had their highest count of query generalizations during the writing of
 The high group may also have been better able to refine their search queries through word substitutions, which peaked while writing the final paper, indicating a greater level of precision and focus in their information seeking behaviour.
 In contrast, the low group had their highest count of repeat queries during the outline and final paper, indicating that they may have had more difficulty finding and retaining relevant information throughout the research process.
 
-\hypertarget{l-search-result-examination-source-selection-item-selection}{%
-\section{L: Search Result Examination / Source Selection / Item Selection}\label{l-search-result-examination-source-selection-item-selection}}
+\hypertarget{l-interaction-with-search-results-source-selection-item-selection}{%
+\section{L: Interaction with Search Results / Source Selection / Item Selection}\label{l-interaction-with-search-results-source-selection-item-selection}}
 
-As the final project task involved searching for 20 references, we structure the discussion around visits to ``normal'' webpages, and visits to ``academic'' webpages containing publications.
+\hypertarget{number-of-clicks-per-query}{%
+\subsection{Number of Clicks per Query}\label{number-of-clicks-per-query}}
 
-\hypertarget{lweb}{%
-\subsection{LWEB}\label{lweb}}
+Number of clicks per query refers to the number of times a participant clicked a link on a search result page after conducting a search query.
+This metric reflects the level of interaction and engagement of the participant with the search results, as well as their ability to assess the relevance and usefulness of each search result presented to them.
+A higher number of clicks per query may indicate that the participant is more engaged and willing to explore a wider range of information sources, while a lower number may suggest a more focused and targeted search approach.
+
+The high group had fewer total clicks per query \((U = 1069.5, p = .03, ES = 0.64)\), and a lower average number of clicks per query \((U = 1194.0, p = .01, ES = 0.65)\), compared to the low group, across most of the tasks during the semester (Figure \ref{fig:ResP6921334635387427729}).
+The low group had the highest average number of clicks per query when writing the final paper, while the high group had the highest average number of clicks per query earlier in the semester, during the paper outline phase.
+Additionally, the high group had lower variability (standard deviation) in the number of clicks per query compared to the low group \((U = 1235.0, p = .00, ES = 0.68)\), and all of these differences were statistically significant.
+
+This suggests that the high group was able to achieve better search outcomes with fewer clicks, indicating a higher level of efficiency in their search strategies.
+They may have been able to refine their search strategies and become more efficient as the semester progressed, resulting in fewer clicks per query when writing the final paper.
+This indicates the high group's ability to better assess the relevance and usefulness of search results, and to use their knowledge and cognitive strategies more effectively during the search process.
+In contrast, the low group may have struggled to improve their search strategies, resulting in a higher number of clicks per query when writing the final paper.
+
+It is also possible that the differences in average clicks per query between the two groups during different phases of the semester reflect differences in the complexity or specificity of the information needed for the different tasks. For example, the paper outline phase may have required more broad and exploratory searches, while the final paper phase may have required more targeted and specific searches.
+
+\hypertarget{dwell-time-on-search-results-pages}{%
+\subsection{Dwell Time on Search Results Pages}\label{dwell-time-on-search-results-pages}}
+
+\hypertarget{web-search-results-serps}{%
+\subsubsection{Web Search Results (SERPs)}\label{web-search-results-serps}}
+
+The high group was more efficient in their SERP examination, as they had lower total dwell times (Figure \ref{fig:ResN7791839245731529625}) but higher average dwell times (ResP1938217350834571785) on SERPs compared to the low group.
+On the other hand, the low group had higher total dwell times, but a lower average dwell time on SERPs, which may indicate that they spent more time browsing through all the different SERPs, but spent less time on each individual SERP.
+The low group's dwell time pattern also showed a decrease in average dwell time during the outline stage,, and stayed at the decreased value during rough draft stage, which could suggest that they struggled more with refining their search queries and examining search results during this stage.
+The low group may have been more willing to spend time examining search results and exploring different options, while the high group may have been more efficient in quickly identifying and selecting relevant results.
+The differences in total dwell time was significantly different in the beginning one-third \((U = 0.0, p = .02, ES = 0.00)\), middle one-third \((U = 16.0, p = .02, ES = 1.00)\), and end one-third \((U = 16.0, p = .02, ES = 1.00)\) portions of the tasks.
+
+\hypertarget{publication-search-results-digital-libraries}{%
+\subsection{Publication Search Results / Digital Libraries}\label{publication-search-results-digital-libraries}}
 
 Count
-
 Dwell Time
-
-Web Search Results
-
-ResN7422811346952663922
-
-\hypertarget{lpub}{%
-\subsection{LPUB}\label{lpub}}
-
-Count
-
-Dwell Time
-
 Publication / Academic search results
-
-\hypertarget{lall}{%
-\subsection{LALL}\label{lall}}
 
 \hypertarget{i-interaction-with-sources-content-pages-information-objects}{%
 \section{I: Interaction with Sources / Content Pages / Information Objects}\label{i-interaction-with-sources-content-pages-information-objects}}
@@ -3927,6 +3372,20 @@ Query Reformulation Counts:
   Overall, these findings suggest that the high group may have had more effective information seeking behaviors, as indicated by their higher counts of word substitutions and lower counts of repeat queries, which are both indicative of more focused and targeted search strategies. The low group, on the other hand, may have struggled with information overload and refining their search queries, which is reflected in their higher counts of new queries, generalizations, specializations, and repeat queries.
 \end{itemize}
 
+\textbf{Struggling vs.~Exploring}
+
+Indicators predictive of struggling (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014}):
+
+\begin{itemize}
+\tightlist
+\item
+  low amount of similarity between consecutive queries
+\item
+  more clicks per query
+\item
+  differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
+\end{itemize}
+
 \hypertarget{rq1-how-do-search-behaviours-change-over-time}{%
 \section{RQ1: how do search behaviours change over time?}\label{rq1-how-do-search-behaviours-change-over-time}}
 
@@ -4033,8 +3492,8 @@ CONCLUSION: obtained grades are not good indicators of learning
   Combining Motivation Metacognition Self regulation
 \end{itemize}
 
-\hypertarget{latent-profile-analysis-1}{%
-\subsection{Latent Profile Analysis}\label{latent-profile-analysis-1}}
+\hypertarget{latent-profile-analysis}{%
+\subsection{Latent Profile Analysis}\label{latent-profile-analysis}}
 
 Additionally, LPA can identify subgroups of individuals who may be at risk for negative outcomes, such as poor task performance, low job satisfaction, or developmental delays. This information can be used to design targeted interventions that are tailored to the specific needs of these subgroups.
 
@@ -4043,6 +3502,8 @@ In summary, LPA is a powerful and flexible person-centered statistical approach 
 In the context of information search behavior, LPA can be used to investigate how search behavior varies across different contexts or populations. For example, researchers may use LPA to identify different search patterns among novice versus expert users, or among different age or cultural groups. This can help to inform the design of search interfaces and other information systems that are tailored to the needs of specific user groups.
 
 Overall, LPA is an interesting and valuable technique for understanding information search behavior because it allows researchers to move beyond simple group comparisons and identify meaningful subgroups within a population. By uncovering these subgroups, researchers can gain deeper insights into the complex and nuanced ways that people search for information online, and use this knowledge to improve the design and effectiveness of information systems.
+
+Overall, the use of LPA to classify participants into high and low groups based on their scores on the IMI, MAI, and SRQ was an effective method for identifying individual differences in motivation, metacognition, and self-regulation. This allowed us to examine the relationship between these individual differences and search behavior, which is the focus of this study.
 
 \hypertarget{entropy}{%
 \subsection{Entropy}\label{entropy}}
@@ -4126,8 +3587,24 @@ Some difficulties:
 \hypertarget{future-work}{%
 \section{Future Work}\label{future-work}}
 
+We have barely scratched the surface
+
 \begin{itemize}
 \tightlist
+\item
+  What factors are specifically responsible for the transitions or the changes in the Latent profiles at different points in the semester?
+\item
+  Correlation between user profiles and search tactics (Table 9 \protect\hyperlink{ref-taramigkou2018leveraging}{Taramigkou et al., 2018})
+\item
+  Parallel Browsing Behaviour
+\item
+  Consistency of search terms (from FIRE group) -- low consistency = evidence of learning?
+\item
+  Navigators vs Explorers (from IWSS)
+\item
+  Struggling vs exploring
+\item
+  Strategies from (\protect\hyperlink{ref-lam2007session}{Lam et al., 2007}) section 6: short nav, topic explore, etc
 \item
   Bing + ChatGPT, from MSR blogpost:
 
@@ -4148,13 +3625,31 @@ Some difficulties:
   \end{itemize}
 \end{itemize}
 
-Contrary opinions\_
-- \url{https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web}
-- ``When we're dealing with sequences of words, lossy compression looks smarter than lossless compression.''
-- hallucinations
-- \url{https://abcnews4.com/news/nation-world/experts-warn-dangers-ai-google-microsoft-push-new-chatbots-chatgpt-bard-technology-big-tech-open-ended-questions-responses-alphabet-misinformation-disinformation-internet-new-developments-bing-search-engines}
-- Matt is here
-- potential to misinformation
+Contrary opinions:
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ``When we're dealing with sequences of words, lossy compression looks smarter than lossless compression.''
+  \item
+    hallucinations
+  \end{itemize}
+\item
+  \url{https://abcnews4.com/news/nation-world/experts-warn-dangers-ai-google-microsoft-push-new-chatbots-chatgpt-bard-technology-big-tech-open-ended-questions-responses-alphabet-misinformation-disinformation-internet-new-developments-bing-search-engines}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Matt is here
+  \item
+    potential to misinformation
+  \end{itemize}
+\end{itemize}
 
 \begin{quote}
 \emph{We've confused young people's ability to operate digital devices with the sophistication they need to discern whether the information those devices yield is something that can be relied upon}
@@ -5747,17 +5242,11 @@ Hassan, A., White, R. W., Dumais, S. T., \& Wang, Y.-M. (2014). Struggling or ex
 \leavevmode\vadjust pre{\hypertarget{ref-he2016beyond}{}}%
 He, J., Qvarfordt, P., Halvey, M., \& Golovchinsky, G. (2016). Beyond actions: Exploring the discovery of tactics from user logs. \emph{Information Processing \& Management}, \emph{52}(6), 1200--1226.
 
-\leavevmode\vadjust pre{\hypertarget{ref-hendahewa2016implicit}{}}%
-Hendahewa, C. H. (2016). \emph{Implicit search feature based approach to assist users in exploratory search tasks} {[}PhD thesis{]}. Rutgers, The State University of New Jersey.
-
 \leavevmode\vadjust pre{\hypertarget{ref-125}{}}%
 Hofmann, K., Mitra, B., Radlinski, F., \& Shokouhi, M. (2014). An eye-tracking study of user interactions with query auto completion. \emph{Proceedings of the 23rd {ACM} International Conference on Conference on Information and Knowledge Management}, 549--558. \url{https://doi.org/10.1145/2661829.2661922}
 
 \leavevmode\vadjust pre{\hypertarget{ref-huang2013relevance}{}}%
 Huang, X., \& Soergel, D. (2013). Relevance: {An} improved framework for explicating the notion. \emph{Journal of the American Society for Information Science and Technology}, \emph{64}(1), 18--35. \url{https://doi.org/10.1002/asi.22811}
-
-\leavevmode\vadjust pre{\hypertarget{ref-ibanez2022comparison}{}}%
-Ibáñez, L.-D., \& Simperl, E. (2022). A comparison of dataset search behaviour of internal versus search engine referred sessions. \emph{Acm Sigir Conference on Human Information Interaction and Retrieval}, 158--168.
 
 \leavevmode\vadjust pre{\hypertarget{ref-126}{}}%
 Jiang, J., He, D., \& Allan, J. (2014). Searching, browsing, and clicking in a search session: {Changes} in user behavior by task and over time. \emph{Proceedings of the 37th International {ACM SIGIR} Conference on Research \& Development in Information Retrieval}, 607--616. \url{https://doi.org/10.1145/2600428.2609633}
