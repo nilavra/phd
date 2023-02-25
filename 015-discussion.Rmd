@@ -35,6 +35,18 @@ Query Reformulation Counts:
 - Overall, these findings suggest that the high group may have had more effective information seeking behaviors, as indicated by their higher counts of word substitutions and lower counts of repeat queries, which are both indicative of more focused and targeted search strategies. The low group, on the other hand, may have struggled with information overload and refining their search queries, which is reflected in their higher counts of new queries, generalizations, specializations, and repeat queries.
 
 
+
+
+
+SERP Dwell Time
+
+- Overall, the differences in dwell time on SERPs between the high and low groups suggest that individual differences in motivation, self-regulation, and metacognition may play an important role in shaping search behavior and ultimately determining the success or failure of information search tasks.
+
+
+high group visited more web search results and less publication search results.
+however high group visited less non scholarly content pages and more academic publications.
+
+
 **Struggling vs. Exploring**
 
 Indicators predictive of struggling [@hassan2014struggling]:
