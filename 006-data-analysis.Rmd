@@ -182,6 +182,33 @@ as per Google Analytics^[https://www.hotjar.com/google-analytics/glossary/sessio
 ## Combining Individual Differences with Search Logs
 
 
+## Entropy Analyses of Search Behaviour Sequences
+
+Entropy is a measure of the diversity or unpredictability of a sequence of events. In the context of search queries, entropy can be used to quantify the variability or randomness of the query reformulations issued by participants.
+Transition analysis and entropy helps to cover differences in disparate tasks and activities.
+Inspired by previous works in analysing eye-movement sequences [@krejtz2014entropy; @krejtz2015gaze] and search tactics sequences [@he2016beyond], we employed a similar entropy analysis of query reformulation sequences, and search tactic patterns of the participants.
+
+For query reformulations, the possible set of states were the five query reformulation types:
+Generalization, Specialization, Word Substitution, Repeat, and New.
+For search tactic sequences, we used the following set of states:
+
+1. `QUERY`: issuing a search query
+2. `CLICK`: mouse click
+3. `IDLE`: participant stays idle for more than one minute (TODO CITATION)
+4. `SESSION_BREAK`: participant becomes idle for more than 30 minutes (Google Analytics defines a session break as 30 minutes of inactivity ^[https://support.google.com/analytics/answer/2731565#zippy=%2Cin-this-article])
+5. `L.PUB`: visiting a publication search result page
+6. `L.WEB`: visiting a web SERP
+7. `I.PUB`: visiting a scholarly publication
+8. `I.WEB`: visiting a non-scholarly content page
+9. `TASKPAGE`: visiting webpages related to the study, i.e. the Qualtrics questionnaires
+
+If we consider a sequence of query reformulations issued by a participant 
+(e.g., *New -> New -> Specialization -> Specialization -> Word Substitution -> Generalization*)
+then this sequence can be considered as a first order Markov chain, wherein, the next step in the chain depends only on the current state.
+Entropy analysis on these Markov chains quantifies how predictable the states are, and yields two categories of uncertainty measures: transition entropy, $H_t$, and stationary entropy $H_s$.
+Similar stationary and transition entropy measures can be obtained for sequences of search tactics.
+
+
 <!-- ========================= OLD CONTENT ==================== -->
 
 
