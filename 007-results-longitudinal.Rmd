@@ -1,6 +1,7 @@
 # Results from `PHASE2`: Longitudinal Searching for Writing Research Paper
 
 
+All statistical tests are two-tailed Mann-Whitney U test.
 
 As the sample sizes were often small, and / or did not match the normality assumptions of parametric tests, we have employed the non-parametric Mann-Whitney U test for all the null-hypothesis testing. This allows easy comparison between different categories of results.
 
@@ -110,20 +111,27 @@ Final Paper (`PHASE2D`) -->
 
 ### Length of Queries
 
+ResP3914747988879627169 | ResN7152194718394476899
+
 Query length was operationalized as the number of terms (words separated by spaces) in the search query that participants submitted to the search engines or other information retrieval sites.
 Query length can vary from a single word to several phrases or a full sentence. 
 <!-- Search engines use algorithms to analyze search query length and interpret the intent of the user's search in order to provide the most relevant search results.  -->
 Longer search queries may indicate a more specific or complex information need, while shorter search queries may be more general or broad in scope.
 <!-- The number of terms in each query was aggregated over each participant-task pair, to obtain total, average, and standard deviation (variability) of query length. -->
 
-The average length of queries issued by the high group were always longer than those issued by the low group, except before the Outline (`PHASE2B`) and the Final Paper submission (`PHASE2D`) (Figure \@ref(fig:ResP2136245316506143308)).
-<!-- For all tasks,  the high group issued longer queries than the low group (Figure ResP4090733126835336320),  -->
-The low group, with lower levels of motivation, metacognition, and self-regulation, were issuing queries which were often two terms (words) shorter on average, than the corresponding queries from the high group.
+The average length of queries issued by the two groups was not very different during the Proposal (`PHASE2A`), Outline (`PHASE2B`), and Final Paper (`PHASE2D`) (Figure ResP3914747988879627169).
+However, the difference in average query length between the two groups was almost significant during the Rough Draft stage (`PHASE2C`), with the low group issuing around 8 words per query, whereas the high group issuing about 4 words per query. 
 
-The total query length for the low group increased monotonically over the semester during `PHASE2` (Figure \@ref(fig:ResP7744164942895533217)), with the longest queries being issued by this group before the Final Paper submission phase (`PHASE2D`).
+
+ <!-- high group was slightly higher than the low group during the Proposal , and then became much less during the o  -->
+<!-- were always longer than those issued by the low group, except before the Outline (`PHASE2B`) and the Final Paper submission (`PHASE2D`) (Figure \@ref(fig:ResP2136245316506143308)). -->
+<!-- For all tasks,  the high group issued longer queries than the low group (Figure ResP4090733126835336320),  -->
+<!-- The low group, with lower levels of motivation, metacognition, and self-regulation, were issuing queries which were often two terms (words) shorter on average, than the corresponding queries from the high group. -->
+
+The total query length for the low group increased monotonically over the semester during (Figure \@ref(fig:ResN7152194718394476899)), with the longest queries being issued by this group before the Final Paper submission phase (`PHASE2D`).
 On the other hand, queries from the high group were the longest during the Outline phase (`PHASE2B`), and then it decreased in the subsequent phases.
 This indicates that the high group, with higher levels of motivation, metacognition, and self-regulation, were planning ahead in the early parts of the semester to find their references. 
-On the other hand, the low group, with lower levels of those traits, demonstrated a tendency to procrastinate and delay their work until the final paper.
+On the other hand, the low group, with lower levels of those traits, possibly demonstrated a tendency to procrastinate or delay their work until the final paper.
 A quote from participant `P006_HANOI` illustrates this phenomenon:
 
 > *"so far for this rough draft I haven't actually had to google anything since I downloaded everything into pdfs during the outline stage and haven't needed any new material so far."*
@@ -153,11 +161,13 @@ Number of queries per search task refers to the number of separate queries or se
 This measure may vary depending on the complexity of the information need, the user's level of expertise with the search system, and other factors. 
 <!-- This metric is commonly used in information retrieval research to evaluate the effectiveness of search systems and user search behavior. -->
 
-The number of queries issued per task (Figure \@ref(fig:ResN5999530166888685231)) followed a similar pattern as the total query length (Figure \@ref(fig:ResP7744164942895533217)).
+The number of queries issued per task (Figure \@ref(fig:ResP8027181930754266114)) followed a similar pattern as the total query length (Figure \@ref(fig:ResN7152194718394476899)).
 The low group issued a steadily increasing number of queries as they progressed through the semester, from the Proposal to the Final Paper phase, overtaking the high group at the Outline phase.
+Additionally, as their average query length was quite low while writing the Final Paper, it appears they were issuing a large number of small queries, indicating signs of struggling or exploring.
 In contrast, the high group decreased their query submissions after the Outline phase, signifying they may have already collected the information they need in the earlier parts of the semester.
 <!-- issued higher number of queries during the early part of the semester -- Proposal and Outline -- but then they issued lower number of queries during the later parts of the semester, w.r.t. the high group.  -->
-The difference in the number of queries issued by the two groups approached statistical significance according to a two-tailed Mann-Whitney U test $(U = 1021.5, p = .09, ES = 0.61)$, with a moderate effect size.
+<!-- The difference in the number of queries issued by the two groups approached statistical significance while writing the Rough Draft.  -->
+
 
 <!-- were the highest before the Rough Draft (`PHASE2C`) . -->
 
@@ -199,21 +209,21 @@ The highest differences occurred in the Outline phase and the Final paper phase 
 
 
 
-The low group issued more New queries, Generalizations, Specializations, and Repeat queries (combined with hub-and-spoke moves) than the high group. 
-On the other hand, the high group had more word substitutions in their queries than the low group.
-The differences in New queries $(U = 1066.0, p = .03, ES = 0.63)$
-and Repeat queries $(U = 1094.5, p = .03, ES = 0.63)$
-were statistically significant.
+The low group, in general issued more New queries, Generalizations, and Repeat queries (combined with hub-and-spoke moves) than the high group. 
+On the other hand, the high group had more specializations and word substitutions in their queries than the low group.
+The differences in Generalizations $(U = 218.0, p = .07, ES = 0.67)$
+and Repeat queries $(U = 233.0, p = .05, ES = 0.69)$
+were approaching statistical significance.
 The trend in these reformulation counts across the semester are illustrated in Figures 
 
-- ResP4286504130058349795 New
-- ResN1744315778481681652 Generalization
-- ResP2653175457120298457 Specialization
-- ResN2468268136429851311 Word Substitution
-- ResP5924714325943281540 Repeat
+- ResP4758332161906858406 New
+- ResP4519777880393782433 Generalization
+- ResP8890916105505948535 Specialization
+- ResP3490778183579127133 Word Substitution
+- ResP6961499846675834400 Repeat
 
 
-The low group had their highest counts of all query reformulation types (barring Repeat) while writing the final paper.
+The low group had their highest counts of most query reformulation types while writing the final paper.
 <!-- For the low group, all the highest counts of new queries, query generalizations, query specializations, and repeat queries occurred during the writing of the final paper.  -->
 This suggests that students may have struggled to narrow down and refine their search queries when working on the final paper, perhaps due to the complexity and depth of the research required for this task.
 The low group may have had more difficulty refining and targeting their search queries, resulting in more new and repeated queries as they searched for information. 
@@ -222,8 +232,11 @@ They may also have had more difficulty with the conceptualization of their resea
 
 
 The high group, however, had a different pattern of query reformulation compared to the low group. 
-They had their highest count of new queries and query specializations during the outline phase, indicating that they may have been more proactive in identifying new avenues for research earlier in the semester. 
-They also had their highest count of query generalizations during the writing of the rough draft, which may suggest that they were better able to synthesize and generalize information from their sources at an earlier stage in the writing process. 
+They had their most count of new queries during the Outline phase, most generalizations in the Rough Draft Phase, and most specialization, word substitutions, and repeat queries while the Final Paper.
+This indicates that their queries were more exploratory in the early part of the semester, and became more precise and refined in the later parts of the semester.
+<!-- and query specializations , indicating that  -->
+They may have been more proactive in identifying new avenues for research earlier in the semester. 
+The highest count of query generalizations during the writing of the rough draft may suggest that they were better able to synthesize and generalize information from their sources at an earlier stage in the writing process. 
 The high group may also have been better able to refine their search queries through word substitutions, which peaked while writing the final paper, indicating a greater level of precision and focus in their information seeking behaviour.
 In contrast, the low group had their highest count of repeat queries during the outline and final paper, indicating that they may have had more difficulty finding and retaining relevant information throughout the research process.
 
@@ -325,16 +338,20 @@ Repeat must be taken with a grain of salt as repeat behaviour was diffcult to te
 
 ### Number of Clicks per Query
 
+ResN6629066624252186314 | ResP5466996162614873067 | ResP1250472196403953856
+
 Number of clicks per query refers to the number of times a participant clicked a link on a search result page after conducting a search query. 
 <!-- link during a single query session or search task. In other words, it represents the total number of times a participant clicked on any link on the search results page after conducting a search query.  -->
 This metric reflects the level of interaction and engagement of the participant with the search results, as well as their ability to assess the relevance and usefulness of each search result presented to them.
 <!-- This measure provides an indication of how much a participant engaged with the search results and how many different sources of information they explored while searching for relevant information.  -->
 A higher number of clicks per query may indicate that the participant is more engaged and willing to explore a wider range of information sources, while a lower number may suggest a more focused and targeted search approach.
 
-The high group had fewer total clicks per query $(U = 1069.5, p = .03, ES = 0.64)$, and a lower average number of clicks per query $(U = 1194.0, p = .01, ES = 0.65)$, compared to the low group, across most of the tasks during the semester (Figure \@ref(fig:ResP6921334635387427729)).
+
+
+The high group had fewer total clicks per query (ResN6629066624252186314), and a lower average number of clicks per query (ResP5466996162614873067), compared to the low group, across most of the tasks during the semester.
 The low group had the highest average number of clicks per query when writing the final paper, while the high group had the highest average number of clicks per query earlier in the semester, during the paper outline phase.
 <!-- The low group had the maximum average clicks when writing the final paper, while the high group had the same earlier in the semester, during paper outline. -->
-Additionally, the high group had lower variability (standard deviation) in the number of clicks per query compared to the low group $(U = 1235.0, p = .00, ES = 0.68)$, and all of these differences were statistically significant.
+Additionally, the high group had lower variability (standard deviation) in the number of clicks per query compared to the low group $(U = 1235.0, p = .00, ES = 0.68)$.
 
 This suggests that the high group was able to achieve better search outcomes with fewer clicks, indicating a higher level of efficiency in their search strategies. 
 They may have been able to refine their search strategies and become more efficient as the semester progressed, resulting in fewer clicks per query when writing the final paper. 
@@ -490,28 +507,29 @@ The differences were not significant over the entire duration of the tasks, but 
 
 -->
 
-The transition entropy of query reformulations showed interesting patterns between the low and high groups (Figure \@ref(fig:ResP2794594806936084269)). 
-While the differences were not significant over the entire duration of the tasks, there was a significant difference in the middle one-third interval of each task $(U = 131.0, p = .01, ES = 0.28)$. 
-The low group showed a decrease in transition entropy from proposal to outline, then an increase from outline to rough draft, and finally, from rough draft to final paper. 
-On the other hand, the high group had the lowest transition entropy during the proposal, followed by a slight increase during the outline, another decrease during the rough draft, and then a maximum during the final paper. 
-
-
-The low group had the least randomness (transition entropy) during outline, while the high group had the most randomness at this stage. 
+The transition entropy of query reformulations showed interesting patterns between the low and high groups (Figure \@ref(fig:ResP3568256736459842466)). 
+The low group had a "V" pattern showing a decrease in transition entropy from proposal to outline, then an increase from outline to rough draft to final paper. 
+On the other hand, the high group had a "ziag-zag" pattern with low transition entropy during the proposal, an increase during the outline, a decrease during the rough draft, and then another increase during the final paper. 
+These differences were significant in the beginning and middle of the tasks, and was almost significant over the entire duration of the task $(U = 121.0, p = .0542, ES = 0.32)$.
+This indicates that the low group had the least randomness in query reformulation strategies during outline, while the high group had the most randomness at this stage. 
 Subsequently, the randomness in the high group decreased, whereas that in low group increased (Figure \@ref(fig:ResP2794594806936084269)).
 This suggests that during the outline stage, the low group had a more structured approach to query reformulations, compared to the high group. 
-However, as the semester progressed, the low group's approach became more random, while the high group's approach became more structured. 
+However, as the semester progressed, the low group's approach became more random, while the high group's approach became structured. 
 These results indicate that the low group may have struggled to adapt their query reformulation strategies as they moved through the different stages of writing the paper, while the high group was more able to adjust their strategies and maintain structure in their approach.
 <!-- The high group may have had more efficient search strategies during the proposal and rough draft phases, but faced greater challenges during the outline and final paper phases, leading to more diverse query reformulation behaviours.  -->
 <!-- The low group, however, may have had more consistent query reformulation behaviours throughout the different phases of the task, indicating less variability in their approach. -->
 
 
-The stationary entropy of query reformulations of the low and high groups varied over the different phases of the research paper writing process (Figure \@ref(fig:ResP5913968108765420078)). The low group's stationary entropy remained almost stable throughout, while the high group's stationary entropy increased from proposal to outline and then decreased from rough draft to final paper. The differences were approaching significance for the entire task duration $(U = 721.5, p = .09, ES = 0.40)$, and were significant near the beginning of the task $(U = 472.0, p = .009, ES = 0.32)$, and during the middle of the tasks $(U = 148.0, p = .01, ES = 0.28)$.
 
 
-Overall, the differences in entropies between the low and high groups indicate that these two groups had distinct information searching behaviours throughout the writing process.
+ <!-- differences were not significant over the entire duration of the tasks, there was a significant difference in the middle one-third interval of each task $(U = 131.0, p = .01, ES = 0.28)$.  -->
+
+The stationary entropy of query reformulations of the low and high groups varied over the different phases of the research paper writing process (Figure \@ref(fig:ResN4874780073548180653)). 
+The low group's stationary entropy decreased from the outline stage to the final paper stage, while the high group's stationary entropy increased from outline to rough draft and then decreased from rough draft to final paper. 
+This indicates that these two groups had distinct information searching behaviours throughout the writing process.
 The low group maintained a more consistent approach to their information searching behaviour, and thus preferred some query reformulation types more over others.
 The high group's approach varied more depending on the stage of the writing process, and thus employing all the different types query reformulations uniformly (i.e. with equal probabilities). 
-The increase in the high group's stationary entropy from proposal to outline suggests that they were exploring a broader range of topics and concepts at the early stages of the writing process. 
+The increase in the high group's stationary entropy from outline to rough draft suggests that they were exploring a broader range of topics and concepts at the early stages of the writing process. 
 The subsequent decrease in stationary entropy from rough draft to final paper suggests that they were able to narrow down their focus and consolidate their understanding of the subject-matter.
 
 
