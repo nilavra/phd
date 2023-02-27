@@ -1,5 +1,14 @@
 # Results from `PHASE2`: Longitudinal Searching for Writing Research Paper
 
+longitudinal study (cohort study)
+
+Most of the results did not have statistical significance - but that's okay because this is exploratory research, which is inductive, rather than deductive.  https://youtu.be/URz4CAaJqnE
+
+
+We were more interested in discovering interesting patterns.
+We believe the findings from this study will lead to more confirmatory studies.
+
+https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan
 
 All statistical tests are two-tailed Mann-Whitney U test.
 
