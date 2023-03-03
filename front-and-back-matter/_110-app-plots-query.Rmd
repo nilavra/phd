@@ -1,0 +1,210 @@
+# Supplementary Plots - Query Reformulation {#app-plots-query}
+
+<!----------- fig:ResN5894660104957913932 ----------->
+```{r ResN5894660104957913932, fig.scap='(ref:scap-ResN5894660104957913932)', fig.cap = '(ref:cap-ResN5894660104957913932)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN5894660104957913932")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN5894660104957913932) Query Length (Total) – All Task(s).
+
+(ref:scap-ResN5894660104957913932) Query Length (Total) – All Task(s).
+
+<!---- fig:ResN5894660104957913932 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResP6726131652814458688 ----------->
+```{r ResP6726131652814458688, fig.scap='(ref:scap-ResP6726131652814458688)', fig.cap = '(ref:cap-ResP6726131652814458688)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResP6726131652814458688")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResP6726131652814458688) Query Length (Average) – All Task(s).
+
+(ref:scap-ResP6726131652814458688) Query Length (Average) – All Task(s).
+
+<!---- fig:ResP6726131652814458688 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResP7469411730579087048 ----------->
+```{r ResP7469411730579087048, fig.scap='(ref:scap-ResP7469411730579087048)', fig.cap = '(ref:cap-ResP7469411730579087048)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResP7469411730579087048")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResP7469411730579087048) Number of Queries  per Search Task (Total) – All Task(s).
+
+(ref:scap-ResP7469411730579087048) Number of Queries  per Search Task (Total) – All Task(s).
+
+<!---- fig:ResP7469411730579087048 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResN8316003849035045794 ----------->
+```{r ResN8316003849035045794, fig.scap='(ref:scap-ResN8316003849035045794)', fig.cap = '(ref:cap-ResN8316003849035045794)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN8316003849035045794")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN8316003849035045794) Number of New  Queries (Average) – All Task(s).
+
+(ref:scap-ResN8316003849035045794) Number of New  Queries (Average) – All Task(s).
+
+<!---- fig:ResN8316003849035045794 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResN3604624796642370520 ----------->
+```{r ResN3604624796642370520, fig.scap='(ref:scap-ResN3604624796642370520)', fig.cap = '(ref:cap-ResN3604624796642370520)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN3604624796642370520")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN3604624796642370520) Number of Query Generalizations (Average) – All Task(s).
+
+(ref:scap-ResN3604624796642370520) Number of Query Generalizations (Average) – All Task(s).
+
+<!---- fig:ResN3604624796642370520 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResP5443351906342031714 ----------->
+```{r ResP5443351906342031714, fig.scap='(ref:scap-ResP5443351906342031714)', fig.cap = '(ref:cap-ResP5443351906342031714)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResP5443351906342031714")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResP5443351906342031714) Number of Query Specializations (Average) – All Task(s).
+
+(ref:scap-ResP5443351906342031714) Number of Query Specializations (Average) – All Task(s).
+
+<!---- fig:ResP5443351906342031714 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResN4290201084087196149 ----------->
+```{r ResN4290201084087196149, fig.scap='(ref:scap-ResN4290201084087196149)', fig.cap = '(ref:cap-ResN4290201084087196149)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN4290201084087196149")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN4290201084087196149) Number of Word Substitutions  in Queries (Average) – All Task(s).
+
+(ref:scap-ResN4290201084087196149) Number of Word Substitutions  in Queries (Average) – All Task(s).
+
+<!---- fig:ResN4290201084087196149 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResN9056495301645634830 ----------->
+```{r ResN9056495301645634830, fig.scap='(ref:scap-ResN9056495301645634830)', fig.cap = '(ref:cap-ResN9056495301645634830)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN9056495301645634830")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN9056495301645634830) Number of Repeat  Queries (Average) – All Task(s).
+
+(ref:scap-ResN9056495301645634830) Number of Repeat  Queries (Average) – All Task(s).
+
+<!---- fig:ResN9056495301645634830 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResN2968292861275564559 ----------->
+```{r ResN2968292861275564559, fig.scap='(ref:scap-ResN2968292861275564559)', fig.cap = '(ref:cap-ResN2968292861275564559)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN2968292861275564559")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN2968292861275564559) Stationary Entropy  of Query Reformulations for Whole Task – All Task(s).
+
+(ref:scap-ResN2968292861275564559) Stationary Entropy  of Query Reformulations for Whole Task – All Task(s).
+
+<!---- fig:ResN2968292861275564559 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResN634943316862196398 ----------->
+```{r ResN634943316862196398, fig.scap='(ref:scap-ResN634943316862196398)', fig.cap = '(ref:cap-ResN634943316862196398)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN634943316862196398")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN634943316862196398) Stationary Entropy  of Query Reformulations  at Task Beginning – All Task(s).
+
+(ref:scap-ResN634943316862196398) Stationary Entropy  of Query Reformulations  at Task Beginning – All Task(s).
+
+<!---- fig:ResN634943316862196398 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResN6777243644016606483 ----------->
+```{r ResN6777243644016606483, fig.scap='(ref:scap-ResN6777243644016606483)', fig.cap = '(ref:cap-ResN6777243644016606483)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN6777243644016606483")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN6777243644016606483) Stationary Entropy  of Query Reformulations  at Task Middle – All Task(s).
+
+(ref:scap-ResN6777243644016606483) Stationary Entropy  of Query Reformulations  at Task Middle – All Task(s).
+
+<!---- fig:ResN6777243644016606483 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResN6573661794052961083 ----------->
+```{r ResN6573661794052961083, fig.scap='(ref:scap-ResN6573661794052961083)', fig.cap = '(ref:cap-ResN6573661794052961083)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN6573661794052961083")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN6573661794052961083) Stationary Entropy  of Query Reformulations  at Task End – All Task(s).
+
+(ref:scap-ResN6573661794052961083) Stationary Entropy  of Query Reformulations  at Task End – All Task(s).
+
+<!---- fig:ResN6573661794052961083 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResP878771263343515297 ----------->
+```{r ResP878771263343515297, fig.scap='(ref:scap-ResP878771263343515297)', fig.cap = '(ref:cap-ResP878771263343515297)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResP878771263343515297")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResP878771263343515297) Number of Clicks per Query (Average) – All Task(s).
+
+(ref:scap-ResP878771263343515297) Number of Clicks per Query (Average) – All Task(s).
+
+<!---- fig:ResP878771263343515297 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResN2805268620307804410 ----------->
+```{r ResN2805268620307804410, fig.scap='(ref:scap-ResN2805268620307804410)', fig.cap = '(ref:cap-ResN2805268620307804410)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN2805268620307804410")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN2805268620307804410) Number of Clicks per Query (Total) – All Task(s).
+
+(ref:scap-ResN2805268620307804410) Number of Clicks per Query (Total) – All Task(s).
+
+<!---- fig:ResN2805268620307804410 (leave a blank line before this) ------>
+        
+
+
+
+<!----------- fig:ResN5118140679486679749 ----------->
+```{r ResN5118140679486679749, fig.scap='(ref:scap-ResN5118140679486679749)', fig.cap = '(ref:cap-ResN5118140679486679749)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/ResN5118140679486679749")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-ResN5118140679486679749) Number of Clicks per Query (SD) – All Task(s).
+
+(ref:scap-ResN5118140679486679749) Number of Clicks per Query (SD) – All Task(s).
+
+<!---- fig:ResN5118140679486679749 (leave a blank line before this) ------>
+
+

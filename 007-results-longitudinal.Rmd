@@ -1,4 +1,4 @@
-# Results from `PHASE2`: Longitudinal Searching for Writing Research Paper
+# Results: Longitudinal Tracking Phase
 
 longitudinal study (cohort study)
 
@@ -12,7 +12,7 @@ https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan
 
 All statistical tests are two-tailed Mann-Whitney U test.
 
-As the sample sizes were often small, and / or did not match the normality assumptions of parametric tests, we have employed the non-parametric Mann-Whitney U test for all the null-hypothesis testing. This allows easy comparison between different categories of results.
+As the sample sizes were often small, the groups were imbalanced, and / or the data did not match the normality assumptions of parametric tests, we employed the non-parametric Mann-Whitney U test for all the null-hypothesis significance testing reported in this and the next chapter. This allows easy comparison between different categories of results.
 
 
 
@@ -22,34 +22,23 @@ In other words, it is the probability that a score sampled at random from one di
 CLES was first introduced by McGraw and Wong (1992) [TODO]. The Python statistical library employed in data analysis -- Pingouin [@vallat2018pingouin] -- uses a brute-force version of the formula given by Vargha and Delaney 2000 [TODO]:
 The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
 
-In the interest of better presentation and readability of this chapter, more ancillary plots are presented in Appendices \@ref(app-plots-query) and \@ref(app-plots-search).
-
-
-
-## Learning Outcomes
-
-Correlation of SPL with Grades
-
-- self-perceived learning (SPL)
-- grades
-- paired t-tests for SPL with obtained grade
-- CONCLUSION: obtained grades are not good indicators of learning
+<!-- In the interest of better presentation and readability of this chapter, more ancillary plots are presented in Appendices \@ref(app-plots-query) and \@ref(app-plots-search). -->
 
 
 
 
-## Latent Profile Analysis {#sec-res-lpa}
+## Latent Profile Analysis {#sec-res-phase2-lpa}
 
-<!----------- fig:lpa-profile-model-57 ----------->
-```{r lpa-profile-model-57, fig.scap='(ref:scap-lpa-profile-model-57)', fig.cap = '(ref:cap-lpa-profile-model-57)',  echo=FALSE, out.width='100%', fig.align='center'}
-nbShowFig("figs/lpa-profile-model-57")
+<!----------- fig:lpa-profile-means ----------->
+```{r lpa-profile-means, fig.scap='(ref:scap-lpa-profile-means)', fig.cap = '(ref:cap-lpa-profile-means)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/lpa-profile-means")
 ```
 <!-- each text reference needs to be their own single paragraph ! -->
-(ref:cap-lpa-profile-model-57) Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), and self-regulation (SRQ). 
+(ref:cap-lpa-profile-means) Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), self-regulation (SRQ), and a Memory Span task. 
 
-(ref:scap-lpa-profile-model-57) Groups identified by Latent Profile Analysis.
+(ref:scap-lpa-profile-means) Groups identified by Latent Profile Analysis.
 
-<!---- fig:lpa-profile-model-57 (leave a blank line before this) ------>
+<!---- fig:lpa-profile-means (leave a blank line before this) ------>
 
 
 We employed Latent Profile Analysis (LPA) to identify groups (latent profiles) of participants based on their scores on the Intrinsic Motivation Inventory (IMI), Metacognitive Awareness Inventory (MAI), and Self-regulation questionnaire (SRQ).
@@ -57,11 +46,31 @@ We employed Latent Profile Analysis (LPA) to identify groups (latent profiles) o
 LPA is particularly useful when the relationship between variables is not well understood, or when it is difficult to determine which variables should be used to classify individuals into groups.
 
 
-The results of the LPA showed that there were two distinct latent profiles of participants based on their scores on the IMI, MAI, and SRQ: a high group and a low group (Figure \@ref(fig:lpa-profile-model-57)). The high group had generally higher scores on the IMI, MAI, and SRQ compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.
+The results of the LPA showed that there were two distinct latent profiles of participants based on their scores on the IMI, MAI, and SRQ: a high group and a low group (Figure \@ref(fig:lpa-profile-means)). The high group had generally higher scores on the IMI, MAI, and SRQ compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.
 
 <!-- Latent Profile Analysis (LPA) is a statistical technique used to identify unobserved or latent subgroups within a population based on their responses to a set of observed variables.  -->
 
 <!-- LPA is a powerful and flexible tool that can be used to gain insights into complex and multidimensional data, such as information search behavior. -->
+
+
+
+<!----------- fig:lpa-profile-transitions ----------->
+```{r lpa-profile-transitions, fig.scap='(ref:scap-lpa-profile-transitions)', fig.cap = '(ref:cap-lpa-profile-transitions)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/lpa-profile-transitions")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-lpa-profile-transitions) Diagram illustrating, at different timepoints, how participants stayed within their same high/low LPA profiles (green) or changed profiles (orange). Grey trajectories indicate participants who dropped off and did not complete the study.
+
+(ref:scap-lpa-profile-transitions) LPA Profile Transitions.
+
+<!---- fig:lpa-profile-transitions (leave a blank line before this) ------>
+
+
+
+
+
+
+
 
 
 
@@ -112,6 +121,18 @@ Outline (`PHASE2B`)
 Rough Draft (`PHASE2C`)
 
 Final Paper (`PHASE2D`) -->
+
+
+
+
+## Learning Outcomes
+
+Correlation of SPL with Grades
+
+- self-perceived learning (SPL)
+- grades
+- paired t-tests for SPL with obtained grade
+- CONCLUSION: obtained grades are not good indicators of learning
 
 
 
@@ -332,7 +353,7 @@ Repeat must be taken with a grain of salt as repeat behaviour was diffcult to te
 
 
 
-### Entropy of Query Reformulation Types {#sec-res-query-H}
+### Entropy of Query Reformulation Types {#sec-res-phase2-query-H}
 
 In the context of query reformulations, the maximum **transition entropy** $(s \log s)$ can be reached when there is an equal probability of switching between each of the $s = 5$ states, or QRTs (query reformulation types). 
 The minimum transition entropy (0) is achieved in a fully deterministic Markov chain where all transition probabilities are either 1 or 0. 

@@ -3053,8 +3053,17 @@ Similar stationary and transition entropy measures can be obtained for sequences
 
 
 
-\hypertarget{results-from-phase2-longitudinal-searching-for-writing-research-paper}{%
-\chapter{\texorpdfstring{Results from \texttt{PHASE2}: Longitudinal Searching for Writing Research Paper}{Results from PHASE2: Longitudinal Searching for Writing Research Paper}}\label{results-from-phase2-longitudinal-searching-for-writing-research-paper}}
+\hypertarget{results-longitudinal-tracking-phase}{%
+\chapter{Results: Longitudinal Tracking Phase}\label{results-longitudinal-tracking-phase}}
+
+longitudinal study (cohort study)
+
+Most of the results did not have statistical significance - but that's okay because this is exploratory research, which is inductive, rather than deductive. \url{https://youtu.be/URz4CAaJqnE}
+
+We were more interested in discovering interesting patterns.
+We believe the findings from this study will lead to more confirmatory studies.
+
+\url{https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan}
 
 All statistical tests are two-tailed Mann-Whitney U test.
 
@@ -3066,7 +3075,39 @@ In other words, it is the probability that a score sampled at random from one di
 CLES was first introduced by McGraw and Wong (1992) {[}TODO{]}. The Python statistical library employed in data analysis -- Pingouin (\protect\hyperlink{ref-vallat2018pingouin}{Vallat, 2018}) -- uses a brute-force version of the formula given by Vargha and Delaney 2000 {[}TODO{]}:
 The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
 
-In the interest of better presentation and readability of this chapter, more ancillary plots are presented in Appendices \ref{app-plots-query} and \ref{app-plots-search}.
+\hypertarget{sec-res-phase2-lpa}{%
+\section{Latent Profile Analysis}\label{sec-res-phase2-lpa}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figs/lpa-profile-means} 
+
+}
+
+\caption[Groups identified by Latent Profile Analysis.]{Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), self-regulation (SRQ), and a Memory Span task.}\label{fig:lpa-profile-means}
+\end{figure}
+
+
+
+
+
+We employed Latent Profile Analysis (LPA) to identify groups (latent profiles) of participants based on their scores on the Intrinsic Motivation Inventory (IMI), Metacognitive Awareness Inventory (MAI), and Self-regulation questionnaire (SRQ).
+LPA is particularly useful when the relationship between variables is not well understood, or when it is difficult to determine which variables should be used to classify individuals into groups.
+
+The results of the LPA showed that there were two distinct latent profiles of participants based on their scores on the IMI, MAI, and SRQ: a high group and a low group (Figure \ref{fig:lpa-profile-means}). The high group had generally higher scores on the IMI, MAI, and SRQ compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figs/lpa-profile-transitions} 
+
+}
+
+\caption[LPA Profile Transitions.]{Diagram illustrating, at different timepoints, how participants stayed within their same high/low LPA profiles (green) or changed profiles (orange). Grey trajectories indicate participants who dropped off and did not complete the study.}\label{fig:lpa-profile-transitions}
+\end{figure}
+
+
+
+
 
 \hypertarget{learning-outcomes}{%
 \section{Learning Outcomes}\label{learning-outcomes}}
@@ -3084,27 +3125,6 @@ Correlation of SPL with Grades
 \item
   CONCLUSION: obtained grades are not good indicators of learning
 \end{itemize}
-
-\hypertarget{sec-res-lpa}{%
-\section{Latent Profile Analysis}\label{sec-res-lpa}}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/lpa-profile-model-57} 
-
-}
-
-\caption[Groups identified by Latent Profile Analysis.]{Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), and self-regulation (SRQ).}\label{fig:lpa-profile-model-57}
-\end{figure}
-
-
-
-
-
-We employed Latent Profile Analysis (LPA) to identify groups (latent profiles) of participants based on their scores on the Intrinsic Motivation Inventory (IMI), Metacognitive Awareness Inventory (MAI), and Self-regulation questionnaire (SRQ).
-LPA is particularly useful when the relationship between variables is not well understood, or when it is difficult to determine which variables should be used to classify individuals into groups.
-
-The results of the LPA showed that there were two distinct latent profiles of participants based on their scores on the IMI, MAI, and SRQ: a high group and a low group (Figure \ref{fig:lpa-profile-model-57}). The high group had generally higher scores on the IMI, MAI, and SRQ compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.
 
 \hypertarget{q-query-formulations}{%
 \section{Q: Query Formulations}\label{q-query-formulations}}
@@ -3198,8 +3218,8 @@ The highest count of query generalizations during the writing of the rough draft
 The high group may also have been better able to refine their search queries through word substitutions, which peaked while writing the final paper, indicating a greater level of precision and focus in their information seeking behaviour.
 In contrast, the low group had their highest count of repeat queries during the outline and final paper, indicating that they may have had more difficulty finding and retaining relevant information throughout the research process.
 
-\hypertarget{sec-res-query-H}{%
-\subsection{Entropy of Query Reformulation Types}\label{sec-res-query-H}}
+\hypertarget{sec-res-phase2-query-H}{%
+\subsection{Entropy of Query Reformulation Types}\label{sec-res-phase2-query-H}}
 
 In the context of query reformulations, the maximum \textbf{transition entropy} \((s \log s)\) can be reached when there is an equal probability of switching between each of the \(s = 5\) states, or QRTs (query reformulation types).
 The minimum transition entropy (0) is achieved in a fully deterministic Markov chain where all transition probabilities are either 1 or 0.
@@ -3363,8 +3383,8 @@ It is also noteworthy that the low group had a rebound in the number of pages vi
 
 The fact that the total dwell time on webpages followed a similar pattern as the number of pages visited is also interesting. It suggests that the high group spent more time engaging with the content they found, which could have contributed to their better learning outcomes.
 
-\hypertarget{results-from-phase1-and-phase3-repeated-vs-new-search-tasks}{%
-\chapter{\texorpdfstring{Results from \texttt{PHASE1} and \texttt{PHASE3}: Repeated vs New Search Tasks}{Results from PHASE1 and PHASE3: Repeated vs New Search Tasks}}\label{results-from-phase1-and-phase3-repeated-vs-new-search-tasks}}
+\hypertarget{results-repeated-vs-new-search-tasks}{%
+\chapter{Results: Repeated vs New Search Tasks}\label{results-repeated-vs-new-search-tasks}}
 
 Same LPA profiles from Section \ref{sec-res-lpa}.
 
@@ -3386,8 +3406,8 @@ Same LPA profiles from Section \ref{sec-res-lpa}.
 \hypertarget{query-reformulation-types-qrts-1}{%
 \subsection{Query Reformulation Types (QRTs)}\label{query-reformulation-types-qrts-1}}
 
-\hypertarget{sec-res-query-H}{%
-\section{Entropy Analysis of Querying Behaviour}\label{sec-res-query-H}}
+\hypertarget{sec-res-phase13-query-H}{%
+\section{Entropy Analysis of Querying Behaviour}\label{sec-res-phase13-query-H}}
 
 \hypertarget{discussion}{%
 \chapter{Discussion}\label{discussion}}
@@ -4794,220 +4814,6 @@ Take about 5 minutes to complete this task. Turn YASBIL on before proceeding.
 \item
   Please paste the URLs to the webpages you used to explain your answer above, one per line.
 \end{enumerate}
-
-\hypertarget{app-plots-query}{%
-\chapter{Supplementary Plots - Query Reformulation}\label{app-plots-query}}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN5894660104957913932} 
-
-}
-
-\caption[Query Length (Total) -- All Task(s).]{Query Length (Total) -- All Task(s).}\label{fig:ResN5894660104957913932}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResP6726131652814458688} 
-
-}
-
-\caption[Query Length (Average) -- All Task(s).]{Query Length (Average) -- All Task(s).}\label{fig:ResP6726131652814458688}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResP7469411730579087048} 
-
-}
-
-\caption[Number of Queries per Search Task (Total) -- All Task(s).]{Number of Queries per Search Task (Total) -- All Task(s).}\label{fig:ResP7469411730579087048}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN8316003849035045794} 
-
-}
-
-\caption[Number of New Queries (Average) -- All Task(s).]{Number of New Queries (Average) -- All Task(s).}\label{fig:ResN8316003849035045794}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN3604624796642370520} 
-
-}
-
-\caption[Number of Query Generalizations (Average) -- All Task(s).]{Number of Query Generalizations (Average) -- All Task(s).}\label{fig:ResN3604624796642370520}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResP5443351906342031714} 
-
-}
-
-\caption[Number of Query Specializations (Average) -- All Task(s).]{Number of Query Specializations (Average) -- All Task(s).}\label{fig:ResP5443351906342031714}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN4290201084087196149} 
-
-}
-
-\caption[Number of Word Substitutions in Queries (Average) -- All Task(s).]{Number of Word Substitutions in Queries (Average) -- All Task(s).}\label{fig:ResN4290201084087196149}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN9056495301645634830} 
-
-}
-
-\caption[Number of Repeat Queries (Average) -- All Task(s).]{Number of Repeat Queries (Average) -- All Task(s).}\label{fig:ResN9056495301645634830}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN2968292861275564559} 
-
-}
-
-\caption[Stationary Entropy of Query Reformulations for Whole Task -- All Task(s).]{Stationary Entropy of Query Reformulations for Whole Task -- All Task(s).}\label{fig:ResN2968292861275564559}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN634943316862196398} 
-
-}
-
-\caption[Stationary Entropy of Query Reformulations at Task Beginning -- All Task(s).]{Stationary Entropy of Query Reformulations at Task Beginning -- All Task(s).}\label{fig:ResN634943316862196398}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN6777243644016606483} 
-
-}
-
-\caption[Stationary Entropy of Query Reformulations at Task Middle -- All Task(s).]{Stationary Entropy of Query Reformulations at Task Middle -- All Task(s).}\label{fig:ResN6777243644016606483}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN6573661794052961083} 
-
-}
-
-\caption[Stationary Entropy of Query Reformulations at Task End -- All Task(s).]{Stationary Entropy of Query Reformulations at Task End -- All Task(s).}\label{fig:ResN6573661794052961083}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResP878771263343515297} 
-
-}
-
-\caption[Number of Clicks per Query (Average) -- All Task(s).]{Number of Clicks per Query (Average) -- All Task(s).}\label{fig:ResP878771263343515297}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN2805268620307804410} 
-
-}
-
-\caption[Number of Clicks per Query (Total) -- All Task(s).]{Number of Clicks per Query (Total) -- All Task(s).}\label{fig:ResN2805268620307804410}
-\end{figure}
-
-
-
-
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResN5118140679486679749} 
-
-}
-
-\caption[Number of Clicks per Query (SD) -- All Task(s).]{Number of Clicks per Query (SD) -- All Task(s).}\label{fig:ResN5118140679486679749}
-\end{figure}
-
-
-
-
-
-\hypertarget{app-plots-search}{%
-\chapter{Supplementary Plots - Search Behaviour}\label{app-plots-search}}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/ResP5183239600404564866} 
-
-}
-
-\caption[Stationary Entropy of Search Tactics at Task Middle -- All Task(s).]{Stationary Entropy of Search Tactics at Task Middle -- All Task(s).}\label{fig:ResP5183239600404564866}
-\end{figure}
-
-
-
-
 
 \hypertarget{sec-app-ack}{%
 \chapter{Acknowledgements - The PhD Journey}\label{sec-app-ack}}

@@ -1,4 +1,4 @@
-# Results from `PHASE1` and `PHASE3`: Repeated vs New Search Tasks
+# Results: Repeated vs New Search Tasks
 
 
 Same LPA profiles from Section \@ref(sec-res-lpa).
@@ -16,4 +16,4 @@ Same LPA profiles from Section \@ref(sec-res-lpa).
 
 ### Query Reformulation Types (QRTs)
 
-## Entropy Analysis of Querying Behaviour {#sec-res-query-H}
+## Entropy Analysis of Querying Behaviour {#sec-res-phase13-query-H}
