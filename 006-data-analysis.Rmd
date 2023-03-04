@@ -230,3 +230,7 @@ nbShowFig("figs/ResP4650362619704565728")
 
 <!---- fig:ResP4650362619704565728 (leave a blank line before this) ------>
 
+
+<!-- 
+rp2-learning-search-outcomes
+ -->

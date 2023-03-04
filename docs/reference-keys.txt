@@ -20,6 +20,8 @@ fig:data-analysis-framework
 fig:ResP4650362619704565728
 fig:lpa-profile-means
 fig:lpa-profile-transitions
+fig:rp2-learning-search-outcomes
+fig:rp2-query-length-count
 introduction
 sec-intro-overview
 sec-intro-problem-statement
@@ -98,10 +100,9 @@ combining-individual-differences-with-search-logs
 entropy-analyses-of-search-behaviour-sequences
 results-longitudinal-tracking-phase
 sec-res-phase2-lpa
-learning-outcomes
+learning-and-search-outcomes
 q-query-formulations
-length-of-queries
-number-of-queries-per-search-task
+length-and-count-of-queries-per-search-task
 query-reformulation-types-qrts
 sec-res-phase2-query-H
 l-interaction-with-search-results-source-selection-item-selection
@@ -115,10 +116,10 @@ non-scholarly-normal-content-pages
 entropy-of-search-tactic-sequences
 search-result-pages-vs-content-pages
 results-repeated-vs-new-search-tasks
-learning-outcomes-1
+learning-outcomes
 querying-behaviour
-length-of-queries-1
-number-of-queries-per-search-task-1
+length-of-queries
+number-of-queries-per-search-task
 number-of-clicks-per-query-1
 query-reformulation-types-qrts-1
 sec-res-phase13-query-H

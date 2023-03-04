@@ -3067,11 +3067,11 @@ We believe the findings from this study will lead to more confirmatory studies.
 
 All statistical tests are two-tailed Mann-Whitney U test.
 
-As the sample sizes were often small, and / or did not match the normality assumptions of parametric tests, we have employed the non-parametric Mann-Whitney U test for all the null-hypothesis testing. This allows easy comparison between different categories of results.
+As the sample sizes were often small, the groups were imbalanced, and / or the data did not match the normality assumptions of parametric tests, we employed the non-parametric Mann-Whitney U test for all the null-hypothesis significance testing reported in this and the next chapter. This allows easy comparison between different categories of results.
 
 Additionally, we also report Common Language Effect Size (CLES) for each statistical test result.
 The common language effect size is the proportion of pairs where \(x\) is higher than \(y\).
-In other words, it is the probability that a score sampled at random from one distribution will be greater than a score sampled from some other distribution.
+In other words, it is the probability that a score sampled at random from the first distribution will be greater than a score sampled from the second distribution.
 CLES was first introduced by McGraw and Wong (1992) {[}TODO{]}. The Python statistical library employed in data analysis -- Pingouin (\protect\hyperlink{ref-vallat2018pingouin}{Vallat, 2018}) -- uses a brute-force version of the formula given by Vargha and Delaney 2000 {[}TODO{]}:
 The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
 
@@ -3091,10 +3091,10 @@ The advantage is of this method are twofold. First, the brute-force approach pai
 
 
 
-We employed Latent Profile Analysis (LPA) to identify groups (latent profiles) of participants based on their scores on the Intrinsic Motivation Inventory (IMI), Metacognitive Awareness Inventory (MAI), and Self-regulation questionnaire (SRQ).
+We employed Latent Profile Analysis (LPA) to identify groups (latent profiles) of participants based on their scores on the Intrinsic Motivation Inventory (IMI), Metacognitive Awareness Inventory (MAI), Self-regulation questionnaire (SRQ), and Memory Span (MS) task.
 LPA is particularly useful when the relationship between variables is not well understood, or when it is difficult to determine which variables should be used to classify individuals into groups.
 
-The results of the LPA showed that there were two distinct latent profiles of participants based on their scores on the IMI, MAI, and SRQ: a high group and a low group (Figure \ref{fig:lpa-profile-means}). The high group had generally higher scores on the IMI, MAI, and SRQ compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.
+The results of the LPA showed that there were two distinct groups (latent profiles) of participants based on their scores on the IMI, MAI, SRQ, and MS: a high group and a low group (Figure \ref{fig:lpa-profile-means}). The high group had generally higher average scores on the IMI, MAI, SRQ, and MS compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.
 
 \begin{figure}
 
@@ -3109,62 +3109,86 @@ The results of the LPA showed that there were two distinct latent profiles of pa
 
 
 
-\hypertarget{learning-outcomes}{%
-\section{Learning Outcomes}\label{learning-outcomes}}
+Figure \ref{fig:lpa-profile-transitions} illustrates the memberships in the two groups at different points in time, and how one participant (\texttt{P016\_AUSTIN}) changed group membership at the end of the semester.
+12 participants started off the semester (\texttt{QSNR1}) in the high group, while 4 in the low group.
+The group membership remained the same in the middle of the semester (\texttt{QSNR2}).
+At semester end, 4 participants from the high group and 2 participant from the low group dropped off.
+One participant transitioned from high group to low group.
+This resulted in 7 participants in the high group and 3 participant in the low group, with no data for 6 participants at the semester end timepoint (\texttt{QSNR3})
 
-Correlation of SPL with Grades
+Henceforth, in the discussion, all the \textbf{Effect Sizes (ES)} reported as part of Mann Whitney U test compare the scores of the low group (first distribution) with those of the high group (second distribution).
+In other words, an example effect size \(ES=0.19\) means that there is a 19\% chance that a score from the low group will be greater than the corresponding score from the high group.
 
-\begin{itemize}
-\tightlist
-\item
-  self-perceived learning (SPL)
-\item
-  grades
-\item
-  paired t-tests for SPL with obtained grade
-\item
-  CONCLUSION: obtained grades are not good indicators of learning
-\end{itemize}
+\hypertarget{learning-and-search-outcomes}{%
+\section{Learning and Search Outcomes}\label{learning-and-search-outcomes}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figs/rp2-learning-search-outcomes} 
+
+}
+
+\caption[Self-reported learning and search outcomes, and grades received in the longitudinal phase.]{Self-reported learning and search outcomes (a, b), and instructor assigned grades for the high and low groups (c).}\label{fig:rp2-learning-search-outcomes}
+\end{figure}
+
+
+
+
+
+Figure \ref{fig:rp2-learning-search-outcomes} shows the mean values of the self-reported (perceived) learning outcomes (a), self-reported search outcome (b), and instructor assigned grades (c) for the Ethical Dilemma research paper writing task over the semester.
+The self-reported learning and search outcomes are inspired from work by Collins-Thompson et al. (\protect\hyperlink{ref-collins2016assessing}{2016}).
+
+We see that the high group had higher levels of perceived learning outcome and perceived search outcome compared to the low group, and these differences were statistically significant: \((U = 115.0, p = .0005, ES = 0.19)\) for the learning outcome, and \((U = 151.0, p = .005, ES = 0.25)\) for the search outcome.
+(The effect sizes indicate the probability that a value chosen at random from the low group's scores will be greater than a value chosen at random from the high group's scroes.)
+
+The fact that the high group had statistically significant higher self-reported learning outcomes and self-reported search outcomes suggests that these students may have had a higher level of motivation, self-regulation, and better time management skills than the low group.
+This is because students who are motivated and self-regulated tend to be more efficient and effective in their information searching behaviours, which in turn may lead to better learning outcomes.
+Additionally, the high group may have been better at managing their time and resources, which would allow them to engage in more thorough and comprehensive information searching activities.
+
+The instructor assigned grades for the high group also generally stayed higher than the low group (except for the Proposal stage). However, the differences were small.
+This may indicate that the instructors' grading criteria may not have fully captured the impact of information searching behaviours on learning outcomes.
+This is because the instructor's grading criteria may have been focused more on the content of the research paper, rather than the process of information searching. As a result, students who were more effective in their information searching behaviours may not have received a higher grade, even if their research paper was of higher quality.
+Another possibility is that the grading process may have been liberal towards the students.
+
+Collins-Thompson et al. (\protect\hyperlink{ref-collins2016assessing}{2016}) reported that ``searchers' perceived learning outcomes closely matched their actual learning outcomes'' and this was also indirectly correlated with their information search behaviours in terms of dwell time on documents.
+Let us examine in the following sections how the findings from the LongSAL study compare and contrast with those reported by Collins-Thompson et al. (\protect\hyperlink{ref-collins2016assessing}{2016}) and others.
 
 \hypertarget{q-query-formulations}{%
 \section{Q: Query Formulations}\label{q-query-formulations}}
 
-\hypertarget{length-of-queries}{%
-\subsection{Length of Queries}\label{length-of-queries}}
+\hypertarget{length-and-count-of-queries-per-search-task}{%
+\subsection{Length and Count of Queries per Search Task}\label{length-and-count-of-queries-per-search-task}}
 
-ResP3914747988879627169 \textbar{} ResN7152194718394476899
+\begin{figure}
 
-Query length was operationalized as the number of terms (words separated by spaces) in the search query that participants submitted to the search engines or other information retrieval sites.
+{\centering \includegraphics[width=1\linewidth]{figs/rp2-query-length-count} 
+
+}
+
+\caption[Query length and counts -- longitudinal phase.]{Lengths and count of queries for each search task in the Longitudinal Phase.}\label{fig:rp2-query-length-count}
+\end{figure}
+
+
+
+
+
+\textbf{Query length} was operationalized as the number of terms (words separated by spaces) in the search query that participants submitted to the search engines or other information retrieval sites.
 Query length can vary from a single word to several phrases or a full sentence.
 Longer search queries may indicate a more specific or complex information need, while shorter search queries may be more general or broad in scope.
-
-The average length of queries issued by the two groups was not very different during the Proposal (\texttt{PHASE2A}), Outline (\texttt{PHASE2B}), and Final Paper (\texttt{PHASE2D}) (Figure ResP3914747988879627169).
-However, the difference in average query length between the two groups was almost significant during the Rough Draft stage (\texttt{PHASE2C}), with the low group issuing around 8 words per query, whereas the high group issuing about 4 words per query.
-
-The total query length for the low group increased monotonically over the semester during (Figure \ref{fig:ResN7152194718394476899}), with the longest queries being issued by this group before the Final Paper submission phase (\texttt{PHASE2D}).
-On the other hand, queries from the high group were the longest during the Outline phase (\texttt{PHASE2B}), and then it decreased in the subsequent phases.
-This indicates that the high group, with higher levels of motivation, metacognition, and self-regulation, were planning ahead in the early parts of the semester to find their references.
-On the other hand, the low group, with lower levels of those traits, possibly demonstrated a tendency to procrastinate or delay their work until the final paper.
-A quote from participant \texttt{P006\_HANOI} illustrates this phenomenon:
-
-\begin{quote}
-\emph{``so far for this rough draft I haven't actually had to google anything since I downloaded everything into pdfs during the outline stage and haven't needed any new material so far.''}
-
-\hfill --- P006\_HANOI
-\end{quote}
-
-\hypertarget{number-of-queries-per-search-task}{%
-\subsection{Number of Queries per Search Task}\label{number-of-queries-per-search-task}}
-
-While
-
-Number of queries per search task refers to the number of separate queries or search attempts that a participant issued in order to complete a task.
+\textbf{Count of queries} per search task refers to the number of separate queries or search attempts that a participant issued in order to complete a task.
 This measure may vary depending on the complexity of the information need, the user's level of expertise with the search system, and other factors.
 
-The number of queries issued per task (Figure \ref{fig:ResP8027181930754266114}) followed a similar pattern as the total query length (Figure \ref{fig:ResN7152194718394476899}).
-The low group issued a steadily increasing number of queries as they progressed through the semester, from the Proposal to the Final Paper phase, overtaking the high group at the Outline phase.
-Additionally, as their average query length was quite low while writing the Final Paper, it appears they were issuing a large number of small queries, indicating signs of struggling or exploring.
-In contrast, the high group decreased their query submissions after the Outline phase, signifying they may have already collected the information they need in the earlier parts of the semester.
+Figure \ref{fig:rp2-query-length-count} (a) and (b) shows the differences in total and average query length of the high and low groups, while Figure \ref{fig:rp2-query-length-count} (c) illustrates the number of queries issued, at different stages of writing the research paper.
+The low group demonstrated a zig-zag pattern in their \textbf{total query length}, and \textbf{query count}, over the duration of the semester, with a low start at proposal, followed by a peak at outline, a dip at rough draft, and again a peak at Final Paper.
+The high group had a steady increase in total query length and query count, from proposal to outline to rough draft, and took a very gentle dip (or remained steady) at final paper stage.
+Comparing the total query length and query count to the \textbf{average query length} (Figure \ref{fig:rp2-query-length-count} (b)), we see that the high group maintained a steady 4-5 terms per query throughout the semester, whereas the low group had a jump to more than 10 terms per query in the rough draft stage.
+
+The low group issued a small number of short queries in the proposal, then a higher number of short queries during the outline, followed by an even smaller number of very long queries during the rough draft, and then a very large number of short queries during the final paper phase.
+On the other hand, the high group kept issuing an increasing number of similar-length (short) queries throughout the semester.
+
+Combining these results we can posit that the low group demonstrated signs of struggling throughout the semester (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014}).
+These students may have struggled to effectively search for information at the beginning of the semester, but then increased their search efforts as the deadlines approached. The fact that they issued a smaller number of very long queries during the rough draft phase may indicate that they were not able to effectively refine their search strategies to find more relevant and useful information.
+In contrast, the high group's pattern of issuing an increasing number of similar-length (short) queries throughout the semester suggests that these students may have had a more consistent and effective search strategy. They may have been better able to refine their search strategies over time, which allowed them to find more relevant and useful information throughout the different stages of the research paper writing process.
 
 \hypertarget{query-reformulation-types-qrts}{%
 \subsection{Query Reformulation Types (QRTs)}\label{query-reformulation-types-qrts}}
@@ -3388,17 +3412,17 @@ The fact that the total dwell time on webpages followed a similar pattern as the
 
 Same LPA profiles from Section \ref{sec-res-lpa}.
 
-\hypertarget{learning-outcomes-1}{%
-\section{Learning Outcomes}\label{learning-outcomes-1}}
+\hypertarget{learning-outcomes}{%
+\section{Learning Outcomes}\label{learning-outcomes}}
 
 \hypertarget{querying-behaviour}{%
 \section{Querying Behaviour}\label{querying-behaviour}}
 
-\hypertarget{length-of-queries-1}{%
-\subsection{Length of Queries}\label{length-of-queries-1}}
+\hypertarget{length-of-queries}{%
+\subsection{Length of Queries}\label{length-of-queries}}
 
-\hypertarget{number-of-queries-per-search-task-1}{%
-\subsection{Number of Queries per Search Task}\label{number-of-queries-per-search-task-1}}
+\hypertarget{number-of-queries-per-search-task}{%
+\subsection{Number of Queries per Search Task}\label{number-of-queries-per-search-task}}
 
 \hypertarget{number-of-clicks-per-query-1}{%
 \subsection{Number of Clicks per Query}\label{number-of-clicks-per-query-1}}
