@@ -3175,7 +3175,7 @@ Let us examine in the following sections how the findings from the LongSAL study
 \textbf{Query length} was operationalized as the number of terms (words separated by spaces) in the search query that participants submitted to the search engines or other information retrieval sites.
 Query length can vary from a single word to several phrases or a full sentence.
 Longer search queries may indicate a more specific or complex information need, while shorter search queries may be more general or broad in scope.
-\textbf{Count of queries} per search task refers to the number of separate queries or search attempts that a participant issued in order to complete a task.
+\textbf{Queries count} per search task refers to the number of separate queries or search attempts that a participant issued in order to complete a task.
 This measure may vary depending on the complexity of the information need, the user's level of expertise with the search system, and other factors.
 
 Figure \ref{fig:rp2-query-length-count} (a) and (b) shows the differences in total and average query length of the high and low groups, while Figure \ref{fig:rp2-query-length-count} (c) illustrates the number of queries issued, at different stages of writing the research paper.
@@ -3193,6 +3193,19 @@ In contrast, the high group's pattern of issuing an increasing number of similar
 \hypertarget{query-reformulation-types-qrts}{%
 \subsection{Query Reformulation Types (QRTs)}\label{query-reformulation-types-qrts}}
 
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figs/rp2-qrt} 
+
+}
+
+\caption[Query reformulation counts for longitudinal phase.]{Number of different query reformulation types (QRTs) as per taxonomy proposed by C. Liu et al. (\protect\hyperlink{ref-liu2010analysis}{2010}).}\label{fig:rp2-qrt}
+\end{figure}
+
+
+
+
+
 Query reformulation refers to the process of modifying or refining a search query in order to improve the relevance of search results and better match the user's information needs (Section \ref{sec-bg-search-query}).
 Query reformulation typically occurs due to a searcher's improved understanding of how to better translate their information need into a search query.
 Using the taxonomy proposed by C. Liu et al. (\protect\hyperlink{ref-liu2010analysis}{2010}) (Figure \ref{fig:res-Q-QRT-txnmy}), we classified each previous-next query pair issued by participants into one of the five query reformulation types (QRTs):
@@ -3203,44 +3216,36 @@ Word Substitution,
 and
 Repeat.
 
-We faced a challenge in disentangling \textbf{Repeat} queries from ``hub-and-spoke'' behaviour, where the user goes back and forth between the SERP and a content page by using the browser's forward and back buttons \footnote{The SERP is the hub, which represents the initial point of inquiry, while the spokes represent the subsequent branches of exploration along different content pages. This search behaviour is often used when users have a general idea of the topic they are interested in, but need to explore different facets of the topic to narrow down their search and find relevant information.}.
+We faced a challenge in disentangling \textbf{Repeat} queries from ``hub-and-spoke'' behaviour, where the user goes back and forth between a SERP and different content page by using the browser's forward and back buttons \footnote{The SERP is the hub, which represents the initial point of inquiry, while the spokes represent the subsequent branches of exploration along different content pages. This search behaviour is often used when users have a general idea of the topic they are interested in, but need to explore different facets of the topic to narrow down their search and find relevant information.}.
 Each back button press on the browser (to go back to the SERP from a content page) meant a fresh HTTP GET request was sent to the search engine.
 This resulted in YASBIL logging the move as a resubmission of the query.
 So for the discussions that follows, \textbf{``Repeat'' refers to repeat queries combined with hub-and-spoke behaviour.}.
 
-The low group, in general issued more New queries, Generalizations, and Repeat queries (combined with hub-and-spoke moves) than the high group.
-On the other hand, the high group had more specializations and word substitutions in their queries than the low group.
-The differences in Generalizations \((U = 218.0, p = .07, ES = 0.67)\)
-and Repeat queries \((U = 233.0, p = .05, ES = 0.69)\)
-were approaching statistical significance.
-The trend in these reformulation counts across the semester are illustrated in Figures
+The counts of the five QRTs are presented in Figures \ref{fig:rp2-qrt} (a) through (e).
+For the low group, the trend of counts followed similarly from their trends of query counts and total query lengths (Figures \ref{fig:rp2-query-length-count} (a) and (c)), with varying intensities: alternating between high and low values at successive points in the semester.
+For the high group, except Query Generalizations -- which followed a zig-zag pattern -- all the other QRTs showed an overall increase in count throughout the semester.
 
-\begin{itemize}
-\tightlist
-\item
-  ResP4758332161906858406 New
-\item
-  ResP4519777880393782433 Generalization
-\item
-  ResP8890916105505948535 Specialization
-\item
-  ResP3490778183579127133 Word Substitution
-\item
-  ResP6961499846675834400 Repeat
-\end{itemize}
+The high group issued the most number of new queries and generalized queries while writing the rough draft, whereas they had the highest number of specializations and word substitutions while writing the final paper.
+The low group, on the other hand, had their lowest number of all types of QRTs, except repeat, while writing the rough draft.
+The most interesting is the trend of Query Generalizations (Figure \ref{fig:rp2-qrt}(b)), where the high group and low group demonstrated diametrically opposite behaviour: maxima at outline and final paper for the low group, whereas minima at those stages for the high group.
+The high group also had significantly less number of repeat queries (or hub and spoke behaviour) throughout the semester, compared to the low group \((U = 228.0, p = .02, ES = 0.74)\).
 
-The low group had their highest counts of most query reformulation types while writing the final paper.
-This suggests that students may have struggled to narrow down and refine their search queries when working on the final paper, perhaps due to the complexity and depth of the research required for this task.
-The low group may have had more difficulty refining and targeting their search queries, resulting in more new and repeated queries as they searched for information.
-They may also have had more difficulty with the conceptualization of their research question or topic, leading to more generalizations and specializations in their queries.
+The low group's fewer counts of all QRTs while writing the rough draft suggests that they may have struggled to effectively reformulate their queries throughout the different stages of the research paper writing process, perhaps due to the complexity and depth of the research required for the tasks.
+The low group may have had more difficulty refining and targeting their search queries, resulting in more new and repeated queries at the final stage of the paper writing process.
+They may also have had more difficulty with the conceptualization of their research question or topic, leading to more generalizations and fewer specializations in their queries.
+Additionally, their higher number of repeat queries (or hub and spoke behaviour) may indicate that they were relying on a limited set of sources or search terms, which may have limited their ability to find new and relevant information.
 
 The high group, however, had a different pattern of query reformulation compared to the low group.
-They had their most count of new queries during the Outline phase, most generalizations in the Rough Draft Phase, and most specialization, word substitutions, and repeat queries while the Final Paper.
+They had their highest counts of new queries and query generalizations in the Rough Draft Phase, and most specialization, word substitutions, and repeat queries while writing the Final Paper.
 This indicates that their queries were more exploratory in the early part of the semester, and became more precise and refined in the later parts of the semester.
 They may have been more proactive in identifying new avenues for research earlier in the semester.
 The highest count of query generalizations during the writing of the rough draft may suggest that they were better able to synthesize and generalize information from their sources at an earlier stage in the writing process.
 The high group may also have been better able to refine their search queries through word substitutions, which peaked while writing the final paper, indicating a greater level of precision and focus in their information seeking behaviour.
 In contrast, the low group had their highest count of repeat queries during the outline and final paper, indicating that they may have had more difficulty finding and retaining relevant information throughout the research process.
+
+We posit that the high group may have been more effective in their query reformulation strategies.
+Specifically, the high group may have been better able to identify new information needs as they worked on the rough draft, and then refine and specialize their queries as they worked on the final paper.
+This ability to adapt and refine their queries may have allowed them to find more relevant and useful information, which in turn may have contributed to their higher self-perceived learning and search outcomes.
 
 \hypertarget{sec-res-phase2-query-H}{%
 \subsection{Entropy of Query Reformulation Types}\label{sec-res-phase2-query-H}}
@@ -3599,6 +3604,9 @@ By using Latent Profile Analysis to group participants based on their self-repor
 Using a longitudinal design with with stages of writing (proposal, outline, rough draft, and final paper) also allows us to examine how these factors and behaviors might change over time and how they might relate to each other at different stages of the writing process.
 
 Overall, the study has the potential to provide valuable insights into the complex interplay between individual differences, information searching behaviors, and learning outcomes in the context of research paper writing.
+
+QRTs
+Overall, these findings suggest that effective query reformulation strategies may be an important factor in achieving better self-perceived learning and search outcomes among undergraduate students writing research papers. Future research could explore the specific techniques and strategies that are most effective in promoting effective query reformulation among undergraduate students.
 
 \hypertarget{summary-of-results-1}{%
 \section{Summary of Results}\label{summary-of-results-1}}

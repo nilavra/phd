@@ -22,6 +22,7 @@ fig:lpa-profile-means
 fig:lpa-profile-transitions
 fig:rp2-learning-search-outcomes
 fig:rp2-query-length-count
+fig:rp2-qrt
 introduction
 sec-intro-overview
 sec-intro-problem-statement
