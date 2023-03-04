@@ -23,6 +23,7 @@ fig:lpa-profile-transitions
 fig:rp2-learning-search-outcomes
 fig:rp2-query-length-count
 fig:rp2-qrt
+fig:rp2-qrt-entropy
 introduction
 sec-intro-overview
 sec-intro-problem-statement
@@ -98,7 +99,7 @@ url-categorization
 active-tab-identification
 identifying-levels-of-search-activity
 combining-individual-differences-with-search-logs
-entropy-analyses-of-search-behaviour-sequences
+sec-analysis-entropy
 results-longitudinal-tracking-phase
 sec-res-phase2-lpa
 learning-and-search-outcomes

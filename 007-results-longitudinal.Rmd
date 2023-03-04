@@ -470,18 +470,81 @@ Repeat must be taken with a grain of salt as repeat behaviour was diffcult to te
 
 ### Entropy of Query Reformulation Types {#sec-res-phase2-query-H}
 
-In the context of query reformulations, the maximum **transition entropy** $(s \log s)$ can be reached when there is an equal probability of switching between each of the $s = 5$ states, or QRTs (query reformulation types). 
-The minimum transition entropy (0) is achieved in a fully deterministic Markov chain where all transition probabilities are either 1 or 0. 
+<!----------- fig:rp2-qrt-entropy ----------->
+```{r rp2-qrt-entropy, fig.scap='(ref:scap-rp2-qrt-entropy)', fig.cap = '(ref:cap-rp2-qrt-entropy)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp2-qrt-entropy")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp2-qrt-entropy) Stationary and transition entropies of query reformulation type (QRT) sequences.
+
+(ref:scap-rp2-qrt-entropy) Entropy of Query Reformulation Types for the Longitudinal Phase.
+
+<!---- fig:rp2-qrt-entropy (leave a blank line before this) ------>
+
+
+As introduced in Section \@ref(sec-analysis-entropy), we carried out entropy analysis of query reformulation sequences produced by the participants.
+In the context of query reformulations, the maximum **transition entropy**, $(s \log s)$, can be reached when there is an equal probability of switching between each of the $s = 5$ states, or QRTs (query reformulation types). 
+The minimum transition entropy (0) is achieved in a fully deterministic Markov chain, where all transition probabilities are either 1 or 0. 
 This means that with a higher transition entropy there is more randomness in the participant's transitions between different QRTs. 
 This randomness is an indication that the participants do not have a clear progression from one QRT to another. 
 On the other hand, a lower transition entropy indicates that the participant's transition between QRTs are highly predictable.
 **Stationary entropy** is calculated from the distribution of QRTs. 
 A higher stationary entropy value indicates that the QRTs were used uniformly, while a lower stationary entropy indicates that some QRTs are preferred over others. 
-Values of stationary entropy vary between 0 and $(\log s)$, where $s$ is the number of possible states (QRTs)^[The explanation is adapted from @he2016beyond].
-All the entropy values were normalized by their theoretical maximums, for equivalent comparison across different tasks.
+Values of stationary entropy vary between 0 and $(\log s)$, where $s$ is the number of possible states (QRTs)^[This explanation is adapted from @he2016beyond].
+All the entropy values presented in this chapter were normalized by their theoretical maximums, for equivalent comparison across different tasks.
 
 
-<!-- We computed the transition and stationary entropies of query reformulation types for  
+
+The transition entropy of query reformulations followed interesting patterns for the low and high groups (Figure \@ref(fig:rp2-qrt-entropy)(a)). 
+The low group had a V-shaped pattern showing a decrease in transition entropy from proposal to outline, then an increase from outline to rough draft to final paper. 
+On the other hand, the high group had a zig-zag pattern, with low transition entropy during the proposal, an increase during the outline, a decrease during the rough draft, and then another increase during the final paper. 
+This indicates that the low group had the least randomness in query reformulation strategies during the outline, while the high group had the most randomness at this stage. 
+Subsequently, the randomness in the high group decreased, whereas that in low group increased.
+This suggests that during the outline stage, the low group had a more structured approach to query reformulations, compared to the high group. 
+However, as the semester progressed, the low group's approach became more random, while the high group's approach became structured. 
+These pattern suggests that the low group may have struggled to adapt their query reformulation strategies as they moved through the different stages of writing the paper, while the high group was more able to adjust their strategies and maintain a predictable structure in their approach.
+
+
+
+
+The stationary entropy of query reformulations of the low and high groups varied over the different phases of the research paper writing process as well (Figure \@ref(fig:rp2-qrt-entropy)(b)). 
+The low group's stationary entropy reached its maximum value at the outline phase, whereas that for the high group became maximum at the rough draft phase.
+This indicates that these two groups had distinct information searching behaviours throughout the writing process.
+The low group tried out all possible types of query reformulations during the outline (as we saw from the query reformulation counts), and then settled on using repeat queries (or hub and spoke behaviour) more, during the rough draft phase. 
+This lowered their stationary entropy at the rough draft phase, and may have limited their ability to find new and relevant information during the later stages of the writing process.
+
+
+In contrast, the high group employed all the types query reformulations with equal probability during rough draft phase (Figure \@ref(rp2-qrt)), resulting in a higher stationary entropy value.
+The increase in the high group's stationary entropy from outline to rough suggests that they were exploring a broader range of topics and concepts at this stage of the writing process, which may have allowed them to identify more relevant and useful information.
+The subsequent decrease in stationary entropy from rough draft to final paper suggests that they were able to narrow down their focus and consolidate their understanding of the subject-matter as they progressed, which may have contributed to their higher self-perceived learning and search outcomes.
+
+
+
+<!-- 
+TODO SUMMARY: Overall, these findings suggest that there may be benefits to adopting a more exploratory and adaptive approach to information searching during the early stages of the research paper writing process, followed by a more focused and targeted approach as the writing process progresses. Future research could explore the specific strategies and techniques that are most effective in promoting this kind of adaptive and effective information searching behaviour among undergraduate students. 
+-->
+
+
+
+
+
+
+
+<!-- 
+
+
+The low group's approach varied more depending on the stage of the writing process, and thus they employed all the different types query reformulations uniformly (i.e. with equal probabilities). 
+The 
+
+was trying out all the query reformulation types as the semester progressed, whereas the
+
+maintained a more consistent approach to their information searching behaviour, and thus preferred some query reformulation types more over others.
+The high group's 
+
+
+
+
+We computed the transition and stationary entropies of query reformulation types for  
  the entire task duration, as well as for the beginning one-third, middle one-third, and end one-third of each task duration for each participant. 
  
 The results are discussed in the following sections. 
@@ -499,15 +562,7 @@ subsequently, the chaos in high group decreased, whereas that in low group incre
 
 -->
 
-The transition entropy of query reformulations followed interesting patterns for the low and high groups (Figure \@ref(fig:TODO)). 
-The low group had a "V" pattern showing a decrease in transition entropy from proposal to outline, then an increase from outline to rough draft to final paper. 
-On the other hand, the high group had a "ziag-zag" pattern with low transition entropy during the proposal, an increase during the outline, a decrease during the rough draft, and then another increase during the final paper. 
-The difference was almost significant over the entire duration of the task $(U = 121, p = .054, ES = 0.32)$.
-This indicates that the low group had the least randomness in query reformulation strategies during outline, while the high group had the most randomness at this stage. 
-Subsequently, the randomness in the high group decreased, whereas that in low group increased.
-This suggests that during the outline stage, the low group had a more structured approach to query reformulations, compared to the high group. 
-However, as the semester progressed, the low group's approach became more random, while the high group's approach became structured. 
-These pattern suggests that the low group may have struggled to adapt their query reformulation strategies as they moved through the different stages of writing the paper, while the high group was more able to adjust their strategies and maintain structure in their approach.
+
 <!-- The high group may have had more efficient search strategies during the proposal and rough draft phases, but faced greater challenges during the outline and final paper phases, leading to more diverse query reformulation behaviours.  -->
 <!-- The low group, however, may have had more consistent query reformulation behaviours throughout the different phases of the task, indicating less variability in their approach. -->
 
@@ -515,27 +570,6 @@ These pattern suggests that the low group may have struggled to adapt their quer
 
 
  <!-- differences were not significant over the entire duration of the tasks, there was a significant difference in the middle one-third interval of each task $(U = 131.0, p = .01, ES = 0.28)$.  -->
-
-The stationary entropy of query reformulations of the low and high groups varied over the different phases of the research paper writing process as well (Figure \@ref(fig:TODO)). 
-The low group's stationary entropy increased from the proposal phase to the rough draft phase, and then decreased to the Final Paper writing phase. 
-The high group's stationary entropy increased from proposal to outline, and then took a decreasing trend from outline to rough draft to final paper. 
-This indicates that these two groups had distinct information searching behaviours throughout the writing process $(U = 162, p = .06, ES = 0.72)$.
-The low group's approach varied more depending on the stage of the writing process, and thus they employed all the different types query reformulations uniformly (i.e. with equal probabilities). 
-The 
-
-was trying out all the query reformulation types as the semester progressed, whereas the
-
-maintained a more consistent approach to their information searching behaviour, and thus preferred some query reformulation types more over others.
-The high group's 
-
-
-The increase in the high group's stationary entropy from proposal to outline suggests that they were exploring a broader range of topics and concepts at the early stages of the writing process. 
-The subsequent decrease in stationary entropy from outline to final paper suggests that they were able to narrow down their focus and consolidate their understanding of the subject-matter.
-
-
-
-
-
 
 
 

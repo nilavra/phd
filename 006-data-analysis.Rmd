@@ -182,7 +182,7 @@ as per Google Analytics^[https://www.hotjar.com/google-analytics/glossary/sessio
 ## Combining Individual Differences with Search Logs
 
 
-## Entropy Analyses of Search Behaviour Sequences
+## Entropy Analyses of Search Behaviour Sequences {#sec-analysis-entropy}
 
 Entropy is a measure of the diversity or unpredictability of a sequence of events. In the context of search queries, entropy can be used to quantify the variability or randomness of the query reformulations issued by participants.
 Transition analysis and entropy helps to cover differences in disparate tasks and activities.
@@ -190,6 +190,7 @@ Inspired by previous works in analysing eye-movement sequences [@krejtz2014entro
 
 For query reformulations, the possible set of states were the five query reformulation types:
 Generalization, Specialization, Word Substitution, Repeat, and New.
+
 For search tactic sequences, we used the following set of states:
 
 1. `QUERY`: issuing a search query
