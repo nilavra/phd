@@ -1,19 +1,147 @@
 # Results: Repeated vs New Search Tasks
 
 
+
 Same LPA profiles from Section \@ref(sec-res-lpa).
+
+
 
 ## Learning Outcomes
 
-## Querying Behaviour
+<!----------- fig:rp13-learning-search-outcomes ----------->
+```{r rp13-learning-search-outcomes, fig.scap='(ref:scap-rp13-learning-search-outcomes)', fig.cap = '(ref:cap-rp13-learning-search-outcomes)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp13-learning-search-outcomes")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp13-learning-search-outcomes) Learning and Search Outcomes – Longitudinal Phase.
+
+(ref:scap-rp13-learning-search-outcomes) Learning and Search Outcomes – Longitudinal Phase.
+
+<!---- fig:rp13-learning-search-outcomes (leave a blank line before this) ------>
 
 
-### Length of Queries
 
-### Number of Queries per Search Task
 
-### Number of Clicks per Query
+
+
+
+## Q: Query Formulations
+
+
+### Length and Count of Queries per Search Task
+
+<!----------- fig:rp13-query-length-count ----------->
+```{r rp13-query-length-count, fig.scap='(ref:scap-rp13-query-length-count)', fig.cap = '(ref:cap-rp13-query-length-count)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp13-query-length-count")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp13-query-length-count) Query Lengths and Counts – Repeated vs Non-repeated Tasks.
+
+(ref:scap-rp13-query-length-count) Query Lengths and Counts – Repeated vs Non-repeated Tasks.
+
+<!---- fig:rp13-query-length-count (leave a blank line before this) ------>
+
+
+
+
+
+
 
 ### Query Reformulation Types (QRTs)
 
-## Entropy Analysis of Querying Behaviour {#sec-res-phase13-query-H}
+<!----------- fig:rp13-qrt ----------->
+```{r rp13-qrt, fig.scap='(ref:scap-rp13-qrt)', fig.cap = '(ref:cap-rp13-qrt)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp13-qrt")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp13-qrt) Number of Query Reformulation Types (QRTs) – Repeated vs Non-repeated Tasks.
+
+(ref:scap-rp13-qrt) Number of Query Reformulation Types (QRTs) – Repeated vs Non-repeated Tasks.
+
+<!---- fig:rp13-qrt (leave a blank line before this) ------>
+
+
+
+
+
+
+
+
+### Entropy of Query Reformulation Types {#sec-res-phase13-query-H}
+
+<!----------- fig:rp13-qrt-entropy ----------->
+```{r rp13-qrt-entropy, fig.scap='(ref:scap-rp13-qrt-entropy)', fig.cap = '(ref:cap-rp13-qrt-entropy)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp13-qrt-entropy")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp13-qrt-entropy) Entropy of Query Reformulation Types (QRTs) – Repeated vs Non-repeated Tasks.
+
+(ref:scap-rp13-qrt-entropy) Entropy of Query Reformulation Types (QRTs) – Repeated vs Non-repeated Tasks.
+
+<!---- fig:rp13-qrt-entropy (leave a blank line before this) ------>
+
+
+
+
+
+
+
+
+
+
+
+## Number of Clicks per Query
+
+<!----------- fig:rp13-query-click ----------->
+```{r rp13-query-click, fig.scap='(ref:scap-rp13-query-click)', fig.cap = '(ref:cap-rp13-query-click)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp13-query-click")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp13-query-click) Number of Clicks Per Query – Repeated vs Non-repeated Tasks.
+
+(ref:scap-rp13-query-click) Number of Clicks Per Query – Repeated vs Non-repeated Tasks.
+
+<!---- fig:rp13-query-click (leave a blank line before this) ------>
+
+
+
+
+
+
+
+
+
+
+## L vs I: Interaction with Search Results vs Content Pages
+
+<!----------- fig:rp13-lvi ----------->
+```{r rp13-lvi, fig.scap='(ref:scap-rp13-lvi)', fig.cap = '(ref:cap-rp13-lvi)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp13-lvi")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp13-lvi) Differences in interactions with search results vs. content pages - repeated and non-repeated tasks.
+
+(ref:scap-rp13-lvi) Differences in interactions with search results vs. content pages - repeated and non-repeated tasks.
+
+<!---- fig:rp13-lvi (leave a blank line before this) ------>
+
+
+
+
+
+
+
+
+
+## Entropy of Search Tactic Sequences
+
+<!----------- fig:rp13-tactic-entropy ----------->
+```{r rp13-tactic-entropy, fig.scap='(ref:scap-rp13-tactic-entropy)', fig.cap = '(ref:cap-rp13-tactic-entropy)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp13-tactic-entropy")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp13-tactic-entropy) Entropy of Search Tactics – Repeated vs Non-repeated Tasks.
+
+(ref:scap-rp13-tactic-entropy) Entropy of Search Tactics – Repeated vs Non-repeated Tasks.
+
+<!---- fig:rp13-tactic-entropy (leave a blank line before this) ------>

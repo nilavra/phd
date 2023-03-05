@@ -581,7 +581,21 @@ subsequently, the chaos in high group decreased, whereas that in low group incre
 
 ### Number of Clicks per Query
 
-ResN6629066624252186314 | ResP5466996162614873067 | ResP1250472196403953856
+<!----------- fig:rp2-query-click ----------->
+```{r rp2-query-click, fig.scap='(ref:scap-rp2-query-click)', fig.cap = '(ref:cap-rp2-query-click)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp2-query-click")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp2-query-click) Number of clicks per query - longitudinal phase.
+
+(ref:scap-rp2-query-click) Number of clicks per query - longitudinal phase.
+
+<!---- fig:rp2-query-click (leave a blank line before this) ------>
+
+
+
+
+
 
 Number of clicks per query refers to the number of times a participant clicked a link on a search result page after conducting a search query. 
 <!-- link during a single query session or search task. In other words, it represents the total number of times a participant clicked on any link on the search results page after conducting a search query.  -->
@@ -624,9 +638,22 @@ SD also says something -->
 
 ### Dwell Time on Search Results
 
-<!-- As the final project task involved searching for 20 references, we structure the discussion around visits to "normal" webpages, and visits to "academic" webpages containing publications. -->
+<!----------- fig:rp2-l ----------->
+```{r rp2-l, fig.scap='(ref:scap-rp2-l)', fig.cap = '(ref:cap-rp2-l)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp2-l")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp2-l) Interactions with search results - Longitudinal Phase.
+
+(ref:scap-rp2-l) Interactions with search results - Longitudinal Phase.
+
+<!---- fig:rp2-l (leave a blank line before this) ------>
+
+
 
 <!-- 
+As the final project task involved searching for 20 references, we structure the discussion around visits to "normal" webpages, and visits to "academic" webpages containing publications. 
+
 
 Count of search result pages can be inferred from count of queries. 
 So it is better to focus on dwell time
@@ -712,10 +739,18 @@ On the other hand, the low group may be more thorough in searching and evaluatin
 
 ## I: Interaction with Sources / Content Pages / Information Objects
 
+<!----------- fig:rp2-i ----------->
+```{r rp2-i, fig.scap='(ref:scap-rp2-i)', fig.cap = '(ref:cap-rp2-i)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp2-i")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp2-i) Interactions with content pages - Longitudinal Phase.
 
-<!-- 
-now we move from discussing dwell time on search results to dwell time on content pages
- -->
+(ref:scap-rp2-i) Interactions with content pages - Longitudinal Phase.
+
+<!---- fig:rp2-i (leave a blank line before this) ------>
+
+
 
 ### Academic Publications
 
@@ -774,7 +809,56 @@ Overall, the low group may have been more inclined to explore a broader range of
 
 
 
+
+
+
+
+## Search Result Pages vs Content Pages
+
+<!----------- fig:rp2-lvi ----------->
+```{r rp2-lvi, fig.scap='(ref:scap-rp2-lvi)', fig.cap = '(ref:cap-rp2-lvi)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp2-lvi")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp2-lvi) Differences in interactions with search results vs. content pages.
+
+(ref:scap-rp2-lvi) Differences in interactions with search results vs. content pages - longitudinal phase.
+
+<!---- fig:rp2-lvi (leave a blank line before this) ------>
+
+
+
+<!-- High group visited more search result pages and more content pages as the semester progressed, while we see a drop for the same for the low group, especially after the outline phase, while writing rough draft.
+Then there is again an increase in the number of pages visited by the low group while writing the final paper.
+The total dwell time on webpages also follow a similar pattern. -->
+
+
+Overall, the high group visited more search result pages and content pages as the semester progressed, while the low group had a drop in these behaviours after the outline phase. 
+The difference in visits to Search Results pages was almost significant $(U = 133.5, p = .06, ES = 0.33)$.
+This suggests that the high group may have been more engaged and persistent in their information searching behaviours, while the low group may have experienced a decrease in motivation or self-regulation as the semester progressed, specifically before writing the rough draft.
+
+It is also noteworthy that the low group had a rebound in the number of pages visited while writing the final paper. This could indicate that they were able to re-engage with the task and their information searching behaviours improved as the final-paper deadline approached.
+
+The fact that the total dwell time on webpages followed a similar pattern as the number of pages visited is also interesting. It suggests that the high group spent more time engaging with the content they found, which could have contributed to their better learning outcomes.
+
+
+
+
+
+
+
 ## Entropy of Search Tactic Sequences
+
+<!----------- fig:rp2-tactic-entropy ----------->
+```{r rp2-tactic-entropy, fig.scap='(ref:scap-rp2-tactic-entropy)', fig.cap = '(ref:cap-rp2-tactic-entropy)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/rp2-tactic-entropy")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-rp2-tactic-entropy) Entropy of search tactic sequences for longitudinal phase.
+
+(ref:scap-rp2-tactic-entropy) Entropy of search tactic sequences for longitudinal phase.
+
+<!---- fig:rp2-tactic-entropy (leave a blank line before this) ------>
 
 Similar to entropy analysis of Query Reformulation types (Section \@ref(sec-res-query-H)), we perform entropy analysis of search tactic transitions.
 This analysis is directly inspired from @he2016beyond, who in turn were inspired from [@krejtz2014entropy, @krejtz2015gaze].
@@ -809,33 +893,6 @@ No sig diff in overall task
 No diff at beginning.
 Diff is most prominent at middle (ResN1140102300744288543)
 and also somewhat at end (ResN663758335140886910)
-
-
-
-
-
-
-
-## Search Result Pages vs Content Pages
-
-
-
-<!-- High group visited more search result pages and more content pages as the semester progressed, while we see a drop for the same for the low group, especially after the outline phase, while writing rough draft.
-Then there is again an increase in the number of pages visited by the low group while writing the final paper.
-The total dwell time on webpages also follow a similar pattern. -->
-
-
-Overall, the high group visited more search result pages and content pages as the semester progressed, while the low group had a drop in these behaviours after the outline phase. 
-The difference in visits to Search Results pages was almost significant $(U = 133.5, p = .06, ES = 0.33)$.
-This suggests that the high group may have been more engaged and persistent in their information searching behaviours, while the low group may have experienced a decrease in motivation or self-regulation as the semester progressed, specifically before writing the rough draft.
-
-It is also noteworthy that the low group had a rebound in the number of pages visited while writing the final paper. This could indicate that they were able to re-engage with the task and their information searching behaviours improved as the final-paper deadline approached.
-
-The fact that the total dwell time on webpages followed a similar pattern as the number of pages visited is also interesting. It suggests that the high group spent more time engaging with the content they found, which could have contributed to their better learning outcomes.
-
-
-
-
 
 
  
