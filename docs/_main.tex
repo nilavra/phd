@@ -3265,14 +3265,14 @@ This ability to adapt and refine their queries may have allowed them to find mor
 
 
 As introduced in Section \ref{sec-analysis-entropy}, we carried out entropy analysis of query reformulation sequences produced by the participants.
-In the context of query reformulations, the maximum \textbf{transition entropy}, \((s \log s)\), can be reached when there is an equal probability of switching between each of the \(s = 5\) states, or QRTs (query reformulation types).
+In the context of query reformulations, the maximum \textbf{transition entropy}, \(s \log s\), can be reached when there is an equal probability of switching between each of the \(s = 5\) states, or QRTs (query reformulation types).
 The minimum transition entropy (0) is achieved in a fully deterministic Markov chain, where all transition probabilities are either 1 or 0.
 This means that with a higher transition entropy there is more randomness in the participant's transitions between different QRTs.
 This randomness is an indication that the participants do not have a clear progression from one QRT to another.
 On the other hand, a lower transition entropy indicates that the participant's transition between QRTs are highly predictable.
 \textbf{Stationary entropy} is calculated from the distribution of QRTs.
 A higher stationary entropy value indicates that the QRTs were used uniformly, while a lower stationary entropy indicates that some QRTs are preferred over others.
-Values of stationary entropy vary between 0 and \((\log s)\), where \(s\) is the number of possible states (QRTs)\footnote{This explanation is adapted from He et al. (\protect\hyperlink{ref-he2016beyond}{2016})}.
+Values of stationary entropy vary between 0 and \(\log s\), where \(s\) is the number of possible states (QRTs)\footnote{This explanation is adapted from He et al. (\protect\hyperlink{ref-he2016beyond}{2016})}.
 All the entropy values presented in this chapter were normalized by their theoretical maximums, for equivalent comparison across different tasks.
 
 The transition entropy of query reformulations followed interesting patterns for the low and high groups (Figure \ref{fig:rp2-qrt-entropy}(a)).
@@ -3316,15 +3316,23 @@ The subsequent decrease in stationary entropy from rough draft to final paper su
 Number of clicks per query refers to the number of times a participant clicked a link on a search result page after conducting a search query.
 This metric reflects the level of interaction and engagement of the participant with the search results, as well as their ability to assess the relevance and usefulness of each search result presented to them.
 A higher number of clicks per query may indicate that the participant is more engaged and willing to explore a wider range of information sources, while a lower number may suggest a more focused and targeted search approach.
+Figure \ref{fig:rp2-query-click} shows the trend in total, average, and variability of clicks per query for the low and high groups at different points in the semester.
 
-The high group had fewer total clicks per query (ResN6629066624252186314), and a lower average number of clicks per query (ResP5466996162614873067), compared to the low group, across most of the tasks during the semester.
-The low group had the highest average number of clicks per query when writing the final paper, while the high group had the highest average number of clicks per query earlier in the semester, during the paper outline phase.
-Additionally, the high group had lower variability (standard deviation) in the number of clicks per query compared to the low group \((U = 1235.0, p = .00, ES = 0.68)\).
+The low group had much higher total (Figure \ref{fig:rp2-query-click}(a)) and average (Figure \ref{fig:rp2-query-click}(b)) number of clicks per query than the high group, at all stages of the semester -- proposal, outline, and rough draft -- except the last stage: writing the final paper.
+The maximum total number of clicks per query was during the outline phase (about 100 clicks total), while the maximum average number of clicks was during the rough draft phase (about 12 clicks per query on average).
+The high group maintained a relatively low number of clicks per query during the proposal, outline, and rough draft stages (less than 4 clicks per query), and had the peak value during the final paper, with about 7 clicks per query.
+Additionally, the high group had lower variability (standard deviation) in the number of clicks per query compared to the low group (Figure \ref{fig:rp2-query-click}(c)).
 
-This suggests that the high group was able to achieve better search outcomes with fewer clicks, indicating a higher level of efficiency in their search strategies.
-They may have been able to refine their search strategies and become more efficient as the semester progressed, resulting in fewer clicks per query when writing the final paper.
+The low group's higher total, average, and standard deviation of clicks per query throughout most of the semester, except for the final paper stage, suggests that they may have been less efficient in their searching behaviours, requiring more clicks and potentially spending more time on each query.
+The may have struggled to refine their search strategies, resulting in a higher number of clicks per query throughout the semester.
+This could have contributed to their lower self-perceived learning and search outcomes.
+
+In contrast, the high group's lower number of clicks per query throughout most of the semester, except for the final paper stage, suggests that they may have been more efficient and effective in their searching behaviours, requiring fewer clicks and potentially finding more relevant information per query.
+They may have been able to refine their search strategies and be more efficient during the semester, resulting in fewer clicks per query.
 This indicates the high group's ability to better assess the relevance and usefulness of search results, and to use their knowledge and cognitive strategies more effectively during the search process.
-In contrast, the low group may have struggled to improve their search strategies, resulting in a higher number of clicks per query when writing the final paper.
+This could have contributed to their higher self-perceived learning and search outcomes.
+The peak value of clicks per query for the high group during the final paper stage suggests that they may have needed to invest more effort in finding the most relevant and useful information for their final paper.
+However, even at this stage, their average number of clicks per query was still lower than the low group's peak value during the rough draft stage.
 
 It is also possible that the differences in average clicks per query between the two groups during different phases of the semester reflect differences in the complexity or specificity of the information needed for the different tasks. For example, the paper outline phase may have required more broad and exploratory searches, while the final paper phase may have required more targeted and specific searches.
 
@@ -3344,37 +3352,32 @@ It is also possible that the differences in average clicks per query between the
 
 
 
-\hypertarget{publication-search-results}{%
-\subsubsection{Publication Search Results}\label{publication-search-results}}
+The Ethical Dilemma research paper writing task involved searching for 20 references, and incorporating them into the narrative of the research paper.
+Therefore, we structure the discussion around visits to scholarly publication search results, and (non-scholarly) web SERPs.
+Examples of scholarly publication websites are Google Scholar, digital libraries such as ACM DL, Springer, Elsevier, PubMed and others.
+We examined how visits to these two categories of websites changed across the different stages of writing the research paper for each group.
+Figure \ref{fig:rp2-l} shows the counts of publication search results and web search results visited by the two groups, as well as total and average dwell time on such pages by both the group.
 
-ResP8346620135317238453 \textbar{} ResN4762872426347949231
-
-Contrary to dwell time on Web SERPs, the low group had longer average dwell time on academic publication search results, in all the four stages, compared to the high group (ResN4762872426347949231) \((U = 149.0, p = .05, ES = 0.72)\).
+For both publication search results and web search results, the high group visited a more number of those webpages than the low group (Figure \ref{fig:rp2-l}(a) and (b)).
+The high group visited more publication search results during the outline phase, and more web SERPs during the rough draft phase.
+The low group on the other hand, had a dip in their visit count for both the search result categories during the rough draft phase.
+However, they had significantly longer average dwell time on academic publication search results, in all the four stages, compared to the high group \((U = 153.0, p = .01, ES = 0.77)\) (Figure \ref{fig:rp2-l}(e)).
 Total dwell time of the low group was also longer, except at the final paper stage, when the high group surpassed the low group in dwelling on publication search results.
-
-This suggests that the low group spent more time examining and considering the academic publication search results compared to the high group. It is possible that the low group's lower levels of motivation, self-regulation, and metacognition may have led them to spend more time on search results as they may have found it harder to quickly evaluate and assess the relevance of search results to their task. On the other hand, the high group's higher levels of motivation, self-regulation, and metacognition may have enabled them to quickly identify relevant search results and move on to the next stage of their task.
+The difference was approaching significance \((U = 138.0, p = .08, ES = 0.70)\) (Figure \ref{fig:rp2-l}(c)).
+This suggests that the low group spent more time examining and considering scholarly publication search results compared to the high group.
+It is possible that the low group's lower levels of self-regulation and metacognition may have led them to spend more time on search results, as they may have found it harder to quickly evaluate and assess the relevance of search results to their task.
+On the other hand, the high group's higher levels those individual traits may have enabled them to quickly identify relevant search results and move on to the next stage of their task.
 However, at the final paper stage, the high group spent more time on search results as they may have needed to ensure that they had not missed any important information and had thoroughly covered their topic.
 
-\hypertarget{web-search-results-serps}{%
-\subsubsection{Web Search Results (SERPs)}\label{web-search-results-serps}}
-
-ResP2704210890287754729 \textbar{} ResN2852099729940598719
-
-We examined how dwell time changed across the stages of the search process for each group. For the high group, dwell time decreased from proposal to outline, then increased from outline to rough draft, and then decreased again during the final paper stage. This suggests that participants in the high group spent less time on SERPs during the outline stage but spent more time during the rough draft stage. However, they spent less time again during the final paper stage.
-For the low group, dwell time decreased from proposal to outline and then reached a minimum during the rough draft stage. However, it increased again during the final paper stage. This suggests that participants in the low group spent the least amount of time on SERPs during the outline and rough draft stages but spent more time during the final paper stage.
-
-This indicates at the positive relationship between individual differences in motivation, self-regulation, and metacognition and the amount of time spent on SERPs during a search task.
-
-The high group's higher levels of motivation, self-regulation, and metacognition may have enabled them to engage in more effective and efficient search behaviours, leading to longer dwell times on SERPs.
-The higher dwell time on SERPs for the high group may indicate that they are more strategic and deliberate in their search behaviour, taking the time to carefully examine search results and evaluate their relevance to their information needs. This could be related to their higher levels of motivation, self-regulation, and metacognition, which enable them to set goals, monitor their progress, and adjust their strategies as needed to achieve optimal outcomes.
-
-In contrast, the low group's lower levels of these individual differences may have hindered their ability to engage in effective search behaviours, leading to shorter dwell times on SERPs.
-This suggests a more haphazard approach to search behaviour, with less attention to evaluating search results and less ability to regulate their search strategies. This may be related to their lower levels of motivation, self-regulation, and metacognition, which may limit their ability to set clear goals, monitor their progress, and make effective decisions in their search behaviour.
-
-In general, the high group had longer dwell times on web search results, and shorter dwell times on publication search results. The low group demonstrated the opposite pattern.
+In general, the high group engaged more with web search results, and less with scholarly publication search results.
+The low group demonstrated the opposite pattern.
 This is an interesting finding.
-It suggests that the high group may be more efficient in quickly finding and evaluating information on the web, while the low group may take longer to navigate and process the same information.
-On the other hand, the low group may be more thorough in searching and evaluating academic publications (which was arguably one of the main aspects of writing the research paper), while the high group may be able to quickly identify and select relevant publications.
+The high group may have relied more on web search engines and popular sources, such as news articles or blogs, to get a broader understanding of their research topic and its context.
+In contrast, the low group may have relied more on scholarly publications to find more in-depth and specialized information.
+They may have been more thorough in searching for and evaluating academic publications, which was arguably one of the main aspects of writing the research paper.
+This difference in strategy may have contributed to the difference in perceived learning outcomes between the two groups.
+The high group may have been able to find a broader range of information from a variety of sources, while the low group may have limited themselves to more specialized sources.
+It is also possible that the high group's use of web search engines may have resulted in them encountering more diverse perspectives and interpretations of the research topic, which could have enhanced their critical thinking and analytical skills.
 
 \hypertarget{i-interaction-with-sources-content-pages-information-objects}{%
 \section{I: Interaction with Sources / Content Pages / Information Objects}\label{i-interaction-with-sources-content-pages-information-objects}}
@@ -3392,9 +3395,6 @@ On the other hand, the low group may be more thorough in searching and evaluatin
 
 
 
-\hypertarget{academic-publications}{%
-\subsection{Academic Publications}\label{academic-publications}}
-
 The low group viewed more number of academic publications earlier in the semester, while writing the outline, while high group viewed more number of publications later in the semester, while writing the rough draft and the final paper.
 This indicates that the low group had a more exploratory approach towards their research earlier in the semester, as they spent more time looking through a larger number of academic publications while writing the outline. On the other hand, the high group had a more focused approach, spending more time on fewer publications during the later stages when writing the rough draft and the final paper.
 This may be an indication of a difference in information-seeking behaviour and strategies between the two groups, with the low group possibly using a more broad and inclusive approach to gather information, while the high group uses a more selective approach. It could also reflect differences in the stage of research and writing that the two groups were at during each stage, with the low group at a more exploratory stage earlier in the semester, while the high group was at a more advanced stage of writing.
@@ -3403,9 +3403,6 @@ The total and average dwell time (possibly reading time) also followed a similar
 The high group had longer dwell time on publications in total and on average, in the later parts of the semester, while the low group dwelt more on publications in the earlier parts of the semester.
 This suggests that the high group had a more focused and deliberate approach to their research process, possibly due to better metacognitive and self-regulation skills. They spent more time on each publication, reading and analysing it thoroughly, in the later parts of the semester when they were working on the rough draft and final paper. This behaviour could have led to a deeper understanding of the content and better integration of the information into their writing. On the other hand, the low group may have had a more scattered approach, possibly due to lower levels of motivation, self-regulation, and metacognitive awareness, resulting in spending less time on each publication and viewing a larger number of publications earlier in the semester.
 This behaviour could have resulted in a superficial understanding of the content and difficulties in integrating the information into their writing.
-
-\hypertarget{non-scholarly-normal-content-pages}{%
-\subsection{Non-scholarly / Normal Content pages}\label{non-scholarly-normal-content-pages}}
 
 In a similar vein to publication vs web search results, the low group visited more number of content pages that were not academic publications compared to the high group.
 Their total dwell time on such pages were also longer than the high group, but the average dwell time was shorter.

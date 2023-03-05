@@ -17,6 +17,23 @@ Overall, these findings suggest that effective query reformulation strategies ma
 
 
 
+Phase 2 I:
+The differences in information behaviors observed between the high and low groups in your study can be explained by a number of factors. One possible factor is motivation: the high group may have been more motivated to conduct a thorough and comprehensive search for information, which led them to explore a wider range of topics and use a variety of sources. The low group, on the other hand, may have been less motivated, and may have focused more narrowly on specific topics or sources.
+
+Another factor is self-regulation: the high group may have been better at managing their time and resources, which allowed them to engage with a wider range of sources and explore a broader range of topics. The low group may have struggled with time management or resource allocation, which led them to rely more heavily on a smaller set of sources or topics.
+
+Metacognition may also have played a role: the high group may have had a better understanding of their own strengths and weaknesses as information seekers, and may have adjusted their search strategies accordingly. The low group may have had a less developed sense of metacognition, which led them to rely on familiar strategies or sources, even if those strategies or sources were not always the most effective.
+
+Finally, memory span may have been a factor: the high group may have had a larger working memory capacity, which allowed them to process more information and make connections between different sources or topics. The low group may have had a smaller working memory capacity, which made it more difficult for them to integrate information from multiple sources or to switch between different topics or sources.
+
+Overall, these factors likely interacted in complex ways to produce the observed differences in information behaviors between the two groups. By identifying these factors and their effects on information seeking behaviors, your study provides valuable insights into how students approach research and how their behaviors may affect their learning outcomes.
+
+
+
+
+
+
+
 ## Summary of Results
 
 which results have the strongest effect sizes and RBC scores?

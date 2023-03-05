@@ -122,11 +122,7 @@ sec-res-phase2-query-H
 l-interaction-with-search-results-source-selection-item-selection
 number-of-clicks-per-query
 dwell-time-on-search-results
-publication-search-results
-web-search-results-serps
 i-interaction-with-sources-content-pages-information-objects
-academic-publications
-non-scholarly-normal-content-pages
 search-result-pages-vs-content-pages
 entropy-of-search-tactic-sequences
 results-repeated-vs-new-search-tasks
