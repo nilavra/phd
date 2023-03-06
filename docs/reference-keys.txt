@@ -119,6 +119,7 @@ entropy-of-search-tactic-sequences
 results-repeated-vs-new-search-tasks
 learning-outcomes
 q-query-formulations-1
+sec-res13-need-to-search
 length-and-count-of-queries-per-search-task-1
 query-reformulation-types-qrts-1
 sec-res-phase13-query-H

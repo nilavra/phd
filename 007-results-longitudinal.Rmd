@@ -1288,6 +1288,13 @@ Let us discuss some of the findings.
 
 <result>
 Why?
+
+context: initial final:
+apart from the longitudinal phase of the study, participants also completed two search tasks at the beginning of the semester, and two search tasks at the end of the semester.
+One set of tasks, on the topic of "personal finance for college students", was repeated at the end of the semester.
+The other set of tasks was not repeated. The topics were "ubuntu ethics" in the beginning of the semester, and "algorithmic bias" at the end of the semester.
+Let us know discuss some of the findings for these tasks, and reason why the participants behaved in the ways they did, by drawing upon findings from the longitudinal phase as well.
+
 --------------- context: ------------
 
 

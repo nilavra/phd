@@ -1,8 +1,14 @@
 # Results: Repeated vs New Search Tasks
 
 
-
-Same LPA profiles from Section \@ref(sec-res-lpa).
+Apart from the longitudinal phase of the study discussed in the previous chapter, participants also completed two search tasks at the beginning of the semester (`PHASE1`), and two search tasks at the end of the semester (`PHASE3`).
+One set of tasks, on the topic of "personal finance for college students", was repeated at the end of the semester.
+The other set of tasks was not repeated. 
+The topics were "ubuntu ethics" in the beginning of the semester, and "algorithmic bias" at the end of the semester.
+These topics were selected from the content of the I303 course that the participants were enrolled in.
+Let us now discuss some of the findings for these repeated versus non-repeated tasks
+<!-- , and reason why the participants behaved in the ways they did, by drawing upon findings from the longitudinal phase as well. -->
+We use the same low-high groups from the LPA analysis discussed in Section \@ref(sec-res-phase2-lpa).
 
 
 
@@ -19,13 +25,74 @@ nbShowFig("figs/rp13-learning-search-outcomes")
 
 <!---- fig:rp13-learning-search-outcomes (leave a blank line before this) ------>
 
+Figure \@ref(fig:rp13-learning-search-outcomes) shows the differences in perceived learning outcomes and perceived search outcomes for the two sets of tasks for the low and high groups.
+The high group reported higher learning and search outcomes for both repeated and non-repeated tasks, at both the beginning and the end of the semester.
+For the low group, their perceived learning and search outcomes decreased for all the tasks at the end of the semester.
+The differences between the groups were statistically significant for the repeated task (on the topic of Personal Finance) -- $(U = 26.5, p = .02, ES = 0.20)$ for perceived learning outcome, and $(U = 10.5, p = .001, ES = 0.08)$ for perceived search outcome.
 
+There could be several factors contributing to the differences in perceived learning and search outcomes between the two groups.
+One possible explanation is that the high group had better information-seeking strategies and habits that allowed them to more effectively find and evaluate relevant information, leading to higher perceived learning outcomes. As discussed in the longitudinal phase findings, the high group engaged more with web search results and content pages, while also spending less time on search results and academic publications. This suggests that they were able to efficiently navigate through search results and find the most relevant information.
+Another possible explanation is that the high group had better prior knowledge and familiarity with the topics, which allowed them to more quickly and effectively identify relevant information.
+Additionally, it is possible that the high group had more motivation and interest in the topics, leading to more engagement and effort in the search process, and ultimately higher perceived learning outcomes. 
+
+For the low group, the decrease in perceived learning and search outcomes at the end of the semester could be due to a variety of factors, such as burnout or fatigue from the research paper writing process, or a lack of engagement or motivation. The decrease in their search tactics entropy and dwell time on academic publications and search results over the course of the semester suggests that they may have become more narrow in their search strategies and less exploratory, which could have limited their ability to find and evaluate relevant information.
+
+<!--  
+
+This is supported by the finding that the high group had higher pre-task knowledge scores for both repeated and non-repeated tasks. This is supported by the finding that the high group reported higher levels of interest and motivation for the repeated task on personal finance.
+
+-->
 
 
 
 
 
 ## Q: Query Formulations
+
+### "Need to Search Again" for `PHASE3` tasks {#sec-res13-need-to-search}
+
+Of the two search tasks in `PHASE3`, the Personal Finance task was repeated from `PHASE1`, while the Algorithmic Bias task was on the topic of what the students had learnt in the I-303 course.
+So when presented with these search tasks again at `PHASE3`, we asked participants if they needed to search the web again for completing these tasks, and explain their choice.
+
+
+Ten participants completed `PHASE3`, thereby leading two 20 user-task pairs.
+In $14 / 20 ~ (60\%)$ of these user-task pairs, participant responded "yes" to have felt the need to search again, while $5 / 20 ~ (25\%)$ responded "no", and one responded "other".
+Of these five "no" responses, three came from high group participants, while the remaining two came from low group participants.
+
+For the **repeated** personal finance task, 4 participants (high: 2, low: 2) did not need to search again for updating their summary that they had written during `PHASE1`.
+Some of the explanations for not needing to search include:
+
+- *"I felt like I knew enough information through my personal experiences through the semester"* -- `P023_LONDON`
+- *"I changed my way of thinking"* -- `P007_PARIS`
+- *"The advice from the start of the semester still applies to me..."* -- `P012_MIAMI`
+- *"I felt pretty confident in my past answer-- I remember spending a good amount of time looking for resources and eventually they started to repeat themselves... However, I did add more to the writing section without looking anything up because I realized some other things could be added to the writing"* -- `P015_LIMA`
+
+
+
+For the **non-repeated** algorithmic bias task, which was based on course content, only one participant -- `P023_LONDON`, high group -- did not need to search again, stating: *"I felt like I had a good enough understanding of the topic"*. 
+All other participants needed to search again for this task. 
+Some of these explanations for needing to search again, from the high group, are:
+
+- *"I needed more information on this topic"* -- `P001_MILAN`
+- *"I want to ensure I'm giving accurate information"* -- `P009_KIEV`
+- *"I was not sure what I know... However ... when I saw the information on the wikipedia, I remembered what I know and just wrote it down"* -- `P002_CAIRO`
+- *"Although I remember reading and researching about this topic, this is not something that I talk or think about on a day to day basis. Therefore, I needed a little help to jog my memory and use outside sources"* -- `P015_LIMA`
+- *"One question I needed a refresher... and the other two I wanted to learn more to be able to write a summary I was confident with"* -- `P021_JAVA`
+
+On the other hand, the explanations from the low group for needing to search again are as follows:
+
+- *"I do not feel confident enough about my memory on this topic"* -- `P007_PARIS`
+- *"Even though I remember the topic from my classes last semester, I wanted to double check and make sure that my understanding was correct* -- `P012_MIAMI`
+- *"I had to refresh my memory* -- `P016_AUSTIN`
+
+These qualitative responses hint at the perceptual differences that high and low group had towards their knowledge of the topic.
+The high group exudes a sense of confidence, whereas the low group shows signs of hesitance.
+
+
+<!-- The "other" response was explained by `P001_MILAN` as *"I used the internet for an idea but the advice that was written was from me"*. -->
+
+
+
 
 
 ### Length and Count of Queries per Search Task
@@ -40,6 +107,20 @@ nbShowFig("figs/rp13-query-length-count")
 (ref:scap-rp13-query-length-count) Query Lengths and Counts – Repeated vs Non-repeated Tasks.
 
 <!---- fig:rp13-query-length-count (leave a blank line before this) ------>
+
+
+Figure \@ref(fig:rp13-query-length-count) shows the differences in total query length (a, b), average query length (c, d), and count of queries (e, f) for the two sets of tasks for the low and high groups.
+The high group had a decrease in number of queries, total query length, and average query length, for all the tasks, from the beginning of the semester to the end of the semester.
+The low group had a decrease in query count as well, but their average query length increased for both the repeated and the non-repeated tasks.
+For the non-repeated tasks, the Algorithmic Bias task at the end of the semester was based on course content that students learnt during the semester. 
+So ideally they would not have needed to search for new information if they felt confident of their own knowledge.
+
+
+The fact that the Algorithmic Bias task was based on course content could have influenced the search behaviour of the participants. 
+As we saw in Section \@ref(sec-res13-need-to-search), it is possible that the high group felt more confident in their understanding of the topic. 
+This was also indicated by their higher perceived learning outcome, which led them to issue fewer queries of shorter length.
+On the other hand, the low group may have felt less confident with their knowledge (and presumably, search abilities), and still felt the need to explore and search for new information, leading them to issue longer queries on average at the end of the semester, in an effort to find the information they needed..
+
 
 
 
