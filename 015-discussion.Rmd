@@ -20,6 +20,16 @@ The second set (H2) compares two different user groups, experts and novices, usi
 ## Summary of Results
 
 
+
+
+
+
+
+
+
+
+
+
 Number of clicks per query:
 
 - high levels of motivation, metacognition, and self-regulation can contribute to more effective and efficient search strategies, resulting in better search outcomes with fewer clicks per query.
@@ -54,6 +64,10 @@ Indicators predictive of struggling [@hassan2014struggling]:
 - low amount of similarity between consecutive queries
 - more clicks per query
 - differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
+
+
+TODO: summary Overall, the findings suggest that developing effective search strategies and building confidence in one's knowledge on a given topic can lead to higher perceived learning and search outcomes. However, there may be other factors that come into play when it comes to achieving higher grades in research paper assignments.
+
 
 
 ## RQ1: how do search behaviours change over time?

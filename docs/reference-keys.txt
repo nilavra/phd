@@ -116,6 +116,7 @@ sec-phase2-res-L-dt
 i-interaction-with-information-objects-sources-content-pages
 search-result-pages-vs-content-pages
 entropy-of-search-tactic-sequences
+summary
 results-repeated-vs-new-search-tasks
 learning-outcomes
 q-query-formulations-1
@@ -126,6 +127,7 @@ sec-res-phase13-query-H
 number-of-clicks-per-query-1
 l-vs-i-interaction-with-search-results-vs-content-pages
 entropy-of-search-tactic-sequences-1
+summary-1
 discussion
 summary-of-results
 rq1-how-do-search-behaviours-change-over-time

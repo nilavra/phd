@@ -298,10 +298,7 @@ Across the semester, the high group had a decrease in both transition entropy an
 For the non-repeated task, both the groups had an increase in transition entropy, and decrease in stationary entropy.
 
 
-Transition entropy refers to the uncertainty of the next search tactic that a user will apply during their search. 
-In other words, it is a measure of how much the user explores different search tactics over the course of their search.
-Stationary entropy, on the other hand, refers to the uncertainty of the search tactic distribution over time. 
-It is a measure of how stable or consistent the user is in their use of search tactics throughout their search process.
+
 
 
 The decrease in transition entropy and stationary entropy for the high group on the repeated tasks indicate that they were able to develop more focused and efficient search strategies over time, leading to more predictable patterns in their search tactic sequences. On the other hand, the increase in transition entropy for the low group on the repeated task suggests that they may have struggled to find effective search strategies, resulting in more varied and unpredictable sequences of search tactics. However, the decrease in stationary entropy for the low group suggests that they were still able to find and stick to effective search tactics over time.
@@ -315,10 +312,6 @@ The high group showed an increase in transition entropy of query reformulations 
 Conversely, the low group showed similar trends for both types of entropies. They had an increase in both transition entropy of query reformulations and transition entropy of search tactic sequences. This suggests that the low group was still exploring different types of search strategies and query reformulation types over time, perhaps due to a lack of confidence in their own knowledge or search skills.
 
 
-
-
-
-
 <!-- 
 Regarding entropies of search tactic sequences, Across the semester, the high group had a decrease in both transition entropy and stationary entropy for the repeated task, while the low group had an increase in transition entropy, but decrease in stationary entropy. For the non-repeated task, both the groups had an increase in transition entropy, and decrease in stationary entropy. 
 
@@ -329,5 +322,36 @@ The high group had an increase in transition entropy of query reformulations, bu
 
 
 
+
+
+## Summary 
+
+We summarize the findings from this chapter, on repeated vs. non-repeated search tasks across the semester as follows.
+<!-- 
+
+- The high group demonstrated a more effective and efficient search behaviour, with lower query counts, shorter queries, and better search outcomes compared to the low group.
+- Both groups showed a decrease in all query reformulation types from the start to the end of the semester, with the high group showing an increase in query specializations for the non-repeated task, and the low group showing an increase in query generalizations for the same task.
+- For the repeated task on personal finance, both groups showed an increase in transition entropy of query reformulations from the beginning to the end of the semester.
+- The high group had a decrease in number of queries, total query length, and average query length, for all the tasks, from the beginning to the end of the semester, while the low group had a decrease in query count but an increase in average query length for both the repeated and non-repeated tasks.
+- Both groups showed a decrease in the number of clicks per query, as well as in the number of pages visited, total dwell time, and average dwell time, for all the tasks, from the beginning to the end of the semester.
+- The high group had a decrease in transition entropy and an increase in stationary entropy for search tactic sequences for the repeated task, while the low group had an increase in transition entropy but a decrease in stationary entropy for the same task.
+- The high group had an increase in transition entropy but a decrease in stationary entropy for query reformulation sequences, while the opposite was true for search tactic sequences. The low group showed similar trends for both types of entropy.
+
+In terms of the search tasks, the high group reported higher learning and search outcomes for both repeated and non-repeated tasks at both the beginning and end of the semester. For the low group, their perceived learning and search outcomes decreased for all tasks at the end of the semester. The differences between the groups were statistically significant for the repeated task on personal finance. The high group had a decrease in number of queries, total query length, and average query length for all tasks from the beginning of the semester to the end of the semester. The low group had a decrease in query count, but their average query length increased for both the repeated and non-repeated tasks.
+
+Both the groups showed a decrease in all query reformulation types from the start of the semester to the end of the semester for both task categories, except for certain specific cases. For the non-repeated task on algorithmic bias, the high group had an increase in query specializations, while the low
+
+
+Overall, the high group tended to have better search outcomes and higher levels of confidence in their knowledge compared to the low group. Both groups showed improvement in search strategies and efficiency over the course of the semester, but there were differences in the nature of these improvements.
+
+
+Overall, the high group demonstrated more effective and efficient search behavior, with better search outcomes and lower entropy values, while the low group struggled with search behavior and outcomes, showing increases in entropy values and decreased confidence in their knowledge.
+
+The qualitative responses also indicate that the high group had a stronger sense of confidence and understanding of the material compared to the low group.
+
+It is also worth noting that the high group demonstrated a decrease in the number of queries, total query length, and average query length over the course of the semester, suggesting that they became more efficient in their search tactics. In contrast, the low group showed an increase in the average query length for both the repeated and non-repeated tasks, indicating that they struggled to effectively find information and formulate queries.
+
+
+ -->
 
 
