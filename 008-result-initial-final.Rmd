@@ -119,7 +119,7 @@ So ideally they would not have needed to search for new information if they felt
 The fact that the Algorithmic Bias task was based on course content could have influenced the search behaviour of the participants. 
 As we saw in Section \@ref(sec-res13-need-to-search), it is possible that the high group felt more confident in their understanding of the topic. 
 This was also indicated by their higher perceived learning outcome, which led them to issue fewer queries of shorter length.
-On the other hand, the low group may have felt less confident with their knowledge (and presumably, search abilities), and still felt the need to explore and search for new information, leading them to issue longer queries on average at the end of the semester, in an effort to find the information they needed..
+On the other hand, the low group may have felt less confident with their knowledge (and presumably, search abilities), and still felt the need to explore and search for new information, leading them to issue longer queries on average at the end of the semester, in an effort to find the information they needed.
 
 
 
@@ -143,6 +143,20 @@ nbShowFig("figs/rp13-qrt")
 
 
 
+Figure \@ref(fig:rp13-qrt) shows the differences in the five categories of query reformulations (QRTs) for the two sets of tasks, for the low and high groups.
+Both the groups showed a decrease in all query reformulation types from the start of the semester to the end of the semester, for both the task categories, except for certain specific cases.
+For the non-repeated task, the high group had an increase in query specializations (Figure \@ref(fig:rp13-qrt) (f)), while the low group had an increase in query generalizations (Figure \@ref(fig:rp13-qrt) (d)).
+
+
+These findings suggest that both groups improved their search skills over the course of the semester, as they needed to perform fewer query reformulations to find relevant information. However, the high group demonstrated a more nuanced approach to query reformulation, as evidenced by their increase in query specializations for the algorithmic bias task. This may suggest that the high group was able to better hone in on specific information needs and tailor their queries accordingly. On the other hand, the low group's increase in query generalizations for the same task may suggest a more broad and less focused approach to information seeking.
+
+
+For the repeated task on personal finance, the decrease in all types of query reformulations for all groups indicates that participants had already acquired a baseline knowledge on the topic from the first round of searching earlier in the semester, and were able to more efficiently retrieve relevant information with fewer queries and reformulations.
+
+
+
+
+
 
 
 
@@ -160,6 +174,26 @@ nbShowFig("figs/rp13-qrt-entropy")
 (ref:scap-rp13-qrt-entropy) Entropy of Query Reformulation Types (QRTs) – Repeated vs Non-repeated Tasks.
 
 <!---- fig:rp13-qrt-entropy (leave a blank line before this) ------>
+
+
+
+Figure \@ref(fig:rp13-qrt-entropy) shows the differences in the entropies of query reformulation sequences for the low and high groups, across the two sets of tasks.
+For the repeated tasks on personal finance, both the groups showed an increase in transition entropy of query reformulations from the beginning of the semester to the end.
+Regarding the stationary entropy of query reformulations, it increased for the high group across the semester, and decreased for the low group.
+Coming to the non-repeated tasks of Ubuntu Ethics and Algorithmic bias, the high group had a decrease in transition entropy and increase in stationary entropy. The low group showed increase in both stationary and transition entropy.
+
+
+
+The increase in transition entropy of query reformulations for both groups in the repeated task on personal finance suggests that participants were exploring different avenues and perspectives as they continued their search. This could be attributed to the fact that they were trying to find alternate information than what they had previously encountered in the beginning of the semester. 
+<!-- complexity of the topic and the need to navigate through a variety of sources to gain a comprehensive understanding of the topic. -->
+The increase in stationary entropy of query reformulations for the high group across the semester indicates that their search queries became more diverse and exploratory as they gained a deeper understanding of the topic. On the other hand, the decrease in stationary entropy for the low group suggests that they became more focused and narrowed down their search queries as they progressed through the semester.
+
+
+
+For the non-repeated tasks, the decrease in transition entropy and increase in stationary entropy for the high group on Ubuntu Ethics and Algorithmic bias indicate that they were able to refine their search queries and find more relevant information as they gained a deeper understanding of the topics. On the other hand, the increase in both stationary and transition entropy for the low group suggests that they struggled with finding relevant information and had to explore more avenues to refine their search queries.
+
+
+
 
 
 
@@ -185,6 +219,17 @@ nbShowFig("figs/rp13-query-click")
 <!---- fig:rp13-query-click (leave a blank line before this) ------>
 
 
+Figure \@ref(fig:rp13-query-click) shows the differences in total, average, and variability of clicks per for the low and high groups, across the two sets of tasks.
+Across the board, all the groups had a decrease in the number of clicks per query for all the tasks, from the beginning to the end of the semester.
+
+
+The decrease in clicks per query for both groups over time could be due to an increase in search experience and familiarity with the topics, as well as improved search strategies and tactics developed over the course of the semester. 
+As participants became more familiar with the topics, they likely needed to click on fewer search results to find the information they were looking for. This is because they may have developed a better understanding of what search terms to use, what types of sources to look for, and how to evaluate the relevance and reliability of search results. 
+This increased familiarity and experience likely contributed to the decrease in clicks per query observed in both groups over time. 
+Additionally, as participants developed more effective search strategies and tactics over the course of the semester, they may have been able to find the information they needed more quickly, resulting in a decrease in the number of clicks per query.
+
+
+<!-- As they became more knowledgeable, they likely developed more effective search strategies and techniques, allowing them to more quickly and efficiently find the information they were looking for. Additionally, the instruction and practice provided throughout the semester may have helped participants improve their search skills and develop more efficient search strategies. It suggests that participants' search abilities may have improved over the course of the semester, and/or they became more clear of their information needs. -->
 
 
 
@@ -205,6 +250,25 @@ nbShowFig("figs/rp13-lvi")
 (ref:scap-rp13-lvi) Differences in interactions with search results vs. content pages - repeated and non-repeated tasks.
 
 <!---- fig:rp13-lvi (leave a blank line before this) ------>
+
+Figure \@ref(fig:rp13-lvi) shows the differences in interactions with search results and interaction with content pages for the low and high groups, across the two sets of tasks.
+Similar to the number of clicks per query, there was an overall decrease from semester beginning to semester end, for number of pages visited, total dwell time, and average dwell time, across all types of webpages -- search results and content pages.
+This could be due to an increase in search experience and familiarity with the topics, as well as improved search strategies and tactics developed over the course of the semester. As students become more familiar with the topics and develop better strategies for searching, they may have been able to quickly identify and access the information they needed, leading to a decrease in the number of pages visited and dwell time.
+Additionally, the decrease in the number of pages visited and dwell time may also be related to the fact that students may have become more efficient in their search process over time. They may have learned to quickly identify and assess the relevance of search results and content pages, leading to a more targeted approach in their search process.
+
+
+<!-- 
+
+TODO SUMMARY The findings from the study indicate that there was an overall decrease in the number of pages visited, total dwell time, and average dwell time across all types of webpages from the beginning to the end of the semester. 
+
+Overall, the decrease in the number of pages visited and dwell time over time may indicate an improvement in students' search skills and a more efficient search process, which could be beneficial for their academic and professional endeavors. 
+
+-->
+
+
+
+
+
 
 
 
@@ -228,7 +292,42 @@ nbShowFig("figs/rp13-tactic-entropy")
 <!---- fig:rp13-tactic-entropy (leave a blank line before this) ------>
 
 
+
+Figure \@ref(fig:rp13-tactic-entropy) shows the differences in the entropies of search tactics for the low and high groups, across the two sets of tasks.
+Across the semester, the high group had a decrease in both transition entropy and stationary entropy for the repeated task, while the low group had an increase in transition entropy, but decrease in stationary entropy.
+For the non-repeated task, both the groups had an increase in transition entropy, and decrease in stationary entropy.
+
+
 Transition entropy refers to the uncertainty of the next search tactic that a user will apply during their search. 
 In other words, it is a measure of how much the user explores different search tactics over the course of their search.
 Stationary entropy, on the other hand, refers to the uncertainty of the search tactic distribution over time. 
-In other words, it is a measure of how stable or consistent the user is in their use of search tactics throughout their search process.
+It is a measure of how stable or consistent the user is in their use of search tactics throughout their search process.
+
+
+The decrease in transition entropy and stationary entropy for the high group on the repeated tasks indicate that they were able to develop more focused and efficient search strategies over time, leading to more predictable patterns in their search tactic sequences. On the other hand, the increase in transition entropy for the low group on the repeated task suggests that they may have struggled to find effective search strategies, resulting in more varied and unpredictable sequences of search tactics. However, the decrease in stationary entropy for the low group suggests that they were still able to find and stick to effective search tactics over time.
+For the non-repeated tasks, the increase in transition entropy for both groups may indicate that they were exploring a wider range of search tactics and approaches to find relevant information. The decrease in stationary entropy suggests that they were still able to identify and use effective search tactics, but that they were more flexible in their approach overall.
+
+
+
+Comparing between the entropies for query reformulation sequences (Figure \@ref(fig:rp13-qrt-entropy)) and entropies of search tactic sequences (Figure \@ref(fig:rp13-tactic-entropy)), it is interesting to note that the trends of change in these two classes of entropy values were opposite for the high group, but was similar for the low group.
+The high group had an increase in the transition entropy of query reformulations, but decrease in the transition entropy of search sequences, and so on.
+The high group showed an increase in transition entropy of query reformulations -- meaning that they were exploring a wider range of query reformulation types over time -- but they showed a decrease in transition entropy of search tactic sequences -- indicating that they were relying on a smaller set of search tactics as they became more familiar with the topics.
+Conversely, the low group showed similar trends for both types of entropies. They had an increase in both transition entropy of query reformulations and transition entropy of search tactic sequences. This suggests that the low group was still exploring different types of search strategies and query reformulation types over time, perhaps due to a lack of confidence in their own knowledge or search skills.
+
+
+
+
+
+
+<!-- 
+Regarding entropies of search tactic sequences, Across the semester, the high group had a decrease in both transition entropy and stationary entropy for the repeated task, while the low group had an increase in transition entropy, but decrease in stationary entropy. For the non-repeated task, both the groups had an increase in transition entropy, and decrease in stationary entropy. 
+
+Comparing between entropies for query reformulation sequences and entropies of search tactic sequences, it is interesting to note that the trends of change in these two classes of entropy values were opposite for the high group, but was similar for the low group.
+The high group had an increase in transition entropy of query reformulations, but decrease in transition entropy of search sequences, and so on.
+
+-->
+
+
+
+
+
