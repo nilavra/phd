@@ -71,7 +71,7 @@ Some of the explanations for not needing to search include:
 
 For the **non-repeated** algorithmic bias task, which was based on course content, only one participant -- `P023_LONDON`, high group -- did not need to search again, stating: *"I felt like I had a good enough understanding of the topic"*. 
 All other participants needed to search again for this task. 
-Some of these explanations for needing to search again, from the high group, are:
+Selected explanations from the high group for needing to search again are quoted below.
 
 - *"I needed more information on this topic"* -- `P001_MILAN`
 - *"I want to ensure I'm giving accurate information"* -- `P009_KIEV`
@@ -79,14 +79,17 @@ Some of these explanations for needing to search again, from the high group, are
 - *"Although I remember reading and researching about this topic, this is not something that I talk or think about on a day to day basis. Therefore, I needed a little help to jog my memory and use outside sources"* -- `P015_LIMA`
 - *"One question I needed a refresher... and the other two I wanted to learn more to be able to write a summary I was confident with"* -- `P021_JAVA`
 
-On the other hand, the explanations from the low group for needing to search again are as follows:
+In contrast, selected explanations from the low group for needing to search again are as follows.
 
 - *"I do not feel confident enough about my memory on this topic"* -- `P007_PARIS`
 - *"Even though I remember the topic from my classes last semester, I wanted to double check and make sure that my understanding was correct* -- `P012_MIAMI`
 - *"I had to refresh my memory* -- `P016_AUSTIN`
 
-These qualitative responses hint at the perceptual differences that high and low group had towards their knowledge of the topic.
-The high group exudes a sense of confidence, whereas the low group shows signs of hesitance.
+These qualitative responses hint at the perceptual differences that the high and low group had towards their knowledge of the topic.
+The responses from the high group indicates a higher level of confidence on their perceived understanding of the topic, which could be one of the factors contributing to their higher perceived learning and search outcomes;
+whereas, the responses from the low group suggest a greater degree of hesitance, which may be reflected in their lower perceived learning and search outcomes.
+
+<!-- The high group exudes a sense of stronger confidence and understanding, whereas the low group shows signs of hesitance. -->
 
 
 <!-- The "other" response was explained by `P001_MILAN` as *"I used the internet for an idea but the advice that was written was from me"*. -->
