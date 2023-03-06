@@ -1,4 +1,4 @@
-# Results: Repeated vs New Search Tasks
+# Results and Discussion: Repeated vs Non-repeated Search Tasks
 
 
 Apart from the longitudinal phase of the study discussed in the previous chapter, participants also completed two search tasks at the beginning of the semester (`PHASE1`), and two search tasks at the end of the semester (`PHASE3`).

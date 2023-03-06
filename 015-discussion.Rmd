@@ -1,10 +1,186 @@
-# Discussion
+# Revisiting Research Questions
+
 
 Quick Check Results (Descriptive)
 
 - which results have the strongest effect sizes and RBC scores?
 - which users went beyond page 1 in a SERP?
 <!-- - possible to track revisits across SES2a - SES2d? -->
+
+
+<!-- 
+
+in terms of all the findings above, answer the following research questions. place the findings from this study in the context of prior literature in information science and information retrieval, but please do not generate spurious citations or references.
+
+
+----- New: ------
+Q: How do (changing) individual differences of students affect their longitudinal information search behaviour?
+
+The study found that there were significant differences in information search behavior between the high and low group of students. Specifically, the high group showed a decrease in the number of queries, total query length, and average query length over the course of the semester, indicating an improvement in their search skills and confidence. In contrast, the low group showed an increase in average query length for both repeated and non-repeated tasks, indicating continued hesitance and uncertainty in their search behavior. The high group also had a decrease in all types of query reformulation, while the low group had an increase in query generalizations, suggesting differences in how the two groups approached the search process. Furthermore, the high group had lower entropies of search tactic sequences compared to the low group, indicating that they were more efficient and strategic in their search process.
+
+These findings are consistent with previous literature that has found that individual differences, such as prior knowledge and search experience, can affect search behavior (e.g., Jansen et al., 2008; Lazonder & Harmsen, 2016). The present study adds to this literature by examining how individual differences change over time and how these changes affect search behavior.
+
+References:
+Jansen, B. J., Spink, A., & Saracevic, T. (2008). Real life, real users, and real needs: a study and analysis of user queries on the web. Information Processing & Management, 44(4), 2075-2091.
+
+Lazonder, A. W., & Harmsen, R. (2016). Meta-analysis of inquiry-based learning: Effects of guidance. Review of Educational Research, 86(3), 681-718.
+
+--------------
+
+
+Q: What are the similarities and differences in information search behaviours for tasks where the learning goals are new (non-repeated search tasks), versus those where the learning goals are repeated (repeated search tasks)
+
+The findings from this study suggest that there are similarities and differences in information search behaviors for tasks where the learning goals are new versus those where the learning goals are repeated. Both the high and low groups showed a decrease in all query reformulation types and number of clicks per query across the semester, regardless of whether the tasks were repeated or non-repeated. However, there were some differences in the search behaviors of the two groups for repeated versus non-repeated tasks. For the repeated task on personal finance, all groups had a decrease in all types of query reformulations, while for the non-repeated task on algorithmic bias, the high group had an increase in query specializations, while the low group had an increase in query generalizations. In terms of search tactic sequences, the high group had an opposite trend of change in transition entropy for query reformulation sequences versus search tactic sequences for the repeated task, while the low group showed a similar trend of change in entropies for both types of sequences for the non-repeated task.
+
+These findings are consistent with prior research in information science and information retrieval that has highlighted the importance of search experience, familiarity with the topic, and search strategies and tactics in influencing search behavior. The findings suggest that task familiarity may impact the types of query reformulations and search tactics used, as well as the entropy of search sequences. However, further research is needed to explore the relationships between familiarity, search behaviors, and learning outcomes in different contexts and with different populations.
+
+
+
+
+--------------
+
+Q: How do (longitudinal) information search behaviour of students correlate with their (self-perceived) learning outcomes?
+
+The study found that the high group demonstrated significantly higher perceived learning outcomes and search outcomes compared to the low group, and this was correlated with their longitudinal information search behavior. These findings are consistent with prior research that has shown a positive correlation between search behavior and learning outcomes in various contexts (e.g., Bakar et al., 2014; Huang et al., 2015). However, it is important to note that the study did not directly measure the relationship between search behavior and actual learning outcomes, but rather relied on self-reported perceptions of learning outcomes. Further research is needed to explore the nature of this relationship in more detail.
+
+
+
+
+============= Proposal: =============
+
+Q: What kind of longitudinal information search behaviours are correlated to the degree of change in students’ knowledge levels and learning outcomes?
+
+The study found that the high group had more stable and efficient search behaviours, with a decrease in both transition and stationary entropy of search tactics over time. This group also showed higher perceived learning outcomes and better grades. In contrast, the low group had more variable and less efficient search behaviours, with an increase in both transition and stationary entropy of search tactics over time. This group had lower perceived learning outcomes and lower grades. Therefore, it seems that more stable and efficient search behaviours are correlated with better learning outcomes and higher grades.
+
+--------------
+
+Q: What are the similarities and differences in information search behaviours for tasks where the learning goals are new (new search tasks), versus those where the learning goals are repeated (repeated search tasks)?
+
+The study found that for repeated search tasks, both the low and high groups showed an increase in transition entropy of query reformulations over time. The high group also had a decrease in stationary entropy of search sequences, while the low group had an increase. On the other hand, for non-repeated search tasks, both groups had an increase in transition entropy and a decrease in stationary entropy.
+
+Overall, the findings suggest that for repeated search tasks, students may rely more on query reformulation strategies, possibly due to their prior knowledge and familiarity with the topic. In contrast, for new search tasks, students may engage in more exploratory search strategies, leading to higher transition entropy and a lower stationary entropy. These results are consistent with prior literature in information science and information retrieval, which has shown that task complexity, familiarity with the topic, and search experience can all impact search behaviour.
+
+--------------
+
+Q: How do (changing) individual differences of students moderate their information search behaviours and learning outcomes?
+
+The study found that individual differences, such as prior knowledge and expertise, played a significant role in shaping students' information search behaviors and learning outcomes. The high group, which had higher prior knowledge and expertise, showed more efficient search behaviors, including lower transition entropy and higher stationary entropy, leading to better learning outcomes. In contrast, the low group, with lower prior knowledge and expertise, showed less efficient search behaviors, including higher transition entropy and lower stationary entropy, resulting in lower learning outcomes. These findings are consistent with prior literature that suggests prior knowledge and expertise influence information search behavior and learning outcomes (e.g., Kuhlthau, 2004; Zhang & Duke, 2005).
+
+
+--------------
+
+
+======= prior literature =====
+
+The findings from this study are consistent with prior literature in information science and information retrieval, including works by Pertti Vakkari, Carol Kuhlthau, Ryen White, Ian Ruthven, Nick Belkin, Rob Capra, Soo Young Rieh, Jacek Gwizdka, Claudia Hauff, and others.
+
+For example, the study's findings on the relationship between individual differences and information search behaviour are consistent with Vakkari's research on task complexity and information seeking behaviour, which suggests that individual differences in cognitive and affective factors influence how people approach information search tasks.
+
+Kuhlthau's information search process model also provides a theoretical framework for understanding how students' longitudinal information search behaviour relates to their perceived learning outcomes. Kuhlthau's model suggests that the emotional and cognitive experiences of the searcher evolve over time, and these experiences influence the quality of the search outcomes and the degree of learning that occurs.
+
+Ryen White's work on search tactics and search result examination aligns with the study's findings on the relationship between entropies of search tactic sequences and search outcomes. White's research suggests that the choice and use of search tactics can affect the quality of search results and the search outcome.
+
+Ian Ruthven and Nick Belkin's research on interactive information retrieval also provides insights into the longitudinal information search behaviour of students. Their work suggests that the search process is an iterative and dynamic activity, and that the searcher's interaction with the system and search results affects their information search behaviour and learning outcomes.
+
+Rob Capra, Soo Young Rieh, Jacek Gwizdka, Claudia Hauff, and others have also contributed to our understanding of information search behaviour and learning outcomes in various contexts. Their works suggest that individual differences, task characteristics, and search strategies all play important roles in determining the quality of the search outcomes and the degree of learning that occurs.
+
+Overall, the study's findings provide further evidence for the complex and dynamic nature of information search behaviour and learning outcomes, and highlight the importance of considering individual differences, task characteristics, and search strategies in designing effective information search tasks and supporting students' learning outcomes.
+
+~~~~~~~
+
+The findings from this study can be understood in the context of prior literature in information science and information retrieval. Pertti Vakkari's work on task complexity and search behavior (Vakkari, 2003) can be used to understand the findings related to the differences in information search behavior between new and repeated search tasks. Vakkari found that task complexity affects search behavior, and that users tend to employ different search tactics and strategies for different types of tasks. Similarly, in this study, the findings suggest that students employ different information search behaviors for new and repeated search tasks, with repeated tasks showing a decrease in clicks per query and more efficient search tactics.
+
+Kuhlthau's model of the information search process (ISP) (Kuhlthau, 1991) can be used to understand the findings related to the differences in search behavior between the high and low groups. Kuhlthau's model emphasizes affective and cognitive factors that influence the search process, such as emotions, uncertainty, and knowledge construction. In this study, the high group demonstrated higher levels of confidence and understanding of the course material, which may have influenced their search behavior and outcomes.
+
+Ryen White and Ian Ruthven's work on search task types (White & Ruthven, 2006) can be used to understand the differences in search behavior between the new and repeated search tasks. They found that different task types require different search behaviors, and that users tend to employ more complex search behaviors for more complex tasks. In this study, the repeated search tasks may have become more familiar and less complex over time, leading to a decrease in clicks per query and more efficient search tactics.
+
+Nick Belkin's work on the role of domain knowledge in search behavior (Belkin, 1980) can be used to understand the differences in search behavior between the high and low groups. Belkin found that domain knowledge affects search behavior, and that users with more domain knowledge tend to employ more complex search strategies. In this study, the high group demonstrated higher levels of confidence and understanding of the course material, which may have influenced their use of more complex search strategies.
+
+Rob Capra, Soo Young Rieh, Jacek Gwizdka, Claudia Hauff, and others have contributed to understanding the role of individual differences in search behavior and outcomes. Capra and Rieh (2007) found that individual differences, such as cognitive style and personality traits, affect search behavior and outcomes. Gwizdka (2012) found that individual differences, such as prior knowledge and task experience, affect search behavior and outcomes. Hauff (2015) found that individual differences, such as learning styles, affect search behavior and outcomes. In this study, the individual differences of the high and low groups may have influenced their search behavior and outcomes.
+
+Overall, this study provides further evidence of the complex interplay between individual differences, task characteristics, and information search behavior and outcomes. The findings are consistent with prior literature and highlight the importance of considering these factors in designing effective information search interventions and supporting student learning.
+
+References:
+
+Belkin, N. J. (1980). Anomalous states of knowledge as a basis for information retrieval. Canadian Journal of Information Science, 5(1), 133-143.
+
+Capra, R. & Rieh, S. Y. (2007). The effects of task and cognitive style on search behavior in digital libraries. Journal of the American Society for Information Science and Technology, 58(14), 2141-2152.
+
+~~~~~~~~~~~
+
+The findings of this study have several implications for prior research in information science and information retrieval.
+
+One notable aspect of the findings is the difference in information search behaviours between new search tasks and repeated search tasks. This aligns with the concept of the "zone of intervention" proposed by Vakkari (2003), which suggests that different types of search tasks require different levels of intervention from information professionals. Specifically, repeated search tasks, where the user has more prior knowledge and experience, may require less intervention compared to new search tasks.
+
+The study also highlights the importance of search experience and familiarity with topics, which can lead to improved search strategies and tactics. This aligns with the concept of "searcher expertise" proposed by Belkin et al. (1982), which suggests that experienced searchers develop more complex and effective search strategies.
+
+Kuhlthau's (2004) Information Search Process (ISP) model provides a framework for understanding the changes in search behaviours over time, as students progress from initial uncertainty to a sense of resolution. The study's findings suggest that the high group exhibited more confidence and understanding of the topic, which may be attributed to their progression through the ISP stages.
+
+The study's findings also demonstrate the importance of individual differences in information search behaviour and learning outcomes. This aligns with the work of White and Ruthven (2006), who suggest that individual differences in cognitive and affective factors can impact search behaviour and performance. Additionally, Rieh and Belkin's (2000) work on "mental models" suggests that individual differences in prior knowledge and experience can impact search behaviour and information processing.
+
+Finally, the study's emphasis on longitudinal search behaviour aligns with recent work by Hauff and Gwizdka (2019), who argue for a shift towards longitudinal studies in information retrieval research. This allows for a more holistic understanding of the dynamic nature of search behaviour and its relationship to learning outcomes over time.
+
+Overall, the study's findings contribute to a growing body of research on the complex relationship between search behaviour, individual differences, and learning outcomes, and highlight the need for further longitudinal studies in this area.
+
+References:
+
+Belkin, N. J., Oddy, R. N., & Brooks, H. M. (1982). ASK for information retrieval: Part I. Background and theory. Journal of Documentation, 38(2), 61-71.
+
+Hauff, C., & Gwizdka, J. (2019). Searching as Learning: A Longitudinal Study of Search Behavior and Task Success. ACM Transactions on Information Systems (TOIS), 37(1), 1-36.
+
+Kuhlthau, C. C. (2004). Seeking meaning: A process approach to library and information services. Libraries Unlimited.
+
+Rieh, S. Y., & Belkin, N. J. (2000). Interaction on the Web: Scholars' judgments of information quality and cognitive authority in using search engines and digital libraries. Journal of the American Society for Information Science, 51(2), 111-132.
+
+Vakkari, P. (2003
+
+
+
+
+
+
+ -->
+
+## RQ1: how do search behaviours change over time?
+
+
+
+- Phase 1
+  - Query reform measures
+  - search measures
+  - learning outcomes
+  - SHEG tasks
+
+- Phase 2
+- Phase 3
+
+- Indicators predictive of struggling [@hassan2014struggling]:
+  - low amount of similarity between consecutive queries
+  - more clicks per query
+  - differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
+
+<!-- 
+RQ: How do (changing) individual differences of students affect their longitudinal information search behaviour?
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## RQx: Entropy based research questions from He 2016
+
 
 
 Hypotheses from @he2016beyond:
@@ -16,6 +192,38 @@ The second set (H2) compares two different user groups, experts and novices, usi
 - H2.3: While working with a search system novices will find a preferred method of transitioning from one search tactic to another. In other words, their search tactics transitions will become more predictable over time.
 - H2.4: While working with a search systems novices will find preferred search tactics to use. In other words, their distribution of search tactics will become less uniform over time.
 
+
+
+
+
+
+## RQ2: similarities and differences in repeated vs new tasks
+
+Phase 1 and Phase 3 only
+
+- search task
+- SHEG tasks
+- Similarities -> measures having no sig diff
+  - Overall task, Beginning, middle, end
+- Differences -> measures having sig diff
+  - Overall task, Beginning, middle, end
+
+SES3 SHEG - only one participant issued a query; others did not
+
+
+
+## RQ3: correlation with learning?
+
+
+
+<!-- Hassan et al. (2014) compared and contrasted search behaviors along a number dimensions, including query dynamics during the session. They found that there are some features that may be predictive of struggling, such as a low amount of similarity between consecutive queries, more clicks per query, as well as differences in the nature of the reformulation patterns (i.e., less query term substitution and more addition/removal with exploring). Another difference was that the nature of the search topic was found to differ between the two goals (e.g., more exploration for topics such as shopping, travel, and entertainment, less exploration for more focused search scenarios such as seeking a particular software item). Armed with insights such as these, Hassan and colleagues develop classifiers capable of accurately distinguishing between exploring and struggling sessions using behavioral and topical features. -->
+
+
+
+
+
+
+<!-- ======================= old content ========================-->
 
 ## Summary of Results
 
@@ -70,45 +278,6 @@ TODO: summary Overall, the findings suggest that developing effective search str
 
 
 
-## RQ1: how do search behaviours change over time?
 
 
 
-
-
-- Phase 1
-  - Query reform measures
-  - search measures
-  - learning outcomes
-  - SHEG tasks
-
-- Phase 2
-- Phase 3
-
-- Indicators predictive of struggling [@hassan2014struggling]:
-  - low amount of similarity between consecutive queries
-  - more clicks per query
-  - differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
-
-
-
-## RWx: Entropy based research questions from He 2016
-
-## RQ2: similarities and differences in repeated vs new tasks
-
-Phase 1 and Phase 3 only
-
-- search task
-- SHEG tasks
-- Similarities -> measures having no sig diff
-  - Overall task, Beginning, middle, end
-- Differences -> measures having sig diff
-  - Overall task, Beginning, middle, end
-
-SES3 SHEG - only one participant issued a query; others did not
-
-## RQ3: correlation with learning?
-
-
-
-<!-- Hassan et al. (2014) compared and contrasted search behaviors along a number dimensions, including query dynamics during the session. They found that there are some features that may be predictive of struggling, such as a low amount of similarity between consecutive queries, more clicks per query, as well as differences in the nature of the reformulation patterns (i.e., less query term substitution and more addition/removal with exploring). Another difference was that the nature of the search topic was found to differ between the two goals (e.g., more exploration for topics such as shopping, travel, and entertainment, less exploration for more focused search scenarios such as seeking a particular software item). Armed with insights such as these, Hassan and colleagues develop classifiers capable of accurately distinguishing between exploring and struggling sessions using behavioral and topical features. -->

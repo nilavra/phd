@@ -1,4 +1,4 @@
-# Results: Longitudinal Tracking Phase
+# Data Analysis, Results, and Discussion: Longitudinal Tracking Phase
 
 
 TODO: write intro section of this chapter

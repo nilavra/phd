@@ -1,10 +1,13 @@
+Bengali version of abstract: TBD.
 আমার পিএইচডি এডভাইসর পরামর্শ দিয়েছেন যে এই থিসিস এর একটি বাংলা ভাসায় সারসংক্ষেপ ও লিখতে। উনি ওনার থিসিস এর সারসংক্ষেপ ইংরেজি এবং পোলিশ দুই ভাষায় লিখেছিলেন।
 থিসিসের প্রথম খসড়া জমা দেওয়ার পরে বাংলা সারসংক্ষেপ টি আরও বিস্তারিতভাবে লেখা হবে।
-বাংলা সংস্করণ এর উৎসর্গ: দিদার জন্য (tie back to PhD Statement of Purpose)
-
+বাংলা সংস্করণ এর উৎসর্গ: দিদার জন্য.
+Bengali version of abstract: TBD.
 
 
 <!-- Original template:
+
+(tie back to PhD Statement of Purpose)
 
 Installed on Windows + Syncing with box.
 
@@ -12,4 +15,6 @@ This *R Markdown* template is for writing an Oxford University thesis. The templ
 
 This template's sample content include illustrations of how to write a thesis in R Markdown, and largely follows the structure from [this R Markdown workshop](https://ulyngs.github.io/rmarkdown-workshop-2019/).
 
-Congratulations for taking a step further into the lands of open, reproducible science by writing your thesis using a tool that allows you to transparently include tables and dynamically generated plots directly from the underlying data. Hip hooray! -->
+Congratulations for taking a step further into the lands of open, reproducible science by writing your thesis using a tool that allows you to transparently include tables and dynamically generated plots directly from the underlying data. Hip hooray! 
+
+-->
