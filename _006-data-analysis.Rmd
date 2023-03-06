@@ -1,0 +1,111 @@
+# Data Analysis Framework
+
+<!-- 
+Deleting ALL ideas from below. A snapshot of the previous version of this page can be found in GitHub commit history at:
+
+https://github.com/nilavra/phd/blob/d90735f86eae2b88796863230825bb8cd2b49f2e/006-data-analysis.Rmd
+ -->
+
+
+
+
+
+
+
+
+## Individual Differences Questionnaires Data Analysis Steps
+
+### Motivation, Metacognition, and Self Regulation Data
+
+
+### Latent Profile Analysis (LPA)
+
+
+
+
+
+
+
+
+
+
+
+
+## YASBIL Search Log Data Analysis Steps
+
+### URL Categorization
+
+
+
+
+
+
+### Active Tab Identification
+
+
+
+### Identifying Levels of Search Activity
+
+
+After log data was cleaned 
+From @white2016interactions, Table 2.1 (adapted from Bates, 1989):
+
+- **Level 1: Move**
+  - Atomic search event – for example, a query or click
+  (*An identifiable thought or action that is part of information searching.*)
+- **Level 2: Tactic**
+  - Goal or task, including query or click chain
+  (*One or several moves made to further a search*)
+- **Level 3: Statagem**
+  - Mission or session
+  (*A larger, more complex set of thoughts and/or actions than the tactic; a stratagem consists of multiple tactics and/or moves, all of which are designed to exploit a particular search domain that is thought to contain the desired information*)
+- **Level 4: Strategy**
+  - Session or cross-session search task
+  (*A plan, which may contain moves, tactics, and/or stratagems, for an entire information search.*)
+
+
+
+Session: `task_id`, 30 minutes of inactivity
+(Google Analytics: a session lasts until there's 30 minutes of inactivity)
+
+Session duration is considered 30 minutes (!) (or maybe 1 hour?)
+as per Google Analytics^[https://www.hotjar.com/google-analytics/glossary/session-duration] and (TODO: find reference)
+
+
+
+
+
+## Combining Individual Differences with Search Logs
+
+
+## Entropy Analyses of Search Behaviour Sequences {#sec-analysis-entropy}
+
+
+
+
+<!-- ========================= OLD CONTENT ==================== -->
+
+
+
+
+
+
+
+<!----------- fig:testfig ----------->
+```{r testfig, fig.scap='(ref:scap-testfig)', fig.cap = '(ref:cap-testfig)',  echo=FALSE, out.width='100%', fig.align='center'}
+nbShowFig("figs/testfig")
+```
+<!-- each text reference needs to be their own single paragraph ! -->
+(ref:cap-testfig) Longcaption.
+
+(ref:scap-testfig) Shortcaption.
+
+<!---- fig:testfig (leave a blank line before this) ------>
+
+
+<!-- 
+rp2-learning-search-outcomes
+ -->
+
+
+

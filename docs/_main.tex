@@ -2779,8 +2779,30 @@ After \texttt{QSNR3} was complete, participants received a bonus compensation of
 
 After data collection for all the phases was complete, data analysis was performed on the collected data, which is discussed in the next chapter.
 
+\hypertarget{results-longitudinal-tracking-phase}{%
+\chapter{Results: Longitudinal Tracking Phase}\label{results-longitudinal-tracking-phase}}
+
+longitudinal study (cohort study)
+
+Most of the results did not have statistical significance - but that's okay because this is exploratory research, which is inductive, rather than deductive. \url{https://youtu.be/URz4CAaJqnE}
+
+We were more interested in discovering interesting patterns.
+We believe the findings from this study will lead to more confirmatory studies.
+
+\url{https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan}
+
+All statistical tests are two-tailed Mann-Whitney U test.
+
+As the sample sizes were often small, the groups were imbalanced, and / or the data did not match the normality assumptions of parametric tests, we employed the non-parametric Mann-Whitney U test for all the null-hypothesis significance testing reported in this and the next chapter. This allows easy comparison between different categories of results.
+
+Additionally, we also report Common Language Effect Size (CLES) for each statistical test result.
+The common language effect size is the proportion of pairs where \(x\) is higher than \(y\).
+In other words, it is the probability that a score sampled at random from the first distribution will be greater than a score sampled from the second distribution.
+CLES was first introduced by McGraw and Wong (1992) {[}TODO{]}. The Python statistical library employed in data analysis -- Pingouin (\protect\hyperlink{ref-vallat2018pingouin}{Vallat, 2018}) -- uses a brute-force version of the formula given by Vargha and Delaney 2000 {[}TODO{]}:
+The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
+
 \hypertarget{data-analysis-framework}{%
-\chapter{Data Analysis Framework}\label{data-analysis-framework}}
+\section{Data Analysis Framework}\label{data-analysis-framework}}
 
 \begin{figure}
 
@@ -2795,7 +2817,7 @@ After data collection for all the phases was complete, data analysis was perform
 
 
 
-This chapter describes the general framework for analysing the data collected in the \emph{LongSAL} study.
+This section describes the general framework for analysing the data collected in the \emph{LongSAL} study.
 It is described in Figure \ref{fig:data-analysis-framework}.
 
 Here is the overall data analysis framework of my dissertation:
@@ -2835,14 +2857,21 @@ Trends Over Time
 Difference Between Groups / Profiles
 Entropy analysis of sequences
 
-\hypertarget{individual-differences-questionnaires-data-analysis-steps}{%
-\section{Individual Differences Questionnaires Data Analysis Steps}\label{individual-differences-questionnaires-data-analysis-steps}}
+\hypertarget{sec-res-phase2-lpa}{%
+\section{Latent Profile Analysis}\label{sec-res-phase2-lpa}}
 
-\hypertarget{motivation-metacognition-and-self-regulation-data}{%
-\subsection{Motivation, Metacognition, and Self Regulation Data}\label{motivation-metacognition-and-self-regulation-data}}
+\begin{figure}
 
-\hypertarget{latent-profile-analysis-lpa}{%
-\subsection{Latent Profile Analysis (LPA)}\label{latent-profile-analysis-lpa}}
+{\centering \includegraphics[width=1\linewidth]{figs/lpa-profile-means} 
+
+}
+
+\caption[Groups identified by Latent Profile Analysis.]{Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), self-regulation (SRQ), and a Memory Span task.}\label{fig:lpa-profile-means}
+\end{figure}
+
+
+
+
 
 According to Ambrose et al. (\protect\hyperlink{ref-ambrose2010howa}{2010}), students' motivation, metacognition, and self-regulation are critical factors that determine, direct, and sustain what they do to learn.
 Given our interest in understanding how these traits impact students' searching as learning behaviour, we collected self-perceived reports of all three constructs, via the IMI, MAI, and SRQ questionnaires (Section \ref{sec-method-qsnr1}).
@@ -2863,236 +2892,6 @@ The purpose of this study was to investigate the relationship between individual
 To classify participants into high and low groups based on their scores on these questionnaires, we employed LPA.
 LPA is particularly useful when the relationship between variables is not well understood or when it is difficult to determine which variables should be used to classify individuals into groups.
 We employed LPA to identify latent profiles of participants based on their scores on the IMI, MAI, and SRQ questionnaires.
-
-\hypertarget{yasbil-search-log-data-analysis-steps}{%
-\section{YASBIL Search Log Data Analysis Steps}\label{yasbil-search-log-data-analysis-steps}}
-
-\hypertarget{url-categorization}{%
-\subsection{URL Categorization}\label{url-categorization}}
-
-\begin{itemize}
-\tightlist
-\item
-  peer-reviewed publications are \texttt{PUB}s
-\item
-  others are \texttt{ARTICLE}s (e.g.~Wikipedia)
-\item
-  if no other info, then \texttt{WEB}
-\item
-  fuzzy between \texttt{WEB} and \texttt{ARTICLE} (when classified manually)
-\item
-  \texttt{ARTICLE} if there is a clear author
-
-  \begin{itemize}
-  \tightlist
-  \item
-    except \texttt{WIKIPEDIA}, due to common parlance
-  \item
-    encyclopedias
-  \end{itemize}
-\item
-  journal homepages are \texttt{WEB}
-\item
-  list of chapters in a book are \texttt{L.PUB}.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    e.g.~in detail view of
-  \end{itemize}
-\item
-  book chapter is \texttt{PUB}
-\end{itemize}
-
-In order to understand the relationship between users' information search behavior and the type of webpages they visit, we needed to categorize webpages into different types. To accomplish this, we developed a classification system based on URL patterns.
-
-URL patterns were first extracted from the web browsing data collected in our study. These URL patterns contain information about the structure and content of each webpage visited by the users. Based on this information, we were able to classify each URL present in the log data into the following hierarchical taxonomy:
-
-\begin{itemize}
-\tightlist
-\item
-  \texttt{L}: Search Result Pages, i.e., a \textbf{L}ist of Information Objects
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \texttt{L.PUB}: Publication Search Results, e.g., on university library websites, digital libraries, Google Scholar, etc.
-  \item
-    \texttt{L.WEB}: Web Search Engine Result Pages (SERPs)
-  \end{itemize}
-\item
-  \texttt{I}: Content pages, i.e., Individual \textbf{I}nformation Objects
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \texttt{I.PUB}: Academic Publications
-  \item
-    \texttt{I.WEB}: Webpages that have the potential to provide relevant (academic) information for the search task, but are not publication. E.g., Wikipedia articles, relevant blog posts, government and non-profit websites, etc. Some of them were classified automatically (e.g., Wikipedia), while others were classified after manual inspection.
-  \end{itemize}
-\item
-  \texttt{MISC}: URLs for webpages that did not fit in any of the above category
-\end{itemize}
-
-To identify search engine result pages, we looked for URLs that contained URL query parameters such as \texttt{q} (Google, Bing), \texttt{search}, \texttt{query}, or \texttt{k} (Yahoo) along with specific strings associated with popular search engines such as Google or Bing.
-We also identified content pages by looking for URLs that contained strings such as ``\texttt{article}'', ``\texttt{blog}'', or ``\texttt{news}''.
-Scientific peer-reviewed publications were identified based on URLs that contained specific strings associated with academic publishers or databases (ACM DL, Elsevier, Scopus, Springer etc.), while Wikipedia articles were identified by their URLs containing the string ``wikipedia'' in the hostname.
-
-Library websites were identified by URLs that contained terms such as ``library'', ``catalogue'', or ``database'' as well as specific strings associated with major library systems (e.g., UT Austin uses Primo VE system from Ex Libris). Finally, we used the catch-all category \texttt{MISC} to identify other types of webpages that did not fit into any of the other categories.
-
-Overall, our URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behaviour. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
-
-\hypertarget{active-tab-identification}{%
-\subsection{Active Tab Identification}\label{active-tab-identification}}
-
-\hypertarget{identifying-levels-of-search-activity}{%
-\subsection{Identifying Levels of Search Activity}\label{identifying-levels-of-search-activity}}
-
-After log data was cleaned
-From White (\protect\hyperlink{ref-white2016interactions}{2016a}), Table 2.1 (adapted from Bates, 1989):
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Level 1: Move}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Atomic search event -- for example, a query or click
-    (\emph{An identifiable thought or action that is part of information searching.})
-  \end{itemize}
-\item
-  \textbf{Level 2: Tactic}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Goal or task, including query or click chain
-    (\emph{One or several moves made to further a search})
-  \end{itemize}
-\item
-  \textbf{Level 3: Statagem}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Mission or session
-    (\emph{A larger, more complex set of thoughts and/or actions than the tactic; a stratagem consists of multiple tactics and/or moves, all of which are designed to exploit a particular search domain that is thought to contain the desired information})
-  \end{itemize}
-\item
-  \textbf{Level 4: Strategy}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Session or cross-session search task
-    (\emph{A plan, which may contain moves, tactics, and/or stratagems, for an entire information search.})
-  \end{itemize}
-\end{itemize}
-
-Session: \texttt{task\_id}, 30 minutes of inactivity
-(Google Analytics: a session lasts until there's 30 minutes of inactivity)
-
-Session duration is considered 30 minutes (!) (or maybe 1 hour?)
-as per Google Analytics\footnote{\url{https://www.hotjar.com/google-analytics/glossary/session-duration}} and (TODO: find reference)
-
-\hypertarget{combining-individual-differences-with-search-logs}{%
-\section{Combining Individual Differences with Search Logs}\label{combining-individual-differences-with-search-logs}}
-
-\hypertarget{sec-analysis-entropy}{%
-\section{Entropy Analyses of Search Behaviour Sequences}\label{sec-analysis-entropy}}
-
-Entropy is a measure of the diversity or unpredictability of a sequence of events. In the context of search queries, entropy can be used to quantify the variability or randomness of the query reformulations issued by participants.
-Transition analysis and entropy helps to cover differences in disparate tasks and activities.
-Inspired by previous works in analysing eye-movement sequences (\protect\hyperlink{ref-krejtz2014entropy}{Krejtz et al., 2014}, \protect\hyperlink{ref-krejtz2015gaze}{2015}) and search tactics sequences (\protect\hyperlink{ref-he2016beyond}{He et al., 2016}), we employed a similar entropy analysis of query reformulation sequences, and search tactic patterns of the participants.
-
-For query reformulations, the possible set of states were the five query reformulation types:
-Generalization, Specialization, Word Substitution, Repeat, and New.
-
-For search tactic sequences, we used the following set of states:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  \texttt{QUERY}: issuing a search query
-\item
-  \texttt{CLICK}: mouse click
-\item
-  \texttt{IDLE}: participant stays idle for more than one minute (TODO CITATION)
-\item
-  \texttt{SESSION\_BREAK}: participant becomes idle for more than 30 minutes (Google Analytics defines a session break as 30 minutes of inactivity \footnote{\url{https://support.google.com/analytics/answer/2731565\#zippy=\%2Cin-this-article}})
-\item
-  \texttt{L.PUB}: visiting a publication search result page
-\item
-  \texttt{L.WEB}: visiting a web SERP
-\item
-  \texttt{I.PUB}: visiting a scholarly publication
-\item
-  \texttt{I.WEB}: visiting a non-scholarly content page
-\item
-  \texttt{TASKPAGE}: visiting webpages related to the study, i.e.~the Qualtrics questionnaires
-\end{enumerate}
-
-If we consider a sequence of query reformulations issued by a participant
-(e.g., \emph{New -\textgreater{} New -\textgreater{} Specialization -\textgreater{} Specialization -\textgreater{} Word Substitution -\textgreater{} Generalization})
-then this sequence can be considered as a first order Markov chain, wherein, the next step in the chain depends only on the current state.
-Entropy analysis on these Markov chains quantifies how predictable the states are, and yields two categories of uncertainty measures: transition entropy, \(H_t\), and stationary entropy \(H_s\).
-Similar stationary and transition entropy measures can be obtained for sequences of search tactics.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/testfig} 
-
-}
-
-\caption[Shortcaption.]{Longcaption.}\label{fig:testfig}
-\end{figure}
-
-
-
-
-
-\hypertarget{results-longitudinal-tracking-phase}{%
-\chapter{Results: Longitudinal Tracking Phase}\label{results-longitudinal-tracking-phase}}
-
-longitudinal study (cohort study)
-
-Most of the results did not have statistical significance - but that's okay because this is exploratory research, which is inductive, rather than deductive. \url{https://youtu.be/URz4CAaJqnE}
-
-We were more interested in discovering interesting patterns.
-We believe the findings from this study will lead to more confirmatory studies.
-
-\url{https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan}
-
-All statistical tests are two-tailed Mann-Whitney U test.
-
-As the sample sizes were often small, the groups were imbalanced, and / or the data did not match the normality assumptions of parametric tests, we employed the non-parametric Mann-Whitney U test for all the null-hypothesis significance testing reported in this and the next chapter. This allows easy comparison between different categories of results.
-
-Additionally, we also report Common Language Effect Size (CLES) for each statistical test result.
-The common language effect size is the proportion of pairs where \(x\) is higher than \(y\).
-In other words, it is the probability that a score sampled at random from the first distribution will be greater than a score sampled from the second distribution.
-CLES was first introduced by McGraw and Wong (1992) {[}TODO{]}. The Python statistical library employed in data analysis -- Pingouin (\protect\hyperlink{ref-vallat2018pingouin}{Vallat, 2018}) -- uses a brute-force version of the formula given by Vargha and Delaney 2000 {[}TODO{]}:
-The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
-
-\hypertarget{sec-res-phase2-lpa}{%
-\section{Latent Profile Analysis}\label{sec-res-phase2-lpa}}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{figs/lpa-profile-means} 
-
-}
-
-\caption[Groups identified by Latent Profile Analysis.]{Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), self-regulation (SRQ), and a Memory Span task.}\label{fig:lpa-profile-means}
-\end{figure}
-
-
-
-
-
-We employed Latent Profile Analysis (LPA) to identify groups (latent profiles) of participants based on their scores on the Intrinsic Motivation Inventory (IMI), Metacognitive Awareness Inventory (MAI), Self-regulation questionnaire (SRQ), and Memory Span (MS) task.
 LPA is particularly useful when the relationship between variables is not well understood, or when it is difficult to determine which variables should be used to classify individuals into groups.
 
 The results of the LPA showed that there were two distinct groups (latent profiles) of participants based on their scores on the IMI, MAI, SRQ, and MS: a high group and a low group (Figure \ref{fig:lpa-profile-means}). The high group had generally higher average scores on the IMI, MAI, SRQ, and MS compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.
@@ -3264,7 +3063,19 @@ This ability to adapt and refine their queries may have allowed them to find mor
 
 
 
-As introduced in Section \ref{sec-analysis-entropy}, we carried out entropy analysis of query reformulation sequences produced by the participants.
+Entropy is a measure of the diversity or unpredictability of a sequence of events. In the context of search queries, entropy can be used to quantify the variability or randomness of the query reformulations issued by participants.
+Transition analysis and entropy helps to cover differences in disparate tasks and activities.
+Inspired by previous works in analysing eye-movement sequences (\protect\hyperlink{ref-krejtz2014entropy}{Krejtz et al., 2014}, \protect\hyperlink{ref-krejtz2015gaze}{2015}) and search tactics sequences (\protect\hyperlink{ref-he2016beyond}{He et al., 2016}), we employed a similar entropy analysis of query reformulation sequences, and search tactic patterns of the participants.
+
+For query reformulations, the possible set of states were the five query reformulation types:
+Generalization, Specialization, Word Substitution, Repeat, and New.
+If we consider a sequence of query reformulations issued by a participant
+(e.g., \emph{New -\textgreater{} New -\textgreater{} Specialization -\textgreater{} Specialization -\textgreater{} Word Substitution -\textgreater{} Generalization})
+then this sequence can be considered as a first order Markov chain, wherein, the next step in the chain depends only on the current state.
+Entropy analysis on these Markov chains quantifies how predictable the states are, and yields two categories of uncertainty measures: transition entropy, \(H_t\), and stationary entropy \(H_s\).
+Similar stationary and transition entropy measures can be obtained for sequences of search tactics.
+
+Guided by the above, we carried out entropy analysis of query reformulation sequences produced by the participants.
 In the context of query reformulations, the maximum \textbf{transition entropy}, \(s \log s\), can be reached when there is an equal probability of switching between each of the \(s = 5\) states, or QRTs (query reformulation types).
 The minimum transition entropy (0) is achieved in a fully deterministic Markov chain, where all transition probabilities are either 1 or 0.
 This means that with a higher transition entropy there is more randomness in the participant's transitions between different QRTs.
@@ -3294,8 +3105,48 @@ In contrast, the high group employed all the types query reformulations with equ
 The increase in the high group's stationary entropy from outline to rough suggests that they were exploring a broader range of topics and concepts at this stage of the writing process, which may have allowed them to identify more relevant and useful information.
 The subsequent decrease in stationary entropy from rough draft to final paper suggests that they were able to narrow down their focus and consolidate their understanding of the subject-matter as they progressed, which may have contributed to their higher self-perceived learning and search outcomes.
 
-\hypertarget{l-interaction-with-search-results-source-selection-item-selection}{%
-\section{L: Interaction with Search Results / Source Selection / Item Selection}\label{l-interaction-with-search-results-source-selection-item-selection}}
+\hypertarget{url-categorization-for-analyzing-interactions}{%
+\section{URL Categorization for Analyzing Interactions}\label{url-categorization-for-analyzing-interactions}}
+
+In order to understand the relationship between users' information search behavior and the type of webpages they visit, we needed to categorize webpages into different types. To accomplish this, we developed a classification system based on URL patterns.
+
+URL patterns were first extracted from the web browsing data collected in our study. These URL patterns contain information about the structure and content of each webpage visited by the users. Based on this information, we were able to classify each URL present in the log data into the following hierarchical taxonomy:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{\texttt{L}}: Search Result Pages, i.e., a \textbf{L}ist of Information Objects
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{\texttt{L.PUB}}: Publication Search Results, e.g., on university library websites, digital libraries, Google Scholar, etc.
+  \item
+    \textbf{\texttt{L.WEB}}: Web Search Engine Result Pages (SERPs)
+  \end{itemize}
+\item
+  \textbf{\texttt{I}}: Content pages, i.e., Individual \textbf{I}nformation Objects
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{\texttt{I.PUB}}: Academic Publications
+  \item
+    \textbf{\texttt{I.WEB}}: Webpages that have the potential to provide relevant (academic) information for the search task, but are not publication. E.g., Wikipedia articles, relevant blog posts, government and non-profit websites, etc. Some of them were classified automatically (e.g., Wikipedia), while others were classified after manual inspection.
+  \end{itemize}
+\item
+  \textbf{\texttt{MISC}}: URLs for webpages that did not fit in any of the above category
+\end{itemize}
+
+To identify search engine result pages, we looked for URLs that contained URL query parameters such as \texttt{q} (Google, Bing), \texttt{search}, \texttt{query}, or \texttt{k} (Yahoo) along with specific strings associated with popular search engines such as Google or Bing.
+We also identified content pages by looking for URLs that contained strings such as ``\texttt{article}'', ``\texttt{blog}'', or ``\texttt{news}''.
+Scientific peer-reviewed publications were identified based on URLs that contained specific strings associated with academic publishers or databases (ACM DL, Elsevier, Scopus, Springer etc.), while Wikipedia articles were identified by their URLs containing the string ``\texttt{wikipedia}'' in the hostname.
+Library websites were identified by URLs that contained terms such as ``library'', ``catalogue'', or ``database'' as well as specific strings associated with major library systems (e.g., UT Austin uses Primo VE system from Ex Libris). Finally, we used the catch-all category \texttt{MISC} to identify other types of webpages that did not fit into any of the other categories.
+
+The URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behaviour.
+
+\hypertarget{l-interaction-with-lists-search-results-source-selection}{%
+\section{L: Interaction with Lists / Search Results -- Source Selection}\label{l-interaction-with-lists-search-results-source-selection}}
 
 \hypertarget{number-of-clicks-per-query}{%
 \subsection{Number of Clicks per Query}\label{number-of-clicks-per-query}}
@@ -3336,8 +3187,8 @@ However, even at this stage, their average number of clicks per query was still 
 
 It is also possible that the differences in average clicks per query between the two groups during different phases of the semester reflect differences in the complexity or specificity of the information needed for the different tasks. For example, the paper outline phase may have required more broad and exploratory searches, while the final paper phase may have required more targeted and specific searches.
 
-\hypertarget{dwell-time-on-search-results}{%
-\subsection{Dwell Time on Search Results}\label{dwell-time-on-search-results}}
+\hypertarget{sec-phase2-res-L-dt}{%
+\subsection{Counts and Dwell Time on Search Results}\label{sec-phase2-res-L-dt}}
 
 \begin{figure}
 
@@ -3356,7 +3207,7 @@ The Ethical Dilemma research paper writing task involved searching for 20 refere
 Therefore, we structure the discussion around visits to scholarly publication search results, and (non-scholarly) web SERPs.
 Examples of scholarly publication websites are Google Scholar, digital libraries such as ACM DL, Springer, Elsevier, PubMed and others.
 We examined how visits to these two categories of websites changed across the different stages of writing the research paper for each group.
-Figure \ref{fig:rp2-l} shows the counts of publication search results and web search results visited by the two groups, as well as total and average dwell time on such pages by both the group.
+Figure \ref{fig:rp2-l} shows the counts of publication search results and web search results visited by the two groups, as well as total and average dwell time on such pages by both the groups.
 
 For both publication search results and web search results, the high group visited a more number of those webpages than the low group (Figure \ref{fig:rp2-l}(a) and (b)).
 The high group visited more publication search results during the outline phase, and more web SERPs during the rough draft phase.
@@ -3379,8 +3230,8 @@ This difference in strategy may have contributed to the difference in perceived 
 The high group may have been able to find a broader range of information from a variety of sources, while the low group may have limited themselves to more specialized sources.
 It is also possible that the high group's use of web search engines may have resulted in them encountering more diverse perspectives and interpretations of the research topic, which could have enhanced their critical thinking and analytical skills.
 
-\hypertarget{i-interaction-with-sources-content-pages-information-objects}{%
-\section{I: Interaction with Sources / Content Pages / Information Objects}\label{i-interaction-with-sources-content-pages-information-objects}}
+\hypertarget{i-interaction-with-information-objects-sources-content-pages}{%
+\section{I: Interaction with Information Objects -- Sources / Content Pages}\label{i-interaction-with-information-objects-sources-content-pages}}
 
 \begin{figure}
 
@@ -3395,25 +3246,24 @@ It is also possible that the high group's use of web search engines may have res
 
 
 
-The low group viewed more number of academic publications earlier in the semester, while writing the outline, while high group viewed more number of publications later in the semester, while writing the rough draft and the final paper.
-This indicates that the low group had a more exploratory approach towards their research earlier in the semester, as they spent more time looking through a larger number of academic publications while writing the outline. On the other hand, the high group had a more focused approach, spending more time on fewer publications during the later stages when writing the rough draft and the final paper.
-This may be an indication of a difference in information-seeking behaviour and strategies between the two groups, with the low group possibly using a more broad and inclusive approach to gather information, while the high group uses a more selective approach. It could also reflect differences in the stage of research and writing that the two groups were at during each stage, with the low group at a more exploratory stage earlier in the semester, while the high group was at a more advanced stage of writing.
+We analysed interactions with content page in the same manner as counts and dwell time on search results (Section \ref{sec-phase2-res-L-dt}): looking at visits to scholarly publications, vs visits to non-scholarly content pages.
+Figure \ref{fig:rp2-i} shows the counts of scholarly publications and non-scholarly content pages visited by the low and high groups, as well as total and average dwell time on such pages by both groups.
 
-The total and average dwell time (possibly reading time) also followed a similar pattern.
-The high group had longer dwell time on publications in total and on average, in the later parts of the semester, while the low group dwelt more on publications in the earlier parts of the semester.
-This suggests that the high group had a more focused and deliberate approach to their research process, possibly due to better metacognitive and self-regulation skills. They spent more time on each publication, reading and analysing it thoroughly, in the later parts of the semester when they were working on the rough draft and final paper. This behaviour could have led to a deeper understanding of the content and better integration of the information into their writing. On the other hand, the low group may have had a more scattered approach, possibly due to lower levels of motivation, self-regulation, and metacognitive awareness, resulting in spending less time on each publication and viewing a larger number of publications earlier in the semester.
-This behaviour could have resulted in a superficial understanding of the content and difficulties in integrating the information into their writing.
+In a similar vein to publication vs web search results (Section \ref{sec-phase2-res-L-dt}), the high group engaged less with scholarly publications, and more with non-scholarly content pages, compared to the low group.
+Earlier in the semester, while writing the outline, the low group visited more academic publications, while the high group visited more content pages.
+The trend reversed later in the semester while writing the final paper, when the low group viewed less number of publications and more content pages, while the high group did the opposite (Figures \ref{fig:rp2-i}(a) and (b)).
 
-In a similar vein to publication vs web search results, the low group visited more number of content pages that were not academic publications compared to the high group.
-Their total dwell time on such pages were also longer than the high group, but the average dwell time was shorter.
-This suggests that the low group engaged in more exploratory behaviour, perhaps looking for additional sources of information or inspiration, beyond the academic publications.
-However, their lower average dwell time on these pages indicates that they may have been quickly scanning or skimming through the content, rather than engaging with it in depth.
-It's possible that they were spending less time on average on these pages because they were not as relevant or useful for their research paper.
+Speaking of dwell times, the low group spent significantly more time viewing academic publications, in total \((U = 219.0, p = .04, ES = 0.71)\) and on average \((U = 227.0, p = .02, ES = 0.74)\), compared to the high group (Figures \ref{fig:rp2-i}(c) and (e)).
+While writing the rough draft, the high group spent more time viewing non-scholarly content pages.
 
-On the other hand, the high group may have been more focused on finding academic sources for their paper, which could explain their lower number of visits to non-academic content pages.
-They may have been more focused on the task at hand and less likely to be distracted by extraneous information.
-The longer average dwell time on content pages suggests that they were more deeply engaging with the material they did visit.
-Overall, the low group may have been more inclined to explore a broader range of information sources, while the high group was more focused on academic sources and more likely to engage deeply with the content they did view.
+The high group's preference for non-academic content pages may reflect their use of web search engines to find relevant information, as such search engines may often prioritize non-academic content over scholarly publications.
+The high group seemed to be more focused on finding information that was relevant to their topic, regardless of its source. They also appeared to be more interested in exploring a wider range of topics and concepts, which is reflected in their higher stationary entropy of query reformulations during the rough draft phase.
+
+On the other hand, the low group's preference for academic publications may reflect their reliance on scholarly publication search engines to find information, as they may have perceived that being the main ask of the research paper.
+The low group seemed to be more concerned with finding information from scholarly publications, perhaps as a way to demonstrate the rigour of their research.
+They also appeared to have a more limited scope of inquiry, as reflected in their lower stationary entropy of query reformulations during the rough draft phase.
+
+Overall, these findings suggest that the high group may have been more creative and adaptable in their information searching behaviours, while the low group may have been more rigid and focused on adhering to traditional academic norms.
 
 \hypertarget{search-result-pages-vs-content-pages}{%
 \section{Search Result Pages vs Content Pages}\label{search-result-pages-vs-content-pages}}
@@ -3431,13 +3281,17 @@ Overall, the low group may have been more inclined to explore a broader range of
 
 
 
-Overall, the high group visited more search result pages and content pages as the semester progressed, while the low group had a drop in these behaviours after the outline phase.
-The difference in visits to Search Results pages was almost significant \((U = 133.5, p = .06, ES = 0.33)\).
+Figure \ref{fig:rp2-lvi} describes differences in visits to all search results pages versus all content pages (scholarly and non-scholarly combined), for the high and low groups.
+The high group visited more search result pages and content pages as the semester progressed, while the low group had a drop in these visits after the outline phase (Figure \ref{fig:rp2-lvi} (a), (b)).
+The difference in number of Search Results visits to Search Results pages was almost significant \((U = 136, p = .07, ES = 0.33)\).
 This suggests that the high group may have been more engaged and persistent in their information searching behaviours, while the low group may have experienced a decrease in motivation or self-regulation as the semester progressed, specifically before writing the rough draft.
-
 It is also noteworthy that the low group had a rebound in the number of pages visited while writing the final paper. This could indicate that they were able to re-engage with the task and their information searching behaviours improved as the final-paper deadline approached.
 
-The fact that the total dwell time on webpages followed a similar pattern as the number of pages visited is also interesting. It suggests that the high group spent more time engaging with the content they found, which could have contributed to their better learning outcomes.
+However, although the high group visited more number of all pages, they dwelt less on search results, and more on content pages.
+The differences are significant for total and average dwell times on search results (Figure \ref{fig:rp2-lvi} (c) and (e)).
+This indicates that the high group was more efficient at evaluating search result pages and quickly identifying relevant content.
+On the other hand, the low group may have spent more time on search result pages, possibly indicating that they had a harder time evaluating and selecting relevant results.
+This difference in information behaviour could be related to the higher self-perceived learning outcomes and search outcomes seen in the high group, as they were able to efficiently find and engage with relevant content.
 
 \hypertarget{entropy-of-search-tactic-sequences}{%
 \section{Entropy of Search Tactic Sequences}\label{entropy-of-search-tactic-sequences}}
@@ -3455,31 +3309,52 @@ The fact that the total dwell time on webpages followed a similar pattern as the
 
 
 
-Similar to entropy analysis of Query Reformulation types (Section \ref{sec-res-query-H}), we perform entropy analysis of search tactic transitions.
+Similar to entropy analysis of Query Reformulation types (Section \ref{sec-res-query-H}), we performed entropy analysis of search tactic transitions.
 This analysis is directly inspired from He et al. (\protect\hyperlink{ref-he2016beyond}{2016}), who in turn were inspired from Krejtz et al. (\protect\hyperlink{ref-krejtz2015gaze}{2015}).
+
+To characterize the entropy of students' search tactics, we used the following set of states, or tactics:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{\texttt{QUERY}}: issuing a search query
+\item
+  \textbf{\texttt{CLICK}}: mouse click
+\item
+  \textbf{\texttt{IDLE}}: participant stays idle for more than one minute (TODO CITATION)
+\item
+  \textbf{\texttt{SESSION\_BREAK}}: participant becomes idle for more than 30 minutes (Google Analytics defines a session break as 30 minutes of inactivity \footnote{\url{https://support.google.com/analytics/answer/2731565\#zippy=\%2Cin-this-article}})
+\item
+  \textbf{\texttt{L.PUB}}: visiting a publication search result page
+\item
+  \textbf{\texttt{L.WEB}}: visiting a web SERP
+\item
+  \textbf{\texttt{I.PUB}}: visiting a scholarly publication
+\item
+  \textbf{\texttt{I.WEB}}: visiting a non-scholarly content page
+\item
+  \textbf{\texttt{TASKPAGE}}: visiting webpages related to the study, i.e.~the Qualtrics questionnaires
+\end{enumerate}
 
 In the context of search tactic transitions, a higher value of transition entropy (\(H_t\)) indicates more randomness and uncertainty in the participant's search behaviour (which is composed of different search tactics, and transitioning or switching between those tactics).
 A lower value of transition entropy indicates that the search behaviour (i.e.~tactic switching behaviour) is highly predictable.
 For stationary entropy of search tactics (\(H_s\)), a higher value indicates that participants utilize all the search tactics with equal probability, while a lower value suggests that certain search tactics are favoured over others.
-The entropies discussed in the following sections were normalized by their theoretical maximums, for equivalent comparison across different conditions.
+Figure \ref{fig:rp2-tactic-entropy} describes the trends in this values over the duration of the semester.
 
-ResN7289045485214067875
-Both groups had highest Ht during 2C (and also 3 Finance?)
+The low group demonstrated a sharp increase in both transition entropy and stationary entropy of search tactics from the proposal stage to the outline stage.
+Both the entropies subsequently decreased in the final paper stage.
+The high group had a relatively stable trend in their transition entropy of search tactics, while their stationary entropy decreased as the semester progressed.
+Also, the high group's stationary entropy was significantly lower than that of the low group \((U = 252.0, p = .04, ES = 0.70)\).
 
-ResP5638176378435107439 - beginning
-ResN3435548740759333098 - middle
-ResP6845508037293675246 - end
+The low group's sharp increase in both transition and stationary entropy from the proposal to the outline stage suggests that they were exploring a wider range of search tactics and were less certain of which tactics to use during the early stages of the writing process.
+This is consistent with their high number of query reformulations and their tendency to click on a high number of search results and content pages.
+The subsequent decrease in both entropies in the final paper stage suggests that the low group became more focused and efficient in their search tactics, possibly as a result of the feedback they received during the earlier stages of the writing process.
 
-No sig diff for whole task, and at the beginning of task
-Sig diff appeared at the middle and increased at the end of task (similar to as observed by Gwizdka).
+The high group's relatively stable trend in transition entropy suggests that they were consistent in their use of search tactics throughout the writing process.
+However, their decreasing stationary entropy suggests that they became more focused and efficient in their use of search tactics as the semester progressed, which is consistent with their lower number of query reformulations and their tendency to dwell more on content pages.
 
-ResP8685879301269737254
-LO group had hghest Hs in 2C
-No sig diff in overall task
-
-No diff at beginning.
-Diff is most prominent at middle (ResN1140102300744288543)
-and also somewhat at end (ResN663758335140886910)
+Overall, the differences in the entropies between the two groups suggest that the low group was more uncertain and exploratory in their search tactics, while the high group was more focused and efficient.
 
 \hypertarget{results-repeated-vs-new-search-tasks}{%
 \chapter{Results: Repeated vs New Search Tasks}\label{results-repeated-vs-new-search-tasks}}
@@ -3600,6 +3475,11 @@ Same LPA profiles from Section \ref{sec-res-lpa}.
 
 
 
+
+Transition entropy refers to the uncertainty of the next search tactic that a user will apply during their search.
+In other words, it is a measure of how much the user explores different search tactics over the course of their search.
+Stationary entropy, on the other hand, refers to the uncertainty of the search tactic distribution over time.
+In other words, it is a measure of how stable or consistent the user is in their use of search tactics throughout their search process.
 
 \hypertarget{discussion}{%
 \chapter{Discussion}\label{discussion}}
@@ -3770,6 +3650,17 @@ Overall, the study has the potential to provide valuable insights into the compl
 
 QRTs
 Overall, these findings suggest that effective query reformulation strategies may be an important factor in achieving better self-perceived learning and search outcomes among undergraduate students writing research papers. Future research could explore the specific techniques and strategies that are most effective in promoting effective query reformulation among undergraduate students.
+
+Phase 2 I:
+The differences in information behaviors observed between the high and low groups in your study can be explained by a number of factors. One possible factor is motivation: the high group may have been more motivated to conduct a thorough and comprehensive search for information, which led them to explore a wider range of topics and use a variety of sources. The low group, on the other hand, may have been less motivated, and may have focused more narrowly on specific topics or sources.
+
+Another factor is self-regulation: the high group may have been better at managing their time and resources, which allowed them to engage with a wider range of sources and explore a broader range of topics. The low group may have struggled with time management or resource allocation, which led them to rely more heavily on a smaller set of sources or topics.
+
+Metacognition may also have played a role: the high group may have had a better understanding of their own strengths and weaknesses as information seekers, and may have adjusted their search strategies accordingly. The low group may have had a less developed sense of metacognition, which led them to rely on familiar strategies or sources, even if those strategies or sources were not always the most effective.
+
+Finally, memory span may have been a factor: the high group may have had a larger working memory capacity, which allowed them to process more information and make connections between different sources or topics. The low group may have had a smaller working memory capacity, which made it more difficult for them to integrate information from multiple sources or to switch between different topics or sources.
+
+Overall, these factors likely interacted in complex ways to produce the observed differences in information behaviors between the two groups. By identifying these factors and their effects on information seeking behaviors, your study provides valuable insights into how students approach research and how their behaviors may affect their learning outcomes.
 
 \hypertarget{summary-of-results-1}{%
 \section{Summary of Results}\label{summary-of-results-1}}

@@ -11,3 +11,10 @@ nbShowFig("figs/ResP5183239600404564866")
 (ref:scap-ResP5183239600404564866) Stationary Entropy  of Search Tactics  at Task Middle – All Task(s).
 
 <!---- fig:ResP5183239600404564866 (leave a blank line before this) ------>
+
+
+
+
+
+
+

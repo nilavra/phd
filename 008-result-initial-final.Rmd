@@ -145,3 +145,9 @@ nbShowFig("figs/rp13-tactic-entropy")
 (ref:scap-rp13-tactic-entropy) Entropy of Search Tactics – Repeated vs Non-repeated Tasks.
 
 <!---- fig:rp13-tactic-entropy (leave a blank line before this) ------>
+
+
+Transition entropy refers to the uncertainty of the next search tactic that a user will apply during their search. 
+In other words, it is a measure of how much the user explores different search tactics over the course of their search.
+Stationary entropy, on the other hand, refers to the uncertainty of the search tactic distribution over time. 
+In other words, it is a measure of how stable or consistent the user is in their use of search tactics throughout their search process.
