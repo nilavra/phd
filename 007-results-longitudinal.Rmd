@@ -1132,12 +1132,11 @@ nbShowFig("figs/rp2-tactic-entropy")
 
 Similar to entropy analysis of Query Reformulation types (Section \@ref(sec-res-query-H)), we performed entropy analysis of search tactic transitions.
 This analysis is directly inspired from @he2016beyond, who in turn were inspired from [@krejtz2014entropy, @krejtz2015gaze].
-
 To characterize the entropy of students' search tactics, we used the following set of states, or tactics:
 
 1. **`QUERY`**: issuing a search query
 2. **`CLICK`**: mouse click
-3. **`IDLE`**: participant stays idle for more than one minute (TODO CITATION)
+3. **`IDLE`**: participant stays idle for more than one minute (adapted from @taramigkou2018leveraging)
 4. **`SESSION_BREAK`**: participant becomes idle for more than 30 minutes (Google Analytics defines a session break as 30 minutes of inactivity ^[https://support.google.com/analytics/answer/2731565#zippy=%2Cin-this-article])
 5. **`L.PUB`**: visiting a publication search result page
 6. **`L.WEB`**: visiting a web SERP
