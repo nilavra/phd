@@ -93,6 +93,38 @@ P022Pisa said
 
 
 
+<!-- 
+From @winne2022metacognition:
+
+Learning is shaped by metacognitive knowledge exercised through metacognitive monitoring and metacognitive control.
+Metacognition is the engine of self-regulated learning. To help learners develop and apply
+productive self-regulated learning, learning environments should be designed to foster effective use of metacognitive strategies.
+Learning technologies can be used to induce, track, model, and support learners’ metacognition across tasks, domains, and contexts.
+Motivation and metacognition are closely intertwined in complex ways. Understanding their relationships is key to designing effective searching as learning environments.
+
+and must be taken into account when designing effective searching as learning environments.
+If effective use of metacognitive strategies can be fostered through well-designed learning environments,
+
+Moreover, the study highlights the potential of learning technologies in supporting learners' metacognition across a variety of tasks, domains, and contexts. As this research has shown, 
+
+Overall, this dissertation provides valuable insights into the ways in which metacognition and self-regulated learning can be leveraged to enhance learning outcomes and information search behaviors. By using these insights to inform the design of effective learning environments, we can help learners develop and apply productive SRL strategies, and ultimately achieve their full learning potential.
+
+ -->
+
+
+
+
+In conclusion, this dissertation has explored the role of motivation, metacognition and self-regulation in shaping the information search behaviours and learning outcomes of students. 
+The findings demonstrate that differences in these individual traits are crucial components of successful searching as learning behaviour. 
+As @winne2022metacognition argues, metacognition is the engine of self-regulated learning. 
+To help learners develop and apply productive self-regulated learning, search as learning environments should be designed to foster effective use of metacognitive strategies.
+Learning technologies should be used to induce, track, model, and support learners’ metacognition across tasks, domains, and contexts.
+As motivation and metacognition are closely intertwined in complex ways, understanding their relationships is the key to designing the next paradigm of searching as learning systems.
+
+ 
+
+
+
 
 
 
