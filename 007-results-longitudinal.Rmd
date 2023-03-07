@@ -1179,7 +1179,7 @@ Overall, the differences in the entropies between the two groups suggest that th
 
 
 
-## Summary
+## Summary of Longitudinal Phase
 
 We summarize the findings from this chapter, on the longitudinal searching-as-learning task of writing a research paper, as follows.
 
@@ -1187,6 +1187,10 @@ We summarize the findings from this chapter, on the longitudinal searching-as-le
 Participants were divided into high and low groups based on their self-reported values of motivation, metacognition, self-regulation, and memory span.
 Their search behaviour and perceived learning and search outcomes were studied over the course of a semester.
 During the longitudinal phase, both the high and low groups exhibited changes and differences in their search behaviour from the proposal to the outline stage to the rough draft, and finally to the final paper stage. 
+
+
+Investigating into specific interaction patters, we saw that the high group visited more search result pages, but spent less time dwelling on them. They also visited more content pages in the later parts of the semester, and spent more time dwelling on them. 
+The low group visited less number of search results, but spent more time on evaluating search results.
 
 
 Transition entropy refers to the uncertainty of the next search tactic that a user will apply during their search. 
@@ -1198,6 +1202,7 @@ This indicates that their search tactics became more diverse and unpredictable i
 The high group had a relatively stable trend, or gentle increase in their transition entropy of search tactics, indicating that they had a consistent and well-defined search strategy.
 This group's stationary entropy decreased as the semester progressed, suggesting that they became more focused and efficient in their search tactics over time.
 Additionally, the high group's stationary entropy was significantly lower than that of the low group, indicating that they had a more structured and organized approach to their search tactics.
+
 
 
 Regarding learning and search outcomes, the high group demonstrated significantly higher perceived learning and search outcomes compared to the low group. 

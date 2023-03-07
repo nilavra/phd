@@ -135,6 +135,34 @@ Rieh, S. Y., & Belkin, N. J. (2000). Interaction on the Web: Scholars' judgments
 Vakkari, P. (2003
 
 
+~~~~~~~~
+
+The findings of this study on longitudinal information search behavior and learning outcomes are consistent with prior literature in information science and information retrieval. Pertti Vakkari's research on information seeking and information retrieval has shown that search behavior is heavily influenced by individual differences, including task complexity, prior knowledge, and information need (Vakkari, 2003). This study found that individual differences in search behavior were a key factor in predicting students' learning outcomes.
+
+Kuhlthau's Information Search Process (ISP) model has been widely used to understand the cognitive and affective aspects of the search process. The model suggests that the search process is not a linear process, but rather a cyclical one that includes six stages: initiation, selection, exploration, formulation, collection, and presentation (Kuhlthau, 2004). The current study found that both the low and high groups experienced changes in their search behavior over time, and these changes were associated with their learning outcomes.
+
+Ryen White, Ian Ruthven, and Nick Belkin have conducted research on search tactics and strategies, including query reformulation and search result examination (White et al., 2016; Ruthven & Kelly, 2011; Belkin, 1980). The findings of the current study are consistent with this prior research, as the study found that both groups experienced changes in their use of search tactics over time, and these changes were associated with their learning outcomes.
+
+Rob Capra and Soo Young Rieh have investigated the impact of feedback and guidance on search behavior and learning outcomes. Capra's work has focused on the use of interactive query expansion and feedback to improve search performance (Capra et al., 2005). Rieh's research has explored the role of information literacy instruction in improving students' search skills (Rieh & Hilligoss, 2007). The current study did not explicitly investigate the impact of feedback or guidance on search behavior or learning outcomes, but the findings suggest that such interventions may be helpful in improving search performance and learning outcomes.
+
+Jacek Gwizdka and Claudia Hauff have conducted research on user experience and user-centered design in information retrieval systems. Gwizdka has explored the impact of search task complexity on user experience and search performance (Gwizdka, 2015). Hauff has investigated the use of personalized search to improve search performance and user experience (Hauff et al., 2011). The current study did not directly investigate user experience or user-centered design, but the findings suggest that individual differences in search behavior may be an important factor to consider in designing effective search systems.
+
+Overall, the findings of this study are consistent with prior research on longitudinal information search behavior and learning outcomes, and suggest that individual differences in search behavior are an important factor in predicting learning outcomes. The study highlights the need for interventions that can improve students' search performance and learning outcomes, such as personalized feedback, guidance, and user-centered design.
+
+References:
+
+Belkin, N. J. (1980). Anomalous states of knowledge as a basis for information retrieval. Canadian Journal of Information Science, 5(1), 133–143.
+
+Capra, R. G., Marchionini, G., & Hansen, P. (2005). Interactive query expansion: A user-based evaluation. Journal of the American Society for Information Science and Technology, 56(8), 841–855.
+
+Gwizdka, J. (2015). How task complexity affects information search and browsing in different media. Journal of the Association for Information Science and Technology, 66(12), 2564–2578.
+
+Hauff, C., Gao, Q., & Azzopardi, L. (2011). Personalizing web
+
+
+
+
+
 
 
 

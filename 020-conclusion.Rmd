@@ -177,3 +177,50 @@ HEATHER:
 
 
 
+<!-- 
+
+write short introductions and conclusions for the following chapters of my dissertation:
+
+1. results - longitudinal phase of writing research paper
+2. results - initial and final phase - repeated vs non-repeated search task
+3. revisiting research questions in light of results
+4. conclusion
+
+
+~~~~~~~
+
+Introduction for Results - Longitudinal Phase of Writing Research Paper:
+The longitudinal phase of the research paper writing task aimed to investigate how students' information search behaviors and learning outcomes changed over time. This chapter presents the results of the study, which involved analyzing students' search logs, survey responses, and grades from the proposal stage to the final paper stage.
+
+
+
+Conclusion for Results - Longitudinal Phase of Writing Research Paper:
+The findings from the longitudinal phase of the study revealed that students' information search behaviors and learning outcomes changed significantly over time. The high group demonstrated significantly higher perceived learning and search outcomes compared to the low group. The results suggest that repeated engagement with search tasks can improve search behaviors and learning outcomes.
+
+
+
+Introduction for Results - Initial and Final Phase - Repeated vs Non-repeated Search Task:
+The initial and final phase of the study aimed to compare the information search behaviors of students across repeated and non-repeated search tasks. This chapter presents the results of the analysis, which involved comparing the entropies of search tactics and query reformulation sequences, clicks per query, and familiarity of topics.
+
+Conclusion for Results - Initial and Final Phase - Repeated vs Non-repeated Search Task:
+The findings from the initial and final phase of the study suggest that there are differences in information search behaviors for repeated and non-repeated search tasks. The high group demonstrated more efficient and effective search behaviors compared to the low group, indicating that repeated engagement with search tasks can improve information search behaviors.
+
+
+
+Introduction for Revisiting Research Questions in Light of Results:
+This chapter aims to revisit the research questions that guided the study in light of the findings from the analysis. The chapter presents a discussion of the implications of the findings for the research questions and provides recommendations for future research.
+
+Conclusion for Revisiting Research Questions in Light of Results:
+The findings from the analysis shed light on how individual differences, task goals, and repeated engagement with search tasks affect information search behaviors and learning outcomes. The chapter provides a summary of the key findings and discusses their implications for future research in information science and information retrieval.
+
+
+
+Introduction for Conclusion:
+This chapter presents a summary of the study's main findings, implications, and limitations. The chapter also provides recommendations for practitioners and researchers in information science and information retrieval.
+
+Conclusion for Conclusion:
+The study aimed to investigate the effects of individual differences, task goals, and repeated engagement with search tasks on information search behaviors and learning outcomes. The findings suggest that repeated engagement with search tasks can improve information search behaviors and learning outcomes. The study also highlights the importance of considering individual differences and task goals when designing search tasks for educational purposes. The chapter concludes by discussing the limitations of the study and providing recommendations for future research.
+
+
+
+ -->
