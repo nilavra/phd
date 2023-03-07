@@ -199,11 +199,6 @@ The findings from the longitudinal phase of the study revealed that students' in
 
 
 
-Introduction for Results - Initial and Final Phase - Repeated vs Non-repeated Search Task:
-The initial and final phase of the study aimed to compare the information search behaviors of students across repeated and non-repeated search tasks. This chapter presents the results of the analysis, which involved comparing the entropies of search tactics and query reformulation sequences, clicks per query, and familiarity of topics.
-
-Conclusion for Results - Initial and Final Phase - Repeated vs Non-repeated Search Task:
-The findings from the initial and final phase of the study suggest that there are differences in information search behaviors for repeated and non-repeated search tasks. The high group demonstrated more efficient and effective search behaviors compared to the low group, indicating that repeated engagement with search tasks can improve information search behaviors.
 
 
 

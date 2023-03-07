@@ -1,11 +1,139 @@
 # Revisiting Research Questions
+ 
+After discussing the findings from the LongSAL study in detail in the previous chapters, we now revisit the research questions introduced in Chapter \@ref(ch-rq).
+The chapter presents a discussion of the implications of the findings of the study, in light of the research questions proposed.
+
+
+
+
+
+<!-- 
+
+that guided the study in light of the findings from the analysis. 
+
+and provides recommendations for future research. 
 
 
 Quick Check Results (Descriptive)
 
 - which results have the strongest effect sizes and RBC scores?
 - which users went beyond page 1 in a SERP?
-<!-- - possible to track revisits across SES2a - SES2d? -->
+- NO: possible to track revisits across SES2a - SES2d? 
+
+ -->
+
+
+
+## RQ1: Individual Differences and Longitudinal Search Behaviour
+
+> *How do (changing) individual differences of students affect their longitudinal information search behaviour?*
+
+The study found that there were (often significant) differences in information search behaviour between student groups who rated high versus low on individual traits such as motivation, metacognition, self-regulation, and memory-span.
+
+Metacognition and self-regulation are closely related concepts that involve thinking about and controlling one's own cognitive processes and learning strategies [@ambrose2010howa].
+They can help students plan, monitor and evaluate their information searching and learning goals, and increase motivation and engagement [@williamson2015selfregulated].
+Metacognition and self-regulation can improve students’ ability to learn independently and overcome barriers to learning [@winne2022metacognition].
+
+
+In the context of search as learning, metacognition can affect information searching behaviour in several ways.
+Metacognition help students develop effective search queries, compare and evaluate the information obtained, identify relevant websites and sources, and reformulate queries as needed.
+Students with higher levels of metacognition monitor and regulate their own search process, such as setting goals, planning strategies, checking progress and reflecting on outcomes.
+Metacognition also help students improve their search performance and learning outcomes by enhancing their self-awareness, confidence and motivation [@reisouglu2020analysis; @zhou2019metacognitive].
+
+
+In our study, we found that students in the high group, with higher values of metacognition, self-regulation, and motivation, demonstrated more efficient search behaviours with time.
+The randomness of their search behaviour decreased, indicating they became more efficient and strategic in their search processes. 
+They engaged more with content pages than search results, and reported overall better levels of learning and search outcomes. 
+In contrast, the low group, with lower levels of motivation, metacognition, self-regulation, and memory-span, showed less efficient search behaviours. 
+They had more randomness and higher entropies of search tactics, more engagement with search results than content pages at later stages of the semester (which was done in earlier stages by the high group), and a general lower level of learning and search outcome.
+
+
+
+
+
+
+
+## RQ2: Repeated vs Non-repeated Search Tasks
+
+> *What are the similarities and differences in information search behaviours for tasks where the learning goals are new (non-repeated search tasks), versus those where the learning goals are repeated (repeated search tasks)?*
+
+
+Non-repeated search tasks are those where the learning goals are new and require exploration and discovery of new information. 
+Repeated search tasks are those where the learning goals are repeated and require reinforcement and retrieval of existing information.
+The findings from this study suggest that there are similarities and differences in information search behaviours for tasks where the learning goals are new versus those where the learning goals are repeated. 
+
+
+Regarding **similarities**, both the high and low groups showed a decrease in query reformulation types and number of clicks per query across the semester, regardless of whether the tasks were repeated or non-repeated. 
+However, there were some **differences** as well. 
+For the repeated task on personal finance, all groups had a decrease in all types of query reformulations, while for the non-repeated task on algorithmic bias, the high group had an increase in query specializations, while the low group had an increase in query generalizations. 
+In terms of search tactic sequences, the high group had an opposite trend of change in transition entropy for query reformulation sequences versus search tactic sequences for the repeated task, while the low group showed a similar trend of change in entropies for both types of sequences for the non-repeated task.
+
+
+
+These findings complement and extend prior work that has linked topic familiarity and task intentions with search strategies and tactics, in influencing search behaviour. 
+Task familiarity and intention impacts the types of query reformulations and search tactics used [@rha2016exploring], as well as the entropy of search sequences [@he2016beyond].
+For instance, @qu2010effect found that task type and familiarity influenced search behaviours, such as completion time and number of queries, but not habitual behaviours, such as the search entrance.
+@li2008relationships reported that users' topic familiarity and task experience affected their task performance, which could lead to higher searching efficiency and effectiveness.
+Finally, @karimi2011domain reported that topic familiarity affected query formulation strategies, such as query length, use of Boolean operators, use of quotation marks, query count, and overall query length.
+
+
+
+
+
+
+<!-- 
+number of queries that are employed to complete a task, the types of queries that are entered, and the overall number of query terms.
+
+Another reference is a paper by Zhang et al. (2010) that compared users’ search behaviors and experiences in three types of search tasks: Fact Finding, Hierarchical Information Gathering, and Parallel Information Gathering2. 
+
+
+
+A third reference is a paper by Wildemuth et al. (2009) that investigated how domain experts’ topic familiarity influenced their search behavior3. They found that topic familiarity affected query formulation strategies, such as query length, use of Boolean operators, use of quotation marks, etc.
+ 
+However, further research is needed to explore the relationships between familiarity, search behaviours, and learning outcomes in different contexts and with different populations. 
+
+
+https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/pra2.2016.14505301048
+
+
+https://link.springer.com/chapter/10.1007/978-3-030-45439-5_42
+
+
+https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/meet.14505001062
+
+https://link.springer.com/article/10.1007/s10791-017-9303-0
+
+
+
+Some similarities in information search behaviours for both types of tasks are:
+
+They involve cognitive processes such as attention, memory, comprehension and evaluation1.
+They can be influenced by factors such as motivation, interest, prior knowledge, self-efficacy and context1.
+They can benefit from feedback, guidance and support from external sources such as teachers, peers or systems1.
+Some differences in information search behaviours for both types of tasks are:
+
+Non-repeated search tasks may require more diverse sources, strategies and criteria than repeated search tasks.
+Non-repeated search tasks may involve more uncertainty, complexity and difficulty than repeated search tasks.
+Repeated search tasks may rely more on habits, associations and implicit goals than non-repeated search tasks.
+Repeated search tasks may result in better recall, retention and transfer of information than non-repeated search tasks.
+
+
+-->
+
+
+
+
+## RQ3: Searching Behaviour and Learning Outcomes
+
+> *How do (longitudinal) information search behaviour of students correlate with their (self-perceived) learning outcomes?*
+
+The study found that the high group demonstrated significantly higher perceived learning outcomes and search outcomes compared to the low group, and this was correlated with their longitudinal information search behaviour. These findings are consistent with prior research that has shown a positive correlation between search behaviour and learning outcomes in various contexts. 
+
+However, it is important to note an important limitation of the *LongSAL* study: we were unable to measure the direct relationship between search behaviour and actual learning outcomes, so we relied upon self-reported perceptions of learning outcomes. 
+Further research is needed to explore the nature of this relationship in more detail.
+
+
+
 
 
 <!-- 
@@ -64,7 +192,9 @@ Overall, the findings suggest that for repeated search tasks, students may rely 
 
 Q: How do (changing) individual differences of students moderate their information search behaviours and learning outcomes?
 
-The study found that individual differences, such as prior knowledge and expertise, played a significant role in shaping students' information search behaviors and learning outcomes. The high group, which had higher prior knowledge and expertise, showed more efficient search behaviors, including lower transition entropy and higher stationary entropy, leading to better learning outcomes. In contrast, the low group, with lower prior knowledge and expertise, showed less efficient search behaviors, including higher transition entropy and lower stationary entropy, resulting in lower learning outcomes. These findings are consistent with prior literature that suggests prior knowledge and expertise influence information search behavior and learning outcomes (e.g., Kuhlthau, 2004; Zhang & Duke, 2005).
+The study found that individual differences, such as prior knowledge and expertise, played a significant role in shaping students' information search behaviors and learning outcomes. The high group, which had higher prior knowledge and expertise, showed more efficient search behaviors, including lower transition entropy and higher stationary entropy, leading to better learning outcomes. 
+
+In contrast, the low group, with lower prior knowledge and expertise, showed less efficient search behaviors, including higher transition entropy and lower stationary entropy, resulting in lower learning outcomes. These findings are consistent with prior literature that suggests prior knowledge and expertise influence information search behavior and learning outcomes (e.g., Kuhlthau, 2004; Zhang & Duke, 2005).
 
 
 --------------

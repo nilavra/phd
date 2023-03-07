@@ -72,7 +72,7 @@ limitations-of-current-search-systems-in-fostering-learning
 sec-bg-search-longitudinal-studies
 sec-bg-search-sensemaking
 sec-bg-search-summary
-research-questions-and-hypotheses
+ch-rq
 sec-rq
 sec-rq-hypotheses
 sec-framework-rq1-rq2
@@ -116,7 +116,7 @@ sec-phase2-res-L-dt
 i-interaction-with-information-objects-sources-content-pages
 search-result-pages-vs-content-pages
 entropy-of-search-tactic-sequences
-summary
+summary-of-longitudinal-phase
 results-and-discussion-repeated-vs-non-repeated-search-tasks
 learning-outcomes
 q-query-formulations-1
@@ -127,8 +127,11 @@ sec-res-phase13-query-H
 number-of-clicks-per-query-1
 l-vs-i-interaction-with-search-results-vs-content-pages
 entropy-of-search-tactic-sequences-1
-summary-1
+summary
 revisiting-research-questions
+rq1-individual-differences-and-longitudinal-search-behaviour
+rq2-repeated-vs-non-repeated-search-tasks
+rq3-searching-behaviour-and-learning-outcomes
 rq1-how-do-search-behaviours-change-over-time
 rqx-entropy-based-research-questions-from-he-2016
 rq2-similarities-and-differences-in-repeated-vs-new-tasks

@@ -16,3 +16,4 @@ Pingouin
 @ref
 SRQ
 QRTs
+LongSAL
