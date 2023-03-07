@@ -2802,26 +2802,38 @@ After data collection for all the phases was complete, data analysis was perform
 \hypertarget{data-analysis-results-and-discussion-longitudinal-tracking-phase}{%
 \chapter{Data Analysis, Results, and Discussion: Longitudinal Tracking Phase}\label{data-analysis-results-and-discussion-longitudinal-tracking-phase}}
 
-TODO: write intro section of this chapter
+The longitudinal phase of the LongSAL study involved understanding students' searching as learning behaviour for the research paper writing task.
+The aim was to investigate how students' information search behaviours and learning outcomes change over time.
+This chapter presents participant information, the timeline of data collection, data analysis steps, followed by the results of the longitudinal phase of the study.
+For sake of better narration, the findings from the initial and final phase are presented in the next chapter.
 
-longitudinal study (cohort study)
+\hypertarget{participants-and-timeline-of-collected-data}{%
+\section{Participants and Timeline of Collected Data}\label{participants-and-timeline-of-collected-data}}
 
-Most of the results did not have statistical significance - but that's okay because this is exploratory research, which is inductive, rather than deductive. \url{https://youtu.be/URz4CAaJqnE}
+\begin{figure}
 
-We were more interested in discovering interesting patterns.
-We believe the findings from this study will lead to more confirmatory studies.
+{\centering \includegraphics[width=1\linewidth]{figs/res-timeline-collected-data} 
 
-\url{https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan}
+}
 
-All statistical tests are two-tailed Mann-Whitney U test.
+\caption[Timeline of collected data.]{Timeline of collected data.}\label{fig:res-timeline-collected-data}
+\end{figure}
 
-As the sample sizes were often small, the groups were imbalanced, and / or the data did not match the normality assumptions of parametric tests, we employed the non-parametric Mann-Whitney U test for all the null-hypothesis significance testing reported in this and the next chapter. This allows easy comparison between different categories of results.
 
-Additionally, we also report Common Language Effect Size (CLES) for each statistical test result.
-The common language effect size is the proportion of pairs where \(x\) is higher than \(y\).
-In other words, it is the probability that a score sampled at random from the first distribution will be greater than a score sampled from the second distribution.
-CLES was first introduced by McGraw and Wong (1992) {[}TODO{]}. The Python statistical library employed in data analysis -- Pingouin (\protect\hyperlink{ref-vallat2018pingouin}{Vallat, 2018}) -- uses a brute-force version of the formula given by Vargha and Delaney 2000 {[}TODO{]}:
-The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.
+
+
+
+Figure \ref{fig:res-timeline-collected-data} shows the timeline of the data collected in the LongSAL study, spread across the Spring 2022 semester at the University of Texas at Austin, USA.
+Eighteen participants enlisted their names in the Recruitment Questionnaire, \texttt{QSNR0}.
+Sixteen showed up for the initial phase, and remained in the study till the mid-point of the semester (mid-term questionnaire, \texttt{QSNR2}).
+Then six participants dropped off, and the study was fully completed by ten participants (who stayed till the exit questionnaire, \texttt{QSNR3}.)
+In Figure \ref{fig:res-timeline-collected-data}, participant names in \textbf{bold} (bottom 10) indicate those who fully completed the longitudinal study,
+while participant names in \emph{italics} (top 8) indicate those who dropped off at various stages along the way.
+For data analysis, we partitioned the semester duration into three phases, along the green vertical dotted lines:
+beginning,
+middle, and
+end of the semester.
+Inspired by the Spanish TV series \emph{La Casa de Papel} (English name: \emph{Money Heist})\footnote{\url{https://en.wikipedia.org/wiki/Money_Heist}}, participants were assigned code-names which were aliases of geographic locations.
 
 \hypertarget{data-analysis-framework}{%
 \section{Data Analysis Framework}\label{data-analysis-framework}}
@@ -2839,52 +2851,27 @@ The advantage is of this method are twofold. First, the brute-force approach pai
 
 
 
-This section describes the general framework for analysing the data collected in the \emph{LongSAL} study.
-It is described in Figure \ref{fig:data-analysis-framework}.
+The general framework for analysing the data collected in the \emph{LongSAL} study is described in Figure \ref{fig:data-analysis-framework}.
+Primarily, two categories of data were collected in the study:
+explicit responses via Qualtrics survey platform, and implicit search behaviours via YASBIL browsing logger.
+The data collected from Qualtrics were primarily search task written responses, as well as responses to the individual difference questionnaire instruments for motivation, metacognition, and self-regulation.
+Data from the questionnaires were used to divide participants into groups, which is discussed in Section \ref{sec-res-phase2-lpa}.
+Log data from YASBIL was cleaned, processed, categorized (Section \ref{sec-res-url-categorization}) and analysed, to examine (differences in) search behaviour of different participant groups.
 
-Here is the overall data analysis framework of my dissertation:
-Two categories of data were collected from participants.
+For examining statistical differences between groups, we employed the non-parametric \textbf{Mann-Whitney U test} for null-hypothesis significance testing (\protect\hyperlink{ref-mann1947test}{Mann \& Whitney, 1947}).
+This choice was due to several reasons:
+the sample sizes were often small,
+the groups were imbalanced, and / or the data did not satisfy the assumptions of parametric tests such as ANOVA.
+Employing one statistical test allows for easy comparison between different categories of results.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Questionnaire data for individual differences: motivation, metacognition, self-regulation.
-\item
-  Search Log data containing URL visits, mouse events, webnavigation events, and the order and sequence of those events.
-\end{enumerate}
-
-Questionnaire Data
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Cleaning and Preprocessing
-\item
-  identifying user groups - latent profile analysis
-\end{enumerate}
-
-Log Data
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Log Data cleaning and pre-processing
-\item
-  URL categorization
-\item
-  Active Tab Identification
-\item
-  Higher levelSearch Behaviour Data Analysis framework - moves, tactics, strategies
-\item
-  Combining Latent Profiles with Search Behaviour Data
-\end{enumerate}
-
-Trends Over Time
-Difference Between Groups / Profiles
-Entropy analysis of sequences
+Additionally, we also report \textbf{Common Language Effect Size (CLES)} for each statistical test result.
+The common language effect size is the proportion of pairs where \(x\) from the first group is larger than \(y\) from the second group.
+In other words, it is the probability that a score sampled at random from the first distribution will be greater than a score sampled from the second distribution.
+CLES was first introduced by McGraw \& Wong (\protect\hyperlink{ref-mcgraw1992common}{1992}).
+The Python statistical library employed in the data analysis -- Pingouin (\protect\hyperlink{ref-vallat2018pingouin}{Vallat, 2018}) -- uses a brute-force version of the formula given by Vargha \& Delaney (\protect\hyperlink{ref-vargha2000critique}{2000}).
+The advantage is of this method are twofold:
+first, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data;
+second, the formula takes ties into account and therefore works with ordinal data \footnote{\url{https://pingouin-stats.org/build/html/generated/pingouin.mwu.html}}.
 
 \hypertarget{sec-res-phase2-lpa}{%
 \section{Latent Profile Analysis}\label{sec-res-phase2-lpa}}
@@ -2909,7 +2896,7 @@ However, it is important to note that these constructs are not single binary var
 To cluster participants into meaningful groups based on these multiple constructs, we turned to the educational psychology literature.
 \textbf{Latent Profile Analysis (LPA)} is an increasingly popular statistical approach falling under the umbrella of person-centred techniques used in organizational psychology and child development research. It provides a framework for characterizing population heterogeneity in terms of differences across individuals on a set of behaviours or characteristics, as opposed to describing the variability of a single variable. By identifying latent subgroups within a population, LPA enables researchers to gain a more nuanced understanding of the complexity of human behaviour.
 
-The person-centred approach underlying LPA is a departure from traditional variable-centred approaches such as multiple regression analysis. Instead of quantifying the role of particular variables in a study, LPA organizes a population into a finite number of mutually exclusive and exhaustive profiles, each comprising individuals who are similar to one another. In this way, LPA identifies distinct profiles of individuals who exhibit similar patterns of behaviour across multiple variables.
+The \textbf{person-centred approach} underlying LPA is a departure from traditional variable-centred approaches such as multiple regression analysis. Instead of quantifying the role of particular variables in a study, LPA organizes a population into a finite number of mutually exclusive and exhaustive profiles, each comprising individuals who are similar to one another. In this way, LPA identifies distinct profiles of individuals who exhibit similar patterns of behaviour across multiple variables.
 
 The identification and description of these latent profiles is a crucial step in LPA. Each profile represents a subgroup of individuals who share similar patterns of responses on a set of variables, which can provide insights into the underlying mechanisms driving their behaviour. Furthermore, the identification of the optimal number of profiles to represent a population is a critical issue in LPA. This involves balancing the complexity of the model with its ability to capture meaningful variability in the data, and requires careful consideration of both statistical and substantive criteria.
 
@@ -2945,7 +2932,7 @@ At semester end, 4 participants from the high group and 2 participant from the l
 One participant transitioned from high group to low group.
 This resulted in 7 participants in the high group and 3 participant in the low group, with no data for 6 participants at the semester end timepoint (\texttt{QSNR3})
 
-Henceforth, in the discussion, all the \textbf{Effect Sizes (ES)} reported as part of Mann Whitney U test compare the scores of the low group (first distribution) with those of the high group (second distribution).
+In the discussion that follows, all the \textbf{Effect Sizes (ES)} reported as part of Mann Whitney U tests, compare the scores of the low group (first distribution) with those of the high group (second distribution).
 In other words, an example effect size \(ES=0.19\) means that there is a 19\% chance that a score from the low group will be greater than the corresponding score from the high group.
 
 \hypertarget{learning-and-search-outcomes}{%
@@ -3134,8 +3121,8 @@ In contrast, the high group employed all the types query reformulations with equ
 The increase in the high group's stationary entropy from outline to rough suggests that they were exploring a broader range of topics and concepts at this stage of the writing process, which may have allowed them to identify more relevant and useful information.
 The subsequent decrease in stationary entropy from rough draft to final paper suggests that they were able to narrow down their focus and consolidate their understanding of the subject-matter as they progressed, which may have contributed to their higher self-perceived learning and search outcomes.
 
-\hypertarget{url-categorization-for-analyzing-interactions}{%
-\section{URL Categorization for Analyzing Interactions}\label{url-categorization-for-analyzing-interactions}}
+\hypertarget{sec-res-url-categorization}{%
+\section{URL Categorization for Analysing Interactions}\label{sec-res-url-categorization}}
 
 In order to understand the relationship between users' information search behavior and the type of webpages they visit, we needed to categorize webpages into different types. To accomplish this, we developed a classification system based on URL patterns.
 
@@ -3889,6 +3876,16 @@ TODO: summary Overall, the findings suggest that developing effective search str
 
 \hypertarget{conclusion}{%
 \chapter{Conclusion}\label{conclusion}}
+
+longitudinal study (cohort study)
+
+Most of the results did not have statistical significance - but that's okay because this is exploratory research, which is inductive, rather than deductive.\\
+\url{https://youtu.be/URz4CAaJqnE}
+
+We were more interested in discovering interesting patterns.
+We believe the findings from this study will lead to more confirmatory studies.
+
+\url{https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan}
 
 \hypertarget{limitations}{%
 \section{Limitations}\label{limitations}}
@@ -5557,6 +5554,9 @@ Lorigo, L., Pan, B., Hembrooke, H., Joachims, T., Granka, L., \& Gay, G. (2006).
 \leavevmode\vadjust pre{\hypertarget{ref-loyens2008selfdirected}{}}%
 Loyens, S. M. M., Magda, J., \& Rikers, R. M. J. P. (2008). Self-{Directed Learning} in {Problem}-{Based Learning} and its {Relationships} with {Self}-{Regulated Learning}. \emph{Educational Psychology Review}, \emph{20}(4), 411--427. \url{https://doi.org/10.1007/s10648-008-9082-7}
 
+\leavevmode\vadjust pre{\hypertarget{ref-mann1947test}{}}%
+Mann, H. B., \& Whitney, D. R. (1947). On a test of whether one of two random variables is stochastically larger than the other. \emph{The Annals of Mathematical Statistics}, 50--60.
+
 \leavevmode\vadjust pre{\hypertarget{ref-mannion2020metacognition}{}}%
 Mannion, J. (2020). Metacognition, self-regulation and self-regulated learning: What's the difference? In \emph{impact.chartered.college}. \url{https://impact.chartered.college/article/metacognition-self-regulation-regulated-learning-difference/}
 
@@ -5574,6 +5574,9 @@ Marton, F., \& Säaljö, R. (1976). On qualitative differences in learning---ii 
 
 \leavevmode\vadjust pre{\hypertarget{ref-marton1976qualitative-a}{}}%
 Marton, F., \& Säljö, R. (1976). On qualitative differences in learning: I---outcome and process. \emph{British Journal of Educational Psychology}, \emph{46}(1), 4--11.
+
+\leavevmode\vadjust pre{\hypertarget{ref-mcgraw1992common}{}}%
+McGraw, K. O., \& Wong, S. P. (1992). A common language effect size statistic. \emph{Psychological Bulletin}, \emph{111}(2), 361.
 
 \leavevmode\vadjust pre{\hypertarget{ref-mcgrew2020learning}{}}%
 McGrew, S. (2020). Learning to evaluate: An intervention in civic online reasoning. \emph{Computers \& Education}, \emph{145}, 103711.
@@ -5763,6 +5766,9 @@ Vallat, R. (2018). Pingouin: Statistics in python. \emph{J. Open Source Softw.},
 
 \leavevmode\vadjust pre{\hypertarget{ref-viu2021mai}{}}%
 Vancouver Island University. (2021). \emph{Metacognitive awareness inventory (MAI)}. \url{https://alearningjourneyweb.files.wordpress.com/2017/03/self-directed-vs-self-regulated-chart.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-vargha2000critique}{}}%
+Vargha, A., \& Delaney, H. D. (2000). A critique and improvement of the CL common language effect size statistics of McGraw and wong. \emph{Journal of Educational and Behavioral Statistics}, \emph{25}(2), 101--132.
 
 \leavevmode\vadjust pre{\hypertarget{ref-villa2013relevance}{}}%
 Villa, R., \& Halvey, M. (2013). Is relevance hard work? Evaluating the effort of making relevant assessments. \emph{Proceedings of the 36th International ACM SIGIR Conference on Research and Development in Information Retrieval}, 765--768.

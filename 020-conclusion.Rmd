@@ -1,5 +1,18 @@
 # Conclusion
 
+longitudinal study (cohort study)
+
+Most of the results did not have statistical significance - but that's okay because this is exploratory research, which is inductive, rather than deductive.  
+https://youtu.be/URz4CAaJqnE
+
+
+We were more interested in discovering interesting patterns.
+We believe the findings from this study will lead to more confirmatory studies.
+
+https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan
+
+
+
 <!-- 
 
 , Contributions, and Future Work 
@@ -190,7 +203,7 @@ write short introductions and conclusions for the following chapters of my disse
 ~~~~~~~
 
 Introduction for Results - Longitudinal Phase of Writing Research Paper:
-The longitudinal phase of the research paper writing task aimed to investigate how students' information search behaviors and learning outcomes changed over time. This chapter presents the results of the study, which involved analyzing students' search logs, survey responses, and grades from the proposal stage to the final paper stage.
+
 
 
 

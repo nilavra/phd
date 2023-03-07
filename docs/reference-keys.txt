@@ -16,6 +16,7 @@ fig:study-proc
 fig:search-task-repeated
 fig:search-task-new
 fig:final-project-description
+fig:res-timeline-collected-data
 fig:data-analysis-framework
 fig:lpa-profile-means
 fig:lpa-profile-transitions
@@ -102,6 +103,7 @@ phase3-sheg-website-comparison-assessment
 sec-method-qsnr3
 measures-to-address-ethical-concerns
 data-analysis-results-and-discussion-longitudinal-tracking-phase
+participants-and-timeline-of-collected-data
 data-analysis-framework
 sec-res-phase2-lpa
 learning-and-search-outcomes
@@ -109,7 +111,7 @@ q-query-formulations
 length-and-count-of-queries-per-search-task
 query-reformulation-types-qrts
 sec-res-phase2-query-H
-url-categorization-for-analyzing-interactions
+sec-res-url-categorization
 l-interaction-with-lists-search-results-source-selection
 number-of-clicks-per-query
 sec-phase2-res-L-dt

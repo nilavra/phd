@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>6 Data Analysis, Results, and Discussion: Longitudinal Tracking Phase | LongSAL: A Longitudinal Search as Learning Study With University Students</title>
 <meta name="author" content="Nilavra Bhattacharya">
-<meta name="description" content="TODO: write intro section of this chapter longitudinal study (cohort study) Most of the results did not have statistical significance - but that’s okay because this is exploratory research, which...">
+<meta name="description" content="The longitudinal phase of the LongSAL study involved understanding students’ searching as learning behaviour for the research paper writing task. The aim was to investigate how students’...">
 <meta name="generator" content="bookdown 0.32 with bs4_book()">
 <meta property="og:title" content="6 Data Analysis, Results, and Discussion: Longitudinal Tracking Phase | LongSAL: A Longitudinal Search as Learning Study With University Students">
 <meta property="og:type" content="book">
-<meta property="og:description" content="TODO: write intro section of this chapter longitudinal study (cohort study) Most of the results did not have statistical significance - but that’s okay because this is exploratory research, which...">
+<meta property="og:description" content="The longitudinal phase of the LongSAL study involved understanding students’ searching as learning behaviour for the research paper writing task. The aim was to investigate how students’...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="6 Data Analysis, Results, and Discussion: Longitudinal Tracking Phase | LongSAL: A Longitudinal Search as Learning Study With University Students">
-<meta name="twitter:description" content="TODO: write intro section of this chapter longitudinal study (cohort study) Most of the results did not have statistical significance - but that’s okay because this is exploratory research, which...">
+<meta name="twitter:description" content="The longitudinal phase of the LongSAL study involved understanding students’ searching as learning behaviour for the research paper writing task. The aim was to investigate how students’...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
@@ -94,69 +94,115 @@
 <h1>
 <span class="header-section-number">6</span> Data Analysis, Results, and Discussion: Longitudinal Tracking Phase<a class="anchor" aria-label="anchor" href="#data-analysis-results-and-discussion-longitudinal-tracking-phase"><i class="fas fa-link"></i></a>
 </h1>
-<p>TODO: write intro section of this chapter</p>
-<p>longitudinal study (cohort study)</p>
-<p>Most of the results did not have statistical significance - but that’s okay because this is exploratory research, which is inductive, rather than deductive. <a href="https://youtu.be/URz4CAaJqnE" class="uri">https://youtu.be/URz4CAaJqnE</a></p>
-<p>We were more interested in discovering interesting patterns.
-We believe the findings from this study will lead to more confirmatory studies.</p>
-<p><a href="https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan" class="uri">https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan</a></p>
-<p>All statistical tests are two-tailed Mann-Whitney U test.</p>
-<p>As the sample sizes were often small, the groups were imbalanced, and / or the data did not match the normality assumptions of parametric tests, we employed the non-parametric Mann-Whitney U test for all the null-hypothesis significance testing reported in this and the next chapter. This allows easy comparison between different categories of results.</p>
-<p>Additionally, we also report Common Language Effect Size (CLES) for each statistical test result.
-The common language effect size is the proportion of pairs where <span class="math inline">\(x\)</span> is higher than <span class="math inline">\(y\)</span>.
-In other words, it is the probability that a score sampled at random from the first distribution will be greater than a score sampled from the second distribution.
-CLES was first introduced by McGraw and Wong (1992) [TODO]. The Python statistical library employed in data analysis – Pingouin <span class="citation">(<a href="#ref-vallat2018pingouin">Vallat, 2018</a>)</span> – uses a brute-force version of the formula given by Vargha and Delaney 2000 [TODO]:
-The advantage is of this method are twofold. First, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data. Second, the formula takes ties into account and therefore works with ordinal data.</p>
-<!-- In the interest of better presentation and readability of this chapter, more ancillary plots are presented in Appendices \@ref(app-plots-query) and \@ref(app-plots-search). -->
-<div id="data-analysis-framework" class="section level2" number="6.1">
+<p>The longitudinal phase of the LongSAL study involved understanding students’ searching as learning behaviour for the research paper writing task.
+The aim was to investigate how students’ information search behaviours and learning outcomes change over time.
+This chapter presents participant information, the timeline of data collection, data analysis steps, followed by the results of the longitudinal phase of the study.
+For sake of better narration, the findings from the initial and final phase are presented in the next chapter.</p>
+<!-- 
+
+which involved analyzing students' search logs, survey responses, and grades from the proposal stage to the final paper stage. 
+
+
+-->
+<div id="participants-and-timeline-of-collected-data" class="section level2" number="6.1">
 <h2>
-<span class="header-section-number">6.1</span> Data Analysis Framework<a class="anchor" aria-label="anchor" href="#data-analysis-framework"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.1</span> Participants and Timeline of Collected Data<a class="anchor" aria-label="anchor" href="#participants-and-timeline-of-collected-data"><i class="fas fa-link"></i></a>
+</h2>
+<!----------- fig:res-timeline-collected-data ----------->
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:res-timeline-collected-data"></span>
+<img src="figs/res-timeline-collected-data.svg" alt="Timeline of collected data." width="100%"><p class="caption">
+Figure 6.1: Timeline of collected data.
+</p>
+</div>
+<!-- each text reference needs to be their own single paragraph ! -->
+
+
+<!---- fig:res-timeline-collected-data (leave a blank line before this) ------>
+<p>Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:res-timeline-collected-data">6.1</a> shows the timeline of the data collected in the LongSAL study, spread across the Spring 2022 semester at the University of Texas at Austin, USA.
+Eighteen participants enlisted their names in the Recruitment Questionnaire, <code>QSNR0</code>.
+Sixteen showed up for the initial phase, and remained in the study till the mid-point of the semester (mid-term questionnaire, <code>QSNR2</code>).
+Then six participants dropped off, and the study was fully completed by ten participants (who stayed till the exit questionnaire, <code>QSNR3</code>.)
+In Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:res-timeline-collected-data">6.1</a>, participant names in <strong>bold</strong> (bottom 10) indicate those who fully completed the longitudinal study,
+while participant names in <em>italics</em> (top 8) indicate those who dropped off at various stages along the way.
+For data analysis, we partitioned the semester duration into three phases, along the green vertical dotted lines:
+beginning,
+middle, and
+end of the semester.
+Inspired by the Spanish TV series <em>La Casa de Papel</em> (English name: <em>Money Heist</em>)<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Money_Heist" class="uri"&gt;https://en.wikipedia.org/wiki/Money_Heist&lt;/a&gt;&lt;/p&gt;'><sup>14</sup></a>, participants were assigned code-names which were aliases of geographic locations.</p>
+<!-- In the interest of better presentation and readability of this chapter, more ancillary plots are presented in Appendices \@ref(app-plots-query) and \@ref(app-plots-search). -->
+</div>
+<div id="data-analysis-framework" class="section level2" number="6.2">
+<h2>
+<span class="header-section-number">6.2</span> Data Analysis Framework<a class="anchor" aria-label="anchor" href="#data-analysis-framework"><i class="fas fa-link"></i></a>
 </h2>
 <!----------- fig:data-analysis-framework ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:data-analysis-framework"></span>
 <img src="figs/data-analysis-framework.svg" alt="Data analysis framework followed in this dissertation." width="100%"><p class="caption">
-Figure 6.1: Data analysis framework followed in this dissertation.
+Figure 6.2: Data analysis framework followed in this dissertation.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
 
 
 <!---- fig:data-analysis-framework (leave a blank line before this) ------>
-<p>This section describes the general framework for analysing the data collected in the <em>LongSAL</em> study.
-It is described in Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:data-analysis-framework">6.1</a>.</p>
-<p>Here is the overall data analysis framework of my dissertation:
-Two categories of data were collected from participants.</p>
-<ol style="list-style-type: decimal">
-<li>Questionnaire data for individual differences: motivation, metacognition, self-regulation.</li>
-<li>Search Log data containing URL visits, mouse events, webnavigation events, and the order and sequence of those events.</li>
-</ol>
-<p>Questionnaire Data</p>
-<ol style="list-style-type: decimal">
-<li>Cleaning and Preprocessing</li>
-<li>identifying user groups - latent profile analysis</li>
-</ol>
-<p>Log Data</p>
-<ol style="list-style-type: decimal">
-<li>Log Data cleaning and pre-processing</li>
-<li>URL categorization</li>
-<li>Active Tab Identification</li>
-<li>Higher levelSearch Behaviour Data Analysis framework - moves, tactics, strategies</li>
-<li>Combining Latent Profiles with Search Behaviour Data</li>
-</ol>
-<p>Trends Over Time
+<p>The general framework for analysing the data collected in the <em>LongSAL</em> study is described in Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:data-analysis-framework">6.2</a>.
+Primarily, two categories of data were collected in the study:
+explicit responses via Qualtrics survey platform, and implicit search behaviours via YASBIL browsing logger.
+The data collected from Qualtrics were primarily search task written responses, as well as responses to the individual difference questionnaire instruments for motivation, metacognition, and self-regulation.
+Data from the questionnaires were used to divide participants into groups, which is discussed in Section <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#sec-res-phase2-lpa">6.3</a>.
+Log data from YASBIL was cleaned, processed, categorized (Section <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#sec-res-url-categorization">6.6</a>) and analysed, to examine (differences in) search behaviour of different participant groups.</p>
+<p>For examining statistical differences between groups, we employed the non-parametric <strong>Mann-Whitney U test</strong> for null-hypothesis significance testing <span class="citation">(<a href="#ref-mann1947test">Mann &amp; Whitney, 1947</a>)</span>.
+This choice was due to several reasons:
+the sample sizes were often small,
+the groups were imbalanced, and / or the data did not satisfy the assumptions of parametric tests such as ANOVA.
+<!-- we employed the non-parametric Mann-Whitney U test for all the null-hypothesis significance testing reported in this and the next chapter. -->
+Employing one statistical test allows for easy comparison between different categories of results.</p>
+<p>Additionally, we also report <strong>Common Language Effect Size (CLES)</strong> for each statistical test result.
+The common language effect size is the proportion of pairs where <span class="math inline">\(x\)</span> from the first group is larger than <span class="math inline">\(y\)</span> from the second group.
+In other words, it is the probability that a score sampled at random from the first distribution will be greater than a score sampled from the second distribution.
+CLES was first introduced by <span class="citation">McGraw &amp; Wong (<a href="#ref-mcgraw1992common">1992</a>)</span>.
+The Python statistical library employed in the data analysis – Pingouin <span class="citation">(<a href="#ref-vallat2018pingouin">Vallat, 2018</a>)</span> – uses a brute-force version of the formula given by <span class="citation">Vargha &amp; Delaney (<a href="#ref-vargha2000critique">2000</a>)</span>.
+The advantage is of this method are twofold:
+first, the brute-force approach pairs each observation of x to its y counterpart, and therefore does not require normally distributed data;
+second, the formula takes ties into account and therefore works with ordinal data <a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;&lt;a href="https://pingouin-stats.org/build/html/generated/pingouin.mwu.html" class="uri"&gt;https://pingouin-stats.org/build/html/generated/pingouin.mwu.html&lt;/a&gt;&lt;/p&gt;'><sup>15</sup></a>.</p>
+<!-- 
+
+Here is the overall data analysis framework of my dissertation:
+Two categories of data were collected from participants. 
+
+1. Questionnaire data for individual differences: motivation, metacognition, self-regulation.
+2. Search Log data containing URL visits, mouse events, webnavigation events, and the order and sequence of those events.
+
+Questionnaire Data
+
+1. Cleaning and Preprocessing
+2. identifying user groups - latent profile analysis
+
+Log Data
+
+1. Log Data cleaning and pre-processing
+2. URL categorization
+3. Active Tab Identification
+4. Higher levelSearch Behaviour Data Analysis framework - moves, tactics, strategies
+5. Combining Latent Profiles with Search Behaviour Data
+
+Trends Over Time
 Difference Between Groups / Profiles
-Entropy analysis of sequences</p>
+Entropy analysis of sequences
+
+ -->
 </div>
-<div id="sec-res-phase2-lpa" class="section level2" number="6.2">
+<div id="sec-res-phase2-lpa" class="section level2" number="6.3">
 <h2>
-<span class="header-section-number">6.2</span> Latent Profile Analysis<a class="anchor" aria-label="anchor" href="#sec-res-phase2-lpa"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.3</span> Latent Profile Analysis<a class="anchor" aria-label="anchor" href="#sec-res-phase2-lpa"><i class="fas fa-link"></i></a>
 </h2>
 <!----------- fig:lpa-profile-means ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:lpa-profile-means"></span>
 <img src="figs/lpa-profile-means.svg" alt="Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), self-regulation (SRQ), and a Memory Span task." width="100%"><p class="caption">
-Figure 6.2: Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), self-regulation (SRQ), and a Memory Span task.
+Figure 6.3: Mean Values of Indicator Variables for the two identified groups via Latent Profile Analysis (LPA). The grouping was based on the self-reported values of motivation (IMI), metacognition (MAI), self-regulation (SRQ), and a Memory Span task.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
@@ -169,7 +215,7 @@ Given our interest in understanding how these traits impact students’ searchin
 However, it is important to note that these constructs are not single binary variables that can be used to easily group individuals. Rather, they are complex and multidimensional data that serve as observable indicators of a person’s underlying latent characteristics.</p>
 <p>To cluster participants into meaningful groups based on these multiple constructs, we turned to the educational psychology literature.
 <strong>Latent Profile Analysis (LPA)</strong> is an increasingly popular statistical approach falling under the umbrella of person-centred techniques used in organizational psychology and child development research. It provides a framework for characterizing population heterogeneity in terms of differences across individuals on a set of behaviours or characteristics, as opposed to describing the variability of a single variable. By identifying latent subgroups within a population, LPA enables researchers to gain a more nuanced understanding of the complexity of human behaviour.</p>
-<p>The person-centred approach underlying LPA is a departure from traditional variable-centred approaches such as multiple regression analysis. Instead of quantifying the role of particular variables in a study, LPA organizes a population into a finite number of mutually exclusive and exhaustive profiles, each comprising individuals who are similar to one another. In this way, LPA identifies distinct profiles of individuals who exhibit similar patterns of behaviour across multiple variables.</p>
+<p>The <strong>person-centred approach</strong> underlying LPA is a departure from traditional variable-centred approaches such as multiple regression analysis. Instead of quantifying the role of particular variables in a study, LPA organizes a population into a finite number of mutually exclusive and exhaustive profiles, each comprising individuals who are similar to one another. In this way, LPA identifies distinct profiles of individuals who exhibit similar patterns of behaviour across multiple variables.</p>
 <p>The identification and description of these latent profiles is a crucial step in LPA. Each profile represents a subgroup of individuals who share similar patterns of responses on a set of variables, which can provide insights into the underlying mechanisms driving their behaviour. Furthermore, the identification of the optimal number of profiles to represent a population is a critical issue in LPA. This involves balancing the complexity of the model with its ability to capture meaningful variability in the data, and requires careful consideration of both statistical and substantive criteria.</p>
 <p>LPA has several advantages over traditional variable-centred approaches. It allows for a more nuanced understanding of the complexity of human behaviour, particularly in cases where individuals exhibit multiple and diverse patterns of behaviour across different sets of variables.</p>
 <p>In the context of information search behaviour, LPA can help to identify distinct groups of individuals who engage in different search strategies or have different search motivations. This can be useful for understanding how people search for information online, what factors influence their search behaviour, and how search behaviour relates to other variables such as task performance, satisfaction, and learning outcomes.</p>
@@ -179,25 +225,25 @@ LPA is particularly useful when the relationship between variables is not well u
 We employed LPA to identify latent profiles of participants based on their scores on the IMI, MAI, and SRQ questionnaires.
 LPA is particularly useful when the relationship between variables is not well understood, or when it is difficult to determine which variables should be used to classify individuals into groups.</p>
 <!-- We employed Latent Profile Analysis (LPA) to identify groups (latent profiles) of participants based on their scores on the Intrinsic Motivation Inventory (IMI), Metacognitive Awareness Inventory (MAI), Self-regulation questionnaire (SRQ), and Memory Span (MS) task. -->
-<p>The results of the LPA showed that there were two distinct groups (latent profiles) of participants based on their scores on the IMI, MAI, SRQ, and MS: a high group and a low group (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:lpa-profile-means">6.2</a>). The high group had generally higher average scores on the IMI, MAI, SRQ, and MS compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.</p>
+<p>The results of the LPA showed that there were two distinct groups (latent profiles) of participants based on their scores on the IMI, MAI, SRQ, and MS: a high group and a low group (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:lpa-profile-means">6.3</a>). The high group had generally higher average scores on the IMI, MAI, SRQ, and MS compared to the low group, indicating that they were more intrinsically motivated, more aware of their metacognitive processes, and had higher levels of self-regulation.</p>
 <!----------- fig:lpa-profile-transitions ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:lpa-profile-transitions"></span>
 <img src="figs/lpa-profile-transitions.svg" alt="Diagram illustrating, at different timepoints, how participants stayed within their same high/low LPA profiles (green) or changed profiles (orange). Grey trajectories indicate participants who dropped off and did not complete the study." width="100%"><p class="caption">
-Figure 6.3: Diagram illustrating, at different timepoints, how participants stayed within their same high/low LPA profiles (green) or changed profiles (orange). Grey trajectories indicate participants who dropped off and did not complete the study.
+Figure 6.4: Diagram illustrating, at different timepoints, how participants stayed within their same high/low LPA profiles (green) or changed profiles (orange). Grey trajectories indicate participants who dropped off and did not complete the study.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
 
 
 <!---- fig:lpa-profile-transitions (leave a blank line before this) ------>
-<p>Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:lpa-profile-transitions">6.3</a> illustrates the memberships in the two groups at different points in time, and how one participant (<code>P016_AUSTIN</code>) changed group membership at the end of the semester.
+<p>Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:lpa-profile-transitions">6.4</a> illustrates the memberships in the two groups at different points in time, and how one participant (<code>P016_AUSTIN</code>) changed group membership at the end of the semester.
 12 participants started off the semester (<code>QSNR1</code>) in the high group, while 4 in the low group.
 The group membership remained the same in the middle of the semester (<code>QSNR2</code>).
 At semester end, 4 participants from the high group and 2 participant from the low group dropped off.
 One participant transitioned from high group to low group.
 This resulted in 7 participants in the high group and 3 participant in the low group, with no data for 6 participants at the semester end timepoint (<code>QSNR3</code>)</p>
-<p>Henceforth, in the discussion, all the <strong>Effect Sizes (ES)</strong> reported as part of Mann Whitney U test compare the scores of the low group (first distribution) with those of the high group (second distribution).
+<p>In the discussion that follows, all the <strong>Effect Sizes (ES)</strong> reported as part of Mann Whitney U tests, compare the scores of the low group (first distribution) with those of the high group (second distribution).
 In other words, an example effect size <span class="math inline">\(ES=0.19\)</span> means that there is a 19% chance that a score from the low group will be greater than the corresponding score from the high group.</p>
 <!-- 
 
@@ -218,23 +264,22 @@ Latent Profile Analysis (LPA) is one of the many approaches clustered together u
 
 
 
-TODO: describe the high and low groups appropriately.
+describe the high and low groups appropriately.
 
-TODO: Describe stats from `HI` and `LO` profiles, as in YSC Sec 5.1.
+Describe stats from `HI` and `LO` profiles, as in YSC Sec 5.1.
 
 - how the following changed over time 
   - motivation, metacognition, self regulation
   - perceived learning, perceived search outcome
  
 
-TODO: change in mean and sig diff over time / task type
+change in mean and sig diff over time / task type
   - longitudinal phase
   - all
   - repeated task
   - non-repeated task
   - 
 
- TODO: 
 - For each section below on measures
   - how the measure was operationalized 
   - what is the value / trend
@@ -249,22 +294,22 @@ Final Paper (`PHASE2D`)
 
 -->
 </div>
-<div id="learning-and-search-outcomes" class="section level2" number="6.3">
+<div id="learning-and-search-outcomes" class="section level2" number="6.4">
 <h2>
-<span class="header-section-number">6.3</span> Learning and Search Outcomes<a class="anchor" aria-label="anchor" href="#learning-and-search-outcomes"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.4</span> Learning and Search Outcomes<a class="anchor" aria-label="anchor" href="#learning-and-search-outcomes"><i class="fas fa-link"></i></a>
 </h2>
 <!----------- fig:rp2-learning-search-outcomes ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:rp2-learning-search-outcomes"></span>
 <img src="figs/rp2-learning-search-outcomes.svg" alt="Self-reported learning and search outcomes (a, b), and instructor assigned grades for the high and low groups (c)." width="100%"><p class="caption">
-Figure 6.4: Self-reported learning and search outcomes (a, b), and instructor assigned grades for the high and low groups (c).
+Figure 6.5: Self-reported learning and search outcomes (a, b), and instructor assigned grades for the high and low groups (c).
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
 
 
 <!---- fig:rp2-learning-search-outcomes (leave a blank line before this) ------>
-<p>Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-learning-search-outcomes">6.4</a> shows the mean values of the self-reported (perceived) learning outcomes (a), self-reported search outcome (b), and instructor assigned grades (c) for the Ethical Dilemma research paper writing task over the semester.
+<p>Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-learning-search-outcomes">6.5</a> shows the mean values of the self-reported (perceived) learning outcomes (a), self-reported search outcome (b), and instructor assigned grades (c) for the Ethical Dilemma research paper writing task over the semester.
 The self-reported learning and search outcomes are inspired from work by <span class="citation">Collins-Thompson et al. (<a href="#ref-collins2016assessing">2016</a>)</span>.</p>
 <p>We see that the high group had higher levels of perceived learning outcome and perceived search outcome compared to the low group, and these differences were statistically significant: <span class="math inline">\((U = 115.0, p = .0005, ES = 0.19)\)</span> for the learning outcome, and <span class="math inline">\((U = 151.0, p = .005, ES = 0.25)\)</span> for the search outcome.
 (The effect sizes indicate the probability that a value chosen at random from the low group’s scores will be greater than a value chosen at random from the high group’s scroes.)</p>
@@ -296,19 +341,19 @@ Correlation of SPL with Grades
 - 
 - -->
 </div>
-<div id="q-query-formulations" class="section level2" number="6.4">
+<div id="q-query-formulations" class="section level2" number="6.5">
 <h2>
-<span class="header-section-number">6.4</span> Q: Query Formulations<a class="anchor" aria-label="anchor" href="#q-query-formulations"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.5</span> Q: Query Formulations<a class="anchor" aria-label="anchor" href="#q-query-formulations"><i class="fas fa-link"></i></a>
 </h2>
-<div id="length-and-count-of-queries-per-search-task" class="section level3" number="6.4.1">
+<div id="length-and-count-of-queries-per-search-task" class="section level3" number="6.5.1">
 <h3>
-<span class="header-section-number">6.4.1</span> Length and Count of Queries per Search Task<a class="anchor" aria-label="anchor" href="#length-and-count-of-queries-per-search-task"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.5.1</span> Length and Count of Queries per Search Task<a class="anchor" aria-label="anchor" href="#length-and-count-of-queries-per-search-task"><i class="fas fa-link"></i></a>
 </h3>
 <!----------- fig:rp2-query-length-count ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:rp2-query-length-count"></span>
 <img src="figs/rp2-query-length-count.svg" alt="Lengths and count of queries for each search task in the Longitudinal Phase." width="100%"><p class="caption">
-Figure 6.5: Lengths and count of queries for each search task in the Longitudinal Phase.
+Figure 6.6: Lengths and count of queries for each search task in the Longitudinal Phase.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
@@ -321,10 +366,10 @@ Longer search queries may indicate a more specific or complex information need, 
 <strong>Queries count</strong> per search task refers to the number of separate queries or search attempts that a participant issued in order to complete a task.
 This measure may vary depending on the complexity of the information need, the user’s level of expertise with the search system, and other factors.
 <!-- This metric is commonly used in information retrieval research to evaluate the effectiveness of search systems and user search behavior. --></p>
-<p>Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-length-count">6.5</a> (a) and (b) shows the differences in total and average query length of the high and low groups, while Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-length-count">6.5</a> (c) illustrates the number of queries issued, at different stages of writing the research paper.
+<p>Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-length-count">6.6</a> (a) and (b) shows the differences in total and average query length of the high and low groups, while Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-length-count">6.6</a> (c) illustrates the number of queries issued, at different stages of writing the research paper.
 The low group demonstrated a zig-zag pattern in their <strong>total query length</strong>, and <strong>query count</strong>, over the duration of the semester, with a low start at proposal, followed by a peak at outline, a dip at rough draft, and again a peak at Final Paper.
 The high group had a steady increase in total query length and query count, from proposal to outline to rough draft, and took a very gentle dip (or remained steady) at final paper stage.
-Comparing the total query length and query count to the <strong>average query length</strong> (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-length-count">6.5</a> (b)), we see that the high group maintained a steady 4-5 terms per query throughout the semester, whereas the low group had a jump to more than 10 terms per query in the rough draft stage.</p>
+Comparing the total query length and query count to the <strong>average query length</strong> (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-length-count">6.6</a> (b)), we see that the high group maintained a steady 4-5 terms per query throughout the semester, whereas the low group had a jump to more than 10 terms per query in the rough draft stage.</p>
 <p>The low group issued a small number of short queries in the proposal, then a higher number of short queries during the outline, followed by an even smaller number of very long queries during the rough draft, and then a very large number of short queries during the final paper phase.
 On the other hand, the high group kept issuing an increasing number of similar-length (short) queries throughout the semester.</p>
 <p>Combining these results we can posit that the low group demonstrated signs of struggling throughout the semester <span class="citation">(<a href="#ref-hassan2014struggling">Hassan et al., 2014</a>)</span>.
@@ -391,15 +436,15 @@ Even, one participant commendted "I had downloaded all the papers I needed durin
 
 -->
 </div>
-<div id="query-reformulation-types-qrts" class="section level3" number="6.4.2">
+<div id="query-reformulation-types-qrts" class="section level3" number="6.5.2">
 <h3>
-<span class="header-section-number">6.4.2</span> Query Reformulation Types (QRTs)<a class="anchor" aria-label="anchor" href="#query-reformulation-types-qrts"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.5.2</span> Query Reformulation Types (QRTs)<a class="anchor" aria-label="anchor" href="#query-reformulation-types-qrts"><i class="fas fa-link"></i></a>
 </h3>
 <!----------- fig:rp2-qrt ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:rp2-qrt"></span>
 <img src="figs/rp2-qrt.svg" alt="Number of different query reformulation types (QRTs) as per taxonomy proposed by C. Liu et al. (2010)." width="100%"><p class="caption">
-Figure 6.6: Number of different query reformulation types (QRTs) as per taxonomy proposed by <span class="citation">C. Liu et al. (<a href="#ref-liu2010analysis">2010</a>)</span>.
+Figure 6.7: Number of different query reformulation types (QRTs) as per taxonomy proposed by <span class="citation">C. Liu et al. (<a href="#ref-liu2010analysis">2010</a>)</span>.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
@@ -415,16 +460,16 @@ Specialization,
 Word Substitution,
 and
 Repeat.</p>
-<p>We faced a challenge in disentangling <strong>Repeat</strong> queries from “hub-and-spoke” behaviour, where the user goes back and forth between a SERP and different content page by using the browser’s forward and back buttons <a class="footnote-ref" tabindex="0" data-toggle="popover" data-content="&lt;p&gt;The SERP is the hub, which represents the initial point of inquiry, while the spokes represent the subsequent branches of exploration along different content pages. This search behaviour is often used when users have a general idea of the topic they are interested in, but need to explore different facets of the topic to narrow down their search and find relevant information.&lt;/p&gt;"><sup>14</sup></a>.
+<p>We faced a challenge in disentangling <strong>Repeat</strong> queries from “hub-and-spoke” behaviour, where the user goes back and forth between a SERP and different content page by using the browser’s forward and back buttons <a class="footnote-ref" tabindex="0" data-toggle="popover" data-content="&lt;p&gt;The SERP is the hub, which represents the initial point of inquiry, while the spokes represent the subsequent branches of exploration along different content pages. This search behaviour is often used when users have a general idea of the topic they are interested in, but need to explore different facets of the topic to narrow down their search and find relevant information.&lt;/p&gt;"><sup>16</sup></a>.
 Each back button press on the browser (to go back to the SERP from a content page) meant a fresh HTTP GET request was sent to the search engine.
 This resulted in YASBIL logging the move as a resubmission of the query.
 So for the discussions that follows, <strong>“Repeat” refers to repeat queries combined with hub-and-spoke behaviour.</strong>.</p>
-<p>The counts of the five QRTs are presented in Figures <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-qrt">6.6</a> (a) through (e).
-For the low group, the trend of counts followed similarly from their trends of query counts and total query lengths (Figures <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-length-count">6.5</a> (a) and (c)), with varying intensities: alternating between high and low values at successive points in the semester.
+<p>The counts of the five QRTs are presented in Figures <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-qrt">6.7</a> (a) through (e).
+For the low group, the trend of counts followed similarly from their trends of query counts and total query lengths (Figures <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-length-count">6.6</a> (a) and (c)), with varying intensities: alternating between high and low values at successive points in the semester.
 For the high group, except Query Generalizations – which followed a zig-zag pattern – all the other QRTs showed an overall increase in count throughout the semester.</p>
 <p>The high group issued the most number of new queries and generalized queries while writing the rough draft, whereas they had the highest number of specializations and word substitutions while writing the final paper.
 The low group, on the other hand, had their lowest number of all types of QRTs, except repeat, while writing the rough draft.
-The most interesting is the trend of Query Generalizations (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-qrt">6.6</a>(b)), where the high group and low group demonstrated diametrically opposite behaviour: maxima at outline and final paper for the low group, whereas minima at those stages for the high group.
+The most interesting is the trend of Query Generalizations (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-qrt">6.7</a>(b)), where the high group and low group demonstrated diametrically opposite behaviour: maxima at outline and final paper for the low group, whereas minima at those stages for the high group.
 The high group also had significantly less number of repeat queries (or hub and spoke behaviour) throughout the semester, compared to the low group <span class="math inline">\((U = 228.0, p = .02, ES = 0.74)\)</span>.</p>
 <p>The low group’s fewer counts of all QRTs while writing the rough draft suggests that they may have struggled to effectively reformulate their queries throughout the different stages of the research paper writing process, perhaps due to the complexity and depth of the research required for the tasks.
 The low group may have had more difficulty refining and targeting their search queries, resulting in more new and repeated queries at the final stage of the paper writing process.
@@ -535,15 +580,15 @@ Repeat must be taken with a grain of salt as repeat behaviour was diffcult to te
 
 -->
 </div>
-<div id="sec-res-phase2-query-H" class="section level3" number="6.4.3">
+<div id="sec-res-phase2-query-H" class="section level3" number="6.5.3">
 <h3>
-<span class="header-section-number">6.4.3</span> Entropy of Query Reformulation Types<a class="anchor" aria-label="anchor" href="#sec-res-phase2-query-H"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.5.3</span> Entropy of Query Reformulation Types<a class="anchor" aria-label="anchor" href="#sec-res-phase2-query-H"><i class="fas fa-link"></i></a>
 </h3>
 <!----------- fig:rp2-qrt-entropy ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:rp2-qrt-entropy"></span>
 <img src="figs/rp2-qrt-entropy.svg" alt="Stationary and transition entropies of query reformulation type (QRT) sequences." width="100%"><p class="caption">
-Figure 6.7: Stationary and transition entropies of query reformulation type (QRT) sequences.
+Figure 6.8: Stationary and transition entropies of query reformulation type (QRT) sequences.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
@@ -568,9 +613,9 @@ This randomness is an indication that the participants do not have a clear progr
 On the other hand, a lower transition entropy indicates that the participant’s transition between QRTs are highly predictable.
 <strong>Stationary entropy</strong> is calculated from the distribution of QRTs.
 A higher stationary entropy value indicates that the QRTs were used uniformly, while a lower stationary entropy indicates that some QRTs are preferred over others.
-Values of stationary entropy vary between 0 and <span class="math inline">\(\log s\)</span>, where <span class="math inline">\(s\)</span> is the number of possible states (QRTs)<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;This explanation is adapted from &lt;span class="citation"&gt;He et al. (&lt;a href="#ref-he2016beyond"&gt;2016&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;'><sup>15</sup></a>.
+Values of stationary entropy vary between 0 and <span class="math inline">\(\log s\)</span>, where <span class="math inline">\(s\)</span> is the number of possible states (QRTs)<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;This explanation is adapted from &lt;span class="citation"&gt;He et al. (&lt;a href="#ref-he2016beyond"&gt;2016&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;'><sup>17</sup></a>.
 All the entropy values presented in this chapter were normalized by their theoretical maximums, for equivalent comparison across different tasks.</p>
-<p>The transition entropy of query reformulations followed interesting patterns for the low and high groups (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-qrt-entropy">6.7</a>(a)).
+<p>The transition entropy of query reformulations followed interesting patterns for the low and high groups (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-qrt-entropy">6.8</a>(a)).
 The low group had a V-shaped pattern showing a decrease in transition entropy from proposal to outline, then an increase from outline to rough draft to final paper.
 On the other hand, the high group had a zig-zag pattern, with low transition entropy during the proposal, an increase during the outline, a decrease during the rough draft, and then another increase during the final paper.
 This indicates that the low group had the least randomness in query reformulation strategies during the outline, while the high group had the most randomness at this stage.
@@ -578,7 +623,7 @@ Subsequently, the randomness in the high group decreased, whereas that in low gr
 This suggests that during the outline stage, the low group had a more structured approach to query reformulations, compared to the high group.
 However, as the semester progressed, the low group’s approach became more random, while the high group’s approach became structured.
 These pattern suggests that the low group may have struggled to adapt their query reformulation strategies as they moved through the different stages of writing the paper, while the high group was more able to adjust their strategies and maintain a predictable structure in their approach.</p>
-<p>The stationary entropy of query reformulations of the low and high groups varied over the different phases of the research paper writing process as well (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-qrt-entropy">6.7</a>(b)).
+<p>The stationary entropy of query reformulations of the low and high groups varied over the different phases of the research paper writing process as well (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-qrt-entropy">6.8</a>(b)).
 The low group’s stationary entropy reached its maximum value at the outline phase, whereas that for the high group became maximum at the rough draft phase.
 This indicates that these two groups had distinct information searching behaviours throughout the writing process.
 The low group tried out all possible types of query reformulations during the outline (as we saw from the query reformulation counts), and then settled on using repeat queries (or hub and spoke behaviour) more, during the rough draft phase.
@@ -628,9 +673,9 @@ differences were not significant over the entire duration of the tasks, there wa
 -->
 </div>
 </div>
-<div id="url-categorization-for-analyzing-interactions" class="section level2" number="6.5">
+<div id="sec-res-url-categorization" class="section level2" number="6.6">
 <h2>
-<span class="header-section-number">6.5</span> URL Categorization for Analyzing Interactions<a class="anchor" aria-label="anchor" href="#url-categorization-for-analyzing-interactions"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.6</span> URL Categorization for Analysing Interactions<a class="anchor" aria-label="anchor" href="#sec-res-url-categorization"><i class="fas fa-link"></i></a>
 </h2>
 <p>In order to understand the relationship between users’ information search behavior and the type of webpages they visit, we needed to categorize webpages into different types. To accomplish this, we developed a classification system based on URL patterns.</p>
 <p>URL patterns were first extracted from the web browsing data collected in our study. These URL patterns contain information about the structure and content of each webpage visited by the users. Based on this information, we were able to classify each URL present in the log data into the following hierarchical taxonomy:</p>
@@ -683,19 +728,19 @@ TODO SUMMARY: Overall, the URL-based classification system provided a useful way
 
  -->
 </div>
-<div id="l-interaction-with-lists-search-results-source-selection" class="section level2" number="6.6">
+<div id="l-interaction-with-lists-search-results-source-selection" class="section level2" number="6.7">
 <h2>
-<span class="header-section-number">6.6</span> L: Interaction with Lists / Search Results – Source Selection<a class="anchor" aria-label="anchor" href="#l-interaction-with-lists-search-results-source-selection"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.7</span> L: Interaction with Lists / Search Results – Source Selection<a class="anchor" aria-label="anchor" href="#l-interaction-with-lists-search-results-source-selection"><i class="fas fa-link"></i></a>
 </h2>
-<div id="number-of-clicks-per-query" class="section level3" number="6.6.1">
+<div id="number-of-clicks-per-query" class="section level3" number="6.7.1">
 <h3>
-<span class="header-section-number">6.6.1</span> Number of Clicks per Query<a class="anchor" aria-label="anchor" href="#number-of-clicks-per-query"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.7.1</span> Number of Clicks per Query<a class="anchor" aria-label="anchor" href="#number-of-clicks-per-query"><i class="fas fa-link"></i></a>
 </h3>
 <!----------- fig:rp2-query-click ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:rp2-query-click"></span>
 <img src="figs/rp2-query-click.svg" alt="Number of clicks per query - longitudinal phase." width="100%"><p class="caption">
-Figure 6.8: Number of clicks per query - longitudinal phase.
+Figure 6.9: Number of clicks per query - longitudinal phase.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
@@ -706,11 +751,11 @@ Figure 6.8: Number of clicks per query - longitudinal phase.
 This metric reflects the level of interaction and engagement of the participant with the search results, as well as their ability to assess the relevance and usefulness of each search result presented to them.
 <!-- This measure provides an indication of how much a participant engaged with the search results and how many different sources of information they explored while searching for relevant information.  -->
 A higher number of clicks per query may indicate that the participant is more engaged and willing to explore a wider range of information sources, while a lower number may suggest a more focused and targeted search approach.
-Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-click">6.8</a> shows the trend in total, average, and variability of clicks per query for the low and high groups at different points in the semester.</p>
-<p>The low group had much higher total (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-click">6.8</a>(a)) and average (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-click">6.8</a>(b)) number of clicks per query than the high group, at all stages of the semester – proposal, outline, and rough draft – except the last stage: writing the final paper.
+Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-click">6.9</a> shows the trend in total, average, and variability of clicks per query for the low and high groups at different points in the semester.</p>
+<p>The low group had much higher total (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-click">6.9</a>(a)) and average (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-click">6.9</a>(b)) number of clicks per query than the high group, at all stages of the semester – proposal, outline, and rough draft – except the last stage: writing the final paper.
 The maximum total number of clicks per query was during the outline phase (about 100 clicks total), while the maximum average number of clicks was during the rough draft phase (about 12 clicks per query on average).
 The high group maintained a relatively low number of clicks per query during the proposal, outline, and rough draft stages (less than 4 clicks per query), and had the peak value during the final paper, with about 7 clicks per query.
-Additionally, the high group had lower variability (standard deviation) in the number of clicks per query compared to the low group (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-click">6.8</a>(c)).</p>
+Additionally, the high group had lower variability (standard deviation) in the number of clicks per query compared to the low group (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-query-click">6.9</a>(c)).</p>
 <p>The low group’s higher total, average, and standard deviation of clicks per query throughout most of the semester, except for the final paper stage, suggests that they may have been less efficient in their searching behaviours, requiring more clicks and potentially spending more time on each query.
 The may have struggled to refine their search strategies, resulting in a higher number of clicks per query throughout the semester.
 This could have contributed to their lower self-perceived learning and search outcomes.</p>
@@ -749,15 +794,15 @@ SD also says something
 
 -->
 </div>
-<div id="sec-phase2-res-L-dt" class="section level3" number="6.6.2">
+<div id="sec-phase2-res-L-dt" class="section level3" number="6.7.2">
 <h3>
-<span class="header-section-number">6.6.2</span> Counts and Dwell Time on Search Results<a class="anchor" aria-label="anchor" href="#sec-phase2-res-L-dt"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.7.2</span> Counts and Dwell Time on Search Results<a class="anchor" aria-label="anchor" href="#sec-phase2-res-L-dt"><i class="fas fa-link"></i></a>
 </h3>
 <!----------- fig:rp2-l ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:rp2-l"></span>
 <img src="figs/rp2-l.svg" alt="Interactions with search results - Longitudinal Phase." width="100%"><p class="caption">
-Figure 6.9: Interactions with search results - Longitudinal Phase.
+Figure 6.10: Interactions with search results - Longitudinal Phase.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
@@ -768,19 +813,19 @@ Figure 6.9: Interactions with search results - Longitudinal Phase.
 Therefore, we structure the discussion around visits to scholarly publication search results, and (non-scholarly) web SERPs.
 Examples of scholarly publication websites are Google Scholar, digital libraries such as ACM DL, Springer, Elsevier, PubMed and others.
 We examined how visits to these two categories of websites changed across the different stages of writing the research paper for each group.
-Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-l">6.9</a> shows the counts of publication search results and web search results visited by the two groups, as well as total and average dwell time on such pages by both the groups.</p>
+Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-l">6.10</a> shows the counts of publication search results and web search results visited by the two groups, as well as total and average dwell time on such pages by both the groups.</p>
 <!-- 
 
 Low group had greater average dwell time on academic publication search results in all the four stages, viz. proposal, outline, rough draft, and final paper, compared to the high group.
 Total dwell time of the low group was also higher, except at the final paper stage, when the high group surpassed the low group in dwelling on search results.
 
 --->
-<p>For both publication search results and web search results, the high group visited a more number of those webpages than the low group (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-l">6.9</a>(a) and (b)).
+<p>For both publication search results and web search results, the high group visited a more number of those webpages than the low group (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-l">6.10</a>(a) and (b)).
 The high group visited more publication search results during the outline phase, and more web SERPs during the rough draft phase.
 The low group on the other hand, had a dip in their visit count for both the search result categories during the rough draft phase.
-However, they had significantly longer average dwell time on academic publication search results, in all the four stages, compared to the high group <span class="math inline">\((U = 153.0, p = .01, ES = 0.77)\)</span> (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-l">6.9</a>(e)).
+However, they had significantly longer average dwell time on academic publication search results, in all the four stages, compared to the high group <span class="math inline">\((U = 153.0, p = .01, ES = 0.77)\)</span> (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-l">6.10</a>(e)).
 Total dwell time of the low group was also longer, except at the final paper stage, when the high group surpassed the low group in dwelling on publication search results.
-The difference was approaching significance <span class="math inline">\((U = 138.0, p = .08, ES = 0.70)\)</span> (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-l">6.9</a>(c)).
+The difference was approaching significance <span class="math inline">\((U = 138.0, p = .08, ES = 0.70)\)</span> (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-l">6.10</a>(c)).
 <!-- indicating they were relying more on their collected results from earlier in the semester; and/or, their lower levels of motivation, metacognition, and self-regulation caused them to invest less effort in the search process at this point in the semester. -->
 This suggests that the low group spent more time examining and considering scholarly publication search results compared to the high group.
 It is possible that the low group’s lower levels of self-regulation and metacognition may have led them to spend more time on search results, as they may have found it harder to quickly evaluate and assess the relevance of search results to their task.
@@ -798,7 +843,9 @@ This difference in strategy may have contributed to the difference in perceived 
 The high group may have been able to find a broader range of information from a variety of sources, while the low group may have limited themselves to more specialized sources.
 It is also possible that the high group’s use of web search engines may have resulted in them encountering more diverse perspectives and interpretations of the research topic, which could have enhanced their critical thinking and analytical skills.</p>
 <!-- On the other hand, the low group may be more thorough in searching and evaluating academic publications (which was arguably one of the main aspects of writing the research paper), while the high group may be able to quickly identify and select relevant publications.  -->
-<!-- TODO SUMMARY 
+<!-- 
+
+TODO SUMMARY 
 
 It is important to note, however, that the use of scholarly publications may not necessarily guarantee better quality information or higher self-perceived learning outcomes. 
 The relevance and credibility of the sources used, as well as the ability to critically evaluate and synthesize the information, are important factors that can impact the effectiveness of the search and learning outcomes.
@@ -848,27 +895,27 @@ The differences in total dwell time was significantly different in the beginning
 -->
 </div>
 </div>
-<div id="i-interaction-with-information-objects-sources-content-pages" class="section level2" number="6.7">
+<div id="i-interaction-with-information-objects-sources-content-pages" class="section level2" number="6.8">
 <h2>
-<span class="header-section-number">6.7</span> I: Interaction with Information Objects – Sources / Content Pages<a class="anchor" aria-label="anchor" href="#i-interaction-with-information-objects-sources-content-pages"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.8</span> I: Interaction with Information Objects – Sources / Content Pages<a class="anchor" aria-label="anchor" href="#i-interaction-with-information-objects-sources-content-pages"><i class="fas fa-link"></i></a>
 </h2>
 <!----------- fig:rp2-i ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:rp2-i"></span>
 <img src="figs/rp2-i.svg" alt="Interactions with content pages - Longitudinal Phase." width="100%"><p class="caption">
-Figure 6.10: Interactions with content pages - Longitudinal Phase.
+Figure 6.11: Interactions with content pages - Longitudinal Phase.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
 
 
 <!---- fig:rp2-i (leave a blank line before this) ------>
-<p>We analysed interactions with content page in the same manner as counts and dwell time on search results (Section <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#sec-phase2-res-L-dt">6.6.2</a>): looking at visits to scholarly publications, vs visits to non-scholarly content pages.
-Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-i">6.10</a> shows the counts of scholarly publications and non-scholarly content pages visited by the low and high groups, as well as total and average dwell time on such pages by both groups.</p>
-<p>In a similar vein to publication vs web search results (Section <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#sec-phase2-res-L-dt">6.6.2</a>), the high group engaged less with scholarly publications, and more with non-scholarly content pages, compared to the low group.
+<p>We analysed interactions with content page in the same manner as counts and dwell time on search results (Section <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#sec-phase2-res-L-dt">6.7.2</a>): looking at visits to scholarly publications, vs visits to non-scholarly content pages.
+Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-i">6.11</a> shows the counts of scholarly publications and non-scholarly content pages visited by the low and high groups, as well as total and average dwell time on such pages by both groups.</p>
+<p>In a similar vein to publication vs web search results (Section <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#sec-phase2-res-L-dt">6.7.2</a>), the high group engaged less with scholarly publications, and more with non-scholarly content pages, compared to the low group.
 Earlier in the semester, while writing the outline, the low group visited more academic publications, while the high group visited more content pages.
-The trend reversed later in the semester while writing the final paper, when the low group viewed less number of publications and more content pages, while the high group did the opposite (Figures <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-i">6.10</a>(a) and (b)).</p>
-<p>Speaking of dwell times, the low group spent significantly more time viewing academic publications, in total <span class="math inline">\((U = 219.0, p = .04, ES = 0.71)\)</span> and on average <span class="math inline">\((U = 227.0, p = .02, ES = 0.74)\)</span>, compared to the high group (Figures <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-i">6.10</a>(c) and (e)).
+The trend reversed later in the semester while writing the final paper, when the low group viewed less number of publications and more content pages, while the high group did the opposite (Figures <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-i">6.11</a>(a) and (b)).</p>
+<p>Speaking of dwell times, the low group spent significantly more time viewing academic publications, in total <span class="math inline">\((U = 219.0, p = .04, ES = 0.71)\)</span> and on average <span class="math inline">\((U = 227.0, p = .02, ES = 0.74)\)</span>, compared to the high group (Figures <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-i">6.11</a>(c) and (e)).
 While writing the rough draft, the high group spent more time viewing non-scholarly content pages.</p>
 <p>The high group’s preference for non-academic content pages may reflect their use of web search engines to find relevant information, as such search engines may often prioritize non-academic content over scholarly publications.
 The high group seemed to be more focused on finding information that was relevant to their topic, regardless of its source. They also appeared to be more interested in exploring a wider range of topics and concepts, which is reflected in their higher stationary entropy of query reformulations during the rough draft phase.</p>
@@ -925,28 +972,28 @@ the task that they were doing was to write a research paper at least twenty exte
 
  -->
 </div>
-<div id="search-result-pages-vs-content-pages" class="section level2" number="6.8">
+<div id="search-result-pages-vs-content-pages" class="section level2" number="6.9">
 <h2>
-<span class="header-section-number">6.8</span> Search Result Pages vs Content Pages<a class="anchor" aria-label="anchor" href="#search-result-pages-vs-content-pages"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.9</span> Search Result Pages vs Content Pages<a class="anchor" aria-label="anchor" href="#search-result-pages-vs-content-pages"><i class="fas fa-link"></i></a>
 </h2>
 <!----------- fig:rp2-lvi ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:rp2-lvi"></span>
 <img src="figs/rp2-lvi.svg" alt="Differences in interactions with search results vs. content pages." width="100%"><p class="caption">
-Figure 6.11: Differences in interactions with search results vs. content pages.
+Figure 6.12: Differences in interactions with search results vs. content pages.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
 
 
 <!---- fig:rp2-lvi (leave a blank line before this) ------>
-<p>Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-lvi">6.11</a> describes differences in visits to all search results pages versus all content pages (scholarly and non-scholarly combined), for the high and low groups.
-The high group visited more search result pages and content pages as the semester progressed, while the low group had a drop in these visits after the outline phase (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-lvi">6.11</a> (a), (b)).
+<p>Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-lvi">6.12</a> describes differences in visits to all search results pages versus all content pages (scholarly and non-scholarly combined), for the high and low groups.
+The high group visited more search result pages and content pages as the semester progressed, while the low group had a drop in these visits after the outline phase (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-lvi">6.12</a> (a), (b)).
 The difference in number of Search Results visits to Search Results pages was almost significant <span class="math inline">\((U = 136, p = .07, ES = 0.33)\)</span>.
 This suggests that the high group may have been more engaged and persistent in their information searching behaviours, while the low group may have experienced a decrease in motivation or self-regulation as the semester progressed, specifically before writing the rough draft.
 It is also noteworthy that the low group had a rebound in the number of pages visited while writing the final paper. This could indicate that they were able to re-engage with the task and their information searching behaviours improved as the final-paper deadline approached.</p>
 <p>However, although the high group visited more number of all pages, they dwelt less on search results, and more on content pages.
-The differences are significant for total and average dwell times on search results (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-lvi">6.11</a> (c) and (e)).
+The differences are significant for total and average dwell times on search results (Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-lvi">6.12</a> (c) and (e)).
 This indicates that the high group was more efficient at evaluating search result pages and quickly identifying relevant content.
 On the other hand, the low group may have spent more time on search result pages, possibly indicating that they had a harder time evaluating and selecting relevant results.
 This difference in information behaviour could be related to the higher self-perceived learning outcomes and search outcomes seen in the high group, as they were able to efficiently find and engage with relevant content.</p>
@@ -960,15 +1007,15 @@ The total dwell time on webpages also follow a similar pattern.
 
 -->
 </div>
-<div id="entropy-of-search-tactic-sequences" class="section level2" number="6.9">
+<div id="entropy-of-search-tactic-sequences" class="section level2" number="6.10">
 <h2>
-<span class="header-section-number">6.9</span> Entropy of Search Tactic Sequences<a class="anchor" aria-label="anchor" href="#entropy-of-search-tactic-sequences"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.10</span> Entropy of Search Tactic Sequences<a class="anchor" aria-label="anchor" href="#entropy-of-search-tactic-sequences"><i class="fas fa-link"></i></a>
 </h2>
 <!----------- fig:rp2-tactic-entropy ----------->
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:rp2-tactic-entropy"></span>
 <img src="figs/rp2-tactic-entropy.svg" alt="Entropy of search tactic sequences for longitudinal phase." width="100%"><p class="caption">
-Figure 6.12: Entropy of search tactic sequences for longitudinal phase.
+Figure 6.13: Entropy of search tactic sequences for longitudinal phase.
 </p>
 </div>
 <!-- each text reference needs to be their own single paragraph ! -->
@@ -986,7 +1033,7 @@ To characterize the entropy of students’ search tactics, we used the following
 <li>
 <strong><code>IDLE</code></strong>: participant stays idle for more than one minute (adapted from <span class="citation">Taramigkou et al. (<a href="#ref-taramigkou2018leveraging">2018</a>)</span>)</li>
 <li>
-<strong><code>SESSION_BREAK</code></strong>: participant becomes idle for more than 30 minutes (Google Analytics defines a session break as 30 minutes of inactivity <a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;&lt;a href="https://support.google.com/analytics/answer/2731565#zippy=%2Cin-this-article" class="uri"&gt;https://support.google.com/analytics/answer/2731565#zippy=%2Cin-this-article&lt;/a&gt;&lt;/p&gt;'><sup>16</sup></a>)</li>
+<strong><code>SESSION_BREAK</code></strong>: participant becomes idle for more than 30 minutes (Google Analytics defines a session break as 30 minutes of inactivity <a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;&lt;a href="https://support.google.com/analytics/answer/2731565#zippy=%2Cin-this-article" class="uri"&gt;https://support.google.com/analytics/answer/2731565#zippy=%2Cin-this-article&lt;/a&gt;&lt;/p&gt;'><sup>18</sup></a>)</li>
 <li>
 <strong><code>L.PUB</code></strong>: visiting a publication search result page</li>
 <li>
@@ -1001,7 +1048,7 @@ To characterize the entropy of students’ search tactics, we used the following
 <p>In the context of search tactic transitions, a higher value of transition entropy (<span class="math inline">\(H_t\)</span>) indicates more randomness and uncertainty in the participant’s search behaviour (which is composed of different search tactics, and transitioning or switching between those tactics).
 A lower value of transition entropy indicates that the search behaviour (i.e. tactic switching behaviour) is highly predictable.
 For stationary entropy of search tactics (<span class="math inline">\(H_s\)</span>), a higher value indicates that participants utilize all the search tactics with equal probability, while a lower value suggests that certain search tactics are favoured over others.
-Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-tactic-entropy">6.12</a> describes the trends in this values over the duration of the semester.
+Figure <a href="data-analysis-results-and-discussion-longitudinal-tracking-phase.html#fig:rp2-tactic-entropy">6.13</a> describes the trends in this values over the duration of the semester.
 <!-- all search tactics are used uniformly, whereas a lower value indicates that some search tactics are more preferred over others. 
 The entropies discussed in the following sections were normalized by their theoretical maximums, for equivalent comparison across different conditions. 
 --></p>
@@ -1016,9 +1063,9 @@ The subsequent decrease in both entropies in the final paper stage suggests that
 However, their decreasing stationary entropy suggests that they became more focused and efficient in their use of search tactics as the semester progressed, which is consistent with their lower number of query reformulations and their tendency to dwell more on content pages.</p>
 <p>Overall, the differences in the entropies between the two groups suggest that the low group was more uncertain and exploratory in their search tactics, while the high group was more focused and efficient.</p>
 </div>
-<div id="summary-of-longitudinal-phase" class="section level2" number="6.10">
+<div id="summary-of-longitudinal-phase" class="section level2" number="6.11">
 <h2>
-<span class="header-section-number">6.10</span> Summary of Longitudinal Phase<a class="anchor" aria-label="anchor" href="#summary-of-longitudinal-phase"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.11</span> Summary of Longitudinal Phase<a class="anchor" aria-label="anchor" href="#summary-of-longitudinal-phase"><i class="fas fa-link"></i></a>
 </h2>
 <p>We summarize the findings from this chapter, on the longitudinal searching-as-learning task of writing a research paper, as follows.</p>
 <p>Participants were divided into high and low groups based on their self-reported values of motivation, metacognition, self-regulation, and memory span.
@@ -1236,11 +1283,20 @@ Krejtz, K., Szmidt, T., Duchowski, A. T., &amp; Krejtz, I. (2014). Entropy-based
 <div id="ref-liu2010analysis" class="csl-entry">
 Liu, C., Gwizdka, J., Liu, J., Xu, T., &amp; Belkin, N. J. (2010). Analysis and evaluation of query reformulations in different task types. <em>Proceedings of the American Society for Information Science and Technology</em>, <em>47</em>(1), 1–9.
 </div>
+<div id="ref-mann1947test" class="csl-entry">
+Mann, H. B., &amp; Whitney, D. R. (1947). On a test of whether one of two random variables is stochastically larger than the other. <em>The Annals of Mathematical Statistics</em>, 50–60.
+</div>
+<div id="ref-mcgraw1992common" class="csl-entry">
+McGraw, K. O., &amp; Wong, S. P. (1992). A common language effect size statistic. <em>Psychological Bulletin</em>, <em>111</em>(2), 361.
+</div>
 <div id="ref-taramigkou2018leveraging" class="csl-entry">
 Taramigkou, M., Apostolou, D., &amp; Mentzas, G. (2018). Leveraging exploratory search with personality traits and interactional context. <em>Information Processing &amp; Management</em>, <em>54</em>(4), 609–629.
 </div>
 <div id="ref-vallat2018pingouin" class="csl-entry">
 Vallat, R. (2018). Pingouin: Statistics in python. <em>J. Open Source Softw.</em>, <em>3</em>(31), 1026.
+</div>
+<div id="ref-vargha2000critique" class="csl-entry">
+Vargha, A., &amp; Delaney, H. D. (2000). A critique and improvement of the CL common language effect size statistics of McGraw and wong. <em>Journal of Educational and Behavioral Statistics</em>, <em>25</em>(2), 101–132.
 </div>
 </div>
 
@@ -1251,27 +1307,28 @@ Vallat, R. (2018). Pingouin: Statistics in python. <em>J. Open Source Softw.</em
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#data-analysis-results-and-discussion-longitudinal-tracking-phase"><span class="header-section-number">6</span> Data Analysis, Results, and Discussion: Longitudinal Tracking Phase</a></li>
-<li><a class="nav-link" href="#data-analysis-framework"><span class="header-section-number">6.1</span> Data Analysis Framework</a></li>
-<li><a class="nav-link" href="#sec-res-phase2-lpa"><span class="header-section-number">6.2</span> Latent Profile Analysis</a></li>
-<li><a class="nav-link" href="#learning-and-search-outcomes"><span class="header-section-number">6.3</span> Learning and Search Outcomes</a></li>
+<li><a class="nav-link" href="#participants-and-timeline-of-collected-data"><span class="header-section-number">6.1</span> Participants and Timeline of Collected Data</a></li>
+<li><a class="nav-link" href="#data-analysis-framework"><span class="header-section-number">6.2</span> Data Analysis Framework</a></li>
+<li><a class="nav-link" href="#sec-res-phase2-lpa"><span class="header-section-number">6.3</span> Latent Profile Analysis</a></li>
+<li><a class="nav-link" href="#learning-and-search-outcomes"><span class="header-section-number">6.4</span> Learning and Search Outcomes</a></li>
 <li>
-<a class="nav-link" href="#q-query-formulations"><span class="header-section-number">6.4</span> Q: Query Formulations</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#length-and-count-of-queries-per-search-task"><span class="header-section-number">6.4.1</span> Length and Count of Queries per Search Task</a></li>
-<li><a class="nav-link" href="#query-reformulation-types-qrts"><span class="header-section-number">6.4.2</span> Query Reformulation Types (QRTs)</a></li>
-<li><a class="nav-link" href="#sec-res-phase2-query-H"><span class="header-section-number">6.4.3</span> Entropy of Query Reformulation Types</a></li>
+<a class="nav-link" href="#q-query-formulations"><span class="header-section-number">6.5</span> Q: Query Formulations</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#length-and-count-of-queries-per-search-task"><span class="header-section-number">6.5.1</span> Length and Count of Queries per Search Task</a></li>
+<li><a class="nav-link" href="#query-reformulation-types-qrts"><span class="header-section-number">6.5.2</span> Query Reformulation Types (QRTs)</a></li>
+<li><a class="nav-link" href="#sec-res-phase2-query-H"><span class="header-section-number">6.5.3</span> Entropy of Query Reformulation Types</a></li>
 </ul>
 </li>
-<li><a class="nav-link" href="#url-categorization-for-analyzing-interactions"><span class="header-section-number">6.5</span> URL Categorization for Analyzing Interactions</a></li>
+<li><a class="nav-link" href="#sec-res-url-categorization"><span class="header-section-number">6.6</span> URL Categorization for Analysing Interactions</a></li>
 <li>
-<a class="nav-link" href="#l-interaction-with-lists-search-results-source-selection"><span class="header-section-number">6.6</span> L: Interaction with Lists / Search Results – Source Selection</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#number-of-clicks-per-query"><span class="header-section-number">6.6.1</span> Number of Clicks per Query</a></li>
-<li><a class="nav-link" href="#sec-phase2-res-L-dt"><span class="header-section-number">6.6.2</span> Counts and Dwell Time on Search Results</a></li>
+<a class="nav-link" href="#l-interaction-with-lists-search-results-source-selection"><span class="header-section-number">6.7</span> L: Interaction with Lists / Search Results – Source Selection</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#number-of-clicks-per-query"><span class="header-section-number">6.7.1</span> Number of Clicks per Query</a></li>
+<li><a class="nav-link" href="#sec-phase2-res-L-dt"><span class="header-section-number">6.7.2</span> Counts and Dwell Time on Search Results</a></li>
 </ul>
 </li>
-<li><a class="nav-link" href="#i-interaction-with-information-objects-sources-content-pages"><span class="header-section-number">6.7</span> I: Interaction with Information Objects – Sources / Content Pages</a></li>
-<li><a class="nav-link" href="#search-result-pages-vs-content-pages"><span class="header-section-number">6.8</span> Search Result Pages vs Content Pages</a></li>
-<li><a class="nav-link" href="#entropy-of-search-tactic-sequences"><span class="header-section-number">6.9</span> Entropy of Search Tactic Sequences</a></li>
-<li><a class="nav-link" href="#summary-of-longitudinal-phase"><span class="header-section-number">6.10</span> Summary of Longitudinal Phase</a></li>
+<li><a class="nav-link" href="#i-interaction-with-information-objects-sources-content-pages"><span class="header-section-number">6.8</span> I: Interaction with Information Objects – Sources / Content Pages</a></li>
+<li><a class="nav-link" href="#search-result-pages-vs-content-pages"><span class="header-section-number">6.9</span> Search Result Pages vs Content Pages</a></li>
+<li><a class="nav-link" href="#entropy-of-search-tactic-sequences"><span class="header-section-number">6.10</span> Entropy of Search Tactic Sequences</a></li>
+<li><a class="nav-link" href="#summary-of-longitudinal-phase"><span class="header-section-number">6.11</span> Summary of Longitudinal Phase</a></li>
 </ul>
 
       <div class="book-extra">
