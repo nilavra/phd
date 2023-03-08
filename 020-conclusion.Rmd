@@ -1,10 +1,32 @@
 # Conclusion
 
-longitudinal study (cohort study)
+
+## Summary
+
+> *"Social science exploration is a broad-ranging, purposive, systematic, prearranged undertaking designed to maximize the discovery of generalizations leading to description and understanding of an area of ... life"*
+> 
+> `r nbQuoteAuthor('--- @stebbins2001exploratory')`
+
+In this dissertation, an exploratory longitudinal study was proposed and conducted, to investigate how students' longitudinal information search behaviours change with time, what role individual differences play in this process, and how it affects their learning and search outcomes.
+The study consisted of three phases, with the main longitudinal tracking phase observing students search behaviour as they worked on a research paper final project for a class.
+
+The findings from the study suggest that metacognition, motivation, and self-regulation are important factors that determine, direct, and sustains what students do to search and learn.
+Students with high levels of these traits demonstrated higher perceived learning and search outcomes, compared to those with low levels of these traits. 
+Additionally, the high group demonstrated more stable information searching behaviour over time compared to the low group.
+
+
+As depicted in the opening quote from @stebbins2001exploratory, our exploratory research was inductive, aiming to illuminate new concepts through observation.
+We purposefully did not follow a deductive approach, which usually proves or tests an existing theory or hypothesis.
+<!-- As @hartel2022exploratory argues, exploration can help ameliorate some of the pernicious expections -->
+This resulted in very few statistically significant results in our findings.
+However, we were more interested in discovering interesting patterns, and leave the task of confirmatory, deductive investigation to follow-up studies.
+<!-- We believe the findings from this study will lead to more confirmatory studies. -->
+
+
+<!-- 
 
 Most of the results did not have statistical significance - but that's okay because this is exploratory research, which is inductive, rather than deductive.  
 https://youtu.be/URz4CAaJqnE
-
 
 We were more interested in discovering interesting patterns.
 We believe the findings from this study will lead to more confirmatory studies.
@@ -13,7 +35,7 @@ https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan
 
 
 
-<!-- 
+
 
 , Contributions, and Future Work 
 
@@ -31,13 +53,60 @@ TODO: New references
 -->
 
 
+
+
+## Contributions
+
+Apart from the findings discussed at length in previous chapters, this dissertation also has some methodological contributions.
+The first is the attempt to relate individual differences of motivation, metacognition, and self-regulation in a combined, holistic format, with information search behaviour.
+This was achieved through the person-centred approach of Latent Profile Analysis.
+To the best of our knowledge, this is the first study in information science and IIR literature to have employed Latent Profile Analysis in such a manner.
+
+Our second methodological contribution is the development of the YASBIL browsing logger [@bhattacharya2021yasbil], which was developed primarily as a response to the COVID-19 pandemic.
+<!-- With the onset of the pandemic, there was a staggering halt in in-lab human subjects research, and we had to plan for an alternative strategy to carry out IIR research.  -->
+<!-- YASBIL was the fruit of that labour. -->
+As human subjects research in labs came to a halt, we had to find an alternative approach to carry out IIR research. 
+The YASBIL logger was developed to enable us to collect data on students' online browsing behaviour as they searched for information. This tool allowed us to track students' search behaviour and analyse it in detail, providing insights into how they engage with information sources, evaluate information, and how their information search behaviour evolves over time.
+
+
+Together, these methodological contributions offer new ways of understanding the complex relationships between individual differences in motivation, metacognition, and self-regulation, and how they impact information search behaviour and learning outcomes. Additionally, the YASBIL browsing logger provides a powerful tool for researchers to gather detailed information about students' online browsing behaviour, making it possible to track their search behaviour and analyse it in detail. These contributions provide valuable resources for future researchers in the field of Information Science and Information Retrieval, and offer insights into how we can design more effective searching as learning environments.
+
+
+
+
 ## Limitations
 
-### Theoretical Limitations
+Like any other scientific endeavour, the LongSAL study came with its limitations.
+
+<!-- ### Theoretical Limitations 
 
 Learning outcomes
 Cite @urgo2022learning
 
+-->
+
+The most prominent **theoretical limitation** of the study was the choice of learning outcomes.
+Although we discuss at length about the inefficacy of traditional learning outcome measures in Chapter \@ref(ch-bg-learn), we were involuntarily forced to use two of them in this study -- self-perceived learning outcomes, and instructor assigned grades.
+Our initial plan was to use Concept Maps for assessing qualitative and quantitative changes in students' learning and knowledge of concepts.
+But we were limited by technology, and had to settle for self-ratings.
+Education Scientists are repeatedly calling for better assessment strategies for learning [@cope2017elearningc; @urgo2022learning]. 
+Future researchers in search-as-learning must work hand in hand with educators and education researchers to investigate and apply more sophisticated forms of learning assessments, that are more equitable in the face of learner diversity.
+
+
+
+
+In terms of **technical limitations**, there were a handful. 
+First, due to the nature of current web-technologies, we could not determine when participants were reading a PDF file on their browser.
+Browser level JavaScript works only on webpages, and that is what YASBIL used to log user behaviour.
+If a participant downloaded a bunch of PDFs at a given time, and read them later offline, even when turning YASBIL on, YASBIL would be blind to such readings.
+Second, we could not analyze clicks on content pages. This is due to an abundance of advertisements and cookie preference popups that any user first has to encounter, before even beginning to settle on the content. This is often quite an annoyance, and also taints the dwell time measure on webpages.
+Last but not the least, the low sample size is always a limitation. 
+We had initial hopes of recruiting about 30-40 participants for the study.
+However, despite our best efforts, only 18 signed up, 16 remained till the middle of the semester, and 10 completed the entire study.
+Previous literature also shows that past longitudinal studies had similar low sample sizes.
+For instance, @kuhlthau2004seeking had 20 participants, @vakkari2001changes had 11 and @kelly2006measuringa had 7 participants.
+
+<!-- 
 
 ### Technical Limitation
 
@@ -52,12 +121,31 @@ Some difficulties:
 
 - opening same URL in 2 different tabs and switching between them for a while before realising one is different from the other
   - or maybe long webpage (e.g.) book - two tabs at two different locations in webpage
+ -->
+
+
+
 
 ## Future Work
 
-We have barely scratched the surface
 
-- What factors are specifically responsible for the transitions or the changes in the Latent profiles at different points in the semester?
+This dissertation study was monumental effort in planning, organization, and execution.
+<!-- , and as such there is a lot more to explore given the  -->
+Even after an almost 200-page dissertation, we have barely managed to scratch the surface of the amount of data that was collected in the study.
+
+Some of the most promising directions of future work from this project include:
+understanding what factors are responsible if/when students change their latent profiles at different points in the semester; 
+understanding parallel and cross session browsing behaviour, and how it affects learning;
+deeper dive into struggling versus exploring search behaviours;
+in-depth and qualitative analysis of search queries issued by participants;
+understanding of long term information use;
+visits and revisits to webpages, and its effects on relevance judgement;
+and others.
+
+
+
+<!-- 
+for the transitions or the changes in the Latent profiles at different points in the semester?
 - Correlation between user profiles and search tactics [Table 9 @taramigkou2018leveraging]
 - Parallel Browsing Behaviour
 - Consistency of search terms (from FIRE group) -- low consistency = evidence of learning?
@@ -83,17 +171,55 @@ Contrary opinions:
 >
 > https://twitter.com/suzettelohmeyer/status/1617909351766757376
 > https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/
+ -->
 
 
-Final feedback:
-P022Pisa said
-> *It is great to be able to participate in the research this semester. Using the extension somehow brings me postive feedback and that helps me in study I303. So I wanna say thank you*
-> - P022Pisa
+
+
+
+
+
+
+In conclusion, this dissertation has explored the role of motivation, metacognition and self-regulation in shaping the information search behaviours and learning outcomes of students. 
+The findings demonstrate that differences in these individual traits are crucial components of successful searching as learning behaviour. 
+As @winne2022metacognition argues, metacognition is the engine of self-regulated learning. 
+To help learners develop and apply productive self-regulated learning, search as learning environments should be designed to foster effective use of metacognitive strategies.
+Learning technologies should be used to induce, track, model, and support learners’ metacognition across tasks, domains, and contexts.
+As motivation and metacognition are closely intertwined in complex ways, understanding their relationships is the key to designing the next paradigm of searching as learning systems.
+
+ 
+
+<!-- 
+ 
+ Learning environments should be designed to foster the effective use of metacognitive strategies to help learners develop and apply productive self-regulated learning. Moreover, learning technologies can be used to induce, track, model, and support learners’ metacognition across tasks, domains, and contexts. The study recommends that understanding the complex relationship between motivation and metacognition is essential to designing effective searching as learning environments. 
+ 
+-->
+
+
+
+> *"It was great to be able to participate in the research this semester. Using the (YASBIL) extension somehow brings me positive feedback and that helps me to study I303. So I wanna say thank you"*
+> 
+> `r nbQuoteAuthor('--- Participant P022_PISA')`
+
 
 
 
 
 <!-- 
+
+This dissertation study aimed to investigate the role of metacognition in information searching as a learning activity. 
+
+The study consisted of three phases. The first phase was an exploratory study that investigated the relationship between metacognition and information searching. The second phase was a longitudinal study that examined the impact of changing individual differences on students' longitudinal information searching behaviors and learning outcomes. The third phase was a study that compared the information searching behaviors of students on repeated and non-repeated search tasks.
+
+The findings of the exploratory study indicated that metacognition is a crucial component of information searching as a learning activity. The results showed that the use of metacognitive strategies such as monitoring and control positively influenced the effectiveness of information searching. The results of the longitudinal study showed that 
+
+The third phase of the study found that the information searching behaviors of students differed on repeated and non-repeated search tasks. The findings indicated that on non-repeated search tasks, students engaged in more exploratory behavior and exhibited higher levels of transition entropy in their search tactics. On repeated search tasks, students demonstrated more stable search behaviors, and their search tactics showed lower levels of entropy.
+
+The study concludes that metacognition plays a crucial role in information searching as a learning activity. 
+
+
+
+
 From @winne2022metacognition:
 
 Learning is shaped by metacognitive knowledge exercised through metacognitive monitoring and metacognitive control.
@@ -114,24 +240,9 @@ Overall, this dissertation provides valuable insights into the ways in which met
 
 
 
-In conclusion, this dissertation has explored the role of motivation, metacognition and self-regulation in shaping the information search behaviours and learning outcomes of students. 
-The findings demonstrate that differences in these individual traits are crucial components of successful searching as learning behaviour. 
-As @winne2022metacognition argues, metacognition is the engine of self-regulated learning. 
-To help learners develop and apply productive self-regulated learning, search as learning environments should be designed to foster effective use of metacognitive strategies.
-Learning technologies should be used to induce, track, model, and support learners’ metacognition across tasks, domains, and contexts.
-As motivation and metacognition are closely intertwined in complex ways, understanding their relationships is the key to designing the next paradigm of searching as learning systems.
+<!-- 
 
- 
-
-
-
-
-
-
-
-
-
-<!-- ======================= old content ========================-->
+======================= old content ========================
 
 see Jacek's thesis
 
@@ -165,11 +276,11 @@ Overall, these factors likely interacted in complex ways to produce the observed
 
 
 
-<!-- ## Summary of Results
+ ## Summary of Results
 
 which results have the strongest effect sizes and RBC scores?
 
-CONCLUSION: obtained grades are not good indicators of learning -->
+CONCLUSION: obtained grades are not good indicators of learning 
 
 ## Methodology
 
@@ -196,7 +307,6 @@ Overall, the use of LPA to classify participants into high and low groups based 
 
 
 ### Entropy
-<!-- TODO: check the following text: -->
 Transition analysis and entropy are powerful tools in the field of information retrieval that can help to uncover patterns in user search behaviour across disparate tasks and activities. By analysing transitions between different states, such as between queries, documents, or web pages, transition analysis can reveal important insights into how users navigate information spaces and interact with search systems. For example, it can be used to identify common search patterns or to identify areas where users may be experiencing difficulty or confusion.
 
 Entropy, on the other hand, provides a quantitative measure of the uncertainty or randomness in user search behaviour. By calculating entropy values for different aspects of search behaviour, such as query reformulation or click-through behaviour, researchers can gain a better understanding of the structure and characteristics of user search behaviour in different contexts. This can help to identify areas for improvement in search systems and to design more effective search algorithms and interfaces.
@@ -222,7 +332,11 @@ HEATHER:
 
 
 
-<!-- 
+
+
+
+
+
 
 write short introductions and conclusions for the following chapters of my dissertation:
 

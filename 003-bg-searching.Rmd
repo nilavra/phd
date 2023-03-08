@@ -885,7 +885,7 @@ Learning is a longitudinal process, occurring gradually over time
 (Sections \@ref(sec-bg-learn-sensemaking) and \@ref(sec-bg-learn-principles)). Therefore, information
 researchers have studied participant's search behaviour in prior,
 **albeit few**, longitudinal studies. Examples include studies by
-[@kelly2006measuring-a; @kelly2006measuring-b; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
+[@kelly2006measuringa; @kelly2006measuringb; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
 
 [@wildemuth2004effects] examined the search behaviour of medical
 students in microbiology. In this experiment, students were observed at

@@ -42,10 +42,35 @@ Metacognition also help students improve their search performance and learning o
 
 
 In our study, we found that students in the high group, with higher values of metacognition, self-regulation, and motivation, demonstrated more efficient search behaviours with time.
-The randomness of their search behaviour decreased, indicating they became more efficient and strategic in their search processes. 
+The high group were able to better refine their search strategies and become more efficient as the semester progressed, resulting in fewer clicks per query when writing the final paper.
+They had higher counts of word substitutions and lower counts of repeat queries, which are both indicative of more focused and targeted search strategies. 
+The randomness of their search behaviour decreased, indicating they became more efficient and strategic in their search processes.
 They engaged more with content pages than search results, and reported overall better levels of learning and search outcomes. 
 In contrast, the low group, with lower levels of motivation, metacognition, self-regulation, and memory-span, showed less efficient search behaviours. 
+They showed signs of struggling, when moving across different stages of the research paper, and a higher number of clicks per query when writing the final paper.
 They had more randomness and higher entropies of search tactics, more engagement with search results than content pages at later stages of the semester (which was done in earlier stages by the high group), and a general lower level of learning and search outcome.
+
+
+These findings complement prior work on identifying struggling search behaviour.
+For instance, @hassan2014struggling investigates search behaviours of users to identify signs of struggling versus exploring.
+Their findings indicated that certain predictors, such as minimal similarity between consecutive queries, increased clicks per query, as well as differences in the nature of query reformulation patterns (i.e., less query term substitution and more addition/removal with exploring), were indicative of struggling search sessions.
+
+
+<!-- 
+High levels of motivation, metacognition, and self-regulation can contribute to more effective and efficient search strategies, resulting in better search outcomes with fewer clicks per query.
+ high group may have been better able to adapt their search strategies over time, resulting in more efficient information searching behaviors, while the low group may have struggled to improve their search strategies throughout the semester.
+- 
+-  In contrast, the low group may have struggled to improve their search strategies, resulting in a higher number of clicks per query when writing the final paper.
+- It is also possible that the differences in average clicks per query between the two groups during different phases of the semester reflect differences in the complexity or specificity of the information needed for the different tasks. For example, the paper outline phase may have required more broad and exploratory searches, while the final paper phase may have required more targeted and specific searches.
+
+ -->
+
+ 
+
+
+
+
+
 
 
 
@@ -70,11 +95,11 @@ In terms of search tactic sequences, the high group had an opposite trend of cha
 
 
 
-These findings complement and extend prior work that has linked topic familiarity and task intentions with search strategies and tactics, in influencing search behaviour. 
+These findings complement and extend prior work that has linked topic familiarity expertise with search strategies and tactics, in influencing search behaviour. 
 Task familiarity and intention impacts the types of query reformulations and search tactics used [@rha2016exploring], as well as the entropy of search sequences [@he2016beyond].
 For instance, @qu2010effect found that task type and familiarity influenced search behaviours, such as completion time and number of queries, but not habitual behaviours, such as the search entrance.
 @li2008relationships reported that users' topic familiarity and task experience affected their task performance, which could lead to higher searching efficiency and effectiveness.
-Finally, @karimi2011domain reported that topic familiarity affected query formulation strategies, such as query length, use of Boolean operators, use of quotation marks, query count, and overall query length.
+Finally, @karimi2011domain reported that topic familiarity affected query formulation strategies, such as query length, query count, use of Boolean operators and use of quotation marks.
 
 
 
@@ -125,9 +150,14 @@ Repeated search tasks may result in better recall, retention and transfer of inf
 
 ## RQ3: Searching Behaviour and Learning Outcomes
 
-> *How do (longitudinal) information search behaviour of students correlate with their (self-perceived) learning outcomes?*
+> *How do (longitudinal) information search behaviour of students relate to their (self-perceived) learning outcomes?*
 
-The study found that the high group demonstrated significantly higher perceived learning outcomes and search outcomes compared to the low group, and this was correlated with their longitudinal information search behaviour. These findings are consistent with prior research that has shown a positive correlation between search behaviour and learning outcomes in various contexts. 
+The study found that the participant group with higher levels of metacognition, motivation, and self-regulation demonstrated significantly higher perceived learning outcomes and search outcomes compared to the participant group which were low on these individual traits.
+This also affected their longitudinal information search behaviour. 
+
+These findings are also in line with prior research, that has linked search behaviour with learning outcomes. 
+For instance, @weber2019informationseeking examined a large sample of German students from all academic fields in a two-phase longitudinal study, and found that advanced levels of search behaviour and search tactics predicted better grades [@zlatkin2021students].
+
 
 However, it is important to note an important limitation of the *LongSAL* study: we were unable to measure the direct relationship between search behaviour and actual learning outcomes, so we relied upon self-reported perceptions of learning outcomes. 
 Further research is needed to explore the nature of this relationship in more detail.
@@ -291,13 +321,18 @@ Hauff, C., Gao, Q., & Azzopardi, L. (2011). Personalizing web
 
 
 
-
-
-
-
-
-
  -->
+
+
+
+
+
+
+
+<!-- 
+
+======================= old content ========================
+
 
 ## RQ1: how do search behaviours change over time?
 
@@ -307,7 +342,6 @@ Hauff, C., Gao, Q., & Azzopardi, L. (2011). Personalizing web
   - Query reform measures
   - search measures
   - learning outcomes
-  - SHEG tasks
 
 - Phase 2
 - Phase 3
@@ -317,11 +351,10 @@ Hauff, C., Gao, Q., & Azzopardi, L. (2011). Personalizing web
   - more clicks per query
   - differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
 
-<!-- 
+
 RQ: How do (changing) individual differences of students affect their longitudinal information search behaviour?
 
 
- -->
 
 
 
@@ -360,30 +393,21 @@ The second set (H2) compares two different user groups, experts and novices, usi
 Phase 1 and Phase 3 only
 
 - search task
-- SHEG tasks
 - Similarities -> measures having no sig diff
   - Overall task, Beginning, middle, end
 - Differences -> measures having sig diff
   - Overall task, Beginning, middle, end
 
-SES3 SHEG - only one participant issued a query; others did not
 
 
 
-## RQ3: correlation with learning?
+## RQ3: correlation with learning? 
 
 
+Hassan et al. (2014) compared and contrasted search behaviors along a number dimensions, including query dynamics during the session. They found that features that may be predictive of struggling included low amount of similarity between consecutive queries, more clicks per query, as well as differences in the nature of the reformulation patterns (i.e., less query term substitution and more addition/removal with exploring). 
 
-<!-- Hassan et al. (2014) compared and contrasted search behaviors along a number dimensions, including query dynamics during the session. They found that there are some features that may be predictive of struggling, such as a low amount of similarity between consecutive queries, more clicks per query, as well as differences in the nature of the reformulation patterns (i.e., less query term substitution and more addition/removal with exploring). Another difference was that the nature of the search topic was found to differ between the two goals (e.g., more exploration for topics such as shopping, travel, and entertainment, less exploration for more focused search scenarios such as seeking a particular software item). Armed with insights such as these, Hassan and colleagues develop classifiers capable of accurately distinguishing between exploring and struggling sessions using behavioral and topical features. -->
+Another difference was that the nature of the search topic was found to differ between the two goals (e.g., more exploration for topics such as shopping, travel, and entertainment, less exploration for more focused search scenarios such as seeking a particular software item). Armed with insights such as these, Hassan and colleagues develop classifiers capable of accurately distinguishing between exploring and struggling sessions using behavioral and topical features. 
 
-
-
-
-
-
-<!-- ======================= old content ========================-->
-
-## Summary of Results
 
 
 
@@ -437,5 +461,5 @@ TODO: summary Overall, the findings suggest that developing effective search str
 
 
 
-
+ -->
 

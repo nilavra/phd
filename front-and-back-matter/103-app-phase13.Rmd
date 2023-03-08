@@ -53,15 +53,10 @@ semester.
 *Search for information exploration:*
 
 1.  I was cognitively engaged in search task.
-
 2.  I made an effort at performing the search task.
-
 3.  The time for search was spent productively on meaningful tasks.
-
 4.  I was able to explore relationships among multiple concepts.
-
 5.  I was able to expand the scope of my knowledge about the topic.
-
 6.  I feel that I was able to put together pieces of information into
     one big concept.
 
@@ -154,7 +149,7 @@ semester.
 40. I was most concerned about finding information on one specific
     aspect.
 
-
+<!-- 
 
 ## Preference for CTA vs Silent Condition {#app-phase13-cta-v-silent}
 
@@ -166,8 +161,10 @@ semester.
    - Working in silence was a lot better
 
 2. Why? .....
+ -->
 
 
+<!-- 
 ## `PHASE1-SHEG`: Website Reliability Assessment {#app-phase1-sheg}
 
 
@@ -203,7 +200,7 @@ Take about 5 minutes to complete this task. Turn YASBIL on before proceeding.
 1. Which of these two webpages do you think is a better place to start your research? .....
 2. Explain your choice. Refer to both webpages in your answer. .....
 3. Please paste the URLs to the webpages you used to explain your answer above, one per line.
-
+ -->
 
 
 

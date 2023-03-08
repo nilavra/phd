@@ -465,9 +465,14 @@
   An important step to foster learning during online search is to identify behavioural patterns that distinguish searchers gaining more vs.~less knowledge during search.
   Previous efforts have primarily studied searchers in the short term, typically during a single lab session.
   Researchers have expressed concerns over this ephemeral approach, as learning takes place over time, and is not fleeting.
-  In this dissertation, an exploratory longitudinal study was conducted to analyse the long-term searching behaviour of students enrolled in a university course, over the span of a semester.
-  Our research aims are to identify if and how students' searching behaviour changes over time, as they gain new knowledge on a subject; and how do processes like motivation, metacognition, self-regulation, and other individual differences moderate their `searching as learning' behaviour.
-  Findings from this exploratory longitudinal study will help to build improved search systems that foster human learning and sensemaking, and are more equitable in the face of learner diversity.
+  In this dissertation, an exploratory longitudinal study was conducted to observe the long-term searching behaviour of students enrolled in a university course, over the span of a semester.
+  Our research aims were to identify if and how students' searching behaviour changes over time, as they gain new knowledge on a subject; and how do individual traits such as motivation, metacognition, self-regulation, and other individual differences moderate their searching as learning behaviour.
+  We found that differences in these traits do create observable and quantifiable differences in information searching as a learning activity.
+  Students with higher levels of these traits were more effective and efficient in their search behaviours, reported better levels of learning and search outcomes, and obtained better grades.
+  We posit that learning environments should be designed to foster the effective use of metacognitive strategies to help learners develop and apply productive self-regulated learning.
+  Moreover, learning technologies can be used to induce, track, model, and support learners' metacognition across tasks, domains, and contexts.
+  The study recommends that understanding the complex relationship between motivation and metacognition is essential to designing effective searching as learning environments.
+  Findings from this exploratory longitudinal study will help to build improved search systems that foster human learning and sensemaking, which are more equitable in the face of learner diversity.
 \end{spacing}
 
 % --------- end: UTexas abstract -------
@@ -531,8 +536,6 @@ Bengali version of abstract: TBD.}
   	% \mtcaddchapter is needed when adding a non-chapter (but chapter-like) entity to avoid confusing minitoc
 
 % Uncomment to generate a list of tables:
-\listoftables
-  \mtcaddchapter
 %%%%% LIST OF ABBREVIATIONS
 % This example includes a list of abbreviations.  Look at text/abbreviations.tex to see how that file is
 % formatted.  The template can handle any kind of list though, so this might be a good place for a
@@ -625,7 +628,7 @@ improve human-information interaction.
 A major limitation in the area of Search as Learning, Interactive IR (IIR), and more broadly, in Human-Computer Interaction (HCI) research is
 that, the user is examined in the short-term, typically over the course of a single experimental session in a lab
 (\protect\hyperlink{ref-karapanos2021advances}{Karapanos et al., 2021}; \protect\hyperlink{ref-kelly2009evaluation}{Kelly et al., 2009}; \protect\hyperlink{ref-koeman2020hciux}{Koeman, 2020}; \protect\hyperlink{ref-zlatkin2021students}{Zlatkin-Troitschanskaia et al., 2021}).
-Very few studies exist in the search-as-learning domain that have observed \emph{the same participant} over a longer period of time than a single search session (\protect\hyperlink{ref-kelly2006measuring-a}{Kelly, 2006a}, \protect\hyperlink{ref-kelly2006measuring-b}{2006b}; \protect\hyperlink{ref-kuhlthau2004seeking}{Kuhlthau, 2004}; \protect\hyperlink{ref-vakkari2001changes}{Vakkari, 2001a}; \protect\hyperlink{ref-white2009characterizing}{White et al., 2009}; \protect\hyperlink{ref-wildemuth2004effects}{Wildemuth, 2004}).
+Very few studies exist in the search-as-learning domain that have observed \emph{the same participant} over a longer period of time than a single search session (\protect\hyperlink{ref-kelly2006measuringa}{Kelly, 2006a}, \protect\hyperlink{ref-kelly2006measuringb}{2006b}; \protect\hyperlink{ref-kuhlthau2004seeking}{Kuhlthau, 2004}; \protect\hyperlink{ref-vakkari2001changes}{Vakkari, 2001a}; \protect\hyperlink{ref-white2009characterizing}{White et al., 2009}; \protect\hyperlink{ref-wildemuth2004effects}{Wildemuth, 2004}).
 This ephemeral approach has acute implications in any domain where learning is involved because ``learning is a \emph{process} that leads to \emph{change} in knowledge \ldots{} (which) unfolds over time'' (\protect\hyperlink{ref-ambrose2010howa}{Ambrose et al., 2010}), and ``\ldots does not happen all at once'' (\protect\hyperlink{ref-white-2016-iwss-learning}{White, 2016b}).
 
 \textbf{To the best of the author's knowledge, almost no new longitudinal studies were reported in major search-as-learning literature in the last five years, that systematically studied students' information search behaviour and information-use over the long term, in their \emph{in-situ} naturalistic environment and contexts, and linked those behaviours quantitatively to the students' learning outcomes and individual differences.}
@@ -676,9 +679,13 @@ This dissertation takes a step in this direction.
 This dissertation document is structured as follows.
 First, principles of learning and relevant background from the domain of Educational Sciences are presented in Chapter 2.
 Next, relevant empirical evidences from the Information Searching Literature are discussed in Chapter 3.
-Chapter 4 presents the research questions, the overarching hypotheses, and discusses their rationale in the context of
+Chapter 4 presents the research questions,
+and discusses their rationale in the context of
 the existing research gaps.
-Chapter 5 describes the research methods, including the longitudinal study design, experimental procedures, data collection and analyses plans, anticipated limitations, and expected schedule to complete the dissertation.
+Chapter 5 describes the research methods, specifically the longitudinal study design and experimental procedures.
+Chapter 6 and 7 presents the data analyses framework, results, and discussions of the findings the study.
+Chapter 8 places the findings in terms of the research questions introduced in Chapter 4.
+Finally, Chapter 9 presents the conclusion, limitations, and future work.
 
 \hypertarget{ch-bg-learn}{%
 \chapter{Background: Knowledge and Learning}\label{ch-bg-learn}}
@@ -2234,7 +2241,7 @@ Learning is a longitudinal process, occurring gradually over time
 (Sections \ref{sec-bg-learn-sensemaking} and \ref{sec-bg-learn-principles}). Therefore, information
 researchers have studied participant's search behaviour in prior,
 \textbf{albeit few}, longitudinal studies. Examples include studies by
-(\protect\hyperlink{ref-kelly2006measuring-a}{Kelly, 2006a}, \protect\hyperlink{ref-kelly2006measuring-b}{2006b}; \protect\hyperlink{ref-kuhlthau2004seeking}{Kuhlthau, 2004}; \protect\hyperlink{ref-vakkari2001changes}{Vakkari, 2001a}; \protect\hyperlink{ref-white2009characterizing}{White et al., 2009}; \protect\hyperlink{ref-wildemuth2004effects}{Wildemuth, 2004}).
+(\protect\hyperlink{ref-kelly2006measuringa}{Kelly, 2006a}, \protect\hyperlink{ref-kelly2006measuringb}{2006b}; \protect\hyperlink{ref-kuhlthau2004seeking}{Kuhlthau, 2004}; \protect\hyperlink{ref-vakkari2001changes}{Vakkari, 2001a}; \protect\hyperlink{ref-white2009characterizing}{White et al., 2009}; \protect\hyperlink{ref-wildemuth2004effects}{Wildemuth, 2004}).
 
 (\protect\hyperlink{ref-wildemuth2004effects}{Wildemuth, 2004}) examined the search behaviour of medical
 students in microbiology. In this experiment, students were observed at
@@ -2326,10 +2333,7 @@ chapter, we take these gaps in knowledge and use them to inform our
 research questions and hypotheses.
 
 \hypertarget{ch-rq}{%
-\chapter{Research Questions and Hypotheses}\label{ch-rq}}
-
-\hypertarget{sec-rq}{%
-\section{Research Questions}\label{sec-rq}}
+\chapter{Research Questions}\label{ch-rq}}
 
 Combining empirical findings and gaps in the literature from the disciplines of Education (Chapter \ref{ch-bg-learn}) and Information (Chapter \ref{ch-bg-search}), we saw that:
 
@@ -2349,120 +2353,32 @@ Combining empirical findings and gaps in the literature from the disciplines of 
   this creates acute gaps in our knowledge about long term information searching and learning behaviour, which is crucial for building learning-centric search systems of the future, which can support sensemaking and knowledge-gain
 \end{itemize}
 
-Guided by the above insights, we asked the following research questions in this dissertation, and aimed to answer them via a longitudinal study of students' information search behaviour and learning outcomes over the course of a university semester (Section \ref{sec-method-exp-design}). For the purposes of this
-dissertation, we considered learning as change in a student's knowledge
-about certain topics over the duration of a university semester.
-
-The research questions are first stated in this section, to put them all
-together in one place for easy reference. Then the overarching
-hypotheses are discussed in Section \ref{sec-rq-hypotheses}.
+Guided by the above insights, we ask the following research questions in this dissertation, and aim to answer them via an exploratory longitudinal study of students' information search behaviour and learning outcomes over the course of a university semester (Section \ref{sec-method-exp-design}).
 
 \begin{quote}
-\textbf{RQ1:} \emph{What kind of longitudinal information search behaviours are correlated to the degree of change in students' knowledge levels and learning outcomes?}\\
+\textbf{RQ1:} \emph{How do (changing) individual differences of students affect their longitudinal information search behaviour?}\\
 \strut \\
-\textbf{RQ2:} \emph{What are the similarities and differences in information search behaviours for tasks where the learning goals are new (new search tasks), versus those where the learning goals are repeated (repeated search tasks)?}\\
+\textbf{RQ2:} \emph{What are the similarities and differences in information search behaviours for tasks where the learning goals are new (non-repeated search tasks), versus those where the learning goals are repeated (repeated search tasks)?}\\
 \strut \\
-\textbf{RQ3:} \emph{How does externalisation and articulation affect students' learning outcomes and experiences during search?}\\
-\strut \\
-\textbf{RQ4:} \emph{How do (changing) individual differences of students moderate their information search behaviours and learning outcomes?}
+\textbf{RQ3:} \emph{How do (longitudinal) information search behaviour of students relate to their (self-perceived) learning outcomes}
 \end{quote}
 
-\hypertarget{sec-rq-hypotheses}{%
-\section{Overarching Hypotheses}\label{sec-rq-hypotheses}}
+The study was purposefully planned to be exploratory in nature (\protect\hyperlink{ref-stebbins2001exploratory}{Stebbins, 2001}).
+Therefore, the research questions are exploratory as well, meant at discovering interesting patterns, and aiming to illuminate new concepts through quantitative observation.
 
-In this Section, we discuss the research framework and hypotheses behind
-the research questions. The study is primarily planned to be
-exploratory, therefore the hypotheses are exploratory in nature as well.
+Students' motivation, self-regulation and metacognition capabilities determine, direct, and sustain the approaches they take to learn (Section \ref{sec-bg-learn-promoting-learning}).
+Effective searching for learning is affected by students' search tactics and information evaluation capabilities (Section \ref{sec-bg-learn-info-eval}) as well as cognitive capabilities, such as memory span (Section \ref{sec-bg-search-expertise}).
+We (weakly) hypothesize that students showing sustained or increasing values of metacognition, self-regulation, and motivation over the duration of the semester will put more effort into their searches, and demonstrate better learning and search outcomes.
 
-\hypertarget{sec-framework-rq1-rq2}{%
-\subsection{Learning as Students' Transition from Novice to Expert (RQ1, RQ2)}\label{sec-framework-rq1-rq2}}
-
-Learning and expertise are closely connected: expertise is an evolving
-characteristic of learners that reflects learning over time, rather than
-being a static property (\protect\hyperlink{ref-rieh2016searching}{Rieh et al., 2016}). Domain expertise and
-search behaviour has been studied, albeit mostly during single lab
-sessions, and sometimes longitudinally (Section \ref{sec-bg-search-expertise}). There is a clear gap in
-understanding how higher education students search for information in
-the long term, how their information use behaviour develop over time,
-and how it affects their learning (\protect\hyperlink{ref-zlatkin2021students}{Zlatkin-Troitschanskaia et al., 2021}). RQ1 and RQ2
-aims to address some of these gaps.
-
-\textbf{Hypothesis for RQ1:} Search behaviours described in Table \ref{fig:search-behaviours} will occur both within individual search sessions, and across progressive search sessions recorded over a semester, as domain expertise of students increases (\protect\hyperlink{ref-eickhoff2014lessons}{Eickhoff et al., 2014}).
-
-\textbf{Hypotheses for RQ2:} This research question stems from the idea of lifelong or continuous learning: how do search behaviours evolve over time when gaining knowledge about perpetual life skills (e.g., financial literacy). We hypothesize that
-
-\begin{itemize}
-\tightlist
-\item
-  relevance judgement of previously viewed information on this topic will change over time, as searcher gains more knowledge and expertise
-\item
-  the decision or choice to put effort into searching again, or satisfice with previously found information, will have links to motivation and self-regulation
-\end{itemize}
-
-\hypertarget{sec-framework-rq3-rq4}{%
-\subsection{Promoting Better Learning (RQ3, RQ4)}\label{sec-framework-rq3-rq4}}
-
-Better learning takes place when students articulate and their unformed
-and still developing understanding, and continue to articulate it
-throughout the learning process (Section \ref{sec-bg-learn-articulation}). Also, students' motivation,
-self-regulation and metacognition capabilities determine, direct, and
-sustain the approaches they take to learn (Section \ref{sec-bg-learn-promoting-learning}). Effective searching for
-learning is affected by students' search tactics and information
-evaluation capabilities (Section \ref{sec-bg-learn-info-eval}) as well as cognitive capabilities
-such as memory span (Section \ref{sec-bg-search-expertise}).
-
-\textbf{Hypothesis for RQ3:} articulation during the search as learning
-process (via concurrent think aloud) will lead to better learning (and
-possibly better searching) outcomes, than working silently.
-
-\textbf{Hypotheses for RQ4:} with respect to the individual differences and
-contexts in which students search to learn, we speculate the following
-hypotheses:
-
-\begin{itemize}
-\item
-  students showing sustained or increasing metacognition,
-  self-regulation, and motivation over the duration of the semester
-  will put more ``effort'' into their searches, and demonstrate better
-  learning and search outcomes
-\item
-  students with higher memory span will demonstrate more `branchiness'
-  and parallel browsing in their search behaviour
-\item
-  students with better information evaluation capabilities will
-  demonstrate better learning and search outcomes
-\end{itemize}
-
-\hypertarget{sec-rq-diss-contributions}{%
-\section{Anticipated Contributions}\label{sec-rq-diss-contributions}}
-
-We anticipate by answering the proposed research hypotheses and
-question, the results can greatly contribute to the existing knowledge
-of Interactive Information Retrieval and Educational Sciences in
-general, and Search as Learning in particular. Referring back to some of
-the research agenda advocated by the multiple workshops and journal
-special issues on Search as Learning (Section
-\ref{sec-intro-outline}), our research questions aim to
-investigate \emph{(i)} the contexts in which students search to learn; \emph{(ii)}
-the factors that influence their learning outcomes; and \emph{(iii)} whether
-students are more critical consumers of information.
-
-Many researchers have expressed their concern with the lack of
-longitudinal studies in IIR and related domains
-(\protect\hyperlink{ref-kelly2009evaluation}{Kelly et al., 2009}; \protect\hyperlink{ref-koeman2020hciux}{Koeman, 2020}; \protect\hyperlink{ref-zlatkin2021students}{Zlatkin-Troitschanskaia et al., 2021}). If
-significant relationships were to be found between students' information
-search behaviours and learning outcomes, the results of this
-dissertation can provide great insights and contributions towards \emph{(i)}
-understanding how search behaviours can predict learning outcomes;
-\emph{(ii)} creating reliable measures, methods, and instruments for
-capturing changes in people's knowledge level, learning experiences, and
-learning outcomes (\protect\hyperlink{ref-url-rieh-homepage}{Rieh, 2020}); and \emph{(iii)} developing search
-systems that better support learning and sensemaking.
+Learning and expertise are closely connected: expertise is an evolving characteristic of learners that reflects learning over time, rather than being a static property (\protect\hyperlink{ref-rieh2016searching}{Rieh et al., 2016}).
+Domain expertise and search behaviour has been studied, albeit mostly during single lab sessions, and sometimes longitudinally (Section \ref{sec-bg-search-expertise}).
+Therefore, there is a clear gap in understanding how higher education students search for information in the long term, how their information use behaviour develop over time, and how it affects their learning (\protect\hyperlink{ref-zlatkin2021students}{Zlatkin-Troitschanskaia et al., 2021}).
+The three research questions presented in this chapter aim to address some of these gaps.
 
 \hypertarget{methods-longsal---the-longitudinal-study}{%
 \chapter{Methods: LongSAL - the Longitudinal Study}\label{methods-longsal---the-longitudinal-study}}
 
-To investigate the research questions and hypotheses discussed in Section \ref{sec-rq}, we conducted the LongSAL study.
+To investigate the research questions and hypotheses discussed in Chapter \ref{ch-rq}, we conducted the LongSAL study.
 The following sections discuss the study design, apparatus and procedure.
 
 \hypertarget{sec-method-exp-design}{%
@@ -2481,8 +2397,7 @@ This involved searching and navigating information online, finding at least 20 r
 The study design was informed by running a pilot study during Summer
 2021 semester, in partnership with two courses at UT Austin School of
 Information: \emph{Information in Cyberspace}, and \emph{Academic Success in the
-Digital University}. More details of the pilot study are presented in
-Appendix \ref{ch-pilot-study}.
+Digital University}.
 
 \hypertarget{apparatus}{%
 \section{Apparatus}\label{apparatus}}
@@ -2648,7 +2563,7 @@ Participants performed a training search task to familiarize themselves with how
 Participants performed two search tasks: \texttt{PHASE1-FINANCE}, and \texttt{PHASE1-UBUNTU}.
 The \texttt{PHASE1-FINANCE} task was repeated at the end of the semester as \texttt{PHASE3-FINANCE} task.
 The \texttt{PHASE1-UBUNTU} task was not repeated, and instead the \texttt{PHASE3-BIAS} task tooK its place.
-This helps to answer the research question RQ2 (Section \ref{sec-rq}).
+This helps to answer the research question RQ2 (Chapter \ref{ch-rq}).
 The order of the two search tasks were randomized.
 
 The repeated search task \texttt{FINANCE} was on the topic of financial literacy, a topic that we posit can be considered as universally important to college students, and part of lifelong learning.
@@ -2672,38 +2587,19 @@ The prompts for these tasks are present in Figure \ref{fig:search-task-new}.
 
 
 
-To answer RQ3 (effect of externalization and articulation in learning), each participant performed one of the search tasks while thinking aloud (Concurrent-Think Aloud or \emph{CTA condition}), and performed the other search task in silence (\emph{silent condition}).
-The choice of the search task for each of the conditions was randomized and balanced.
-
 Each search task began with a pre-task questionnaire (Appendix \ref{app-phase13-pretask}), which asked participants to self-rate their pre-search knowledge-level and interest on the topic.
 Then participants turned on the YASBIL browsing logger and started searching.
 The deliverable for each search task was a written summary (artefact).
 After participants are satisfied with the quality of the deliverable, they turned off YASBIL browsing logger, and proceeded to the post-task questionnaire.
 
-The post-task questionnaire (Appendix \ref{app-phase13-posttask}) asked participants to self-rate their post-search topic knowledge, search experience, interest and motivation, and overall perceptions.
+The post-task questionnaire (Appendix \ref{app-phase13-posttask}) asked participants to self-rate their perceived learning and search outcomes, search experience, interest and motivation, and overall perceptions.
 The pre-task and post-task questionnaires are adapted from (\protect\hyperlink{ref-collins2016assessing}{Collins-Thompson et al., 2016}; \protect\hyperlink{ref-crescenzi2020adaptation}{Crescenzi, 2020}).
-
-After the two search tasks were completed, participants answered questions about whether they preferred the think-aloud condition or the silent condition, and why (Appendix \ref{app-phase13-cta-v-silent}).
-
-\hypertarget{phase1-sheg-website-reliability-assessment}{%
-\subsubsection{\texorpdfstring{\texttt{PHASE1-SHEG}: Website Reliability Assessment}{PHASE1-SHEG: Website Reliability Assessment}}\label{phase1-sheg-website-reliability-assessment}}
-
-To assess participants' (mis)information evaluation capabilities, participants performed a website reliability assessment created by the Stanford History Education Group (SHEG) (\protect\hyperlink{ref-sheg2021website-reliability}{2021b}).
-
-\begin{quote}
-\emph{This task presents students with the website of the American College of Pediatricians (ACPeds.org) and asks them whether it is a trustworthy source to learn about children's health. Despite the site's professional title and appearance, the American College of Pediatricians is not the nation's major professional organization of pediatricians. That designation belongs to the similarly named American Academy of Pediatrics.}
-
-\emph{This exercise is an open web search in which students are free to stay on the American College of Pediatricians site or leave it to search for information about the group. Successful students will look beyond the surface features of the site and detect its agenda from its new releases or other focus issues. A faster route, however, is to leave the site almost immediately to search for reliable information about the true agenda of this organization.}
-
-\hfill --- Stanford History Education Group (SHEG) (\protect\hyperlink{ref-sheg2021website-reliability}{2021b})
-\end{quote}
-
-The prompt for the \texttt{PHASE1-SHEG} task is present in Appendix \ref{app-phase1-sheg}).
 
 \hypertarget{memory-span-test}{%
 \subsubsection{Memory Span Test}\label{memory-span-test}}
 
 \texttt{PHASE1} concluded with the assessment of the participant's working memory capacity (WMC) using a memory span task (\protect\hyperlink{ref-francis2004coglab}{Francis et al., 2004}).
+Memory span assessment was kept in the synchronous phase because it is a timed task, and needs to conducted in a controlled (experimenter observed) condition.
 The task has 25 trials. On each trial participants saw a list of items presented one at a time in random order and were asked to recall the items in the same order in which they were presented. If they got a list correct, the list length increased by 1 for that type of material. If they got a list incorrect, the list length decreased by 1.
 
 The type of material participants were asked to recall were: digits, letters that sound dissimilar, letters that sound similar, short words, and long words. The outcome score was the list length of the last list that participants could correctly recall.
@@ -2747,8 +2643,7 @@ Participants were compensated with USD 10 for completing this step.
 \subsection{\texorpdfstring{\texttt{PHASE3}: Final Phase}{PHASE3: Final Phase}}\label{sec-method-phase3}}
 
 The Final Phase \texttt{PHASE3} was similar in structure to the Initial Phase (\texttt{PHASE1}), and took place at the end of the semester, after all the course related tasks were completed by the participant. The purpose of the session is to record the `evolved' search behaviour, and final knowledge state.
-Participants performed two search tasks: \texttt{PHASE3-FINANCE} and \texttt{PHASE3-BIAS},
-and one website comparison task: \texttt{PHASE3-SHEG}.
+Participants performed two search tasks: \texttt{PHASE3-FINANCE} and \texttt{PHASE3-BIAS}.
 
 \hypertarget{phase3-finance-and-phase3-bias-two-actual-search-tasks}{%
 \subsubsection{\texorpdfstring{\texttt{PHASE3-FINANCE} and \texttt{PHASE3-BIAS}: Two Actual Search Tasks}{PHASE3-FINANCE and PHASE3-BIAS: Two Actual Search Tasks}}\label{phase3-finance-and-phase3-bias-two-actual-search-tasks}}
@@ -2756,19 +2651,6 @@ and one website comparison task: \texttt{PHASE3-SHEG}.
 Of the two search tasks, the topic of one was repeated from \texttt{PHASE1} (financial literacy, Figure \ref{fig:search-task-repeated}), while the topic of the other came from the course material: algorithmic bias (Figure \ref{fig:search-task-new}).
 In both search tasks, participants were given the option of \textbf{\emph{not searching}} if they felt confident enough to answer the search task questions from their prior knowledge (\protect\hyperlink{ref-crescenzi2020adaptation}{Crescenzi, 2020}).
 The deliverables for each search-task, as before, was a written summary (artefact).
-
-\hypertarget{phase3-sheg-website-comparison-assessment}{%
-\subsubsection{\texorpdfstring{\texttt{PHASE3-SHEG}: Website Comparison Assessment}{PHASE3-SHEG: Website Comparison Assessment}}\label{phase3-sheg-website-comparison-assessment}}
-
-Following the two search tasks, participants performed another website comparison assessment from the Stanford History Education Group (SHEG) (\protect\hyperlink{ref-sheg2021webpage-comparison}{2021a}). This task assessed their evolved information evaluation skills.
-
-\begin{quote}
-\emph{This task instructed participants to compare two websites and select the one that they would use to begin research on a topic. One of the pages is a Wikipedia article. The other has ``.edu'' in its URL, but the page reveals that the content is a student-written blog post created as part of a university course. Many students have been taught that Wikipedia pages are unreliable and should be avoided. Many have also been taught that sites with a .edu domain are trustworthy. This assessment gauges their ability to think in more nuanced ways about these kinds of websites.}
-
-\hfill --- Stanford History Education Group (SHEG) (\protect\hyperlink{ref-sheg2021webpage-comparison}{2021a})
-\end{quote}
-
-The prompt for the \texttt{PHASE3-SHEG} task is present in Appendix \ref{app-phase3-sheg}).
 
 Similar to \texttt{PHASE1}, participants were asked to share their screen for the whole duration of the phase.
 Their screen and audio was recorded for the same. They had the freedom to turn off their video. The total time for \texttt{PHASE3} was expected to not exceed 1.5 hours (90 minutes).
@@ -3117,7 +2999,7 @@ This indicates that these two groups had distinct information searching behaviou
 The low group tried out all possible types of query reformulations during the outline (as we saw from the query reformulation counts), and then settled on using repeat queries (or hub and spoke behaviour) more, during the rough draft phase.
 This lowered their stationary entropy at the rough draft phase, and may have limited their ability to find new and relevant information during the later stages of the writing process.
 
-In contrast, the high group employed all the types query reformulations with equal probability during rough draft phase (Figure \ref{rp2-qrt}), resulting in a higher stationary entropy value.
+In contrast, the high group employed all the types query reformulations with equal probability during rough draft phase (Figure \ref{fig:rp2-qrt}), resulting in a higher stationary entropy value.
 The increase in the high group's stationary entropy from outline to rough suggests that they were exploring a broader range of topics and concepts at this stage of the writing process, which may have allowed them to identify more relevant and useful information.
 The subsequent decrease in stationary entropy from rough draft to final paper suggests that they were able to narrow down their focus and consolidate their understanding of the subject-matter as they progressed, which may have contributed to their higher self-perceived learning and search outcomes.
 
@@ -3325,7 +3207,7 @@ This difference in information behaviour could be related to the higher self-per
 
 
 
-Similar to entropy analysis of Query Reformulation types (Section \ref{sec-res-query-H}), we performed entropy analysis of search tactic transitions.
+Similar to entropy analysis of Query Reformulation types (Section \ref{sec-res-phase2-query-H}), we performed entropy analysis of search tactic transitions.
 This analysis is directly inspired from He et al. (\protect\hyperlink{ref-he2016beyond}{2016}), who in turn were inspired from Krejtz et al. (\protect\hyperlink{ref-krejtz2015gaze}{2015}).
 To characterize the entropy of students' search tactics, we used the following set of states, or tactics:
 
@@ -3693,10 +3575,17 @@ Students with higher levels of metacognition monitor and regulate their own sear
 Metacognition also help students improve their search performance and learning outcomes by enhancing their self-awareness, confidence and motivation (\protect\hyperlink{ref-reisouglu2020analysis}{Reisoğlu et al., 2020}; \protect\hyperlink{ref-zhou2019metacognitive}{Zhou \& Lam, 2019}).
 
 In our study, we found that students in the high group, with higher values of metacognition, self-regulation, and motivation, demonstrated more efficient search behaviours with time.
+The high group were able to better refine their search strategies and become more efficient as the semester progressed, resulting in fewer clicks per query when writing the final paper.
+They had higher counts of word substitutions and lower counts of repeat queries, which are both indicative of more focused and targeted search strategies.
 The randomness of their search behaviour decreased, indicating they became more efficient and strategic in their search processes.
 They engaged more with content pages than search results, and reported overall better levels of learning and search outcomes.
 In contrast, the low group, with lower levels of motivation, metacognition, self-regulation, and memory-span, showed less efficient search behaviours.
+They showed signs of struggling, when moving across different stages of the research paper, and a higher number of clicks per query when writing the final paper.
 They had more randomness and higher entropies of search tactics, more engagement with search results than content pages at later stages of the semester (which was done in earlier stages by the high group), and a general lower level of learning and search outcome.
+
+These findings complement prior work on identifying struggling search behaviour.
+For instance, Hassan et al. (\protect\hyperlink{ref-hassan2014struggling}{2014}) investigates search behaviours of users to identify signs of struggling versus exploring.
+Their findings indicated that certain predictors, such as minimal similarity between consecutive queries, increased clicks per query, as well as differences in the nature of query reformulation patterns (i.e., less query term substitution and more addition/removal with exploring), were indicative of struggling search sessions.
 
 \hypertarget{rq2-repeated-vs-non-repeated-search-tasks}{%
 \section{RQ2: Repeated vs Non-repeated Search Tasks}\label{rq2-repeated-vs-non-repeated-search-tasks}}
@@ -3714,392 +3603,116 @@ However, there were some \textbf{differences} as well.
 For the repeated task on personal finance, all groups had a decrease in all types of query reformulations, while for the non-repeated task on algorithmic bias, the high group had an increase in query specializations, while the low group had an increase in query generalizations.
 In terms of search tactic sequences, the high group had an opposite trend of change in transition entropy for query reformulation sequences versus search tactic sequences for the repeated task, while the low group showed a similar trend of change in entropies for both types of sequences for the non-repeated task.
 
-These findings complement and extend prior work that has linked topic familiarity and task intentions with search strategies and tactics, in influencing search behaviour.
+These findings complement and extend prior work that has linked topic familiarity expertise with search strategies and tactics, in influencing search behaviour.
 Task familiarity and intention impacts the types of query reformulations and search tactics used (\protect\hyperlink{ref-rha2016exploring}{Rha et al., 2016}), as well as the entropy of search sequences (\protect\hyperlink{ref-he2016beyond}{He et al., 2016}).
 For instance, Qu et al. (\protect\hyperlink{ref-qu2010effect}{2010}) found that task type and familiarity influenced search behaviours, such as completion time and number of queries, but not habitual behaviours, such as the search entrance.
 Li (\protect\hyperlink{ref-li2008relationships}{2008}) reported that users' topic familiarity and task experience affected their task performance, which could lead to higher searching efficiency and effectiveness.
-Finally, Karimi et al. (\protect\hyperlink{ref-karimi2011domain}{2011}) reported that topic familiarity affected query formulation strategies, such as query length, use of Boolean operators, use of quotation marks, query count, and overall query length.
+Finally, Karimi et al. (\protect\hyperlink{ref-karimi2011domain}{2011}) reported that topic familiarity affected query formulation strategies, such as query length, query count, use of Boolean operators and use of quotation marks.
 
 \hypertarget{rq3-searching-behaviour-and-learning-outcomes}{%
 \section{RQ3: Searching Behaviour and Learning Outcomes}\label{rq3-searching-behaviour-and-learning-outcomes}}
 
 \begin{quote}
-\emph{How do (longitudinal) information search behaviour of students correlate with their (self-perceived) learning outcomes?}
+\emph{How do (longitudinal) information search behaviour of students relate to their (self-perceived) learning outcomes?}
 \end{quote}
 
-The study found that the high group demonstrated significantly higher perceived learning outcomes and search outcomes compared to the low group, and this was correlated with their longitudinal information search behaviour. These findings are consistent with prior research that has shown a positive correlation between search behaviour and learning outcomes in various contexts.
+The study found that the participant group with higher levels of metacognition, motivation, and self-regulation demonstrated significantly higher perceived learning outcomes and search outcomes compared to the participant group which were low on these individual traits.
+This also affected their longitudinal information search behaviour.
+
+These findings are also in line with prior research, that has linked search behaviour with learning outcomes.
+For instance, Weber et al. (\protect\hyperlink{ref-weber2019informationseeking}{2019}) examined a large sample of German students from all academic fields in a two-phase longitudinal study, and found that advanced levels of search behaviour and search tactics predicted better grades (\protect\hyperlink{ref-zlatkin2021students}{Zlatkin-Troitschanskaia et al., 2021}).
 
 However, it is important to note an important limitation of the \emph{LongSAL} study: we were unable to measure the direct relationship between search behaviour and actual learning outcomes, so we relied upon self-reported perceptions of learning outcomes.
 Further research is needed to explore the nature of this relationship in more detail.
 
-\hypertarget{rq1-how-do-search-behaviours-change-over-time}{%
-\section{RQ1: how do search behaviours change over time?}\label{rq1-how-do-search-behaviours-change-over-time}}
-
-\begin{itemize}
-\item
-  Phase 1
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Query reform measures
-  \item
-    search measures
-  \item
-    learning outcomes
-  \item
-    SHEG tasks
-  \end{itemize}
-\item
-  Phase 2
-\item
-  Phase 3
-\item
-  Indicators predictive of struggling (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014}):
-
-  \begin{itemize}
-  \tightlist
-  \item
-    low amount of similarity between consecutive queries
-  \item
-    more clicks per query
-  \item
-    differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{rqx-entropy-based-research-questions-from-he-2016}{%
-\section{RQx: Entropy based research questions from He 2016}\label{rqx-entropy-based-research-questions-from-he-2016}}
-
-Hypotheses from He et al. (\protect\hyperlink{ref-he2016beyond}{2016}):
-
-The second set (H2) compares two different user groups, experts and novices, using one of the search systems in two different conditions. The H2 hypotheses illustrate how a focus on search tactics provides a different lens to view search logs.
-
-\begin{itemize}
-\tightlist
-\item
-  H2.1: Search experts are likely to be more predictable in their choice of search tactics compared to novices
-\item
-  H2.2: Search experts have developed a set of search tactics they prefer over others, while novices use search tactics more uniformly.
-\item
-  H2.3: While working with a search system novices will find a preferred method of transitioning from one search tactic to another. In other words, their search tactics transitions will become more predictable over time.
-\item
-  H2.4: While working with a search systems novices will find preferred search tactics to use. In other words, their distribution of search tactics will become less uniform over time.
-\end{itemize}
-
-\hypertarget{rq2-similarities-and-differences-in-repeated-vs-new-tasks}{%
-\section{RQ2: similarities and differences in repeated vs new tasks}\label{rq2-similarities-and-differences-in-repeated-vs-new-tasks}}
-
-Phase 1 and Phase 3 only
-
-\begin{itemize}
-\tightlist
-\item
-  search task
-\item
-  SHEG tasks
-\item
-  Similarities -\textgreater{} measures having no sig diff
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Overall task, Beginning, middle, end
-  \end{itemize}
-\item
-  Differences -\textgreater{} measures having sig diff
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Overall task, Beginning, middle, end
-  \end{itemize}
-\end{itemize}
-
-SES3 SHEG - only one participant issued a query; others did not
-
-\hypertarget{rq3-correlation-with-learning}{%
-\section{RQ3: correlation with learning?}\label{rq3-correlation-with-learning}}
-
-\hypertarget{summary-of-results}{%
-\section{Summary of Results}\label{summary-of-results}}
-
-Number of clicks per query:
-
-\begin{itemize}
-\tightlist
-\item
-  high levels of motivation, metacognition, and self-regulation can contribute to more effective and efficient search strategies, resulting in better search outcomes with fewer clicks per query.
-\item
-  high group may have been better able to adapt their search strategies over time, resulting in more efficient information searching behaviors, while the low group may have struggled to improve their search strategies throughout the semester.
-\item
-  the high group may have been able to refine their search strategies and become more efficient as the semester progressed, resulting in fewer clicks per query when writing the final paper. In contrast, the low group may have struggled to improve their search strategies, resulting in a higher number of clicks per query when writing the final paper.
-\item
-  It is also possible that the differences in average clicks per query between the two groups during different phases of the semester reflect differences in the complexity or specificity of the information needed for the different tasks. For example, the paper outline phase may have required more broad and exploratory searches, while the final paper phase may have required more targeted and specific searches.
-\end{itemize}
-
-Query Reformulation Counts:
-
-\begin{itemize}
-\item
-  the high group may have been more effective at reformulating their queries in order to find relevant information, while the low group may have struggled with query reformulation and refining their search strategies.
-\item
-  Overall, these findings suggest that the high group may have had more effective information seeking behaviors, as indicated by their higher counts of word substitutions and lower counts of repeat queries, which are both indicative of more focused and targeted search strategies. The low group, on the other hand, may have struggled with information overload and refining their search queries, which is reflected in their higher counts of new queries, generalizations, specializations, and repeat queries.
-\end{itemize}
-
-SERP Dwell Time
-
-\begin{itemize}
-\tightlist
-\item
-  Overall, the differences in dwell time on SERPs between the high and low groups suggest that individual differences in motivation, self-regulation, and metacognition may play an important role in shaping search behavior and ultimately determining the success or failure of information search tasks.
-\end{itemize}
-
-high group visited more web search results and less publication search results.
-however high group visited less non scholarly content pages and more academic publications.
-
-\textbf{Struggling vs.~Exploring}
-
-Indicators predictive of struggling (\protect\hyperlink{ref-hassan2014struggling}{Hassan et al., 2014}):
-
-\begin{itemize}
-\tightlist
-\item
-  low amount of similarity between consecutive queries
-\item
-  more clicks per query
-\item
-  differences in the nature of the reformulation patterns: less query term substitution and more addition/removal with exploring
-\end{itemize}
-
-TODO: summary Overall, the findings suggest that developing effective search strategies and building confidence in one's knowledge on a given topic can lead to higher perceived learning and search outcomes. However, there may be other factors that come into play when it comes to achieving higher grades in research paper assignments.
-
 \hypertarget{conclusion}{%
 \chapter{Conclusion}\label{conclusion}}
 
-longitudinal study (cohort study)
-
-Most of the results did not have statistical significance - but that's okay because this is exploratory research, which is inductive, rather than deductive.\\
-\url{https://youtu.be/URz4CAaJqnE}
-
-We were more interested in discovering interesting patterns.
-We believe the findings from this study will lead to more confirmatory studies.
-
-\url{https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan}
-
-\hypertarget{limitations}{%
-\section{Limitations}\label{limitations}}
-
-\hypertarget{theoretical-limitations}{%
-\subsection{Theoretical Limitations}\label{theoretical-limitations}}
-
-Learning outcomes
-Cite Urgo \& Arguello (\protect\hyperlink{ref-urgo2022learning}{2022})
-
-\hypertarget{technical-limitation}{%
-\subsection{Technical Limitation}\label{technical-limitation}}
-
-\begin{itemize}
-\tightlist
-\item
-  No PDF
-\item
-  N=16 to N=10
-\item
-  Also check anticipated limitations section from proposal
-\item
-  Did not assess goodness of fit of whether first order Markov chain is the most appropriate for modelling search tactic transitions (Besag and Mondal's (2013) statistical test)
-\item
-  did not track revisits across different tasks
-\item
-  clicks may have been on popup ads, cookie consent forms, and others, instead of only links (difficult to guesstimate from HTML markup)
-\end{itemize}
-
-Some difficulties:
-
-\begin{itemize}
-\tightlist
-\item
-  opening same URL in 2 different tabs and switching between them for a while before realising one is different from the other
-
-  \begin{itemize}
-  \tightlist
-  \item
-    or maybe long webpage (e.g.) book - two tabs at two different locations in webpage
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{future-work}{%
-\section{Future Work}\label{future-work}}
-
-We have barely scratched the surface
-
-\begin{itemize}
-\tightlist
-\item
-  What factors are specifically responsible for the transitions or the changes in the Latent profiles at different points in the semester?
-\item
-  Correlation between user profiles and search tactics (Table 9 \protect\hyperlink{ref-taramigkou2018leveraging}{Taramigkou et al., 2018})
-\item
-  Parallel Browsing Behaviour
-\item
-  Consistency of search terms (from FIRE group) -- low consistency = evidence of learning?
-\item
-  Navigators vs Explorers (from IWSS)
-\item
-  Struggling vs exploring
-\item
-  Strategies from (\protect\hyperlink{ref-lam2007session}{Lam et al., 2007}) section 6: short nav, topic explore, etc
-\item
-  Bing + ChatGPT, from MSR blogpost:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \url{https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/}
-  \end{itemize}
-\item
-  Google + ChatGPT, from Sundar Pichai
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \url{https://blog.google/technology/ai/bard-google-ai-search-updates/}
-  \item
-    ``AI features in Search can distill information to help you see the big picture.''
-  \end{itemize}
-\end{itemize}
-
-Contrary opinions:
-
-\begin{itemize}
-\tightlist
-\item
-  \url{https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    ``When we're dealing with sequences of words, lossy compression looks smarter than lossless compression.''
-  \item
-    hallucinations
-  \end{itemize}
-\item
-  \url{https://abcnews4.com/news/nation-world/experts-warn-dangers-ai-google-microsoft-push-new-chatbots-chatgpt-bard-technology-big-tech-open-ended-questions-responses-alphabet-misinformation-disinformation-internet-new-developments-bing-search-engines}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Matt is here
-  \item
-    potential to misinformation
-  \end{itemize}
-\end{itemize}
+\hypertarget{summary-1}{%
+\section{Summary}\label{summary-1}}
 
 \begin{quote}
-\emph{We've confused young people's ability to operate digital devices with the sophistication they need to discern whether the information those devices yield is something that can be relied upon}
+\emph{``Social science exploration is a broad-ranging, purposive, systematic, prearranged undertaking designed to maximize the discovery of generalizations leading to description and understanding of an area of \ldots{} life''}
 
-\url{https://twitter.com/suzettelohmeyer/status/1617909351766757376}
-\url{https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/}
+\hfill --- Stebbins (\protect\hyperlink{ref-stebbins2001exploratory}{2001})
 \end{quote}
 
-Final feedback:
-P022Pisa said
-\textgreater{} \emph{It is great to be able to participate in the research this semester. Using the extension somehow brings me postive feedback and that helps me in study I303. So I wanna say thank you}
-\textgreater{} - P022Pisa
+In this dissertation, an exploratory longitudinal study was proposed and conducted, to investigate how students' longitudinal information search behaviours change with time, what role individual differences play in this process, and how it affects their learning and search outcomes.
+The study consisted of three phases, with the main longitudinal tracking phase observing students search behaviour as they worked on a research paper final project for a class.
 
-see Jacek's thesis
+The findings from the study suggest that metacognition, motivation, and self-regulation are important factors that determine, direct, and sustains what students do to search and learn.
+Students with high levels of these traits demonstrated higher perceived learning and search outcomes, compared to those with low levels of these traits.
+Additionally, the high group demonstrated more stable information searching behaviour over time compared to the low group.
 
-\hypertarget{research-summary}{%
-\section{Research Summary}\label{research-summary}}
-
-By using Latent Profile Analysis to group participants based on their self-reported scores on motivation, metacognition, and self-regulation, we were able to identify distinct subgroups within the sample. This can help us to better understand how individual differences in these factors might relate to information searching behaviors and learning outcomes.
-
-Using a longitudinal design with with stages of writing (proposal, outline, rough draft, and final paper) also allows us to examine how these factors and behaviors might change over time and how they might relate to each other at different stages of the writing process.
-
-Overall, the study has the potential to provide valuable insights into the complex interplay between individual differences, information searching behaviors, and learning outcomes in the context of research paper writing.
-
-QRTs
-Overall, these findings suggest that effective query reformulation strategies may be an important factor in achieving better self-perceived learning and search outcomes among undergraduate students writing research papers. Future research could explore the specific techniques and strategies that are most effective in promoting effective query reformulation among undergraduate students.
-
-Phase 2 I:
-The differences in information behaviors observed between the high and low groups in your study can be explained by a number of factors. One possible factor is motivation: the high group may have been more motivated to conduct a thorough and comprehensive search for information, which led them to explore a wider range of topics and use a variety of sources. The low group, on the other hand, may have been less motivated, and may have focused more narrowly on specific topics or sources.
-
-Another factor is self-regulation: the high group may have been better at managing their time and resources, which allowed them to engage with a wider range of sources and explore a broader range of topics. The low group may have struggled with time management or resource allocation, which led them to rely more heavily on a smaller set of sources or topics.
-
-Metacognition may also have played a role: the high group may have had a better understanding of their own strengths and weaknesses as information seekers, and may have adjusted their search strategies accordingly. The low group may have had a less developed sense of metacognition, which led them to rely on familiar strategies or sources, even if those strategies or sources were not always the most effective.
-
-Finally, memory span may have been a factor: the high group may have had a larger working memory capacity, which allowed them to process more information and make connections between different sources or topics. The low group may have had a smaller working memory capacity, which made it more difficult for them to integrate information from multiple sources or to switch between different topics or sources.
-
-Overall, these factors likely interacted in complex ways to produce the observed differences in information behaviors between the two groups. By identifying these factors and their effects on information seeking behaviors, your study provides valuable insights into how students approach research and how their behaviors may affect their learning outcomes.
-
-\hypertarget{methodology}{%
-\section{Methodology}\label{methodology}}
+As depicted in the opening quote from Stebbins (\protect\hyperlink{ref-stebbins2001exploratory}{2001}), our exploratory research was inductive, aiming to illuminate new concepts through observation.
+We purposefully did not follow a deductive approach, which usually proves or tests an existing theory or hypothesis.
+This resulted in very few statistically significant results in our findings.
+However, we were more interested in discovering interesting patterns, and leave the task of confirmatory, deductive investigation to follow-up studies.
 
 \hypertarget{contributions}{%
 \section{Contributions}\label{contributions}}
 
-\begin{itemize}
-\tightlist
-\item
-  Latent Profile Analysis and Latent Profile Transition Analysis
-\item
-  Entropy
-\item
-  Longitudinal Study Design
-\item
-  Combining Motivation Metacognition Self regulation
-\end{itemize}
+Apart from the findings discussed at length in previous chapters, this dissertation also has some methodological contributions.
+The first is the attempt to relate individual differences of motivation, metacognition, and self-regulation in a combined, holistic format, with information search behaviour.
+This was achieved through the person-centred approach of Latent Profile Analysis.
+To the best of our knowledge, this is the first study in information science and IIR literature to have employed Latent Profile Analysis in such a manner.
 
-\hypertarget{latent-profile-analysis}{%
-\subsection{Latent Profile Analysis}\label{latent-profile-analysis}}
+Our second methodological contribution is the development of the YASBIL browsing logger (\protect\hyperlink{ref-bhattacharya2021yasbil}{Bhattacharya \& Gwizdka, 2021}), which was developed primarily as a response to the COVID-19 pandemic.
+As human subjects research in labs came to a halt, we had to find an alternative approach to carry out IIR research.
+The YASBIL logger was developed to enable us to collect data on students' online browsing behaviour as they searched for information. This tool allowed us to track students' search behaviour and analyse it in detail, providing insights into how they engage with information sources, evaluate information, and how their information search behaviour evolves over time.
 
-Additionally, LPA can identify subgroups of individuals who may be at risk for negative outcomes, such as poor task performance, low job satisfaction, or developmental delays. This information can be used to design targeted interventions that are tailored to the specific needs of these subgroups.
+Together, these methodological contributions offer new ways of understanding the complex relationships between individual differences in motivation, metacognition, and self-regulation, and how they impact information search behaviour and learning outcomes. Additionally, the YASBIL browsing logger provides a powerful tool for researchers to gather detailed information about students' online browsing behaviour, making it possible to track their search behaviour and analyse it in detail. These contributions provide valuable resources for future researchers in the field of Information Science and Information Retrieval, and offer insights into how we can design more effective searching as learning environments.
 
-In summary, LPA is a powerful and flexible person-centered statistical approach that is increasingly used in organizational psychology and child development research. Its ability to identify and describe latent subgroups within a population provides a more nuanced understanding of human behavior, and its applications have the potential to inform the design of targeted interventions that can improve outcomes for individuals and organizations.
+\hypertarget{limitations}{%
+\section{Limitations}\label{limitations}}
 
-In the context of information search behavior, LPA can be used to investigate how search behavior varies across different contexts or populations. For example, researchers may use LPA to identify different search patterns among novice versus expert users, or among different age or cultural groups. This can help to inform the design of search interfaces and other information systems that are tailored to the needs of specific user groups.
+Like any other scientific endeavour, the LongSAL study came with its limitations.
 
-Overall, LPA is an interesting and valuable technique for understanding information search behavior because it allows researchers to move beyond simple group comparisons and identify meaningful subgroups within a population. By uncovering these subgroups, researchers can gain deeper insights into the complex and nuanced ways that people search for information online, and use this knowledge to improve the design and effectiveness of information systems.
+The most prominent \textbf{theoretical limitation} of the study was the choice of learning outcomes.
+Although we discuss at length about the inefficacy of traditional learning outcome measures in Chapter \ref{ch-bg-learn}, we were involuntarily forced to use two of them in this study -- self-perceived learning outcomes, and instructor assigned grades.
+Our initial plan was to use Concept Maps for assessing qualitative and quantitative changes in students' learning and knowledge of concepts.
+But we were limited by technology, and had to settle for self-ratings.
+Education Scientists are repeatedly calling for better assessment strategies for learning (\protect\hyperlink{ref-cope2017elearningc}{Cope \& Kalantzis, 2017}; \protect\hyperlink{ref-urgo2022learning}{Urgo \& Arguello, 2022}).
+Future researchers in search-as-learning must work hand in hand with educators and education researchers to investigate and apply more sophisticated forms of learning assessments, that are more equitable in the face of learner diversity.
 
-Overall, the use of LPA to classify participants into high and low groups based on their scores on the IMI, MAI, and SRQ was an effective method for identifying individual differences in motivation, metacognition, and self-regulation. This allowed us to examine the relationship between these individual differences and search behavior, which is the focus of this study.
+In terms of \textbf{technical limitations}, there were a handful.
+First, due to the nature of current web-technologies, we could not determine when participants were reading a PDF file on their browser.
+Browser level JavaScript works only on webpages, and that is what YASBIL used to log user behaviour.
+If a participant downloaded a bunch of PDFs at a given time, and read them later offline, even when turning YASBIL on, YASBIL would be blind to such readings.
+Second, we could not analyze clicks on content pages. This is due to an abundance of advertisements and cookie preference popups that any user first has to encounter, before even beginning to settle on the content. This is often quite an annoyance, and also taints the dwell time measure on webpages.
+Last but not the least, the low sample size is always a limitation.
+We had initial hopes of recruiting about 30-40 participants for the study.
+However, despite our best efforts, only 18 signed up, 16 remained till the middle of the semester, and 10 completed the entire study.
+Previous literature also shows that past longitudinal studies had similar low sample sizes.
+For instance, Kuhlthau (\protect\hyperlink{ref-kuhlthau2004seeking}{2004}) had 20 participants, Vakkari (\protect\hyperlink{ref-vakkari2001changes}{2001a}) had 11 and Kelly (\protect\hyperlink{ref-kelly2006measuringa}{2006a}) had 7 participants.
 
-\hypertarget{entropy}{%
-\subsection{Entropy}\label{entropy}}
+\hypertarget{future-work}{%
+\section{Future Work}\label{future-work}}
 
-Transition analysis and entropy are powerful tools in the field of information retrieval that can help to uncover patterns in user search behaviour across disparate tasks and activities. By analysing transitions between different states, such as between queries, documents, or web pages, transition analysis can reveal important insights into how users navigate information spaces and interact with search systems. For example, it can be used to identify common search patterns or to identify areas where users may be experiencing difficulty or confusion.
+This dissertation study was monumental effort in planning, organization, and execution.
+Even after an almost 200-page dissertation, we have barely managed to scratch the surface of the amount of data that was collected in the study.
 
-Entropy, on the other hand, provides a quantitative measure of the uncertainty or randomness in user search behaviour. By calculating entropy values for different aspects of search behaviour, such as query reformulation or click-through behaviour, researchers can gain a better understanding of the structure and characteristics of user search behaviour in different contexts. This can help to identify areas for improvement in search systems and to design more effective search algorithms and interfaces.
+Some of the most promising directions of future work from this project include:
+understanding what factors are responsible if/when students change their latent profiles at different points in the semester;
+understanding parallel and cross session browsing behaviour, and how it affects learning;
+deeper dive into struggling versus exploring search behaviours;
+in-depth and qualitative analysis of search queries issued by participants;
+understanding of long term information use;
+visits and revisits to webpages, and its effects on relevance judgement;
+and others.
 
-Together, transition analysis and entropy provide a powerful framework for understanding user search behaviour and improving the design and effectiveness of search systems. By analysing transitions and quantifying the level of uncertainty in user behaviour, researchers can uncover valuable insights that can inform the development of more effective search systems and improve the overall user experience.
+In conclusion, this dissertation has explored the role of motivation, metacognition and self-regulation in shaping the information search behaviours and learning outcomes of students.
+The findings demonstrate that differences in these individual traits are crucial components of successful searching as learning behaviour.
+As Winne \& Azevedo (\protect\hyperlink{ref-winne2022metacognition}{2022}) argues, metacognition is the engine of self-regulated learning.
+To help learners develop and apply productive self-regulated learning, search as learning environments should be designed to foster effective use of metacognitive strategies.
+Learning technologies should be used to induce, track, model, and support learners' metacognition across tasks, domains, and contexts.
+As motivation and metacognition are closely intertwined in complex ways, understanding their relationships is the key to designing the next paradigm of searching as learning systems.
 
-From ASIST award session
+\begin{quote}
+\emph{``It was great to be able to participate in the research this semester. Using the (YASBIL) extension somehow brings me positive feedback and that helps me to study I303. So I wanna say thank you''}
 
-FOLLOW UP WITH \ldots{}
-
-\begin{itemize}
-\tightlist
-\item
-  Change of the self, self-reflection
-\item
-  Look at anthropology perspective
-\end{itemize}
-
-ROB:
-
-\begin{itemize}
-\tightlist
-\item
-  Look at qualitative data. More interesting
-\end{itemize}
-
-HEATHER:
-
-\begin{itemize}
-\tightlist
-\item
-  what can we share back to the teachers of the course, librarians and others
-\end{itemize}
+\hfill --- Participant P022\_PISA
+\end{quote}
 
 \startappendices
 
@@ -4938,6 +4551,7 @@ semester.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   I was cognitively engaged in search task.
 \item
@@ -5053,78 +4667,6 @@ semester.
 \item
   I was most concerned about finding information on one specific
   aspect.
-\end{enumerate}
-
-\hypertarget{app-phase13-cta-v-silent}{%
-\section{Preference for CTA vs Silent Condition}\label{app-phase13-cta-v-silent}}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  You were asked to talk-aloud for one task, and work in silence for the other. Which one was better?
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Talk aloud much was a lot better
-  \item
-    Talk aloud was slightly better
-  \item
-    I did not feel any difference
-  \item
-    Working in silence was slightly better
-  \item
-    Working in silence was a lot better
-  \end{itemize}
-\item
-  Why? \ldots..
-\end{enumerate}
-
-\hypertarget{app-phase1-sheg}{%
-\section{\texorpdfstring{\texttt{PHASE1-SHEG}: Website Reliability Assessment}{PHASE1-SHEG: Website Reliability Assessment}}\label{app-phase1-sheg}}
-
-You are researching children's health and come across this website: \url{https://acpeds.org}.
-
-Please decide if this website is a trustworthy source of information on children's health.
-
-You may use any information on this website, or you can open a new tab and do an Internet search if you want. You can consider checking out search engines other than Google, such as Bing, Yahoo, or Ecosia.
-
-Take about 5 minutes to complete this task. Turn YASBIL on before proceeding.
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Is this website a trustworthy source to learn about children's health? Explain your answer, citing evidence from the webpages you used. Be sure to provide the URLs to the webpages you cite in the next textbox. \ldots..
-\item
-  Please paste the URLs to the webpages you used to explain your answer above, one per line. \ldots..
-\end{enumerate}
-
-\hypertarget{app-phase3-sheg}{%
-\section{\texorpdfstring{\texttt{PHASE3-SHEG}: Website Comparison Assessment}{PHASE3-SHEG: Website Comparison Assessment}}\label{app-phase3-sheg}}
-
-Imagine you are doing research on criminal justice reform, and you find the following webpages.
-
-A. \url{https://sites.psu.edu/aspsy/2019/10/20/criminal-justice-reform}
-
-B. \url{https://en.wikipedia.org/wiki/Criminal_justice_reform_in_the_United_States}
-
-Which of these two webpages do you think is a better place to start your research?
-
-You may use any information on the two webpages, or you can open another tab and do an Internet search if you want. You can consider checking out search engines other than Google, such as Bing, Yahoo, or Ecosia.
-
-Take about 5 minutes to complete this task. Turn YASBIL on before proceeding.
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Which of these two webpages do you think is a better place to start your research? \ldots..
-\item
-  Explain your choice. Refer to both webpages in your answer. \ldots..
-\item
-  Please paste the URLs to the webpages you used to explain your answer above, one per line.
 \end{enumerate}
 
 \hypertarget{sec-app-ack}{%
@@ -5368,9 +4910,6 @@ Eickhoff, C., Dungs, S., \& Tran, V. (2015). An eye-tracking study of query refo
 \leavevmode\vadjust pre{\hypertarget{ref-eickhoff2017introduction}{}}%
 Eickhoff, C., Gwizdka, J., Hauff, C., \& He, J. (2017). Introduction to the special issue on search as learning. \emph{Information Retrieval Journal}, \emph{20}(5), 399--402.
 
-\leavevmode\vadjust pre{\hypertarget{ref-eickhoff2014lessons}{}}%
-Eickhoff, C., Teevan, J., White, R., \& Dumais, S. (2014). Lessons from the journey: A query log analysis of within-session learning. \emph{Proceedings of the 7th ACM International Conference on Web Search and Data Mining}, 223--232.
-
 \leavevmode\vadjust pre{\hypertarget{ref-fleischmann2022i303}{}}%
 Fleischmann, K., Verma, N., Gursoy, A., Bautista, J. R., \& Day, J. (2022). I 303 : Ethical foundations for informatics {[}syllabus{]}. \emph{School of Information, University of Texas at Austin}.
 
@@ -5485,10 +5024,10 @@ Karapanos, E., Gerken, J., Kjeldskov, J., \& Skov, M. B. (Eds.). (2021). \emph{A
 \leavevmode\vadjust pre{\hypertarget{ref-karimi2011domain}{}}%
 Karimi, S., Scholer, F., Clark, A., \& Kharazmi, S. (2011). Domain expert topic familiarity and search behavior. \emph{Proceedings of the 34th International ACM SIGIR Conference on Research and Development in Information Retrieval}, 1135--1136.
 
-\leavevmode\vadjust pre{\hypertarget{ref-kelly2006measuring-a}{}}%
+\leavevmode\vadjust pre{\hypertarget{ref-kelly2006measuringa}{}}%
 Kelly, D. (2006a). Measuring online information seeking context, {Part} 1: Background and method. \emph{Journal of the American Society for Information Science and Technology}, \emph{57}(13), 1729--1739. \url{https://doi.org/10.1002/asi.20483}
 
-\leavevmode\vadjust pre{\hypertarget{ref-kelly2006measuring-b}{}}%
+\leavevmode\vadjust pre{\hypertarget{ref-kelly2006measuringb}{}}%
 Kelly, D. (2006b). Measuring online information seeking context, {Part} 2: Findings and discussion. \emph{Journal of the American Society for Information Science and Technology}, \emph{57}(14), 1862--1874. \url{https://doi.org/10.1002/asi.20484}
 
 \leavevmode\vadjust pre{\hypertarget{ref-kelly2009methods}{}}%
@@ -5517,9 +5056,6 @@ Kruikemeier, S., Lecheler, S., \& Boyer, M. M. (2018). Learning from news on dif
 
 \leavevmode\vadjust pre{\hypertarget{ref-kuhlthau2004seeking}{}}%
 Kuhlthau, C. C. (2004). \emph{Seeking meaning: A process approach to library and information services} (Vol. 2). Libraries Unlimited Westport, CT.
-
-\leavevmode\vadjust pre{\hypertarget{ref-lam2007session}{}}%
-Lam, H., Russell, D., Tang, D., \& Munzner, T. (2007). Session viewer: Visual exploratory analysis of web session logs. \emph{2007 IEEE Symposium on Visual Analytics Science and Technology}, 147--154.
 
 \leavevmode\vadjust pre{\hypertarget{ref-leacock1998combining}{}}%
 Leacock, C., \& Chodorow, M. (1998). Combining local context and WordNet similarity for word sense identification. \emph{WordNet: An Electronic Lexical Database}, \emph{49}(2), 265--283.
@@ -5725,11 +5261,8 @@ Smith, C. L., \& Kantor, P. B. (2008). User adaptation: Good results from poor s
 \leavevmode\vadjust pre{\hypertarget{ref-spink1997study}{}}%
 Spink, A. (1997). Study of interactive feedback during mediated information retrieval. \emph{Journal of the American Society for Information Science}.
 
-\leavevmode\vadjust pre{\hypertarget{ref-sheg2021webpage-comparison}{}}%
-Stanford History Education Group (SHEG). (2021a). \emph{Webpage comparison \textbar{} {Civic Online Reasoning}}. \url{https://cor.stanford.edu/curriculum/assessments/webpage-comparison}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-sheg2021website-reliability}{}}%
-Stanford History Education Group (SHEG). (2021b). \emph{Website {Reliability} \textbar{} {Civic Online Reasoning}}. \url{https://cor.stanford.edu/curriculum/assessments/website-reliability}.
+\leavevmode\vadjust pre{\hypertarget{ref-stebbins2001exploratory}{}}%
+Stebbins, R. A. (2001). \emph{Exploratory research in the social sciences} (Vol. 48). Sage.
 
 \leavevmode\vadjust pre{\hypertarget{ref-syed2020improving}{}}%
 Syed, R., Collins-Thompson, K., Bennett, P. N., Teng, M., Williams, S., Tay, D. W. W., \& Iqbal, S. (2020). Improving learning outcomes with gaze tracking and automatic question generation. \emph{The Web Conference (WWW)}.

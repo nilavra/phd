@@ -62,7 +62,7 @@ improve human-information interaction.
 A major limitation in the area of Search as Learning, Interactive IR (IIR), and more broadly, in Human-Computer Interaction (HCI) research is
 that, the user is examined in the short-term, typically over the course of a single experimental session in a lab
 [@kelly2009evaluation; @koeman2020hciux; @zlatkin2021students; @karapanos2021advances].
-Very few studies exist in the search-as-learning domain that have observed *the same participant* over a longer period of time than a single search session [@kelly2006measuring-a; @kelly2006measuring-b; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
+Very few studies exist in the search-as-learning domain that have observed *the same participant* over a longer period of time than a single search session [@kelly2006measuringa; @kelly2006measuringb; @kuhlthau2004seeking; @wildemuth2004effects; @vakkari2001changes; @white2009characterizing].
 This ephemeral approach has acute implications in any domain where learning is involved because "learning is a *process* that leads to *change* in knowledge ... (which) unfolds over time" [@ambrose2010howa], and "...does not happen all at once" [@white-2016-iwss-learning].
 
 **To the best of the author's knowledge, almost no new longitudinal studies were reported in major search-as-learning literature in the last five years, that systematically studied students' information search behaviour and information-use over the long term, in their *in-situ* naturalistic environment and contexts, and linked those behaviours quantitatively to the students' learning outcomes and individual differences.**
@@ -103,6 +103,11 @@ This dissertation takes a step in this direction.
 This dissertation document is structured as follows.
 First, principles of learning and relevant background from the domain of Educational Sciences are presented in Chapter 2.
 Next, relevant empirical evidences from the Information Searching Literature are discussed in Chapter 3.
-Chapter 4 presents the research questions, the overarching hypotheses, and discusses their rationale in the context of
+Chapter 4 presents the research questions, 
+<!-- the overarching hypotheses,  -->
+and discusses their rationale in the context of
 the existing research gaps.
-Chapter 5 describes the research methods, including the longitudinal study design, experimental procedures, data collection and analyses plans, anticipated limitations, and expected schedule to complete the dissertation.
+Chapter 5 describes the research methods, specifically the longitudinal study design and experimental procedures.
+Chapter 6 and 7 presents the data analyses framework, results, and discussions of the findings the study.
+Chapter 8 places the findings in terms of the research questions introduced in Chapter 4.
+Finally, Chapter 9 presents the conclusion, limitations, and future work.

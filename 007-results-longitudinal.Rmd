@@ -666,7 +666,7 @@ The low group tried out all possible types of query reformulations during the ou
 This lowered their stationary entropy at the rough draft phase, and may have limited their ability to find new and relevant information during the later stages of the writing process.
 
 
-In contrast, the high group employed all the types query reformulations with equal probability during rough draft phase (Figure \@ref(rp2-qrt)), resulting in a higher stationary entropy value.
+In contrast, the high group employed all the types query reformulations with equal probability during rough draft phase (Figure \@ref(fig:rp2-qrt)), resulting in a higher stationary entropy value.
 The increase in the high group's stationary entropy from outline to rough suggests that they were exploring a broader range of topics and concepts at this stage of the writing process, which may have allowed them to identify more relevant and useful information.
 The subsequent decrease in stationary entropy from rough draft to final paper suggests that they were able to narrow down their focus and consolidate their understanding of the subject-matter as they progressed, which may have contributed to their higher self-perceived learning and search outcomes.
 
@@ -1180,7 +1180,7 @@ nbShowFig("figs/rp2-tactic-entropy")
 <!---- fig:rp2-tactic-entropy (leave a blank line before this) ------>
 
 
-Similar to entropy analysis of Query Reformulation types (Section \@ref(sec-res-query-H)), we performed entropy analysis of search tactic transitions.
+Similar to entropy analysis of Query Reformulation types (Section \@ref(sec-res-phase2-query-H)), we performed entropy analysis of search tactic transitions.
 This analysis is directly inspired from @he2016beyond, who in turn were inspired from [@krejtz2014entropy, @krejtz2015gaze].
 To characterize the entropy of students' search tactics, we used the following set of states, or tactics:
 

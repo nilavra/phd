@@ -1,6 +1,6 @@
-# Research Questions and Hypotheses {#ch-rq}
+# Research Questions {#ch-rq}
 
-## Research Questions {#sec-rq}
+<!-- ## Research Questions {#sec-rq} -->
 
 Combining empirical findings and gaps in the literature from the disciplines of Education (Chapter \@ref(ch-bg-learn)) and Information (Chapter \@ref(ch-bg-search)), we saw that:
 
@@ -11,13 +11,47 @@ Combining empirical findings and gaps in the literature from the disciplines of 
 - learning is a process that takes place longitudinally over time (Sections \@ref(sec-bg-learn-sensemaking) and \@ref(sec-bg-learn-principles)), yet only a handful of studies (mostly over a decade ago) have investigated the intertwined process of searchers' learning and their information searching behaviour over time (Section \@ref(sec-bg-search-longitudinal-studies))
 - this creates acute gaps in our knowledge about long term information searching and learning behaviour, which is crucial for building learning-centric search systems of the future, which can support sensemaking and knowledge-gain
 
-Guided by the above insights, we asked the following research questions in this dissertation, and aimed to answer them via a longitudinal study of students' information search behaviour and learning outcomes over the course of a university semester (Section \@ref(sec-method-exp-design)). For the purposes of this
-dissertation, we considered learning as change in a student's knowledge
-about certain topics over the duration of a university semester.
+
+
+Guided by the above insights, we ask the following research questions in this dissertation, and aim to answer them via an exploratory longitudinal study of students' information search behaviour and learning outcomes over the course of a university semester (Section \@ref(sec-method-exp-design)). 
+
+
+
+> **RQ1:** *How do (changing) individual differences of students affect their longitudinal information search behaviour?*
+\
+\
+> **RQ2:** *What are the similarities and differences in information search behaviours for tasks where the learning goals are new (non-repeated search tasks), versus those where the learning goals are repeated (repeated search tasks)?*
+\
+\
+> **RQ3:** *How do (longitudinal) information search behaviour of students relate to their (self-perceived) learning outcomes*
+
+The study was purposefully planned to be exploratory in nature [@stebbins2001exploratory]. 
+Therefore, the research questions are exploratory as well, meant at discovering interesting patterns, and aiming to illuminate new concepts through quantitative observation.
+
+
+
+Students' motivation, self-regulation and metacognition capabilities determine, direct, and sustain the approaches they take to learn (Section \@ref(sec-bg-learn-promoting-learning)). 
+Effective searching for learning is affected by students' search tactics and information evaluation capabilities (Section \@ref(sec-bg-learn-info-eval)) as well as cognitive capabilities, such as memory span (Section \@ref(sec-bg-search-expertise)).
+We (weakly) hypothesize that students showing sustained or increasing values of metacognition, self-regulation, and motivation over the duration of the semester will put more effort into their searches, and demonstrate better learning and search outcomes.
+
+
+
+Learning and expertise are closely connected: expertise is an evolving characteristic of learners that reflects learning over time, rather than being a static property [@rieh2016searching]. 
+Domain expertise and search behaviour has been studied, albeit mostly during single lab sessions, and sometimes longitudinally (Section \@ref(sec-bg-search-expertise)). 
+Therefore, there is a clear gap in understanding how higher education students search for information in the long term, how their information use behaviour develop over time, and how it affects their learning [@zlatkin2021students]. 
+The three research questions presented in this chapter aim to address some of these gaps.
+
+
+
+<!-- 
+
+For the purposes of this dissertation, we considered learning as change in a student's knowledge about certain topics over the duration of a university semester. 
 
 The research questions are first stated in this section, to put them all
 together in one place for easy reference. Then the overarching
 hypotheses are discussed in Section \@ref(sec-rq-hypotheses).
+
+
 
 > **RQ1:** *What kind of longitudinal information search behaviours are correlated to the degree of change in students' knowledge levels and learning outcomes?*
 \
@@ -29,6 +63,9 @@ hypotheses are discussed in Section \@ref(sec-rq-hypotheses).
 \
 \
 > **RQ4:** *How do (changing) individual differences of students moderate their information search behaviours and learning outcomes?*
+
+
+
 
 ## Overarching Hypotheses {#sec-rq-hypotheses}
 
@@ -84,6 +121,11 @@ hypotheses:
 
 - students with better information evaluation capabilities will
     demonstrate better learning and search outcomes
+ -->
+
+
+<!-- 
+
 
 ## Anticipated Contributions {#sec-rq-diss-contributions}
 
@@ -108,4 +150,7 @@ understanding how search behaviours can predict learning outcomes;
 *(ii)* creating reliable measures, methods, and instruments for
 capturing changes in people's knowledge level, learning experiences, and
 learning outcomes [@url-rieh-homepage]; and *(iii)* developing search
-systems that better support learning and sensemaking.
+systems that better support learning and sensemaking. 
+
+
+-->
