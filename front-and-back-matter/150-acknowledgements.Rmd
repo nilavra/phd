@@ -1,9 +1,14 @@
 # Acknowledgements - The PhD Journey {#sec-app-ack}
 
-Similar to David Maxwell's thesis.
+TBD.
+
+
+Similar to David Maxwell's thesis (https://www.dmax.scot).
+
+
 
 This section will be fleshed out in more detail after the initial committee-submission on Feb 27, 2023. 
-For now, I wish to thank the following people and organisations (in no particular order):
+For now, I wish to thank the following people and organizations (in no particular order):
 
 - Jacek Gwizdka
 - Soo Young Rieh + Funding
@@ -27,5 +32,5 @@ For now, I wish to thank the following people and organisations (in no particula
 - iSchool Doc Colleagues
 - Labmates, Officemates
 - LinkedIn people
-- Twitter people
+- Twitter people:
   - Jason Baldridge

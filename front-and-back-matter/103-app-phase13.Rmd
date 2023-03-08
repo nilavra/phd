@@ -1,7 +1,7 @@
-# Questionnaires for Initial `PHASE1` and Final `PHASE3` Phases {#app-phase13}
+# Task Materials of Initial `PHASE1` and Final `PHASE3` Phases {#app-phase13}
  
-Pre-Test session (SES1) is conducted at the beginning of the semester,
-and the Post-Test session (SES3) is conducted at the end of the
+Phase 1 was conducted at the beginning of the semester,
+and Phase 3 was conducted at the end of the
 semester.
 
 ## Pre-Task Questionnaire (for `PHASE1` and `PHASE3`) {#app-phase13-pretask}

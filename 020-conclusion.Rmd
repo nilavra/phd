@@ -15,12 +15,20 @@ Students with high levels of these traits demonstrated higher perceived learning
 Additionally, the high group demonstrated more stable information searching behaviour over time compared to the low group.
 
 
+
 As depicted in the opening quote from @stebbins2001exploratory, our exploratory research was inductive, aiming to illuminate new concepts through observation.
 We purposefully did not follow a deductive approach, which usually proves or tests an existing theory or hypothesis.
 <!-- As @hartel2022exploratory argues, exploration can help ameliorate some of the pernicious expections -->
 This resulted in very few statistically significant results in our findings.
 However, we were more interested in discovering interesting patterns, and leave the task of confirmatory, deductive investigation to follow-up studies.
 <!-- We believe the findings from this study will lead to more confirmatory studies. -->
+
+
+
+<!-- Overall, the findings suggest that developing effective search strategies and building confidence in one's knowledge on a given topic can lead to higher perceived learning and search outcomes. However, there may be other factors that come into play when it comes to achieving higher grades in research paper assignments. -->
+
+
+
 
 
 <!-- 
@@ -67,6 +75,9 @@ Our second methodological contribution is the development of the YASBIL browsing
 <!-- YASBIL was the fruit of that labour. -->
 As human subjects research in labs came to a halt, we had to find an alternative approach to carry out IIR research. 
 The YASBIL logger was developed to enable us to collect data on students' online browsing behaviour as they searched for information. This tool allowed us to track students' search behaviour and analyse it in detail, providing insights into how they engage with information sources, evaluate information, and how their information search behaviour evolves over time.
+
+
+The URL-based classification system (Section \@ref(sec-res-url-categorization)) provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behaviour. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
 
 
 Together, these methodological contributions offer new ways of understanding the complex relationships between individual differences in motivation, metacognition, and self-regulation, and how they impact information search behaviour and learning outcomes. Additionally, the YASBIL browsing logger provides a powerful tool for researchers to gather detailed information about students' online browsing behaviour, making it possible to track their search behaviour and analyse it in detail. These contributions provide valuable resources for future researchers in the field of Information Science and Information Retrieval, and offer insights into how we can design more effective searching as learning environments.

@@ -4,19 +4,14 @@
 
 <!-- If you feel it necessary to include an appendix, it goes here. The first appendix should include the commands above. -->
 
-# Prior Work: Pilot Study {#app-pilot-study}
+# Pilot Study {#app-pilot-study}
 
-## SES1: Initial Session
 
-<!-- A pilot study was conducted in the Summer of 2021 at the School of
+A pilot study was conducted in the Summer 2021 semester at the School of
 Information, University of Texas at Austin (Texas iSchool). This was
 mainly a feasibility study to determine the technical logistics and
-participant retention rates. It included SES1, SES2, and SES3 from the
-proposed study procedure (Figure
-[\[fig-study-procedure\]](#fig-study-procedure){reference-type="ref"
-reference="fig-study-procedure"}). There was no recording of individual
-differences via recruitment, mid-term, and final surveys. It also did
-not include submission of concept maps. Eight students from two courses
+participant retention rates. It included `PHASE1`, `PHASE2`, and `PHASE3` from the final study procedure (Figure \@ref(fig:study-proc)). There was no recording of individual
+differences questionnaires. Eight students from two courses
 at the Texas iSchool -- *Academic Success in the Digital University*
 (ACS), and *Information in Cyberspace* (CYB) -- participated in the
 pilot study. The study ran from start of June 2021 to mid-August 2021.
@@ -29,22 +24,24 @@ presented below. Participants were compensated with USD 15 for SES1, 15
 points of extra course credit for longitudinal tracking in SES2, and USD
 15 for SES3.
 
-## SES1: Initial Session
+## Pilot Study Phase 1: Initial Phase
 
-Participants performed a training task to familiarise themselves with
-the YASBIL browser extension. The they performed two search tasks as
+Participants performed a training task to familiarize themselves with
+the YASBIL browser extension. Then they performed two search tasks as
 described below. Each search task was followed by measurement of mental
 workload using NASA-TLX.
 
  \
-**Task 1: Financial Literacy** (Repeated in SES3)
+**Prompt for Task 1: Financial Literacy** (Repeated in PHASE3)
 
-::: displayquote
+
 Money management and financial literacy are essential life skills, and
 what better time to learn about them than in college? Write a note to
 your future self, about essential money-related advice and skills that
 college students should know and practice.
 
+
+ \ 
 **What to do:**
 
 -   Find at least 3 unique, good quality online resources that are
@@ -62,13 +59,14 @@ college students should know and practice.
 
 -   Paste the links of ALL the resources that you finally selected to
     develop your narrative, in the second text box, one link per line
-:::
+
+
 
  \
-**Task 2: Social Media during COVID-19** (Topic was part of course
+**Prompt Task 2: Social Media during COVID-19** (Topic was part of course
 content in ACS and CYB)
 
-::: displayquote
+
 "What was the role of Social Media during the COVID-19 pandemic? How did
 it affect people's lives during quarantine and social distancing?"
 Suppose a family member (say your aunt) or a friend asked you these
@@ -96,11 +94,14 @@ for a couple of minutes.
 
 -   Paste the links of ALL the resources that you finally selected to
     develop your narrative, in the second text box, one link per line
-:::
 
-## SES2: Longitudinal Tracking
 
-The longitudinal tracking session SES2 involved student participants
+
+
+
+## Pilot Study Phase 2: Longitudinal Tracking
+
+The longitudinal tracking phase Phase 2 involved student participants
 submitting log data for two final-project assignments for the ACS
 course, and four final project assignments for the CYB course.
 Participants received reminder emails to log and sync their data a few
@@ -111,31 +112,35 @@ forgot to log their data for the first two assignments, despite the
 email reminder. However, upon following up with them, they remembered to
 log their data for the third and fourth sessions.
 
-## SES3: Final Session {#sec-app-pilot-ses3}
 
-All eight participants from SES1 completed SES3 (no drop off).
-Participants performed two search tasks, and one website reliability
-evaluation task as described below. All three tasks were followed by
-measurement of mental workload using NASA-TLX. At the end of the tasks,
-they underwent a short semi-structured interview to reflect on their
+
+
+
+## Pilot Study Phase 3: Final Phase {#sec-app-pilot-ses3}
+
+All eight participants from Phase 1 completed Phase 3 (no drop off).
+Participants performed two search tasks. 
+<!-- and one website reliability evaluation task as described below.  -->
+<!-- All three tasks were followed by measurement of mental workload using NASA-TLX. 
+At the end of the tasks, they underwent a short semi-structured interview to reflect on their
 overall study experience. The interview questions can be found in
 Appendix
 [\[app-post-task-interview\]](#app-post-task-interview){reference-type="ref"
-reference="app-post-task-interview"}.
+reference="app-post-task-interview"}. -->
 
  \
-**Task 1: Financial Literacy** (Repeated from SES1)
+**Prompt for Task 1: Financial Literacy** (Repeated from SES1)
 
-::: displayquote
+
 At the start of the semester, you wrote a note to your future self,
 about essential money-related advice and skills that college students
 should know and practice.
 
 Here is what you wrote:\
-`[dynamic content showing participants’ previous responses]`
+*{dynamic content showing participants’ previous responses}*
 
 Here are the resources you took help from:\
-`[dynamic content showing participants’ previous responses]`
+*{dynamic content showing participants’ previous responses}*
 
 Now you have a chance to **update or revise the note with more
 information**. You can either choose to write afresh, or copy-paste the
@@ -149,12 +154,11 @@ the second textbox. The links can be the same ones you visited earlier,
 or different.
 
 Did you need to search the web for updating the note? Why?
-:::
+
 
  \
-**Task 2: HTML CSS** (Topic was part of course content in ACS and CYB)
+**Prompt for Task 2: HTML CSS** (Topic was part of course content in ACS and CYB)
 
-::: displayquote
 In your course, you studied about websites, HTML, and CSS. Therefore,
 for answering the questions below, **you may choose NOT to search the
 web**, if you feel you can answer the questions reasonably well. If you
@@ -169,17 +173,27 @@ necessary)
 
 3.  how do HTML and CSS come together when someone visits a website?
 
-List as many HTML tags as you can, one per line, in the following
-format:\
-`[HTML tag] - [few words explaining the function of the tag]`
+List as many HTML tags as you can, one per line
 
-List as many CSS properties as you can, one per line, in the following
+<!-- , in the following
 format:\
-`[CSS property] - [few words explaining the function of the property]`
+`[HTML tag] - [few words explaining the function of the tag]` -->
+
+List as many CSS properties as you can, one per line.
+<!-- , in the following
+format:\
+`[CSS property] - [few words explaining the function of the property]` -->
 
 Did you need to search the web for this task? Why?
-:::
 
+
+
+
+
+
+
+
+<!-- 
  \
 **Task 3: Website Reliability Evaluation** (From Stanford History
 Education Group[^1])
@@ -254,4 +268,8 @@ presented in Appendix
 [\[app-post-task-interview\]](#app-post-task-interview){reference-type="ref"
 reference="app-post-task-interview"}.
 
-[^1]: <https://cor.stanford.edu/curriculum/assessments/website-reliability> -->
+[^1]: <https://cor.stanford.edu/curriculum/assessments/website-reliability> 
+
+
+
+-->

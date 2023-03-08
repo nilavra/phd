@@ -1,4 +1,4 @@
-# Methods: LongSAL - the Longitudinal Study
+# Method: LongSAL - the Longitudinal Study
 
 To investigate the research questions and hypotheses discussed in Chapter \@ref(ch-rq), we conducted the LongSAL study.
 The following sections discuss the study design, apparatus and procedure.
@@ -21,10 +21,11 @@ The study design was informed by running a pilot study during Summer
 2021 semester, in partnership with two courses at UT Austin School of
 Information: *Information in Cyberspace*, and *Academic Success in the
 Digital University*. 
+More details of the pilot study are presented in
+Appendix \@ref(app-pilot-study). 
 
 <!--
-More details of the pilot study are presented in
-Appendix \@ref(ch-pilot-study). 
+
 
 The final project overview from the *Information in Cyberspace* course is presented in Figure [1.1](#fig-final-project-description){reference-type="ref" reference="fig-final-project-description"}.  
 -->

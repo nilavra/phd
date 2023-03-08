@@ -30,7 +30,7 @@ Quick Check Results (Descriptive)
 
 The study found that there were (often significant) differences in information search behaviour between student groups who rated high versus low on individual traits such as motivation, metacognition, self-regulation, and memory-span.
 
-Metacognition and self-regulation are closely related concepts that involve thinking about and controlling one's own cognitive processes and learning strategies [@ambrose2010howa].
+Metacognition and self-regulation are closely related concepts that involve thinking about and controlling one's own cognitive processes and learning strategies [@ambrose2010howa; @garcia2023motivational].
 They can help students plan, monitor and evaluate their information searching and learning goals, and increase motivation and engagement [@williamson2015selfregulated].
 Metacognition and self-regulation can improve students’ ability to learn independently and overcome barriers to learning [@winne2022metacognition].
 
@@ -54,6 +54,22 @@ They had more randomness and higher entropies of search tactics, more engagement
 These findings complement prior work on identifying struggling search behaviour.
 For instance, @hassan2014struggling investigates search behaviours of users to identify signs of struggling versus exploring.
 Their findings indicated that certain predictors, such as minimal similarity between consecutive queries, increased clicks per query, as well as differences in the nature of query reformulation patterns (i.e., less query term substitution and more addition/removal with exploring), were indicative of struggling search sessions.
+
+
+It is important to note that the use of scholarly publications may not necessarily guarantee better quality information or higher self-perceived learning outcomes. 
+The relevance and credibility of the sources used, as well as the ability to critically evaluate and synthesize the information, are important factors that can impact the effectiveness of the search and learning outcomes.
+
+The quality of information is not solely determined by the type of source, but rather by the relevance, credibility, and reliability of the information found. 
+While scholarly publications may provide more specialized and in-depth information, they may not always be the most relevant or up-to-date sources for a given research topic.
+In these situations, web search results may provide a broader range of sources, including news articles, blogs, and websites, that can offer alternative perspectives and insights on the research topic. 
+However, the quality and reliability of the information found in these sources may vary, and it is important to critically evaluate and verify the information before using it in a research paper.
+
+
+In addition, sensemaking -- the ability to synthesize and integrate information from different sources, regardless of their type -- is a key skill in conducting research and writing a research paper. 
+This involves the ability to critically evaluate the relevance and credibility of the sources, as well as to identify and articulate the relationships between different pieces of information.
+
+
+Overall, the choice of sources and the search strategies used should be based on the research question, the scope of the project, and the specific information needs of the researcher. Both scholarly publications and web search results can provide valuable information, and the key is to use them effectively and efficiently in order to achieve the desired learning outcomes. 
 
 
 <!-- 

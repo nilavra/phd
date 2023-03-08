@@ -837,7 +837,11 @@ tools have been used in prior studies. These include self reports, close
 ended factual questions (multiple choice), open ended questions (short
 answers, summaries, essays, free recall, sentence generation), and
 visual mapping techniques using concept maps or mind maps. Each approach
-has its own associated advantages and limitations. **Self-report** asks
+has its own associated advantages and limitations. 
+@urgo2022learning compare and contrast these assessment techniques extensively in their very comprehensive literature review.
+
+
+**Self-report** asks
 searchers to rate their self-perceived pre-search and post-search
 knowledge levels [@ghosh2018SearchingLearningExploring; @o2020role].
 This approach is the easiest to construct, and can be generalised over
@@ -876,6 +880,9 @@ understanding of the topic structure, e.g., via conceptual changes
 described in pre-defined taxonomies [@zhang2016process], and user's
 ability to formulate more effective queries
 [@chen2020understanding; @pirolli1996scatter].
+
+
+
 
 ## Limitations of Current Search Systems in Fostering Learning
 

@@ -1,6 +1,6 @@
-# [Work in progress] `r metadata[['author']]`'s `r metadata[['document-type']]` {-}
+# `r metadata[['author']]`'s `r metadata[['document-type']]` {-}
 
-Welcome to the eBook version of `r metadata[['author']]`'s work-in-progress `r metadata[['degree-suffix']]` `r metadata[['document-type']]`.
+Welcome to the eBook version of `r metadata[['author']]`'s `r metadata[['degree-suffix']]` `r metadata[['document-type']]`.
 This website disseminates my PhD research in a format which is more user-friendly and accessible than a 150-page, double-spaced PDF file. 
 <!-- The materials were submitted to the University Graduate School of UT Austin on December 8, 2017 in fullfillment of the requirments for a Ph.D. degree. -->
 

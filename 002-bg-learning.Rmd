@@ -190,6 +190,7 @@ the *schema theory*
 their foundations in the Piagetian concepts of *assimilation* and
 *accommodation* [@piaget1936origins].
 
+
 **Assimilation** means addition of new information into an existing
 knowledge structure. A "synonym" [@vakkari2016searching] for
 assimilation is **accretion**, which is the gradual addition of factual
@@ -546,13 +547,16 @@ activity, yielding six subscale scores. The *interest/enjoyment*
 subscale is considered the most indicative self-report measure of
 intrinsic motivation. The *perceived choice* and *perceived competence*
 concepts are theorized to be positive predictors of both self-report and
-behavioral measures of intrinsic motivation. The *pressure/tension* is
+behavioural measures of intrinsic motivation. The *pressure/tension* is
 theorized to be a negative predictor of intrinsic motivation. *Effort*
 is a separate variable that is relevant to some motivation questions, so
-it is used if its relevant. The *value/usefulness* subscale is used to
+it is used if it is relevant. The *value/usefulness* subscale is used to
 measure internalization, with the idea being that people internalize and
 become self-regulating with respect to activities that they experience
 as useful or valuable for themselves.
+
+
+
 
 ### Self-regulation {#sec-bg-learn-self-regulation}
 
@@ -588,6 +592,8 @@ high (intact) self-regulation capacity (top quartile), 214-238 as
 intermediate (moderate) self-regulation capacity (middle quartiles), and
 213 and below as low (impaired) self-regulation capacity (bottom
 quartile).
+
+
 
 #### Self-directed and Self-regulated Learning
 

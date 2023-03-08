@@ -74,7 +74,7 @@ sec-bg-search-longitudinal-studies
 sec-bg-search-sensemaking
 sec-bg-search-summary
 ch-rq
-methods-longsal---the-longitudinal-study
+method-longsal---the-longitudinal-study
 sec-method-exp-design
 apparatus
 yasbil-browsing-logger
@@ -133,7 +133,9 @@ contributions
 limitations
 future-work
 app-pilot-study
-ses1-initial-session
+pilot-study-phase-1-initial-phase
+pilot-study-phase-2-longitudinal-tracking
+sec-app-pilot-ses3
 app-qsnr
 app-qsnr0
 qsnr1---qsnr3-entry-mid-term-and-exit-questionnaires
