@@ -34,7 +34,7 @@ degree-suffix: PhD TBD
 department: Faculty of the Graduate School
 university: The University of Texas at Austin
 university-second-language: টেক্সাস বিশ্ববিদ্যালয়, অস্টিন, মার্কিন যুক্তরাষ্ট্র
-degree-month: May
+degree-month: August
 degree-year: 2023
 degree-date-second-language: বৈশাখ ১৪৩০ (মে ২০২৩) 
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
