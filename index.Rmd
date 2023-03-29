@@ -25,18 +25,18 @@ author-second-language: নীলাভ্র ভট্টাচার্য্�
 description: Work-in-progress eBook of Nilavra's PhD thesis, created using oxforddown template.
 supervisor: Jacek Gwizdka
 supervisor-second-language: "সুপারভাইজার: ইয়াৎসেক গুইজদকা"
-committee-member-2: Soo-Young Rieh
+committee-member-2: Soo Young Rieh
 committee-member-3: Matthew Lease
 committee-member-4: Robert Capra
 document-type: Dissertation # Dissertation / Treatise / Thesis / Report
 degree: Doctor of Philosophy
-degree-suffix: PhD TBD
+degree-suffix: PhD
 department: Faculty of the Graduate School
 university: The University of Texas at Austin
 university-second-language: টেক্সাস বিশ্ববিদ্যালয়, অস্টিন, মার্কিন যুক্তরাষ্ট্র
-degree-month: May
+degree-month: August
 degree-year: 2023
-degree-date-second-language: বৈশাখ ১৪৩০ (মে ২০২৩) 
+degree-date-second-language: শ্রাবণ ১৪৩০ (আগস্ট ২০২৩) 
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
 # use the following AFTER submission, 
 # for now, adding seconds creates more number of diffs in output HTML than necessary
