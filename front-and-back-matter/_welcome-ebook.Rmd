@@ -32,8 +32,8 @@ by
 **`r metadata[['document-type']]`**
 \
 \
-Presented to the `r metadata[['department']]` of\
-`r metadata[['university']]`\
+Presented to the `r metadata[['department']]` \
+of `r metadata[['university']]`\
 in Partial Fulfillment\
 of the Requirements\
 for the Degree of\
