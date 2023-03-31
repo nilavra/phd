@@ -1,4 +1,4 @@
-# LongSAL: `r metadata[['author']]`'s `r metadata[['document-type']]` {-}
+# `r metadata[['author']]`'s `r metadata[['document-type']]` {-}
 
 Welcome to the eBook version of <a href="https://nilavra.in" target="_blank">`r metadata[['author']]`'s</a> `r metadata[['degree-suffix']]` `r metadata[['document-type']]`.
 This website disseminates my PhD research in a format that is more user-friendly and accessible than a 150-page, double-spaced PDF file. 
