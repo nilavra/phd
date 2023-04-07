@@ -23,7 +23,7 @@ Guided by the above insights, we ask the following research questions in this di
 > **RQ2:** *What are the similarities and differences in information search behaviours for tasks where the learning goals are new (non-repeated search tasks), versus those where the learning goals are repeated (repeated search tasks)?*
 \
 \
-> **RQ3:** *How do (longitudinal) information search behaviour of students relate to their (self-perceived) learning outcomes*
+> **RQ3:** *How do (longitudinal) information search behaviour of students relate to their (self-perceived) learning outcomes?*
 
 The study was purposefully planned to be exploratory in nature [@stebbins2001exploratory]. 
 Therefore, the research questions are exploratory as well, meant at discovering interesting patterns, and aiming to illuminate new concepts through quantitative observation.
