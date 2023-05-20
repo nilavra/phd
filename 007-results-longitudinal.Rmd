@@ -1,5 +1,7 @@
 # Data Analysis, Results, and Discussion: Longitudinal Tracking Phase
 
+TODO: add qualitative data from interviews
+
 The longitudinal phase of the LongSAL study involved understanding students' searching as learning behaviour for the research paper writing task. 
 The aim was to investigate how students' information search behaviours and learning outcomes change over time. 
 This chapter presents participant information, the timeline of data collection, data analysis steps, followed by the results of the longitudinal phase of the study.
