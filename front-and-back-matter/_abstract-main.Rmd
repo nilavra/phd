@@ -1,4 +1,4 @@
-Learning today is about navigation, discernment, induction, and synthesis of the wide body of information on the Internet present ubiquitously at every student’s fingertips.
+Learning today comprises navigation, discernment, induction, and synthesis of the wide body of information on the Internet present ubiquitously at every student’s fingertips.
 Learning, or addressing a gap in one’s knowledge, has been well established as an important motivator behind information-seeking activities.
 The Search as Learning research community advocates that online information search systems should be reconfigured to become educational platforms to foster learning and *sensemaking*.
 Modern search systems have yet to adapt to support this function. 

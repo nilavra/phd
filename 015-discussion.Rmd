@@ -43,6 +43,15 @@ Students with higher levels of metacognition monitor and regulate their own sear
 Metacognition also help students improve their search performance and learning outcomes by enhancing their self-awareness, confidence and motivation [@reisouglu2020analysis; @zhou2019metacognitive].
 
 
+[ -------- nbrevision001 --------]{color="red"}
+
+@cole2023using found that metacognitive strategies shift students' thinking away from search as a routine task towards reflections on their learning, as well as how they might apply their learning to future tasks.
+One participant in their study commented that metacognitive nudges made the participant think more about what they were doing, instead of just aimlessly searching and reading a sentence or two. 
+Metacognition helped to give purpose to their activities, in the form of asking questions like why they were searching for a certain piece of information, and whether they would be able to talk about what they found later in group discussion settings [@cole2023using].
+
+[ -------- nbrevision001 --------]{color="red"}
+
+
 In our study, we found that students in the high group, with higher values of metacognition, self-regulation, and motivation, demonstrated more efficient search behaviours with time.
 The high group were able to better refine their search strategies and become more efficient as the semester progressed, resulting in fewer clicks per query when writing the final paper.
 They had higher counts of word substitutions and lower counts of repeat queries, which are both indicative of more focused and targeted search strategies. 
@@ -52,8 +61,22 @@ In contrast, the low group, with lower levels of motivation, metacognition, self
 They showed signs of struggling, when moving across different stages of the research paper, and a higher number of clicks per query when writing the final paper.
 They had more randomness and higher entropies of search tactics, more engagement with search results than content pages at later stages of the semester (which was done in earlier stages by the high group), and a general lower level of learning and search outcome.
 
+[ -------- nbrevision001 --------]{color="red"}
 
-These findings complement prior work on identifying struggling search behaviour.
+As the high group progressed through the semester, their search behaviour gradually changed as described by established models of information seeking behaviour, such as Vakkari's searching-as-learning model [@vakkari2016searching] and Kuhlthau's Information Seeking Model [@kuhlthau1991inside]. 
+Vakkari outlines three stages in the search process: 
+(1) assimilation, 
+(2) restructuring, and 
+(3) tuning. 
+According to the model's predictions, in the initial stages, students acquire knowledge through assimilation.
+@bogers2021exploration reports that searchers in this stage perform some basic `quick-and-dirty' searching in the beginning to get to know the space of available resources.
+As students progressed in their search task, they increasingly demonstrate more deliberate and strategic querying behaviour. 
+This implies students progressively enhanced their search efficiency across the session, which has also been reported by other studies [@kaya2023understanding; @bogers2021exploration]
+This transition from divergent to convergent behaviour is also in line with Kuhlthau's information seeking model[@kuhlthau1991inside].
+
+[ -------- nbrevision001 --------]{color="red"}
+
+These findings also complement prior work on identifying struggling search behaviour.
 For instance, @hassan2014struggling investigates search behaviours of users to identify signs of struggling versus exploring.
 Their findings indicated that certain predictors, such as minimal similarity between consecutive queries, increased clicks per query, as well as differences in the nature of query reformulation patterns (i.e., less query term substitution and more addition/removal with exploring), were indicative of struggling search sessions.
 
