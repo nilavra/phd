@@ -282,9 +282,28 @@ We see that the high group had higher levels of perceived learning outcome and p
 
 
 
-The fact that the high group had statistically significant higher self-reported learning outcomes and self-reported search outcomes suggests that these students may have had a higher level of motivation, self-regulation, and better time management skills than the low group. 
+The fact that the high group had statistically significant higher self-reported learning outcomes and self-reported search outcomes suggests that these students had a higher level of motivation, self-regulation, and better time management skills than the low group. 
 This is because students who are motivated and self-regulated tend to be more efficient and effective in their information searching behaviours, which in turn may lead to better learning outcomes. 
-Additionally, the high group may have been better at managing their time and resources, which would allow them to engage in more thorough and comprehensive information searching activities.
+Additionally, students in the high group were better at managing their time and resources, which would allow them to engage in more thorough and comprehensive information searching activities.
+
+[ -------- nbrevision001 --------]{color="red"}
+
+This is corroborated by interview responses as well. 
+For instance, when asked ``How did you keep track of the sources you found?'', a participant in the low group responded:
+
+> *...in the reference list, I put all the links that I found. I did [save the articles] at one point. And then before I knew it, **I had 10 tabs (open)**, and I feel extremely unmotivated. I said, no, I can't do this anymore. **So I just closed all of them**.*
+>
+> *And I decided, okay, everything’s in the reference list, **Whatever seems like its relevant. I'll click on it, and I'll see it later**. So I don't have to read 10 different papers. **I relied too much on the reference list. I throw everything in there**, like okay, I'll deal with you later.*
+>
+> `r nbQuoteAuthor('--- P007_PARIS')`
+
+In contrast, a participant in the high group responded:
+
+> *I have a **separate document** with a table and **three columns**, one for the **in-line citation**, so I could just easily copy and paste it. And then the middle was **direct quotes**. And then the (last column) was **notes** that are like sentences, what I wanted to say. And so that's how I organize my (sources).*
+>
+> `r nbQuoteAuthor('--- P021_JAVA')`
+
+[ -------- nbrevision001 --------]{color="red"}
 
 
 
@@ -506,7 +525,7 @@ On the other hand, a participant in the high group responded:
 
 > *searching, probably in the **outline** stage, but the most **analyzation** of those sources came in the **rough draft** stage, and then the **final is just expanding** upon that.*
 >
-> `r nbQuoteAuthor('--- P021_JAVA')`
+> `r nbQuoteAuthor('--- P021_JAVA')` 
 
 [ -------- nbrevision001 --------]{color="red"}
 
@@ -1054,6 +1073,7 @@ They also appeared to have a more limited scope of inquiry, as reflected in thei
 
 
 
+
 Overall, these findings suggest that the high group may have been more creative and adaptable in their information searching behaviours, while the low group may have been more rigid and focused on adhering to traditional academic norms.
 
 
@@ -1257,8 +1277,27 @@ The subsequent decrease in both entropies in the final paper stage suggests that
 The high group's relatively stable trend in transition entropy suggests that they were consistent in their use of search tactics throughout the writing process. 
 However, their decreasing stationary entropy suggests that they became more focused and efficient in their use of search tactics as the semester progressed, which is consistent with their lower number of query reformulations and their tendency to dwell more on content pages.
 
+[ -------- nbrevision001 --------]{color="red"}
 
-Overall, the differences in the entropies between the two groups suggest that the low group was more uncertain and exploratory in their search tactics, while the high group was more focused and efficient.
+The quantitative results from the entropy analyses also get supported by qualitative responses from the participants.
+When asked if they had a plan before starting the project, or starting to search, a participant in the low group responded:
+
+> ***Not really.** My plan was just to find sources and see how they kind of fit in with my research question. And **if I didn't really find anything, I would just alter the research question**.*
+>
+> `r nbQuoteAuthor('--- P012_MIAMI')`
+
+In contrast, a participant in the high group responded:
+
+> *whenever I start searching, **I go in with the mindset of: this is what I'm searching for**... I always try to reference back to that main goal to help guide my searching process,... like, Okay, I'm searching for content articles, right? And so **I'm not gonna go ahead and get distracted by anything else**, that's going to be like my main goal. And as long as I'm able to go ahead and reference that back to my main goal, then I'm doing a good job.*
+> 
+> *I feel this is something that I've gotten used to being a college student. I realized, this is probably the most efficient way to search for things (and) **not get overwhelmed**. **Breaking it down and having a very clear set goal makes things more manageable for me**.*
+>
+> `r nbQuoteAuthor('--- P015_LIMA')`
+
+[ -------- nbrevision001 --------]{color="red"}
+
+
+Overall, these quantitative and qualitative differences in the two groups approached the research project suggest that the low group was more uncertain and exploratory in their search tactics, while the high group was more focused and efficient.
 
 
 
