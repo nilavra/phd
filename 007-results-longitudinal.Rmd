@@ -493,10 +493,26 @@ The highest count of query generalizations during the writing of the rough draft
 The high group may also have been better able to refine their search queries through word substitutions, which peaked while writing the final paper, indicating a greater level of precision and focus in their information seeking behaviour.
 In contrast, the low group had their highest count of repeat queries during the outline and final paper, indicating that they may have had more difficulty finding and retaining relevant information throughout the research process.
 
+[ -------- nbrevision001 --------]{color="red"}
+
+These results are supported by the interview responses from the participants. 
+When asked which stage of the project needed the most amount of searching -- proposal, outline, rough draft, or final paper -- a participant in the low group responded:
+
+> *Definitely the **final one**. Not only do I have to find the extra 10 source material, because in the rough draft, I only need 10. So not only do **I have to find 10 new ones**, I need to go back to look at the old 10 sources that I had before because **I don't remember what they're about anymore**.*
+>
+> `r nbQuoteAuthor('--- P007_PARIS')`
+
+On the other hand, a participant in the high group responded:
+
+> *searching, probably in the **outline** stage, but the most **analyzation** of those sources came in the **rough draft** stage, and then the **final is just expanding** upon that.*
+>
+> `r nbQuoteAuthor('--- P021_JAVA')`
+
+[ -------- nbrevision001 --------]{color="red"}
 
 
-We posit that the high group may have been more effective in their query reformulation strategies. 
-Specifically, the high group may have been better able to identify new information needs as they worked on the rough draft, and then refine and specialize their queries as they worked on the final paper. 
+From the above observations, we posit that the high group were more effective in their query reformulation strategies. 
+Specifically, the high group were better able to identify new information needs as they worked on the rough draft, and then refine and specialize their queries as they worked on the final paper. 
 This ability to adapt and refine their queries may have allowed them to find more relevant and useful information, which in turn may have contributed to their higher self-perceived learning and search outcomes.
 
 
@@ -1147,7 +1163,31 @@ However, although the high group visited more number of all pages, they dwelt le
 The differences are significant for total and average dwell times on search results (Figure \@ref(fig:rp2-lvi) (c) and (e)).
 This indicates that the high group was more efficient at evaluating search result pages and quickly identifying relevant content. 
 On the other hand, the low group may have spent more time on search result pages, possibly indicating that they had a harder time evaluating and selecting relevant results. 
-This difference in information behaviour could be related to the higher self-perceived learning outcomes and search outcomes seen in the high group, as they were able to efficiently find and engage with relevant content.
+
+[ -------- nbrevision001 --------]{color="red"}
+
+For instance, when asked when if the participant had an experience where initially they thought they had found a very useful resource, but later when they examined it they found it almost useless, a participant in the high group said:
+
+> *I don't think so. I feel like I used all the papers that I found in my outline in my final paper, like some sort of degree.*
+>
+> `r nbQuoteAuthor('--- P023_LONDON')`
+
+Another participant said:
+
+> *I did find some articles that weren't useful, but I think I kind of quickly ruled them out all I'm looking like, from the title, they looked okay. Or sometimes even from the title, I just, like, didn't even look at them. But if I like looked at them a little bit closer and just clicked into them. And I didn't really find what they were saying very useful. Like, even in the introduction, I would just click out of them.*
+>
+> `r nbQuoteAuthor('--- P012_MIAMI')`
+
+On the other hand, participants in the low group reported:
+
+> *Yes. Quite a lot, actually. A lot of them, like I saw Google highlights certain parts of the paper where it has the key words that I put in, and then I read about it. And it only briefly mentioned about that word or a couple of times. The distributed justice part, there's quite a lot. There's a lot of papers that has distributive justice in it. And then it's not really relevant. It just talks about distributive justice. Overall, it doesn't talk about distributive justice, as in terms of event, ensuring privacy. So it was pretty irrelevant.*
+>
+> `r nbQuoteAuthor('--- P007_PARIS')`
+
+[ -------- nbrevision001 --------]{color="red"}
+
+
+Thus, these difference in information behaviour could be related to the higher self-perceived learning outcomes and search outcomes seen in the high group, as they were able to efficiently find and engage with relevant content.
 
 
 
