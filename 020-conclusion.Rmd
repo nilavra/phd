@@ -1,20 +1,17 @@
 # Conclusion
 
-
 ## Summary
 
 > *"Social science exploration is a broad-ranging, purposive, systematic, prearranged undertaking designed to maximize the discovery of generalizations leading to description and understanding of an area of ... life"*
-> 
+>
 > `r nbQuoteAuthor('--- @stebbins2001exploratory')`
 
 In this dissertation, an exploratory longitudinal study was proposed and conducted, to investigate how students' longitudinal information search behaviours change with time, what role individual differences play in this process, and how it affects their learning and search outcomes.
 The study consisted of three phases, with the main longitudinal tracking phase observing students search behaviour as they worked on a research paper final project for a class.
 
 The findings from the study suggest that metacognition, motivation, and self-regulation are important factors that determine, direct, and sustains what students do to search and learn.
-Students with high levels of these traits demonstrated higher perceived learning and search outcomes, compared to those with low levels of these traits. 
+Students with high levels of these traits demonstrated higher perceived learning and search outcomes, compared to those with low levels of these traits.
 Additionally, the high group demonstrated more stable information searching behaviour over time compared to the low group.
-
-
 
 As depicted in the opening quote from @stebbins2001exploratory, our exploratory research was inductive, aiming to illuminate new concepts through observation.
 We purposefully did not follow a deductive approach, which usually proves or tests an existing theory or hypothesis.
@@ -23,13 +20,7 @@ This resulted in very few statistically significant results in our findings.
 However, we were more interested in discovering interesting patterns, and leave the task of confirmatory, deductive investigation to follow-up studies.
 <!-- We believe the findings from this study will lead to more confirmatory studies. -->
 
-
-
 <!-- Overall, the findings suggest that developing effective search strategies and building confidence in one's knowledge on a given topic can lead to higher perceived learning and search outcomes. However, there may be other factors that come into play when it comes to achieving higher grades in research paper assignments. -->
-
-
-
-
 
 <!-- 
 
@@ -41,13 +32,7 @@ We believe the findings from this study will lead to more confirmatory studies.
 
 https://www.youtube.com/playlist?list=PLZp7Vke_WTVr8E4dM1fDeMJr2B7My9Gan
 
-
-
-
-
 , Contributions, and Future Work 
-
-
 
 TODO: New references
 
@@ -56,12 +41,7 @@ TODO: New references
 - Claudia Hauff's works from CHIIR2020 onwards
 - SYR and other's works
 
-
-
 -->
-
-
-
 
 ## Contributions
 
@@ -73,17 +53,12 @@ To the best of our knowledge, this is the first study in information science and
 Our second methodological contribution is the development of the YASBIL browsing logger [@bhattacharya2021yasbil], which was developed primarily as a response to the COVID-19 pandemic.
 <!-- With the onset of the pandemic, there was a staggering halt in in-lab human subjects research, and we had to plan for an alternative strategy to carry out IIR research.  -->
 <!-- YASBIL was the fruit of that labour. -->
-As human subjects research in labs came to a halt, we had to find an alternative approach to carry out IIR research. 
+As human subjects research in labs came to a halt, we had to find an alternative approach to carry out IIR research.
 The YASBIL logger was developed to enable us to collect data on students' online browsing behaviour as they searched for information. This tool allowed us to track students' search behaviour and analyse it in detail, providing insights into how they engage with information sources, evaluate information, and how their information search behaviour evolves over time.
-
 
 The URL-based classification system (Section \@ref(sec-res-url-categorization)) provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behaviour. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
 
-
 Together, these methodological contributions offer new ways of understanding the complex relationships between individual differences in motivation, metacognition, and self-regulation, and how they impact information search behaviour and learning outcomes. Additionally, the YASBIL browsing logger provides a powerful tool for researchers to gather detailed information about students' online browsing behaviour, making it possible to track their search behaviour and analyse it in detail. These contributions provide valuable resources for future researchers in the field of Information Science and Information Retrieval, and offer insights into how we can design more effective searching as learning environments.
-
-
-
 
 ## Limitations
 
@@ -100,18 +75,15 @@ The most prominent **theoretical limitation** of the study was the choice of lea
 Although we discuss at length about the inefficacy of traditional learning outcome measures in Chapter \@ref(ch-bg-learn), we were involuntarily forced to use two of them in this study -- self-perceived learning outcomes, and instructor assigned grades.
 Our initial plan was to use Concept Maps for assessing qualitative and quantitative changes in students' learning and knowledge of concepts.
 But we were limited by technology, and had to settle for self-ratings.
-Education Scientists are repeatedly calling for better assessment strategies for learning [@cope2017elearningc; @urgo2022learning]. 
+Education Scientists are repeatedly calling for better assessment strategies for learning [@cope2017elearningc; @urgo2022learning].
 Future researchers in search-as-learning must work hand in hand with educators and education researchers to investigate and apply more sophisticated forms of learning assessments, that are more equitable in the face of learner diversity.
 
-
-
-
-In terms of **technical limitations**, there were a handful. 
+In terms of **technical limitations**, there were a handful.
 First, due to the nature of current web-technologies, we could not determine when participants were reading a PDF file on their browser.
 Browser level JavaScript works only on webpages, and that is what YASBIL used to log user behaviour.
 If a participant downloaded a bunch of PDFs at a given time, and read them later offline, even when turning YASBIL on, YASBIL would be blind to such readings.
 Second, we could not analyze clicks on content pages. This is due to an abundance of advertisements and cookie preference popups that any user first has to encounter, before even beginning to settle on the content. This is often quite an annoyance, and also taints the dwell time measure on webpages.
-Last but not the least, the low sample size is always a limitation. 
+Last but not the least, the low sample size is always a limitation.
 We had initial hopes of recruiting about 30-40 participants for the study.
 However, despite our best efforts, only 18 signed up, 16 remained till the middle of the semester, and 10 completed the entire study.
 Previous literature also shows that past longitudinal studies had similar low sample sizes.
@@ -134,26 +106,20 @@ Some difficulties:
   - or maybe long webpage (e.g.) book - two tabs at two different locations in webpage
  -->
 
-
-
-
 ## Future Work
-
 
 This dissertation study was monumental effort in planning, organization, and execution.
 <!-- , and as such there is a lot more to explore given the  -->
 Even after an almost 200-page dissertation, we have barely managed to scratch the surface of the amount of data that was collected in the study.
 
 Some of the most promising directions of future work from this project include:
-understanding what factors are responsible if/when students change their latent profiles at different points in the semester; 
+understanding what factors are responsible if/when students change their latent profiles at different points in the semester;
 understanding parallel and cross session browsing behaviour, and how it affects learning;
 deeper dive into struggling versus exploring search behaviours;
 in-depth and qualitative analysis of search queries issued by participants;
 understanding of long term information use;
 visits and revisits to webpages, and its effects on relevance judgement;
 and others.
-
-
 
 <!-- 
 for the transitions or the changes in the Latent profiles at different points in the semester?
@@ -184,21 +150,12 @@ Contrary opinions:
 > https://www.grid.news/story/misinformation/2023/01/23/will-information-literacy-in-schools-fix-our-misinformation-problem/
  -->
 
-
-
-
-
-
-
-
-In conclusion, this dissertation has explored the role of motivation, metacognition and self-regulation in shaping the information search behaviours and learning outcomes of students. 
-The findings demonstrate that differences in these individual traits are crucial components of successful searching as learning behaviour. 
-As @winne2022metacognition argues, metacognition is the engine of self-regulated learning. 
+In conclusion, this dissertation has explored the role of motivation, metacognition and self-regulation in shaping the information search behaviours and learning outcomes of students.
+The findings demonstrate that differences in these individual traits are crucial components of successful searching as learning behaviour.
+As @winne2022metacognition argues, metacognition is the engine of self-regulated learning.
 To help learners develop and apply productive self-regulated learning, search as learning environments should be designed to foster effective use of metacognitive strategies.
 Learning technologies should be used to induce, track, model, and support learners’ metacognition across tasks, domains, and contexts.
 As motivation and metacognition are closely intertwined in complex ways, understanding their relationships is the key to designing the next paradigm of searching as learning systems.
-
- 
 
 <!-- 
  
@@ -206,15 +163,9 @@ As motivation and metacognition are closely intertwined in complex ways, underst
  
 -->
 
-
-
 > *"It was great to be able to participate in the research this semester. Using the (YASBIL) extension somehow brings me positive feedback and that helps me to study I303. So I wanna say thank you"*
-> 
+>
 > `r nbQuoteAuthor('--- Participant P022_PISA')`
-
-
-
-
 
 <!-- 
 
@@ -227,9 +178,6 @@ The findings of the exploratory study indicated that metacognition is a crucial 
 The third phase of the study found that the information searching behaviors of students differed on repeated and non-repeated search tasks. The findings indicated that on non-repeated search tasks, students engaged in more exploratory behavior and exhibited higher levels of transition entropy in their search tactics. On repeated search tasks, students demonstrated more stable search behaviors, and their search tactics showed lower levels of entropy.
 
 The study concludes that metacognition plays a crucial role in information searching as a learning activity. 
-
-
-
 
 From @winne2022metacognition:
 
@@ -248,9 +196,6 @@ Overall, this dissertation provides valuable insights into the ways in which met
 
  -->
 
-
-
-
 <!-- 
 
 ======================= old content ========================
@@ -268,8 +213,6 @@ Overall, the study has the potential to provide valuable insights into the compl
 QRTs
 Overall, these findings suggest that effective query reformulation strategies may be an important factor in achieving better self-perceived learning and search outcomes among undergraduate students writing research papers. Future research could explore the specific techniques and strategies that are most effective in promoting effective query reformulation among undergraduate students.
 
-
-
 Phase 2 I:
 The differences in information behaviors observed between the high and low groups in your study can be explained by a number of factors. One possible factor is motivation: the high group may have been more motivated to conduct a thorough and comprehensive search for information, which led them to explore a wider range of topics and use a variety of sources. The low group, on the other hand, may have been less motivated, and may have focused more narrowly on specific topics or sources.
 
@@ -280,12 +223,6 @@ Metacognition may also have played a role: the high group may have had a better 
 Finally, memory span may have been a factor: the high group may have had a larger working memory capacity, which allowed them to process more information and make connections between different sources or topics. The low group may have had a smaller working memory capacity, which made it more difficult for them to integrate information from multiple sources or to switch between different topics or sources.
 
 Overall, these factors likely interacted in complex ways to produce the observed differences in information behaviors between the two groups. By identifying these factors and their effects on information seeking behaviors, your study provides valuable insights into how students approach research and how their behaviors may affect their learning outcomes.
-
-
-
-
-
-
 
  ## Summary of Results
 
@@ -302,13 +239,11 @@ CONCLUSION: obtained grades are not good indicators of learning
 - Longitudinal Study Design
 - Combining Motivation Metacognition Self regulation
 
-
 ### Latent Profile Analysis
 
 Additionally, LPA can identify subgroups of individuals who may be at risk for negative outcomes, such as poor task performance, low job satisfaction, or developmental delays. This information can be used to design targeted interventions that are tailored to the specific needs of these subgroups.
 
 In summary, LPA is a powerful and flexible person-centered statistical approach that is increasingly used in organizational psychology and child development research. Its ability to identify and describe latent subgroups within a population provides a more nuanced understanding of human behavior, and its applications have the potential to inform the design of targeted interventions that can improve outcomes for individuals and organizations.
-
 
 In the context of information search behavior, LPA can be used to investigate how search behavior varies across different contexts or populations. For example, researchers may use LPA to identify different search patterns among novice versus expert users, or among different age or cultural groups. This can help to inform the design of search interfaces and other information systems that are tailored to the needs of specific user groups.
 
@@ -316,14 +251,12 @@ Overall, LPA is an interesting and valuable technique for understanding informat
 
 Overall, the use of LPA to classify participants into high and low groups based on their scores on the IMI, MAI, and SRQ was an effective method for identifying individual differences in motivation, metacognition, and self-regulation. This allowed us to examine the relationship between these individual differences and search behavior, which is the focus of this study.
 
-
 ### Entropy
 Transition analysis and entropy are powerful tools in the field of information retrieval that can help to uncover patterns in user search behaviour across disparate tasks and activities. By analysing transitions between different states, such as between queries, documents, or web pages, transition analysis can reveal important insights into how users navigate information spaces and interact with search systems. For example, it can be used to identify common search patterns or to identify areas where users may be experiencing difficulty or confusion.
 
 Entropy, on the other hand, provides a quantitative measure of the uncertainty or randomness in user search behaviour. By calculating entropy values for different aspects of search behaviour, such as query reformulation or click-through behaviour, researchers can gain a better understanding of the structure and characteristics of user search behaviour in different contexts. This can help to identify areas for improvement in search systems and to design more effective search algorithms and interfaces.
 
 Together, transition analysis and entropy provide a powerful framework for understanding user search behaviour and improving the design and effectiveness of search systems. By analysing transitions and quantifying the level of uncertainty in user behaviour, researchers can uncover valuable insights that can inform the development of more effective search systems and improve the overall user experience.
-
 
 From ASIST award session
 
@@ -340,15 +273,6 @@ HEATHER:
 
 - what can we share back to the teachers of the course, librarians and others
 
-
-
-
-
-
-
-
-
-
 write short introductions and conclusions for the following chapters of my dissertation:
 
 1. results - longitudinal phase of writing research paper
@@ -356,21 +280,12 @@ write short introductions and conclusions for the following chapters of my disse
 3. revisiting research questions in light of results
 4. conclusion
 
-
 ~~~~~~~
 
 Introduction for Results - Longitudinal Phase of Writing Research Paper:
 
-
-
-
 Conclusion for Results - Longitudinal Phase of Writing Research Paper:
 The findings from the longitudinal phase of the study revealed that students' information search behaviors and learning outcomes changed significantly over time. The high group demonstrated significantly higher perceived learning and search outcomes compared to the low group. The results suggest that repeated engagement with search tasks can improve search behaviors and learning outcomes.
-
-
-
-
-
 
 Introduction for Revisiting Research Questions in Light of Results:
 This chapter aims to revisit the research questions that guided the study in light of the findings from the analysis. The chapter presents a discussion of the implications of the findings for the research questions and provides recommendations for future research.
@@ -378,14 +293,10 @@ This chapter aims to revisit the research questions that guided the study in lig
 Conclusion for Revisiting Research Questions in Light of Results:
 The findings from the analysis shed light on how individual differences, task goals, and repeated engagement with search tasks affect information search behaviors and learning outcomes. The chapter provides a summary of the key findings and discusses their implications for future research in information science and information retrieval.
 
-
-
 Introduction for Conclusion:
 This chapter presents a summary of the study's main findings, implications, and limitations. The chapter also provides recommendations for practitioners and researchers in information science and information retrieval.
 
 Conclusion for Conclusion:
 The study aimed to investigate the effects of individual differences, task goals, and repeated engagement with search tasks on information search behaviors and learning outcomes. The findings suggest that repeated engagement with search tasks can improve information search behaviors and learning outcomes. The study also highlights the importance of considering individual differences and task goals when designing search tasks for educational purposes. The chapter concludes by discussing the limitations of the study and providing recommendations for future research.
-
-
 
  -->
