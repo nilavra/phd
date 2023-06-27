@@ -1,6 +1,5 @@
 # Revisiting Research Questions
 
-TODO: place findings in light of existing and new research papers 
 
 After discussing the findings from the LongSAL study in detail in the previous chapters, we now revisit the research questions introduced in Chapter \@ref(ch-rq).
 The chapter presents a discussion of the implications of the findings of the study, in light of the research questions proposed.

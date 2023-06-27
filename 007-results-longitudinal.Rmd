@@ -1,18 +1,10 @@
 # Data Analysis, Results, and Discussion: Longitudinal Tracking Phase
 
-TODO: add qualitative data from interviews
 
 The longitudinal phase of the LongSAL study involved understanding students' searching as learning behaviour for the research paper writing task. 
 The aim was to investigate how students' information search behaviours and learning outcomes change over time. 
-This chapter presents participant information, the timeline of data collection, data analysis steps, followed by the results of the longitudinal phase of the study.
-For sake of better narration, the findings from the initial and final phase are presented in the next chapter.
-
-<!-- 
-
-which involved analyzing students' search logs, survey responses, and grades from the proposal stage to the final paper stage. 
-
-
--->
+This chapter presents participant information, the timeline of data collection, and data analysis steps, followed by the results of the longitudinal phase of the study.
+For the sake of better narration, the findings from the initial and final phases are presented in the next chapter.
 
 
 ## Participants and Timeline of Collected Data
@@ -33,19 +25,14 @@ nbShowFig("figs/res-timeline-collected-data")
 
 Figure \@ref(fig:res-timeline-collected-data) shows the timeline of the data collected in the LongSAL study, spread across the Spring 2022 semester at the University of Texas at Austin, USA.
 Eighteen participants enlisted their names in the Recruitment Questionnaire, `QSNR0`.
-Sixteen showed up for the initial phase, and remained in the study till the mid-point of the semester (mid-term questionnaire, `QSNR2`).
-Then six participants dropped off, and the study was fully completed by ten participants (who stayed till the exit questionnaire, `QSNR3`.)
+Sixteen showed up for the initial phase and remained in the study till the mid-point of the semester (mid-term questionnaire, `QSNR2`).
+Then six participants dropped off, and ten participants fully completed the study (who stayed till the exit questionnaire, `QSNR3`.)
 In Figure \@ref(fig:res-timeline-collected-data), participant names in **bold** (bottom 10) indicate those who fully completed the longitudinal study, 
 while participant names in *italics* (top 8) indicate those who dropped off at various stages along the way.
-For data analysis, we partitioned the semester duration into three phases, along the green vertical dotted lines: 
-beginning,
-middle, and 
-end of the semester.
+For data analysis, we partitioned the semester duration into three phases along the green vertical dotted lines: beginning, middle, and end of the semester.
 Inspired by the Spanish TV series *La Casa de Papel* (English name: *Money Heist*)^[https://en.wikipedia.org/wiki/Money_Heist], participants were assigned code-names which were aliases of geographic locations.
 
 
-
-<!-- In the interest of better presentation and readability of this chapter, more ancillary plots are presented in Appendices \@ref(app-plots-query) and \@ref(app-plots-search). -->
 
 
 
@@ -84,8 +71,8 @@ Employing one statistical test allows for easy comparison between different cate
 
 
 Additionally, we also report **Common Language Effect Size (CLES)** for each statistical test result.
-The common language effect size is the proportion of pairs where $x$ from the first group is larger than $y$ from the second group. 
-In other words, it is the probability that a score sampled at random from the first distribution will be greater than a score sampled from the second distribution. 
+The common language effect size is the proportion of pairs where $x$ from the first group is greater than $y$ from the second group. 
+In other words, it is the probability that a score sampled at random from the first distribution will be higher than a score sampled from the second distribution. 
 CLES was first introduced by @mcgraw1992common.
 The Python statistical library employed in the data analysis -- Pingouin [@vallat2018pingouin] -- uses a brute-force version of the formula given by @vargha2000critique.
 The advantage is of this method are twofold: 
@@ -95,32 +82,6 @@ second, the formula takes ties into account and therefore works with ordinal dat
 
 
 
-<!-- 
-
-Here is the overall data analysis framework of my dissertation:
-Two categories of data were collected from participants. 
-
-1. Questionnaire data for individual differences: motivation, metacognition, self-regulation.
-2. Search Log data containing URL visits, mouse events, webnavigation events, and the order and sequence of those events.
-
-Questionnaire Data
-
-1. Cleaning and Preprocessing
-2. identifying user groups - latent profile analysis
-
-Log Data
-
-1. Log Data cleaning and pre-processing
-2. URL categorization
-3. Active Tab Identification
-4. Higher levelSearch Behaviour Data Analysis framework - moves, tactics, strategies
-5. Combining Latent Profiles with Search Behaviour Data
-
-Trends Over Time
-Difference Between Groups / Profiles
-Entropy analysis of sequences
-
- -->
 
 
 
@@ -358,7 +319,7 @@ nbShowFig("figs/rp2-query-length-count")
 
 
 **Query length** was operationalized as the number of terms (words separated by spaces) in the search query that participants submitted to the search engines or other information retrieval sites.
-Query length can vary from a single word to several phrases or a full sentence.
+Query length can vary from a single word to several phrases or a complete sentence.
 Longer search queries may indicate a more specific or complex information need, while shorter search queries may be more general or broad in scope.
 **Queries count** per search task refers to the number of separate queries or search attempts that a participant issued in order to complete a task. 
 This measure may vary depending on the complexity of the information need, the user's level of expertise with the search system, and other factors. 
@@ -366,83 +327,21 @@ This measure may vary depending on the complexity of the information need, the u
 
 
 
-Figure \@ref(fig:rp2-query-length-count) (a) and (b) shows the differences in total and average query length of the high and low groups, while Figure \@ref(fig:rp2-query-length-count) (c) illustrates the number of queries issued, at different stages of writing the research paper. 
-The low group demonstrated a zig-zag pattern in their **total query length**, and **query count**, over the duration of the semester, with a low start at proposal, followed by a peak at outline, a dip at rough draft, and again a peak at Final Paper.
+Figure \@ref(fig:rp2-query-length-count) (a) and (b) shows the differences in total and average query length of the high and low groups, while Figure \@ref(fig:rp2-query-length-count) (c) illustrates the number of queries issued, at different stages of writing the research paper. The low group demonstrated a zig-zag pattern in their **total query length** and query count over the semester, with a low start at proposal, followed by a peak at outline, a dip at rough draft, and a peak at Final Paper.
 The high group had a steady increase in total query length and query count, from proposal to outline to rough draft, and took a very gentle dip (or remained steady) at final paper stage.
 Comparing the total query length and query count to the **average query length** (Figure \@ref(fig:rp2-query-length-count) (b)), we see that the high group maintained a steady 4-5 terms per query throughout the semester, whereas the low group had a jump to more than 10 terms per query in the rough draft stage.
 
 
-The low group issued a small number of short queries in the proposal, then a higher number of short queries during the outline, followed by an even smaller number of very long queries during the rough draft, and then a very large number of short queries during the final paper phase.
+The low group issued a few short queries in the proposal, then a higher number of short queries during the outline, followed by an even smaller number of very long queries during the rough draft, and then a very large number of short queries during the final paper phase.
 On the other hand, the high group kept issuing an increasing number of similar-length (short) queries throughout the semester.
 
 
 Combining these results we can posit that the low group demonstrated signs of struggling throughout the semester [@hassan2014struggling].
-These students may have struggled to effectively search for information at the beginning of the semester, but then increased their search efforts as the deadlines approached. The fact that they issued a smaller number of very long queries during the rough draft phase may indicate that they were not able to effectively refine their search strategies to find more relevant and useful information.
+These students may have struggled to effectively search for information at the beginning of the semester, but then increased their search efforts as the deadlines approached. The fact that they issued a smaller number of very long queries during the rough draft phase may indicate that they were not able to effectively refine their search strategies to find more relevant and valuable information.
 In contrast, the high group's pattern of issuing an increasing number of similar-length (short) queries throughout the semester suggests that these students may have had a more consistent and effective search strategy. They may have been better able to refine their search strategies over time, which allowed them to find more relevant and useful information throughout the different stages of the research paper writing process.
 
 
 
-
-<!--
-
-The number of queries issued per task (Figure \@ref(fig:ResP8027181930754266114)) followed a similar pattern as the total query length (Figure \@ref(fig:ResN7152194718394476899)).
-The low group issued a steadily increasing number of queries as they progressed through the semester, from the Proposal to the Final Paper phase, overtaking the high group at the Outline phase.
-Additionally, as their average query length was quite low while writing the Final Paper, it appears they were issuing a large number of small queries, indicating signs of struggling or exploring.
-In contrast, the high group decreased their query submissions after the Outline phase, signifying they may have already collected the information they need in the earlier parts of the semester. 
-
-Both the groups had similar average query length during the proposal, outline, and final paper stages.
-However, there was a big difference in average query length in the rough draft stage, with the low group issuing more than 10 terms per query on average, while the high group kept at 4 terms per query. 
-
-
- The average length of queries issued by the high and low groups was not large during the Proposal (`PHASE2A`), Outline (`PHASE2B`), and Final Paper (`PHASE2D`) (Figure \@ref(fig:rp2-query-length-count) (b)).
-
-However, the difference in average query length between the two groups was almost significant during the Rough Draft stage (`PHASE2C`), with the low group issuing around 8 words per query, whereas the high group issuing about 4 words per query.  
-
-
-high group was slightly higher than the low group during the Proposal , and then became much less during the o  
-
-
-were always longer than those issued by the low group, except before the Outline (`PHASE2B`) and the Final Paper submission (`PHASE2D`) (Figure \@ref(fig:ResP2136245316506143308)). 
- 
-For all tasks,  the high group issued longer queries than the low group (Figure ResP4090733126835336320),  
-  
-  
-The low group, with lower levels of motivation, metacognition, and self-regulation, were issuing queries which were often two terms (words) shorter on average, than the corresponding queries from the high group. 
-
-
-increased monotonically over the semester during (Figure \@ref(fig:ResN7152194718394476899)), with the longest queries being issued by this group before the Final Paper submission phase (`PHASE2D`).
-On the other hand, queries from the high group were the longest during the Outline phase (`PHASE2B`), and then it decreased in the subsequent phases.
-
-This indicates that the high group, with higher levels of motivation, metacognition, and self-regulation, were planning ahead in the early parts of the semester to find their references. 
-On the other hand, the low group, with lower levels of those traits, possibly demonstrated a tendency to procrastinate or delay their work until the final paper.
-A quote from participant `P006_HANOI` illustrates this phenomenon:
-
-> *"so far for this rough draft I haven't actually had to google anything since I downloaded everything into pdfs during the outline stage and haven't needed any new material so far."*
->
-> `r nbQuoteAuthor("--- P006_HANOI")`
-> 
-
-
-
-LO group had highest total query length before final paper (ResN5894660104957913932)
-
-
-HI group had highest average query length during rough draft (ResP6726131652814458688)
-
-LO group was slacking and putting it off till last minute.
-
- 
-issued higher number of queries during the early part of the semester -- Proposal and Outline -- but then they issued lower number of queries during the later parts of the semester, w.r.t. the high group.  
-
-
-The difference in the number of queries issued by the two groups approached statistical significance while writing the Rough Draft.  
-
-were the highest before the Rough Draft (`PHASE2C`) . 
-
-Like avg query length, LO group issued highest number of queries when writing final paper, while HI roup did that during outline.
-Even, one participant commendted "I had downloaded all the papers I needed during..." 
-
--->
 
 
 
@@ -542,102 +441,6 @@ This ability to adapt and refine their queries may have allowed them to find mor
 
 
 
-<!--
-
-
-
-followed a similarly from their trend of query lengths and query counts
-The low group, in general issued more New queries, Generalizations, and Repeat queries (combined with hub-and-spoke moves) than the high group. 
-On the other hand, the high group had more specializations and word substitutions in their queries than the low group.
-The differences in Generalizations $(U = 218.0, p = .07, ES = 0.67)$
-and Repeat queries $(U = 233.0, p = .05, ES = 0.69)$
-were approaching statistical significance.
-The trend in these reformulation counts across the semester are illustrated in Figures 
-
-- ResP4758332161906858406 New
-- ResP4519777880393782433 Generalization
-- ResP8890916105505948535 Specialization
-- ResP3490778183579127133 Word Substitution
-- ResP6961499846675834400 Repeat
-
-
-The low group had their highest counts of most query reformulation types while writing the final paper.
- For the low group, all the highest counts of new queries, query generalizations, query specializations, and repeat queries occurred during the writing of the final paper.  
-
-
-Keeping this in mind, we observed that the low group issued a significantly higher number of repeat queries (or hub-and-spoke moves), compared to the high group $(U = 51.5, n_{low}=7, n_{high}=8, p=.0077, CLES=0.92)$.
-The highest differences occurred in the Outline phase and the Final paper phase (Figure ResP7955607431899741484), with the low group issuing double the number of repeat queries $(6.11 \pm 3.7)$ on average, w.r.t. the high group $(3.51 \pm 2.8)$  
-
- When a user submits a search query that does not return satisfactory results, they may attempt to reformulate their query by using different keywords, rephrasing their question, or adding or removing search terms. Query reformulation can be done manually by the user or automatically by the search system using techniques such as query expansion or query suggestion. The goal of query reformulation is to help users find the information they are looking for more efficiently and effectively. 
-
-The low group issued more number of New Queries (sig diff), more query generalizations, more query specializations, and more repeat queries (sig diff), compared to the low group. The high group had had more word substitutions in their queries.  
-
- also had their highest level of word subsitutions during the final paper writing phase. 
- 
-  The high group also showed a higher tendency towards query generalization and query specialization during the rough draft phase, while  
-
- the high group tending to have more word substitutions and fewer repeat queries compared to the low group.  
-
-The high group also showed a higher tendency towards query generalization and query specialization during the rough draft phase, while the low group had higher counts of all query reformulation types during the final paper phase. 
-
-
-Here are when the different query reformulation counts reached their maximum values during the semester, for the low and high groups:
-
-Max values of query reformulation count for Low group:
-
-- new queries: final paper
-- query generalization: final paper
-- query specialization: final paper
-- word substitution: outline
-- repeat queries: outline and final paper
-
-Max values of query reformulation count for High group:
-
-- new queries: outline and final paper
-- query generalization: writing rough draft (after outline, before final paper)
-- query specialization: outline
-- word substitution: final paper
-- repeat queries: rough draft 
-
-
-
- The low group issued more number of **New** queries in total (Figure ResN3873804091287075248) and on average (Figure ResP3026382842695489517), compared to the high group. 
-During the Rough Draft and Final Paper phases, the low group exhibited heightened tendency to generate New search queries in their pursuit of novel information. 
-On average, participants in the low group issued four more search queries than those in the HI group in these last two phases of the research project (Figure ResP3026382842695489517). 
-This suggests that the LO group engaged in more active and extensive information-seeking behaviour, potentially reflecting a greater sense of urgency and pressure to complete their assignments.
-The difference in total number of New queries between the groups approached significance $(U = 50.0, n_{low}=8, n_{high}=8, p=.06, CLES=0.78)$, with a moderately strong effect size. 
-
-
-
-ResN8316003849035045794 
-no. of new queries was the highest during final paper for the LO group
-they were frantically searching for new information
-on an average, each participant in the LO group was making 4 more search queries than those in the HI group during the final paper phase. 
-
-
-
-The low group demonstrated a significantly higher count of total **Query Generalizations** $(U = 44.5, n_{low}=7, n_{high}=7, p=.01, CLES=0.91)$. 
-While the high group issued a total of $2.57 \pm 2.1$ query generalizations per task the low group were issuing $9.86 \pm 6.7$ generalized queries for the same, across the entire study (Figure ResN3302769723271690264).
-Query generalization is an indicative of exploratory behaviour, and this increase by the low group indicates a lack of specificity in the participants' information needs, which may lead to lower precision in search results. 
-
- The high group issued an average at least one word substitution for each search task.
-The trend in the count of total **Query Specializations** was similar to that of Query Generalizations (Figure ResN6450294753032251158). 
-The high group demonstrated the maximum number of query specialization before the Outline phase, whereas the low group did the same before the Final Paper phase.
-While the difference was not significant, the effect size was moderately high $(U = 42.5, n_{low}=8, n_{high}=7, p=.10, CLES=0.76)$. 
-
-
-**Word Substitutions** were performed in all the tasks by the high group, whereas the low group skipped it during Proposal, and the `PHASE3-BIAS` task (Figure ResN3108315939720148502).  
- 
-
-ResN3604624796642370520 generalizations
-ResP5443351906342031714 specializations
-ResN4290201084087196149 word substitutions
-ResN9056495301645634830 repeat
-Repeat must be taken with a grain of salt as repeat behaviour was diffcult to tease out from hub and spoke behaviour, if the user pressed the back button of the browser 
-
--->
-
-
 
 
 
@@ -709,47 +512,6 @@ The subsequent decrease in stationary entropy from rough draft to final paper su
 
 
 
-<!-- 
-TODO SUMMARY: Overall, these findings suggest that there may be benefits to adopting a more exploratory and adaptive approach to information searching during the early stages of the research paper writing process, followed by a more focused and targeted approach as the writing process progresses. Future research could explore the specific strategies and techniques that are most effective in promoting this kind of adaptive and effective information searching behaviour among undergraduate students. 
-
-
-
-
-The low group's approach varied more depending on the stage of the writing process, and thus they employed all the different types query reformulations uniformly (i.e. with equal probabilities). 
-The 
-
-was trying out all the query reformulation types as the semester progressed, whereas the
-
-maintained a more consistent approach to their information searching behaviour, and thus preferred some query reformulation types more over others.
-The high group's 
-
-
-
-
-We computed the transition and stationary entropies of query reformulation types for  
- the entire task duration, as well as for the beginning one-third, middle one-third, and end one-third of each task duration for each participant. 
- 
-The results are discussed in the following sections. 
-  
-A higher query reformulation entropy indicates a greater degree of uncertainty or randomness in the user's query reformulation behaviour, indicating that the user may be struggling to find relevant information or is uncertain about their information needs. In contrast, a lower query reformulation entropy suggests a more systematic and directed approach to search, indicating that the user has a clearer understanding of their information needs and is using query reformulation strategies to efficiently retrieve relevant information. Query reformulation entropy is a useful metric for evaluating the effectiveness of search systems and understanding user search behaviour.
-
-Transition entropy is a metric that measures the uncertainty or randomness in the transitions between different search states, such as between queries, documents, or web pages. It quantifies the level of unpredictability or randomness in the user's navigation behavior as they move from one state to another, and can be used to evaluate the efficiency and effectiveness of search systems and interfaces.
-
-Stationary entropy, on the other hand, measures the uncertainty or randomness in the distribution of user behavior within a single search state. For example, it can be used to analyze the frequency and distribution of query terms used by a user during a search session, or the distribution of clicks on search results pages. Stationary entropy provides insights into the structure and characteristics of user search behavior within a given context, and can be used to optimize search algorithms and ranking models. 
- 
-
-the low group had the least randomness during outline, while the high group had the most during this stage. 
-subsequently, the chaos in high group decreased, whereas that in low group increased
-
-
-The high group may have had more efficient search strategies during the proposal and rough draft phases, but faced greater challenges during the outline and final paper phases, leading to more diverse query reformulation behaviours.  
-
-The low group, however, may have had more consistent query reformulation behaviours throughout the different phases of the task, indicating less variability in their approach. 
-
-differences were not significant over the entire duration of the tasks, there was a significant difference in the middle one-third interval of each task $(U = 131.0, p = .01, ES = 0.28)$.
-
--->
-
 
 ## URL Categorization for Analysing Interactions {#sec-res-url-categorization}
 
@@ -776,30 +538,6 @@ Library websites were identified by URLs that contained terms such as "library",
 The URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behaviour.
 
 
-<!-- 
-
-TODO SUMMARY: Overall, the URL-based classification system provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behaviour. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
- -->
-
-
-
-<!-- 
-
-- peer-reviewed publications are `PUB`s
-- others are `ARTICLE`s (e.g. Wikipedia)
-- if no other info, then `WEB`
-- fuzzy between `WEB` and `ARTICLE` (when classified manually)
-- `ARTICLE` if there is a clear author
-  - except `WIKIPEDIA`, due to common parlance
-  - encyclopedias
-- journal homepages are `WEB`
-- list of chapters in a book are `L.PUB`.
-  - e.g. in detail view of
-- book chapter is `PUB`
-
-
-
- -->
 
 
 
@@ -830,7 +568,7 @@ Figure \@ref(fig:rp2-query-click) shows the trend in total, average, and variabi
 
 
 
-The low group had much higher total (Figure \@ref(fig:rp2-query-click)(a)) and average (Figure \@ref(fig:rp2-query-click)(b)) number of clicks per query than the high group, at all stages of the semester -- proposal, outline, and rough draft -- except the last stage: writing the final paper.
+The low group had a much higher total (Figure \@ref(fig:rp2-query-click)(a)) and average (Figure \@ref(fig:rp2-query-click)(b)) number of clicks per query than the high group, at all stages of the semester -- proposal, outline, and rough draft -- except the last stage: writing the final paper.
 The maximum total number of clicks per query was during the outline phase (about 100 clicks total), while the maximum average number of clicks was during the rough draft phase (about 12 clicks per query on average).
 The high group maintained a relatively low number of clicks per query during the proposal, outline, and rough draft stages (less than 4 clicks per query), and had the peak value during the final paper, with about 7 clicks per query.
 Additionally, the high group had lower variability (standard deviation) in the number of clicks per query compared to the low group (Figure \@ref(fig:rp2-query-click)(c)).
@@ -839,7 +577,7 @@ Additionally, the high group had lower variability (standard deviation) in the n
 
 
 The low group's higher total, average, and standard deviation of clicks per query throughout most of the semester, except for the final paper stage, suggests that they may have been less efficient in their searching behaviours, requiring more clicks and potentially spending more time on each query. 
-The may have struggled to refine their search strategies, resulting in a higher number of clicks per query throughout the semester.
+The may have struggled to refine their search strategies, resulting in more clicks per query throughout the semester.
 This could have contributed to their lower self-perceived learning and search outcomes.
 
 
@@ -868,30 +606,6 @@ TODO SUMMARY Overall, these findings suggest that adopting more efficient and ef
 
 
 
-<!-- 
-
-The high group had fewer total clicks per query , and a lower average number of clicks per query , compared to the low group, across most of the tasks during the semester.
-The low group had the highest average number of clicks per query when writing the rough draft (approx 12 clicks per query), while the high group had the highest average number of clicks per query while writing the final paper (approx 7 clicks per query).
-
-This suggests that the high group was able to achieve better search outcomes with fewer clicks, indicating a higher level of efficiency in their search strategies.  
- 
-The high group having higher motivation, metacognition and self-regulation had lesser number of clicks per query in total, and on average, compared to the low group, over almost all the tasks during the semester. 
-The variability (standard deviation) of the number of clicks per query of the high group was also less than the low group. All the differences were statistically significant.
-
-
-ResP878771263343515297
-HI group was more efficient. Average number of clicks per query was lower (less than 4) as they moved forward in the semester, with highest in the Outline phase.
-
-
-ResN2805268620307804410
-
-$(U = 1069.5, n_{HI}=56, n_{LO}=30, p=.03)$
-
-
-ResN5118140679486679749
-SD also says something 
-
--->
 
 
 
@@ -924,12 +638,6 @@ Figure \@ref(fig:rp2-l) shows the counts of publication search results and web s
 
 
 
-<!-- 
-
-Low group had greater average dwell time on academic publication search results in all the four stages, viz. proposal, outline, rough draft, and final paper, compared to the high group.
-Total dwell time of the low group was also higher, except at the final paper stage, when the high group surpassed the low group in dwelling on search results.
-
---->
 
 For both publication search results and web search results, the high group visited a more number of those webpages than the low group (Figure \@ref(fig:rp2-l)(a) and (b)).
 The high group visited more publication search results during the outline phase, and more web SERPs during the rough draft phase.
@@ -959,71 +667,7 @@ The high group may have been able to find a broader range of information from a 
 It is also possible that the high group's use of web search engines may have resulted in them encountering more diverse perspectives and interpretations of the research topic, which could have enhanced their critical thinking and analytical skills.
 
 
-<!-- On the other hand, the low group may be more thorough in searching and evaluating academic publications (which was arguably one of the main aspects of writing the research paper), while the high group may be able to quickly identify and select relevant publications.  -->
 
-
-
-
-
-
-
-<!-- 
-
-TODO SUMMARY 
-
-It is important to note, however, that the use of scholarly publications may not necessarily guarantee better quality information or higher self-perceived learning outcomes. 
-The relevance and credibility of the sources used, as well as the ability to critically evaluate and synthesize the information, are important factors that can impact the effectiveness of the search and learning outcomes.
-
-The quality of information is not solely determined by the type of source, but rather by the relevance, credibility, and reliability of the information found. 
-While scholarly publications may provide more specialized and in-depth information, they may not always be the most relevant or up-to-date sources for a given research topic.
-On the other hand, web search results may provide a broader range of sources, including news articles, blogs, and websites, that can offer alternative perspectives and insights on the research topic. 
-However, the quality and reliability of the information found in these sources may vary, and it is important to critically evaluate and verify the information before using it in a research paper.
-
-In addition, the ability to synthesize and integrate information from different sources, regardless of their type, is a key skill in conducting research and writing a research paper. 
-This involves the ability to critically evaluate the relevance and credibility of the sources, as well as to identify and articulate the relationships between different pieces of information.
-
-Overall, the choice of sources and the search strategies used should be based on the research question, the scope of the project, and the specific information needs of the researcher. Both scholarly publications and web search results can provide valuable information, and the key is to use them effectively and efficiently in order to achieve the desired learning outcomes. 
-
--->
-
-
-
-
-
-
-
-<!--
-
-high group had longer dwell times on web search results and shorter dwell time on publication search results. low group had the opposite pattern.
-
-#### Web Search Results (SERPs) 
-
-
-Low group had lower values of motivation, self regulation and metacognition. High group had high values of those.
-Across all the stages, Total Dwell Time (seconds) on Web SERPs was higher for the high group, and lower for the low group.
-Average Dwell Time (seconds) on SERPs was higher for the high group, and lower for the low group.
-Dwell time for high group decreased from proposal to outline, then increased from outline to rough draft, and then decreased during final paper.
-Dwell time for low group decreased from proposal to outline; minimum during rough draft, and then increased again during final paper.
- 
- 
-For the high group, dwell time decreased from proposal to outline, then increased from outline to rough draft, and then decreased again during the final paper stage. This suggests that participants in the high group spent less time on SERPs during the outline stage but spent more time during the rough draft stage. However, they spent less time again during the final paper stage.
-For the low group, dwell time decreased from proposal to outline and then reached a minimum during the rough draft stage. However, it increased again during the final paper stage. This suggests that participants in the low group spent the least amount of time on SERPs during the outline and rough draft stages but spent more time during the final paper stage.
-This indicates at the positive relationship between individual differences in motivation, self-regulation, and metacognition and the amount of time spent on SERPs during a search task.
-
-The high group's higher levels of motivation, self-regulation, and metacognition may have enabled them to engage in more effective and efficient search behaviours, leading to longer dwell times on Web SERPs. 
-The higher dwell time on SERPs for the high group may indicate that they are more strategic and deliberate in their search behaviour, taking the time to carefully examine search results and evaluate their relevance to their information needs. This could be related to their higher levels of motivation, self-regulation, and metacognition, which enable them to set goals, monitor their progress, and adjust their strategies as needed to achieve optimal outcomes.
-
-In contrast, the low group's lower levels of these individual differences may have hindered their ability to engage in effective search behaviours, leading to shorter dwell times on SERPs.
-This suggests a more haphazard approach to search behaviour, with less attention to evaluating search results and less ability to regulate their search strategies. This may be related to their lower levels of motivation, self-regulation, and metacognition, which may limit their ability to set clear goals, monitor their progress, and make effective decisions in their search behaviour.
-
-
-The high group was more efficient in their SERP examination, as they had lower total dwell times (Figure \@ref(fig:ResN7791839245731529625)) but higher average dwell times (ResP1938217350834571785) on SERPs compared to the low group. 
-On the other hand, the low group had higher total dwell times, but a lower average dwell time on SERPs, which may indicate that they spent more time browsing through all the different SERPs, but spent less time on each individual SERP. 
-The low group's dwell time pattern also showed a decrease in average dwell time during the outline stage, and stayed at the decreased value during rough draft stage, which could suggest that they struggled more with refining their search queries and examining search results during this stage.
-The low group may have been more willing to spend time examining search results and exploring different options, while the high group may have been more efficient in quickly identifying and selecting relevant results.
-The differences in total dwell time was significantly different in the beginning one-third $(U = 0.0, p = .02, ES = 0.00)$, middle one-third $(U = 16.0, p = .02, ES = 1.00)$, and end one-third $(U = 16.0, p = .02, ES = 1.00)$ portions of the tasks.  
-
--->
 
 
 
@@ -1098,65 +742,6 @@ Overall, these findings suggest that the high group may have been more creative 
 
 
 
-<!-- 
-
-The total and average dwell time of the high and low groups also showed some differences in their information behaviors. The low group had a higher total dwell time on academic publications compared to the high group, indicating that they spent more time engaging with scholarly sources. However, the average dwell time on academic publications was higher for the high group, suggesting that they engaged more deeply with these sources.
-
-On the other hand, the high group had a higher total dwell time on non-academic content pages, while the low group had a higher average dwell time on these pages, indicating that the high group engaged more frequently with non-academic sources but the low group engaged more deeply with them.
-
-Their total dwell time on such pages were also longer than the high group, but the average dwell time was shorter.
-This suggests that the low group engaged in more exploratory behaviour, perhaps looking for additional sources of information or inspiration, beyond the academic publications. 
-However, their lower average dwell time on these pages indicates that they may have been quickly scanning or skimming through the content, rather than engaging with it in depth. 
-It's possible that they were spending less time on average on these pages because they were not as relevant or useful for their research paper. 
-
-On the other hand, the high group may have been more focused on finding academic sources for their paper, which could explain their lower number of visits to non-academic content pages.
-They may have been more focused on the task at hand and less likely to be distracted by extraneous information. 
-The longer average dwell time on content pages suggests that they were more deeply engaging with the material they did visit. 
-Overall, the low group may have been more inclined to explore a broader range of information sources, while the high group was more focused on academic sources and more likely to engage deeply with the content they did view.
-
-
-Overall, these differences in the total and average dwell time suggest that the low group may have been more deliberate and selective in their engagement with scholarly sources, while the high group may have been more exploratory and open to a wider range of sources.
-
-
-
-TODO SUMMARY: However, it's important to note that both types of sources can provide valuable information, and a balanced approach that considers a variety of sources may be most effective in conducting comprehensive research. 
-
-This indicates that the low group had a more exploratory approach towards their research earlier in the semester, as they spent more time looking through a larger number of academic publications while writing the outline. On the other hand, the high group had a more focused approach, spending more time on fewer publications during the later stages when writing the rough draft and the final paper.
-This may be an indication of a difference in information-seeking behaviour and strategies between the two groups, with the low group possibly using a more broad and inclusive approach to gather information, while the high group uses a more selective approach. It could also reflect differences in the stage of research and writing that the two groups were at during each stage, with the low group at a more exploratory stage earlier in the semester, while the high group was at a more advanced stage of writing.
-
-
-The total and average dwell time (possibly reading time) also followed a similar pattern. 
-The high group had longer dwell time on publications in total and on average, in the later parts of the semester, while the low group dwelt more on publications in the earlier parts of the semester.
-This suggests that the high group had a more focused and deliberate approach to their research process, possibly due to better metacognitive and self-regulation skills. They spent more time on each publication, reading and analysing it thoroughly, in the later parts of the semester when they were working on the rough draft and final paper. This behaviour could have led to a deeper understanding of the content and better integration of the information into their writing. On the other hand, the low group may have had a more scattered approach, possibly due to lower levels of motivation, self-regulation, and metacognitive awareness, resulting in spending less time on each publication and viewing a larger number of publications earlier in the semester. 
-This behaviour could have resulted in a superficial understanding of the content and difficulties in integrating the information into their writing. 
-
--->
-
-
-
-
-<!-- ### Non-scholarly / Normal Content pages 
- 
-
-Count
-
-
-Low group visited more number of content pages that were not academic publications compared to the high group.
-Their total dwell time on such pages were high, but the average dwell time was low.
-
-
-Dwell Time
-
-the task that they were doing was to write a research paper at least twenty external sources
-
- -->
-
-
-
-
-
-
-
 ## Search Result Pages vs Content Pages
 
 <!----------- fig:rp2-lvi ----------->
@@ -1208,19 +793,6 @@ On the other hand, participants in the low group reported:
 
 
 Thus, these difference in information behaviour could be related to the higher self-perceived learning outcomes and search outcomes seen in the high group, as they were able to efficiently find and engage with relevant content.
-
-
-
-
-<!-- 
-
-The fact that the total dwell time on webpages followed a similar pattern as the number of pages visited is also interesting. It suggests that the high group spent more time engaging with the content they found, which could have contributed to their better learning outcomes. 
-
- High group visited more search result pages and more content pages as the semester progressed, while we see a drop for the same for the low group, especially after the outline phase, while writing rough draft.
-Then there is again an increase in the number of pages visited by the low group while writing the final paper.
-The total dwell time on webpages also follow a similar pattern. 
-
--->
 
 
 
@@ -1311,8 +883,7 @@ Overall, these quantitative and qualitative differences in the two groups approa
 
 
 ## Summary of Longitudinal Phase
-
-We summarize the findings from this chapter, on the longitudinal searching-as-learning task of writing a research paper, as follows.
+We summarise the findings from this chapter, on the longitudinal searching-as-learning task of writing a research paper, as follows.
 
 
 Participants were divided into high and low groups based on their self-reported values of motivation, metacognition, self-regulation, and memory span.
@@ -1343,201 +914,3 @@ Possibly, other factors beyond self-perceived searching and learning outcomes ma
 
 
 
-
-
-<!-- 
-
-Both the low and high group had an increase in transition entropy and stationary entropy of search tactics from the proposal stage to the outline stage, followed by a subsequent decrease in both entropies in the final paper stage.
-
-The high group had a relatively stable trend in their transition entropy of search tactics, while their stationary entropy decreased as the semester progressed. The high group's stationary entropy was significantly lower than that of the low group.
-
-For the repeated task on personal finance, both the groups showed an increase in transition entropy of query reformulations from the beginning of the semester to the end, and an increase in transition entropy for the non-repeated tasks.
-
-The high group reported higher learning and search outcomes for both repeated and non-repeated tasks, at both the beginning and the end of the semester. The low group's perceived learning and search outcomes decreased for all tasks at the end of the semester.
-
-Both the high and low group showed a decrease in the number of clicks per query and the number of pages visited from the beginning to the end of the semester.
- -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-
-ResN7289045485214067875 
-Both groups had highest Ht during 2C (and also 3 Finance?)
-
-ResP5638176378435107439 - beginning
-ResN3435548740759333098 - middle
-ResP6845508037293675246 - end
-
-No sig diff for whole task, and at the beginning of task
-Sig diff appeared at the middle and increased at the end of task (similar to as observed by Gwizdka).
-
-
-
-ResP8685879301269737254
-LO group had hghest Hs in 2C
-No sig diff in overall task
-
-No diff at beginning.
-Diff is most prominent at middle (ResN1140102300744288543)
-and also somewhat at end (ResN663758335140886910)
-
-
-
-
-and high group increased as the semester progressed, from paper outline to 
-
-Transition entropy remained lower for HI group at beginning, middle and end
-
-For repeated task (finance) HI group stopped querying from the middle of the task.
-Hi group felt more certain (TODO: get quote from response?)
-While LO group continued till the end to query - they were more uncertain.
-
-TODO: add network figure? 
-
-
-
-
-ResN2968292861275564559 - whole
-stationary entropy
-
-Stationary entropy:
-for HI goup
-high in the beginning of task
-then low at the end of task
-their chaosness decreased as they progressed through the tasks, while for the LO group, their uncertainty increased?
-
-
-
-ResN634943316862196398 - beginning
-ResN6777243644016606483 - middle
-ResN6573661794052961083 - end -->
-
-
-
-
-<!-- ### Query Location
-
-where did participants query?
-Google, Library, etc 
-
-
-
-
-R!esN7928923989685423424 is a VERY good result!
-Model ID = 10
-
-
-
-
-More plots are in Appendix \@ref(app-plots), such as Figure \@ref(fig:ResP5183239600404564866)
-
-
-
-
-The results of your longitudinal study on information searching behaviors of undergraduate university students vis-a-vis their learning outcomes while writing a research paper can be presented in the following manner:
-
-1. Overview of Participants: Begin by describing the participants in your study. Provide details about their demographic characteristics, academic majors, and other relevant background information.
-
-2. Latent Profile Analysis: Describe the methodology used for the latent profile analysis and the resulting groups. Provide details on the composition of the high and low groups based on self-reported values on motivation, metacognition, and self-regulation.
-
-3. Information Searching Behaviors: Present the results of the longitudinal tracking phase of the study, focusing on the information searching behaviors of the high and low groups. Compare and contrast the strategies used by the two groups, including the number and types of information sources consulted, the time spent on information seeking activities, and the perceived effectiveness of their information searching behaviors.
-
-4. Learning Outcomes: Discuss the learning outcomes of the high and low groups, as measured by their research paper grades and their self-reported satisfaction with their research process. Analyze the relationship between information searching behaviors and learning outcomes, and identify any significant differences between the two groups.
-
-5. Correlation Analysis: Conduct a correlation analysis between the participants' demographic characteristics and their information searching behaviors and learning outcomes. Analyze the findings and identify any significant correlations.
-
-6. Final Phase: Present the results of the final phase of the study, which was conducted at the end of the semester. Discuss any changes in the information searching behaviors of the participants, and whether these changes were related to their learning outcomes.
-
-7. Conclusion: Summarize the main findings of the study, highlighting the most important results and their implications. Discuss any limitations of the study and suggest directions for future research. 
--->
-
-
-<!--
-
- --------------- context: ------------
-
-For my PhD dissertation I conducted a longitudinal study of information searching beaviours of undergraduate university students vis a vis their learning outcomes while writing a research paper.
-Participants were grouped into high and low groups using Latent Profile Analysis, from self-reported scores on motivation, metacognition, self-regulation, and memory span.
-The task that they were doing was to write a research paper citing at least twenty external sources.
-The writing involved four stages spread across the semester: proposal, outline, rough draft, and final paper.
-Let us discuss some of the findings.
-
-<result>
-Why?
-
-context: initial final:
-apart from the longitudinal phase of the study, participants also completed two search tasks at the beginning of the semester, and two search tasks at the end of the semester.
-One set of tasks, on the topic of "personal finance for college students", was repeated at the end of the semester.
-The other set of tasks was not repeated. The topics were "ubuntu ethics" in the beginning of the semester, and "algorithmic bias" at the end of the semester.
-Let us know discuss some of the findings for these tasks, and reason why the participants behaved in the ways they did, by drawing upon findings from the longitudinal phase as well.
-
---------------- context: ------------
-
-
-
-Listed below are one line results for all the computed measures of my study.
-Analyse them and help me write the results chapter of my dissertation.
-
-
-Overall, the high group demonstrated higher levels of engagement with search results, with a higher total number and average number of clicks per query, and a higher variability of clicks per query. However, there were no significant differences between the groups in terms of the number, total length, average length, or variability of query length, or in terms of the transition entropy of query reformulations for the entire task. These findings suggest that engagement with search results may be an important factor in the success of undergraduate students in writing research papers.
-
-Search Bheaviour Measures:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--->
