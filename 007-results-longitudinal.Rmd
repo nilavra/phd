@@ -20,7 +20,7 @@ nbShowFig("figs/res-timeline-collected-data")
 Figure \@ref(fig:res-timeline-collected-data) shows the timeline of the data collected in the LongSAL study, spread across the Spring 2022 semester at the University of Texas at Austin, USA.
 Eighteen participants enlisted their names in the Recruitment Questionnaire, `QSNR0`.
 Sixteen showed up for the initial phase and remained in the study till the mid-point of the semester (mid-term questionnaire, `QSNR2`).
-Then six participants dropped off, and ten participants fully completed the study (who stayed till the exit questionnaire, `QSNR3`.)
+Then six participants dropped off, and ten participants fully completed the study (who stayed until the exit questionnaire, `QSNR3`.)
 In Figure \@ref(fig:res-timeline-collected-data), participant names in **bold** (bottom 10) indicate those who fully completed the longitudinal study,
 while participant names in *italics* (top 8) indicate those who dropped off at various stages along the way.
 For data analysis, we partitioned the semester duration into three phases along the green vertical dotted lines: beginning, middle, and end of the semester.
@@ -141,12 +141,11 @@ The self-reported learning and search outcomes are inspired from work by @collin
 We see that the high group had higher levels of perceived learning outcome and perceived search outcome compared to the low group, and these differences were statistically significant: $(U = 115.0, p = .0005, ES = 0.19)$ for the learning outcome, and $(U = 151.0, p = .005, ES = 0.25)$ for the search outcome.
 (The effect sizes indicate the probability that a value chosen at random from the low group's scores will be greater than a value chosen at random from the high group's scroes.)
 
+
 The fact that the high group had statistically significant higher self-reported learning outcomes and self-reported search outcomes suggests that these students had a higher level of motivation, self-regulation, and better time management skills than the low group.
 This is because students who are motivated and self-regulated tend to be more efficient and effective in their information searching behaviours, which in turn may lead to better learning outcomes.
-Additionally, students in the high group were better at managing their time and resources, which would allow them to engage in more thorough and comprehensive information searching activities.
-
-[ -------- nbrevision001 --------]{color="red"}
-
+Additionally, students in the high group were better at managing their time and resources, allowing them to engage in more thorough and comprehensive information searching activities.
+<!-- [ -------- nbrevision001 --------]{color="red"} -->
 This is corroborated by interview responses as well.
 For instance, when asked ``How did you keep track of the sources you found?'', a participant in the low group responded:
 
@@ -162,7 +161,7 @@ In contrast, a participant in the high group responded:
 >
 > `r nbQuoteAuthor('--- P021_JAVA')`
 
-[ -------- nbrevision001 --------]{color="red"}
+<!-- [ -------- nbrevision001 --------]{color="red"} -->
 
 The instructor assigned grades for the high group also generally stayed higher than the low group (except for the Proposal stage). However, the differences were small.
 This may indicate that the instructors' grading criteria may not have fully captured the impact of information searching behaviours on learning outcomes.
@@ -273,7 +272,7 @@ The highest count of query generalizations during the writing of the rough draft
 The high group may also have been better able to refine their search queries through word substitutions, which peaked while writing the final paper, indicating a greater level of precision and focus in their information seeking behaviour.
 In contrast, the low group had their highest count of repeat queries during the outline and final paper, indicating that they may have had more difficulty finding and retaining relevant information throughout the research process.
 
-[ -------- nbrevision001 --------]{color="red"}
+<!-- [ -------- nbrevision001 --------]{color="red"} -->
 
 These results are supported by the interview responses from the participants.
 When asked which stage of the project needed the most amount of searching -- proposal, outline, rough draft, or final paper -- a participant in the low group responded:
@@ -288,11 +287,12 @@ On the other hand, a participant in the high group responded:
 >
 > `r nbQuoteAuthor('--- P021_JAVA')`
 
-[ -------- nbrevision001 --------]{color="red"}
+<!-- [ -------- nbrevision001 --------]{color="red"} -->
 
 From the above observations, we posit that the high group were more effective in their query reformulation strategies.
-Specifically, the high group were better able to identify new information needs as they worked on the rough draft, and then refine and specialize their queries as they worked on the final paper.
+Specifically, the high group were better able to identify new information needs as they worked on the rough draft, and then refine and specialise their queries as they worked on the final paper.
 This ability to adapt and refine their queries may have allowed them to find more relevant and useful information, which in turn may have contributed to their higher self-perceived learning and search outcomes.
+
 
 ### Entropy of Query Reformulation Types {#sec-res-phase2-query-H}
 
@@ -509,14 +509,13 @@ The difference in the count of Search Results pages visited was almost significa
 This suggests that the high group may have been more engaged and persistent in their information searching behaviours, while the low group may have experienced a decrease in motivation or self-regulation as the semester progressed, specifically before writing the rough draft.
 It is also noteworthy that the low group had a rebound in the count of pages visited while writing the final paper. This could indicate that they were able to re-engage with the task, and their information searching behaviours improved as the final-paper deadline approached.
 
+
 However, although the high group visited more more webpages in general, they dwelt less on search results, and more on content pages.
 The differences are significant for total and average dwell times on search results (Figure \@ref(fig:rp2-lvi) (c) and (e)).
 This indicates that the high group was more efficient at evaluating search result pages and quickly identifying relevant content.
-On the other hand, the low group may have spent more time on search result pages, possibly indicating that they had a harder time evaluating and selecting relevant results.
-
-[ -------- nbrevision001 --------]{color="red"}
-
-For instance, when asked when if the participant had an experience where initially they thought they had found a very useful resource, but later when they examined it they found it almost useless, a participant in the high group said:
+On the other hand, the low group may have spent more time on search result pages, possibly indicating that they had a more challenging time evaluating and selecting relevant results.
+<!-- [ -------- nbrevision001 --------]{color="red"} -->
+For instance, when asked when if the participant had an experience where initially they thought they had found a useful resource, but upon later examination they found it almost useless, a participant in the high group said:
 
 > *I don't think so. I feel like I used all the papers that I found in my outline in my final paper, like some sort of degree.*
 >
@@ -534,9 +533,11 @@ On the other hand, participants in the low group reported:
 >
 > `r nbQuoteAuthor('--- P007_PARIS')`
 
-[ -------- nbrevision001 --------]{color="red"}
+<!-- [ -------- nbrevision001 --------]{color="red"} -->
 
-Thus, these difference in information behaviour could be related to the higher self-perceived learning outcomes and search outcomes seen in the high group, as they were able to efficiently find and engage with relevant content.
+Thus, these differences in information behaviour could be related to the higher self-perceived learning outcomes and search outcomes seen in the high group, as they were able to efficiently find and engage with relevant content.
+
+
 
 ## Entropy of Search Tactic Sequences
 
@@ -585,7 +586,7 @@ The subsequent decrease in both entropies in the final paper stage suggests that
 The high group's relatively stable trend in transition entropy suggests that they were consistent in their use of search tactics throughout the writing process.
 However, their decreasing stationary entropy suggests that they became more focused and efficient in their use of search tactics as the semester progressed, which is consistent with fewer query reformulations, and tendency to dwell more on content pages.
 
-[ -------- nbrevision001 --------]{color="red"}
+<!-- [ -------- nbrevision001 --------]{color="red"} -->
 
 The quantitative results from the entropy analyses also get supported by qualitative responses from the participants.
 When asked if they had a plan before starting the project, or starting to search, a participant in the low group responded:
@@ -602,7 +603,7 @@ In contrast, a participant in the high group responded:
 >
 > `r nbQuoteAuthor('--- P015_LIMA')`
 
-[ -------- nbrevision001 --------]{color="red"}
+<!-- [ -------- nbrevision001 --------]{color="red"} -->
 
 Overall, these quantitative and qualitative differences in the two groups approached the research project suggest that the low group was more uncertain and exploratory in their search tactics, while the high group was more focused and efficient.
 

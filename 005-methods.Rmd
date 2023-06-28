@@ -364,13 +364,13 @@ Participants performed two search tasks: `PHASE3-FINANCE` and `PHASE3-BIAS`.
 <!-- , and one website comparison task: `PHASE3-SHEG`. -->
 <!-- In the end, there will be a short semi-structured interview. -->
 
-[ -------- nbrevision001 -------- ]{color="red"}
+<!-- [ -------- nbrevision001 -------- ]{color="red"} -->
 
 At the end of `PHASE3`, a semi-structured interview was conducted. 
 The questions were aimed to collect the participants' reflections on their searching and learning experience throughout the semester, w.r.t. to the I303 course.
 While a full-scale qualitative analysis of the interview responses is beyond the scope of this dissertation, some preliminary qualitative quotes are presented in the results and discussion sections, to support the quantitative results as necessary.
 
-[ -------- nbrevision001 --------]{color="red"}
+<!-- [ -------- nbrevision001 --------]{color="red"} -->
 
 
 

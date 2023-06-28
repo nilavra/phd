@@ -6,18 +6,24 @@
 >
 > `r nbQuoteAuthor('--- @stebbins2001exploratory')`
 
-In this dissertation, an exploratory longitudinal study was proposed and conducted, to investigate how students' longitudinal information search behaviours change with time, what role individual differences play in this process, and how it affects their learning and search outcomes.
+In this dissertation, an exploratory longitudinal study was conducted to investigate how students' longitudinal information search behaviours change with time, what role individual differences play in this process, and how it affects their learning and search outcomes.
 The study consisted of three phases, with the main longitudinal tracking phase observing students search behaviour as they worked on a research paper final project for a class.
 
-The findings from the study suggest that metacognition, motivation, and self-regulation are important factors that determine, direct, and sustains what students do to search and learn.
-Students with high levels of these traits demonstrated higher perceived learning and search outcomes, compared to those with low levels of these traits.
+
+The findings from the study suggest that metacognition, motivation, and self-regulation are important factors that determine, direct, and sustain what students do to search and learn.
+Students with high levels of these traits demonstrated higher perceived-learning and search outcomes, compared to those with low levels of these traits.
 Additionally, the high group demonstrated more stable information searching behaviour over time compared to the low group.
+
 
 As depicted in the opening quote from @stebbins2001exploratory, our exploratory research was inductive, aiming to illuminate new concepts through observation.
 We purposefully did not follow a deductive approach, which usually proves or tests an existing theory or hypothesis.
-<!-- As @hartel2022exploratory argues, exploration can help ameliorate some of the pernicious expections -->
 This resulted in very few statistically significant results in our findings.
 However, we were more interested in discovering interesting patterns, and leave the task of confirmatory, deductive investigation to follow-up studies.
+
+
+
+
+
 <!-- We believe the findings from this study will lead to more confirmatory studies. -->
 
 <!-- Overall, the findings suggest that developing effective search strategies and building confidence in one's knowledge on a given topic can lead to higher perceived learning and search outcomes. However, there may be other factors that come into play when it comes to achieving higher grades in research paper assignments. -->
@@ -45,10 +51,37 @@ TODO: New references
 
 ## Contributions
 
-Apart from the findings discussed at length in previous chapters, this dissertation also has some methodological contributions.
-The first is the attempt to relate individual differences of motivation, metacognition, and self-regulation in a combined, holistic format, with information search behaviour.
+
+[ -------- nbrevision002 --------]{color="red"}
+
+Apart from the findings discussed at length in previous chapters, the LongSAL study also advances the field of Interactive IR in several aspects.
+
+
+First, while the initial sample size may appear small with only 16 participants, it is important to consider the extensive amount of search log data collected from each participant over the course of the semester. This accumulation of data translates to a substantial amount of time spent on information searching, providing a robust foundation for drawing meaningful conclusions.
+<!-- Specifically, you mentioned that each participant recorded multiple hours of search sessions throughout the research paper writing process.  -->
+Considering that we collected and analysed more than 1500 minutes, equivalent to over 26 hours of search log data, it becomes evident that our study has amassed a substantial quantity of information. This large amount of data allows for a comprehensive examination of participants' information-searching behaviours, their evolution over time, and their relationship with individual differences in motivation, metacognition, and self-regulation. 
+By collecting such a significant volume of data, the LongSAL study possesses a strong empirical basis for reasonable and reliable findings. It provides a rich and detailed understanding of how undergraduate students engage in information searching while writing a research paper. This extensive breadth and depth of data collected bolsters the credibility and robustness of the findings, within the context of our study population.
+
+
+Second, the fact that the student participants in the study were from one class is another important contribution. Previous works often examined search tasks from different classes or disciplines, which may introduce variability and make it difficult to isolate the specific effects of motivation, metacognition, and self-regulation on information-searching behaviours and learning outcomes.
+By focusing on a single class and a specific research paper writing task, the LongSAL study provides a more controlled and focused approach to understanding the relationship between these factors. 
+This allows for a deeper exploration of how individual differences in motivation, metacognition, and self-regulation influence information-searching behaviours and learning outcomes within a consistent context.
+Additionally, studying participants from one class offers the advantage of a shared learning environment and potentially similar prior knowledge and skill levels. This helps to minimize confounding variables and enhance the internal validity of our findings.
+This emphasizes the unique aspect of our study and provides valuable insights into the specific dynamics of information-searching behaviours and learning outcomes within a particular educational context.
+
+
+<!-- First, although at initial glance the sample size may appear to be a mere N=10, since each participants recorded multiple hours of search sessions over the semester, we collected and analysed more than 1500 minutes, or over 26 hours of search log data. 
+This quantity is quite significant to draw reasonable conclusions. -->
+
+
+[ -------- nbrevision002 --------]{color="red"}
+
+
+This dissertation also has some methodological contributions.
+The first is to relate individual differences in motivation, metacognition, and self-regulation differences in a combined, holistic format with information search behaviour.
 This was achieved through the person-centred approach of Latent Profile Analysis.
 To the best of our knowledge, this is the first study in information science and IIR literature to have employed Latent Profile Analysis in such a manner.
+
 
 Our second methodological contribution is the development of the YASBIL browsing logger [@bhattacharya2021yasbil], which was developed primarily as a response to the COVID-19 pandemic.
 <!-- With the onset of the pandemic, there was a staggering halt in in-lab human subjects research, and we had to plan for an alternative strategy to carry out IIR research.  -->
@@ -56,20 +89,17 @@ Our second methodological contribution is the development of the YASBIL browsing
 As human subjects research in labs came to a halt, we had to find an alternative approach to carry out IIR research.
 The YASBIL logger was developed to enable us to collect data on students' online browsing behaviour as they searched for information. This tool allowed us to track students' search behaviour and analyse it in detail, providing insights into how they engage with information sources, evaluate information, and how their information search behaviour evolves over time.
 
-The URL-based classification system (Section \@ref(sec-res-url-categorization)) provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behaviour. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
+
+Third, the URL-based classification system (Section \@ref(sec-res-url-categorization)) provided a useful way to categorize webpages based on their type, allowing us to gain insights into how users' search behaviour varies across different types of webpages. By analysing the patterns of webpage types visited by users during their information search process, we were able to identify which types of webpages were most commonly visited and how they related to users' search behaviour. This information can be used to improve the design of information systems and search engines, as well as to inform the development of tailored interventions that support users' information search needs.
+
 
 Together, these methodological contributions offer new ways of understanding the complex relationships between individual differences in motivation, metacognition, and self-regulation, and how they impact information search behaviour and learning outcomes. Additionally, the YASBIL browsing logger provides a powerful tool for researchers to gather detailed information about students' online browsing behaviour, making it possible to track their search behaviour and analyse it in detail. These contributions provide valuable resources for future researchers in the field of Information Science and Information Retrieval, and offer insights into how we can design more effective searching as learning environments.
+
+
 
 ## Limitations
 
 Like any other scientific endeavour, the LongSAL study came with its limitations.
-
-<!-- ### Theoretical Limitations 
-
-Learning outcomes
-Cite @urgo2022learning
-
--->
 
 The most prominent **theoretical limitation** of the study was the choice of learning outcomes.
 Although we discuss at length about the inefficacy of traditional learning outcome measures in Chapter \@ref(ch-bg-learn), we were involuntarily forced to use two of them in this study -- self-perceived learning outcomes, and instructor assigned grades.
@@ -77,6 +107,7 @@ Our initial plan was to use Concept Maps for assessing qualitative and quantitat
 But we were limited by technology, and had to settle for self-ratings.
 Education Scientists are repeatedly calling for better assessment strategies for learning [@cope2017elearningc; @urgo2022learning].
 Future researchers in search-as-learning must work hand in hand with educators and education researchers to investigate and apply more sophisticated forms of learning assessments, that are more equitable in the face of learner diversity.
+
 
 In terms of **technical limitations**, there were a handful.
 First, due to the nature of current web-technologies, we could not determine when participants were reading a PDF file on their browser.
