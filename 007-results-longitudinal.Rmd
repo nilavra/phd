@@ -273,8 +273,7 @@ The high group may also have been better able to refine their search queries thr
 In contrast, the low group had their highest count of repeat queries during the outline and final paper, indicating that they may have had more difficulty finding and retaining relevant information throughout the research process.
 
 <!-- [ -------- nbrevision001 --------]{color="red"} -->
-
-These results are supported by the interview responses from the participants.
+Interview responses from the participants also support these quantitative.
 When asked which stage of the project needed the most amount of searching -- proposal, outline, rough draft, or final paper -- a participant in the low group responded:
 
 > *Definitely the **final one**. Not only do I have to find the extra 10 source material, because in the rough draft, I only need 10. So not only do **I have to find 10 new ones**, I need to go back to look at the old 10 sources that I had before because **I don't remember what they're about anymore**.*
@@ -393,16 +392,16 @@ This metric reflects the level of interaction and engagement of the participant 
 A higher value of clicks per query may indicate that the participant is more engaged and willing to explore a wider range of information sources, while a lower value may suggest a more focused and targeted search approach.
 Figure \@ref(fig:rp2-query-click) shows the trend in total, average, and variability of clicks per query for the low and high groups at different points in the semester.
 
-The low group had much higher total (Figure \@ref(fig:rp2-query-click)(a)) and average (Figure \@ref(fig:rp2-query-click)(b)) number of clicks per query, than the high group, at all stages of the semester -- proposal, outline, and rough draft -- except the last stage: writing the final paper.
+The low group had much higher total (Figure \@ref(fig:rp2-query-click)(a)) and average (Figure \@ref(fig:rp2-query-click)(b)) count of clicks per query, than the high group, at all stages of the semester -- proposal, outline, and rough draft -- except the last stage: writing the final paper.
 The highest total clicks per query was during the outline phase (about 100 clicks total), while the highest average clicks per query was during the rough draft phase (about 12 clicks per query on average).
-The high group maintained a relatively stable clicks per query during the proposal, outline, and rough draft stages (less than 4 clicks per query), and had a peak value of 7 clicks per query during the final paper.
+The high group maintained a relatively stable clicks per query during the proposal, outline, and rough draft stages (less than four clicks per query), and had a peak value of 7 clicks per query during the final paper.
 Additionally, the high group had lower variability (standard deviation) in their number of clicks per query, compared to the low group (Figure \@ref(fig:rp2-query-click)(c)).
 
 The low group's higher total, average, and standard deviation of clicks per query throughout most of the semester, except for the final paper stage, suggests that they may have been less efficient in their searching behaviours, requiring more clicks and potentially spending more time on each query.
 The may have struggled to refine their search strategies, resulting in more clicks per query throughout the semester.
 This could have contributed to their lower self-perceived learning and search outcomes.
 
-In contrast, the high group's lower  of clicks per query throughout most of the semester, except for the final paper stage, suggests that they may have been more efficient and effective in their searching behaviours, requiring fewer clicks and potentially finding more relevant information per query.
+In contrast, the high group's fewer clicks per query throughout most of the semester, except for the final paper stage, suggests that they may have been more efficient and effective in their searching behaviours, requiring fewer clicks and potentially finding more relevant information per query.
 They may have been able to refine their search strategies and be more efficient during the semester, resulting in fewer clicks per query.
 This indicates the high group's ability to better assess the relevance and usefulness of search results, and to use their knowledge and cognitive strategies more effectively during the search process.
 This could have contributed to their higher self-perceived learning and search outcomes.
