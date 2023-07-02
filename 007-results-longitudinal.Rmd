@@ -144,10 +144,10 @@ We see that the high group had higher levels of perceived learning outcome and p
 
 The fact that the high group had statistically significant higher self-reported learning outcomes and self-reported search outcomes suggests that these students had a higher level of motivation, self-regulation, and better time management skills than the low group.
 This is because students who are motivated and self-regulated tend to be more efficient and effective in their information searching behaviours, which in turn may lead to better learning outcomes.
-Additionally, students in the high group were better at managing their time and resources, allowing them to engage in more thorough and comprehensive information searching activities.
+Additionally, students in the high group were better at managing their time and resources, allowing them to engage in more thorough and comprehensive information-searching activities.
 <!-- [ -------- nbrevision001 --------]{color="red"} -->
 This is corroborated by interview responses as well.
-For instance, when asked ``How did you keep track of the sources you found?'', a participant in the low group responded:
+For instance, when asked "How did you keep track of the sources you found?", a participant in the low group responded:
 
 > *...in the reference list, I put all the links that I found. I did [save the articles] at one point. And then before I knew it, **I had 10 tabs (open)**, and I feel extremely unmotivated. I said, no, I can't do this anymore. **So I just closed all of them**.*
 >
@@ -161,12 +161,18 @@ In contrast, a participant in the high group responded:
 >
 > `r nbQuoteAuthor('--- P021_JAVA')`
 
+The response from the participant in the low group suggests a less organized approach to tracking sources. They mentioned initially saving articles and opening multiple tabs but eventually feeling overwhelmed and unmotivated, leading them to rely heavily on the reference list. This indicates a lack of systematic organization and a reliance on the reference list as a means of keeping track of sources, potentially leading to challenges in managing and accessing relevant information.
+In contrast, the participant from the high group described a more structured and organized method for tracking sources. They mentioned using a separate document with a table consisting of three columns for in-line citations, direct quotes, and notes. This approach demonstrates a deliberate and systematic way of organizing and capturing information from sources, allowing for efficient referencing and easy retrieval of relevant content during the writing process.
+These qualitative responses align with the quantitative findings of higher perceived learning outcome and perceived search outcome in the high group. The more organized and structured approach to tracking sources in the high group is likely to have contributed to their enhanced perception of learning and search outcomes.
+
 <!-- [ -------- nbrevision001 --------]{color="red"} -->
 
-The instructor assigned grades for the high group also generally stayed higher than the low group (except for the Proposal stage). However, the differences were small.
-This may indicate that the instructors' grading criteria may not have fully captured the impact of information searching behaviours on learning outcomes.
-This is because the instructor's grading criteria may have been focused more on the content of the research paper, rather than the process of information searching. As a result, students who were more effective in their information searching behaviours may not have received a higher grade, even if their research paper was of higher quality.
+
+The instructor-assigned grades for the high group also generally stayed higher than the low group (except for the Proposal stage). However, the differences were small.
+This may indicate that the instructors' grading criteria may not have fully captured the impact of information-searching behaviours on learning outcomes.
+This is because the instructor's grading criteria may have been focused more on the content of the research paper, rather than the process of information searching. As a result, students who were more effective in their information-searching behaviours may not have received a higher grade, even if their research paper was of higher quality.
 Another possibility is that the grading process may have been liberal towards the students.
+
 
 @collins2016assessing reported that "searchers' perceived learning outcomes closely matched their actual learning outcomes" and this was also indirectly correlated with their information search behaviours in terms of dwell time on documents.
 Let us examine in the following sections how the findings from the LongSAL study compare and contrast with those reported by @collins2016assessing and others.
@@ -329,7 +335,7 @@ then this sequence can be considered as a first order Markov chain, wherein, the
 Entropy analysis on these Markov chains quantifies how predictable the states are, and yields two categories of uncertainty measures: transition entropy, $H_t$, and stationary entropy $H_s$.
 Similar stationary and transition entropy measures can be obtained for sequences of search tactics.
 
-Guided by the above, we carried out entropy analysis of query reformulation sequences produced by the participants.
+Guided by the above, we conducted entropy analysis of query reformulation sequences produced by the participants.
 In the context of query reformulations, the maximum **transition entropy**, $s \log s$, can be reached when there is an equal probability of switching between each of the $s = 5$ states, or QRTs (query reformulation types).
 The minimum transition entropy (0) is achieved in a fully deterministic Markov chain, where all transition probabilities are either 1 or 0.
 This means that with a higher transition entropy there is more randomness in the participant's transitions between different QRTs.
@@ -538,7 +544,7 @@ Another participant said:
 > `r nbQuoteAuthor('--- P012_MIAMI')`
 
 <!-- The above quotes illustrate the high group's efficiency at evaluating search result pages and quickly identifying relevant content.  -->
-This responses from participants in the high group suggest that they were more efficient at evaluating search result pages and quickly identifying relevant content. The first participant, `P023_LONDON`, mentioned using all the papers found during the outline stage in their final paper, indicating a careful selection process early on and a successful integration of relevant sources throughout the writing process.
+The responses from participants in the high group suggest that they were more efficient at evaluating search result pages and quickly identifying relevant content. The first participant, `P023_LONDON`, mentioned using all the papers found during the outline stage in their final paper, indicating a careful selection process early on and a successful integration of relevant sources throughout the writing process.
 The second participant, `P012_MIAMI`, described their approach of quickly ruling out articles that appeared less useful based on title or a cursory examination. This suggests a discerning approach to source evaluation and a proactive effort to focus only on the most relevant materials.
 
 In contrast, the response from a participant in the low group highlights the challenges they faced in identifying relevant sources:
@@ -552,7 +558,7 @@ In contrast, the response from a participant in the low group highlights the cha
 
 The participant mentioned encountering papers that initially appeared useful based on Google's highlighted keywords, but upon closer examination, found that they did not actually address the relevant topic of interest. This demonstrates the difficulties the low group participant experienced in assessing the relevance and content of potential sources.
 These qualitative responses provide valuable insights into the differences in information evaluation and selection processes between the high and low groups. The high group participants seemed to possess more efficient strategies for quickly identifying relevant sources and filtering out irrelevant ones. In contrast, the low group participants faced challenges in accurately assessing the relevance and content of potential sources, leading to more time spent on search result pages and potentially encountering less relevant materials.
-Tthese differences in information behaviour could be related to the higher self-perceived learning outcomes and search outcomes seen in the high group, as they were able to find and engage with relevant content efficiently.
+These differences in information behaviour could be related to the higher self-perceived learning outcomes and search outcomes seen in the high group, as they were able to find and engage with relevant content efficiently.
 
 
 
@@ -569,9 +575,9 @@ nbShowFig("figs/rp2-tactic-entropy")
 
 <!---- fig:rp2-tactic-entropy (leave a blank line before this) ------>
 
-Similar to entropy analysis of Query Reformulation types (Section \@ref(sec-res-phase2-query-H)), we performed entropy analysis of search tactic transitions.
-This analysis is directly inspired from @he2016beyond, who in turn were inspired from [@krejtz2014entropy, @krejtz2015gaze].
-To characterize the entropy of students' search tactics, we used the following set of states, or tactics:
+Similar to the entropy analysis of Query Reformulation types (Section \@ref(sec-res-phase2-query-H)), we performed entropy analysis of search tactic transitions.
+This analysis is directly inspired by @he2016beyond, who in turn were inspired by [@krejtz2014entropy, @krejtz2015gaze].
+To characterise the entropy of students' search tactics, we used the following set of states, or tactics:
 
 1. **`QUERY`**: issuing a search query
 2. **`CLICK`**: mouse click
@@ -592,13 +598,13 @@ The entropies discussed in the following sections were normalized by their theor
 -->
 
 The low group demonstrated a sharp increase in both transition entropy and stationary entropy of search tactics from the proposal stage to the outline stage.
-Both the entropies subsequently decreased in the final paper stage.
+Both entropies subsequently decreased in the final paper stage.
 The high group had a relatively stable trend in their transition entropy of search tactics, while their stationary entropy decreased as the semester progressed.
 Also, the high group's stationary entropy was significantly lower than that of the low group $(U = 252.0, p = .04, ES = 0.70)$.
 
-The low group's sharp increase in both transition and stationary entropy from the proposal to the outline stage suggests that they were exploring a wider range of search tactics, and were less certain of which tactics to use during the early stages of the writing process.
+The low group's sharp increase in transition and stationary entropy from the proposal to the outline stage suggests that they were exploring a wider range of search tactics, and were less certain of which tactics to use during the early stages of the writing process.
 This is consistent with their high counts of query reformulations, and tendency to click on many search results and content pages.
-The subsequent decrease in both entropies in the final paper stage suggests that the low group became more focused and efficient in their search tactics, possibly as a result of the feedback they received during the earlier stages of the writing process.
+The subsequent decrease in both entropies in the final paper stage suggests that the low group became more focused and efficient in their search tactics, possibly due to the feedback they received during the earlier stages of the writing process.
 
 The high group's relatively stable trend in transition entropy suggests that they were consistent in their use of search tactics throughout the writing process.
 However, their decreasing stationary entropy suggests that they became more focused and efficient in their use of search tactics as the semester progressed, which is consistent with fewer query reformulations, and tendency to dwell more on content pages.
@@ -621,12 +627,10 @@ In contrast, a participant in the high group responded:
 >
 > `r nbQuoteAuthor('--- P015_LIMA')`
 
-<!-- [ -------- nbrevision001 --------]{color="red"} -->
-
-
 The participant from the low group expressed a lack of a specific plan before starting the project or the search process. They mentioned their approach of finding sources and altering their research question if they did not find anything relevant. This suggests a more exploratory and adaptive approach to the search process, aligning with the higher entropy observed in the quantitative analysis.
 In contrast, the participant from the high group described a clear plan and a goal-oriented mindset before starting the search process. They emphasized the importance of having a main goal and using it as a reference point to guide their search process efficiently. This aligns with the lower entropy observed in the high group and suggests a more focused and directed approach to information searching.
 
+<!-- [ -------- nbrevision001 --------]{color="red"} -->
 
 Overall, these quantitative results from the entropy analyses, combined with the qualitative responses from the participants, provide further support and insights into the differences in search tactics and planning approaches of the high and low groups.
 <!-- Overall, these quantitative and qualitative differences in how the two groups approached the research project suggest that the low group was more uncertain and exploratory in their search tactics, while the high group was more focused and efficient. -->
