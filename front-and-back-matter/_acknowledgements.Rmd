@@ -1,13 +1,17 @@
+It takes a village to raise a child.
+It is impossible to even begin to properly thank all the amazing people who have impacted my PhD journey over the last incredible half a decade of doctoral experience.
+I was extremely lucky to have my Academic Village spread across five continents: Asia, Europe, North America, South America, and Australia; and fifty-three people from all over the world attended my doctoral dissertation defense, which was conducted online on Thursday, 11 May 2023, at 9AM US-Central Time.
+
 This section will be fleshed out in more detail after the initial submission. For now, I wish to thank the following people :
 
-PhD Committee Members: Professors 
+**PhD Committee Members: Professors **
 
 - Jacek Gwizdka (chair)
 - Soo Young Rieh
 - Matt Lease
 - Rob Capra (UNC Chapel Hill, USA)
 
-Mentors from CHIIR 2021 Doctoral Colloquium: Professors 
+**Mentors from CHIIR 2021 Doctoral Colloquium: Professors **
 
 - Pertti Vakkari (Tampere Univerisity, Finland)
 - Ian Ruthven (University of Strathclyde, UK)
@@ -16,12 +20,47 @@ Mentors from CHIIR 2021 Doctoral Colloquium: Professors
 
 <!-- 
 
+TBD.
+
+
+Similar to David Maxwell's thesis (https://www.dmax.scot).
+
+
+
+This section will be fleshed out in more detail after the initial committee-submission on Feb 27, 2023. 
+For now, I wish to thank the following people and organizations (in no particular order):
+
+- Jacek Gwizdka
+- Soo Young Rieh + Funding
+- Committee Members
+- HEB
+- Finland people
+- Slovenia People
+- Germany People
+  - Anke, Xiaofei, Michael, Hema, Himanshu, Ambika, Hardik...
+- India People
+- UK People
+- USA People
+- HCI4SouthAsia People
+- ASIST People
+- CHIIR People + Conferences
+- UT Graduate School Funding
+- SALPilot Study People
+- I303 People
+- DAAD
+- ABB
+- iSchool Doc Colleagues
+- Labmates, Officemates
+- LinkedIn people
+- Twitter people:
+  - Jason Baldridge
+
+
 A living (and breathing) version of this acknlwoedgement page is available at the online website for my thesis: 
 
 https://nilavra.github.io/phd
 
-It takes a village to raise a child. It is impossible to even begin to properly thank all those who helped me along these incredible half a decade of doctoral experience.
-I was extremely lucky to have my village spread across five continents: asia, europe, north america, south america, and Australia.
+
 
 For now, I wish to thank the following people and organisations (in no particular order):
 

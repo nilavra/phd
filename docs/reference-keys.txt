@@ -152,4 +152,3 @@ app-qsnr-mai
 app-phase13
 app-phase13-pretask
 app-phase13-posttask
-sec-app-ack
