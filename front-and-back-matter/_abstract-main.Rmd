@@ -2,15 +2,15 @@ Learning today comprises navigation, discernment, induction, and synthesis of th
 Learning, or addressing a gap in one’s knowledge, has been well established as an important motivator behind information-seeking activities.
 The Search as Learning research community advocates that online information search systems should be reconfigured to become educational platforms to foster learning and *sensemaking*.
 Modern search systems have yet to adapt to support this function. 
-An important step to foster learning during online search is to identify behavioural patterns that distinguish searchers gaining more vs. less knowledge during search.
+An important step to foster learning during online search is identifying behavioural patterns that distinguish searchers gaining more vs. less knowledge during search.
 Previous efforts have primarily studied searchers in the short term, typically during a single lab session.
 Researchers have expressed concerns over this ephemeral approach, as learning takes place over time, and is not fleeting.
 In this dissertation, an exploratory longitudinal study was conducted to observe the long-term searching behaviour of students enrolled in a university course, over the span of a semester.
-Our research aims were to identify if and how students’ searching behaviour changes over time, as they gain new knowledge on a subject; and how do individual traits such as motivation, metacognition, self-regulation, and other individual differences moderate their searching as learning behaviour.
-We found that differences in these traits do create observable and quantifiable differences in information searching as a learning activity.
-Students with higher levels of these traits were more effective and efficient in their search behaviours, reported better levels of learning and search outcomes, and obtained better grades.
-We posit that learning environments should be designed to foster the effective use of metacognitive strategies to help learners develop and apply productive self-regulated learning. 
-Moreover, learning technologies can be used to induce, track, model, and support learners’ metacognition across tasks, domains, and contexts. 
+Our research aims were to identify if and how students’ searching behaviour changes over time, as they gain new knowledge on a subject; and how individual traits such as motivation, metacognition, self-regulation, and other individual differences moderate their searching as learning behaviour.
+We found that differences in these traits create observable and quantifiable differences in information searching as a learning activity.
+Students with higher levels of metacognition, self-regulation, and motivation were more effective and efficient in their search behaviours, reported better learning and search outcomes, and obtained better grades.
+We posit that learning environments should be designed to foster the effective use of metacognitive strategies to help learners develop and apply productive self-regulated learning.
+Moreover, learning technologies can be used to induce, track, model, and support learners’ metacognition across tasks, domains, and contexts.
 The study recommends that understanding the complex relationship between motivation and metacognition is essential to designing effective searching as learning environments.
 Findings from this exploratory longitudinal study will help to build improved search systems that foster human learning and sensemaking, which are more equitable in the face of learner diversity.
 <!-- The study concludes that metacognition plays a crucial role in information searching as a learning activity.  -->
