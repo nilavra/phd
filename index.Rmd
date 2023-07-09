@@ -24,13 +24,14 @@ author: Nilavra Bhattacharya
 author-second-language: নীলাভ্র ভট্টাচার্য্য
 description: Welcome to the eBook version of Nilavra Bhattacharya's PhD Dissertation. This website disseminates my PhD research in a format that is more user-friendly and accessible than a 150-page, double-spaced PDF file.
 supervisor: Jacek Gwizdka
-supervisor-second-language: "সুপারভাইজার: ইয়াৎসেক গুইজদকা"
+supervisor-second-language: "অধীক্ষক: ডঃ ইয়াৎসেক গুইজদকা"
 committee-member-2: Soo Young Rieh
 committee-member-3: Matthew Lease
 committee-member-4: Robert Capra
 document-type: Dissertation # Dissertation / Treatise / Thesis / Report
 degree: Doctor of Philosophy
 degree-suffix: PhD
+degree-suffix-second-language: পিএইচডি
 department: Faculty of the Graduate School
 university: The University of Texas at Austin
 university-second-language: টেক্সাস বিশ্ববিদ্যালয়, অস্টিন, মার্কিন যুক্তরাষ্ট্র
