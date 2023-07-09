@@ -17,6 +17,9 @@ This section will be fleshed out in more detail after the initial submission. Fo
 - Ian Ruthven (University of Strathclyde, UK)
 - Gerd Berget (Oslo Metropolitan University, Norway)
 
+CHI + Bengali
+Rifat
+Asif
 
 <!-- 
 
