@@ -11,7 +11,7 @@ This section will be fleshed out in more detail after the initial submission. Fo
 - Matt Lease
 - Rob Capra (UNC Chapel Hill, USA)
 
-**Mentors from CHIIR 2021 Doctoral Colloquium: Professors **
+**Mentors from CHIIR 2021 Doctoral Colloquium: Professors**
 
 - Pertti Vakkari (Tampere Univerisity, Finland)
 - Ian Ruthven (University of Strathclyde, UK)
@@ -19,7 +19,20 @@ This section will be fleshed out in more detail after the initial submission. Fo
 
 CHI + Bengali
 Rifat
-Asif
+
+**HCI4SA:** HCI4South Asia
+
+**Finland:** Tampere, Turku, Oulu
+
+**Germany:** 
+Anke Storch, ABB, Wiebke
+
+**USA:**
+Labmates, iSchool, TXB, Mayank, Terry Dykstra, Parastoo, 
+Bengalis: BE-Desh, South End, Enakshi Roy
+
+**Brazil:**
+Giovana and family, Filipe, Mateus, ...
 
 <!-- 
 
@@ -84,6 +97,10 @@ For now, I wish to thank the following people and organisations (in no particula
 - SALPilot Study
 - I303 People
 
+-->
+
+
+<!-- 
 
 Original template:
 
@@ -99,4 +116,6 @@ Finally, profuse thanks to JJ Allaire, the founder and CEO of [RStudio](http://r
 Ulrik Lyngs \\
 Linacre College, Oxford \\
 2 December 2018
-\end{flushright} -->
+\end{flushright} 
+
+-->
