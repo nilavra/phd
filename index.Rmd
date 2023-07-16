@@ -48,7 +48,7 @@ date-after-submission: "`r format(Sys.time(), '%Y-%m-%d %H:%M:%S')` CST"
 
 
 acknowledgements: |
-  `r paste(readLines("front-and-back-matter/_acknowledgements.Rmd"), collapse = '\n  ')`
+  `r paste(readLines("front-and-back-matter/_acknowledgements.Rmd"), collapse = "\n  ")`
 show-acknowledgements-in-toc: false
 abstract-heading: "Abstract"
 abstract: |
