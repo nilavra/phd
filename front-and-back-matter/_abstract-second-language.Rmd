@@ -25,8 +25,8 @@
 
 
 
-(বাংলা অনুবাদে সাহায্যের জন্য বিশেষ কৃতজ্ঞতা স্বীকার: রিফাত রহমান, শুচিস্মিতা ঘোষ, সাগ্নিকা দাস, ডঃ সৌরভ সিকদার, তিতিক্ষা সরকার, ও তপতী সরকার।
-Special thanks for help and guidance with the Bengali translation: Rifat Rahman, Suchismita Ghosh, Sagnika Das, Dr. Sourav Sikdar, Titiksha Sarkar, and Tapati Sarkar.)
+(Special thanks go to Rifat Rahman, Suchismita Ghosh, Sagnika Das, Dr. Sourav Sikdar, Titiksha Sarkar, and Tapati Sarkar, for reviewing the Bengali version of the abstract.
+বাংলা অনুবাদে সাহায্যের জন্য বিশেষ কৃতজ্ঞতা স্বীকার: রিফাত রহমান, শুচিস্মিতা ঘোষ, সাগ্নিকা দাস, ডঃ সৌরভ সিকদার, তিতিক্ষা সরকার, ও তপতী সরকার।)
 
 
 

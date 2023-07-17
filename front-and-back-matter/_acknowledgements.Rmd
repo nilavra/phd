@@ -2,9 +2,28 @@ It takes a village to raise a child.
 It is impossible to even begin to properly acknowledge all the amazing people who have impacted my PhD journey in the last half a decade of doctoral experience.
 I was extremely lucky to have my Academic Village spread across five continents: Asia, Europe, North America, South America, and Australia; and fifty-three people from all over the world attended my doctoral dissertation defense, which was conducted online on Thursday, 11 May 2023, at 9AM US-Central Time.
 
-I would like to take this opportunity to express my gratitude to these various groups of fantastic people who have supported me throughout this incredible journey. Without your encouragement, humor, and frequent supply of food, completing this PhD would have been a far more arduous task. So, from the depths of my caffeine-fueled soul, thank you!
+I would like to take this opportunity to express my gratitude to these groups of fantastic people who have supported me throughout this incredible journey. Without your encouragement, humour, and frequent supply of food, completing this PhD would have been a far more arduous task. So, from the depths of my cola-zero and Tacos-de-pescado fueled soul, thank you!
 
 
+<!-- ----------- ack-jacek ----------- -->
+```{=latex}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.85\linewidth]{figs/ack-jacek.png}
+\caption*{My adventures with Jacek over the years, across Europe and North America.}
+\end{figure}
+```
+
+<!-- (a) Dinner at CHIIR 2019, Glasgow, UK, with Tessel Bogaard (CWI, Netherlands) and Carla Teixeira Lopes (University of Porto, Portugal). 
+  (b) IX Lab day out at Mozart's Coffee Roasters, Autin, TX, with Li Shi, Yung-Sheng Chang, and Yao-Cheng Chan.
+  (c) Prepping for CHIIR 2023 at the Texas iSchool, with Yujin Choi, Catherine Chavula, and Soo Young Rieh.
+  (d) Breakfast at NeuroIS Retreat 2023, Vienna, Austria.
+  (e, f) Dinner at Frankfurt-am-Main, Germany, after NeuroIS 2023.
+  (g) Poster presentation at CHI 2023 in Hamburg, Germany.
+  (h) Dinner at ASIS\&T 2023 in Pittsburgh, USA, with Heather O'Brien (University of British Columbia, Canada), Soo Young Rieh, and Irene Lopatovska (Pratt Institute, New York, USA).
+  (i) Closing ceremony og CHI 2023, Hamburg, Germany.
+  (j) Jacek and Soo during opening ceremony of CHIIR 2023 in Austin, TX, USA.
+  (k) Jacek, Soo, and me holding our awards during ASIS\&T 2023 Awards session (Pittsburgh, USA). -->
 
 **Doctoral advisor, Prof. Jacek Gwizdka:** I have been fortunate enough to encounter a supernova of guidance and support in the form of the most awesome PhD advisor in the world. Words alone cannot capture the depth of my gratitude, but I will attempt to express my heartfelt appreciation nonetheless.
 To my incredible PhD advisor, Jacek, you have been more than just a mentor. 
@@ -13,6 +32,7 @@ You possess the unique ability to challenge and inspire, to encourage and motiva
 It is your genuine care for your students that sets you apart. You have created an environment where intellectual growth thrives, where curiosity is nurtured, and where laughter is not only welcomed but encouraged. Your open-door policy and willingness to listen, not just to academic concerns but also to personal struggles, have provided solace during the challenging times of this journey. 
 Your mentorship extends far beyond the realm of research, shaping me not only as a scholar but also as a compassionate human being.
 Thank you for the numerous lunches and dinners around the world: Warsaw, Glasgow, Vienna, Frankfurt, Austin, Pittsburgh, and hope to keep it counting in the years to come.
+
 
 
 
@@ -53,6 +73,16 @@ From the greater UT community, thank you, Elizabeth Korves, for managing the UT 
 
 
 
+<!-- ----------- ack-friends ----------- -->
+```{=latex}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.85\linewidth]{figs/ack-friends.png}
+\caption*{A PhD from The University of Texas at Austin enabled me to build a community of friends and mentors around the globe.}
+\end{figure}
+```
+
+
 **Friends in Austin:**
 To my friends in the weird and wonderful city of Austin, you've been my pillars of sanity in this whirlwind of academia. From rooftop BBQs to impromptu kayaking adventures, you've reminded me that life exists beyond the confines of research.
 Thank you to my flatmates, recently-Dr. Naman Katyal, and soon-to-be Drs. Anubrata Das and Atreya Dey, for sharing the doctoral journey with me.
@@ -61,6 +91,7 @@ Thank you, Texas Ballroom, for teaching me the basics of how to dance, and provi
 Thank you, Terry Dykstra, and the RUF community, for the numerous get-togethers and good food!
 Through these get-togethers, I got to meet some amazing friends: Parastoo Maleki, Filipe Morais, and Mila Seppälä.
 Special thanks to HEB for being the most awesome grocery store chain in the world. From your freshly-made tortiallas, to the heaps of green cilantro and suprt hot chile serrano, and the impressive Mexican / Indian food collection, I never felt far from home while shopping inside any of your stores. Y'all are the true MVPs!
+
 
 
 <!-- Whether it was engaging in thought-provoking discussions or indulging in late-night philosophical debates at the local pizza joint, you've been an integral part of my academic growth. Hook 'em! -->
@@ -91,7 +122,7 @@ To my international friends and mentors, you've brought the world to my doorstep
 From India, thank you, Dr. Swalpa Kumar Roy, for helping me start this incredible PhD journey, by giving me the much-needed research mentoring and guidance from my undergrad days, helping me find champion letter writers, and overall support in this incredible journey.
 Your support has opened doors and created opportunities that have brought me closer to my academic dreams. 
 
-Thank you, my esteemed recommendation letter writers: Professor Bidyut Baran Chaudhuri, Professor Soumitro Banerjee, and Professor Manah Hira, for taking the time and effort to write recommendation letters in support of my grad school applications.
+Thank you, my esteemed **recommendation letter writers**: Professor Bidyut Baran Chaudhuri, Professor Soumitro Banerjee, and Professor Manah Hira, for taking the time and effort to write recommendation letters in support of my grad school applications.
 I recognize the thoughtfulness and care you put into crafting each recommendation, tailoring them to specific programs, and showcasing how I would be a strong fit for their academic community.
 Your words of endorsement, mentorship, and unwavering support have played a significant role in shaping my academic trajectory. 
 
@@ -99,18 +130,18 @@ Your words of endorsement, mentorship, and unwavering support have played a sign
 Thank you, Anke Storch, for being like a mother to me, teaching me camping, and showing me around the wonderful city of Berlin, Germany.
 Thank you, soon-to-be Dr. Debjani Bhattacharya, for always inviting me to your wonderful home, wherever you are in Europe, be it in Belgium or in Munich.
 
-Thank you to my second family in Ljubljana, Slovenia: soon-to-be Dr. Galena Jordanova, soon-to-be Dr. Maja Kuhar (fingers crossed!), Nata\v{s}a Poljan\v{s}ek, longtime-Dr. Tina Peternel (way ahead of us in the game), Ga\v{s}per Debevec, and Matija Zupan, for your warmest and friendliest hospitality whenever I visited Ljubljana.
+Thank you to my second family in **Slovenia**: soon-to-be Dr. Galena Jordanova, soon-to-be Dr. Maja Kuhar (fingers crossed!), Nata\v{s}a Poljan\v{s}ek, longtime-Dr. Tina Peternel (way ahead of us in the game), Ga\v{s}per Debevec, and Matija Zupan, for your warmest and friendliest hospitality whenever I visited Ljubljana.
 Galena, Maja, and Nata\v{s}a, whether it was sharing hilarious memes, engaging in thought-provoking conversations, or simply checking in to see how I was doing, your virtual presence always brought warmth and a sense of connection to my daily life.
 I cannot wait to meet all of y'all again and again for more awesome adventures.
 
-Thank you to the amazing people in Germany and Switzerland.
+Thank you to the amazing people in **Germany and Switzerland**.
 Thank you, Michael Barz, for inviting me to the DFKI (German Centre for Artificial Intelligence) meetup party in Saarbrücken, Germany.
 Thank you, Arpan Sen, and soon-to-be Dr. Shrestha Ghosh, for showing me around the beautiful city of Saarbrücken.
 Thank you, Tobias Margiani, for showing me around beautiful Zurich, Switzerland, and the impressive ETH Zurich Campus.
 Thank you, Meghranjana Chatterjee for hosting me in Bern, Switzerland, showing me the beautiful University of Bern campus, and the River swimming in the Aare.
 Thank you, Louis, for giving me opportunity to drive from Bern to Interlaken, and showing me around the gorgeous twin lakes, and the breathtaking Harder Kulm.
 
-A big shoutout to my amazing team of friends from Brazil, for whom I was able to visit the southern-hemisphere for the first time in my life in 2021. Thank you soon-to-be Dr. Giovana Casteluci, and your warm and caring family; for graciously hosting me in your wonderful home in São José do Rio Preto, Brazil during Christmas 2021.
+A big shoutout to my amazing team of friends from **Brazil**, for whom I was able to visit the southern-hemisphere for the first time in my life in 2021. Thank you soon-to-be Dr. Giovana Casteluci, and your warm and caring family; for graciously hosting me in your wonderful home in São José do Rio Preto, Brazil during Christmas 2021.
 Thank you to all the other amazing friends I made in São José do Rio Preto: Mateus Fernandez, Junio Martins, Joel Stivali, Denilson Tavante, and once again, Filipe Morais, whom I met in Austin. All of you made my Brazil trip immensely memorable, and I cannot wait to visit all of you again in Brazil.
 
 
@@ -141,7 +172,14 @@ Your unconditional love and unwavering faith have been the bedrock of my success
 In conclusion, this dissertation is not just the product of my solitary efforts, but a testament to the collective support, laughter, and encouragement of an amazing network of people. Thank you all for being a part of this unforgettable journey.
 
 
-
+<!-- ----------- ack-final ----------- -->
+```{=latex}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.9\linewidth]{figs/ack-final.jpg}
+\caption*{Last get-together with the UT community in Austin, TX. What starts here changes the world!}
+\end{figure}
+```
 
 ---
 
@@ -150,7 +188,6 @@ This acknowledgement section is greatly inspired by the PhD thesis of Dr. David 
 In his thesis, David did a fantastic job of storytelling his entire PhD journey, replete with photos, anecdotes, and even writing the names of all those who inspired him in their native language alphabets!
 David's thesis is as a shining example of how acknowledgements can go beyond a mere list of names and become a heartfelt narrative that honours the individuals who played a significant role in the journey of research and personal growth. 
 David Maxwell's PhD thesis is available at https://theses.gla.ac.uk/41132.
-
 
 
 
