@@ -269,7 +269,7 @@
 \setlength{\parskip}{2pt plus 1pt}
 
 %
-% Customise title page
+% UT title page
 %
 \def\crest{}
 \renewcommand{\university}{The University of Texas at Austin}
@@ -302,16 +302,33 @@
 
 % JEM: Pages are roman numbered from here, though page numbers are invisible until ToC.  This is in
 % keeping with most typesetting conventions.
-\begin{romanpages}
+% \begin{romanpages}
 
 % Title page is created here
 % original code:
 % \maketitle
 
-% --------- start: UTexas Frontmatter (committee membership, title page) -------
+% --------- start: UTexas Frontmatter (copyright, committee membership, title page) -------
+
+% ~~~~ copyright page ~~~~
+\thispagestyle{plain} % plain page numbers
+\begin{center}
+  \vspace*{150pt}
+  \begin{spacing}{1.5}
+    \textbf{\large{
+      Copyright\\
+      by\\
+      Nilavra Bhattacharya\\
+      2023\\
+    }}
+  \end{spacing}
+  
+\end{center}
+
 
 % ~~~~ committee membership page ~~~~
-\thispagestyle{empty} % to not show roman page numbers
+\newpage
+\thispagestyle{plain} % plain page numbers
 \begin{center}
   The Dissertation Committee for Nilavra Bhattacharya\\
   certifies that this is the approved version of the following Dissertation:\\
@@ -339,7 +356,7 @@
 
 % ~~~~ title page ~~~~
 \newpage
-\thispagestyle{empty} % to not show roman page numbers
+\thispagestyle{plain} % plain page numbers
 \begin{center}
   
   \begin{spacing}{2}
@@ -536,6 +553,7 @@
 
 
 % --------- start: UTexas abstract -------
+\thispagestyle{plain} % plain page numbers
 \begin{center}
   \textbf{Abstract}\\
   
@@ -586,6 +604,7 @@
 
 % --------- start: UTexas abstract 2nd language -------
 \newpage
+\thispagestyle{plain} % plain page numbers
 \begin{center}
   \textbf{\secondlanguage{সারসংক্ষেপ} (Abstract in Bengali)}\\
   
@@ -668,7 +687,7 @@
 % glossary, etc.
 
 % The Roman pages, like the Roman Empire, must come to its inevitable close.
-\end{romanpages}
+% \end{romanpages}
 
 %%%%% CHAPTERS
 % Add or remove any chapters you'd like here, by file name (excluding '.tex'):

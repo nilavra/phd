@@ -180,7 +180,7 @@
        \else\if@openright\cleardoublepage\else\clearpage\fi
        \fi}%
        {\if@restonecol\twocolumn
-       \else\newpage\thispagestyle{empty}\fi}
+       \else\newpage\thispagestyle{plain}\fi}
 
 
 %define title page layout
@@ -193,7 +193,7 @@
 \begin{alwayssingle}\null
     \renewcommand{\footnotesize}{\small}
     \renewcommand{\footnoterule}{\relax}
-    \thispagestyle{empty}
+    \thispagestyle{plain}
 \ifmasterssubmission
   \begin{center}
   \vspace*{-3ex}
@@ -240,7 +240,7 @@
 
 \newenvironment{dedication}
 {\begin{alwayssingle}
-  \thispagestyle{empty}
+  \thispagestyle{plain}
   \vspace*{\fill} \begin{center}}
 {\end{center}\vspace*{\fill}\vspace*{\fill} \end{alwayssingle}}
 
@@ -252,7 +252,7 @@
 % themselves appear in a quote environment, i.e. tabbed in at both sides, and
 % on its own page.
 
-\newcommand{\numberstyleacks}{empty}
+\newcommand{\numberstyleacks}{plain}
 \newenvironment{acknowledgements}%
 { \begin{alwayssingle}\chapter*{Acknowledgements}
   \thispagestyle{\numberstyleacks}
@@ -269,7 +269,7 @@
 %i.e. tabbed in at both sides, and on its own page.
 
 \newcommand{\abstracttitle}{Abstract}
-\newcommand{\numberstyleabstract}{empty}
+\newcommand{\numberstyleabstract}{plain}
 \renewenvironment{abstract}%
 {   \begin{alwayssingle}\chapter*{\abstracttitle}
     \thispagestyle{\numberstyleabstract}
@@ -289,7 +289,7 @@
 %The abstractseparate environment is for running of a page with the abstract
 %on including title and author etc as required to be handed in separately
 
-\newenvironment{abstractseparate} {\newgeometry{margin=3.3cm}\thispagestyle{empty}\begin{alwayssingle}
+\newenvironment{abstractseparate} {\newgeometry{margin=3.3cm}\thispagestyle{plain}\begin{alwayssingle}
  \begin{center}
     {\Large \bfseries \@title \par}
 \ifmasterssubmission

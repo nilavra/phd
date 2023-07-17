@@ -341,7 +341,7 @@ $if(degreedate)$\degreedate{$degreedate$}$endif$
 \setlength{\parskip}{2pt plus 1pt}
 
 %
-% Customise title page
+% UT title page
 %
 $if(university-logo)$
 \def\crest{{\includegraphics[width=$university-logo-width$]{$university-logo$}}}
@@ -383,7 +383,7 @@ $endif$
 
 % JEM: Pages are roman numbered from here, though page numbers are invisible until ToC.  This is in
 % keeping with most typesetting conventions.
-\begin{romanpages}
+% \begin{romanpages}
 
 % Title page is created here
 $if(title-page)$
@@ -393,10 +393,27 @@ $else$
 % original code:
 % \maketitle
 
-% --------- start: UTexas Frontmatter (committee membership, title page) -------
+% --------- start: UTexas Frontmatter (copyright, committee membership, title page) -------
+
+% ~~~~ copyright page ~~~~
+\thispagestyle{plain} % plain page numbers
+\begin{center}
+  \vspace*{150pt}
+  \begin{spacing}{1.5}
+    \textbf{\large{
+      Copyright\\
+      by\\
+      $author$\\
+      $degree-year$\\
+    }}
+  \end{spacing}
+  
+\end{center}
+
 
 % ~~~~ committee membership page ~~~~
-\thispagestyle{empty} % to not show roman page numbers
+\newpage
+\thispagestyle{plain} % plain page numbers
 \begin{center}
   The $document-type$ Committee for $author$\\
   certifies that this is the approved version of the following $document-type$:\\
@@ -424,7 +441,7 @@ $else$
 
 % ~~~~ title page ~~~~
 \newpage
-\thispagestyle{empty} % to not show roman page numbers
+\thispagestyle{plain} % plain page numbers
 \begin{center}
   
   \begin{spacing}{2}
@@ -507,6 +524,7 @@ $endif$
 
 
 % --------- start: UTexas abstract -------
+\thispagestyle{plain} % plain page numbers
 \begin{center}
   \textbf{Abstract}\\
   
@@ -543,6 +561,7 @@ $endif$
 
 % --------- start: UTexas abstract 2nd language -------
 \newpage
+\thispagestyle{plain} % plain page numbers
 \begin{center}
   \textbf{\secondlanguage{$abstract-second-language-heading$} (Abstract in $second-language$)}\\
   
@@ -639,7 +658,7 @@ $abbreviations$
 $endif$
 
 % The Roman pages, like the Roman Empire, must come to its inevitable close.
-\end{romanpages}
+% \end{romanpages}
 
 %%%%% CHAPTERS
 % Add or remove any chapters you'd like here, by file name (excluding '.tex'):
