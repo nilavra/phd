@@ -592,7 +592,7 @@ To characterise the entropy of students' search tactics, we used the following s
 In the context of search tactic transitions, a higher value of transition entropy ($H_t$) indicates more randomness and uncertainty in the participant's search behaviour (which is composed of different search tactics, and transitioning or switching between those tactics).
 A lower value of transition entropy indicates that the search behaviour (i.e. tactic switching behaviour) is highly predictable.
 For stationary entropy of search tactics ($H_s$), a higher value indicates that participants utilize all the search tactics with equal probability, while a lower value suggests that certain search tactics are favoured over others.
-Figure \@ref(fig:rp2-tactic-entropy) describes the trends in this values over the duration of the semester.
+Figure \@ref(fig:rp2-tactic-entropy) describes the trends in these values over the duration of the semester.
 <!-- all search tactics are used uniformly, whereas a lower value indicates that some search tactics are more preferred over others. 
 The entropies discussed in the following sections were normalized by their theoretical maximums, for equivalent comparison across different conditions. 
 -->
